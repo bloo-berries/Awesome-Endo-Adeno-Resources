@@ -210,7 +210,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - Americas and Carribean:
   - [Worldwide Endometriosis March](https://endomarch.org/)
     - Largest, internationally-coordinated endometriosis coalition in the world
-  - [The Endometriosis Coalition](www.theendo.co)
+  - [The Endometriosis Coalition](https://www.theendo.co/)
+    - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
   - [Endometriosis Canada](https://www.facebook.com/EndoOrgCanada/)
   - [Endometriosis Trinidad & Tobago](https://www.endott.org/)
 - Africa:
