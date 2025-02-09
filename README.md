@@ -195,8 +195,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - [Fortuna Health](https://www.fortunahealth.com/)
   - Medicaid eligibility checker, enrollment, and care renewal
-- [Endo Financial Aid](https://www.endofinancialaid.org/)
-  - Provides grants and financial assistance for endometriosis and adenomyosis treatments
 - [Laparoscopy Assistance Fund](https://www.laparoscopyfund.org/)
   - Offers financial support for individuals undergoing abdominal laparoscopies
 - [Endo Relief Fund](https://www.endorelieffund.org/)
