@@ -53,7 +53,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - [LasaHealth](https://www.lasahealth.com/)
   - Uses electronic health records to identify undiagnosed chronic pelvic pain patients using AI/machine learning algorithms
-- [Clue]([https://www.endohealth.com/](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue))
+- [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue)
   - Endometriosis symptom tracker
 - [Qvin](https://qvin.com/)
   - Turn your monthly menstrual blood into lab reports and access personalized health data
