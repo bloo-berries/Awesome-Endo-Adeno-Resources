@@ -242,8 +242,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Advocacy, funding, education
   - [Endometriosis New Zealand](https://nzendo.org.nz/)
     - Provides support, education, and advocacy for those affected by endometriosis in New Zealand
-  - [Endometriosis Association (Singapore)](https://www.endometriosis.org.sg/)
-    - Offers support and resources for individuals with endometriosis in Singapore
+  - [Centre for Endometriosis & Fibroids (Singapore)](https://endofibroid.com.sg/)
+    - Offers support and resources for individuals with endometriosis, fibroids and Adenomyosis in Singapore
   - [Endometriosis Hong Kong](https://www.endometriosis.org.hk/)
     - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong
   - [Endometriosis India](https://www.endometriosisindia.com/)
