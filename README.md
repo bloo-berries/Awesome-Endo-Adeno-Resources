@@ -53,8 +53,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - [LasaHealth](https://www.lasahealth.com/)
   - Uses electronic health records to identify undiagnosed chronic pelvic pain patients using AI/machine learning algorithms
-- [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue)
-  - Endometriosis symptom tracker
 - [Qvin](https://qvin.com/)
   - Turn your monthly menstrual blood into lab reports and access personalized health data
 - [Hertility Health](https://hertilityhealth.com/)
@@ -62,9 +60,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Joii](https://joiicare.com/)
   - Advancing menstrual and gynaecological health research
 
-## Medical Data Tools and Mangers
+## Medical Data Tools, Trackers, and Mangers
 
-- Genetic Data Testing:
+- Genetic Data Testing
   - [Invitae](https://www.invitae.com/)
     - Whole genome sequencing
   - [EndoGenomics](https://www.endogenomics.com/)
@@ -74,6 +72,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Genomes.io provides a private and secure DNA data vault
   - [Nebula Genomics](https://nebula.org/)
     - Nebula Genomics offers secure storage and analysis of whole genome sequencing data
+- Trackers
+  - [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue)
+      - Endometriosis symptom tracker
 
 ## Automated Tooling for Self-Research
 
