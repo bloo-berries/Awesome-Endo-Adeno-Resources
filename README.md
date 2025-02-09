@@ -200,10 +200,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - [Endo Black](https://endoblack.org/)
   - Black-women-led nonprofit organization advocating for and educating Black women living with and impacted by endometriosis
-- [Transgender Endo Support](https://www.transendo.org/)
-  - Provides resources and support for transgender and non-binary individuals with endometriosis
-- [Endo Queer](https://www.endoqueer.org/)
-  - Focuses on the LGBTQ+ community, offering support and advocacy for those with endometriosis
+- [Transgender Endo Support](https://helloclue.com/articles/cycle-a-z/managing-endometriosis-when-you're-trans)
+  - Provides resources and support for transgender and non-binary people with endometriosis
 - [FOLX Health](https://www.folxhealth.com/)
   - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
 - [Endo Poverty Initiative](https://www.endopoverty.org/)
