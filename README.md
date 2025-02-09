@@ -204,16 +204,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Provides resources and support for transgender and non-binary people with endometriosis
 - [FOLX Health](https://www.folxhealth.com/)
   - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
-- [Endo Poverty Initiative](https://www.endopoverty.org/)
-  - Aims to support individuals from low-income backgrounds who are affected by endometriosis
-- [Endo Latinx](https://www.endolatinx.org/)
-  - Dedicated to raising awareness and providing support for the Latinx community with endometriosis
-- [Endo Asian Network](https://www.endoasian.org/)
-  - Focuses on the unique challenges faced by Asian individuals with endometriosis
-- [Indigenous Endo Support](https://www.indigenousendo.org/)
-  - Provides advocacy and resources for Indigenous communities affected by endometriosis
-- [Endo Disability Alliance](https://www.endodisability.org/)
-  - Supports individuals with disabilities who also have endometriosis
 
 ### Regional
 
