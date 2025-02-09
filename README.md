@@ -197,10 +197,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Medicaid eligibility checker, enrollment, and care renewal
 - [Laparoscopy Assistance Fund](https://www.laparoscopyfund.org/)
   - Offers financial support for individuals undergoing abdominal laparoscopies
-- [Endo Relief Fund](https://www.endorelieffund.org/)
-  - Financial aid for endometriosis-related surgeries and treatments
-- [Adenomyosis Support Fund](https://www.adenomyosissupportfund.org/)
-  - Grants and financial assistance for adenomyosis treatments and surgeries
 
 ## Advocacy Groups
 
