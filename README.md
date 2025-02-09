@@ -46,8 +46,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Connecting as many Endo patients to the right [experts](https://icarebetter.com/endometriosis-specialist/) as early as possible
 - [Nancy's Nook](https://nancysnookendo.com/)
   - Endometriosis library compiler
-- [Excision Surgeons](https://excision-surgeons.com/)
-  - Directory of surgeons who perform excision surgery for endometriosis
 - [AdenoHope](https://adenohope.org/)
   - Resources and support for those with Adenomyosis, including a list of vetted healthcare providers
 - [EndoExcision](https://endoexcision.com/)
