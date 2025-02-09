@@ -80,6 +80,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
+-[Scanvio](https://www.scanvio.com/)
+  - Faster endometriosis diagnosis with our AI-augmented ultrasound software
 - [IMAGEENDO](https://imagendo.org.au/about/)
   - Reducing the diagnostic delay of endometriosis through imaging
 - [Perplexity.ai](https://www.perplexity.ai/)
