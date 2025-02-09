@@ -78,8 +78,10 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue)
       - Endometriosis symptom tracker
 
-## Automated Tooling for Self-Research
+## AI-Enabled Platforms and Ongoing Studies for Research
 
+- [IMAGEENDO](https://imagendo.org.au/about/)
+  - Reducing the diagnostic delay of endometriosis through imaging
 - [Perplexity.ai](https://www.perplexity.ai/)
   - Perplexity AI is a conversational search engine that uses large language models (LLMs) to answer queries
 
