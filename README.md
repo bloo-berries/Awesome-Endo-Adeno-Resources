@@ -212,7 +212,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Largest, internationally-coordinated endometriosis coalition in the world
   - [The Endometriosis Coalition](https://www.theendo.co/)
     - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
-  - [Endometriosis Canada](https://www.facebook.com/EndoOrgCanada/)
+  - [Endometriosis Canada EEOC](https://www.facebook.com/EndoOrgCanada/)
+    - The EEOC is a non-profit organization based out of British Columbia, Canada that focuses on furthering Endometriosis Research 
   - [Endometriosis Trinidad & Tobago](https://www.endott.org/)
 - Africa:
   - East Africa:
