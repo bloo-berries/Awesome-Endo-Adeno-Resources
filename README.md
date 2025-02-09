@@ -59,8 +59,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Turn your monthly menstrual blood into lab reports and access personalized health data
 - [Hertility Health](https://hertilityhealth.com/)
   - Provides comprehensive reproductive health testing and insights
-- [EndoTracker](https://endotracker.com/)
-  - Period tracking app
 - [EndoCycle](https://endocycle.com/)
   - Period tracking app
 - [Joii](https://joiicare.com/)
