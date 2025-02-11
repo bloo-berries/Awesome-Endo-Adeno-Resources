@@ -132,6 +132,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Non-Surgical
 
+Latest Advancements in Non-Surgical Diagnostic Tests for Endometriosis
 <img width="697" alt="EndoComparisonChart" src="https://github.com/user-attachments/assets/cc00d961-ac10-4f5b-8630-8594358ed4a5" />
 
 #### Supplements; Therapies; Etc
