@@ -1,4 +1,4 @@
-# endo-adeno-resources
+<img width="705" alt="Screenshot 2025-02-11 at 7 13 16 PM" src="https://github.com/user-attachments/assets/f5d09ed5-54cf-435f-8ba7-e15994495d27" /># endo-adeno-resources
 
 Resources and tools for navigating Endometriosis and Adenomyosis
 
@@ -131,6 +131,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - "Myomectomy involves the surgical removal of fibroids from the uterus and can be an option for women with adenomyosis who wish to preserve their fertility."
 
 ### Non-Surgical
+
+<img width="697" alt="EndoComparisonChart" src="https://github.com/user-attachments/assets/cc00d961-ac10-4f5b-8630-8594358ed4a5" />
 
 #### Supplements; Therapies; Etc
 
