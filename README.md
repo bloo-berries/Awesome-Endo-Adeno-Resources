@@ -47,13 +47,13 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ## Diagnosis
 - Endometriosis
   - Current Methods:
-    - Laparoscopy remains the gold standard for definitive diagnosis4.
-    - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases34.
-    - New non-invasive blood tests (e.g., PromarkerEndo) have shown promise in detecting protein biomarkers associated with the disease8.
+    - Laparoscopy remains the gold standard for definitive diagnosis.
+    - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases.
+    - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) have shown promise in detecting protein biomarkers associated with the disease.
 - Adenomyosis
   - Current Methods:
-    - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound)57.
-    - Definitive diagnosis requires examination of the uterus post-hysterectomy5.
+    - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
+    - Definitive diagnosis requires examination of the uterus post-hysterectomy.
 
 ## Vetted Physician and Healthcare Providers
 
