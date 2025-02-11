@@ -310,7 +310,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [/r/EndoAwareness](https://www.reddit.com/r/EndoAwareness/)
   - [/r/EndoHealth](https://www.reddit.com/r/EndoHealth/)
   - [/r/EndoGenomics](https://www.reddit.com/r/EndoGenomics/)
-  - [/r/EndoGames](https://www.reddit.com/r/EndoGames/)
   - [/r/EndoGenetics](https://www.reddit.com/r/EndoGenetics/)
   - [/r/EndoResearch](https://www.reddit.com/r/EndoResearch/)
 
