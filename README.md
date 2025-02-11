@@ -187,6 +187,39 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## Potential Co-morbidities
 
+
+
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| Adenomyosis                                      | 80.6%                       | -                         | High                                      | 80.6%                 | High co-occurrence with endometriosis             |
+| Endometriosis                                    | -                           | 91.1%                     | High                                      | 91.1%                 | High co-occurrence with adenomyosis               |
+| Uterine Leiomyoma (Fibroids)                     | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
+| Benign Ovarian Tumors                            | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
+| Polycystic Ovarian Syndrome (PCOS)               | Strong association          | -                         | Moderate                                  | Significant           | More common with endometriosis                    |
+| Anemia                                           | Less prevalent              | More prevalent            | Low in endometriosis, High in adenomyosis | Varies                | Iron deficiency anemia more common in adenomyosis |
+| Hypercholesterolemia                             | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
+| Hyperlipidemia                                   | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
+| Chronic Pelvic Pain                              | Common                      | Common                    | High                                      | Common                | Major symptom in both conditions                  |
+| Infertility                                      | Common                      | Common                    | High                                      | Common                | Can affect fertility in both conditions           |
+| Postural Orthostatic Tachycardia Syndrome (POTS) | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
+| Hypermobile Ehlers Danlos Syndrome (hEDS)        | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
+| Mast Cell Activation Syndrome (MCAS)             | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
+| Interstitial Cystitis                            | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
+| Irritable Bowel Syndrome                         | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
+| Migraine                                         | Common                      | -                         | Moderate                                  | Common                | Associated with endometriosis                     |
+| Anxiety and Depression                           | Common                      | Common                    | High                                      | Common                | Mental health impacts in both conditions          |
+| Fibromyalgia                                     | Common                      | -                         | Moderate                                  | Common                | Contributing to widespread pain                   |
+| Autoimmune Disorders                             | Increased risk              | -                         | Moderate                                  | Increased risk        | Association noted with endometriosis              |
+| Thyroid Disorders                                | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher prevalence of hypothyroidism               |
+| Asthma                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
+| Allergies                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
+| Gastroesophageal Reflux Disease (GERD)           | Common                      | -                         | Moderate                                  | Common                | Frequently observed in endometriosis              |
+| Sciatica                                         | Can occur                   | -                         | Low                                       | Rare                  | Due to nerve compression or inflammation          |
+| Referred Shoulder Pain                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
+
+
+
+
 - [Postural Orthostatic Tachycardia Syndrome (POTS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
   - "The prevalence of POTS in patients with endometriosis is 10% to 20%."
 - [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
