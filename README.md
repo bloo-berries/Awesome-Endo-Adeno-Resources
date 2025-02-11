@@ -222,22 +222,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
       - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
     - [Endometriosis Foundation of Kenya](https://www.facebook.com/Endometriosiskenya/)
       - NGO raising awareness and proving support for those with Endometriosis
-    - [Endo Sisters Tanzania](https://www.facebook.com/endosisterstanzania)
-    - [Endo Sisters Uganda](https://www.facebook.com/endosistersuganda)
-    - [Endo Sisters Rwanda](https://www.facebook.com/endosistersrwanda)
-    - [Endo Sisters Ethiopia](https://www.facebook.com/endosistersethiopia)
   - West Africa:
     - [Endo Sisters West Africa](https://www.facebook.com/endosisterswestafrica)
-    - [Endo Sisters Nigeria](https://www.facebook.com/endosistersnigeria)
-    - [Endo Sisters Ghana](https://www.facebook.com/endosistersghana)
-    - [Endo Sisters Senegal](https://www.facebook.com/endosistersenegal)
-    - [Endo Sisters Ivory Coast](https://www.facebook.com/endosistersivorycoast)
-    - [Endo Sisters Cameroon](https://www.facebook.com/endosisterscameroon)
-    - [Endo Sisters Uganda](https://www.facebook.com/endosistersuganda)
-    - [Endo Sisters Kenya](https://www.facebook.com/endosisterskenya)
-    - [Endo Sisters Tanzania](https://www.facebook.com/endosisterstanzania)
-    - [Endo Sisters Botswana](https://www.facebook.com/endosistersbotswana)
-    - [Endo Sisters Namibia](https://www.facebook.com/endosistersnamibia)
+
 - APAC & Australia/New Zealand:
   - [Endometriosis Australia](https://endometriosisaustralia.org/)
     - Advocacy, funding, education
@@ -295,17 +282,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Comunidad de médicos certificados en Endometriosis en Latinoamérica
   - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
     - Passed a historic, first of its kind, Endometriosis Bill in Colombia
-  - [Endometriosis Association of Chile](https://www.instagram.com/endometriosischile/)
-  - [Endometriosis Association of Peru](https://www.instagram.com/endometriosisperu/)
-  - [Endometriosis Association of Argentina](https://www.instagram.com/endometriosisargentina/)
-  - [Endometriosis Association of Brazil](https://www.instagram.com/endometriosisbrasil/)
-  - [Endometriosis Association of Mexico](https://www.instagram.com/endometriosismexico/)
-  - [Endometriosis Association of Central America](https://www.instagram.com/endometriosiscentroamerica/)
-  - [Endometriosis Association of Venezuela](https://www.instagram.com/endometriosisvenezuela/)
-  - [Endometriosis Association of Ecuador](https://www.instagram.com/endometriosisecuador/)
-  - [Endometriosis Association of Bolivia](https://www.instagram.com/endometriosisbolivia/)
-  - [Endometriosis Association of Paraguay](https://www.instagram.com/endometriosisparaguay/)
-  - [Endometriosis Association of Uruguay](https://www.instagram.com/endometriosisuruguay/)
 
 ## Community Sourced Data and Support
 
