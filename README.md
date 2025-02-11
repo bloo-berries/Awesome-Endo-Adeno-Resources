@@ -315,6 +315,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## Educational Materials
 
+- [Below the Belt]
+  - A film through the lens of endometriosis featuring the personal stories of four patients.
 - [EndoWhat](https://endowhat.com/)
   - A film to provide an accurate base of knowledge about endometriosis straight from the experts.
 - [Endographics](https://www.endographics.org/english)
@@ -334,10 +336,18 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## Medical Research
 
-### Research Organizations
+### Scientific Research & Medical Research Organizations
 
+- [Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/)
+  - Focuses on understanding molecular subtypes of endometriosis/adenomyosis and developing innovative models like "physiomimetics" to study these diseases
+- [ENACT (UCSF-Stanford Endometriosis Center)](https://www.enactcenter.org/)
+  - Conducts multi-omic studies to classify disease phenotypes, identify therapeutic targets, and improve patient outcomes
 - [AthenaDAO](https://www.athenadao.co/about)
   - Funds translational research; On-chain incentives to fund early-stage research and biotech startups; Focus on Fertility
+- [Citizen Endo](https://citizenendo.org/)
+  - A research initiative partnering with patients to better understand and manage endometriosis
+- [Society for Women’s Health Research (SWHR)](https://swhr.org/)
+  - Dedicated to promoting research on biological sex differences in disease and improving women’s health through science, policy, and education.
 - [EndoGames](https://endogames.com/)
   - EndoGames is a community-driven platform for endometriosis research
 - [EndoGenomics: A New Era of Endometriosis Research](https://www.endogenomics.com/endo-genomics-a-new-era-of-endometriosis-research)
