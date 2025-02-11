@@ -196,7 +196,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | Uterine Leiomyoma (Fibroids)                     | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
 | Benign Ovarian Tumors                            | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
 | Polycystic Ovarian Syndrome (PCOS)               | Strong association          | -                         | Moderate                                  | Significant           | More common with endometriosis                    |
-| Anemia                                           | Less prevalent              | More prevalent            | Low in endometriosis, High in adenomyosis | Varies                | Iron deficiency anemia more common in adenomyosis |
+| [Anemia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Less prevalent              | More prevalent            | Low in endometriosis, High in adenomyosis | Varies                | Iron deficiency anemia more common in adenomyosis |
 | Hypercholesterolemia                             | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
 | Hyperlipidemia                                   | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
 | Chronic Pelvic Pain                              | Common                      | Common                    | High                                      | Common                | Major symptom in both conditions                  |
@@ -231,9 +231,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Chronic Fatigue Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
 - [Interstitial Cystitis](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
 - [Irritable Bowel Disease](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-- [Migraine](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-- [Anxiety](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-- [Depression](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
 - [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
   - "Fibromyalgia is often reported in patients with endometriosis, contributing to widespread pain."
 - [Autoimmune Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
