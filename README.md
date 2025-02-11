@@ -1,4 +1,4 @@
-<img width="705" alt="Screenshot 2025-02-11 at 7 13 16 PM" src="https://github.com/user-attachments/assets/f5d09ed5-54cf-435f-8ba7-e15994495d27" /># endo-adeno-resources
+# endo-adeno-resources
 
 Resources and tools for navigating Endometriosis and Adenomyosis
 
