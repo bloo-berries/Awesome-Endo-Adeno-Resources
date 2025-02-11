@@ -134,7 +134,17 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - Latest Advancements in Non-Surgical Diagnostic Tests for Endometriosis
 
-<img width="697" alt="EndoComparisonChart" src="https://github.com/user-attachments/assets/cc00d961-ac10-4f5b-8630-8594358ed4a5" />
+
+
+
+| Diagnostic Method        | Key Features                                   | Advantages                                    | Limitations                                |
+|--------------------------|-----------------------------------------------|----------------------------------------------|-------------------------------------------|
+| PromarkerEndo (Blood Test)| Identifies protein biomarkers                 | Cost-effective, early-stage detection        | Requires further validation for global use|
+| Electroviscerography (EVG)| Monitors gastrointestinal myoelectric activity| Non-invasive, experimental                   | Needs more clinical trials                |
+| Infrared Spectroscopy    | Spectrochemical analysis                      | Highly sensitive, non-invasive               | Early research stage                      |
+| Imaging Innovations      | Advanced imaging technologies                 | Reliable alternative to surgery              | Clinical trials ongoing                   |
+| AI + Omics Integration   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
+
 
 #### Supplements; Therapies; Etc
 
