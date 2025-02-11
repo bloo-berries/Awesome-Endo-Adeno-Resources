@@ -40,6 +40,21 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - [Endometriosis Specific Studies](#endometriosis-specific-studies)
     - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
 
+## Overview of Conditions
+- Endometriosis: A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million women worldwide.
+- Adenomyosis: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
+
+# Diagnosis
+- Endometriosis
+  - Current Methods:
+    - Laparoscopy remains the gold standard for definitive diagnosis4.
+    - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases34.
+    - New non-invasive blood tests (e.g., PromarkerEndo) have shown promise in detecting protein biomarkers associated with the disease8.
+- Adenomyosis
+  - Current Methods:
+    - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound)57.
+    - Definitive diagnosis requires examination of the uterus post-hysterectomy5.
+
 ## Vetted Physician and Healthcare Providers
 
 - [iCareBetter](https://icarebetter.com/)
