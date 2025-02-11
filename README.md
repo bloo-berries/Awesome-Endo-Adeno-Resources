@@ -345,13 +345,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
     - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 
-## Community Sourced Data and Support
-
-- Reddit
-  - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
-  - [/r/EndoSisters](https://www.reddit.com/r/EndoSisters/)
-  - [/r/EndoAwareness](https://www.reddit.com/r/EndoAwareness/)
-
 ## Educational Materials
 
 - [Below the Belt]
@@ -373,6 +366,14 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [SpeakENDO](https://www.speakendo.com/)
   - A platform offering resources and information to help individuals better understand and communicate about endometriosis
 
+## Community Sourced Data and Support
+
+- Reddit
+  - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
+    - Endo support community
+  - [/r/Endo](https://www.reddit.com/r/Endo/)
+    - Endo: treatments, stories, support and research into Endometriosis
+   
 ## Medical Research
 
 ### Scientific Research & Medical Research Organizations
