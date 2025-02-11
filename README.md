@@ -199,18 +199,18 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Anemia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Less prevalent              | More prevalent            | Low in endometriosis, High in adenomyosis | Varies                | Iron deficiency anemia more common in adenomyosis |
 | Hypercholesterolemia                             | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
 | Hyperlipidemia                                   | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
-| Chronic Pelvic Pain                              | Common                      | Common                    | High                                      | Common                | Major symptom in both conditions                  |
+| [Chronic Pelvic Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                              | Common                      | Common                    | High                                      | Common                | Major symptom in both conditions                  |
 | Infertility                                      | Common                      | Common                    | High                                      | Common                | Can affect fertility in both conditions           |
-| Postural Orthostatic Tachycardia Syndrome (POTS) | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
-| Hypermobile Ehlers Danlos Syndrome (hEDS)        | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
-| Mast Cell Activation Syndrome (MCAS)             | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
-| Interstitial Cystitis                            | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
-| Irritable Bowel Syndrome                         | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
+| [Postural Orthostatic Tachycardia Syndrome (POTS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
+| [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)        | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
+| [Mast Cell Activation Syndrome (MCAS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)             | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
+| [Interstitial Cystitis](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                            | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
+| [Irritable Bowel Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                         | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
 | Migraine                                         | Common                      | -                         | Moderate                                  | Common                | Associated with endometriosis                     |
 | Anxiety and Depression                           | Common                      | Common                    | High                                      | Common                | Mental health impacts in both conditions          |
-| Fibromyalgia                                     | Common                      | -                         | Moderate                                  | Common                | Contributing to widespread pain                   |
-| Autoimmune Disorders                             | Increased risk              | -                         | Moderate                                  | Increased risk        | Association noted with endometriosis              |
-| Thyroid Disorders                                | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher prevalence of hypothyroidism               |
+| [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                     | Common                      | -                         | Moderate                                  | Common                | Contributing to widespread pain                   |
+| [Autoimmune Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                             | Increased risk              | -                         | Moderate                                  | Increased risk        | Association noted with endometriosis              |
+| [Thyroid Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher prevalence of hypothyroidism               |
 | Asthma                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
 | Allergies                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
 | Gastroesophageal Reflux Disease (GERD)           | Common                      | -                         | Moderate                                  | Common                | Frequently observed in endometriosis              |
@@ -218,25 +218,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | Referred Shoulder Pain                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
 
 
-
-
-- [Postural Orthostatic Tachycardia Syndrome (POTS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "The prevalence of POTS in patients with endometriosis is 10% to 20%."
-- [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "The prevalence of hEDS in patients with endometriosis is 10% to 20%."  
-- [Mast Cell Activation Syndrome (MCAS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "The prevalence of MCAS in patients with endometriosis is 10% to 20%."
-- [Chronic Pelvic Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
 - [Chronic Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
 - [Chronic Fatigue Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-- [Interstitial Cystitis](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-- [Irritable Bowel Disease](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-- [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "Fibromyalgia is often reported in patients with endometriosis, contributing to widespread pain."
-- [Autoimmune Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "There is a noted association between endometriosis and various autoimmune disorders."
-- [Thyroid Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "Thyroid dysfunctions, including hypothyroidism, are more common in those with endometriosis."
 - [Asthma](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
   - "Asthma prevalence is higher in patients with endometriosis, possibly due to shared inflammatory pathways."
 - [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
