@@ -14,6 +14,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [endo-adeno-resources](#endo-adeno-resources)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
+  - [Diagnosis](#diagnosis)
+    - [Symptoms](#symptoms)
   - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
   - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
   - [Medical Data Tools, Trackers, and Mangers](#medical-data-tools-trackers-and-mangers)
@@ -54,6 +56,20 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Current Methods:
     - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
     - Definitive diagnosis requires examination of the uterus post-hysterectomy.
+   
+### Symptoms
+
+
+| Condition                | Stage/Type                  | Severity       | Symptoms                                                                                          | Metastasis                                   |
+|--------------------------|-----------------------------|----------------|---------------------------------------------------------------------------------------------------|---------------------------------------------|
+| **Endometriosis**        | Stage I (Minimal)          | Mild           | - Mild or no pelvic pain<br>- Possible infertility<br>- Occasional dysmenorrhea                  | None                                        |
+|                          | Stage II (Mild)            | Mild to moderate | - Moderate pelvic pain<br>- Dysmenorrhea<br>- Dyspareunia<br>- Possible infertility              | None                                        |
+|                          | Stage III (Moderate)       | Moderate       | - Chronic pelvic pain<br>- Severe dysmenorrhea<br>- Dyspareunia<br>- Dyschezia<br>- Infertility  | Local spread                                |
+|                          | Stage IV (Severe)          | Severe         | - Chronic, severe pelvic pain<br>- Debilitating dysmenorrhea<br>- Severe dyspareunia<br>- Infertility<br>- Bowel/bladder dysfunction | Extensive local spread                      |
+|                          | Stage IV+ (Very Severe, including DIE and Thoracic) | Very severe   | - All Stage IV symptoms, plus:<br>**Deep Infiltrating Endometriosis (DIE):**<br>  - Intense chronic pelvic pain<br>  - Severe dyspareunia<br>  - Dyschezia (painful bowel movements), bowel obstruction possible<br>  - Dysuria (painful urination), hydronephrosis possible<br>  - Organ dysfunction depending on affected areas (e.g., bowel, bladder)<br><br>**Thoracic Endometriosis:**<br>  - Catamenial pneumothorax (lung collapse during menstruation)<br>  - Hemoptysis (coughing up blood)<br>  - Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath)<br>  - Hemothorax or pericardial effusion in severe cases | Extensive spread to deep tissues or distant sites such as the chest cavity |
+| **Adenomyosis**          | Focal                      | Mild to severe | - Localized uterine pain or tenderness<br>- Heavy menstrual bleeding (menorrhagia)<br>- Dysmenorrhea (painful periods)<br>- Dyspareunia (painful intercourse)<br>- Pelvic pressure or fullness<br>- Possible infertility | Localized uterine involvement               |
+|                          | Diffuse                    | Moderate to severe | - Diffuse uterine pain or tenderness<br>- Severe menorrhagia (heavy menstrual bleeding)<br>- Chronic pelvic pain<br>- Dyspareunia<br>- Significant uterine enlargement ("boggy" uterus)<br>- Anemia due to heavy bleeding<br>- Infertility or miscarriage risk       | Extensive uterine involvement               |
+
 
 ## Vetted Physician and Healthcare Providers
 
