@@ -109,6 +109,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ### Surgical
 
 #### Endometriosis Treatments
+  * It is critical to note: Hysterecomy DOES NOT treat Endometriosis, only Adenomyosis
 
 - **Laparoscopic Excision Surgery**
   - "Laparoscopic excision surgery is considered the gold standard for the treatment of endometriosis, involving the removal of endometriotic lesions while preserving healthy tissue."
