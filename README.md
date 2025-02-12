@@ -339,7 +339,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## Educational Materials
 
-- [Below the Belt]
+- [Below the Belt](https://www.belowthebelt.film/)
   - A film through the lens of endometriosis featuring the personal stories of four patients.
 - [EndoWhat](https://endowhat.com/)
   - A film to provide an accurate base of knowledge about endometriosis straight from the experts.
