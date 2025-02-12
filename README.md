@@ -147,6 +147,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 
 #### Supplements; Therapies; Etc
+- As stated from [EndoWhat?](https://endowhat.com/educate/), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
 
 #### Cannibas and Herbal
 
