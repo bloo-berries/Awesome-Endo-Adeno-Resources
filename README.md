@@ -211,27 +211,11 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                     | Common                      | -                         | Moderate                                  | Common                | Contributing to widespread pain                   |
 | [Autoimmune Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                             | Increased risk              | -                         | Moderate                                  | Increased risk        | Association noted with endometriosis              |
 | [Thyroid Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher prevalence of hypothyroidism               |
-| Asthma                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
-| Allergies                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
-| Gastroesophageal Reflux Disease (GERD)           | Common                      | -                         | Moderate                                  | Common                | Frequently observed in endometriosis              |
-| Sciatica                                         | Can occur                   | -                         | Low                                       | Rare                  | Due to nerve compression or inflammation          |
-| Referred Shoulder Pain                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
-
-
-- [Chronic Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-- [Chronic Fatigue Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-- [Asthma](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "Asthma prevalence is higher in patients with endometriosis, possibly due to shared inflammatory pathways."
-- [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "Patients with endometriosis often report a higher incidence of allergies."
-- [Gastroesophageal Reflux Disease (GERD)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "GERD symptoms are frequently observed in individuals with endometriosis."
-- [Anemia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "Anemia in patients with endometriosis may result from chronic blood loss and inflammation, leading to fatigue and weakness."
-- [Sciatica](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "Sciatica can occur in patients with endometriosis due to nerve compression or inflammation."
-- [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)
-  - "Referred shoulder pain is sometimes reported in patients with endometriosis, possibly linked to diaphragmatic endometriosis."
+| [Asthma](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
+| [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
+| [Gastroesophageal Reflux Disease (GERD)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)           | Common                      | -                         | Moderate                                  | Common                | Frequently observed in endometriosis              |
+| [Sciatica](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                         | Can occur                   | -                         | Low                                       | Rare                  | Due to nerve compression or inflammation          |
+| [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
 
 ## Financial Assistance Platforms
 
