@@ -380,6 +380,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - A research initiative partnering with patients to better understand and manage endometriosis
 - [Society for Women’s Health Research (SWHR)](https://swhr.org/)
   - Dedicated to promoting research on biological sex differences in disease and improving women’s health through science, policy, and education.
+- [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
 - [EndoGames](https://endogames.com/)
   - EndoGames is a community-driven platform for endometriosis research
 - [EndoGenomics: A New Era of Endometriosis Research](https://www.endogenomics.com/endo-genomics-a-new-era-of-endometriosis-research)
