@@ -387,19 +387,19 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Current Clinical Studies
 
-### Endometriosis Specific Studies
+#### Endometriosis Specific Studies
 
-#### Potential Causes
-- [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
-  - Researchers in Japan have identified a particular kind of bacteria in women with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
+  #### Potential Causes
+  - [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
+    - Researchers in Japan have identified a particular kind of bacteria in women with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
  
-###### Genetics
-- [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
-  - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
- - [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
-  - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
-- [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08145678)
-  - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
+  ##### Genetics
+  - [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
+    - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
+  - [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
+    - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
+  - [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08145678)
+    - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
 
 - [The Impact of Hormonal Treatments on Endometriosis Progression](https://clinicaltrials.gov/ct2/show/NCT04512345)
   - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
