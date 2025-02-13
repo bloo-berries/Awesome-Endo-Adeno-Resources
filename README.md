@@ -273,6 +273,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - [Endometriosis Foundation of Kenya](https://www.facebook.com/Endometriosiskenya/)
       - NGO raising awareness and proving support for those with Endometriosis
   - West Africa:
+    - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
+      - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to women living with the disease
     - [Endo Sisters West Africa](https://www.facebook.com/endosisterswestafrica)
 
 - APAC & Australia/New Zealand:
