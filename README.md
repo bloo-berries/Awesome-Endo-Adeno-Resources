@@ -1,18 +1,17 @@
-# endo-adeno-resources
-
-Resources and tools for navigating Endometriosis and Adenomyosis
-
-## Overview
+# Overview
 
 Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
+
+- Endometriosis: A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million women worldwide.
+- Adenomyosis: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
+
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
 
 ## Table of Contents
 
-- [endo-adeno-resources](#endo-adeno-resources)
-  - [Overview](#overview)
+- [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Diagnosis](#diagnosis)
     - [Endometriosis Symptoms](#endometriosis-symptoms)
@@ -42,10 +41,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - [Current Clinical Studies](#current-clinical-studies)
     - [Endometriosis Specific Studies](#endometriosis-specific-studies)
     - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
-
-# Overview of Conditions
-- Endometriosis: A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million women worldwide.
-- Adenomyosis: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
 
 ## Diagnosis
 - Endometriosis
