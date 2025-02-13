@@ -390,7 +390,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
     - Researchers in Japan have identified a particular kind of bacteria in women with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
  
-  ##### Genetics
+  #### Genetics
   - [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
     - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
   - [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
