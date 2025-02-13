@@ -124,6 +124,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Perplexity AI is a conversational search engine that uses large language models (LLMs) to answer queries
 - [FEMaLe](https://findingendometriosis.eu/inovation/ai/)
   - The FEMaLe project will bring the revolution with the application of Augmented Reality (AR) in dealing with endometriosis
+- [](https://github.com/Setia-Verma-Lab/endometriosis_subtyping)
 
 ## Therapeutic Treatments
 
@@ -396,6 +397,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
   - [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08145678)
     - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
+  - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
 
 - [The Impact of Hormonal Treatments on Endometriosis Progression](https://clinicaltrials.gov/ct2/show/NCT04512345)
   - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
