@@ -6,9 +6,6 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
 - Adenomyosis: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
 
 
-This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
-Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -41,6 +38,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - [Current Clinical Studies](#current-clinical-studies)
     - [Endometriosis Specific Studies](#endometriosis-specific-studies)
     - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
+
+This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
+Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
 
 ## Diagnosis
 - Endometriosis
