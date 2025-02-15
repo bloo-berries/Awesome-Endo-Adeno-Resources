@@ -390,21 +390,13 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 #### Endometriosis Specific Studies
 
-  #### Potential Causes
+<details>
+<summary>Potential Causes</summary>
+
   - [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
     - Researchers in Japan have identified a particular kind of bacteria in women with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
- 
-  #### Genetics
-  - [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
-    - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
-  - [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
-    - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
-  - [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08145678)
-    - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
-  - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
-  - [RNA sequencing reveals molecular mechanisms of endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
-    - "Using a C57Bl/6 mouse model in which decidualized endometrial tissue is injected subcutaneously in the abdomen of recipient mice, we generated a comprehensive profile of gene expression in decidualized endometrial tissue (n=4), and in endometriosis-like lesions at Day 7 (n=4) and Day 14 (n=4) of formation."
 
+</details>
 
 
 <details>
