@@ -405,6 +405,22 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [RNA sequencing reveals molecular mechanisms of endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
     - "Using a C57Bl/6 mouse model in which decidualized endometrial tissue is injected subcutaneously in the abdomen of recipient mice, we generated a comprehensive profile of gene expression in decidualized endometrial tissue (n=4), and in endometriosis-like lesions at Day 7 (n=4) and Day 14 (n=4) of formation."
 
+
+
+<details>
+<summary>Dropdown Title</summary>
+
+Your content goes here. You can use Markdown syntax inside the dropdown.
+
+- List item 1
+- List item 2
+- List item 3
+
+</details>
+
+
+
+
 - [The Impact of Hormonal Treatments on Endometriosis Progression](https://clinicaltrials.gov/ct2/show/NCT04512345)
   - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
 - [Long-term Outcomes of Surgical Interventions for Endometriosis](https://clinicaltrials.gov/ct2/show/NCT05012389)
