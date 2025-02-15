@@ -408,13 +408,17 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 
 <details>
-<summary>Dropdown Title</summary>
+<summary>Genetics</summary>
 
-Your content goes here. You can use Markdown syntax inside the dropdown.
-
-- List item 1
-- List item 2
-- List item 3
+  - [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
+    - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
+  - [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
+    - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
+  - [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08145678)
+    - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
+  - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
+  - [RNA sequencing reveals molecular mechanisms of endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
+    - "Using a C57Bl/6 mouse model in which decidualized endometrial tissue is injected subcutaneously in the abdomen of recipient mice, we generated a comprehensive profile of gene expression in decidualized endometrial tissue (n=4), and in endometriosis-like lesions at Day 7 (n=4) and Day 14 (n=4) of formation."
 
 </details>
 
