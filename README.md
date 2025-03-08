@@ -405,8 +405,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ### Current Medical Studies
 *Important to note that all below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available*
 
-#### Endometriosis Specific Studies
-
 <details>
 <summary>Potential Causes</summary>
 
