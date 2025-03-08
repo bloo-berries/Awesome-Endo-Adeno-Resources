@@ -291,6 +291,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Dedicated to supporting and educating individuals with endometriosis in India
   - [Endometriosis Philippines](https://www.endometriosisph.org/)
     - Provides resources and advocacy for endometriosis patients in the Philippines
+<details>
+<summary>Europe</summary>
 - Europe:
   - Iceland:
     - [Endo Organization](https://endo.is/)
@@ -330,6 +332,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Belgium:
     - [EndoHome](https://www.endohome.be/)
       - Focuses on raising awareness and providing support for endometriosis patients in Belgium
+</details>
+
 - LATAM:
   - [Expertos en Endometriosis EndoLATAM](www.endolatam.com)
     - Comunidad de médicos certificados en Endometriosis en Latinoamérica
@@ -337,8 +341,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 
 ## Educational Materials
-
-<"Films, Blogs, and Books">
 
 - [Below the Belt](https://www.belowthebelt.film/)
   - A film through the lens of endometriosis featuring the personal stories of four patients.
@@ -358,8 +360,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - A collection of educational videos provided by the Endometriosis Foundation of America
 - [SpeakENDO](https://www.speakendo.com/)
   - A platform offering resources and information to help individuals better understand and communicate about endometriosis
-
-</"Films, Blogs, and Books">
 
 ## Community Sourced Data and Support
 
