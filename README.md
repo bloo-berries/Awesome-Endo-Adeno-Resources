@@ -271,6 +271,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 <details>
 <summary>Africa</summary>
+  
   - East Africa:
     - [Endo Sisters East Africa Foundation](https://www.facebook.com/endosisterseastafrica)
       - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
@@ -284,6 +285,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 <details>
 <summary>APAC & Australia/New Zealand</summary>
+  
   - [Endometriosis Australia](https://endometriosisaustralia.org/)
     - Advocacy, funding, education
   - [Endometriosis New Zealand](https://nzendo.org.nz/)
@@ -343,7 +345,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 <details>
 <summary>LATAM</summary>
-- LATAM:
+  
   - [Expertos en Endometriosis EndoLATAM](www.endolatam.com)
     - Comunidad de médicos certificados en Endometriosis en Latinoamérica
   - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
