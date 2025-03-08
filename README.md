@@ -257,8 +257,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
 
 ### Regional
-
-- Americas and Carribean:
+<details>
+<summary>Americas and Carribean</summary>
   - [Worldwide Endometriosis March](https://endomarch.org/)
     - Largest, internationally-coordinated endometriosis coalition in the world
   - [The Endometriosis Coalition](https://www.theendo.co/)
@@ -267,7 +267,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - The EEOC is a non-profit organization based out of British Columbia, Canada that focuses on furthering Endometriosis Research 
   - [Endometriosis Trinidad & Tobago](https://www.endott.org/)
     - The TTEA works with all stakeholders to improve health outcomes for endometriosis patients in Trinidad and Tobago
-- Africa:
+<details>
+<summary>Africa</summary>
   - East Africa:
     - [Endo Sisters East Africa Foundation](https://www.facebook.com/endosisterseastafrica)
       - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
@@ -277,8 +278,10 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
       - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to women living with the disease
     - [Endo Sisters West Africa](https://www.facebook.com/endosisterswestafrica)
+</details>
 
-- APAC & Australia/New Zealand:
+<details>
+<summary>APAC & Australia/New Zealand</summary>
   - [Endometriosis Australia](https://endometriosisaustralia.org/)
     - Advocacy, funding, education
   - [Endometriosis New Zealand](https://nzendo.org.nz/)
@@ -291,6 +294,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Dedicated to supporting and educating individuals with endometriosis in India
   - [Endometriosis Philippines](https://www.endometriosisph.org/)
     - Provides resources and advocacy for endometriosis patients in the Philippines
+</details>
+
 <details>
 <summary>Europe</summary>
 - Europe:
@@ -334,11 +339,14 @@ Dive in to discover practical tips, connect with others who understand what we'r
       - Focuses on raising awareness and providing support for endometriosis patients in Belgium
 </details>
 
+<details>
+<summary>LATAM</summary>
 - LATAM:
   - [Expertos en Endometriosis EndoLATAM](www.endolatam.com)
     - Comunidad de médicos certificados en Endometriosis en Latinoamérica
   - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
     - Passed a historic, first of its kind, Endometriosis Bill in Colombia
+</details>
 
 ## Educational Materials
 
