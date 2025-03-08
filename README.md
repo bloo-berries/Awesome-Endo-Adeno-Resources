@@ -300,43 +300,43 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 <details>
 <summary>Europe</summary>
-- Iceland:
-  - [Endo Organization](https://endo.is/)
-    - Provides support and improved health services in Iceland for Endometriosis
-- Ireland:
-  - [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
-- UK:
-  - [Endometriosis UK](https://endometriosisuk.org/)
-  - [Endo Sisters UK](https://endosisters.org/)
-- Germany:[Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
-    - Offers support, information, and advocacy for individuals with endometriosis in Germany
-- France:
-  - [EndoFrance](https://www.endofrance.org/)
-  - Provides support and raises awareness about endometriosis in France
-- Italy:
-  - [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
-  - Dedicated to supporting and educating individuals with endometriosis in Italy
-- Spain:
-  - [Asociación Endometriosis España](https://www.endoinfo.org/)
-    - Offers resources and advocacy for endometriosis patients in Spain
-- Portugal:
-  - [MulherEndo](https://www.mulherendo.pt/)
-   - Provides support and raises awareness about endometriosis in Portugal
-- Norway:
-  - [Endometrioseforeningen](https://www.endometriose.no/)
-    - Offers support and information for individuals with endometriosis in Norway
-- Sweden:
-  - [Endometriosföreningen](https://www.endometriosforeningen.com/)
-    - Focuses on raising awareness and providing support for endometriosis patients in Sweden
-- Poland:
-  - [Polskie Stowarzyszenie Endometrioza](https://www.endometrioza.org.pl/)
-    - Provides resources and advocacy for endometriosis patients in Poland
-- Netherlands:
-  - [Endometriose Stichting](https://www.endometriose.nl/)
-    - Provides support and information for individuals with endometriosis in the Netherlands
-- Belgium:
+- [Belgium]
   - [EndoHome](https://www.endohome.be/)
     - Focuses on raising awareness and providing support for endometriosis patients in Belgium
+- [France]
+  - [EndoFrance](https://www.endofrance.org/)
+  - Provides support and raises awareness about endometriosis in France
+- [Germany][Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
+- [Iceland]
+  - [Endo Organization](https://endo.is/)
+    - Provides support and improved health services in Iceland for Endometriosis
+- [Ireland]
+  - [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
+- [Italy]
+  - [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
+  - Dedicated to supporting and educating individuals with endometriosis in Italy
+    - Offers support, information, and advocacy for individuals with endometriosis in Germany
+- [Netherlands]
+  - [Endometriose Stichting](https://www.endometriose.nl/)
+    - Provides support and information for individuals with endometriosis in the Netherlands
+- [Norway]
+  - [Endometrioseforeningen](https://www.endometriose.no/)
+    - Offers support and information for individuals with endometriosis in Norway
+- [Poland]
+  - [Polskie Stowarzyszenie Endometrioza](https://www.endometrioza.org.pl/)
+    - Provides resources and advocacy for endometriosis patients in Poland
+- [Portugal]
+  - [MulherEndo](https://www.mulherendo.pt/)
+   - Provides support and raises awareness about endometriosis in Portugal
+- [Spain]
+  - [Asociación Endometriosis España](https://www.endoinfo.org/)
+    - Offers resources and advocacy for endometriosis patients in Spain
+- [Sweden]
+  - [Endometriosföreningen](https://www.endometriosforeningen.com/)
+    - Focuses on raising awareness and providing support for endometriosis patients in Sweden
+- [UK]
+  - [Endometriosis UK](https://endometriosisuk.org/)
+  - [Endo Sisters UK](https://endosisters.org/)
 </details>
 
 <details>
@@ -426,9 +426,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 </details>
 
-
-
-
+<details>
+<summary>Case Studies</summary>
+  
 - [The Impact of Hormonal Treatments on Endometriosis Progression](https://clinicaltrials.gov/ct2/show/NCT04512345)
   - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
 - [Long-term Outcomes of Surgical Interventions for Endometriosis](https://clinicaltrials.gov/ct2/show/NCT05012389)
@@ -614,3 +614,4 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Adenomyosis and Chronic Pain Management](https://clinicaltrials.gov/ct2/show/NCT11445678)
 - [Adenomyosis and Immune System Dysfunction](https://www.science.org/doi/10.1126/scitranslmed.adk8230)
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
+</details>
