@@ -337,7 +337,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 
 <details>
-<summary>Educational Materials</summary>
+<summary> ## Educational Materials </summary>
 
 - [Below the Belt](https://www.belowthebelt.film/)
   - A film through the lens of endometriosis featuring the personal stories of four patients.
