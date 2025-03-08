@@ -338,7 +338,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## Educational Materials
 
-<details>
+<Films, Blogs, and Books>
 
 - [Below the Belt](https://www.belowthebelt.film/)
   - A film through the lens of endometriosis featuring the personal stories of four patients.
@@ -359,7 +359,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [SpeakENDO](https://www.speakendo.com/)
   - A platform offering resources and information to help individuals better understand and communicate about endometriosis
 
-</details>
+</Films, Blogs, and Books>
 
 ## Community Sourced Data and Support
 
