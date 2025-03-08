@@ -336,8 +336,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
     - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 
+## Educational Materials
+
 <details>
-<summary> ## Educational Materials </summary>
 
 - [Below the Belt](https://www.belowthebelt.film/)
   - A film through the lens of endometriosis featuring the personal stories of four patients.
@@ -359,27 +360,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - A platform offering resources and information to help individuals better understand and communicate about endometriosis
 
 </details>
-
-## Educational Materials
-
-- [Below the Belt](https://www.belowthebelt.film/)
-  - A film through the lens of endometriosis featuring the personal stories of four patients.
-- [EndoWhat](https://endowhat.com/)
-  - A film to provide an accurate base of knowledge about endometriosis straight from the experts.
-- [Endographics](https://www.endographics.org/english)
-  - Easy to share educational graphics about Endometriosis
-- [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
-  - Offers information and support for individuals with adenomyosis
-- [The Doctor Will See You Now: Recognizing and Treating Endometriosis](https://www.amazon.com/Doctor-Will-See-You-Now/dp/0738280737)
-  - A book by Dr. Tamer Seckin that provides comprehensive information on endometriosis
-- [Beating Endo: How to Reclaim Your Life from Endometriosis](https://www.amazon.com/Beating-Endo-Reclaim-Your-Endometriosis/dp/073828354X)
-  - A book by Dr. Iris Orbuch and Amy Stein that offers guidance on managing endometriosis
-- [Endometriosis: A Key to Healing Through Nutrition](https://www.amazon.com/Endometriosis-Key-Healing-Through-Nutrition/dp/0722538991)
-  - A book by Dian Shepperson Mills and Michael Vernon that discusses dietary approaches to managing endometriosis
-- [EndoFound Educational Videos](https://www.endofound.org/video)
-  - A collection of educational videos provided by the Endometriosis Foundation of America
-- [SpeakENDO](https://www.speakendo.com/)
-  - A platform offering resources and information to help individuals better understand and communicate about endometriosis
 
 ## Community Sourced Data and Support
 
