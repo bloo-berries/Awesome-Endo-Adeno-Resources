@@ -301,43 +301,42 @@ Dive in to discover practical tips, connect with others who understand what we'r
 <details>
 <summary>Europe</summary>
 - Iceland:
-    - [Endo Organization](https://endo.is/)
-      - Provides support and improved health services in Iceland for Endometriosis
+  - [Endo Organization](https://endo.is/)
+    - Provides support and improved health services in Iceland for Endometriosis
 - Ireland:
-    - [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
+  - [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
 - UK:
-    - [Endometriosis UK](https://endometriosisuk.org/)
-    - [Endo Sisters UK](https://endosisters.org/)
-- Germany:
-    - [Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
-      - Offers support, information, and advocacy for individuals with endometriosis in Germany
+  - [Endometriosis UK](https://endometriosisuk.org/)
+  - [Endo Sisters UK](https://endosisters.org/)
+- Germany:[Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
+    - Offers support, information, and advocacy for individuals with endometriosis in Germany
 - France:
-    - [EndoFrance](https://www.endofrance.org/)
-      - Provides support and raises awareness about endometriosis in France
+  - [EndoFrance](https://www.endofrance.org/)
+  - Provides support and raises awareness about endometriosis in France
 - Italy:
-    - [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
-      - Dedicated to supporting and educating individuals with endometriosis in Italy
+  - [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
+  - Dedicated to supporting and educating individuals with endometriosis in Italy
 - Spain:
-    - [Asociación Endometriosis España](https://www.endoinfo.org/)
-      - Offers resources and advocacy for endometriosis patients in Spain
+  - [Asociación Endometriosis España](https://www.endoinfo.org/)
+    - Offers resources and advocacy for endometriosis patients in Spain
 - Portugal:
-    - [MulherEndo](https://www.mulherendo.pt/)
-      - Provides support and raises awareness about endometriosis in Portugal
+  - [MulherEndo](https://www.mulherendo.pt/)
+   - Provides support and raises awareness about endometriosis in Portugal
 - Norway:
-    - [Endometrioseforeningen](https://www.endometriose.no/)
-      - Offers support and information for individuals with endometriosis in Norway
+  - [Endometrioseforeningen](https://www.endometriose.no/)
+    - Offers support and information for individuals with endometriosis in Norway
 - Sweden:
-    - [Endometriosföreningen](https://www.endometriosforeningen.com/)
-      - Focuses on raising awareness and providing support for endometriosis patients in Sweden
+  - [Endometriosföreningen](https://www.endometriosforeningen.com/)
+    - Focuses on raising awareness and providing support for endometriosis patients in Sweden
 - Poland:
-    - [Polskie Stowarzyszenie Endometrioza](https://www.endometrioza.org.pl/)
-      - Provides resources and advocacy for endometriosis patients in Poland
+  - [Polskie Stowarzyszenie Endometrioza](https://www.endometrioza.org.pl/)
+    - Provides resources and advocacy for endometriosis patients in Poland
 - Netherlands:
-    - [Endometriose Stichting](https://www.endometriose.nl/)
-      - Provides support and information for individuals with endometriosis in the Netherlands
+  - [Endometriose Stichting](https://www.endometriose.nl/)
+    - Provides support and information for individuals with endometriosis in the Netherlands
 - Belgium:
-    - [EndoHome](https://www.endohome.be/)
-      - Focuses on raising awareness and providing support for endometriosis patients in Belgium
+  - [EndoHome](https://www.endohome.be/)
+    - Focuses on raising awareness and providing support for endometriosis patients in Belgium
 </details>
 
 <details>
