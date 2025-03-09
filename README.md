@@ -322,7 +322,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
 - Italy
   - [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
-   - Dedicated to supporting and educating individuals with endometriosis in Italy
+    - Dedicated to supporting and educating individuals with endometriosis in Italy
 - Netherlands
   - [Endometriose Stichting](https://www.endometriose.nl/)
     - Provides support and information for individuals with endometriosis in the Netherlands
