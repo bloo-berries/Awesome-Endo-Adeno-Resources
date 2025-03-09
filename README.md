@@ -306,9 +306,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
 <details>
 <summary>Europe</summary>
   
-  - Belgium
-    - [EndoHome](https://www.endohome.be/)
-      - Focuses on raising awareness and providing support for endometriosis patients in Belgium
+- Belgium
+  - [EndoHome](https://www.endohome.be/)
+    - Focuses on raising awareness and providing support for endometriosis patients in Belgium
   - France
     - [EndoFrance](https://www.endofrance.org/)
       - Provides support and raises awareness about endometriosis in France
@@ -375,6 +375,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - A collection of educational videos provided by the Endometriosis Foundation of America
 - [SpeakENDO](https://www.speakendo.com/)
   - A platform offering resources and information to help individuals better understand and communicate about endometriosis
+- [Women's Health: Breaking the Taboos](https://tv.apple.com/gb/show/womens-health-breaking-the-taboos/umc.cmc.4r6819yl90qr1ba2fx9ovpbjl)
+  - The series is hosted by Cherry Healey and covers topics such as endometriosis, incontinence, hair loss, and the menopause
 
 ## Community Sourced Data and Support
 
