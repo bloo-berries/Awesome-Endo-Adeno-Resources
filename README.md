@@ -383,6 +383,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Endo support community
   - [/r/Endo](https://www.reddit.com/r/Endo/)
     - Endo: treatments, stories, support and research into Endometriosis
+  - [/r/adenommyosis](https://www.reddit.com/r/adenomyosis/)
    
 ## Medical Research
 
