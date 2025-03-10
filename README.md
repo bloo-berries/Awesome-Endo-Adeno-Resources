@@ -1,5 +1,4 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![deploy](https://github.com/bloo-berries/awesome-endo-adeno-resources/actions/workflows/deploy.yml/badge.svg)](https://github.com/bloo-berries/awesome-endo-adeno-resources/actions/workflows/deploy.yml)
 # Overview
 
 Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
