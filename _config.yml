@@ -1,3 +1,10 @@
 title: Awesome Endo and Adeno Resources
 remote_theme: "jekyll/minima@1e8a445"
 markdown: GFM 
+minima:
+  dark_mode:
+    dynamic: true
+    sunrise: 6
+    sunset: 18
+    icon: true
+    always: false
