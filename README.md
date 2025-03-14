@@ -401,6 +401,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Funds translational research; On-chain incentives to fund early-stage research and biotech startups; Focus on Fertility
 - [Citizen Endo](https://citizenendo.org/)
   - A research initiative partnering with patients to better understand and manage endometriosis
+    - Created Phendo App; Phendo is a free research app to track, manage, and understand endometriosis. Opportunities to reflect upon your data may help you in managing your disease
 - [Society for Women’s Health Research (SWHR)](https://swhr.org/)
   - Dedicated to promoting research on biological sex differences in disease and improving women’s health through science, policy, and education.
 - [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
