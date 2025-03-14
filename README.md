@@ -96,6 +96,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Provides comprehensive reproductive health testing and insights
 - [Joii](https://joiicare.com/)
   - Advancing menstrual and gynaecological health research
+- [Hera](https://www.herabiotech.com/)
+  - Hera Biotech created a diagnostic tool, MetriDx™ - which "replaces costly diagnostic laparoscopic surgery plagued by a calamitous 36% miss rate"
 
 ## Medical Data Tools, Trackers, and Mangers
 
