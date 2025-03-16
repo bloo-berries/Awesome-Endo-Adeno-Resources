@@ -1,0 +1,30 @@
+# Wrangler configuration for endo-adeno-resources Jekyll site
+name = "endo-adeno-resources"
+type = "webpack"
+account_id = "561cbb98273b420068b9996639e4a19e" # Add your Cloudflare account ID here
+zone_id = "" # Add your Cloudflare zone ID if applicable
+
+# Compatibility flags
+compatibility_date = "2023-11-21"
+compatibility_flags = ["nodejs_compat"]
+
+# Pages configuration
+[site]
+bucket = "_site" # Jekyll outputs to _site directory
+entry-point = "workers-site"
+
+# Build configuration for Jekyll
+[build]
+command = "bundle install && bundle exec jekyll build"
+upload.format = "service-worker"
+
+# Environment variables
+[env.production]
+JEKYLL_ENV = "production"
+
+[env.staging]
+JEKYLL_ENV = "staging"
+
+# Build caching for faster deployments
+[build.upload]
+format = "service-worker"
