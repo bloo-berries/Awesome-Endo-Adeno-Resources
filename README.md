@@ -415,6 +415,10 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ### Current Medical Studies
 *Important to note that all below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available*
 
+Active Research Studies: 
+- [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
+  - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
+
 <details>
 <summary>Potential Causes</summary>
 
