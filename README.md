@@ -154,7 +154,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - **Uterine Artery Embolization (UAE)**
   - "UAE is a minimally invasive procedure used to treat adenomyosis by blocking the blood supply to the affected areas, leading to a reduction in symptoms."
 - **Myomectomy**
-  - "Myomectomy involves the surgical removal of fibroids from the uterus and can be an option for women with adenomyosis who wish to preserve their fertility."
+  - "Myomectomy involves the surgical removal of fibroids from the uterus and can be an option for those with adenomyosis who wish to preserve their fertility."
 
 ### Non-Surgical
 
@@ -191,7 +191,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ### Endometriosis
 
 - [Endometriosis Typology and Ovarian Cancer Risk](https://jamanetwork.com/journals/jama/article-abstract/2821194)
-  - "Women with endometriosis had 4.2-fold higher ovarian cancer risk than those without endometriosis. Women with ovarian endometriomas and/or deep infiltrating endometriosis, compared with no endometriosis, had 9.7-fold higher risk"
+  - "Those with endometriosis had 4.2-fold higher ovarian cancer risk than those without endometriosis. Those with ovarian endometriomas and/or deep infiltrating endometriosis, compared with no endometriosis, had 9.7-fold higher risk"
 - [Endometriosis and the risk of ovarian cancer: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/36988819/)
   - "The pooled odds ratio for endometriosis and ovarian cancer was 4.2 (95% CI, 3.2 to 5.5)"
 - [Novel Biomarkers for Endometriosis Diagnosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7891234/)
@@ -284,7 +284,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
       - NGO raising awareness and proving support for those with Endometriosis
   - West Africa:
     - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
-      - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to women living with the disease
+      - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
     - [Endo Sisters West Africa](https://www.facebook.com/endosisterswestafrica)
 </details>
 
@@ -405,7 +405,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - A research initiative partnering with patients to better understand and manage endometriosis
     - Created Phendo App; Phendo is a free research app to track, manage, and understand endometriosis. Opportunities to reflect upon your data may help you in managing your disease
 - [Society for Women’s Health Research (SWHR)](https://swhr.org/)
-  - Dedicated to promoting research on biological sex differences in disease and improving women’s health through science, policy, and education.
+  - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
 - [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
 - [EndoGames](https://endogames.com/)
   - EndoGames is a community-driven platform for endometriosis research
@@ -419,7 +419,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 <summary>Potential Causes</summary>
 
   - [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
-    - Researchers in Japan have identified a particular kind of bacteria in women with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
+    - Researchers in Japan have identified a particular kind of bacteria in those with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
 
 </details>
 
