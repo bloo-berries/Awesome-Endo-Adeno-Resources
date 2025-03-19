@@ -1,25 +1,16 @@
 # Wrangler configuration for endo-adeno-resources Jekyll site
 name = "endo-adeno-resources"
-main = "src/index.js"
-type = "webpack"
-account_id = "561cbb98273b420068b9996639e4a19e" # Add your Cloudflare account ID here
-zone_id = "" # Add your Cloudflare zone ID if applicable
-
-# Compatibility flags
 compatibility_date = "2023-11-21"
 compatibility_flags = ["nodejs_compat"]
 
 # Pages configuration
 [site]
 bucket = "./_site"
-entry-point = "workers-site"
 
 # Build configuration
 [build]
 command = "gem install bundler && bundle install && bundle exec jekyll build"
 output_dir = "_site"
-publish_dir = "_site"
-upload.format = "service-worker"
 
 [build.environment]
 RUBY_VERSION = "3.2.2"
