@@ -1,0 +1,13 @@
+{
+  "name": "awesome-endo-adeno-resources",
+  "version": "1.0.0",
+  "description": "Awesome Endo and Adeno Resources",
+  "scripts": {
+    "build": "bundle install && bundle exec jekyll build",
+    "dev": "bundle exec jekyll serve"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "ruby": ">=3.2.2"
+  }
+} 

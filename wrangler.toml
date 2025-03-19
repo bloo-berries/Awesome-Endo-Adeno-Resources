@@ -9,7 +9,7 @@ bucket = "./_site"
 
 # Build configuration
 [build]
-command = "gem install bundler && bundle install && bundle exec jekyll build"
+command = "gem install bundler && npm run build"
 output_dir = "_site"
 
 [build.environment]
