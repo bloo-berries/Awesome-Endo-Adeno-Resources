@@ -14,13 +14,9 @@ compatibility_flags = ["nodejs_compat"]
 bucket = "./_site"
 entry-point = "workers-site"
 
-# Build configuration for Jekyll
+# Build configuration
 [build]
-command = """
-gem install bundler
-bundle install
-bundle exec jekyll build
-"""
+command = "gem install bundler && bundle install && bundle exec jekyll build"
 output_dir = "_site"
 publish_dir = "_site"
 upload.format = "service-worker"
@@ -31,10 +27,10 @@ NODE_VERSION = "18"
 
 # Environment variables
 [env.production]
-JEKYLL_ENV = "production"
+vars = { JEKYLL_ENV = "production" }
 
 [env.staging]
-JEKYLL_ENV = "staging"
+vars = { JEKYLL_ENV = "staging" }
 
 # Build caching for faster deployments
 [build.upload]
