@@ -16,10 +16,18 @@ entry-point = "workers-site"
 
 # Build configuration for Jekyll
 [build]
-command = "bundle install && bundle exec jekyll build"
+command = """
+gem install bundler
+bundle install
+bundle exec jekyll build
+"""
 output_dir = "_site"
 publish_dir = "_site"
 upload.format = "service-worker"
+
+[build.environment]
+RUBY_VERSION = "3.2.2"
+NODE_VERSION = "18"
 
 # Environment variables
 [env.production]
