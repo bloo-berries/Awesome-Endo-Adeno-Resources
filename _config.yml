@@ -1,8 +1,15 @@
 title: Awesome Endo and Adeno Resources
 remote_theme: "jekyll/minima@1e8a445"
+
+# Markdown processor settings
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: text
+    guess_lang: true
+
 minima:
   skin: auto
 

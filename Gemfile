@@ -1,7 +1,7 @@
 # Specify the source for Ruby gems
 source "https://rubygems.org"
 
-# Core Jekyll dependency
+# Core Jekyll dependency with specific version to prevent any conflicts
 gem "jekyll", "~> 4.3.2"
 
 # Required for Jekyll to run on Ruby 3+ (handles HTTP server functionality)
@@ -22,5 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
 end
 
-# Add any additional dependencies your site needs
-gem "kramdown-parser-gfm"  # GitHub Flavored Markdown support
+# Specifically set kramdown parser to ensure compatibility
+gem "kramdown", "~> 2.4.0"
+gem "kramdown-parser-gfm", "~> 1.1.0"
+gem "rouge", "~> 4.1.0"

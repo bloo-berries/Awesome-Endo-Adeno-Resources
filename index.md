@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Awesome Endo and Adeno Resources
-markdown: kramdown
 ---
+
+# Awesome Endo and Adeno Resources
 
 {% include_relative README.md %} 

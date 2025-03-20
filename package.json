@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Awesome Endo and Adeno Resources",
   "scripts": {
-    "build": "bundle install && bundle exec jekyll build",
+    "build": "chmod +x ./build.sh && ./build.sh",
     "dev": "bundle exec jekyll serve"
   },
   "engines": {
