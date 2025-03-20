@@ -81,6 +81,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - [iCareBetter](https://icarebetter.com/)
   - Connecting as many Endo patients to the right [experts](https://icarebetter.com/endometriosis-specialist/) as early as possible
+- [The Yellow Hub](https://www.theyellowhub.org/)
+  - Empowering patient lives with compassionate tech
 - [Nancy's Nook](https://nancysnookendo.com/)
   - Endometriosis library compiler
 - [Roon](https://www.roon.com/)
