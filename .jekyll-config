@@ -1,0 +1,8 @@
+---
+# Special Jekyll configuration for Cloudflare Pages builds
+# This will be loaded by our custom_build.sh script
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+--- 

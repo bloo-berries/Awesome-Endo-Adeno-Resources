@@ -1,0 +1,8 @@
+# Local override config for Jekyll
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Explicitly set processor to avoid confusion
+markdown_ext: "markdown,mkdown,mkdn,mkd,md" 
