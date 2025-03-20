@@ -7,8 +7,8 @@ gem "jekyll", "~> 4.3.2"
 # Required for Jekyll to run on Ruby 3+ (handles HTTP server functionality)
 gem "webrick", "~> 1.8"
 
-# GitHub Pages compatibility
-gem "github-pages", group: :jekyll_plugins
+# Remove GitHub Pages specific dependency which may be causing conflicts
+# gem "github-pages", group: :jekyll_plugins
 
 # Jekyll plugins for enhanced functionality
 group :jekyll_plugins do

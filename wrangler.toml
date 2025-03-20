@@ -9,7 +9,7 @@ bucket = "./_site"
 
 # Build configuration
 [build]
-command = "gem install bundler && npm run build"
+command = "bash ./build.sh"
 output_dir = "_site"
 
 [build.environment]
