@@ -21,3 +21,6 @@ group :jekyll_plugins do
   # Generates a sitemap.xml for search engines
   gem "jekyll-sitemap"
 end
+
+# Add any additional dependencies your site needs
+gem "kramdown-parser-gfm"  # GitHub Flavored Markdown support
