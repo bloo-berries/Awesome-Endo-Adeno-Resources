@@ -87,8 +87,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Endometriosis library compiler
 - [Roon](https://www.roon.com/)
   - Remote access to vetted medical experts
-- [Hale](https://www.gethale.it/) *Italy
-  - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain.
+- [Hale](https://www.gethale.it/) 
+  - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain. *In Italy*
 
 ## Diagnostic Tools and Platforms
 
