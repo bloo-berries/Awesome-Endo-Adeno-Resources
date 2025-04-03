@@ -434,6 +434,8 @@ Active Clinical Studies:
   - A Phase II clinical study has indicated that 99mTc-maraciclatide is capable of imaging superficial peritoneal endometriosis – the earliest stage of the disease which is not well-visualised with current imaging tools – and plans for a Phase III study in this indication are underway.
 - [Gesynta Pharma](https://www.gesynta.se/)
   - Vipoglanstat to enter clinical phase II development targeting endometriosis. Gesynta Pharma's targeted approach to the enzyme mPGES-1 provides more precise treatments for inflammation and pain.
+- [TiumBio](http://www.tiumbio.com/en/)
+  - Conducting a Phase 2a clinical trial of TU2670 in endometriosis in 5 European countries. TU2670 is an oral GnRH antagonist that can bind to pituitary receptors to suppress estradiol hormone.
 
 <details>
 <summary>Potential Causes</summary>
