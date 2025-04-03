@@ -437,6 +437,8 @@ Active Clinical Studies:
   - Vipoglanstat to enter clinical phase II development targeting endometriosis. Gesynta Pharma's targeted approach to the enzyme mPGES-1 provides more precise treatments for inflammation and pain.
 - [TiumBio](http://www.tiumbio.com/en/)
   - Conducting a Phase 2a clinical trial of TU2670 in endometriosis in 5 European countries. TU2670 is an oral GnRH antagonist that can bind to pituitary receptors to suppress estradiol hormone.
+- [Celmatix](https://www.celmatix.com/pipeline)
+  - Pioneering the first non-hormonal, disease-modifying approach to treating endometriosis that both directly addresses pain mechanisms and resets innate immune cells to cause regression of endometriotic lesions.
 
 <details>
 <summary>Potential Causes</summary>
