@@ -104,6 +104,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Hera Biotech created a diagnostic tool, MetriDx™ - which "replaces costly diagnostic laparoscopic surgery plagued by a calamitous 36% miss rate"
 - [The Blood](https://www.theblood.io/)
   - The first menstrual blood fertility and menopause test
+- [Afynia](https://afynia.com/)
+  - Developing the first-ever microRNA-based molecular screen for endometriosis, called EndomiR: EndomiR compares the expression levels of a panel of microRNAs with those from surgically confirmed cases of endometriosis.
 
 ## Medical Data Tools, Trackers, and Mangers
 
