@@ -122,6 +122,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
       - Uses electronic health records to identify undiagnosed chronic pelvic pain patients using AI/machine learning algorithms
   - [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue)
       - Endometriosis symptom tracker
+  - [HerMaid](https://www.hermaid.me/en/frauengesundheit)
+    - Women's Health management platform for symptom management, tracking, and recommendations
 
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
