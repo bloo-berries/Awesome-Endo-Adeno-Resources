@@ -428,6 +428,10 @@ Dive in to discover practical tips, connect with others who understand what we'r
 Active Research Studies: 
 - [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
   - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
+ 
+Active Clinical Studies:
+- [Serac: New Diagnostic Imaging Potential for Endometriosis](https://www.serachealthcare.com/our-focus/#endometriosis)
+  - A Phase II clinical study has indicated that 99mTc-maraciclatide is capable of imaging superficial peritoneal endometriosis – the earliest stage of the disease which is not well-visualised with current imaging tools – and plans for a Phase III study in this indication are underway.
 
 <details>
 <summary>Potential Causes</summary>
