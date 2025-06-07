@@ -406,6 +406,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Scientific Research & Medical Research Organizations
 
+- [Landmark donation powers world-first endometriosis research institute at UNSW](https://www.unsw.edu.au/newsroom/news/2025/05/Landmark-donation-powers-world-first-endometriosis-research-institute-at-UNSW)
+  - A $50 million philanthropic contribution will position Australia as a global leader in women’s health
 - [Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/)
   - Focuses on understanding molecular subtypes of endometriosis/adenomyosis and developing innovative models like "physiomimetics" to study these diseases
 - [ENACT (UCSF-Stanford Endometriosis Center)](https://www.enactcenter.org/)
