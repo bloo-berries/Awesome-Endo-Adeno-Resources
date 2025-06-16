@@ -12,10 +12,8 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
 - Adenomyosis: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
 
 
-## Table of Contents
+## Contents
 
-- [Overview](#overview)
-  - [Table of Contents](#table-of-contents)
   - [Diagnosis](#diagnosis)
     - [Endometriosis Symptoms](#endometriosis-symptoms)
     - [Adenomyosis Symptoms](#adenomyosis-symptoms)
