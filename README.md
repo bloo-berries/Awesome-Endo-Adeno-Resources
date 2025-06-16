@@ -1,4 +1,9 @@
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="right">
+  <a href="https://awesome.re">
+    <img src="https://awesome.re/badge.svg" alt="Awesome" />
+  </a>
+</div>
+
 # Overview
 
 Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
