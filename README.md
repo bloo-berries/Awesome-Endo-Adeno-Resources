@@ -37,8 +37,7 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
   - [Educational Materials](#educational-materials)
   - [Community Sourced Data and Support](#community-sourced-data-and-support)
   - [Medical Research](#medical-research)
-    - [Research Organizations](#research-organizations)
-    - [Current Clinical Studies](#current-clinical-studies)
+    - [Scientific Research & Medical Research Organizations](#scientific-research-medical-research-organizations)
     - [Current Medical Studies](#current-medical-studies) 
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
