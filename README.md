@@ -27,7 +27,6 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
       - [Supplements; Therapies; Etc](#supplements-therapies-etc)
-      - [Cannabis and Herbal](#cannabis-and-herbal)
   - [Scientific Research and Findings](#scientific-research-and-findings)
     - [Endometriosis](#endometriosis)
     - [Adenomyosis](#adenomyosis)
