@@ -27,7 +27,7 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
       - [Supplements; Therapies; Etc](#supplements-therapies-etc)
-      - [Cannibas and Herbal](#cannibas-and-herbal)
+      - [Cannabis and Herbal](#cannabis-and-herbal)
   - [Scientific Research and Findings](#scientific-research-and-findings)
     - [Endometriosis](#endometriosis)
     - [Adenomyosis](#adenomyosis)
@@ -190,7 +190,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - As stated from [EndoWhat?](https://endowhat.com/educate/), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
 
 <details>
-  <summary>Cannibas and Herbal</summary>
+  <summary>Cannabis and Herbal</summary>
 
   - [Lara Parker's Journey with Endometriosis](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2)
     - "Lara Parker shares her personal experience with endometriosis and discusses various non-surgical treatment options."
