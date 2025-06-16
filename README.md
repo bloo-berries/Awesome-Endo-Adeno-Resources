@@ -137,7 +137,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Perplexity AI is a conversational search engine that uses large language models (LLMs) to answer queries
 - [FEMaLe](https://findingendometriosis.eu/inovation/ai/)
   - The FEMaLe project will bring the revolution with the application of Augmented Reality (AR) in dealing with endometriosis
-- [Endometriosis Subtyping study by @https://github.com/guarelin](https://github.com/Setia-Verma-Lab/endometriosis_subtyping)
+- [Endometriosis Subtyping study by @https://Github.com/guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping)
   - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
 
 ## Therapeutic Treatments
