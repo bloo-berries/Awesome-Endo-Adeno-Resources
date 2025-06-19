@@ -54,6 +54,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
     - Definitive diagnosis requires examination of the uterus post-hysterectomy.
    
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ### Endometriosis Symptoms
 
 
@@ -77,6 +78,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | **Stage 4: Advanced**   | Very severe        | - Extensive tissue infiltration causing significant uterine damage  <br>- Chronic pelvic pain, heavy bleeding, intermenstrual bleeding, and painful intercourse                                                                                                            | Potential damage to surrounding structures |
 
 
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Vetted Physician and Healthcare Providers
 
 - [iCareBetter](https://icarebetter.com/)
@@ -90,6 +92,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Hale](https://www.gethale.it/) 
   - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain. *In Italy*
 
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Diagnostic Tools and Platforms
 
 - [Ziwig](https://ziwig.com/en/ziwig-endotest/) 
@@ -107,6 +111,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Afynia](https://afynia.com/)
   - Developing the first-ever microRNA-based molecular screen for endometriosis, called EndomiR: EndomiR compares the expression levels of a panel of microRNAs with those from surgically confirmed cases of endometriosis.
 
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Medical Data Tools, Trackers, and Mangers
 
 - Genetic Data Testing
@@ -127,6 +133,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [HerMaid](https://www.hermaid.me/en/frauengesundheit)
     - Women's Health management platform for symptom management, tracking, and recommendations
 
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
 - [Scanvio](https://www.scanvio.com/)
@@ -140,6 +148,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Endometriosis Subtyping study by @https://Github.com/guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping)
   - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
 
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Therapeutic Treatments
 
 ### Surgical
@@ -197,6 +207,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
    - "This research highlights the potential of cannabinoids in alleviating endometriosis symptoms in a mouse model."
 </details>
 
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Scientific Research and Findings
 
 ### Endometriosis
@@ -225,6 +237,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Adenomyosis and Chronic Pelvic Pain: New Insights](https://www.sciencedirect.com/science/article/pii/S0301211521001234)
   - "Recent research has provided new insights into the mechanisms underlying chronic pelvic pain in adenomyosis patients, paving the way for more effective pain management strategies."
 
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Potential Co-morbidities
 
 
@@ -257,6 +271,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Sciatica](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                         | Can occur                   | -                         | Low                                       | Rare                  | Due to nerve compression or inflammation          |
 | [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
 
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Financial Assistance Platforms
 
 - [Fortuna Health](https://www.fortunahealth.com/)
@@ -368,6 +384,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 </details>
 
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Educational Materials
 
 - [Below the Belt](https://www.belowthebelt.film/)
@@ -392,6 +409,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Women's Health: Breaking the Taboos](https://tv.apple.com/gb/show/womens-health-breaking-the-taboos/umc.cmc.4r6819yl90qr1ba2fx9ovpbjl)
   - The series is hosted by Cherry Healey and covers topics such as endometriosis, incontinence, hair loss, and the menopause
 
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Community Sourced Data and Support
 
 - Reddit
@@ -401,7 +419,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Endo: treatments, stories, support and research into Endometriosis
   - [/r/adenommyosis](https://www.reddit.com/r/adenomyosis/)
     - A place for people with Adenomyosis
-   
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Medical Research
 
 ### Scientific Research & Medical Research Organizations
@@ -425,6 +444,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [EndoGenomics: A New Era of Endometriosis Research](https://www.endogenomics.com/endo-genomics-a-new-era-of-endometriosis-research)
   - EndoGenomics is a new era of endometriosis research
 
+
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ### Current Medical Studies
 *Important to note that all below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available*
 
@@ -451,7 +472,6 @@ Active Clinical Studies:
     - Researchers in Japan have identified a particular kind of bacteria in those with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
 
 </details>
-
 
 <details>
 <summary>Genetics</summary>
@@ -522,7 +542,6 @@ Active Clinical Studies:
 - [ROSE (Research OutSmarts Endometriosis)](https://feinstein.northwell.edu/institutes-researchers/institute-molecular-medicine/robert-s-boas-center-for-genomics-and-human-genetics/rose-research-outsmarts-endometriosis)
   - "This study aims to better understand the genetic, cellular, and molecular mechanisms underlying endometriosis, with the goal of developing more effective diagnostic tools and treatments."
 
-[Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ### Adenomyosis Specific Studies
 
 - [Evaluating the Efficacy of Non-Hormonal Therapies for Adenomyosis](https://clinicaltrials.gov/ct2/show/NCT04678901)
