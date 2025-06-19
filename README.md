@@ -132,6 +132,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
       - Endometriosis symptom tracker
   - [HerMaid](https://www.hermaid.me/en/frauengesundheit)
     - Women's Health management platform for symptom management, tracking, and recommendations
+  - [NoEndo](https://www.noendo.fr/#/)
+    - NoEndo is a French platform designed to help individuals affected by endometriosis
 
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
