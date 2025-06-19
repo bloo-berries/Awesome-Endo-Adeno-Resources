@@ -32,8 +32,8 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
     - [Adenomyosis](#adenomyosis)
   - [Potential Co-morbidities](#potential-co-morbidities)
   - [Financial Assistance Platforms](#financial-assistance-platforms)
-  - [Advocacy Groups](#advocacy-groups)
-    - [Regional](#regional)
+  - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
+    - [Regional Based Grops and Platforms](#regional-based-groups-and-platforms)
   - [Educational Materials](#educational-materials)
   - [Community Sourced Data and Support](#community-sourced-data-and-support)
   - [Medical Research](#medical-research)
@@ -262,7 +262,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Fortuna Health](https://www.fortunahealth.com/)
   - Medicaid eligibility checker, enrollment, and care renewal
 
-## Advocacy Groups
+## Advocacy Groups and Platforms
 
 - [Endo Black](https://endoblack.org/)
   - Black-women-led nonprofit organization advocating for and educating Black women living with and impacted by endometriosis
@@ -271,7 +271,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [FOLX Health](https://www.folxhealth.com/)
   - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
 
-### Regional
+### Regional Based Groups and Platforms
 <details>
 <summary>Americas and Carribean</summary>
   
