@@ -388,6 +388,10 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 </details>
 
+## Fertility Resources
+- [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
+  - This article explores how endometriosis affects fertility, when to consider egg freezing
+
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Educational Materials
 
