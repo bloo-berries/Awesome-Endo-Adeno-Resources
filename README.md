@@ -34,6 +34,7 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
   - [Financial Assistance Platforms](#financial-assistance-platforms)
   - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
     - [Regional Based Grops and Platforms](#regional-based-groups-and-platforms)
+  - [Fertility Resources](#fertility-resources)
   - [Educational Materials](#educational-materials)
   - [Community Sourced Data and Support](#community-sourced-data-and-support)
   - [Medical Research](#medical-research)
