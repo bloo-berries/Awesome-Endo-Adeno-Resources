@@ -66,6 +66,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 |**Stage III (Moderate)**|Moderate|- Chronic pelvic pain  <br>- Severe dysmenorrhea  <br>- Dyspareunia  <br>- Dyschezia  <br>- Infertility|Local spread|
 |**Stage IV (Severe)**|Severe|- Chronic, severe pelvic pain  <br>- Debilitating dysmenorrhea  <br>- Severe dyspareunia  <br>- Dyschezia  <br>- Dysuria  <br>- Infertility  <br>- Bowel/bladder dysfunction|Extensive local spread|
 |**Stage IV+ (Very Severe)**|Very severe|- All Stage IV symptoms, plus:  <br>**Deep Infiltrating Endometriosis (DIE):**  <br>- Intense chronic pelvic pain  <br>- Severe dyspareunia  <br>- Dyschezia, bowel obstruction possible  <br>- Dysuria, hydronephrosis possible  <br>- Organ dysfunction depending on affected areas (e.g., bowel, bladder)  <br>  <br>**Thoracic Endometriosis:**  <br>- Catamenial pneumothorax (lung collapse during menstruation)  <br>- Hemoptysis (coughing up blood)  <br>- Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath)  <br>- Hemothorax or pericardial effusion in severe cases|Extensive spread to deep tissues or distant sites such as the chest cavity|
+*Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms 
 
 ### Adenomyosis Symptoms
 
