@@ -193,8 +193,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - Latest Advancements in Non-Surgical Diagnostic Tests for Endometriosis
 
 
-
-
 | Diagnostic Method        | Key Features                                   | Advantages                                    | Limitations                                |
 |--------------------------|-----------------------------------------------|----------------------------------------------|-------------------------------------------|
 | [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test)| Identifies protein biomarkers                 | Cost-effective, early-stage detection        | Requires further validation for global use|
@@ -203,9 +201,11 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | Imaging Innovations      | Advanced imaging technologies                 | Reliable alternative to surgery              | Clinical trials ongoing                   |
 | AI + Omics Integration   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
 
+### Medicinal 
 
-#### Supplements; Therapies; Etc
-- As stated from [EndoWhat?](https://endowhat.com/educate/), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
+### - As stated from [EndoWhat?](https://endowhat.com/educate/), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
+- 
+#### Medication and Medicinal Supplements
 
 <details>
   <summary>Cannabis and Herbal</summary>
@@ -218,6 +218,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
    - "This research highlights the potential of cannabinoids in alleviating endometriosis symptoms in a mouse model."
 </details>
 
+#### Physical Therapy
+- [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/)
+  - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It’s also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Scientific Research and Findings
