@@ -120,6 +120,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - The first menstrual blood fertility and menopause test
 - [Afynia](https://afynia.com/)
   - Developing the first-ever microRNA-based molecular screen for endometriosis, called EndomiR: EndomiR compares the expression levels of a panel of microRNAs with those from surgically confirmed cases of endometriosis.
+- [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis)
+  - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose endometriosis using menstrual blood
 
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
