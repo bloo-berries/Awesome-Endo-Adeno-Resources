@@ -50,10 +50,16 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Laparoscopy remains the gold standard for definitive diagnosis.
     - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases.
     - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) have shown promise in detecting biomarkers associated with the disease.
+  - Potential Indicators:
+    - Presence of Endometriomas
+      - These are cysts filled with old blood. Endometriomas are a type of Endometriosis, but alternatively, Endometriosis does not mean that you have an Endometrioma.
 - Adenomyosis
   - Current Methods:
     - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
     - Definitive diagnosis requires examination of the uterus post-hysterectomy.
+  - Potential Inidcators:
+    - Decidual Casts
+    - Excessive Bleeding during periods
    
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ### Endometriosis Symptoms
