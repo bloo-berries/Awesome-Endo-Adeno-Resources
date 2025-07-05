@@ -173,6 +173,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - **Laparoscopic Excision Surgery**
   - "Laparoscopic excision surgery is considered the gold standard for the treatment of endometriosis, involving the removal of endometriotic lesions while preserving healthy tissue."
+    - **Critical Note**: While excision remains the gold standard for treating Endo, NOT ALL excision surgeons are equally qualified or experienced. Do your research and ask questions.
 - **Presacral Neurectomy**
   - "Presacral neurectomy involves cutting the nerves to the uterus to relieve severe pelvic pain associated with endometriosis."
 - **Lysis of Adhesions**
