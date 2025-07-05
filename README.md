@@ -26,7 +26,8 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
       - [Endometriosis Treatments](#endometriosis-treatments)
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
-      - [Supplements; Therapies; Etc](#supplements-therapies-etc)
+      - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
+      - [Physical Therapy](#physical-therapy)
   - [Scientific Research and Findings](#scientific-research-and-findings)
     - [Endometriosis](#endometriosis)
     - [Adenomyosis](#adenomyosis)
@@ -203,8 +204,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Medicinal 
 
-### - As stated from [EndoWhat?](https://endowhat.com/educate/), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
-- 
+#### As stated from [EndoWhat?](https://endowhat.com/educate/), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
+
 #### Medication and Medicinal Supplements
 
 <details>
