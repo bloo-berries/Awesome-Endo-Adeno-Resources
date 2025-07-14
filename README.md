@@ -421,8 +421,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - A book by Dian Shepperson Mills and Michael Vernon that discusses dietary approaches to managing endometriosis
 - [EndoWhat](https://www.youtube.com/c/endowhat)
   - A film to provide an accurate base of knowledge about endometriosis straight from the experts.
-- [SpeakENDO](https://www.speakendo.com/)
-  - A platform offering resources and information to help individuals better understand and communicate about endometriosis
 - [The Doctor Will See You Now: Recognizing and Treating Endometriosis](https://www.amazon.com/Doctor-Will-See-You-Now/dp/0738280737)
   - A book by Dr. Tamer Seckin that provides comprehensive information on endometriosis
 - [Women's Health: Breaking the Taboos](https://tv.apple.com/gb/show/womens-health-breaking-the-taboos/umc.cmc.4r6819yl90qr1ba2fx9ovpbjl)
