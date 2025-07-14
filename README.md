@@ -314,16 +314,16 @@ Dive in to discover practical tips, connect with others who understand what we'r
 <details>
 <summary>Americas and Carribean</summary>
   
-  - [Worldwide Endometriosis March](https://endomarch.org/)
-    - Largest, internationally-coordinated endometriosis coalition in the world
-  - [The Endometriosis Coalition](https://www.theendo.co/)
-    - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
   - [Endometriosis Canada EEOC](https://www.facebook.com/EndoOrgCanada/)
     - The EEOC is a non-profit organization based out of British Columbia, Canada that focuses on furthering Endometriosis Research 
   - [Endometriosis Trinidad & Tobago](https://www.endott.org/)
     - The TTEA works with all stakeholders to improve health outcomes for endometriosis patients in Trinidad and Tobago
   - [The Endometriosis Network Canada](https://endometriosisnetwork.com/)
     - Community that supports the diverse needs of every unique endometriosis journey.
+  - [The Endometriosis Coalition](https://www.theendo.co/)
+    - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
+  - [Worldwide Endometriosis March](https://endomarch.org/)
+    - Largest, internationally-coordinated endometriosis coalition in the world
 </details>
 
 <details>
@@ -416,25 +416,25 @@ Dive in to discover practical tips, connect with others who understand what we'r
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Educational Materials
 
+- [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
+  - Offers information and support for individuals with adenomyosis
+- [Beating Endo: How to Reclaim Your Life from Endometriosis](https://www.amazon.com/Beating-Endo-Reclaim-Your-Endometriosis/dp/073828354X)
+  - A book by Dr. Iris Orbuch and Amy Stein that offers guidance on managing endometriosis
 - [Below the Belt](https://www.belowthebelt.film/)
   - A film through the lens of endometriosis featuring the personal stories of four patients.
   - Watch for free on [PBS](https://www.pbs.org/show/below-belt-last-health-taboo/)
-- [EndoWhat](https://endowhat.com/)
-  - A film to provide an accurate base of knowledge about endometriosis straight from the experts.
-- [Endographics](https://www.endographics.org/english)
-  - Easy to share educational graphics about Endometriosis
-- [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
-  - Offers information and support for individuals with adenomyosis
-- [The Doctor Will See You Now: Recognizing and Treating Endometriosis](https://www.amazon.com/Doctor-Will-See-You-Now/dp/0738280737)
-  - A book by Dr. Tamer Seckin that provides comprehensive information on endometriosis
-- [Beating Endo: How to Reclaim Your Life from Endometriosis](https://www.amazon.com/Beating-Endo-Reclaim-Your-Endometriosis/dp/073828354X)
-  - A book by Dr. Iris Orbuch and Amy Stein that offers guidance on managing endometriosis
-- [Endometriosis: A Key to Healing Through Nutrition](https://www.amazon.com/Endometriosis-Key-Healing-Through-Nutrition/dp/0722538991)
-  - A book by Dian Shepperson Mills and Michael Vernon that discusses dietary approaches to managing endometriosis
 - [EndoFound Educational Videos](https://www.endofound.org/video)
   - A collection of educational videos provided by the Endometriosis Foundation of America
+- [Endographics](https://www.endographics.org/english)
+  - Easy to share educational graphics about Endometriosis
+- [Endometriosis: A Key to Healing Through Nutrition](https://www.amazon.com/Endometriosis-Key-Healing-Through-Nutrition/dp/0722538991)
+  - A book by Dian Shepperson Mills and Michael Vernon that discusses dietary approaches to managing endometriosis
+- [EndoWhat](https://endowhat.com/)
+  - A film to provide an accurate base of knowledge about endometriosis straight from the experts.
 - [SpeakENDO](https://www.speakendo.com/)
   - A platform offering resources and information to help individuals better understand and communicate about endometriosis
+- [The Doctor Will See You Now: Recognizing and Treating Endometriosis](https://www.amazon.com/Doctor-Will-See-You-Now/dp/0738280737)
+  - A book by Dr. Tamer Seckin that provides comprehensive information on endometriosis
 - [Women's Health: Breaking the Taboos](https://tv.apple.com/gb/show/womens-health-breaking-the-taboos/umc.cmc.4r6819yl90qr1ba2fx9ovpbjl)
   - The series is hosted by Cherry Healey and covers topics such as endometriosis, incontinence, hair loss, and the menopause
 
@@ -442,36 +442,36 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ## Community Sourced Data and Support
 
 - Reddit
-  - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
-    - Endo support community
   - [/r/Endo](https://www.reddit.com/r/Endo/)
     - Endo: treatments, stories, support and research into Endometriosis
   - [/r/adenommyosis](https://www.reddit.com/r/adenomyosis/)
     - A place for people with Adenomyosis
+  - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
+    - Endo support community
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Medical Research
 
 ### Scientific Research & Medical Research Organizations
 
-- [Landmark donation powers world-first endometriosis research institute at UNSW](https://www.unsw.edu.au/newsroom/news/2025/05/Landmark-donation-powers-world-first-endometriosis-research-institute-at-UNSW)
-  - A $50 million philanthropic contribution will position Australia as a global leader in women’s health
-- [Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/)
-  - Focuses on understanding molecular subtypes of endometriosis/adenomyosis and developing innovative models like "physiomimetics" to study these diseases
-- [ENACT (UCSF-Stanford Endometriosis Center)](https://www.enactcenter.org/)
-  - Conducts multi-omic studies to classify disease phenotypes, identify therapeutic targets, and improve patient outcomes
 - [AthenaDAO](https://www.athenadao.co/about)
   - Funds translational research; On-chain incentives to fund early-stage research and biotech startups; Focus on Fertility
+- [Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/)
+  - Focuses on understanding molecular subtypes of endometriosis/adenomyosis and developing innovative models like "physiomimetics" to study these diseases
 - [Citizen Endo](https://citizenendo.org/)
   - A research initiative partnering with patients to better understand and manage endometriosis
     - Created Phendo App; Phendo is a free research app to track, manage, and understand endometriosis. Opportunities to reflect upon your data may help you in managing your disease
-- [Society for Women’s Health Research (SWHR)](https://swhr.org/)
-  - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
-- [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
+- [ENACT (UCSF-Stanford Endometriosis Center)](https://www.enactcenter.org/)
+  - Conducts multi-omic studies to classify disease phenotypes, identify therapeutic targets, and improve patient outcomes
 - [EndoGames](https://endogames.com/)
   - EndoGames is a community-driven platform for endometriosis research
 - [EndoGenomics: A New Era of Endometriosis Research](https://www.endogenomics.com/endo-genomics-a-new-era-of-endometriosis-research)
   - EndoGenomics is a new era of endometriosis research
+- [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
+- [Landmark donation powers world-first endometriosis research institute at UNSW](https://www.unsw.edu.au/newsroom/news/2025/05/Landmark-donation-powers-world-first-endometriosis-research-institute-at-UNSW)
+  - A $50 million philanthropic contribution will position Australia as a global leader in women’s health
+- [Society for Women’s Health Research (SWHR)](https://swhr.org/)
+  - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
 
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
@@ -479,20 +479,21 @@ Dive in to discover practical tips, connect with others who understand what we'r
 *Important to note that all below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available*
 
 Active Research Studies: 
-- [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
-  - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
 - [CurE-me](https://bii.dk/bio-studio-projects/cure-me/)
   - Harnessing patient-derived organoids into drug discovery toward the development of first-in-class targeted therapeutics for endometriosis.
+- [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
+  - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
  
 Active Clinical Studies:
-- [Serac: New Diagnostic Imaging Potential for Endometriosis](https://www.serachealthcare.com/our-focus/#endometriosis)
-  - A Phase II clinical study has indicated that 99mTc-maraciclatide is capable of imaging superficial peritoneal endometriosis – the earliest stage of the disease which is not well-visualised with current imaging tools – and plans for a Phase III study in this indication are underway.
-- [Gesynta Pharma](https://www.gesynta.se/)
-  - Vipoglanstat to enter clinical phase II development targeting endometriosis. Gesynta Pharma's targeted approach to the enzyme mPGES-1 provides more precise treatments for inflammation and pain.
-- [TiumBio](http://www.tiumbio.com/en/)
-  - Conducting a Phase 2a clinical trial of TU2670 in endometriosis in 5 European countries. TU2670 is an oral GnRH antagonist that can bind to pituitary receptors to suppress estradiol hormone.
 - [Celmatix](https://www.celmatix.com/pipeline)
   - Pioneering the first non-hormonal, disease-modifying approach to treating endometriosis that both directly addresses pain mechanisms and resets innate immune cells to cause regression of endometriotic lesions.
+- [Gesynta Pharma](https://www.gesynta.se/)
+  - Vipoglanstat to enter clinical phase II development targeting endometriosis. Gesynta Pharma's targeted approach to the enzyme mPGES-1 provides more precise treatments for inflammation and pain.
+- [RPN-002 (nolasiban), another orally administered therapy, is a first-in-disease and first-in-class molecular entity to manage adenomyosis](https://repronovo.com/press-release/repronovo-raises-65-million-series-a-financing-to-advance-phase-2-clinical-trials-of-novel-therapies-in-reproductive-medicine-and-womens-health/)
+- [Serac: New Diagnostic Imaging Potential for Endometriosis](https://www.serachealthcare.com/our-focus/#endometriosis)
+  - A Phase II clinical study has indicated that 99mTc-maraciclatide is capable of imaging superficial peritoneal endometriosis – the earliest stage of the disease which is not well-visualised with current imaging tools – and plans for a Phase III study in this indication are underway.
+- [TiumBio](http://www.tiumbio.com/en/)
+  - Conducting a Phase 2a clinical trial of TU2670 in endometriosis in 5 European countries. TU2670 is an oral GnRH antagonist that can bind to pituitary receptors to suppress estradiol hormone.
 
 <details>
 <summary>Potential Causes</summary>
