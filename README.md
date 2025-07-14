@@ -308,8 +308,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 <details>
 <summary>Americas and Carribean</summary>
   
-  - [Endometriosis Canada EEOC](https://endocanada.org/)
-    - The EEOC is a non-profit organization based out of British Columbia, Canada that focuses on furthering Endometriosis Research 
   - [The Endometriosis Network Canada](https://endometriosisnetwork.com/)
     - Community that supports the diverse needs of every unique endometriosis journey.
   - [The Endometriosis Coalition](https://www.theendo.co/)
