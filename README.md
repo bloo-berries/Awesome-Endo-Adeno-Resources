@@ -395,7 +395,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
    - Focuses on raising awareness and providing support for endometriosis patients in Sweden
 - UK
   - [Endometriosis UK](https://endometriosisuk.org/)
-  - [Endo Sisters UK](https://endosisters.org/)
 </details>
 
 <details>
