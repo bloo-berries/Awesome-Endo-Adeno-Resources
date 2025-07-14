@@ -240,8 +240,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - "The pooled odds ratio for endometriosis and ovarian cancer was 4.2 (95% CI, 3.2 to 5.5)"
 - [Novel Biomarkers for Endometriosis Diagnosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7891234/)
   - "Recent studies have identified several potential biomarkers, including microRNAs and cytokines, that could improve the accuracy of endometriosis diagnosis."
-- [Advancements in Endometriosis Treatment: A Review](https://www.frontiersin.org/articles/10.3389/fendo.2021.789456/full)
-  - "This review highlights the latest advancements in medical and surgical treatments for endometriosis, including the use of hormonal therapies and minimally invasive surgical techniques."
 - [Endometriosis Association with Gut Health and Inflammation](https://www.frontiersin.org/journals/reproductive-health/articles/10.3389/frph.2022.963752/full)
   - "This article explores the link between endometriosis, gut health, and inflammation, suggesting that gut microbiota may play a role in the pathogenesis of endometriosis and its associated symptoms."
 - [Endometriosis: Pathophysiology and Management](https://www.mdpi.com/2227-9059/12/4/888)
