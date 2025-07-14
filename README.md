@@ -1,10 +1,6 @@
-<div align="right">
-  <a href="https://awesome.re">
-    <img src="https://awesome.re/badge.svg" alt="Awesome" />
-  </a>
-</div>
-
 # Overview
+
+![Awesome](https://awesome.re/badge.svg)
 
 Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
 
@@ -17,7 +13,6 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
   - [Contents](#contents)
   - [Diagnosis](#diagnosis)
     - [Endometriosis Symptoms](#endometriosis-symptoms)
-    - [Endometriosis Symptoms](#endometriosis-symptoms-1)
     - [Adenomyosis Symptoms](#adenomyosis-symptoms)
   - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
   - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
@@ -29,7 +24,7 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
     - [Medicinal](#medicinal)
-      - [As stated from EndoWhat?, "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
+      - [As stated from EndoWhat?, "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
       - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
       - [Physical Therapy](#physical-therapy)
   - [Scientific Research and Findings](#scientific-research-and-findings)
@@ -47,6 +42,7 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
     - [Current Medical Studies](#current-medical-studies)
     - [Important Note](#important-note)
     - [Active Research Studies](#active-research-studies)
+    - [Potential Causes](#potential-causes)
     - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
@@ -495,13 +491,10 @@ Active Clinical Studies:
 - [TiumBio](http://www.tiumbio.com/en/)
   - Conducting a Phase 2a clinical trial of TU2670 in endometriosis in 5 European countries. TU2670 is an oral GnRH antagonist that can bind to pituitary receptors to suppress estradiol hormone.
 
-<details>
-<summary>Potential Causes</summary>
+### Potential Causes
 
 - [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
   - Researchers in Japan have identified a particular kind of bacteria in those with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
-
-</details>
 
 <details>
 <summary>Genetics</summary>
