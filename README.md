@@ -328,7 +328,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 <summary>Africa</summary>
   
   - East Africa:
-    - [Endo Sisters East Africa Foundation](https://www.facebook.com/endosisterseastafrica)
+    - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
       - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
     - [Endometriosis Foundation of Kenya](https://www.facebook.com/Endometriosiskenya/)
       - NGO raising awareness and proving support for those with Endometriosis
