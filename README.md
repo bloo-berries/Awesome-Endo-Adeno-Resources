@@ -658,8 +658,6 @@ Active Clinical Studies:
   - "This study explores the relationship between endometriosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
 - [Adenomyosis and Fertility Treatments](https://clinicaltrials.gov/ct2/show/NCT09478901)
   - "This research investigates the impact of adenomyosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT09512345)
-  - "This ongoing study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
 - [Adenomyosis and Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT09645678)
   - "This study investigates the mechanisms underlying chronic pelvic pain in adenomyosis patients, with the goal of developing more effective pain management strategies."
 - [Endometriosis and Immune System Dysfunction](https://clinicaltrials.gov/ct2/show/NCT09778901)
