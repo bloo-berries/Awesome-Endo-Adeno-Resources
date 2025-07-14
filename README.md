@@ -11,21 +11,24 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
 - Endometriosis: A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
 - Adenomyosis: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
 
-
 ## Contents
 
+- [Overview](#overview)
+  - [Contents](#contents)
   - [Diagnosis](#diagnosis)
     - [Endometriosis Symptoms](#endometriosis-symptoms)
     - [Adenomyosis Symptoms](#adenomyosis-symptoms)
   - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
   - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
   - [Medical Data Tools, Trackers, and Mangers](#medical-data-tools-trackers-and-mangers)
-  - [AI-Enabled Platforms and Ongoing Studies for Research](#AI-Enabled-Platforms-and-Ongoing-Studies-for-Research)
+  - [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
   - [Therapeutic Treatments](#therapeutic-treatments)
     - [Surgical](#surgical)
       - [Endometriosis Treatments](#endometriosis-treatments)
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
+    - [Medicinal](#medicinal)
+      - [As stated from EndoWhat?, "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
       - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
       - [Physical Therapy](#physical-therapy)
   - [Scientific Research and Findings](#scientific-research-and-findings)
@@ -34,18 +37,22 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
   - [Potential Co-morbidities](#potential-co-morbidities)
   - [Financial Assistance Platforms](#financial-assistance-platforms)
   - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
-    - [Regional Based Grops and Platforms](#regional-based-groups-and-platforms)
+    - [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
   - [Fertility Resources](#fertility-resources)
   - [Educational Materials](#educational-materials)
   - [Community Sourced Data and Support](#community-sourced-data-and-support)
   - [Medical Research](#medical-research)
-    - [Scientific Research & Medical Research Organizations](#scientific-research-medical-research-organizations)
-    - [Current Medical Studies](#current-medical-studies) 
+    - [Scientific Research \& Medical Research Organizations](#scientific-research--medical-research-organizations)
+    - [Current Medical Studies](#current-medical-studies)
+    - [Important Note](#important-note)
+    - [Active Research Studies](#active-research-studies)
+    - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
 
 ## Diagnosis
+
 - Endometriosis
   - Current Methods:
     - Laparoscopy remains the gold standard for definitive diagnosis.
@@ -61,10 +68,10 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Potential Inidcators:
     - Decidual Casts
     - Excessive Bleeding during periods
-   
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
-### Endometriosis Symptoms
 
+[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
+### Endometriosis Symptoms
 
 |Stage/Type|Severity|Symptoms|Metastasis|
 |---|---|---|---|
@@ -74,7 +81,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 |**Stage IV (Severe)**|Severe|- Chronic, severe pelvic pain  <br>- Debilitating dysmenorrhea  <br>- Severe dyspareunia  <br>- Dyschezia  <br>- Dysuria  <br>- Infertility  <br>- Bowel/bladder dysfunction|Extensive local spread|
 |**Stage IV+ (Very Severe)**|Very severe|- All Stage IV symptoms, plus:  <br>**Deep Infiltrating Endometriosis (DIE):**  <br>- Intense chronic pelvic pain  <br>- Severe dyspareunia  <br>- Dyschezia, bowel obstruction possible  <br>- Dysuria, hydronephrosis possible  <br>- Organ dysfunction depending on affected areas (e.g., bowel, bladder)  <br>  <br>**Thoracic Endometriosis:**  <br>- Catamenial pneumothorax (lung collapse during menstruation)  <br>- Hemoptysis (coughing up blood)  <br>- Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath)  <br>- Hemothorax or pericardial effusion in severe cases|Extensive spread to deep tissues or distant sites such as the chest cavity|
 
-*Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms 
+*Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms
 
 ### Adenomyosis Symptoms
 
@@ -87,8 +94,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | **Stage 3: Severe**     | Severe             | - Severe infiltration leading to distortion of uterine shape  <br>- Escalating menstrual pain and flow intensity                                                                                                                                                           | Possible localized spread                  |
 | **Stage 4: Advanced**   | Very severe        | - Extensive tissue infiltration causing significant uterine damage  <br>- Chronic pelvic pain, heavy bleeding, intermenstrual bleeding, and painful intercourse                                                                                                            | Potential damage to surrounding structures |
 
-
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Vetted Physician and Healthcare Providers
 
 - [iCareBetter](https://icarebetter.com/)
@@ -97,14 +104,14 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Empowering patient lives with compassionate tech
 - [Roon](https://www.roon.com/)
   - Remote access to vetted medical experts
-- [Hale](https://www.gethale.it/) 
+- [Hale](https://www.gethale.it/)
   - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain. *In Italy*
 
-
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Diagnostic Tools and Platforms
 
-- [Ziwig](https://ziwig.com/en/ziwig-endotest/) 
+- [Ziwig](https://ziwig.com/en/ziwig-endotest/)
   - A saliva test for endometriosis providing a reliable diagnosis within just a few days
 - [Qvin](https://qvin.com/)
   - Turn your monthly menstrual blood into lab reports and access personalized health data
@@ -121,8 +128,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis)
   - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose endometriosis using menstrual blood
 
-
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Medical Data Tools, Trackers, and Mangers
 
 - Genetic Data Testing
@@ -137,16 +144,16 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Nebula Genomics offers secure storage and analysis of whole genome sequencing data
 - Trackers & Data Managers
   - [LasaHealth](https://www.lasahealth.com/)
-      - Uses electronic health records to identify undiagnosed chronic pelvic pain patients using AI/machine learning algorithms
+    - Uses electronic health records to identify undiagnosed chronic pelvic pain patients using AI/machine learning algorithms
   - [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue)
-      - Endometriosis symptom tracker
+    - Endometriosis symptom tracker
   - [HerMaid](https://www.hermaid.me/en/frauengesundheit)
     - Women's Health management platform for symptom management, tracking, and recommendations
   - [NoEndo](https://www.noendo.fr/#/)
     - NoEndo is a French platform designed to help individuals affected by endometriosis
 
-
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
 - [Scanvio](https://www.scanvio.com/)
@@ -160,14 +167,15 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Endometriosis Subtyping study by @guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping)
   - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
 
-
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Therapeutic Treatments
 
 ### Surgical
 
 #### Endometriosis Treatments
-  * It is critical to note: Hysterecomy DOES NOT treat Endometriosis, only Adenomyosis
+
+- It is critical to note: Hysterecomy DOES NOT treat Endometriosis, only Adenomyosis
 
 - **Laparoscopic Excision Surgery**
   - "Laparoscopic excision surgery is considered the gold standard for the treatment of endometriosis, involving the removal of endometriotic lesions while preserving healthy tissue."
@@ -199,7 +207,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - Latest Advancements in Non-Surgical Diagnostic Tests for Endometriosis
 
-
 | Diagnostic Method        | Key Features                                   | Advantages                                    | Limitations                                |
 |--------------------------|-----------------------------------------------|----------------------------------------------|-------------------------------------------|
 | [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test)| Identifies protein biomarkers                 | Cost-effective, early-stage detection        | Requires further validation for global use|
@@ -208,7 +215,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | Imaging Innovations      | Advanced imaging technologies                 | Reliable alternative to surgery              | Clinical trials ongoing                   |
 | AI + Omics Integration   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
 
-### Medicinal 
+### Medicinal
 
 #### As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
 
@@ -217,19 +224,22 @@ Dive in to discover practical tips, connect with others who understand what we'r
 <details>
   <summary>Cannabis and Herbal</summary>
 
-  - [Lara Parker's Journey with Endometriosis](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2)
-    - "Lara Parker shares her personal experience with endometriosis and discusses various non-surgical treatment options."
-  - [Cannabis and Endometriosis: A Survey of Its Effectiveness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940)
-   - "This study explores the effectiveness of cannabis in managing endometriosis symptoms, providing valuable insights into its potential benefits."
-  - [Cannabinoids Improve Symptoms in Mice with Endometriosis](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis)
-   - "This research highlights the potential of cannabinoids in alleviating endometriosis symptoms in a mouse model."
+- [Lara Parker's Journey with Endometriosis](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2)
+  - "Lara Parker shares her personal experience with endometriosis and discusses various non-surgical treatment options."
+- [Cannabis and Endometriosis: A Survey of Its Effectiveness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940)
+- "This study explores the effectiveness of cannabis in managing endometriosis symptoms, providing valuable insights into its potential benefits."
+- [Cannabinoids Improve Symptoms in Mice with Endometriosis](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis)
+- "This research highlights the potential of cannabinoids in alleviating endometriosis symptoms in a mouse model."
+
 </details>
 
 #### Physical Therapy
+
 - [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/)
   - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It’s also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Scientific Research and Findings
 
 ### Endometriosis
@@ -254,11 +264,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Systemic comorbidities in patients with adenomyosis](https://www.sciencedirect.com/science/article/pii/S1472648325003098)
   - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and endometriosis (n=347)."
 
-
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Potential Co-morbidities
-
-
 
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
@@ -288,8 +296,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Sciatica](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                         | Can occur                   | -                         | Low                                       | Rare                  | Due to nerve compression or inflammation          |
 | [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
 
-
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Financial Assistance Platforms
 
 - [Fortuna Health](https://www.fortunahealth.com/)
@@ -305,43 +313,47 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
 
 ### Regional Based Groups and Platforms
+
 <details>
 <summary>Americas and Carribean</summary>
   
-  - [The Endometriosis Network Canada](https://endometriosisnetwork.com/)
-    - Community that supports the diverse needs of every unique endometriosis journey.
-  - [The Endometriosis Coalition](https://www.theendo.co/)
-    - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
-  - [Worldwide Endometriosis March](https://endomarch.org/)
-    - Largest, internationally-coordinated endometriosis coalition in the world
+- [The Endometriosis Network Canada](https://endometriosisnetwork.com/)
+  - Community that supports the diverse needs of every unique endometriosis journey.
+- [The Endometriosis Coalition](https://www.theendo.co/)
+  - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
+- [Worldwide Endometriosis March](https://endomarch.org/)
+  - Largest, internationally-coordinated endometriosis coalition in the world
+
 </details>
 
 <details>
 <summary>Africa</summary>
   
-  - East Africa:
-    - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
-      - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
-    - [Endometriosis Foundation of Kenya](https://endofoundke.org/efk-website#home)
-      - NGO raising awareness and proving support for those with Endometriosis
-  - West Africa:
-    - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
-      - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
+- East Africa:
+  - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
+    - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
+  - [Endometriosis Foundation of Kenya](https://endofoundke.org/efk-website#home)
+    - NGO raising awareness and proving support for those with Endometriosis
+- West Africa:
+  - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
+    - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
+
 </details>
 
 <details>
 <summary>APAC & Australia/New Zealand</summary>
   
-  - [Endometriosis Australia](https://endometriosisaustralia.org/)
-    - Advocacy, funding, education
-  - [Endometriosis New Zealand](https://nzendo.org.nz/)
-    - Provides support, education, and advocacy for those affected by endometriosis in New Zealand
-  - [Centre for Endometriosis & Fibroids (Singapore)](https://endofibroid.com.sg/)
-    - Offers support and resources for individuals with endometriosis, fibroids and Adenomyosis in Singapore
-  - [Pang Man Wah Selina Clinic](https://www.finddoc.com/en/doctors/pang-man-wah-selina-2265)
-    - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong. Dr. Pang Man Wah Selina reviewed "Endometriosis | The Silent Women's Health Crisis of Our Time"
-  - [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
-    - Dedicated to supporting and educating individuals with endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
+- [Endometriosis Australia](https://endometriosisaustralia.org/)
+  - Advocacy, funding, education
+- [Endometriosis New Zealand](https://nzendo.org.nz/)
+  - Provides support, education, and advocacy for those affected by endometriosis in New Zealand
+- [Centre for Endometriosis & Fibroids (Singapore)](https://endofibroid.com.sg/)
+  - Offers support and resources for individuals with endometriosis, fibroids and Adenomyosis in Singapore
+- [Pang Man Wah Selina Clinic](https://www.finddoc.com/en/doctors/pang-man-wah-selina-2265)
+  - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong. Dr. Pang Man Wah Selina reviewed "Endometriosis | The Silent Women's Health Crisis of Our Time"
+- [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
+  - Dedicated to supporting and educating individuals with endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
+
 </details>
 
 <details>
@@ -353,7 +365,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Provides support and raises awareness about endometriosis in France
 - Germany
   - [Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
-   - Offers support, information, and advocacy for individuals with endometriosis in Germany
+  - Offers support, information, and advocacy for individuals with endometriosis in Germany
 - Iceland
   - [Endo Organization](https://endo.is/)
     - Provides support and improved health services in Iceland for Endometriosis
@@ -379,25 +391,29 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Offers resources and advocacy for endometriosis patients in Spain
 - Sweden
   - [Endometriosföreningen](https://www.endometriosforeningen.com/)
-   - Focuses on raising awareness and providing support for endometriosis patients in Sweden
+  - Focuses on raising awareness and providing support for endometriosis patients in Sweden
 - UK
   - [Endometriosis UK](https://endometriosisuk.org/)
+
 </details>
 
 <details>
 <summary>LATAM</summary>
   
-  - [Expertos en Endometriosis EndoLATAM](www.endolatam.com)
-    - Comunidad de médicos certificados en Endometriosis en Latinoamérica
-  - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
-    - Passed a historic, first of its kind, Endometriosis Bill in Colombia
+- [Expertos en Endometriosis EndoLATAM](www.endolatam.com)
+  - Comunidad de médicos certificados en Endometriosis en Latinoamérica
+- [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
+  - Passed a historic, first of its kind, Endometriosis Bill in Colombia
+
 </details>
 
 ## Fertility Resources
+
 - [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
   - This article explores how endometriosis affects fertility, when to consider egg freezing
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Educational Materials
 
 - [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
@@ -421,6 +437,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - The series is hosted by Cherry Healey and covers topics such as endometriosis, incontinence, hair loss, and the menopause
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Community Sourced Data and Support
 
 - Reddit
@@ -432,6 +449,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Endo support community
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ## Medical Research
 
 ### Scientific Research & Medical Research Organizations
@@ -451,16 +469,21 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Society for Women’s Health Research (SWHR)](https://swhr.org/)
   - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
 
-
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+
 ### Current Medical Studies
+
+### Important Note
+
 *Important to note that all below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available*
 
-Active Research Studies: 
+### Active Research Studies
+
 - [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
   - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
- 
+
 Active Clinical Studies:
+
 - [Celmatix](https://www.celmatix.com/pipeline)
   - Pioneering the first non-hormonal, disease-modifying approach to treating endometriosis that both directly addresses pain mechanisms and resets innate immune cells to cause regression of endometriotic lesions.
 - [Gesynta Pharma](https://www.gesynta.se/)
@@ -474,23 +497,23 @@ Active Clinical Studies:
 <details>
 <summary>Potential Causes</summary>
 
-  - [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
-    - Researchers in Japan have identified a particular kind of bacteria in those with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
+- [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
+  - Researchers in Japan have identified a particular kind of bacteria in those with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
 
 </details>
 
 <details>
 <summary>Genetics</summary>
 
-  - [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
-    - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
-  - [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
-    - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
-  - [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08145678)
-    - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
-  - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
-  - [RNA sequencing reveals molecular mechanisms of endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
-    - "Using a C57Bl/6 mouse model in which decidualized endometrial tissue is injected subcutaneously in the abdomen of recipient mice, we generated a comprehensive profile of gene expression in decidualized endometrial tissue (n=4), and in endometriosis-like lesions at Day 7 (n=4) and Day 14 (n=4) of formation."
+- [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
+  - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
+- [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
+  - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
+- [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08145678)
+  - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
+- [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
+- [RNA sequencing reveals molecular mechanisms of endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
+  - "Using a C57Bl/6 mouse model in which decidualized endometrial tissue is injected subcutaneously in the abdomen of recipient mice, we generated a comprehensive profile of gene expression in decidualized endometrial tissue (n=4), and in endometriosis-like lesions at Day 7 (n=4) and Day 14 (n=4) of formation."
 
 </details>
 
@@ -682,4 +705,5 @@ Active Clinical Studies:
 - [Adenomyosis and Chronic Pain Management](https://clinicaltrials.gov/ct2/show/NCT11445678)
 - [Adenomyosis and Immune System Dysfunction](https://www.science.org/doi/10.1126/scitranslmed.adk8230)
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
+
 </details>
