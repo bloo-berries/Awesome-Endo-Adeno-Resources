@@ -10,38 +10,50 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
 ## Contents
 
 - [Overview](#overview)
-- [Diagnosis](#diagnosis)
-  - [Endometriosis Symptoms](#endometriosis-symptoms)
-  - [Adenomyosis Symptoms](#adenomyosis-symptoms)
-- [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
-- [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
-- [Medical Data Tools, Trackers, and Managers](#medical-data-tools-trackers-and-managers)
-- [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
-- [Therapeutic Treatments](#therapeutic-treatments)
-  - [Surgical](#surgical)
-    - [Endometriosis Treatments](#endometriosis-treatments)
-    - [Adenomyosis Treatments](#adenomyosis-treatments)
-  - [Non-Surgical](#non-surgical)
-  - [Medicinal](#medicinal)
-    - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
-    - [Physical Therapy](#physical-therapy)
-- [Scientific Research and Findings](#scientific-research-and-findings)
-  - [Endometriosis](#endometriosis)
-  - [Adenomyosis](#adenomyosis)
-- [Potential Co-morbidities](#potential-co-morbidities)
-- [Financial Assistance Platforms](#financial-assistance-platforms)
-- [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
-  - [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
-- [Fertility Resources](#fertility-resources)
-- [Educational Materials](#educational-materials)
-- [Community Sourced Data and Support](#community-sourced-data-and-support)
-- [Medical Research](#medical-research)
-  - [Scientific Research & Medical Research Organizations](#scientific-research--medical-research-organizations)
-  - [Current Medical Studies](#current-medical-studies)
-  - [Important Note](#important-note)
-  - [Active Research Studies](#active-research-studies)
-  - [Potential Causes](#potential-causes)
-  - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
+  - [Contents](#contents)
+  - [Diagnosis](#diagnosis)
+    - [Endometriosis](#endometriosis)
+    - [Adenomyosis](#adenomyosis)
+    - [Endometriosis Symptoms](#endometriosis-symptoms)
+    - [Adenomyosis Symptoms](#adenomyosis-symptoms)
+  - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
+  - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
+  - [Medical Data Tools, Trackers, and Managers](#medical-data-tools-trackers-and-managers)
+  - [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
+  - [Therapeutic Treatments](#therapeutic-treatments)
+    - [Surgical](#surgical)
+      - [Endometriosis Treatments](#endometriosis-treatments)
+      - [Adenomyosis Treatments](#adenomyosis-treatments)
+    - [Non-Surgical](#non-surgical)
+      - [Latest Advancements](#latest-advancements)
+    - [Medicinal](#medicinal)
+      - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
+      - [Cannabis and Herbal](#cannabis-and-herbal)
+      - [Physical Therapy](#physical-therapy)
+  - [Scientific Research and Findings](#scientific-research-and-findings)
+    - [Endometriosis Research](#endometriosis-research)
+    - [Adenomyosis Research](#adenomyosis-research)
+  - [Potential Co-morbidities](#potential-co-morbidities)
+  - [Financial Assistance Platforms](#financial-assistance-platforms)
+  - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
+    - [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
+      - [Americas and Caribbean](#americas-and-caribbean)
+      - [Africa](#africa)
+      - [APAC \& Australia/New Zealand](#apac--australianew-zealand)
+      - [Europe](#europe)
+      - [LATAM](#latam)
+  - [Fertility Resources](#fertility-resources)
+  - [Educational Materials](#educational-materials)
+  - [Community Sourced Data and Support](#community-sourced-data-and-support)
+  - [Medical Research](#medical-research)
+    - [Scientific Research \& Medical Research Organizations](#scientific-research--medical-research-organizations)
+    - [Current Medical Studies](#current-medical-studies)
+    - [Important Note](#important-note)
+    - [Active Research Studies](#active-research-studies)
+    - [Potential Causes](#potential-causes)
+      - [Genetics](#genetics)
+      - [Case Studies](#case-studies)
+      - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Dive in to discover practical tips, connect with others, and explore treatment options that could make a real difference.
 
@@ -177,14 +189,11 @@ This resource list is packed with expert advice, community support, and the late
 
 #### Medication and Medicinal Supplements
 
-<details>
-  <summary>Cannabis and Herbal</summary>
+#### Cannabis and Herbal
 
 - [Lara Parker's Journey](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2)
 - [Cannabis and Endometriosis: A Survey](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940)
 - [Cannabinoids Improve Symptoms in Mice](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis)
-
-</details>
 
 #### Physical Therapy
 
@@ -194,7 +203,7 @@ This resource list is packed with expert advice, community support, and the late
 
 ## Scientific Research and Findings
 
-### Endometriosis
+### Endometriosis Research
 
 - [Endometriosis Typology and Ovarian Cancer Risk](https://jamanetwork.com/journals/jama/article-abstract/2821194)
 - [Meta-analysis: Endometriosis and Ovarian Cancer](https://pubmed.ncbi.nlm.nih.gov/36988819/)
@@ -202,7 +211,7 @@ This resource list is packed with expert advice, community support, and the late
 - [Gut Health and Inflammation](https://www.frontiersin.org/journals/reproductive-health/articles/10.3389/frph.2022.963752/full)
 - [Pathophysiology and Management](https://www.mdpi.com/2227-9059/12/4/888)
 
-### Adenomyosis
+### Adenomyosis Research
 
 - [GnRH Antagonist in Adenomyosis](https://www.fertstert.org/article/S0015-0282(25)00518-7/fulltext)
 - [Emerging Therapies](https://www.tandfonline.com/doi/full/10.1080/13625187.2021.1901234)
@@ -237,26 +246,19 @@ This resource list is packed with expert advice, community support, and the late
 
 ### Regional Based Groups and Platforms
 
-<details>
-<summary>Americas and Caribbean</summary>
+#### Americas and Caribbean
 
 - [Endometriosis Network Canada](https://endometriosisnetwork.com/)
 - [Endometriosis Coalition](https://www.theendo.co/)
 - [Worldwide Endometriosis March](https://endomarch.org/)
 
-</details>
-
-<details>
-<summary>Africa</summary>
+#### Africa
 
 - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
 - [Endometriosis Foundation of Kenya](https://endofoundke.org/efk-website#home)
 - [EndoSurvivors International Foundation](https://endosurvivors.org/)
 
-</details>
-
-<details>
-<summary>APAC & Australia/New Zealand</summary>
+#### APAC & Australia/New Zealand
 
 - [Endometriosis Australia](https://endometriosisaustralia.org/)
 - [Endometriosis New Zealand](https://nzendo.org.nz/)
@@ -264,10 +266,7 @@ This resource list is packed with expert advice, community support, and the late
 - [Pang Man Wah Selina Clinic](https://www.finddoc.com/en/doctors/pang-man-wah-selina-2265)
 - [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
 
-</details>
-
-<details>
-<summary>Europe</summary>
+#### Europe
 
 - [EndoFrance](https://www.endofrance.org/)
 - [Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
@@ -282,15 +281,10 @@ This resource list is packed with expert advice, community support, and the late
 - [Endometriosföreningen (Sweden)](https://www.endometriosforeningen.com/)
 - [Endometriosis UK](https://endometriosisuk.org/)
 
-</details>
-
-<details>
-<summary>LATAM</summary>
+#### LATAM
 
 - [Expertos en Endometriosis EndoLATAM](www.endolatam.com)
 - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
-
-</details>
 
 ## Fertility Resources
 
@@ -355,8 +349,7 @@ This resource list is packed with expert advice, community support, and the late
 
 - [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/): Bacterial association with endometriosis.
 
-<details>
-<summary>Genetics</summary>
+#### Genetics
 
 - [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
 - [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
@@ -364,10 +357,7 @@ This resource list is packed with expert advice, community support, and the late
 - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
 - [RNA sequencing in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms)
 
-</details>
-
-<details>
-<summary>Case Studies</summary>
+#### Case Studies
 
 - [Impact of Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT04512345)
 - [Long-term Outcomes of Surgery](https://clinicaltrials.gov/ct2/show/NCT05012389)
@@ -381,10 +371,7 @@ This resource list is packed with expert advice, community support, and the late
 - [Endometriosis and Immune Dysfunction](https://clinicaltrials.gov/ct2/show/NCT06512345)
 - [Endometriosis and Chronic Pain](https://clinicaltrials.gov/ct2/show/NCT06945678)
 
-</details>
-
-<details>
-<summary>Adenomyosis Specific Studies</summary>
+#### Adenomyosis Specific Studies
 
 - [Non-Hormonal Therapies](https://clinicaltrials.gov/ct2/show/NCT04678901)
 - [Imaging Techniques](https://clinicaltrials.gov/ct2/show/NCT04845678)
@@ -397,5 +384,3 @@ This resource list is packed with expert advice, community support, and the late
 - [Surgical Interventions](https://clinicaltrials.gov/ct2/show/NCT06478901)
 - [Non-Hormonal Pain Management](https://clinicaltrials.gov/ct2/show/NCT06645678)
 - [Mental Health](https://clinicaltrials.gov/ct2/show/NCT06812345)
-
-</details>
