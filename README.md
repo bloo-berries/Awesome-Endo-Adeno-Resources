@@ -17,6 +17,7 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
   - [Contents](#contents)
   - [Diagnosis](#diagnosis)
     - [Endometriosis Symptoms](#endometriosis-symptoms)
+    - [Endometriosis Symptoms](#endometriosis-symptoms-1)
     - [Adenomyosis Symptoms](#adenomyosis-symptoms)
   - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
   - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
@@ -99,7 +100,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ## Vetted Physician and Healthcare Providers
 
 - [iCareBetter](https://icarebetter.com/)
-  - Connecting as many Endo patients to the right [experts](https://icarebetter.com/endometriosis-specialist/) as early as possible
+  - Connecting as many Endo patients to the right [experts](https://icarebetter.com/endometriosis-specialist/) as early as possible
 - [The Yellow Hub](https://www.theyellowhub.org/)
   - Empowering patient lives with compassionate tech
 - [Roon](https://www.roon.com/)
@@ -217,7 +218,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Medicinal
 
-#### As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
+#### As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
 
 #### Medication and Medicinal Supplements
 
@@ -236,7 +237,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 #### Physical Therapy
 
 - [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/)
-  - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It’s also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
+  - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It's also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
@@ -465,8 +466,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Conducts multi-omic studies to classify disease phenotypes, identify therapeutic targets, and improve patient outcomes
 - [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
 - [Landmark donation powers world-first endometriosis research institute at UNSW](https://www.unsw.edu.au/newsroom/news/2025/05/Landmark-donation-powers-world-first-endometriosis-research-institute-at-UNSW)
-  - A $50 million philanthropic contribution will position Australia as a global leader in women’s health
-- [Society for Women’s Health Research (SWHR)](https://swhr.org/)
+  - A $50 million philanthropic contribution will position Australia as a global leader in women's health
+- [Society for Women's Health Research (SWHR)](https://swhr.org/)
   - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
