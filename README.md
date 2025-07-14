@@ -333,7 +333,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - West Africa:
     - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
       - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
-    - [Endo Sisters West Africa](https://www.facebook.com/endosisterswestafrica)
 </details>
 
 <details>
