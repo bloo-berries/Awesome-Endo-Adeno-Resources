@@ -210,7 +210,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Medicinal 
 
-#### As stated from [EndoWhat?](https://endowhat.com/educate/), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
+#### As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at “treating” endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
 
 #### Medication and Medicinal Supplements
 
@@ -423,7 +423,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Easy to share educational graphics about Endometriosis
 - [Endometriosis: A Key to Healing Through Nutrition](https://www.amazon.com/Endometriosis-Key-Healing-Through-Nutrition/dp/0722538991)
   - A book by Dian Shepperson Mills and Michael Vernon that discusses dietary approaches to managing endometriosis
-- [EndoWhat](https://endowhat.com/)
+- [EndoWhat](https://www.youtube.com/c/endowhat)
   - A film to provide an accurate base of knowledge about endometriosis straight from the experts.
 - [SpeakENDO](https://www.speakendo.com/)
   - A platform offering resources and information to help individuals better understand and communicate about endometriosis
