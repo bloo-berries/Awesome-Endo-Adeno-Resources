@@ -255,8 +255,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - "The development of advanced imaging techniques, such as 3D ultrasound and MRI, has significantly improved the accuracy of adenomyosis diagnosis."
 - [Emerging Therapies for Adenomyosis Management](https://www.tandfonline.com/doi/full/10.1080/13625187.2021.1901234)
   - "New therapeutic approaches, including the use of GnRH antagonists and uterine artery embolization, are showing promise in the management of adenomyosis symptoms."
-- [Adenomyosis and Chronic Pelvic Pain: New Insights](https://www.sciencedirect.com/science/article/pii/S0301211521001234)
-  - "Recent research has provided new insights into the mechanisms underlying chronic pelvic pain in adenomyosis patients, paving the way for more effective pain management strategies."
+- [Systemic comorbidities in patients with adenomyosis](https://www.sciencedirect.com/science/article/pii/S1472648325003098)
+  - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and endometriosis (n=347)."
 
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
