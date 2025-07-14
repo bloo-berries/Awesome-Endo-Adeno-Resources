@@ -251,8 +251,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - [Gonadotropin-releasing hormone antagonist in uterine adenomyosis](https://www.fertstert.org/article/S0015-0282(25)00518-7/fulltext)
   - "Oral gonadotropin-releasing hormone (GnRH) antagonists appear to offer a promising new potential treatment alternative, allowing dose-dependent control of estradiol levels with rapid reversibility and no flare-up effect."
-- [Innovative Imaging Techniques for Adenomyosis Diagnosis](https://www.jultrasoundmed.org/content/40/3/567)
-  - "The development of advanced imaging techniques, such as 3D ultrasound and MRI, has significantly improved the accuracy of adenomyosis diagnosis."
 - [Emerging Therapies for Adenomyosis Management](https://www.tandfonline.com/doi/full/10.1080/13625187.2021.1901234)
   - "New therapeutic approaches, including the use of GnRH antagonists and uterine artery embolization, are showing promise in the management of adenomyosis symptoms."
 - [Systemic comorbidities in patients with adenomyosis](https://www.sciencedirect.com/science/article/pii/S1472648325003098)
