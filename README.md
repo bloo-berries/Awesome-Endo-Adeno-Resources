@@ -356,8 +356,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 <summary>Europe</summary>
   
 - Belgium
-  - [EndoHome](https://www.endohome.be/)
-    - Focuses on raising awareness and providing support for endometriosis patients in Belgium
 - France
   - [EndoFrance](https://www.endofrance.org/)
     - Provides support and raises awareness about endometriosis in France
