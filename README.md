@@ -379,8 +379,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [Endometrioseforeningen](https://www.endometriose.no/)
     - Offers support and information for individuals with endometriosis in Norway
 - Poland
-  - [Polskie Stowarzyszenie Endometrioza](https://www.endometrioza.org.pl/)
-    - Provides resources and advocacy for endometriosis patients in Poland
+  - [Polish Endometriosis Foundation](https://pokonacendometrioze.pl/eng/)
+    - Patient-led organization working to raise awareness, advocate for systemic change, and support those affected by endometriosis in Poland
 - Portugal
   - [MulherEndo](https://www.mulherendo.pt/)
     - Provides support and raises awareness about endometriosis in Portugal
