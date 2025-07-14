@@ -346,8 +346,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Offers support and resources for individuals with endometriosis, fibroids and Adenomyosis in Singapore
   - [Endometriosis Hong Kong](https://www.endometriosis.org.hk/)
     - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong
-  - [Endometriosis India](https://www.endometriosisindia.com/)
-    - Dedicated to supporting and educating individuals with endometriosis in India
+  - [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
+    - Dedicated to supporting and educating individuals with endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
   - [Endometriosis Philippines](https://www.endometriosisph.org/)
     - Provides resources and advocacy for endometriosis patients in the Philippines
 </details>
