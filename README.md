@@ -448,7 +448,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Scientific Research & Medical Research Organizations
 
-- [AthenaDAO](https://www.athenadao.co/about)
+- [AthenaDAO](https://www.athenadao.co/)
   - Funds translational research; On-chain incentives to fund early-stage research and biotech startups; Focus on Fertility
 - [Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/)
   - Focuses on understanding molecular subtypes of endometriosis/adenomyosis and developing innovative models like "physiomimetics" to study these diseases
