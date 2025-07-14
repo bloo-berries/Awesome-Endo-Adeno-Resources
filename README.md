@@ -314,8 +314,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   
   - [Endometriosis Canada EEOC](https://www.facebook.com/EndoOrgCanada/)
     - The EEOC is a non-profit organization based out of British Columbia, Canada that focuses on furthering Endometriosis Research 
-  - [Endometriosis Trinidad & Tobago](https://www.endott.org/)
-    - The TTEA works with all stakeholders to improve health outcomes for endometriosis patients in Trinidad and Tobago
   - [The Endometriosis Network Canada](https://endometriosisnetwork.com/)
     - Community that supports the diverse needs of every unique endometriosis journey.
   - [The Endometriosis Coalition](https://www.theendo.co/)
