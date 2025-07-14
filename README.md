@@ -62,7 +62,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Decidual Casts
     - Excessive Bleeding during periods
    
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ### Endometriosis Symptoms
 
 
@@ -88,7 +88,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | **Stage 4: Advanced**   | Very severe        | - Extensive tissue infiltration causing significant uterine damage  <br>- Chronic pelvic pain, heavy bleeding, intermenstrual bleeding, and painful intercourse                                                                                                            | Potential damage to surrounding structures |
 
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Vetted Physician and Healthcare Providers
 
 - [iCareBetter](https://icarebetter.com/)
@@ -101,7 +101,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain. *In Italy*
 
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Diagnostic Tools and Platforms
 
 - [Ziwig](https://ziwig.com/en/ziwig-endotest/) 
@@ -122,7 +122,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose endometriosis using menstrual blood
 
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Medical Data Tools, Trackers, and Mangers
 
 - Genetic Data Testing
@@ -146,7 +146,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - NoEndo is a French platform designed to help individuals affected by endometriosis
 
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
 - [Scanvio](https://www.scanvio.com/)
@@ -161,7 +161,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
 
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Therapeutic Treatments
 
 ### Surgical
@@ -229,7 +229,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/)
   - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It’s also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Scientific Research and Findings
 
 ### Endometriosis
@@ -255,7 +255,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and endometriosis (n=347)."
 
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Potential Co-morbidities
 
 
@@ -289,7 +289,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
 
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Financial Assistance Platforms
 
 - [Fortuna Health](https://www.fortunahealth.com/)
@@ -397,7 +397,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
   - This article explores how endometriosis affects fertility, when to consider egg freezing
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Educational Materials
 
 - [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
@@ -420,7 +420,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Women's Health: Breaking the Taboos](https://tv.apple.com/gb/show/womens-health-breaking-the-taboos/umc.cmc.4r6819yl90qr1ba2fx9ovpbjl)
   - The series is hosted by Cherry Healey and covers topics such as endometriosis, incontinence, hair loss, and the menopause
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Community Sourced Data and Support
 
 - Reddit
@@ -431,7 +431,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
     - Endo support community
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ## Medical Research
 
 ### Scientific Research & Medical Research Organizations
@@ -452,7 +452,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
 
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️Back to Top](https://Github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 ### Current Medical Studies
 *Important to note that all below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available*
 
