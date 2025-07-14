@@ -465,8 +465,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 *Important to note that all below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available*
 
 Active Research Studies: 
-- [CurE-me](https://bii.dk/bio-studio-projects/cure-me/)
-  - Harnessing patient-derived organoids into drug discovery toward the development of first-in-class targeted therapeutics for endometriosis.
 - [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
   - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
  
