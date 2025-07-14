@@ -455,8 +455,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Created Phendo App; Phendo is a free research app to track, manage, and understand endometriosis. Opportunities to reflect upon your data may help you in managing your disease
 - [ENACT (UCSF-Stanford Endometriosis Center)](https://www.enactcenter.org/)
   - Conducts multi-omic studies to classify disease phenotypes, identify therapeutic targets, and improve patient outcomes
-- [EndoGenomics: A New Era of Endometriosis Research](https://www.endogenomics.com/endo-genomics-a-new-era-of-endometriosis-research)
-  - EndoGenomics is a new era of endometriosis research
 - [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
 - [Landmark donation powers world-first endometriosis research institute at UNSW](https://www.unsw.edu.au/newsroom/news/2025/05/Landmark-donation-powers-world-first-endometriosis-research-institute-at-UNSW)
   - A $50 million philanthropic contribution will position Australia as a global leader in women’s health
