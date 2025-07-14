@@ -344,8 +344,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Provides support, education, and advocacy for those affected by endometriosis in New Zealand
   - [Centre for Endometriosis & Fibroids (Singapore)](https://endofibroid.com.sg/)
     - Offers support and resources for individuals with endometriosis, fibroids and Adenomyosis in Singapore
-  - [Endometriosis Hong Kong](https://www.endometriosis.org.hk/)
-    - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong
+  - [Pang Man Wah Selina Clinic](https://www.finddoc.com/en/doctors/pang-man-wah-selina-2265)
+    - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong. Dr. Pang Man Wah Selina reviewed "Endometriosis | The Silent Women's Health Crisis of Our Time"
   - [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
     - Dedicated to supporting and educating individuals with endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
   - [Endometriosis Philippines](https://www.endometriosisph.org/)
