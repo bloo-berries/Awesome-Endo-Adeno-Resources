@@ -1,8 +1,0 @@
-[build]
-command = "chmod +x ./build.sh && ./build.sh"
-
-[build.environment]
-NODE_VERSION = "18"
-RUBY_VERSION = "3.2.2"
-JEKYLL_ENV = "production"
-MARKDOWN_PROCESSOR = "kramdown" 

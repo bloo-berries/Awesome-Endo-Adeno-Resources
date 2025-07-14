@@ -1,8 +1,0 @@
-# Cloudflare Pages platform configuration
-[build]
-command = "chmod +x ./build.sh && ./build.sh"
-output_dir = "_site"
-
-[build.environment]
-NODE_VERSION = "18"
-RUBY_VERSION = "3.2.2" 

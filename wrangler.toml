@@ -1,3 +1,0 @@
-# wrangler.toml
-name = 'awesome-endo-adeno-resources'
-command = 'chmod +x ./build.sh && ./build.sh'
