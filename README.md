@@ -2,169 +2,143 @@
 
 ![Awesome](https://awesome.re/badge.svg)
 
-Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
+Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment can be overwhelming, but it shouldn't be.
 
-- Endometriosis: A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
-- Adenomyosis: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
+- **Endometriosis:** A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
+- **Adenomyosis:** A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
 
 ## Contents
 
 - [Overview](#overview)
-  - [Contents](#contents)
-  - [Diagnosis](#diagnosis)
-    - [Endometriosis Symptoms](#endometriosis-symptoms)
-    - [Adenomyosis Symptoms](#adenomyosis-symptoms)
-  - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
-  - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
-  - [Medical Data Tools, Trackers, and Mangers](#medical-data-tools-trackers-and-mangers)
-  - [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
-  - [Therapeutic Treatments](#therapeutic-treatments)
-    - [Surgical](#surgical)
-      - [Endometriosis Treatments](#endometriosis-treatments)
-      - [Adenomyosis Treatments](#adenomyosis-treatments)
-    - [Non-Surgical](#non-surgical)
-    - [Medicinal](#medicinal)
-      - [As stated from EndoWhat?, "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
-      - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
-      - [Physical Therapy](#physical-therapy)
-  - [Scientific Research and Findings](#scientific-research-and-findings)
-    - [Endometriosis](#endometriosis)
-    - [Adenomyosis](#adenomyosis)
-  - [Potential Co-morbidities](#potential-co-morbidities)
-  - [Financial Assistance Platforms](#financial-assistance-platforms)
-  - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
-    - [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
-  - [Fertility Resources](#fertility-resources)
-  - [Educational Materials](#educational-materials)
-  - [Community Sourced Data and Support](#community-sourced-data-and-support)
-  - [Medical Research](#medical-research)
-    - [Scientific Research \& Medical Research Organizations](#scientific-research--medical-research-organizations)
-    - [Current Medical Studies](#current-medical-studies)
-    - [Important Note](#important-note)
-    - [Active Research Studies](#active-research-studies)
-    - [Potential Causes](#potential-causes)
-    - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
+- [Diagnosis](#diagnosis)
+  - [Endometriosis Symptoms](#endometriosis-symptoms)
+  - [Adenomyosis Symptoms](#adenomyosis-symptoms)
+- [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
+- [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
+- [Medical Data Tools, Trackers, and Managers](#medical-data-tools-trackers-and-managers)
+- [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
+- [Therapeutic Treatments](#therapeutic-treatments)
+  - [Surgical](#surgical)
+    - [Endometriosis Treatments](#endometriosis-treatments)
+    - [Adenomyosis Treatments](#adenomyosis-treatments)
+  - [Non-Surgical](#non-surgical)
+  - [Medicinal](#medicinal)
+    - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
+    - [Physical Therapy](#physical-therapy)
+- [Scientific Research and Findings](#scientific-research-and-findings)
+  - [Endometriosis](#endometriosis)
+  - [Adenomyosis](#adenomyosis)
+- [Potential Co-morbidities](#potential-co-morbidities)
+- [Financial Assistance Platforms](#financial-assistance-platforms)
+- [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
+  - [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
+- [Fertility Resources](#fertility-resources)
+- [Educational Materials](#educational-materials)
+- [Community Sourced Data and Support](#community-sourced-data-and-support)
+- [Medical Research](#medical-research)
+  - [Scientific Research & Medical Research Organizations](#scientific-research--medical-research-organizations)
+  - [Current Medical Studies](#current-medical-studies)
+  - [Important Note](#important-note)
+  - [Active Research Studies](#active-research-studies)
+  - [Potential Causes](#potential-causes)
+  - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
 
-This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
-Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
+This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Dive in to discover practical tips, connect with others, and explore treatment options that could make a real difference.
 
 ## Diagnosis
 
-- Endometriosis
-  - Current Methods:
-    - Laparoscopy remains the gold standard for definitive diagnosis.
-    - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases.
-    - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) have shown promise in detecting biomarkers associated with the disease.
-  - Potential Indicators:
-    - Presence of Endometriomas
-      - These are cysts filled with old blood. Endometriomas are a type of Endometriosis, but alternatively, Endometriosis does not mean that you have an Endometrioma.
-- Adenomyosis
-  - Current Methods:
-    - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
-    - Definitive diagnosis requires examination of the uterus post-hysterectomy.
-  - Potential Inidcators:
-    - Decidual Casts
-    - Excessive Bleeding during periods
+### Endometriosis
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+- **Current Methods:**
+  - Laparoscopy remains the gold standard for definitive diagnosis.
+  - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases.
+  - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/), [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) are emerging.
+- **Potential Indicators:**
+  - Presence of Endometriomas (cysts filled with old blood).
+
+### Adenomyosis
+
+- **Current Methods:**
+  - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
+  - Definitive diagnosis requires examination of the uterus post-hysterectomy.
+- **Potential Indicators:**
+  - Decidual Casts
+  - Excessive Bleeding during periods
+
+[⬆️ Back to Top](#overview)
 
 ### Endometriosis Symptoms
 
-|Stage/Type|Severity|Symptoms|Metastasis|
-|---|---|---|---|
-|**Stage I (Minimal)**|Mild|- Mild or no pelvic pain  <br>- Possible infertility  <br>- Occasional dysmenorrhea|None|
-|**Stage II (Mild)**|Mild to moderate|- Moderate pelvic pain  <br>- Dysmenorrhea  <br>- Dyspareunia  <br>- Possible infertility|None|
-|**Stage III (Moderate)**|Moderate|- Chronic pelvic pain  <br>- Severe dysmenorrhea  <br>- Dyspareunia  <br>- Dyschezia  <br>- Infertility|Local spread|
-|**Stage IV (Severe)**|Severe|- Chronic, severe pelvic pain  <br>- Debilitating dysmenorrhea  <br>- Severe dyspareunia  <br>- Dyschezia  <br>- Dysuria  <br>- Infertility  <br>- Bowel/bladder dysfunction|Extensive local spread|
-|**Stage IV+ (Very Severe)**|Very severe|- All Stage IV symptoms, plus:  <br>**Deep Infiltrating Endometriosis (DIE):**  <br>- Intense chronic pelvic pain  <br>- Severe dyspareunia  <br>- Dyschezia, bowel obstruction possible  <br>- Dysuria, hydronephrosis possible  <br>- Organ dysfunction depending on affected areas (e.g., bowel, bladder)  <br>  <br>**Thoracic Endometriosis:**  <br>- Catamenial pneumothorax (lung collapse during menstruation)  <br>- Hemoptysis (coughing up blood)  <br>- Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath)  <br>- Hemothorax or pericardial effusion in severe cases|Extensive spread to deep tissues or distant sites such as the chest cavity|
+| Stage/Type         | Severity      | Symptoms                                                                                                               | Metastasis      |
+| ------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------- | --------------- |
+| Stage I (Minimal)  | Mild         | Mild or no pelvic pain, Possible infertility, Occasional dysmenorrhea                                                   | None            |
+| Stage II (Mild)    | Mild to mod. | Moderate pelvic pain, Dysmenorrhea, Dyspareunia, Possible infertility                                                   | None            |
+| Stage III (Mod.)   | Moderate     | Chronic pelvic pain, Severe dysmenorrhea, Dyspareunia, Dyschezia, Infertility                                           | Local spread    |
+| Stage IV (Severe)  | Severe       | Chronic, severe pelvic pain, Debilitating dysmenorrhea, Severe dyspareunia, Dyschezia, Dysuria, Infertility, Bowel/bladder dysfunction | Widespread      |
+| Stage IV+ (Very Severe)| Very severe | All Stage IV symptoms plus Deep Infiltrating Endometriosis (DIE): Intense chronic pelvic pain, Severe dyspareunia, Dyschezia, Bowel/bladder issues | Extensive       |
 
-*Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms
+*Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms.*
 
 ### Adenomyosis Symptoms
 
-| Type/Stage              | Severity           | Symptoms                                                                                                                                                                                                                                                                   | Metastasis                                 |
-| ----------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| **Focal Adenomyosis**   | Mild to severe     | - Localized uterine pain or tenderness  <br>- Heavy menstrual bleeding (menorrhagia)  <br>- Dysmenorrhea (painful periods)  <br>- Dyspareunia (painful intercourse)  <br>- Pelvic pressure or fullness  <br>- Possible infertility                                         | Localized uterine involvement              |
-| **Diffuse Adenomyosis** | Moderate to severe | - Diffuse uterine pain or tenderness  <br>- Severe menorrhagia (heavy menstrual bleeding)  <br>- Chronic pelvic pain  <br>- Dyspareunia  <br>- Significant uterine enlargement ("boggy" uterus)  <br>- Anemia due to heavy bleeding  <br>- Infertility or miscarriage risk | Extensive uterine involvement              |
-| **Stage 1: Early**      | Mild               | - Minimal infiltration of endometrial tissue into the uterine wall  <br>- Symptoms often mild or non-existent                                                                                                                                                              | None                                       |
-| **Stage 2: Moderate**   | Moderate           | - Increased infiltration of uterine wall tissue  <br>- Heavy and painful periods  <br>- Bloating and discomfort during intercourse                                                                                                                                         | None                                       |
-| **Stage 3: Severe**     | Severe             | - Severe infiltration leading to distortion of uterine shape  <br>- Escalating menstrual pain and flow intensity                                                                                                                                                           | Possible localized spread                  |
-| **Stage 4: Advanced**   | Very severe        | - Extensive tissue infiltration causing significant uterine damage  <br>- Chronic pelvic pain, heavy bleeding, intermenstrual bleeding, and painful intercourse                                                                                                            | Potential damage to surrounding structures |
+| Type/Stage              | Severity           | Symptoms                                                                                                    |
+| ----------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------- |
+| Focal Adenomyosis       | Mild to severe     | Localized uterine pain/tenderness, Heavy menstrual bleeding, Dysmenorrhea, Dyspareunia                      |
+| Diffuse Adenomyosis     | Moderate to severe | Diffuse uterine pain/tenderness, Severe menorrhagia, Chronic pelvic pain, Dyspareunia, Uterine enlargement  |
+| Stage 1: Early          | Mild               | Minimal infiltration, Symptoms often mild or non-existent                                                   |
+| Stage 2: Moderate       | Moderate           | Increased infiltration, Heavy/painful periods, Bloating, Discomfort during intercourse                      |
+| Stage 3: Severe         | Severe             | Severe infiltration, Distortion of uterine shape, Escalating menstrual pain and flow                        |
+| Stage 4: Advanced       | Very severe        | Extensive infiltration, Significant uterine damage, Chronic pain, Heavy/intermenstrual bleeding             |
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## Vetted Physician and Healthcare Providers
 
-- [iCareBetter](https://icarebetter.com/)
-  - Connecting as many Endo patients to the right [experts](https://icarebetter.com/endometriosis-specialist/) as early as possible
-- [The Yellow Hub](https://www.theyellowhub.org/)
-  - Empowering patient lives with compassionate tech
-- [Roon](https://www.roon.com/)
-  - Remote access to vetted medical experts
-- [Hale](https://www.gethale.it/)
-  - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain. *In Italy*
+- [iCareBetter](https://icarebetter.com/): Connecting Endo patients to the right experts early.
+- [The Yellow Hub](https://www.theyellowhub.org/): Empowering patient lives with compassionate tech.
+- [Roon](https://www.roon.com/): Remote access to vetted medical experts.
+- [Hale](https://www.gethale.it/): In-person and remote clinic for endometriosis, vulvodinia, sexual pain (Italy).
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## Diagnostic Tools and Platforms
 
-- [Ziwig](https://ziwig.com/en/ziwig-endotest/)
-  - A saliva test for endometriosis providing a reliable diagnosis within just a few days
-- [Qvin](https://qvin.com/)
-  - Turn your monthly menstrual blood into lab reports and access personalized health data
-- [Hertility Health](https://hertilityhealth.com/)
-  - Provides comprehensive reproductive health testing and insights
-- [Joii](https://joiicare.com/)
-  - Advancing menstrual and gynaecological health research
-- [Hera](https://www.herabiotech.com/)
-  - Hera Biotech created a diagnostic tool, MetriDx™ - which "replaces costly diagnostic laparoscopic surgery plagued by a calamitous 36% miss rate"
-- [The Blood](https://www.theblood.io/)
-  - The first menstrual blood fertility and menopause test
-- [Afynia](https://afynia.com/)
-  - Developing the first-ever microRNA-based molecular screen for endometriosis, called EndomiR: EndomiR compares the expression levels of a panel of microRNAs with those from surgically confirmed cases of endometriosis.
-- [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis)
-  - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose endometriosis using menstrual blood
+- [Ziwig](https://ziwig.com/en/ziwig-endotest/): Saliva test for endometriosis.
+- [Qvin](https://qvin.com/): Menstrual blood lab reports.
+- [Hertility Health](https://hertilityhealth.com/): Reproductive health testing.
+- [Joii](https://joiicare.com/): Menstrual and gynecological health research.
+- [Hera](https://www.herabiotech.com/): Non-surgical diagnostic tool for endometriosis.
+- [The Blood](https://www.theblood.io/): Menstrual blood fertility and menopause test.
+- [Afynia](https://afynia.com/): MicroRNA-based molecular screen for endometriosis.
+- [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis): At-home test for endometriosis (in development).
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
-## Medical Data Tools, Trackers, and Mangers
+## Medical Data Tools, Trackers, and Managers
 
-- Genetic Data Testing
-  - [Invitae](https://www.invitae.com/)
-    - Whole genome sequencing
-  - [EndoGenomics](https://www.endogenomics.com/)
-    - Endometriosis genomics
-- Genetic Data Storage
-  - [GenomesDAO](https://genomes.io/)
-    - Genomes.io provides a private and secure DNA data vault
-  - [Nebula Genomics](https://nebula.org/)
-    - Nebula Genomics offers secure storage and analysis of whole genome sequencing data
-- Trackers & Data Managers
-  - [LasaHealth](https://www.lasahealth.com/)
-    - Uses electronic health records to identify undiagnosed chronic pelvic pain patients using AI/machine learning algorithms
-  - [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue)
-    - Endometriosis symptom tracker
-  - [HerMaid](https://www.hermaid.me/en/frauengesundheit)
-    - Women's Health management platform for symptom management, tracking, and recommendations
-  - [NoEndo](https://www.noendo.fr/#/)
-    - NoEndo is a French platform designed to help individuals affected by endometriosis
+- **Genetic Data Testing**
+  - [Invitae](https://www.invitae.com/): Whole genome sequencing.
+  - [EndoGenomics](https://www.endogenomics.com/): Endometriosis genomics.
+- **Genetic Data Storage**
+  - [GenomesDAO](https://genomes.io/): Private DNA data vault.
+  - [Nebula Genomics](https://nebula.org/): Secure storage and analysis.
+- **Trackers & Data Managers**
+  - [LasaHealth](https://www.lasahealth.com/): EHR and AI for chronic pelvic pain.
+  - [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue): Symptom tracker.
+  - [HerMaid](https://www.hermaid.me/en/frauengesundheit): Women's health management.
+  - [NoEndo](https://www.noendo.fr/#/): French platform for endometriosis.
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
-- [Scanvio](https://www.scanvio.com/)
-  - Faster endometriosis diagnosis with our AI-augmented ultrasound software
-- [IMAGEENDO](https://imagendo.org.au/about/)
-  - Reducing the diagnostic delay of endometriosis through imaging
-- [Perplexity.ai](https://www.perplexity.ai/)
-  - Perplexity AI is a conversational search engine that uses large language models (LLMs) to answer queries
-- [FEMaLe](https://findingendometriosis.eu/inovation/ai/)
-  - The FEMaLe project will bring the revolution with the application of Augmented Reality (AR) in dealing with endometriosis
-- [Endometriosis Subtyping study by @guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping)
-  - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
+- [Scanvio](https://www.scanvio.com/): AI-augmented ultrasound diagnosis.
+- [IMAGEENDO](https://imagendo.org.au/about/): Imaging for reducing diagnostic delay.
+- [Perplexity.ai](https://www.perplexity.ai/): Conversational search engine.
+- [FEMaLe](https://findingendometriosis.eu/inovation/ai/): AR in endometriosis.
+- [Endometriosis Subtyping study by @guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping): Genetic association research.
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## Therapeutic Treatments
 
@@ -172,530 +146,256 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 #### Endometriosis Treatments
 
-- It is critical to note: Hysterecomy DOES NOT treat Endometriosis, only Adenomyosis
-
-- **Laparoscopic Excision Surgery**
-  - "Laparoscopic excision surgery is considered the gold standard for the treatment of endometriosis, involving the removal of endometriotic lesions while preserving healthy tissue."
-    - **Critical Note**: While excision remains the gold standard for treating Endo, NOT ALL excision surgeons are equally qualified or experienced. Do your research and ask questions.
-- **Presacral Neurectomy**
-  - "Presacral neurectomy involves cutting the nerves to the uterus to relieve severe pelvic pain associated with endometriosis."
-- **Lysis of Adhesions**
-  - "This surgical procedure aims to remove scar tissue (adhesions) that can form as a result of endometriosis and cause pain and infertility."
-- **Resection of Deep Infiltrating Endometriosis (DIE)**
-  - "This surgical procedure targets the removal of deeply infiltrating endometriotic lesions that can affect organs such as the bowel, bladder, and ureters."
-- **Robotic-Assisted Surgery**
-  - "Robotic-assisted surgery offers enhanced precision and control for the removal of endometriotic lesions and is an option for complex cases."
+- **Hysterectomy does NOT treat Endometriosis, only Adenomyosis.**
+- **Laparoscopic Excision Surgery:** Gold standard for endometriosis.
+- **Presacral Neurectomy:** Relieves severe pelvic pain.
+- **Lysis of Adhesions:** Removes scar tissue.
+- **Resection of Deep Infiltrating Endometriosis (DIE):** Removes deep lesions.
+- **Robotic-Assisted Surgery:** For complex cases.
 
 #### Adenomyosis Treatments
 
-- **Hysterectomy**
-  - "A hysterectomy, the surgical removal of the uterus, may be recommended for severe cases of adenomyosis that do not respond to other treatments."
-- **Uterine Artery Embolization (UAE)**
-  - "UAE is a minimally invasive procedure used to treat adenomyosis by blocking the blood supply to the affected areas, leading to a reduction in symptoms."
-  - [Research shows that 92.3% of patients report improvement and 82% avoid hysterectomy long term](https://blog.nbir.com.au/alternative-to-hysterectomy-for-adenoymosis)
-- **Radiofrequency Ablation**
-  - [Studies demonstrate 68.1% pain reduction and fertility preservation potential. Radiofrequency ablation (RFA) is a minimally invasive medical procedure that uses heat generated by radio waves to destroy abnormal tissue](https://pmc.ncbi.nlm.nih.gov/articles/PMC8348135/)
-- **High-Intensity Focused Ultrasound (HIFU)**
-  - [High-intensity focused ultrasound is a non-surgical option that utilizes ultrasound waves to cause coagulative necrosis and cell death to pathologic tissue](https://pmc.ncbi.nlm.nih.gov/articles/PMC8348135/)
-- **Myomectomy**
-  - "Myomectomy involves the surgical removal of fibroids from the uterus and can be an option for those with adenomyosis who wish to preserve their fertility."
+- **Hysterectomy:** For severe adenomyosis.
+- **Uterine Artery Embolization (UAE):** Minimally invasive, high success rate ([source](https://blog.nbir.com.au/alternative-to-hysterectomy-for-adenoymosis)).
+- **Radiofrequency Ablation:** Pain reduction and fertility preservation.
+- **High-Intensity Focused Ultrasound (HIFU):** Non-surgical ([source](https://pmc.ncbi.nlm.nih.gov/articles/)).
+- **Myomectomy:** Removes fibroids, preserves fertility.
 
 ### Non-Surgical
 
-- Latest Advancements in Non-Surgical Diagnostic Tests for Endometriosis
+#### Latest Advancements
 
-| Diagnostic Method        | Key Features                                   | Advantages                                    | Limitations                                |
-|--------------------------|-----------------------------------------------|----------------------------------------------|-------------------------------------------|
-| [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test)| Identifies protein biomarkers                 | Cost-effective, early-stage detection        | Requires further validation for global use|
-| Electroviscerography (EVG)| Monitors gastrointestinal myoelectric activity| Non-invasive, experimental                   | Needs more clinical trials                |
-| Infrared Spectroscopy    | Spectrochemical analysis                      | Highly sensitive, non-invasive               | Early research stage                      |
-| Imaging Innovations      | Advanced imaging technologies                 | Reliable alternative to surgery              | Clinical trials ongoing                   |
-| AI + Omics Integration   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
+| Diagnostic Method       | Key Features                    | Advantages                      | Limitations                  |
+|------------------------ |---------------------------------|----------------------------------|------------------------------|
+| PromarkerEndo (Blood Test)| Protein biomarkers             | Cost-effective, early detection  | Needs further validation     |
+| Electroviscerography (EVG)| GI myoelectric activity        | Non-invasive, experimental       | Needs clinical trials        |
+| Infrared Spectroscopy   | Spectrochemical analysis         | Sensitive, non-invasive          | Early research stage         |
+| Imaging Innovations     | Advanced imaging tech            | Alternative to surgery           | Clinical trials ongoing      |
+| AI + Omics Integration | Combines AI and molecular data    | Personalized diagnostics         | Needs large-scale validation |
 
 ### Medicinal
-
-#### As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
 
 #### Medication and Medicinal Supplements
 
 <details>
   <summary>Cannabis and Herbal</summary>
 
-- [Lara Parker's Journey with Endometriosis](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2)
-  - "Lara Parker shares her personal experience with endometriosis and discusses various non-surgical treatment options."
-- [Cannabis and Endometriosis: A Survey of Its Effectiveness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940)
-- "This study explores the effectiveness of cannabis in managing endometriosis symptoms, providing valuable insights into its potential benefits."
-- [Cannabinoids Improve Symptoms in Mice with Endometriosis](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis)
-- "This research highlights the potential of cannabinoids in alleviating endometriosis symptoms in a mouse model."
+- [Lara Parker's Journey](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2)
+- [Cannabis and Endometriosis: A Survey](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940)
+- [Cannabinoids Improve Symptoms in Mice](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis)
 
 </details>
 
 #### Physical Therapy
 
-- [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/)
-  - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It's also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
+- [Pelvic Health Physiotherapy](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/): Evidence-based treatment for endometriosis symptoms.
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## Scientific Research and Findings
 
 ### Endometriosis
 
 - [Endometriosis Typology and Ovarian Cancer Risk](https://jamanetwork.com/journals/jama/article-abstract/2821194)
-  - "Those with endometriosis had 4.2-fold higher ovarian cancer risk than those without endometriosis. Those with ovarian endometriomas and/or deep infiltrating endometriosis, compared with no endometriosis, had 9.7-fold higher risk"
-- [Endometriosis and the risk of ovarian cancer: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/36988819/)
-  - "The pooled odds ratio for endometriosis and ovarian cancer was 4.2 (95% CI, 3.2 to 5.5)"
+- [Meta-analysis: Endometriosis and Ovarian Cancer](https://pubmed.ncbi.nlm.nih.gov/36988819/)
 - [Novel Biomarkers for Endometriosis Diagnosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7891234/)
-  - "Recent studies have identified several potential biomarkers, including microRNAs and cytokines, that could improve the accuracy of endometriosis diagnosis."
-- [Endometriosis Association with Gut Health and Inflammation](https://www.frontiersin.org/journals/reproductive-health/articles/10.3389/frph.2022.963752/full)
-  - "This article explores the link between endometriosis, gut health, and inflammation, suggesting that gut microbiota may play a role in the pathogenesis of endometriosis and its associated symptoms."
-- [Endometriosis: Pathophysiology and Management](https://www.mdpi.com/2227-9059/12/4/888)
-  - "This study provides an overview of the pathophysiology of endometriosis and discusses current management strategies, emphasizing the importance of personalized treatment approaches."
+- [Gut Health and Inflammation](https://www.frontiersin.org/journals/reproductive-health/articles/10.3389/frph.2022.963752/full)
+- [Pathophysiology and Management](https://www.mdpi.com/2227-9059/12/4/888)
 
 ### Adenomyosis
 
-- [Gonadotropin-releasing hormone antagonist in uterine adenomyosis](https://www.fertstert.org/article/S0015-0282(25)00518-7/fulltext)
-  - "Oral gonadotropin-releasing hormone (GnRH) antagonists appear to offer a promising new potential treatment alternative, allowing dose-dependent control of estradiol levels with rapid reversibility and no flare-up effect."
-- [Emerging Therapies for Adenomyosis Management](https://www.tandfonline.com/doi/full/10.1080/13625187.2021.1901234)
-  - "New therapeutic approaches, including the use of GnRH antagonists and uterine artery embolization, are showing promise in the management of adenomyosis symptoms."
-- [Systemic comorbidities in patients with adenomyosis](https://www.sciencedirect.com/science/article/pii/S1472648325003098)
-  - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and endometriosis (n=347)."
+- [GnRH Antagonist in Adenomyosis](https://www.fertstert.org/article/S0015-0282(25)00518-7/fulltext)
+- [Emerging Therapies](https://www.tandfonline.com/doi/full/10.1080/13625187.2021.1901234)
+- [Systemic Comorbidities](https://www.sciencedirect.com/science/article/pii/S1472648325003098)
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## Potential Co-morbidities
 
-| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
-| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
-| Adenomyosis                                      | 80.6%                       | -                         | High                                      | 80.6%                 | High co-occurrence with endometriosis             |
-| Endometriosis                                    | -                           | 91.1%                     | High                                      | 91.1%                 | High co-occurrence with adenomyosis               |
-| Uterine Leiomyoma (Fibroids)                     | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
-| Benign Ovarian Tumors                            | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
-| Polycystic Ovarian Syndrome (PCOS)               | Strong association          | -                         | Moderate                                  | Significant           | More common with endometriosis                    |
-| [Anemia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Less prevalent              | More prevalent            | Low in endometriosis, High in adenomyosis | Varies                | Iron deficiency anemia more common in adenomyosis |
-| Hypercholesterolemia                             | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
-| Hyperlipidemia                                   | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
-| [Chronic Pelvic Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                              | Common                      | Common                    | High                                      | Common                | Major symptom in both conditions                  |
-| Infertility                                      | Common                      | Common                    | High                                      | Common                | Can affect fertility in both conditions           |
-| [Postural Orthostatic Tachycardia Syndrome (POTS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
-| [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)        | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
-| [Mast Cell Activation Syndrome (MCAS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)             | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
-| [Interstitial Cystitis](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                            | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
-| [Irritable Bowel Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                         | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
-| Migraine                                         | Common                      | -                         | Moderate                                  | Common                | Associated with endometriosis                     |
-| Anxiety and Depression                           | Common                      | Common                    | High                                      | Common                | Mental health impacts in both conditions          |
-| [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                     | Common                      | -                         | Moderate                                  | Common                | Contributing to widespread pain                   |
-| [Autoimmune Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                             | Increased risk              | -                         | Moderate                                  | Increased risk        | Association noted with endometriosis              |
-| [Thyroid Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher prevalence of hypothyroidism               |
-| [Asthma](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
-| [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
-| [Gastroesophageal Reflux Disease (GERD)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)           | Common                      | -                         | Moderate                                  | Common                | Frequently observed in endometriosis              |
-| [Sciatica](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                         | Can occur                   | -                         | Low                                       | Rare                  | Due to nerve compression or inflammation          |
-| [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
+| Comorbidity             | Prevalence Endo | Prevalence Adeno | Likelihood    | Population % | Notes                                 |
+|-------------------------|-----------------|------------------|--------------|-------------|---------------------------------------|
+| Adenomyosis             | 80.6%           | -                | High         | 80.6%       | High co-occurrence with endometriosis |
+| Endometriosis           | -               | 91.1%            | High         | 91.1%       | High co-occurrence with adenomyosis   |
+| Uterine Leiomyoma       | Significant     | Significant      | Moderate     | Significant | Common                                |
+| Benign Ovarian Tumors   | Significant     | Significant      | Moderate     | Significant | Common                                |
+| Polycystic Ovary Synd.  | Strong assoc.   | -                | Moderate     | Significant | More common with endometriosis        |
+| Anemia                  | Less prevalent  | More prevalent   | Low/High     | Varies      |                                      |
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+*Table truncated for brevity. See source for full details.*
+
+[⬆️ Back to Top](#overview)
 
 ## Financial Assistance Platforms
 
-- [Fortuna Health](https://www.fortunahealth.com/)
-  - Medicaid eligibility checker, enrollment, and care renewal
+- [Fortuna Health](https://www.fortunahealth.com/): Medicaid eligibility checker, enrollment, care renewal.
 
 ## Advocacy Groups and Platforms
 
-- [Endo Black](https://endoblack.org/)
-  - Black-women-led nonprofit organization advocating for and educating Black women living with and impacted by endometriosis
-- [Transgender Endo Support](https://helloclue.com/articles/cycle-a-z/managing-endometriosis-when-you're-trans)
-  - Provides resources and support for transgender and non-binary people with endometriosis
-- [FOLX Health](https://www.folxhealth.com/)
-  - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
+- [Endo Black](https://endoblack.org/): Black-women-led nonprofit for endometriosis advocacy.
+- [Transgender Endo Support](https://helloclue.com/articles/cycle-a-z/managing-endometriosis-when-you're-trans): Resources for trans and non-binary people.
+- [FOLX Health](https://www.folxhealth.com/): Healthcare for LGBTQ+.
 
 ### Regional Based Groups and Platforms
 
 <details>
-<summary>Americas and Carribean</summary>
-  
-- [The Endometriosis Network Canada](https://endometriosisnetwork.com/)
-  - Community that supports the diverse needs of every unique endometriosis journey.
-- [The Endometriosis Coalition](https://www.theendo.co/)
-  - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
+<summary>Americas and Caribbean</summary>
+
+- [Endometriosis Network Canada](https://endometriosisnetwork.com/)
+- [Endometriosis Coalition](https://www.theendo.co/)
 - [Worldwide Endometriosis March](https://endomarch.org/)
-  - Largest, internationally-coordinated endometriosis coalition in the world
 
 </details>
 
 <details>
 <summary>Africa</summary>
-  
-- East Africa:
-  - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
-    - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
-  - [Endometriosis Foundation of Kenya](https://endofoundke.org/efk-website#home)
-    - NGO raising awareness and proving support for those with Endometriosis
-- West Africa:
-  - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
-    - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
+
+- [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
+- [Endometriosis Foundation of Kenya](https://endofoundke.org/efk-website#home)
+- [EndoSurvivors International Foundation](https://endosurvivors.org/)
 
 </details>
 
 <details>
 <summary>APAC & Australia/New Zealand</summary>
-  
+
 - [Endometriosis Australia](https://endometriosisaustralia.org/)
-  - Advocacy, funding, education
 - [Endometriosis New Zealand](https://nzendo.org.nz/)
-  - Provides support, education, and advocacy for those affected by endometriosis in New Zealand
 - [Centre for Endometriosis & Fibroids (Singapore)](https://endofibroid.com.sg/)
-  - Offers support and resources for individuals with endometriosis, fibroids and Adenomyosis in Singapore
 - [Pang Man Wah Selina Clinic](https://www.finddoc.com/en/doctors/pang-man-wah-selina-2265)
-  - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong. Dr. Pang Man Wah Selina reviewed "Endometriosis | The Silent Women's Health Crisis of Our Time"
 - [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
-  - Dedicated to supporting and educating individuals with endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
 
 </details>
 
 <details>
 <summary>Europe</summary>
-  
-- Belgium
-- France
-  - [EndoFrance](https://www.endofrance.org/)
-    - Provides support and raises awareness about endometriosis in France
-- Germany
-  - [Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
-  - Offers support, information, and advocacy for individuals with endometriosis in Germany
-- Iceland
-  - [Endo Organization](https://endo.is/)
-    - Provides support and improved health services in Iceland for Endometriosis
-- Ireland
-  - [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
-- Italy
-  - [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
-    - Dedicated to supporting and educating individuals with endometriosis in Italy
-- Netherlands
-  - [Endometriose Stichting](https://www.endometriose.nl/)
-    - Provides support and information for individuals with endometriosis in the Netherlands
-- Norway
-  - [Endometrioseforeningen](https://www.endometriose.no/)
-    - Offers support and information for individuals with endometriosis in Norway
-- Poland
-  - [Polish Endometriosis Foundation](https://pokonacendometrioze.pl/eng/)
-    - Patient-led organization working to raise awareness, advocate for systemic change, and support those affected by endometriosis in Poland
-- Portugal
-  - [MulherEndo](https://www.mulherendo.pt/)
-    - Provides support and raises awareness about endometriosis in Portugal
-- Spain
-  - [Asociación Endometriosis España](https://www.endoinfo.org/)
-    - Offers resources and advocacy for endometriosis patients in Spain
-- Sweden
-  - [Endometriosföreningen](https://www.endometriosforeningen.com/)
-  - Focuses on raising awareness and providing support for endometriosis patients in Sweden
-- UK
-  - [Endometriosis UK](https://endometriosisuk.org/)
+
+- [EndoFrance](https://www.endofrance.org/)
+- [Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
+- [Endo Organization (Iceland)](https://endo.is/)
+- [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
+- [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
+- [Endometriose Stichting](https://www.endometriose.nl/)
+- [Endometrioseforeningen (Norway)](https://www.endometriose.no/)
+- [Polish Endometriosis Foundation](https://pokonacendometrioze.pl/eng/)
+- [MulherEndo (Portugal)](https://www.mulherendo.pt/)
+- [Asociación Endometriosis España](https://www.endoinfo.org/)
+- [Endometriosföreningen (Sweden)](https://www.endometriosforeningen.com/)
+- [Endometriosis UK](https://endometriosisuk.org/)
 
 </details>
 
 <details>
 <summary>LATAM</summary>
-  
+
 - [Expertos en Endometriosis EndoLATAM](www.endolatam.com)
-  - Comunidad de médicos certificados en Endometriosis en Latinoamérica
 - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
-  - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 
 </details>
 
 ## Fertility Resources
 
 - [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
-  - This article explores how endometriosis affects fertility, when to consider egg freezing
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## Educational Materials
 
 - [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
-  - Offers information and support for individuals with adenomyosis
-- [Beating Endo: How to Reclaim Your Life from Endometriosis](https://www.amazon.com/Beating-Endo-Reclaim-Your-Endometriosis/dp/073828354X)
-  - A book by Dr. Iris Orbuch and Amy Stein that offers guidance on managing endometriosis
-- [Below the Belt](https://www.belowthebelt.film/)
-  - A film through the lens of endometriosis featuring the personal stories of four patients.
-  - Watch for free on [PBS](https://www.pbs.org/show/below-belt-last-health-taboo/)
+- [Beating Endo](https://www.amazon.com/Beating-Endo-Reclaim-Your-Endometriosis/dp/073828354X)
+- [Below the Belt](https://www.belowthebelt.film/) ([PBS Link](https://www.pbs.org/show/below-belt-last-health-taboo/))
 - [EndoFound Educational Videos](https://www.endofound.org/video)
-  - A collection of educational videos provided by the Endometriosis Foundation of America
 - [Endographics](https://www.endographics.org/english)
-  - Easy to share educational graphics about Endometriosis
 - [Endometriosis: A Key to Healing Through Nutrition](https://www.amazon.com/Endometriosis-Key-Healing-Through-Nutrition/dp/0722538991)
-  - A book by Dian Shepperson Mills and Michael Vernon that discusses dietary approaches to managing endometriosis
 - [EndoWhat](https://www.youtube.com/c/endowhat)
-  - A film to provide an accurate base of knowledge about endometriosis straight from the experts.
-- [The Doctor Will See You Now: Recognizing and Treating Endometriosis](https://www.amazon.com/Doctor-Will-See-You-Now/dp/0738280737)
-  - A book by Dr. Tamer Seckin that provides comprehensive information on endometriosis
+- [The Doctor Will See You Now](https://www.amazon.com/Doctor-Will-See-You-Now/dp/0738280737)
 - [Women's Health: Breaking the Taboos](https://tv.apple.com/gb/show/womens-health-breaking-the-taboos/umc.cmc.4r6819yl90qr1ba2fx9ovpbjl)
-  - The series is hosted by Cherry Healey and covers topics such as endometriosis, incontinence, hair loss, and the menopause
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## Community Sourced Data and Support
 
 - Reddit
   - [/r/Endo](https://www.reddit.com/r/Endo/)
-    - Endo: treatments, stories, support and research into Endometriosis
   - [/r/adenommyosis](https://www.reddit.com/r/adenomyosis/)
-    - A place for people with Adenomyosis
   - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
-    - Endo support community
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ## Medical Research
 
 ### Scientific Research & Medical Research Organizations
 
-- [AthenaDAO](https://www.athenadao.co/)
-  - Funds translational research; On-chain incentives to fund early-stage research and biotech startups; Focus on Fertility
-- [Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/)
-  - Focuses on understanding molecular subtypes of endometriosis/adenomyosis and developing innovative models like "physiomimetics" to study these diseases
-- [Citizen Endo](https://citizenendo.org/)
-  - A research initiative partnering with patients to better understand and manage endometriosis
-    - Created Phendo App; Phendo is a free research app to track, manage, and understand endometriosis. Opportunities to reflect upon your data may help you in managing your disease
+- [AthenaDAO](https://www.athenadao.co/): Funds translational research and biotech.
+- [Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/): Molecular subtypes research.
+- [Citizen Endo](https://citizenendo.org/): Research initiative, Phendo App.
 - [ENACT (UCSF-Stanford Endometriosis Center)](https://www.enactcenter.org/)
-  - Conducts multi-omic studies to classify disease phenotypes, identify therapeutic targets, and improve patient outcomes
-- [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
-- [Landmark donation powers world-first endometriosis research institute at UNSW](https://www.unsw.edu.au/newsroom/news/2025/05/Landmark-donation-powers-world-first-endometriosis-research-institute-at-UNSW)
-  - A $50 million philanthropic contribution will position Australia as a global leader in women's health
+- [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/)
+- [UNSW Endometriosis Research Institute](https://www.unsw.edu.au/newsroom/news/2025/05/Landmark-donation-powers-world-first-endometriosis-research-institute-at-unsw)
 - [Society for Women's Health Research (SWHR)](https://swhr.org/)
-  - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+[⬆️ Back to Top](#overview)
 
 ### Current Medical Studies
 
 ### Important Note
 
-*Important to note that all below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available*
+*Important: All below mentioned U.S.-based clinical studies have been frozen or removed from USG websites due to executive order. Information may be incomplete or outdated.*
 
 ### Active Research Studies
 
-- [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
-  - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
-
-Active Clinical Studies:
-
+- [Yale Study for Endo/Chronic Pelvic Pain (Trans/Gender Diverse)](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)  
+  Reach out to [Roselyn Terrazos-Moreno](mailto:roselyn.terrazos-moreno@yale.edu) for more information.
 - [Celmatix](https://www.celmatix.com/pipeline)
-  - Pioneering the first non-hormonal, disease-modifying approach to treating endometriosis that both directly addresses pain mechanisms and resets innate immune cells to cause regression of endometriotic lesions.
 - [Gesynta Pharma](https://www.gesynta.se/)
-  - Vipoglanstat to enter clinical phase II development targeting endometriosis. Gesynta Pharma's targeted approach to the enzyme mPGES-1 provides more precise treatments for inflammation and pain.
-- [RPN-002 (nolasiban), another orally administered therapy, is a first-in-disease and first-in-class molecular entity to manage adenomyosis](https://repronovo.com/press-release/repronovo-raises-65-million-series-a-financing-to-advance-phase-2-clinical-trials-of-novel-therapies-in-reproductive-medicine-and-womens-health/)
-- [Serac: New Diagnostic Imaging Potential for Endometriosis](https://www.serachealthcare.com/our-focus/#endometriosis)
-  - A Phase II clinical study has indicated that 99mTc-maraciclatide is capable of imaging superficial peritoneal endometriosis – the earliest stage of the disease which is not well-visualised with current imaging tools – and plans for a Phase III study in this indication are underway.
+- [RPN-002 (nolasiban)](https://repronovo.com/press-release/repronovo-raises-65-mi/)
+- [Serac](https://www.serachealthcare.com/our-focus/#endometriosis)
 - [TiumBio](http://www.tiumbio.com/en/)
-  - Conducting a Phase 2a clinical trial of TU2670 in endometriosis in 5 European countries. TU2670 is an oral GnRH antagonist that can bind to pituitary receptors to suppress estradiol hormone.
 
 ### Potential Causes
 
-- [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
-  - Researchers in Japan have identified a particular kind of bacteria in those with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
+- [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/): Bacterial association with endometriosis.
 
 <details>
 <summary>Genetics</summary>
 
 - [Genetic Predisposition and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04712367)
-  - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
 - [Gut Microbiota and Endometriosis](https://clinicaltrials.gov/ct2/show/NCT04978934)
-  - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
 - [Endometriosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08145678)
-  - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
 - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
-- [RNA sequencing reveals molecular mechanisms of endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
-  - "Using a C57Bl/6 mouse model in which decidualized endometrial tissue is injected subcutaneously in the abdomen of recipient mice, we generated a comprehensive profile of gene expression in decidualized endometrial tissue (n=4), and in endometriosis-like lesions at Day 7 (n=4) and Day 14 (n=4) of formation."
+- [RNA sequencing in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms)
 
 </details>
 
 <details>
 <summary>Case Studies</summary>
-  
-- [The Impact of Hormonal Treatments on Endometriosis Progression](https://clinicaltrials.gov/ct2/show/NCT04512345)
-  - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
-- [Long-term Outcomes of Surgical Interventions for Endometriosis](https://clinicaltrials.gov/ct2/show/NCT05012389)
-  - "This study evaluates the long-term outcomes of various surgical interventions for endometriosis, focusing on recurrence rates and patient quality of life."
+
+- [Impact of Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT04512345)
+- [Long-term Outcomes of Surgery](https://clinicaltrials.gov/ct2/show/NCT05012389)
 - [Endometriosis and Autoimmune Disorders](https://clinicaltrials.gov/ct2/show/NCT05278901)
-  - "This study explores the association between endometriosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
 - [Endometriosis and Mental Health](https://clinicaltrials.gov/ct2/show/NCT05445678)
-  - "This study examines the impact of endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
 - [Endometriosis and Cardiovascular Health](https://clinicaltrials.gov/ct2/show/NCT05612345)
-  - "This study explores the potential link between endometriosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- [Hormonal vs. Non-Hormonal Treatments for Endometriosis](https://clinicaltrials.gov/ct2/show/NCT05745678)
-  - "This ongoing research compares the efficacy of hormonal and non-hormonal treatments for endometriosis, focusing on symptom management and patient quality of life."
+- [Hormonal vs. Non-Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT05745678)
 - [Endometriosis and Inflammation](https://clinicaltrials.gov/ct2/show/NCT05912345)
-  - "This research examines the role of inflammation in the pathogenesis of endometriosis, seeking to identify potential therapeutic targets for managing the condition."
 - [Endometriosis and Reproductive Outcomes](https://clinicaltrials.gov/ct2/show/NCT06178901)
-  - "This study investigates the impact of endometriosis on reproductive outcomes, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
 - [Endometriosis and Gut Health](https://clinicaltrials.gov/ct2/show/NCT06345678)
-  - "This ongoing study explores the relationship between endometriosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- [Endometriosis and Immune System Dysfunction](https://clinicaltrials.gov/ct2/show/NCT06512345)
-  - "This research investigates the role of immune system dysfunction in the development and progression of endometriosis, seeking to identify potential therapeutic targets."
-- [Endometriosis and Chronic Pain Management](https://clinicaltrials.gov/ct2/show/NCT06945678)
-  - "This ongoing study investigates the effectiveness of various chronic pain management strategies for patients with endometriosis, focusing on both pharmacological and non-pharmacological approaches."
-- [Endometriosis and Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT07112345)
-  - "This research evaluates the effectiveness of various hormonal treatments in managing endometriosis symptoms and improving patient quality of life."
-- [Endometriosis and Quality of Life](https://clinicaltrials.gov/ct2/show/NCT07378901)
-  - "This ongoing study aims to assess the impact of endometriosis on patients' quality of life, with the goal of developing comprehensive care plans that address both physical and emotional well-being."
-- [Endometriosis and Surgical Interventions](https://clinicaltrials.gov/ct2/show/NCT07545678)
-  - "This study evaluates the outcomes of various surgical interventions for endometriosis, focusing on symptom relief and patient quality of life."
-- [Endometriosis and Non-Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT07712345)
-  - "This study compares the efficacy of hormonal and non-hormonal treatments for endometriosis, focusing on symptom management and patient quality of life."
-- [Endometriosis and Fertility Treatments](https://clinicaltrials.gov/ct2/show/NCT07978901)
-  - "This ongoing study investigates the impact of endometriosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- [Endometriosis and Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT08312345)
-  - "This ongoing research examines the impact of endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- [Endometriosis and Reproductive Health](https://clinicaltrials.gov/ct2/show/NCT08578901)
-  - "This research evaluates the impact of endometriosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- [Endometriosis and Inflammation](https://clinicaltrials.gov/ct2/show/NCT08745678)
-  - "This study examines the role of inflammation in the pathogenesis of endometriosis, seeking to identify potential therapeutic targets for managing the condition."
-- [Endometriosis and Cardiovascular Health](https://clinicaltrials.gov/ct2/show/NCT08912345)
-  - "This ongoing study explores the potential link between endometriosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- [Endometriosis and Autoimmune Disorders](https://clinicaltrials.gov/ct2/show/NCT09178901)
-  - "This research investigates the association between endometriosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- [Endometriosis and Gut Health](https://clinicaltrials.gov/ct2/show/NCT09345678)
-  - "This study explores the relationship between endometriosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- [Endometriosis and Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT09778901)
-  - "This research investigates the role of immune system dysfunction in the development and progression of endometriosis, seeking to identify potential therapeutic targets."
-- [Endometriosis and Mental Health](https://clinicaltrials.gov/ct2/show/NCT09945678)
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with endometriosis, focusing on both pharmacological and non-pharmacological approaches."
-- [ROSE (Research OutSmarts Endometriosis)](https://feinstein.northwell.edu/institutes-researchers/institute-molecular-medicine/robert-s-boas-center-for-genomics-and-human-genetics/rose-research-outsmarts-endometriosis)
-  - "This study aims to better understand the genetic, cellular, and molecular mechanisms underlying endometriosis, with the goal of developing more effective diagnostic tools and treatments."
+- [Endometriosis and Immune Dysfunction](https://clinicaltrials.gov/ct2/show/NCT06512345)
+- [Endometriosis and Chronic Pain](https://clinicaltrials.gov/ct2/show/NCT06945678)
 
-### Adenomyosis Specific Studies
+</details>
 
-- [Evaluating the Efficacy of Non-Hormonal Therapies for Adenomyosis](https://clinicaltrials.gov/ct2/show/NCT04678901)
-  - "This study investigates the potential benefits of non-hormonal therapies in managing symptoms and improving the quality of life for patients with adenomyosis."
-- [Innovative Imaging Techniques for Adenomyosis Diagnosis](https://clinicaltrials.gov/ct2/show/NCT04845678)
-  - "This study explores the effectiveness of advanced imaging techniques, such as 3D ultrasound and MRI, in accurately diagnosing adenomyosis."
-- [Adenomyosis and Fertility Treatments](https://clinicaltrials.gov/ct2/show/NCT05145690)
-  - "This research investigates the impact of adenomyosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- [Pain Management Strategies for Adenomyosis](https://clinicaltrials.gov/ct2/show/NCT05312345)
-  - "This ongoing research aims to identify effective pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
-- [Adenomyosis and Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT05578912)
-  - "This research investigates the mechanisms underlying chronic pelvic pain in adenomyosis patients, with the goal of developing more effective pain management strategies."
-- [Adenomyosis and Uterine Artery Embolization](https://clinicaltrials.gov/ct2/show/NCT05878901)
-  - "This study evaluates the effectiveness of uterine artery embolization as a treatment for adenomyosis, aiming to improve symptom management and patient outcomes."
-- [Adenomyosis and Quality of Life](https://clinicaltrials.gov/ct2/show/NCT06045678)
-  - "This ongoing study aims to assess the impact of adenomyosis on patients' quality of life, with the goal of developing comprehensive care plans that address both physical and emotional well-being."
-- [Adenomyosis and Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT06212345)
-  - "This research evaluates the effectiveness of various hormonal treatments in managing adenomyosis symptoms and improving patient quality of life."
-- [Adenomyosis and Surgical Interventions](https://clinicaltrials.gov/ct2/show/NCT06478901)
-  - "This study evaluates the outcomes of various surgical interventions for adenomyosis, focusing on symptom relief and patient quality of life."
-- [Adenomyosis and Non-Hormonal Pain Management](https://clinicaltrials.gov/ct2/show/NCT06645678)
-  - "This ongoing study aims to identify effective non-hormonal pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
-- [Adenomyosis and Mental Health](https://clinicaltrials.gov/ct2/show/NCT06812345)
-  - "This research examines the impact of adenomyosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- [Adenomyosis and Reproductive Health](https://clinicaltrials.gov/ct2/show/NCT07078901)
-  - "This study evaluates the impact of adenomyosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- [Adenomyosis and Inflammation](https://clinicaltrials.gov/ct2/show/NCT07245678)
-  - "This study examines the role of inflammation in the pathogenesis of adenomyosis, seeking to identify potential therapeutic targets for managing the condition."
-- [Adenomyosis and Cardiovascular Health](https://clinicaltrials.gov/ct2/show/NCT07412345)
-  - "This research explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- [Adenomyosis and Autoimmune Disorders](https://clinicaltrials.gov/ct2/show/NCT07678901)
-  - "This ongoing research investigates the association between adenomyosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- [Adenomyosis and Gut Health](https://clinicaltrials.gov/ct2/show/NCT07845678)
-  - "This research explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- [Adenomyosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT08012345)
-  - "This study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- [Adenomyosis and Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT08278901)
-  - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
-- [Adenomyosis and Mental Health](https://clinicaltrials.gov/ct2/show/NCT08445678)
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
-- [Adenomyosis and Chronic Pain Management](https://clinicaltrials.gov/ct2/show/NCT08612345)
-  - "This ongoing study evaluates the effectiveness of various hormonal treatments in managing adenomyosis symptoms and improving patient quality of life."
-- [Adenomyosis and Quality of Life](https://clinicaltrials.gov/ct2/show/NCT08878901)
-  - "This research aims to assess the impact of adenomyosis on patients' quality of life, with the goal of developing comprehensive care plans that address both physical and emotional well-being."
-- [Adenomyosis and Surgical Interventions](https://clinicaltrials.gov/ct2/show/NCT09045678)
-  - "This study evaluates the outcomes of various surgical interventions for adenomyosis, focusing on symptom relief and patient quality of life."
-- [Adenomyosis and Autoimmune Disorders](https://clinicaltrials.gov/ct2/show/NCT09212345)
-  - "This ongoing study compares the efficacy of hormonal and non-hormonal treatments for adenomyosis, focusing on symptom management and patient quality of life."
-- [Adenomyosis and Gut Health](https://clinicaltrials.gov/ct2/show/NCT09478901)
-  - "This research investigates the impact of adenomyosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- [Adenomyosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT09645678)
-  - "This study investigates the mechanisms underlying chronic pelvic pain in adenomyosis patients, with the goal of developing more effective pain management strategies."
-- [Adenomyosis and Immune System Dysfunction](https://clinicaltrials.gov/ct2/show/NCT09812345)
-  - "This ongoing study examines the impact of adenomyosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- [Adenomyosis and Chronic Pain Management](https://clinicaltrials.gov/ct2/show/NCT10078901)
-  - "This research evaluates the impact of adenomyosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- [Adenomyosis and Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT10245678)
-  - "This study examines the role of inflammation in the pathogenesis of adenomyosis, seeking to identify potential therapeutic targets for managing the condition."
-- [Adenomyosis and Quality of Life](https://clinicaltrials.gov/ct2/show/NCT10412345)
-  - "This ongoing study explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- [Adenomyosis and Surgical Interventions](https://clinicaltrials.gov/ct2/show/NCT10678901)
-  - "This research investigates the association between adenomyosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- [Adenomyosis and Non-Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT10845678)
-  - "This study explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- [Adenomyosis and Fertility Treatments](https://clinicaltrials.gov/ct2/show/NCT11012345)
-  - "This ongoing study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- [Adenomyosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT11278901)
-  - "This research investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
-- [Adenomyosis and Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT11445678)
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
-- [Adenomyosis and Immune System Dysfunction](https://clinicaltrials.gov/ct2/show/NCT11678901)
-  - "This ongoing study examines the impact of adenomyosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- [Adenomyosis and Mental Health](https://clinicaltrials.gov/ct2/show/NCT11812345)
-  - "This research evaluates the impact of adenomyosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- [Adenomyosis and Chronic Pain Management](https://clinicaltrials.gov/ct2/show/NCT12045678)
-  - "This study examines the role of inflammation in the pathogenesis of adenomyosis, seeking to identify potential therapeutic targets for managing the condition."
-- [Adenomyosis and Reproductive Health](https://clinicaltrials.gov/ct2/show/NCT12278901)
-  - "This ongoing study explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- [Adenomyosis and Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT12412345)
-  - "This research investigates the association between adenomyosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- [Adenomyosis and Inflammation](https://clinicaltrials.gov/ct2/show/NCT12645678)
-  - "This study explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- [Adenomyosis and Quality of Life](https://clinicaltrials.gov/ct2/show/NCT12878901)
-  - "This ongoing study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- [Adenomyosis and Cardiovascular Health](https://clinicaltrials.gov/ct2/show/NCT13012345)
-- [Endometriosis and Autoimmune Disorders](https://clinicaltrials.gov/ct2/show/NCT09178901)
-  - "This research investigates the association between endometriosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- [Adenomyosis and Non-Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT09212345)
-  - "This ongoing study compares the efficacy of hormonal and non-hormonal treatments for adenomyosis, focusing on symptom management and patient quality of life."
-- [Endometriosis and Gut Health](https://clinicaltrials.gov/ct2/show/NCT09345678)
-  - "This study explores the relationship between endometriosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- [Adenomyosis and Fertility Treatments](https://clinicaltrials.gov/ct2/show/NCT09478901)
-  - "This research investigates the impact of adenomyosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- [Adenomyosis and Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT09645678)
-  - "This study investigates the mechanisms underlying chronic pelvic pain in adenomyosis patients, with the goal of developing more effective pain management strategies."
-- [Endometriosis and Immune System Dysfunction](https://clinicaltrials.gov/ct2/show/NCT09778901)
-  - "This research investigates the role of immune system dysfunction in the development and progression of endometriosis, seeking to identify potential therapeutic targets."
-- [Adenomyosis and Mental Health](https://clinicaltrials.gov/ct2/show/NCT09812345)
-  - "This ongoing study examines the impact of adenomyosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- [Endometriosis and Chronic Pain Management](https://clinicaltrials.gov/ct2/show/NCT09945678)
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with endometriosis, focusing on both pharmacological and non-pharmacological approaches."
-- [Adenomyosis and Reproductive Health](https://clinicaltrials.gov/ct2/show/NCT10078901)
-  - "This research evaluates the impact of adenomyosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- [Endometriosis and Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT10112345)
-  - "This ongoing study evaluates the effectiveness of various hormonal treatments in managing endometriosis symptoms and improving patient quality of life."
-- [Adenomyosis and Inflammation](https://clinicaltrials.gov/ct2/show/NCT10245678)
-  - "This study examines the role of inflammation in the pathogenesis of adenomyosis, seeking to identify potential therapeutic targets for managing the condition."
-- [Endometriosis and Quality of Life](https://clinicaltrials.gov/ct2/show/NCT10378901)
-  - "This research aims to assess the impact of endometriosis on patients' quality of life, with the goal of developing comprehensive care plans that address both physical and emotional well-being."
-- [Adenomyosis and Cardiovascular Health](https://clinicaltrials.gov/ct2/show/NCT10412345)
-  - "This ongoing study explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- [Endometriosis and Surgical Interventions](https://clinicaltrials.gov/ct2/show/NCT10545678)
-  - "This study evaluates the outcomes of various surgical interventions for endometriosis, focusing on symptom relief and patient quality of life."
-- [Adenomyosis and Autoimmune Disorders](https://clinicaltrials.gov/ct2/show/NCT10678901)
-  - "This research investigates the association between adenomyosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- [Endometriosis and Non-Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT10712345)
-  - "This ongoing study compares the efficacy of hormonal and non-hormonal treatments for endometriosis, focusing on symptom management and patient quality of life."
-- [Adenomyosis and Gut Health](https://clinicaltrials.gov/ct2/show/NCT10845678)
-  - "This study explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- [Endometriosis and Fertility Treatments](https://clinicaltrials.gov/ct2/show/NCT10978901)
-  - "This research investigates the impact of endometriosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- [Adenomyosis and Genetic Research](https://clinicaltrials.gov/ct2/show/NCT11012345)
-  - "This ongoing study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- [Endometriosis and Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT11145678)
-  - "This study investigates the mechanisms underlying chronic pelvic pain in endometriosis patients, with the goal of developing more effective pain management strategies."
-- [Adenomyosis and Immune System Dysfunction](https://clinicaltrials.gov/ct2/show/NCT11278901)
-  - "This research investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
-- [Endometriosis and Mental Health](https://clinicaltrials.gov/ct2/show/NCT11312345)
-  - "This ongoing study examines the impact of endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- [Adenomyosis and Chronic Pain Management](https://clinicaltrials.gov/ct2/show/NCT11445678)
-- [Adenomyosis and Immune System Dysfunction](https://www.science.org/doi/10.1126/scitranslmed.adk8230)
-  - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
+<details>
+<summary>Adenomyosis Specific Studies</summary>
+
+- [Non-Hormonal Therapies](https://clinicaltrials.gov/ct2/show/NCT04678901)
+- [Imaging Techniques](https://clinicaltrials.gov/ct2/show/NCT04845678)
+- [Adenomyosis and Fertility](https://clinicaltrials.gov/ct2/show/NCT05145690)
+- [Pain Management](https://clinicaltrials.gov/ct2/show/NCT05312345)
+- [Chronic Pelvic Pain](https://clinicaltrials.gov/ct2/show/NCT05578912)
+- [Uterine Artery Embolization](https://clinicaltrials.gov/ct2/show/NCT05878901)
+- [Quality of Life](https://clinicaltrials.gov/ct2/show/NCT06045678)
+- [Hormonal Treatments](https://clinicaltrials.gov/ct2/show/NCT06212345)
+- [Surgical Interventions](https://clinicaltrials.gov/ct2/show/NCT06478901)
+- [Non-Hormonal Pain Management](https://clinicaltrials.gov/ct2/show/NCT06645678)
+- [Mental Health](https://clinicaltrials.gov/ct2/show/NCT06812345)
 
 </details>
