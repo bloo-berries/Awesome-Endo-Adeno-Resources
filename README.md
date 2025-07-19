@@ -389,7 +389,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 #### LATAM
   
-- [Expertos en Endometriosis EndoLATAM](www.endolatam.com)
+- [Expertos en Endometriosis EndoLATAM](https://www.endolatam.com)
   - Comunidad de médicos certificados en Endometriosis en Latinoamérica
 - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
   - Passed a historic, first of its kind, Endometriosis Bill in Colombia
