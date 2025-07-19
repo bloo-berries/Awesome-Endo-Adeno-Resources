@@ -672,16 +672,16 @@ Active Clinical Studies:
   - "This study explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
 - [Endometriosis and Fertility Treatments] (https://clinicaltrials.gov/ct2/show/NCT10978901)
   - "This research investigates the impact of endometriosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- [Adenomyosis and Genetic Research] (https://clinicaltrials.gov/ct2/show/NCT11012345)
+- [Adenomyosis and Genetic Research; https://clinicaltrials.gov/ct2/show/NCT11012345
   - "This ongoing study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- [Endometriosis and Chronic Pelvic Pain] (https://clinicaltrials.gov/ct2/show/NCT11145678)
+- [Endometriosis and Chronic Pelvic Pain; https://clinicaltrials.gov/ct2/show/NCT11145678
   - "This study investigates the mechanisms underlying chronic pelvic pain in endometriosis patients, with the goal of developing more effective pain management strategies."
-- [Adenomyosis and Immune System Dysfunction] (https://clinicaltrials.gov/ct2/show/NCT11278901)
+- [Adenomyosis and Immune System Dysfunction; https://clinicaltrials.gov/ct2/show/NCT11278901
   - "This research investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
-- [Endometriosis and Mental Health] (https://clinicaltrials.gov/ct2/show/NCT11312345)
+- [Endometriosis and Mental Health; https://clinicaltrials.gov/ct2/show/NCT11312345
   - "This ongoing study examines the impact of endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- [Adenomyosis and Chronic Pain Management] (https://clinicaltrials.gov/ct2/show/NCT11445678)
-- [Adenomyosis and Immune System Dysfunction] (https://www.science.org/doi/10.1126/scitranslmed.adk8230)
+- [Adenomyosis and Chronic Pain Management; https://clinicaltrials.gov/ct2/show/NCT11445678
+- [Adenomyosis and Immune System Dysfunction; https://www.science.org/doi/10.1126/scitranslmed.adk8230
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
 
 </details>
