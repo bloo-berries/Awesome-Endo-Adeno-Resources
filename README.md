@@ -473,7 +473,8 @@ Active Clinical Studies:
   - Pioneering the first non-hormonal, disease-modifying approach to treating endometriosis that both directly addresses pain mechanisms and resets innate immune cells to cause regression of endometriotic lesions.
 - [Gesynta Pharma](https://www.gesynta.se/)
   - Vipoglanstat to enter clinical phase II development targeting endometriosis. Gesynta Pharma's targeted approach to the enzyme mPGES-1 provides more precise treatments for inflammation and pain.
-- [RPN-002 (nolasiban), another orally administered therapy, is a first-in-disease and first-in-class molecular entity to manage adenomyosis](https://repronovo.com/press-release/repronovo-raises-65-million-series-a-financing-to-advance-phase-2-clinical-trials-of-novel-therapies-in-reproductive-medicine-and-womens-health/)
+- [RPN-002 (nolasiban): A molecular entity to manage adenomyosis](https://repronovo.com/press-release/repronovo-raises-65-million-series-a-financing-to-advance-phase-2-clinical-trials-of-novel-therapies-in-reproductive-medicine-and-womens-health/)
+  - Lead clinical compound, RPN-001 (leflutrozole), is being developed to treat male infertility.  RPN-002 (nolasiban) is a first-in-disease and first-in-class molecular entity to manage adenomyosis and increase the probability of embryo implantation in women undergoing assisted reproductive technology (ART) treatments.
 - [Serac: New Diagnostic Imaging Potential for Endometriosis](https://www.serachealthcare.com/our-focus/#endometriosis)
   - A Phase II clinical study has indicated that 99mTc-maraciclatide is capable of imaging superficial peritoneal endometriosis – the earliest stage of the disease which is not well-visualised with current imaging tools – and plans for a Phase III study in this indication are underway.
 - [TiumBio](http://www.tiumbio.com/en/)
