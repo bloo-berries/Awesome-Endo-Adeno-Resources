@@ -499,7 +499,9 @@ Active Clinical Studies:
 #### Case Studies
 
 <details>
-  <summary> **Click to expand Case Studies** </summary>
+  <summary> Click to expand Case Studies </summary>
+
+  **Important:** All below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites (which is why they aren't clickable) due to executive order by the president. Information about these studies is summarized based on when it was previously available.
   
 - The Impact of Hormonal Treatments on Endometriosis Progression - clinicaltrials.gov/ct2/show/NCT04512345
   - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
