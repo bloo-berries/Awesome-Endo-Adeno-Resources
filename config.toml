@@ -7,7 +7,7 @@ pluralizelisttitles = false
     pagerSize = 10
 
 [params]
-    brand = "Awesome Endo Adeno Resources"
+    brand = "Awesome Endo Adeno Resources - Hugo Site"
     description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment resources."
     dark_mode = true
     favicon = "favicon.png"
