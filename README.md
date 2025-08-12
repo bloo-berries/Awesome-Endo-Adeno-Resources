@@ -50,7 +50,7 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
     - [Potential Causes](#potential-causes)
       - [Genetics](#genetics)
       - [Case Studies](#case-studies)
-    - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
+        - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
