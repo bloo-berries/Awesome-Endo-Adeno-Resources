@@ -24,7 +24,6 @@ Welcome to your go-to resource for navigating the challenges of Endometriosis an
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
     - [Medicinal](#medicinal)
-      - [As stated from EndoWhat?, "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
       - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
       - [Cannabis and Herbal](#cannabis-and-herbal)
       - [Physical Therapy](#physical-therapy)
