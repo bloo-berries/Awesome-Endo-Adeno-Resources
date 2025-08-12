@@ -1,0 +1,71 @@
+baseURL = "https://bloo-berries.github.io/Awesome-Endo-Adeno-Resources/"
+languageCode = "en-us"
+theme = "poison"
+pluralizelisttitles = false
+
+[pagination]
+    pagerSize = 10
+
+[params]
+    brand = "Awesome Endo Adeno Resources"
+    description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment resources."
+    dark_mode = true
+    favicon = "favicon.png"
+
+    front_page_content = ["posts"]
+
+    # Menu configuration
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Resources", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    ]
+
+    # Social links (you can customize these)
+    github_url = "https://github.com/bloo-berries"
+    email_url = "mailto:your-email@domain.com"
+    
+    # RSS configuration
+    rss_icon = true
+    rss_section = "posts"
+
+    # Sidebar colors
+    moon_sun_background_color = "#515151"
+    moon_sun_color = "#FFF"
+    sidebar_a_color = "#FFF"
+    sidebar_bg_color = "#202020"
+    sidebar_h1_color = "#FFF"
+    sidebar_img_border_color = "#515151"
+    sidebar_p_color = "#909090"
+    sidebar_socials_color = "#FFF"
+
+    # Light mode colors
+    code_color = "#000"
+    code_background_color = "#E5E5E5"
+    code_block_color = "#FFF"
+    code_block_background_color = "#272822"
+    content_bg_color = "#FAF9F6"
+    date_color = "#515151"
+    link_color = "#268BD2"
+    list_color = "#5A5A5A"
+    post_title_color = "#303030"
+    table_border_color = "#E5E5E5"
+    table_stripe_color = "#F9F9F9"
+    text_color = "#222"
+
+    # Dark mode colors
+    code_color_dark = "#FFF"
+    code_background_color_dark = "#515151"
+    code_block_color_dark = "#FFF"
+    code_block_background_color_dark = "#272822"
+    content_bg_color_dark = "#121212"
+    date_color_dark = "#9A9A9A"
+    link_color_dark = "#268BD2"
+    list_color_dark = "#9D9D9D"
+    post_title_color_dark = "#DBE2E9"
+    table_border_color_dark = "#515151"
+    table_stripe_color_dark = "#202020"
+    text_color_dark = "#EEE"
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'
