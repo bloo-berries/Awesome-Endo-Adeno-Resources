@@ -499,7 +499,8 @@ Active Clinical Studies:
 #### Case Studies
 
 <details>
-  <summary>**Click to expand Case Studies** (Contains extensive clinical trial information)</summary>
+  <summary> **Click to expand Case Studies** </summary>
+  
 - The Impact of Hormonal Treatments on Endometriosis Progression - clinicaltrials.gov/ct2/show/NCT04512345
   - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
 - Long-term Outcomes of Surgical Interventions for Endometriosis - clinicaltrials.gov/ct2/show/NCT05012389
