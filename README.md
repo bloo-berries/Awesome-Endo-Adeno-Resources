@@ -448,6 +448,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [ENACT (UCSF-Stanford Endometriosis Center)](https://www.enactcenter.org/)
   - Conducts multi-omic studies to classify disease phenotypes, identify therapeutic targets, and improve patient outcomes
 - [IL8-Inhibitor; Amy109 Monthly Injection](https://www.newscientist.com/article/2360657-endometriosis-could-be-controlled-with-monthly-antibody-injections/#:~:text=An%20antibody%20that%20eases%20inflammation%20partly%20reverses%20endometriosis,parts%20of%20the%20body%2C%20usually%20inside%20the%20pelvis.)
+  - An antibody that eases inflammation partly reverses endometriosis when given as a monthly injection.
 - [Landmark donation powers world-first endometriosis research institute at UNSW](https://www.unsw.edu.au/newsroom/news/2025/05/Landmark-donation-powers-world-first-endometriosis-research-institute-at-UNSW)
   - A $50 million philanthropic contribution will position Australia as a global leader in women's health
 - [Society for Women's Health Research (SWHR)](https://swhr.org/)
