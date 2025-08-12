@@ -165,6 +165,12 @@ README.md.original
 index.md.original
 _kramdown.yml
 
+# Hugo specific
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+
 # Cloudflare specific
 .cloudflare/
 .jekyll-config 

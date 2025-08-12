@@ -1,30 +1,123 @@
-# Contribution Guidelines
+# Contributing to Awesome Endo Adeno Resources
 
-Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
+Thank you for your interest in contributing to this comprehensive resource for Endometriosis and Adenomyosis! This guide will help you understand how to contribute effectively.
 
-## Adding an awesome list
+## 🌟 How to Contribute
 
-Please ensure your pull request adheres to the [list of guidelines](pull_request_template.md).
+### Adding New Resources
 
-## Creating your own awesome list
+1. **Fork the repository** on GitHub
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Awesome-Endo-Adeno-Resources.git
+   cd Awesome-Endo-Adeno-Resources
+   git submodule update --init --recursive
+   ```
 
-To create your own list, check out the [instructions](create-list.md).
+3. **Create a feature branch**:
+   ```bash
+   git checkout -b feature/add-new-resource
+   ```
 
-## Adding something to an awesome list
+4. **Edit the main resource file**:
+   - Open `content/posts/endo-adeno-resources-overview.md`
+   - Add your resource in the appropriate section
+   - Follow the existing format and style
 
-If you have something awesome to contribute to an awesome list, this is how you do it.
+5. **Test your changes locally**:
+   ```bash
+   hugo server
+   ```
+   Visit `http://localhost:1313` to preview your changes
 
-You'll need a [GitHub account](https://github.com/join)!
+6. **Commit and push**:
+   ```bash
+   git add .
+   git commit -m "Add [resource name] to [section]"
+   git push origin feature/add-new-resource
+   ```
 
-1. Access the awesome list's GitHub page. For example: https://github.com/sindresorhus/awesome
-2. Click on the `readme.md` file: ![Step 2 Click on Readme.md](https://cloud.githubusercontent.com/assets/170270/9402920/53a7e3ea-480c-11e5-9d81-aecf64be55eb.png)
-3. Now click on the edit icon. ![Step 3 - Click on Edit](https://cloud.githubusercontent.com/assets/170270/9402927/6506af22-480c-11e5-8c18-7ea823530099.png)
-4. You can start editing the text of the file in the in-browser editor. Make sure you follow the guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). ![Step 4 - Edit the file](https://cloud.githubusercontent.com/assets/170270/9402932/7301c3a0-480c-11e5-81f5-7e343b71674f.png)
-5. Say why you're proposing the changes, and then click on "Propose file change". ![Step 5 - Propose Changes](https://cloud.githubusercontent.com/assets/170270/9402937/7dd0652a-480c-11e5-9138-bd14244593d5.png)
-6. Submit the [pull request](https://help.github.com/articles/using-pull-requests/)!
+7. **Create a Pull Request** on GitHub
 
-## Updating your Pull Request
+### Resource Guidelines
 
-Sometimes, a maintainer of an awesome list will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-* list guidelines.
+When adding resources, please ensure:
 
-[Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) is a write up on how to change a Pull Request and the different ways you can do that.
+- **Accuracy**: Verify the information is current and accurate
+- **Relevance**: Resources should be directly related to Endometriosis or Adenomyosis
+- **Quality**: Prefer reputable medical sources, research institutions, or established organizations
+- **Format**: Follow the existing markdown format and structure
+- **Descriptions**: Include brief descriptions explaining why the resource is valuable
+
+### Types of Resources We Accept
+
+- **Healthcare Providers**: Vetted specialists and clinics
+- **Research Studies**: Current and relevant medical research
+- **Support Groups**: Community and advocacy organizations
+- **Educational Materials**: Books, articles, and learning resources
+- **Treatment Options**: Medical and therapeutic approaches
+- **Diagnostic Tools**: Testing and assessment resources
+- **Financial Assistance**: Grants, programs, and support
+
+### Code of Conduct
+
+By participating in this project, you agree to:
+
+- Be respectful and inclusive
+- Provide accurate, helpful information
+- Respect medical privacy and confidentiality
+- Support evidence-based approaches
+- Maintain a supportive community environment
+
+## 🛠️ Technical Contributions
+
+### Hugo Development
+
+If you're contributing to the site's technical aspects:
+
+1. **Install Hugo** (if not already installed):
+   ```bash
+   brew install hugo  # macOS
+   ```
+
+2. **Make your changes** to the appropriate files:
+   - `config.toml` - Site configuration
+   - `content/` - Content files
+   - `assets/css/custom.css` - Custom styles (if needed)
+
+3. **Test thoroughly** before submitting
+
+### Link Validation
+
+We maintain link quality with our validation script:
+```bash
+python3 check_links.py
+```
+
+Please run this before submitting changes to ensure all links are working.
+
+## 📝 Pull Request Guidelines
+
+When submitting a Pull Request:
+
+1. **Clear Title**: Use a descriptive title like "Add [Resource Name] to [Section]"
+2. **Detailed Description**: Explain what you're adding and why it's valuable
+3. **Testing**: Confirm you've tested the changes locally
+4. **Formatting**: Ensure proper markdown formatting
+5. **Links**: Verify all links are working
+
+## 🚀 Getting Help
+
+If you need help or have questions:
+
+1. **Check existing issues** on GitHub
+2. **Create a new issue** for bugs or feature requests
+3. **Join discussions** in existing pull requests
+
+## 📄 License
+
+By contributing, you agree that your contributions will be licensed under the same license as the project.
+
+---
+
+**Thank you for helping make this resource better for the Endometriosis and Adenomyosis community!** ❤️
