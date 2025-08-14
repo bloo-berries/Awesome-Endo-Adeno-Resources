@@ -357,7 +357,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Provides support and raises awareness about endometriosis in France
 - Germany
   - [Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
-  - Offers support, information, and advocacy for individuals with endometriosis in Germany
+    - Offers support, information, and advocacy for individuals with endometriosis in Germany
 - Iceland
   - [Endo Organization](https://endo.is/)
     - Provides support and improved health services in Iceland for Endometriosis
@@ -383,7 +383,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Offers resources and advocacy for endometriosis patients in Spain
 - Sweden
   - [Endometriosföreningen](https://www.endometriosforeningen.com/)
-  - Focuses on raising awareness and providing support for endometriosis patients in Sweden
+    - Focuses on raising awareness and providing support for endometriosis patients in Sweden
 - UK
   - [Endometriosis UK](https://endometriosisuk.org/)
 
