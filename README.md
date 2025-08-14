@@ -221,14 +221,17 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 #### Medication and Medicinal Supplements
 
+- [Immunology and Immunotherapy of Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8708975/)
+  - Research on the treatment of Endometriosis symptoms with Low Dose Naltrexone
+
 #### Cannabis and Herbal
 
 - [Lara Parker's Journey with Endometriosis](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2)
   - "Lara Parker shares her personal experience with endometriosis and discusses various non-surgical treatment options."
 - [Cannabis and Endometriosis: A Survey of Its Effectiveness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940)
-- "This study explores the effectiveness of cannabis in managing endometriosis symptoms, providing valuable insights into its potential benefits."
+  - "This study explores the effectiveness of cannabis in managing endometriosis symptoms, providing valuable insights into its potential benefits."
 - [Cannabinoids Improve Symptoms in Mice with Endometriosis](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis)
-- "This research highlights the potential of cannabinoids in alleviating endometriosis symptoms in a mouse model."
+  - "This research highlights the potential of cannabinoids in alleviating endometriosis symptoms in a mouse model."
 
 #### Physical Therapy
 
