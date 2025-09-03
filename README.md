@@ -24,7 +24,6 @@
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
     - [Medicinal](#medicinal)
-      - [As stated from EndoWhat?, "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
       - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
       - [Cannabis and Herbal](#cannabis-and-herbal)
       - [Physical Therapy](#physical-therapy)
@@ -149,8 +148,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Developing the first-ever microRNA-based molecular screen for endometriosis, called EndomiR: EndomiR compares the expression levels of a panel of microRNAs with those from surgically confirmed cases of endometriosis.
 - [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis)
   - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose endometriosis using menstrual blood
-- **Electronic Health Records (EHR) Pattern Recognition** (Khan et al., 2025)
-  - **Revolutionary diagnostic approach** using AI-powered analysis of electronic health records to identify endometriosis comorbidity patterns. Study of >43,500 patients revealed **over 600 disease correlations** and **distinct patient clusters**, enabling earlier diagnosis and personalized treatment approaches. This represents a paradigm shift from traditional diagnostic methods to data-driven, multi-system disease recognition.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
@@ -190,8 +187,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - The FEMaLe project will bring the revolution with the application of Augmented Reality (AR) in dealing with endometriosis
 - [Endometriosis Subtyping study by @guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping)
   - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
-- **Electronic Health Records (EHR) Analysis for Endometriosis Comorbidities** (Khan et al., 2025)
-  - **Revolutionary study** using AI and machine learning to analyze >43,500 endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and **distinct patient clusters**. Demonstrates the power of big data analytics in revealing multi-system disease connections and enabling personalized medicine approaches for endometriosis care.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
