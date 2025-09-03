@@ -348,7 +348,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 #### Respiratory & Allergic Conditions
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
-| **Asthma**                                       | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Respiratory condition with significant correlation** |
 | [Asthma](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
 | [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
 
