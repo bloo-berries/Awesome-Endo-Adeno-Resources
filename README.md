@@ -24,6 +24,7 @@
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
     - [Medicinal](#medicinal)
+      - [As stated from EndoWhat?, "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
       - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
       - [Cannabis and Herbal](#cannabis-and-herbal)
       - [Physical Therapy](#physical-therapy)
@@ -31,6 +32,22 @@
     - [Endometriosis](#endometriosis)
     - [Adenomyosis](#adenomyosis)
   - [Potential Co-morbidities](#potential-co-morbidities)
+    - [Research Foundation](#research-foundation)
+    - [Comorbidity Categories](#comorbidity-categories)
+      - [Gynecological Conditions (Strongest Associations)](#gynecological-conditions-strongest-associations)
+      - [Gastrointestinal Disorders](#gastrointestinal-disorders)
+      - [Neurological Conditions](#neurological-conditions)
+      - [Mental Health Comorbidities](#mental-health-comorbidities)
+      - [Autoimmune \& Inflammatory Conditions](#autoimmune--inflammatory-conditions)
+      - [Respiratory \& Allergic Conditions](#respiratory--allergic-conditions)
+      - [Novel \& Unexpected Associations](#novel--unexpected-associations)
+    - [Unexpected Correlations](#unexpected-correlations)
+      - [Protective Associations (Novel Finding)](#protective-associations-novel-finding)
+      - [Other Established Comorbidities](#other-established-comorbidities)
+    - [Clinical Implications](#clinical-implications)
+      - [Multi-System Disease Recognition](#multi-system-disease-recognition)
+      - [Personalized Treatment Approaches](#personalized-treatment-approaches)
+      - [Novel Therapeutic Avenues](#novel-therapeutic-avenues)
   - [Financial Assistance Platforms](#financial-assistance-platforms)
   - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
     - [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
@@ -45,12 +62,13 @@
   - [Medical Research](#medical-research)
     - [Scientific Research \& Medical Research Organizations](#scientific-research--medical-research-organizations)
     - [Current Medical Studies](#current-medical-studies)
+      - [Recent Breakthrough Research (2025)](#recent-breakthrough-research-2025)
     - [Important Note](#important-note)
     - [Active Research Studies](#active-research-studies)
     - [Potential Causes](#potential-causes)
       - [Genetics](#genetics)
       - [Case Studies](#case-studies)
-        - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
+    - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
@@ -131,6 +149,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - Developing the first-ever microRNA-based molecular screen for endometriosis, called EndomiR: EndomiR compares the expression levels of a panel of microRNAs with those from surgically confirmed cases of endometriosis.
 - [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis)
   - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose endometriosis using menstrual blood
+- **Electronic Health Records (EHR) Pattern Recognition** (Khan et al., 2025)
+  - **Revolutionary diagnostic approach** using AI-powered analysis of electronic health records to identify endometriosis comorbidity patterns. Study of >43,500 patients revealed **over 600 disease correlations** and **distinct patient clusters**, enabling earlier diagnosis and personalized treatment approaches. This represents a paradigm shift from traditional diagnostic methods to data-driven, multi-system disease recognition.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
@@ -170,6 +190,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - The FEMaLe project will bring the revolution with the application of Augmented Reality (AR) in dealing with endometriosis
 - [Endometriosis Subtyping study by @guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping)
   - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
+- **Electronic Health Records (EHR) Analysis for Endometriosis Comorbidities** (Khan et al., 2025)
+  - **Revolutionary study** using AI and machine learning to analyze >43,500 endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and **distinct patient clusters**. Demonstrates the power of big data analytics in revealing multi-system disease connections and enabling personalized medicine approaches for endometriosis care.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
@@ -244,6 +266,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Endometriosis
 
+- [Comorbidity analysis and clustering of endometriosis patients using electronic health records](https://www.sciencedirect.com/science/article/pii/S2666379125003180) (Khan et al., 2025)
+  - **Groundbreaking study** analyzing >43,500 endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and confirming endometriosis as a **multi-system disorder**. Key findings include strongest associations with uterine adenomyosis (OR = 181), pelvic adhesions (OR = 51.1), and protective effects of hyperlipidemia (OR = 0.67). Study reveals distinct patient subgroups requiring personalized treatment approaches.
 - [Endometriosis Typology and Ovarian Cancer Risk](https://jamanetwork.com/journals/jama/article-abstract/2821194)
   - "Those with endometriosis had 4.2-fold higher ovarian cancer risk than those without endometriosis. Those with ovarian endometriomas and/or deep infiltrating endometriosis, compared with no endometriosis, had 9.7-fold higher risk"
 - [Endometriosis and the risk of ovarian cancer: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/36988819/)
@@ -268,35 +292,124 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## Potential Co-morbidities
 
+*Data Source: De-identified EHRs using OMOP Common Data Model*
+
+### Research Foundation
+**Groundbreaking Study:** [Comorbidity analysis and clustering of endometriosis patients using electronic health records](https://www.sciencedirect.com/science/article/pii/S2666379125003180) (Khan et al., 2025) analyzed >43,500 endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and confirming endometriosis as a **multi-system disorder** affecting multiple body systems beyond gynecology.
+
+**Key Findings:**
+- **661 significantly enriched conditions** identified at UCSF
+- **302 conditions replicated** across independent datasets (45% validation rate)
+- **Strong correlation strength:** Pearson r = 0.864 between datasets
+- **Patient clustering** reveals distinct subgroups requiring personalized treatment approaches
+
+### Comorbidity Categories
+
+#### Gynecological Conditions (Strongest Associations)
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Uterine adenomyosis**                          | **80.6%**                   | -                         | **Very High**                             | **80.6%**             | **OR = 181 (strongest association identified)**  |
+| **Pelvic peritoneal adhesions**                  | **Significant**             | -                         | **Very High**                             | **Significant**       | **OR = 51.1**                                     |
+| **Crohn's disease**                              | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Inflammatory bowel condition with significant overlap** |
+| **Noninflammatory disorders of female genital organs** | **Significant**        | -                         | **Very High**                             | **Significant**       | **OR = 30.2**                                     |
 | Adenomyosis                                      | 80.6%                       | -                         | High                                      | 80.6%                 | High co-occurrence with endometriosis             |
 | Endometriosis                                    | -                           | 91.1%                     | High                                      | 91.1%                 | High co-occurrence with adenomyosis               |
 | Uterine Leiomyoma (Fibroids)                     | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
 | Benign Ovarian Tumors                            | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
 | Polycystic Ovarian Syndrome (PCOS)               | Strong association          | -                         | Moderate                                  | Significant           | More common with endometriosis                    |
-| [Anemia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Less prevalent              | More prevalent            | Low in endometriosis, High in adenomyosis | Varies                | Iron deficiency anemia more common in adenomyosis |
-| Hypercholesterolemia                             | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
-| Hyperlipidemia                                   | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
-| [Chronic Pelvic Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                              | Common                      | Common                    | High                                      | Common                | Major symptom in both conditions                  |
 | Infertility                                      | Common                      | Common                    | High                                      | Common                | Can affect fertility in both conditions           |
-| [Postural Orthostatic Tachycardia Syndrome (POTS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
-| [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)        | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
-| [Mast Cell Activation Syndrome (MCAS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)             | Up to 20%                   | -                         | 10-20%                                    | 10-20%                | Up to 20% co-occurrence; antihistamine therapy can ameliorate pelvic pain |
-| [Interstitial Cystitis](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                            | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
+
+#### Gastrointestinal Disorders
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Crohn's disease**                              | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Inflammatory bowel condition with significant overlap** |
+| **Irritable bowel syndrome**                     | **Common**                  | -                         | **Moderate**                              | **Common**            | **Common comorbidity affecting quality of life**  |
+| **Acid reflux**                                  | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Digestive disorder with increased prevalence**  |
 | [Irritable Bowel Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                         | Common                      | -                         | Moderate                                  | Common                | Differentiation via Rome IV criteria essential; gut-directed therapy improves overall quality of life |
-| Small Fiber Neuropathy (SFN)                                                                      | 30%                         | -                         | High                                      | 30%                   | Emerging link in 30% of endometriosis cases; skin biopsy–confirmed SFN may underlie chronic pelvic pain |
-| Autoimmune Thyroiditis                                                                            | -                           | 25%                       | Moderate                                  | 25%                   | 25% prevalence in adenomyosis; routine thyroid panels recommended |
-| Migraine                                         | Common                      | -                         | Moderate                                  | Common                | Associated with endometriosis                     |
-| Anxiety and Depression                           | Common                      | Common                    | High                                      | Common                | Mental health impacts in both conditions          |
-| [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                     | Common                      | -                         | Moderate                                  | Common                | Contributing to widespread pain                   |
-| [Autoimmune Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                             | Increased risk              | -                         | Moderate                                  | Increased risk        | Association noted with endometriosis              |
-| [Thyroid Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher prevalence of hypothyroidism               |
-| [Asthma](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
-| [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
 | [Gastroesophageal Reflux Disease (GERD)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)           | Common                      | -                         | Moderate                                  | Common                | Frequently observed in endometriosis              |
+
+#### Neurological Conditions
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Migraine**                                     | **Common**                  | -                         | **Moderate**                              | **Common**            | **Temporal persistence before/after diagnosis; shared biological pathways** |
+| [Small Fiber Neuropathy (SFN)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                    | 30%                         | -                         | High                                      | 30%                   | Emerging link in 30% of endometriosis cases; skin biopsy–confirmed SFN may underlie chronic pelvic pain |
 | [Sciatica](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                         | Can occur                   | -                         | Low                                       | Rare                  | Due to nerve compression or inflammation          |
 | [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
+
+#### Mental Health Comorbidities
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Depression**                                   | **Common**                  | -                         | **High**                                  | **Common**            | **Common comorbidity requiring integrated care**  |
+| **Anxiety disorders**                            | **Significant**             | -                         | **High**                                  | **Significant**       | **Significant association affecting treatment outcomes** |
+| Anxiety and Depression                           | Common                      | Common                    | High                                      | Common                | Mental health impacts in both conditions          |
+
+#### Autoimmune & Inflammatory Conditions
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Multiple autoimmune conditions**               | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Strong correlations supporting immune dysfunction theories** |
+| [Autoimmune Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                             | Increased risk              | -                         | Moderate                                  | Increased risk        | Association noted with endometriosis              |
+| [Autoimmune Thyroiditis](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                           | -                           | 25%                       | Moderate                                  | 25%                   | 25% prevalence in adenomyosis; routine thyroid panels recommended |
+| [Thyroid Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher prevalence of hypothyroidism               |
+| [Mast Cell Activation Syndrome (MCAS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)             | Up to 20%                   | -                         | 10-20%                                    | Up to 20%             | Up to 20% co-occurrence; antihistamine therapy can ameliorate pelvic pain |
+
+#### Respiratory & Allergic Conditions
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Asthma**                                       | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Respiratory condition with significant correlation** |
+| [Asthma](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
+| [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
+
+#### Novel & Unexpected Associations
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Eye-related diseases**                         | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Previously underrecognized association**       |
+| **Certain cancers**                              | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Specific cancer types with increased risk**    |
+| **Asthma**                                       | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Respiratory condition with significant correlation** |
+| **Skin disorders**                               | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Dermatological manifestations identified**      |
+| **Renal disorders**                              | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Kidney-related conditions noted**              |
+
+### Unexpected Correlations
+
+- **Eye-related diseases**: Previously underrecognized association
+- **Certain cancers**: Specific cancer types with increased risk
+- **Asthma**: Respiratory condition with significant correlation
+- **Skin disorders**: Dermatological manifestations identified
+- **Renal disorders**: Kidney-related conditions noted
+
+#### Protective Associations (Novel Finding)
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Hyperlipidemia**                               | **Reduced**                 | -                         | **Protective**                            | **Significant**       | **OR = 0.67 (protective effect); statin therapy may offer benefits** |
+| **Mixed hyperlipidemia**                         | **Reduced**                 | -                         | **Protective**                            | **Significant**       | **OR = 0.67; potential therapeutic avenue**      |
+| Hypercholesterolemia                             | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
+| Hyperlipidemia                                   | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
+
+#### Other Established Comorbidities
+| Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
+| ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| [Anemia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Less prevalent              | More prevalent            | Low in endometriosis, High in adenomyosis | Varies                | Iron deficiency anemia more common in adenomyosis |
+| [Chronic Pelvic Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                              | Common                      | Common                    | High                                      | Common                | Major symptom in both conditions                  |
+| [Postural Orthostatic Tachycardia Syndrome (POTS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
+| [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)        | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
+| [Interstitial Cystitis](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                            | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
+| [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                     | Common                      | -                         | Moderate                                  | Common                | Contributing to widespread pain                   |
+
+### Clinical Implications
+
+#### Multi-System Disease Recognition
+- **Paradigm shift:** Endometriosis should be approached as a **systemic disorder** rather than isolated gynecological condition
+- **Multi-specialty care:** Recognition necessitates coordinated care across medical specialties
+- **Enhanced surveillance:** Increased monitoring for associated conditions in affected systems
+
+#### Personalized Treatment Approaches
+- **Patient clustering:** Distinct subgroups with different comorbidity patterns require tailored treatments
+- **Comorbidity management:** Integrated care addressing all affected body systems
+- **Therapeutic opportunities:** Shared pathways with comorbid conditions offer new treatment avenues
+
+#### Novel Therapeutic Avenues
+- **Statin therapy:** Based on protective lipid associations (OR = 0.67)
+- **Migraine medications:** Shared pathway treatments for neurological symptoms
+- **Multi-target approaches:** Addressing systemic inflammation across affected systems
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
@@ -460,6 +573,19 @@ Dive in to discover practical tips, connect with others who understand what we'r
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ### Current Medical Studies
+
+#### Recent Breakthrough Research (2025)
+- **[Comorbidity Analysis and Clustering of Endometriosis Patients Using Electronic Health Records](https://www.sciencedirect.com/science/article/pii/S2666379125003180)** (Khan et al., 2025)
+  - **Study Design:** Retrospective case-control study using electronic health records
+  - **Population:** >43,500 endometriosis patients across six UC medical centers
+  - **Key Findings:** 
+    - **661 significantly enriched conditions** identified at UCSF
+    - **302 conditions replicated** across independent datasets (45% validation rate)
+    - **Strongest associations:** Uterine adenomyosis (OR = 181), pelvic adhesions (OR = 51.1)
+    - **Protective effects:** Hyperlipidemia (OR = 0.67) - potential statin therapy benefits
+    - **Patient clustering:** Distinct subgroups with different comorbidity patterns
+  - **Clinical Impact:** Confirms endometriosis as multi-system disorder requiring personalized treatment approaches
+  - **Data Source:** De-identified EHRs using OMOP Common Data Model with cross-dataset validation
 
 ### Important Note
 
