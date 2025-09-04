@@ -1,4 +1,4 @@
-https://pubmed.ncbi.nlm.nih.gov/39926583/# Awesome Endo Adeno Resources Overview
+# Awesome Endo Adeno Resources Overview
 
 ![Awesome](https://awesome.re/badge.svg)
 
