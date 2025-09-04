@@ -400,7 +400,30 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## Financial Assistance Platforms
 
-- [Fortuna Health](https://www.fortunahealth.com/)
+Australia
+- [Endometriosis Australia](https://endometriosisaustralia.org/)
+  - Grants for surgical costs, IVF, and travel to specialist clinics
+
+France
+- [Association Française d’Endométriose (AFEN)](https://www.afena.fr/)
+  - Annual “Solidarity Fund” for surgical costs and travel
+
+Germany
+- [Deutsche Gesellschaft für Endometriose‑Forschung (DGEF)](https://www.endometriose-vereinigung.de/)
+  - Small research‑grant style awards for patients needing surgery or medication
+
+New Zealand
+- [NZ Endometriosis Foundation](https://nzendo.org.nz/)
+  - Small emergency‑relief grants for medication and transport
+
+U.K.
+- [British Fertility Society (BFS) – Patient Support Fund - U.K.](https://www.britishfertilitysociety.org.uk/)
+  - Partial funding for fertility treatment linked to endometriosis
+- [Endometriosis UK](https://www.endometriosis-uk.org/)
+  - Grants for surgery, IVF, travel to specialist centres; also runs a “Cost‑of‑Care” bursary for low‑income patients
+
+U.S.A.
+- [Fortuna Health - U.S.A.](https://www.fortunahealth.com/)
   - Medicaid eligibility checker, enrollment, and care renewal
 
 ## Advocacy Groups and Platforms
