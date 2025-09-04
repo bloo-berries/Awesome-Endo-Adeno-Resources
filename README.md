@@ -1,4 +1,4 @@
-# Awesome Endo Adeno Resources Overview
+https://pubmed.ncbi.nlm.nih.gov/39926583/# Awesome Endo Adeno Resources Overview
 
 ![Awesome](https://awesome.re/badge.svg)
 
@@ -230,7 +230,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | EVG-Guided Pelvic Floor Biofeedback | Uses EVG monitoring for targeted pelvic floor therapy | Personalized pelvic floor rehabilitation | Requires specialized equipment and training |
 | Infrared Spectroscopy    | Spectrochemical analysis                      | Highly sensitive, non-invasive               | Early research stage                      |
 | Imaging Innovations      | Advanced imaging technologies                 | Reliable alternative to surgery              | Clinical trials ongoing                   |
-| AI + Omics Integration   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
+| [AI + Omics Integration](https://pubmed.ncbi.nlm.nih.gov/39926583/)   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
 | [Microbiome modulation](https://www.sciencedirect.com/science/article/pii/S1471491424001667)    | Gut–microbiota–brain axis recently emerged as a key player in neuro-pain pathways                | Personalized treatment                     | Needs More Developed Research           |
 
 ### Medicinal
