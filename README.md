@@ -221,9 +221,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Non-Surgical
 
-- Latest Advancements in Non-Surgical Diagnostic Tests for Endometriosis
+- Latest Advancements in Non-Surgical Diagnostics & Therapeutics for Endometriosis
 
-| Diagnostic Method        | Key Features                                   | Advantages                                    | Limitations                                |
+| Method        | Key Features                                   | Advantages                                    | Limitations                                |
 |--------------------------|-----------------------------------------------|----------------------------------------------|-------------------------------------------|
 | [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test)| Identifies protein biomarkers                 | Cost-effective, early-stage detection        | Requires further validation for global use|
 | Electroviscerography (EVG)| Monitors gastrointestinal myoelectric activity| Non-invasive, experimental                   | Needs more clinical trials                |
@@ -231,6 +231,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | Infrared Spectroscopy    | Spectrochemical analysis                      | Highly sensitive, non-invasive               | Early research stage                      |
 | Imaging Innovations      | Advanced imaging technologies                 | Reliable alternative to surgery              | Clinical trials ongoing                   |
 | AI + Omics Integration   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
+| [Microbiome modulation](https://www.sciencedirect.com/science/article/pii/S1471491424001667)    | Gut–microbiota–brain axis recently emerged as a key player in neuro-pain pathways                | Personalized treatment                     | Needs More Developed Research           |
 
 ### Medicinal
 
