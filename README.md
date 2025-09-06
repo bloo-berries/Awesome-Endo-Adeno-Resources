@@ -43,9 +43,8 @@
       - [Protective Associations (Novel Finding)](#protective-associations-novel-finding)
       - [Other Established Comorbidities](#other-established-comorbidities)
     - [Clinical Implications](#clinical-implications)
-      - [Multi-System Disease Recognition](#multi-system-disease-recognition)
-      - [Personalized Treatment Approaches](#personalized-treatment-approaches)
       - [Novel Therapeutic Avenues](#novel-therapeutic-avenues)
+  - [Financial Assistance Platforms](#financial-assistance-platforms)
   - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
       - [Americas and Caribbean](#americas-and-caribbean)
       - [Africa](#africa)
@@ -53,6 +52,7 @@
       - [Europe](#europe)
       - [LATAM](#latam)
   - [Fertility Resources](#fertility-resources)
+  - [Educational Materials](#educational-materials)
   - [Community Sourced Data and Support](#community-sourced-data-and-support)
   - [Medical Research](#medical-research)
     - [Scientific Research \& Medical Research Organizations](#scientific-research--medical-research-organizations)
@@ -391,28 +391,16 @@ De-identified EHRs using OMOP Common Data Model
 
 ### Clinical Implications
 
-#### Multi-System Disease Recognition
-
-- **Paradigm shift:** Endometriosis should be approached as a **systemic disorder** rather than isolated gynecological condition
-- **Multi-specialty care:** Recognition necessitates coordinated care across medical specialties
-- **Enhanced surveillance:** Increased monitoring for associated conditions in affected systems
-
-#### Personalized Treatment Approaches
-
-- **Patient clustering:** Distinct subgroups with different comorbidity patterns require tailored treatments
-- **Comorbidity management:** Integrated care addressing all affected body systems
-- **Therapeutic opportunities:** Shared pathways with comorbid conditions offer new treatment avenues
-
 #### Novel Therapeutic Avenues
 
 - **Statin therapy:** Based on protective lipid associations (OR = 0.67)
 - **Migraine medications:** Shared pathway treatments for neurological symptoms
 - **Multi-target approaches:** Addressing systemic inflammation across affected systems
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+## Financial Assistance Platforms
 
 <details>
-  <summary>Click to expand Financial Assistance Platforms</summary>
+  <summary>Click to expand </summary>
 
 Australia
 
@@ -545,10 +533,10 @@ U.S.A.
 - [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
   - This article explores how endometriosis affects fertility, when to consider egg freezing
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+## Educational Materials
 
 <details>
-  <summary>Click to expand Educational Materials</summary>
+  <summary>Click to expand </summary>
 
 - [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
   - Offers information and support for individuals with adenomyosis
@@ -572,8 +560,6 @@ U.S.A.
 
 </details>
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
-
 ## Community Sourced Data and Support
 
 - Reddit
@@ -583,8 +569,6 @@ U.S.A.
     - A place for people with Adenomyosis
   - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
     - Endo support community
-
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ## Medical Research
 
@@ -863,4 +847,3 @@ Active Clinical Studies:
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
 
 </details>
-
