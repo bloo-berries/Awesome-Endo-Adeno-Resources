@@ -81,8 +81,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
     - Decidual Casts
     - Excessive Bleeding during periods
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
-
 ### Endometriosis Symptoms
 
 |Stage/Type|Severity|Symptoms|Metastasis|
@@ -138,8 +136,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis)
   - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose endometriosis using menstrual blood
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
-
 ## Medical Data Tools, Trackers, and Mangers
 
 - Genetic Data Testing
@@ -176,8 +172,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - The FEMaLe project will bring the revolution with the application of Augmented Reality (AR) in dealing with endometriosis
 - [Endometriosis Subtyping study by @guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping)
   - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
-
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ## Therapeutic Treatments
 
