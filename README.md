@@ -24,6 +24,7 @@
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
     - [Medicinal](#medicinal)
+      - [As stated from EndoWhat?, "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
       - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
       - [Cannabis and Herbal](#cannabis-and-herbal)
       - [Physical Therapy](#physical-therapy)
@@ -31,6 +32,7 @@
     - [Endometriosis](#endometriosis)
     - [Adenomyosis](#adenomyosis)
   - [Potential Co-morbidities](#potential-co-morbidities)
+    - [Data Source](#data-source)
     - [Research Foundation](#research-foundation)
     - [Comorbidity Categories](#comorbidity-categories)
       - [Gynecological Conditions (Strongest Associations)](#gynecological-conditions-strongest-associations)
@@ -40,7 +42,6 @@
       - [Autoimmune \& Inflammatory Conditions](#autoimmune--inflammatory-conditions)
       - [Respiratory \& Allergic Conditions](#respiratory--allergic-conditions)
       - [Novel \& Unexpected Associations](#novel--unexpected-associations)
-    - [Unexpected Correlations](#unexpected-correlations)
       - [Protective Associations (Novel Finding)](#protective-associations-novel-finding)
       - [Other Established Comorbidities](#other-established-comorbidities)
     - [Clinical Implications](#clinical-implications)
@@ -106,14 +107,14 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Adenomyosis Symptoms
 
-| Type/Stage              | Severity           | Symptoms                                                                                                                                                                                                                                                                   | Metastasis                                 |
-| ----------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| **Focal Adenomyosis**   | Mild to severe     | Localized uterine pain or tenderness; Heavy menstrual bleeding (menorrhagia); Dysmenorrhea (painful periods); Dyspareunia (painful intercourse); Pelvic pressure or fullness; Possible infertility                                         | Localized uterine involvement              |
+| Type/Stage   | Severity   | Symptoms   | Metastasis   |
+| ------------------- | --------------- |
+| **Focal Adenomyosis**   | Mild to severe     | Localized uterine pain or tenderness; Heavy menstrual bleeding (menorrhagia); Dysmenorrhea (painful periods); Dyspareunia (painful intercourse); Pelvic pressure or fullness; Possible infertility   | Localized uterine involvement              |
 | **Diffuse Adenomyosis** | Moderate to severe | Diffuse uterine pain or tenderness; Severe menorrhagia (heavy menstrual bleeding); Chronic pelvic pain; Dyspareunia; Significant uterine enlargement ("boggy" uterus); Anemia due to heavy bleeding; Infertility or miscarriage risk | Extensive uterine involvement              |
-| **Stage 1: Early**      | Mild               | Minimal infiltration of endometrial tissue into the uterine wall; Symptoms often mild or non-existent                                                                                                                                                              | None                                       |
-| **Stage 2: Moderate**   | Moderate           | Increased infiltration of uterine wall tissue; Heavy and painful periods; Bloating and discomfort during intercourse                                                                                                                                         | None                                       |
-| **Stage 3: Severe**     | Severe             | Severe infiltration leading to distortion of uterine shape; Escalating menstrual pain and flow intensity                                                                                                                                                           | Possible localized spread                  |
-| **Stage 4: Advanced**   | Very severe        | Extensive tissue infiltration causing significant uterine damage; Chronic pelvic pain, heavy bleeding, intermenstrual bleeding, and painful intercourse                                                                                                            | Potential damage to surrounding structures |
+| **Stage 1: Early**      | Mild               | Minimal infiltration of endometrial tissue into the uterine wall; Symptoms often mild or non-existent             | None                                       |
+| **Stage 2: Moderate**   | Moderate           | Increased infiltration of uterine wall tissue; Heavy and painful periods; Bloating and discomfort during intercourse   | None   |
+| **Stage 3: Severe**     | Severe             | Severe infiltration leading to distortion of uterine shape; Escalating menstrual pain and flow intensity   | Possible localized spread                  |
+| **Stage 4: Advanced**   | Very severe        | Extensive tissue infiltration causing significant uterine damage; Chronic pelvic pain, heavy bleeding, intermenstrual bleeding, and painful intercourse   | Potential damage to surrounding structures |
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
@@ -223,9 +224,9 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 - Latest Advancements in Non-Surgical Diagnostics & Therapeutics for Endometriosis
 
-| Method        | Key Features                                   | Advantages                                    | Limitations                                |
-|--------------------------|-----------------------------------------------|----------------------------------------------|-------------------------------------------|
-| [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test)| Identifies protein biomarkers                 | Cost-effective, early-stage detection        | Requires further validation for global use|
+| Method        | Key Features                                   | Advantages                                    | Limitations                               |
+|--------------------------|-----------------------------------------------|-------------------------------------|-------------------------------------------|
+| [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test)| Identifies protein biomarkers  | Cost-effective, early-stage detection        | Requires further validation for global use |
 | Electroviscerography (EVG)| Monitors gastrointestinal myoelectric activity| Non-invasive, experimental                   | Needs more clinical trials                |
 | EVG-Guided Pelvic Floor Biofeedback | Uses EVG monitoring for targeted pelvic floor therapy | Personalized pelvic floor rehabilitation | Requires specialized equipment and training |
 | Infrared Spectroscopy    | Spectrochemical analysis                      | Highly sensitive, non-invasive               | Early research stage                      |
@@ -288,12 +289,16 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ## Potential Co-morbidities
 
-*Data Source: De-identified EHRs using OMOP Common Data Model*
+### Data Source
+
+De-identified EHRs using OMOP Common Data Model
 
 ### Research Foundation
+
 **Groundbreaking Study:** [Comorbidity analysis and clustering of endometriosis patients using electronic health records](https://www.sciencedirect.com/science/article/pii/S2666379125003180) (Khan et al., 2025) analyzed >43,500 endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and confirming endometriosis as a **multi-system disorder** affecting multiple body systems beyond gynecology.
 
 **Key Findings:**
+
 - **661 significantly enriched conditions** identified at UCSF
 - **302 conditions replicated** across independent datasets (45% validation rate)
 - **Strong correlation strength:** Pearson r = 0.864 between datasets
@@ -302,6 +307,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ### Comorbidity Categories
 
 #### Gynecological Conditions (Strongest Associations)
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [**Uterine adenomyosis**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                          | **80.6%**                   | -                         | **Very High**                             | **80.6%**             | **OR = 181 (strongest association identified)**  |
@@ -316,6 +322,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | Infertility                                      | Common                      | Common                    | High                                      | Common                | Can affect fertility in both conditions           |
 
 #### Gastrointestinal Disorders
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [**Crohn's disease**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                              | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Inflammatory bowel condition with significant overlap** |
@@ -323,6 +330,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Gastroesophageal Reflux Disease (GERD)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)           | Common                      | -                         | Moderate                                  | Common                | Frequently observed in endometriosis              |
 
 #### Neurological Conditions
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [**Migraine**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                                     | **Common**                  | -                         | **Moderate**                              | **Common**            | **Temporal persistence before/after diagnosis; shared biological pathways** |
@@ -331,6 +339,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                           | Can occur                   | -                         | Low                                       | Rare                  | Possibly linked to diaphragmatic endometriosis    |
 
 #### Mental Health Comorbidities
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [**Depression**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                                   | **Common**                  | -                         | **High**                                  | **Common**            | **Common comorbidity requiring integrated care**  |
@@ -338,6 +347,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | Anxiety and Depression                           | Common                      | Common                    | High                                      | Common                | Mental health impacts in both conditions          |
 
 #### Autoimmune & Inflammatory Conditions
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [**Multiple autoimmune conditions**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)               | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Strong correlations supporting immune dysfunction theories** |
@@ -347,12 +357,14 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Mast Cell Activation Syndrome (MCAS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)             | Up to 20%                   | -                         | 10-20%                                    | Up to 20%             | Up to 20% co-occurrence; antihistamine therapy can ameliorate pelvic pain |
 
 #### Respiratory & Allergic Conditions
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [Asthma](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Increased risk              | -                         | Moderate                                  | Increased risk        | Possibly due to shared inflammatory pathways      |
 | [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                        | Increased risk              | -                         | Moderate                                  | Increased risk        | Higher incidence reported                         |
 
 #### Novel & Unexpected Associations
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [**Eye-related diseases**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                         | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Previously underrecognized association**       |
@@ -362,6 +374,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [**Renal disorders**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                              | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Kidney-related conditions noted**              |
 
 #### Protective Associations (Novel Finding)
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [**Hyperlipidemia**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                               | **Reduced**                 | -                         | **Protective**                            | **Significant**       | **OR = 0.67 (protective effect); statin therapy may offer benefits** |
@@ -370,6 +383,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 | [Hyperlipidemia](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                                   | Significant                 | Significant               | Moderate                                  | Varies                | Associated with both conditions                   |
 
 #### Other Established Comorbidities
+
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
 | ------------------------------------------------ | --------------------------- | ------------------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
 | [Anemia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                           | Less prevalent              | More prevalent            | Low in endometriosis, High in adenomyosis | Varies                | Iron deficiency anemia more common in adenomyosis |
@@ -382,16 +396,19 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ### Clinical Implications
 
 #### Multi-System Disease Recognition
+
 - **Paradigm shift:** Endometriosis should be approached as a **systemic disorder** rather than isolated gynecological condition
 - **Multi-specialty care:** Recognition necessitates coordinated care across medical specialties
 - **Enhanced surveillance:** Increased monitoring for associated conditions in affected systems
 
 #### Personalized Treatment Approaches
+
 - **Patient clustering:** Distinct subgroups with different comorbidity patterns require tailored treatments
 - **Comorbidity management:** Integrated care addressing all affected body systems
 - **Therapeutic opportunities:** Shared pathways with comorbid conditions offer new treatment avenues
 
 #### Novel Therapeutic Avenues
+
 - **Statin therapy:** Based on protective lipid associations (OR = 0.67)
 - **Migraine medications:** Shared pathway treatments for neurological symptoms
 - **Multi-target approaches:** Addressing systemic inflammation across affected systems
@@ -401,28 +418,34 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ## Financial Assistance Platforms
 
 Australia
+
 - [Endometriosis Australia](https://endometriosisaustralia.org/)
   - Grants for surgical costs, IVF, and travel to specialist clinics
 
 France
+
 - [Association Française d’Endométriose (AFEN)](https://www.afena.fr/)
   - Annual “Solidarity Fund” for surgical costs and travel
 
 Germany
+
 - [Deutsche Gesellschaft für Endometriose‑Forschung (DGEF)](https://www.endometriose-vereinigung.de/)
   - Small research‑grant style awards for patients needing surgery or medication
 
 New Zealand
+
 - [NZ Endometriosis Foundation](https://nzendo.org.nz/)
   - Small emergency‑relief grants for medication and transport
 
 U.K.
+
 - [British Fertility Society (BFS) – Patient Support Fund - U.K.](https://www.britishfertilitysociety.org.uk/)
   - Partial funding for fertility treatment linked to endometriosis
 - [Endometriosis UK](https://www.endometriosis-uk.org/)
   - Grants for surgery, IVF, travel to specialist centres; also runs a “Cost‑of‑Care” bursary for low‑income patients
 
 U.S.A.
+
 - [Fortuna Health - U.S.A.](https://www.fortunahealth.com/)
   - Medicaid eligibility checker, enrollment, and care renewal
 
@@ -583,10 +606,11 @@ U.S.A.
 ### Current Medical Studies
 
 #### Recent Breakthrough Research (2025)
+
 - **[Comorbidity Analysis and Clustering of Endometriosis Patients Using Electronic Health Records](https://www.sciencedirect.com/science/article/pii/S2666379125003180)** (Khan et al., 2025)
   - **Study Design:** Retrospective case-control study using electronic health records
   - **Population:** >43,500 endometriosis patients across six UC medical centers
-  - **Key Findings:** 
+  - **Key Findings:**
     - **661 significantly enriched conditions** identified at UCSF
     - **302 conditions replicated** across independent datasets (45% validation rate)
     - **Strongest associations:** Uterine adenomyosis (OR = 181), pelvic adhesions (OR = 51.1)
@@ -637,10 +661,7 @@ Active Clinical Studies:
 
 #### Case Studies
 
-<details>
-  <summary> Click to expand Case Studies </summary>
-
-  **Important:** All below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites (which is why they aren't clickable) due to executive order by the president. Information about these studies is summarized based on when it was previously available.
+**Important:** All below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites (which is why they aren't clickable) due to executive order by the president. Information about these studies is summarized based on when it was previously available.
   
 - The Impact of Hormonal Treatments on Endometriosis Progression - clinicaltrials.gov/ct2/show/NCT04512345
   - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
@@ -823,6 +844,5 @@ Active Clinical Studies:
 - Endometriosis and Mental Health - clinicaltrials.gov/ct2/show/NCT11312345
   - "This ongoing study examines the impact of endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
 - Adenomyosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT11445678
-- Adenomyosis and Immune System Dysfunction - https://www.science.org/doi/10.1126/scitranslmed.adk8230
+- Adenomyosis and Immune System Dysfunction - <https://www.science.org/doi/10.1126/scitranslmed.adk8230>
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
-</details>

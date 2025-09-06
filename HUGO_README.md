@@ -16,12 +16,14 @@ This repository now uses [Hugo](https://gohugo.io/) with the [Poison theme](http
 ### Prerequisites
 
 1. Install Hugo (if not already installed):
+
    ```bash
    brew install hugo  # macOS
    # or visit https://gohugo.io/installation/
    ```
 
 2. Clone the repository with submodules:
+
    ```bash
    git clone --recurse-submodules https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources.git
    cd Awesome-Endo-Adeno-Resources
@@ -30,6 +32,7 @@ This repository now uses [Hugo](https://gohugo.io/) with the [Poison theme](http
 ### Running Locally
 
 1. Start the development server:
+
    ```bash
    hugo server
    ```
@@ -58,6 +61,7 @@ This creates a `public/` directory with the built site.
 ### Colors and Styling
 
 Edit `config.toml` to customize:
+
 - Sidebar colors
 - Light/dark mode colors
 - Brand name and description
@@ -67,11 +71,13 @@ Edit `config.toml` to customize:
 ### Adding Content
 
 1. Create new posts in `content/posts/`:
+
    ```bash
    hugo new posts/your-post-name.md
    ```
 
 2. Edit the front matter at the top of the file:
+
    ```yaml
    ---
    title: "Your Post Title"
@@ -94,6 +100,7 @@ The site is automatically deployed to GitHub Pages via GitHub Actions when you p
 If you need to deploy manually:
 
 1. Build the site:
+
    ```bash
    hugo
    ```
