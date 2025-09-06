@@ -3,6 +3,9 @@ languageCode = "en-us"
 theme = "poison"
 pluralizelisttitles = false
 
+# Suppress warnings about raw HTML (for <details> and <summary> tags)
+ignoreLogs = ['warning-goldmark-raw-html']
+
 [pagination]
     pagerSize = 10
 
