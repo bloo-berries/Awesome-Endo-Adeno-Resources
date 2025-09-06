@@ -99,15 +99,13 @@ Dive in to discover practical tips, connect with others who understand what we'r
 ### Adenomyosis Symptoms
 
 | Type/Stage   | Severity   | Symptoms   | Metastasis   |
-| ------------------- | --------------- |
+| ------------------- | --------------- | --------------- | --------------- |
 | **Focal Adenomyosis**   | Mild to severe     | Localized uterine pain or tenderness; Heavy menstrual bleeding (menorrhagia); Dysmenorrhea (painful periods); Dyspareunia (painful intercourse); Pelvic pressure or fullness; Possible infertility   | Localized uterine involvement              |
 | **Diffuse Adenomyosis** | Moderate to severe | Diffuse uterine pain or tenderness; Severe menorrhagia (heavy menstrual bleeding); Chronic pelvic pain; Dyspareunia; Significant uterine enlargement ("boggy" uterus); Anemia due to heavy bleeding; Infertility or miscarriage risk | Extensive uterine involvement              |
 | **Stage 1: Early**      | Mild               | Minimal infiltration of endometrial tissue into the uterine wall; Symptoms often mild or non-existent             | None                                       |
 | **Stage 2: Moderate**   | Moderate           | Increased infiltration of uterine wall tissue; Heavy and painful periods; Bloating and discomfort during intercourse   | None   |
 | **Stage 3: Severe**     | Severe             | Severe infiltration leading to distortion of uterine shape; Escalating menstrual pain and flow intensity   | Possible localized spread                  |
 | **Stage 4: Advanced**   | Very severe        | Extensive tissue infiltration causing significant uterine damage; Chronic pelvic pain, heavy bleeding, intermenstrual bleeding, and painful intercourse   | Potential damage to surrounding structures |
-
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ## Vetted Physician and Healthcare Providers
 
