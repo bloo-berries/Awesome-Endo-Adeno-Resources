@@ -253,8 +253,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 </details>
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
-
 <details>
   <summary>Click to expand Scientific Research and Findings</summary>
 
@@ -283,8 +281,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and endometriosis (n=347)."
 
 </details>
-
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ## Potential Co-morbidities
 
@@ -867,3 +863,4 @@ Active Clinical Studies:
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
 
 </details>
+
