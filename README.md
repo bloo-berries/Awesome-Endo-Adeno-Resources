@@ -24,11 +24,9 @@
       - [Adenomyosis Treatments](#adenomyosis-treatments)
     - [Non-Surgical](#non-surgical)
     - [Medicinal](#medicinal)
-      - [As stated from EndoWhat?, "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."](#as-stated-from-endowhat-all-medications-aimed-at-treating-endometriosis-only-manage-symptoms-they-do-not-treat-the-disease-itself-drug-therapy-can-suppress-endometriosis-not-eradicate-it)
       - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
       - [Cannabis and Herbal](#cannabis-and-herbal)
       - [Physical Therapy](#physical-therapy)
-  - [Scientific Research and Findings](#scientific-research-and-findings)
     - [Endometriosis](#endometriosis)
     - [Adenomyosis](#adenomyosis)
   - [Potential Co-morbidities](#potential-co-morbidities)
@@ -48,26 +46,19 @@
       - [Multi-System Disease Recognition](#multi-system-disease-recognition)
       - [Personalized Treatment Approaches](#personalized-treatment-approaches)
       - [Novel Therapeutic Avenues](#novel-therapeutic-avenues)
-  - [Financial Assistance Platforms](#financial-assistance-platforms)
   - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
-    - [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
       - [Americas and Caribbean](#americas-and-caribbean)
       - [Africa](#africa)
       - [APAC \& Australia/New Zealand](#apac--australianew-zealand)
       - [Europe](#europe)
       - [LATAM](#latam)
   - [Fertility Resources](#fertility-resources)
-  - [Educational Materials](#educational-materials)
   - [Community Sourced Data and Support](#community-sourced-data-and-support)
   - [Medical Research](#medical-research)
     - [Scientific Research \& Medical Research Organizations](#scientific-research--medical-research-organizations)
     - [Current Medical Studies](#current-medical-studies)
       - [Recent Breakthrough Research (2025)](#recent-breakthrough-research-2025)
     - [Important Note](#important-note)
-    - [Active Research Studies](#active-research-studies)
-    - [Potential Causes](#potential-causes)
-      - [Genetics](#genetics)
-      - [Case Studies](#case-studies)
     - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
@@ -236,7 +227,10 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 ### Medicinal
 
-#### As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
+<details>
+  <summary>Click to expand Medicinal Treatments</summary>
+
+ As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
 
 #### Medication and Medicinal Supplements
 
@@ -257,9 +251,12 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/)
   - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It's also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
 
+</details>
+
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
-## Scientific Research and Findings
+<details>
+  <summary>Click to expand Scientific Research and Findings</summary>
 
 ### Endometriosis
 
@@ -285,6 +282,8 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Systemic comorbidities in patients with adenomyosis](https://www.sciencedirect.com/science/article/pii/S1472648325003098)
   - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and endometriosis (n=347)."
 
+</details>
+
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ## Potential Co-morbidities
@@ -295,14 +294,15 @@ De-identified EHRs using OMOP Common Data Model
 
 ### Research Foundation
 
-**Groundbreaking Study:** [Comorbidity analysis and clustering of endometriosis patients using electronic health records](https://www.sciencedirect.com/science/article/pii/S2666379125003180) (Khan et al., 2025) analyzed >43,500 endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and confirming endometriosis as a **multi-system disorder** affecting multiple body systems beyond gynecology.
-
-**Key Findings:**
+<details>
+  <summary>Click to expand Key Findings</summary>
 
 - **661 significantly enriched conditions** identified at UCSF
 - **302 conditions replicated** across independent datasets (45% validation rate)
 - **Strong correlation strength:** Pearson r = 0.864 between datasets
 - **Patient clustering** reveals distinct subgroups requiring personalized treatment approaches
+
+</details>
 
 ### Comorbidity Categories
 
@@ -415,7 +415,8 @@ De-identified EHRs using OMOP Common Data Model
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
-## Financial Assistance Platforms
+<details>
+  <summary>Click to expand Financial Assistance Platforms</summary>
 
 Australia
 
@@ -449,6 +450,8 @@ U.S.A.
 - [Fortuna Health - U.S.A.](https://www.fortunahealth.com/)
   - Medicaid eligibility checker, enrollment, and care renewal
 
+</details>
+
 ## Advocacy Groups and Platforms
 
 - [Endo Black](https://endoblack.org/)
@@ -458,7 +461,8 @@ U.S.A.
 - [FOLX Health](https://www.folxhealth.com/)
   - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
 
-### Regional Based Groups and Platforms
+<details>
+  <summary>Click to expand Regional Based Groups and Platforms</summary>
 
 #### Americas and Caribbean
   
@@ -538,6 +542,8 @@ U.S.A.
 - [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
   - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 
+</details>
+
 ## Fertility Resources
 
 - [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
@@ -545,7 +551,8 @@ U.S.A.
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
-## Educational Materials
+<details>
+  <summary>Click to expand Educational Materials</summary>
 
 - [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
   - Offers information and support for individuals with adenomyosis
@@ -566,6 +573,8 @@ U.S.A.
   - A book by Dr. Tamer Seckin that provides comprehensive information on endometriosis
 - [Women's Health: Breaking the Taboos](https://tv.apple.com/gb/show/womens-health-breaking-the-taboos/umc.cmc.4r6819yl90qr1ba2fx9ovpbjl)
   - The series is hosted by Cherry Healey and covers topics such as endometriosis, incontinence, hair loss, and the menopause
+
+</details>
 
 [⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
@@ -623,7 +632,8 @@ U.S.A.
 
 **Important:** All below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available.
 
-### Active Research Studies
+<details>
+  <summary>Click to expand Active Research Studies</summary>
 
 - [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
   - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
@@ -641,12 +651,18 @@ Active Clinical Studies:
 - [TiumBio](http://www.tiumbio.com/en/)
   - Conducting a Phase 2a clinical trial of TU2670 in endometriosis in 5 European countries. TU2670 is an oral GnRH antagonist that can bind to pituitary receptors to suppress estradiol hormone.
 
-### Potential Causes
+</details>
+
+<details>
+  <summary>Click to expand Potential Causes</summary>
 
 - [Fusobacterium Infection](https://sydneyendometriosis.com.au/blog/endometriosis-research-breakthroughs-what-you-need-to-know/)
   - Researchers in Japan have identified a particular kind of bacteria in those with endometriosis by examining the microbes inhabiting the endometrium. Of 155 patients with endometriosis, 64% had a Fusobacterium infection. Only 7% of patients without endometriosis carried the bacteria. Further research showed that by introducing the infection to mice to replicate the disease, the infection can be treated with cheap and widely available antibiotics. With evidence that Fusobacterium may contribute to the growth of endometriosis, further research will be conducted in humans on the potential of antibiotics as a treatment.
 
-#### Genetics
+</details>
+
+<details>
+  <summary>Click to expand Genetics</summary>
 
 - Genetic Predisposition and Endometriosis - clinicaltrials.gov/ct2/show/NCT04712367
   - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
@@ -659,9 +675,12 @@ Active Clinical Studies:
 - [RNA sequencing reveals molecular mechanisms of endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
   - "Using a C57Bl/6 mouse model in which decidualized endometrial tissue is injected subcutaneously in the abdomen of recipient mice, we generated a comprehensive profile of gene expression in decidualized endometrial tissue (n=4), and in endometriosis-like lesions at Day 7 (n=4) and Day 14 (n=4) of formation."
 
-#### Case Studies
+</details>
 
-**Important:** All below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites (which is why they aren't clickable) due to executive order by the president. Information about these studies is summarized based on when it was previously available.
+<details>
+  <summary>Click to expand Case Studies</summary>
+
+  **Important:** All below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites (which is why they aren't clickable) due to executive order by the president. Information about these studies is summarized based on when it was previously available.
   
 - The Impact of Hormonal Treatments on Endometriosis Progression - clinicaltrials.gov/ct2/show/NCT04512345
   - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of endometriosis and improving patient quality of life."
@@ -846,3 +865,5 @@ Active Clinical Studies:
 - Adenomyosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT11445678
 - Adenomyosis and Immune System Dysfunction - <https://www.science.org/doi/10.1126/scitranslmed.adk8230>
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
+
+</details>
