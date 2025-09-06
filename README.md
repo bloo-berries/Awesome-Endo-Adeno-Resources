@@ -55,7 +55,6 @@
   - [Educational Materials](#educational-materials)
   - [Community Sourced Data and Support](#community-sourced-data-and-support)
   - [Medical Research](#medical-research)
-    - [Scientific Research \& Medical Research Organizations](#scientific-research--medical-research-organizations)
     - [Current Medical Studies](#current-medical-studies)
       - [Recent Breakthrough Research (2025)](#recent-breakthrough-research-2025)
     - [Important Note](#important-note)
@@ -570,7 +569,8 @@ U.S.A.
 
 ## Medical Research
 
-### Scientific Research & Medical Research Organizations
+<details>
+  <summary>Click to expand Scientific Research & Medical Research Organizations</summary>
 
 - [AthenaDAO](https://www.athenadao.co/)
   - Funds translational research; On-chain incentives to fund early-stage research and biotech startups; Focus on Fertility
@@ -588,7 +588,7 @@ U.S.A.
 - [Society for Women's Health Research (SWHR)](https://swhr.org/)
   - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
+</details>
 
 ### Current Medical Studies
 
