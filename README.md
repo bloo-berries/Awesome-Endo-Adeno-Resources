@@ -1,6 +1,4 @@
-# Awesome Endo Adeno Resources Overview
-
-![Awesome](https://awesome.re/badge.svg)
+# Endo Adeno Resources Overview
 
 *Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
 
@@ -9,59 +7,22 @@
 
 ## Contents
 
-- [Awesome Endo Adeno Resources Overview](#awesome-endo-adeno-resources-overview)
-  - [Contents](#contents)
-  - [Diagnosis](#diagnosis)
-    - [Endometriosis Symptoms](#endometriosis-symptoms)
-    - [Adenomyosis Symptoms](#adenomyosis-symptoms)
+- [Diagnosis](#diagnosis)
+  - [Endometriosis Symptoms](#endometriosis-symptoms)
+  - [Adenomyosis Symptoms](#adenomyosis-symptoms)
   - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
   - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
   - [Medical Data Tools, Trackers, and Mangers](#medical-data-tools-trackers-and-mangers)
   - [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
   - [Therapeutic Treatments](#therapeutic-treatments)
-    - [Surgical](#surgical)
-      - [Endometriosis Treatments](#endometriosis-treatments)
-      - [Adenomyosis Treatments](#adenomyosis-treatments)
-    - [Non-Surgical](#non-surgical)
-    - [Medicinal](#medicinal)
-      - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
-      - [Cannabis and Herbal](#cannabis-and-herbal)
-      - [Physical Therapy](#physical-therapy)
-    - [Endometriosis](#endometriosis)
-    - [Adenomyosis](#adenomyosis)
   - [Potential Co-morbidities](#potential-co-morbidities)
-    - [Data Source](#data-source)
-    - [Research Foundation](#research-foundation)
-    - [Comorbidity Categories](#comorbidity-categories)
-      - [Gynecological Conditions (Strongest Associations)](#gynecological-conditions-strongest-associations)
-      - [Gastrointestinal Disorders](#gastrointestinal-disorders)
-      - [Neurological Conditions](#neurological-conditions)
-      - [Mental Health Comorbidities](#mental-health-comorbidities)
-      - [Autoimmune \& Inflammatory Conditions](#autoimmune--inflammatory-conditions)
-      - [Respiratory \& Allergic Conditions](#respiratory--allergic-conditions)
-      - [Novel \& Unexpected Associations](#novel--unexpected-associations)
-      - [Protective Associations (Novel Finding)](#protective-associations-novel-finding)
-      - [Other Established Comorbidities](#other-established-comorbidities)
-    - [Clinical Implications](#clinical-implications)
-      - [Novel Therapeutic Avenues](#novel-therapeutic-avenues)
   - [Financial Assistance Platforms](#financial-assistance-platforms)
   - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
-      - [Americas and Caribbean](#americas-and-caribbean)
-      - [Africa](#africa)
-      - [APAC \& Australia/New Zealand](#apac--australianew-zealand)
-      - [Europe](#europe)
-      - [LATAM](#latam)
   - [Fertility Resources](#fertility-resources)
   - [Educational Materials](#educational-materials)
-  - [Community Sourced Data and Support](#community-sourced-data-and-support)
-  - [Medical Research](#medical-research)
-    - [Current Medical Studies](#current-medical-studies)
-      - [Recent Breakthrough Research (2025)](#recent-breakthrough-research-2025)
-    - [Important Note](#important-note)
-    - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
+  - [Community Sourced Data and Support](#recent-breakthrough-research-2025)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
-Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
 
 ## Diagnosis
 
