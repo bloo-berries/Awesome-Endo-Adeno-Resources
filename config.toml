@@ -1,4 +1,5 @@
 baseURL = "https://bloo-berries.github.io/Awesome-Endo-Adeno-Resources/"
+canonifyURLs = true
 languageCode = "en-us"
 theme = "poison"
 pluralizelisttitles = false

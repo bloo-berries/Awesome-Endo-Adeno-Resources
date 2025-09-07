@@ -46,7 +46,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://bloo-berries.github.io/Awesome-Endo-Adeno-Resources/"
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
