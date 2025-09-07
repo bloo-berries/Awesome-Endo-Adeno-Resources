@@ -2,8 +2,8 @@
 
 *Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be overwhelming, but it shouldn't be.
 
-- *Endometriosis*: A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
-- *Adenomyosis*: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
+- [*Endometriosis*](https://en.wikipedia.org/wiki/Endometriosis): A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
+- [*Adenomyosis*](https://en.wikipedia.org/wiki/Adenomyosis): A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
 
 ## Contents
 
@@ -26,23 +26,23 @@ This resource list is packed with expert advice, community support, and the late
 
 ## Diagnosis
 
-- Endometriosis
+- [Endometriosis](https://en.wikipedia.org/wiki/Endometriosis)
   - Current Methods:
     - Laparoscopy remains the gold standard for definitive diagnosis.
     - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases.
     - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) have shown promise in detecting biomarkers associated with the disease.
   - Potential Indicators:
-    - Presence of Endometriomas
+    - Presence of [Endometriomas](https://en.wikipedia.org/wiki/Endometrioma)
       - These are cysts filled with old blood. Endometriomas are a type of Endometriosis, but alternatively, Endometriosis does not mean that you have an Endometrioma.
-- Adenomyosis
+- [Adenomyosis](https://en.wikipedia.org/wiki/Adenomyosis)
   - Current Methods:
     - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
     - Definitive diagnosis requires examination of the uterus post-hysterectomy.
   - Potential Inidcators:
-    - Decidual Casts
+    - [Decidual Casts](https://ispub.com/IJGO/9/1/11420)
     - Excessive Bleeding during periods
 
-### Endometriosis Symptoms
+### [Endometriosis Symptoms](https://www.ivf.com.au/blog/heres-the-four-stages-of-endometriosis)
 
 |Stage/Type|Severity|Symptoms|Metastasis|
 |---|---|---|---|
@@ -54,7 +54,7 @@ This resource list is packed with expert advice, community support, and the late
 
 *Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms
 
-### Adenomyosis Symptoms
+### [Adenomyosis Symptoms](https://asktia.com/article/adenomyosis-causes-symptoms-treatment/])
 
 | Type/Stage   | Severity   | Symptoms   | Metastasis   |
 | ------------------- | --------------- | --------------- | --------------- |
@@ -209,7 +209,7 @@ This resource list is packed with expert advice, community support, and the late
 - [Comorbidity analysis and clustering of endometriosis patients using electronic health records](https://www.sciencedirect.com/science/article/pii/S2666379125003180) (Khan et al., 2025)
   - **Groundbreaking study** analyzing >43,500 endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and confirming endometriosis as a **multi-system disorder**. Key findings include strongest associations with uterine adenomyosis (OR = 181), pelvic adhesions (OR = 51.1), and protective effects of hyperlipidemia (OR = 0.67). Study reveals distinct patient subgroups requiring personalized treatment approaches.
 - [Endometriosis Typology and Ovarian Cancer Risk](https://jamanetwork.com/journals/jama/article-abstract/2821194)
-  - "Those with endometriosis had 4.2-fold higher ovarian cancer risk than those without endometriosis. Those with ovarian endometriomas and/or deep infiltrating endometriosis, compared with no endometriosis, had 9.7-fold higher risk"
+  - "Those with endometriosis had 4.2-fold higher ovarian cancer risk than those without endometriosis. Those with ovarian [endometriomas](https://en.wikipedia.org/wiki/Endometrioma) and/or deep infiltrating endometriosis, compared with no endometriosis, had 9.7-fold higher risk"
 - [Endometriosis and the risk of ovarian cancer: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/36988819/)
   - "The pooled odds ratio for endometriosis and ovarian cancer was 4.2 (95% CI, 3.2 to 5.5)"
 - [Novel Biomarkers for Endometriosis Diagnosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7891234/)
