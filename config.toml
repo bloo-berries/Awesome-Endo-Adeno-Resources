@@ -24,7 +24,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     ]
 
     # Social links (you can customize these)
-    github_url = "https://github.com/bloo-berries"
+    github_url = "https://github.com/bloo-berries/awesome-endo-adeno-resources"
     email_url = "mailto:your-email@domain.com"
     
     # RSS configuration

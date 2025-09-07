@@ -1,6 +1,5 @@
 ---
 title: "Awesome Endo Adeno Resources"
-date: 2025-01-27
 draft: false
 tags: ["endometriosis", "adenomyosis", "resources", "healthcare", "treatment", "diagnosis"]
 ---
