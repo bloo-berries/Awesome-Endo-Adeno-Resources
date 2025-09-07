@@ -54,7 +54,7 @@ This resource list is packed with expert advice, community support, and the late
 
 *Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms
 
-### [Adenomyosis Symptoms](https://asktia.com/article/adenomyosis-causes-symptoms-treatment/])
+### [Adenomyosis Symptoms](https://asktia.com/article/adenomyosis-causes-symptoms-treatment/)
 
 | Type/Stage   | Severity   | Symptoms   | Metastasis   |
 | ------------------- | --------------- | --------------- | --------------- |
@@ -148,7 +148,7 @@ This resource list is packed with expert advice, community support, and the late
 | **Robotic-Assisted DIE Resection** | Enhanced precision for rectovaginal and bladder lesions | Memorial Sloan Kettering; Johns Hopkins |
 | **Robotic-Assisted Surgery** | Enhanced precision and control for complex cases | Various specialized centers |
 
-#### Adenomyosis Treatments
+#### [Adenomyosis Treatments](https://asktia.com/article/adenomyosis-causes-symptoms-treatment/)
 
 | Technique | Key Advantage | Provider Network |
 |-----------|---------------|------------------|
@@ -260,9 +260,9 @@ De-identified EHRs using OMOP Common Data Model
 | [**Noninflammatory disorders of female genital organs**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **Significant**        | -                         | **Very High**                             | **Significant**       | **OR = 30.2**                                     |
 | Adenomyosis                                      | 80.6%                       | -                         | High                                      | 80.6%                 | High co-occurrence with endometriosis             |
 | Endometriosis                                    | -                           | 91.1%                     | High                                      | 91.1%                 | High co-occurrence with adenomyosis               |
-| Uterine Leiomyoma (Fibroids)                     | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
+| [Uterine Leiomyoma (Fibroids)](https://en.wikipedia.org/wiki/Uterine_fibroid)                     | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
 | Benign Ovarian Tumors                            | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
-| Polycystic Ovarian Syndrome (PCOS)               | Strong association          | -                         | Moderate                                  | Significant           | More common with endometriosis                    |
+| [Polycystic Ovarian Syndrome (PCOS)](https://en.wikipedia.org/wiki/Polycystic_ovary_syndrome)               | Strong association          | -                         | Moderate                                  | Significant           | More common with endometriosis                    |
 | Infertility                                      | Common                      | Common                    | High                                      | Common                | Can affect fertility in both conditions           |
 
 #### Gastrointestinal Disorders
