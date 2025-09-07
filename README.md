@@ -1,6 +1,6 @@
 # Endo Adeno Resources Overview
 
-*Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
+*Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be overwhelming, but it shouldn't be.
 
 - *Endometriosis*: A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
 - *Adenomyosis*: A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
@@ -76,8 +76,6 @@ This resource list is packed with expert advice, community support, and the late
 - [Hale](https://www.gethale.it/)
   - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain. *In Italy*
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
-
 ## Diagnostic Tools and Platforms
 
 - [Ziwig](https://ziwig.com/en/ziwig-endotest/)
@@ -118,8 +116,6 @@ This resource list is packed with expert advice, community support, and the late
     - Women's Health management platform for symptom management, tracking, and recommendations
   - [NoEndo](https://www.noendo.fr/#/)
     - NoEndo is a French platform designed to help individuals affected by endometriosis
-
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
