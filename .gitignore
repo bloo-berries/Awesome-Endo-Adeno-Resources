@@ -149,8 +149,8 @@ env.bak/
 venv.bak/
 .venv/
 
-# Development and utility scripts
-check_links.py
+# Development and utility scripts (moved to .private/)
+# check_links.py - moved to .private/dev-tools/
 build.sh
 custom_build.sh
 filter_broken_links.py
@@ -170,6 +170,9 @@ public/
 resources/
 .hugo_build.lock
 hugo_stats.json
+
+# Private development files
+.private/
 
 # Cloudflare specific
 .cloudflare/
