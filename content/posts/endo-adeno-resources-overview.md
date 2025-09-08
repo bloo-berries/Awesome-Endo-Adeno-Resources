@@ -14,79 +14,42 @@ tags: ["endometriosis", "adenomyosis", "resources", "healthcare", "treatment", "
 
 ## Contents
 
-- [Awesome Endo Adeno Resources Overview](#awesome-endo-adeno-resources-overview)
-  - [Contents](#contents)
-  - [Diagnosis](#diagnosis)
-    - [Endometriosis Symptoms](#endometriosis-symptoms)
-    - [Adenomyosis Symptoms](#adenomyosis-symptoms)
+- [Diagnosis](#diagnosis)
+  - [Endometriosis Symptoms](#endometriosis-symptoms)
+  - [Adenomyosis Symptoms](#adenomyosis-symptoms)
   - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
   - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
   - [Medical Data Tools, Trackers, and Mangers](#medical-data-tools-trackers-and-mangers)
   - [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
   - [Therapeutic Treatments](#therapeutic-treatments)
-    - [Surgical](#surgical)
-      - [Endometriosis Treatments](#endometriosis-treatments)
-      - [Adenomyosis Treatments](#adenomyosis-treatments)
-    - [Non-Surgical](#non-surgical)
-    - [Medicinal](#medicinal)
-      - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
-      - [Cannabis and Herbal](#cannabis-and-herbal)
-      - [Physical Therapy](#physical-therapy)
-    - [Endometriosis](#endometriosis)
-    - [Adenomyosis](#adenomyosis)
   - [Potential Co-morbidities](#potential-co-morbidities)
-    - [Data Source](#data-source)
-    - [Research Foundation](#research-foundation)
-    - [Comorbidity Categories](#comorbidity-categories)
-      - [Gynecological Conditions (Strongest Associations)](#gynecological-conditions-strongest-associations)
-      - [Gastrointestinal Disorders](#gastrointestinal-disorders)
-      - [Neurological Conditions](#neurological-conditions)
-      - [Mental Health Comorbidities](#mental-health-comorbidities)
-      - [Autoimmune \& Inflammatory Conditions](#autoimmune--inflammatory-conditions)
-      - [Respiratory \& Allergic Conditions](#respiratory--allergic-conditions)
-      - [Novel \& Unexpected Associations](#novel--unexpected-associations)
-      - [Protective Associations (Novel Finding)](#protective-associations-novel-finding)
-      - [Other Established Comorbidities](#other-established-comorbidities)
-    - [Clinical Implications](#clinical-implications)
-      - [Novel Therapeutic Avenues](#novel-therapeutic-avenues)
   - [Financial Assistance Platforms](#financial-assistance-platforms)
   - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
-      - [Americas and Caribbean](#americas-and-caribbean)
-      - [Africa](#africa)
-      - [APAC \& Australia/New Zealand](#apac--australianew-zealand)
-      - [Europe](#europe)
-      - [LATAM](#latam)
   - [Fertility Resources](#fertility-resources)
   - [Educational Materials](#educational-materials)
-  - [Community Sourced Data and Support](#community-sourced-data-and-support)
-  - [Medical Research](#medical-research)
-    - [Current Medical Studies](#current-medical-studies)
-      - [Recent Breakthrough Research (2025)](#recent-breakthrough-research-2025)
-    - [Important Note](#important-note)
-    - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
+  - [Community Sourced Data and Support](#recent-breakthrough-research-2025)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
-Dive in to discover practical tips, connect with others who understand what we're going through, and explore treatment options that could make a real difference in your life.
 
 ## Diagnosis
 
-- Endometriosis
+- [Endometriosis](https://en.wikipedia.org/wiki/Endometriosis)
   - Current Methods:
     - Laparoscopy remains the gold standard for definitive diagnosis.
     - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases.
     - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) have shown promise in detecting biomarkers associated with the disease.
   - Potential Indicators:
-    - Presence of Endometriomas
+    - Presence of [Endometriomas](https://en.wikipedia.org/wiki/Endometrioma)
       - These are cysts filled with old blood. Endometriomas are a type of Endometriosis, but alternatively, Endometriosis does not mean that you have an Endometrioma.
-- Adenomyosis
+- [Adenomyosis](https://en.wikipedia.org/wiki/Adenomyosis)
   - Current Methods:
     - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
     - Definitive diagnosis requires examination of the uterus post-hysterectomy.
   - Potential Inidcators:
-    - Decidual Casts
+    - [Decidual Casts](https://ispub.com/IJGO/9/1/11420)
     - Excessive Bleeding during periods
 
-### Endometriosis Symptoms
+### [Endometriosis Symptoms](https://www.ivf.com.au/blog/heres-the-four-stages-of-endometriosis)
 
 |Stage/Type|Severity|Symptoms|Metastasis|
 |---|---|---|---|
@@ -98,7 +61,7 @@ Dive in to discover practical tips, connect with others who understand what we'r
 
 *Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms
 
-### Adenomyosis Symptoms
+### [Adenomyosis Symptoms](https://asktia.com/article/adenomyosis-causes-symptoms-treatment/)
 
 | Type/Stage   | Severity   | Symptoms   | Metastasis   |
 | ------------------- | --------------- | --------------- | --------------- |
@@ -120,7 +83,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
 - [Hale](https://www.gethale.it/)
   - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain. *In Italy*
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ## Diagnostic Tools and Platforms
 
@@ -163,7 +125,6 @@ Dive in to discover practical tips, connect with others who understand what we'r
   - [NoEndo](https://www.noendo.fr/#/)
     - NoEndo is a French platform designed to help individuals affected by endometriosis
 
-[⬆️Back to Top](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources?tab=readme-ov-file#overview)
 
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
