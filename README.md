@@ -436,6 +436,8 @@ U.S.A.
   - [EndoFrance](https://www.endofrance.org/)
     - Provides support and raises awareness about endometriosis in France
 - Germany
+  - [End Endo Silence](https://endendosilence.de/)
+    - End Endo Silence launches petitions, creates awareness and empowers those affected with Endometriosis.
   - [Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
     - Offers support, information, and advocacy for individuals with endometriosis in Germany
 - Iceland
