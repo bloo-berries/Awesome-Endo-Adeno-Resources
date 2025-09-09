@@ -17,7 +17,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
     brand = "Endo Adeno Resources"
-    description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment resources."
+    description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis."
     dark_mode = true
     favicon = "favicon.png"
 
@@ -26,7 +26,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
     # Menu configuration
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", HasChildren = false},
     ]
 
     # Social links (you can customize these)
