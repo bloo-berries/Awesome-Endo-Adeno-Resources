@@ -9,7 +9,7 @@ disableHugoGeneratorInject = false
 disableKinds = ["RSS", "sitemap"]
 enableRobotsTXT = true
 
-# Suppress warnings about raw HTML (for <details> and <summary> tags)
+# Suppress warnings about raw HTML (for <details>, <summary>, and <main> tags)
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [markup]
