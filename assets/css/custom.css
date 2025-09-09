@@ -1,5 +1,112 @@
 /* Custom CSS to fix content width and ensure full visibility at 100% zoom */
 
+/* ===== ACCESSIBILITY IMPROVEMENTS ===== */
+
+/* Skip navigation link for keyboard users */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 1000;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    top: 6px;
+}
+
+/* High contrast focus indicators */
+*:focus {
+    outline: 3px solid #268BD2 !important;
+    outline-offset: 2px !important;
+}
+
+/* Remove default focus outline and use custom */
+*:focus:not(.skip-link) {
+    outline: 3px solid #268BD2 !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 3px rgba(38, 139, 210, 0.3) !important;
+}
+
+/* Improve link contrast and visibility */
+.content a {
+    color: #268BD2 !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+.content a:hover,
+.content a:focus {
+    color: #1a6ba3 !important;
+    text-decoration-thickness: 3px;
+    background-color: rgba(38, 139, 210, 0.1);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* Improve heading contrast */
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #fff !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Better table accessibility */
+table {
+    border-collapse: collapse;
+    border: 2px solid #268BD2;
+}
+
+th, td {
+    border: 1px solid #268BD2;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(38, 139, 210, 0.2);
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Improve list accessibility */
+.content ul, .content ol {
+    padding-left: 2em;
+}
+
+.content li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+/* Better button and interactive element styling */
+button, .btn, input[type="submit"], input[type="button"] {
+    background-color: #268BD2;
+    color: #fff;
+    border: 2px solid #268BD2;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    min-height: 44px; /* Touch target size */
+    min-width: 44px;
+}
+
+button:hover, .btn:hover, input[type="submit"]:hover, input[type="button"]:hover,
+button:focus, .btn:focus, input[type="submit"]:focus, input[type="button"]:focus {
+    background-color: #1a6ba3;
+    border-color: #1a6ba3;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== END ACCESSIBILITY IMPROVEMENTS ===== */
+
 /* Override the body overflow to allow horizontal scrolling when needed */
 body {
     overflow-x: auto !important;

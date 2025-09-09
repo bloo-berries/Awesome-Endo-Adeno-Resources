@@ -1,11 +1,15 @@
 # Endo Adeno Resources Overview
 
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 *Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be overwhelming, but it shouldn't be.
 
 - [*Endometriosis*](https://en.wikipedia.org/wiki/Endometriosis): A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
 - [*Adenomyosis*](https://en.wikipedia.org/wiki/Adenomyosis): A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
 
 ## Contents
+
+<main id="main-content" role="main" aria-label="Main content">
 
 - [Diagnosis](#diagnosis)
 - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
@@ -43,13 +47,49 @@ This resource list is packed with expert advice, community support, and the late
 
 ### [Endometriosis Symptoms](https://www.ivf.com.au/blog/heres-the-four-stages-of-endometriosis)
 
-|Stage/Type|Severity|Symptoms|Metastasis|
-|---|---|---|---|
-|**Stage I (Minimal)**|Mild|Mild or no pelvic pain; Possible infertility; Occasional dysmenorrhea|None|
-|**Stage II (Mild)**|Mild to moderate|Moderate pelvic pain; Dysmenorrhea; Dyspareunia; Possible infertility|None|
-|**Stage III (Moderate)**|Moderate|Chronic pelvic pain; Severe dysmenorrhea; Dyspareunia; Dyschezia; Infertility|Local spread|
-|**Stage IV (Severe)**|Severe|Chronic, severe pelvic pain; Debilitating dysmenorrhea; Severe dyspareunia; Dyschezia; Dysuria; Infertility; Bowel/bladder dysfunction|Extensive local spread|
-|**Stage IV+ (Very Severe)**|Very severe|All Stage IV symptoms, plus: Deep Infiltrating Endometriosis (DIE): Intense chronic pelvic pain; Severe dyspareunia; Dyschezia, bowel obstruction possible; Dysuria, hydronephrosis possible; Organ dysfunction depending on affected areas (e.g., bowel, bladder). Thoracic Endometriosis: Catamenial pneumothorax (lung collapse during menstruation); Hemoptysis (coughing up blood); Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath); Hemothorax or pericardial effusion in severe cases|Extensive spread to deep tissues or distant sites such as the chest cavity|
+<table role="table" aria-label="Endometriosis symptoms by stage and severity">
+<caption>Endometriosis symptoms categorized by stage, severity, symptoms, and metastasis potential</caption>
+<thead>
+<tr>
+<th scope="col">Stage/Type</th>
+<th scope="col">Severity</th>
+<th scope="col">Symptoms</th>
+<th scope="col">Metastasis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Stage I (Minimal)</strong></td>
+<td>Mild</td>
+<td>Mild or no pelvic pain; Possible infertility; Occasional dysmenorrhea</td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Stage II (Mild)</strong></td>
+<td>Mild to moderate</td>
+<td>Moderate pelvic pain; Dysmenorrhea; Dyspareunia; Possible infertility</td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Stage III (Moderate)</strong></td>
+<td>Moderate</td>
+<td>Chronic pelvic pain; Severe dysmenorrhea; Dyspareunia; Dyschezia; Infertility</td>
+<td>Local spread</td>
+</tr>
+<tr>
+<td><strong>Stage IV (Severe)</strong></td>
+<td>Severe</td>
+<td>Chronic, severe pelvic pain; Debilitating dysmenorrhea; Severe dyspareunia; Dyschezia; Dysuria; Infertility; Bowel/bladder dysfunction</td>
+<td>Extensive local spread</td>
+</tr>
+<tr>
+<td><strong>Stage IV+ (Very Severe)</strong></td>
+<td>Very severe</td>
+<td>All Stage IV symptoms, plus: Deep Infiltrating Endometriosis (DIE): Intense chronic pelvic pain; Severe dyspareunia; Dyschezia, bowel obstruction possible; Dysuria, hydronephrosis possible; Organ dysfunction depending on affected areas (e.g., bowel, bladder). Thoracic Endometriosis: Catamenial pneumothorax (lung collapse during menstruation); Hemoptysis (coughing up blood); Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath); Hemothorax or pericardial effusion in severe cases</td>
+<td>Extensive spread to deep tissues or distant sites such as the chest cavity</td>
+</tr>
+</tbody>
+</table>
 
 *Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms
 
@@ -812,3 +852,5 @@ Active Clinical Studies:
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
 
 </details>
+
+</main>

@@ -4,6 +4,11 @@ languageCode = "en-us"
 theme = "poison"
 pluralizelisttitles = false
 
+# Accessibility and SEO settings
+disableHugoGeneratorInject = false
+disableKinds = ["RSS", "sitemap"]
+enableRobotsTXT = true
+
 # Suppress warnings about raw HTML (for <details> and <summary> tags)
 ignoreLogs = ['warning-goldmark-raw-html']
 
