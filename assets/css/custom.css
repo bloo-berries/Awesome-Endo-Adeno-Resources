@@ -124,3 +124,48 @@ table {
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
+
+/* Style for collapsible details/summary elements */
+details summary {
+    color: #268BD2 !important; /* Blue color to match your link color */
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+/* Hover effect for summary elements */
+details summary:hover {
+    color: #1a6ba3 !important; /* Darker blue on hover */
+    background-color: rgba(38, 139, 210, 0.1);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* Focus effect for accessibility */
+details summary:focus {
+    outline: 2px solid #268BD2;
+    outline-offset: 2px;
+}
+
+/* Style for the details content */
+details[open] summary {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(38, 139, 210, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+/* Add a subtle indicator that it's expandable */
+details summary::before {
+    content: "▶ ";
+    color: #268BD2;
+    font-size: 0.8em;
+    transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+    content: "▼ ";
+    transform: rotate(0deg);
+}
