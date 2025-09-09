@@ -22,7 +22,7 @@ Diagnosis, symptom management, and treatment can be really overwhelming, but it 
   - [Therapeutic Treatments](#therapeutic-treatments)
   - [Potential Co-morbidities](#potential-co-morbidities)
   - [Financial Assistance Platforms](#financial-assistance-platforms)
-  - [Advocacy Groups and Platforms](#advocacy-groups-and-platforms)
+  - [Advocacy Groups and Vetted Providers](#advocacy-groups-and-vetted-providers)
   - [Fertility Resources](#fertility-resources)
   - [Educational Materials](#educational-materials)
   - [Community Sourced Data and Support](#recent-breakthrough-research-2025)
@@ -391,7 +391,7 @@ U.S.A.
 
 </details>
 
-## Advocacy Groups and Platforms
+## Advocacy Groups and Vetted Providers
 
 - [Endo Black](https://endoblack.org/)
   - Black-women-led nonprofit organization advocating for and educating Black women living with and impacted by endometriosis
@@ -399,6 +399,8 @@ U.S.A.
   - Provides resources and support for transgender and non-binary people with endometriosis
 - [FOLX Health](https://www.folxhealth.com/)
   - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
+- [Regional Based Groups](#regional-based-groups-and-platforms)
+  - Comprehensive list of advocacy groups and platforms organized by region
 
 <details>
   <summary>Click to expand Regional Based Groups and Platforms</summary>
