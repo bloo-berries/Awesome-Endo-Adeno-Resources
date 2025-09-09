@@ -1,5 +1,5 @@
 ---
-title: "Awesome Endo Adeno Resources"
+title: "Endo Adeno Resources"
 date: 2025-01-27
 draft: false
 ---
@@ -23,10 +23,12 @@ This comprehensive resource list is packed with expert advice, community support
 
 ## Conditions We Address
 
-### Endometriosis
+### [Endometriosis](https://en.wikipedia.org/wiki/Endometriosis)
+
 A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
 
-### Adenomyosis  
+### [Adenomyosis](https://en.wikipedia.org/wiki/Adenomyosis)
+
 A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
 
 ## How to Use This Resource
