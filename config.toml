@@ -16,7 +16,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     pagerSize = 1000
 
 [params]
-    brand = "Endo Adeno Resources"
+    brand = "Endo & Adeno Resources"
     description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis."
     dark_mode = true
     favicon = "favicon.png"
