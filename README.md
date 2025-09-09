@@ -417,7 +417,8 @@ U.S.A.
     - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
 
 #### APAC & Australia/New Zealand
-  
+- [Institut de la Femme et de l’Endométriose](https://ifeen.fr/)
+  - Multidisciplinary centre in Paris specialising in gynaecological pathologies and Endometriosis
 - [Endometriosis Australia](https://endometriosisaustralia.org/)
   - Advocacy, funding, education
 - [Endometriosis New Zealand](https://nzendo.org.nz/)
@@ -433,6 +434,7 @@ U.S.A.
   
 - Belgium
 - France
+  
   - [EndoFrance](https://www.endofrance.org/)
     - Provides support and raises awareness about endometriosis in France
 - Germany
