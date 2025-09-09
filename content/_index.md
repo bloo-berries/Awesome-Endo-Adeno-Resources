@@ -4,9 +4,7 @@ date: 2025-01-27
 draft: false
 ---
 
-![Awesome](https://awesome.re/badge.svg)
-
-*Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
+Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.
 
 ## About This Resource
 
