@@ -33,7 +33,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     # email_url = "mailto:your-email@domain.com"  # Commented out for now
     
     # RSS configuration
-    rss_icon = true
+    rss_icon = false
     rss_section = "posts"
 
     # Sidebar colors
