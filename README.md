@@ -231,6 +231,7 @@ This resource list is packed with expert advice, community support, and the late
   - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and endometriosis (n=347)."
 
 </details>
+</details>
 
 ## Potential Co-morbidities
 
