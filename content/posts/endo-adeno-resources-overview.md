@@ -1,7 +1,7 @@
 ---
 title: "Endo Adeno Resources"
 draft: false
-tags: ["endometriosis", "adenomyosis", "resources", "healthcare", "treatment", "diagnosis"]
+# tags: ["endometriosis", "adenomyosis", "resources", "healthcare", "treatment", "diagnosis"] # Archived for now
 ---
 
 
