@@ -253,6 +253,9 @@ De-identified EHRs using OMOP Common Data Model
 
 ### Comorbidity Categories
 
+<details>
+  <summary>Click to expand Comorbidity Categories</summary>
+
 #### Gynecological Conditions (Strongest Associations)
 
 | Comorbidity                                      | Prevalence in Endometriosis | Prevalence in Adenomyosis | Likelihood Rate                           | Population Percentage | Notes                                             |
@@ -339,6 +342,8 @@ De-identified EHRs using OMOP Common Data Model
 | [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/)        | 10-20%                      | -                         | 10-20%                                    | 10-20%                | Higher prevalence in endometriosis                |
 | [Interstitial Cystitis](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                            | Common                      | -                         | Moderate                                  | Common                | Often co-occurs with endometriosis                |
 | [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/)                                     | Common                      | -                         | Moderate                                  | Common                | Contributing to widespread pain                   |
+
+</details>
 
 ### Clinical Implications
 
