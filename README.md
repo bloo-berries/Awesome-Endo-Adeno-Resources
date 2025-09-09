@@ -7,57 +7,19 @@
 
 ## Contents
 
-- [Endo Adeno Resources Overview](#endo-adeno-resources-overview)
-  - [Contents](#contents)
-  - [Diagnosis](#diagnosis)
-    - [Endometriosis Symptoms](#endometriosis-symptoms)
-    - [Adenomyosis Symptoms](#adenomyosis-symptoms)
-  - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
-  - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
-  - [Medical Data Tools, Trackers, and Mangers](#medical-data-tools-trackers-and-mangers)
-  - [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
-  - [Therapeutic Treatments](#therapeutic-treatments)
-    - [Surgical](#surgical)
-      - [Endometriosis Treatments](#endometriosis-treatments)
-      - [Adenomyosis Treatments](#adenomyosis-treatments)
-    - [Non-Surgical](#non-surgical)
-    - [Medicinal](#medicinal)
-      - [Medication and Medicinal Supplements](#medication-and-medicinal-supplements)
-      - [Cannabis and Herbal](#cannabis-and-herbal)
-      - [Physical Therapy](#physical-therapy)
-    - [Endometriosis](#endometriosis)
-    - [Adenomyosis](#adenomyosis)
-  - [Potential Co-morbidities](#potential-co-morbidities)
-    - [Data Source](#data-source)
-    - [Research Foundation](#research-foundation)
-    - [Comorbidity Categories](#comorbidity-categories)
-      - [Gynecological Conditions (Strongest Associations)](#gynecological-conditions-strongest-associations)
-      - [Gastrointestinal Disorders](#gastrointestinal-disorders)
-      - [Neurological Conditions](#neurological-conditions)
-      - [Mental Health Comorbidities](#mental-health-comorbidities)
-      - [Autoimmune \& Inflammatory Conditions](#autoimmune--inflammatory-conditions)
-      - [Respiratory \& Allergic Conditions](#respiratory--allergic-conditions)
-      - [Novel \& Unexpected Associations](#novel--unexpected-associations)
-      - [Protective Associations (Novel Finding)](#protective-associations-novel-finding)
-      - [Other Established Comorbidities](#other-established-comorbidities)
-    - [Clinical Implications](#clinical-implications)
-      - [Novel Therapeutic Avenues](#novel-therapeutic-avenues)
-  - [Financial Assistance Platforms](#financial-assistance-platforms)
-  - [Advocacy Groups and Vetted Providers](#advocacy-groups-and-vetted-providers)
-  - [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
-      - [Americas and Caribbean](#americas-and-caribbean)
-      - [Africa](#africa)
-      - [APAC \& Australia/New Zealand](#apac--australianew-zealand)
-      - [Europe](#europe)
-      - [LATAM](#latam)
-  - [Fertility Resources](#fertility-resources)
-  - [Educational Materials](#educational-materials)
-  - [Community Sourced Data and Support](#community-sourced-data-and-support)
-  - [Medical Research](#medical-research)
-    - [Current Medical Studies](#current-medical-studies)
-      - [Recent Breakthrough Research (2025)](#recent-breakthrough-research-2025)
-    - [Important Note](#important-note)
-    - [Adenomyosis Specific Studies](#adenomyosis-specific-studies)
+- [Diagnosis](#diagnosis)
+- [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
+- [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
+- [Medical Data Tools, Trackers, and Mangers](#medical-data-tools-trackers-and-mangers)
+- [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
+- [Therapeutic Treatments](#therapeutic-treatments)
+- [Potential Co-morbidities](#potential-co-morbidities)
+- [Financial Assistance Platforms](#financial-assistance-platforms)
+- [Advocacy Groups and Vetted Providers](#advocacy-groups-and-vetted-providers)
+- [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
+- [Fertility Resources](#fertility-resources)
+- [Educational Materials](#educational-materials)
+- [Community Sourced Data and Support](#community-sourced-data-and-support)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 
@@ -169,7 +131,10 @@ This resource list is packed with expert advice, community support, and the late
 
 ## Therapeutic Treatments
 
-### Surgical
+<details>
+  <summary>Click to expand Treatment Options</summary>
+
+### Surgical Treatments
 
 #### Endometriosis Treatments
 
@@ -196,7 +161,7 @@ This resource list is packed with expert advice, community support, and the late
 | **High-Intensity Focused Ultrasound (HIFU)** | [Non-surgical option using ultrasound waves for coagulative necrosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8348135/) | Various specialized centers |
 | **Myomectomy** | Surgical removal of fibroids while preserving fertility | Various specialized centers |
 
-### Non-Surgical
+### Non-Surgical Treatments
 
 - Latest Advancements in Non-Surgical Diagnostics & Therapeutics for Endometriosis
 
@@ -210,7 +175,7 @@ This resource list is packed with expert advice, community support, and the late
 | [AI + Omics Integration](https://pubmed.ncbi.nlm.nih.gov/39926583/)   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
 | [Microbiome modulation](https://www.sciencedirect.com/science/article/pii/S1471491424001667)    | Gut–microbiota–brain axis recently emerged as a key player in neuro-pain pathways                | Personalized treatment                     | Needs More Developed Research           |
 
-### Medicinal
+### Medicinal Treatments
 
 <details>
   <summary>Click to expand Medicinal Treatments</summary>
@@ -435,9 +400,9 @@ U.S.A.
 ## Regional Based Groups and Platforms
 
 <details>
-  <summary>Click to expand </summary>
+  <summary>Click to expand Regional Groups by Location</summary>
 
-#### Americas and Caribbean
+### Americas and Caribbean
   
 - [The Endometriosis Network Canada](https://endometriosisnetwork.com/)
   - Community that supports the diverse needs of every unique endometriosis journey.
@@ -446,7 +411,7 @@ U.S.A.
 - [Worldwide Endometriosis March](https://endomarch.org/)
   - Largest, internationally-coordinated endometriosis coalition in the world
 
-#### Africa
+### Africa
   
 - East Africa:
   - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
@@ -457,7 +422,7 @@ U.S.A.
   - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
     - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
 
-#### APAC & Australia/New Zealand
+### APAC & Australia/New Zealand
 
 - [Endometriosis Australia](https://endometriosisaustralia.org/)
   - Advocacy, funding, education
@@ -470,7 +435,7 @@ U.S.A.
 - [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
   - Dedicated to supporting and educating individuals with endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
 
-#### Europe
+### Europe
   
 - Belgium
 - France
@@ -512,7 +477,7 @@ U.S.A.
 - UK
   - [Endometriosis UK](https://endometriosisuk.org/)
 
-#### LATAM
+### LATAM
   
 - [Expertos en Endometriosis EndoLATAM](https://www.endolatam.com)
   - Comunidad de médicos certificados en Endometriosis en Latinoamérica
