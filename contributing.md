@@ -1,4 +1,4 @@
-# Contributing to Awesome Endo Adeno Resources
+# Contributing to Endo Adeno Resources
 
 Thank you for your interest in contributing to this comprehensive resource for Endometriosis and Adenomyosis! This guide will help you understand how to contribute effectively.
 

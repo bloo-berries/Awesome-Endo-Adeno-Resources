@@ -21,7 +21,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     dark_mode = true
     favicon = "favicon.png"
 
-    front_page_content = ["posts"]
+    # front_page_content = ["posts"]  # Not needed with simplified menu
 
     # Menu configuration
     menu = [
