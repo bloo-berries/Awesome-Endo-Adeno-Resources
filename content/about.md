@@ -6,7 +6,7 @@ draft: false
 
 # About
 
-Welcome to **Awesome Endo Adeno Resources** - your comprehensive guide to navigating Endometriosis and Adenomyosis.
+Welcome to **Endo Adeno Resources** - your comprehensive guide to navigating Endometriosis and Adenomyosis.
 
 ## Our Mission
 

@@ -7,11 +7,16 @@ pluralizelisttitles = false
 # Suppress warnings about raw HTML (for <details> and <summary> tags)
 ignoreLogs = ['warning-goldmark-raw-html']
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [pagination]
     pagerSize = 10
 
 [params]
-    brand = "Endo Adeno Resources - Hugo Site"
+    brand = "Endo Adeno Resources"
     description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis. Diagnosis, symptom management, and treatment resources."
     dark_mode = true
     favicon = "favicon.png"
@@ -21,12 +26,12 @@ ignoreLogs = ['warning-goldmark-raw-html']
     # Menu configuration
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Resources", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+        {Name = "Posts", URL = "/posts/", HasChildren = false},
     ]
 
     # Social links (you can customize these)
     github_url = "https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources"
-    email_url = "mailto:your-email@domain.com"
+    # email_url = "mailto:your-email@domain.com"  # Commented out for now
     
     # RSS configuration
     rss_icon = true
