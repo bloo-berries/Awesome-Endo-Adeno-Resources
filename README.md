@@ -560,6 +560,8 @@ U.S.A.
   - A book by Dr. Tamer Seckin that provides comprehensive information on endometriosis
 - [Women's Health: Breaking the Taboos](https://tv.apple.com/gb/show/womens-health-breaking-the-taboos/umc.cmc.4r6819yl90qr1ba2fx9ovpbjl)
   - The series is hosted by Cherry Healey and covers topics such as endometriosis, incontinence, hair loss, and the menopause
+- [Seven](https://www.reddit.com/r/Endo/comments/1o1ndml/i_wrote_and_illustrated_a_book_ab_my_experience/)
+  - The author wrote Seven, citing: "Writing and illustrating this book for my senior thesis was a very therapeutic experience. It took me seven years to get a diagnosis and I was often told that it was just stress or that periods are painful."
 
 </details>
 
