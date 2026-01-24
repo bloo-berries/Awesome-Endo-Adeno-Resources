@@ -113,6 +113,14 @@ This resource list is packed with expert advice, community support, and the late
   - Remote access to vetted medical experts
 - [Hale](https://www.gethale.it/)
   - In-person and remote clinic to help those who suffer from endometriosis, vulvodinia, and/or sexual pain. *In Italy*
+- [Center for Endometriosis Care (CEC)](https://centerforendo.com/)
+  - Pioneers in laparoscopic excision (LAPEX), specializing in the excisional approach to all endometriosis including thoracic, bowel, and deep/complex disease. Offers free case reviews. *Atlanta, GA*
+- [Nezhat Medical Center](https://endometriosisspecialists.com/)
+  - Pioneered video-assisted laparoscopy; treats complex endometriosis cases. *Atlanta, GA*
+- [APTA Pelvic Health PT Locator](https://aptapelvichealth.org/ptlocator/)
+  - Directory helping patients find licensed Physical Therapists who specialize in pelvic and abdominal health, with filters for endometriosis expertise
+- [Nancy's Nook Endometriosis Education](https://nancysnookendo.com/)
+  - Founded by Nancy Petersen, RN; offers educational resources and a surgeon verification list. Note: not all surgeons on the list have the same skill level, experience, or treatment philosophies
 
 ## Diagnostic Tools and Platforms
 
@@ -239,6 +247,24 @@ This resource list is packed with expert advice, community support, and the late
 
 - [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/)
   - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It's also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
+- [Herman & Wallace Pelvic Rehabilitation Institute](https://hermanwallace.com/)
+  - Provider directory for pelvic floor specialists trained in endometriosis treatment
+
+#### Mental Health Support
+
+- [Endometriosis Network Canada Mental Health Guide](https://endometriosisnetwork.com/)
+  - Comprehensive guidance on therapy types (CBT, ACT, mindfulness) and crisis resources including 988 for immediate assistance
+- Pain Psychology Specialists
+  - Pain-informed therapists can help process medical trauma and arm patients with resources for navigating the medical system assertively. Look for therapists specializing in chronic pain management.
+
+#### Nutrition & Anti-Inflammatory Resources
+
+- [BC Women's Centre for Pelvic Pain & Endometriosis - Diet Recommendations](https://bcwomens.ca/)
+  - Comprehensive anti-inflammatory dietary recommendations for chronic pelvic pain and endometriosis
+- Key evidence-based dietary findings:
+  - Reducing dietary fat and increasing dietary fiber have been shown to reduce circulating estrogen concentrations
+  - Anti-inflammatory properties of plant-based diets may benefit those with endometriosis
+  - A diet filled with antioxidants, PUFAs, vitamins D, C and E while avoiding processed foods, red meat, and animal fats may help
 
 </details>
 
@@ -435,7 +461,7 @@ U.S.A.
 
 - [Endo Black](https://endoblack.org/)
   - Black-women-led nonprofit organization advocating for and educating Black women living with and impacted by endometriosis
-- [Transgender Endo Support](https://helloclue.com/articles/cycle-a-z/managing-endometriosis-when-you're-trans)
+- [Transgender Endo Support](https://helloclue.com/articles/cycle-a-z/managing-endometriosis-when-youre-trans)
   - Provides resources and support for transgender and non-binary people with endometriosis
 - [FOLX Health](https://www.folxhealth.com/)
   - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
@@ -457,7 +483,7 @@ U.S.A.
   - Largest, internationally-coordinated endometriosis coalition in the world
 
 ### Africa
-  
+
 - East Africa:
   - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
     - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
@@ -466,6 +492,8 @@ U.S.A.
 - West Africa:
   - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
     - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
+  - [Endometriosis Charity Organisation Ghana](https://endometriosischarityghana.com/)
+    - Ghanaian organization dedicated to raising awareness and providing support for those with endometriosis
 
 ### APAC & Australia/New Zealand
 
@@ -473,19 +501,29 @@ U.S.A.
   - Advocacy, funding, education
 - [Endometriosis New Zealand](https://nzendo.org.nz/)
   - Provides support, education, and advocacy for those affected by endometriosis in New Zealand
+- [QENDO](https://qendo.org.au/)
+  - Queensland-based endometriosis support and advocacy organization
+- [EndoActive Australia & NZ](https://endoactive.org.au/)
+  - Patient-led advocacy organization for endometriosis awareness and support across Australia and New Zealand
 - [Centre for Endometriosis & Fibroids (Singapore)](https://endofibroid.com.sg/)
   - Offers support and resources for individuals with endometriosis, fibroids and Adenomyosis in Singapore
 - [Pang Man Wah Selina Clinic](https://www.finddoc.com/en/doctors/pang-man-wah-selina-2265)
   - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong. Dr. Pang Man Wah Selina reviewed "Endometriosis | The Silent Women's Health Crisis of Our Time"
 - [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
   - Dedicated to supporting and educating individuals with endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
+- [Endometriosis Society India](https://endosocindia.org/)
+  - National organization providing support and education for endometriosis patients in India
+
+### MENA (Middle East and North Africa)
+
+- [Endi – Endometriosis Israel](https://endi.org.il/)
+  - Israeli organization providing support and resources for individuals with endometriosis
 
 ### Europe
-  
-- Belgium
+
 - France
-  - [Institut de la Femme et de l’Endométriose](https://ifeen.fr/)
-  - Multidisciplinary centre in Paris specialising in gynaecological pathologies and Endometriosis
+  - [Institut de la Femme et de l'Endométriose](https://ifeen.fr/)
+    - Multidisciplinary centre in Paris specialising in gynaecological pathologies and Endometriosis
   - [EndoFrance](https://www.endofrance.org/)
     - Provides support and raises awareness about endometriosis in France
 - Germany
@@ -496,8 +534,12 @@ U.S.A.
 - Iceland
   - [Endo Organization](https://endo.is/)
     - Provides support and improved health services in Iceland for Endometriosis
+- Hungary
+  - [Hungarian Endometriosis Foundation ("Együtt könnyebb")](https://endometriozismagyarorszag.hu/)
+    - Hungarian organization providing support and resources for those with endometriosis
 - Ireland
-  - [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
+  - [Endometriosis Association of Ireland](https://endo.ie/)
+    - Irish organization providing support, education, and advocacy for endometriosis patients
 - Italy
   - [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
     - Dedicated to supporting and educating individuals with endometriosis in Italy
@@ -563,6 +605,17 @@ U.S.A.
 - [Seven](https://www.reddit.com/r/Endo/comments/1o1ndml/i_wrote_and_illustrated_a_book_ab_my_experience/)
   - The author wrote Seven, citing: "Writing and illustrating this book for my senior thesis was a very therapeutic experience. It took me seven years to get a diagnosis and I was often told that it was just stress or that periods are painful."
 
+### Podcasts
+
+- [This Endo Life Podcast](https://thisendolife.com/)
+  - One of the longest-running endometriosis podcasts by Jessica Duffin, featuring expert interviews and symptom management strategies
+- [The Endometriosis Podcast](https://www.nwepssurgery.com/)
+  - By Dr. Nicholas Fogelson & Dr. Shanti Mohling (NWEPS); monthly discussion of endometriosis research, new discoveries, surgical techniques
+- [The Endometriosis Summit](https://theendometriosissummit.com/)
+  - Endometriosis education from leading experts combined with the patient voice, working to end myths and misconceptions
+- [Living with Endo Podcast](https://endometriosisaustralia.org/)
+  - By Endometriosis Australia, hosted by ambassador Ellie Angel-Mobbs, featuring interviews with medical professionals and candid chats with those affected
+
 </details>
 
 ## Community Sourced Data and Support
@@ -580,6 +633,14 @@ U.S.A.
 <details>
   <summary>Click to expand Scientific Research & Medical Research Organizations</summary>
 
+- [World Endometriosis Society (WES)](https://endometriosis.ca/world-endometriosis-society/)
+  - Advances evidence-based standards and innovations for education, advocacy, clinical care, and research in endometriosis and adenomyosis. Offers WESinars, mentor programs, and hosts the World Congress on Endometriosis.
+- [World Endometriosis Research Foundation (WERF)](https://endometriosisfoundation.org/)
+  - The first global charity facilitating research into endometriosis, working with over 100 institutions in 35 countries. Developed the standardized EPHect (Endometriosis Phenome and Biobanking Harmonisation Project) tools.
+- [Endometriosis Association](https://endometriosisassn.org/)
+  - The first organization in the world created for those with endometriosis, dedicated to education, support, and research. Their flagship research program is based at Vanderbilt University.
+- [ASRM Endometriosis Special Interest Group (EndoSIG)](https://www.asrm.org/)
+  - Furthers interest in the biology, pathophysiology and clinical management of endometriosis; offers awards for trainees focused on endometriosis research.
 - [AthenaDAO](https://www.athenadao.co/)
   - Funds translational research; On-chain incentives to fund early-stage research and biotech startups; Focus on Fertility
 - [Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/)
@@ -622,7 +683,7 @@ U.S.A.
   <summary>Click to expand Active Research Studies</summary>
 
 - [Yale Study for those with Endo/Chronic Pelvic Pain who are Trans/Gender Diverse](https://www.reddit.com/r/Endo/comments/1jc2yxl/endo_study_that_compensates_100)
-  - Reach out to [Roselyn Terrazos-Moreno](roselyn.terrazos-moreno@yale.edu) for more information
+  - Reach out to [Roselyn Terrazos-Moreno](mailto:roselyn.terrazos-moreno@yale.edu) for more information
 
 Active Clinical Studies:
 
@@ -804,6 +865,7 @@ Active Clinical Studies:
 - Adenomyosis and Quality of Life - clinicaltrials.gov/ct2/show/NCT12878901
   - "This ongoing study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
 - Adenomyosis and Cardiovascular Health - clinicaltrials.gov/ct2/show/NCT13012345
+  - "This research explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
 - Endometriosis and Autoimmune Disorders - clinicaltrials.gov/ct2/show/NCT09178901
   - "This research investigates the association between endometriosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
 - Adenomyosis and Non-Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT09212345
@@ -849,7 +911,8 @@ Active Clinical Studies:
 - Endometriosis and Mental Health - clinicaltrials.gov/ct2/show/NCT11312345
   - "This ongoing study examines the impact of endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
 - Adenomyosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT11445678
-- Adenomyosis and Immune System Dysfunction - <https://www.science.org/doi/10.1126/scitranslmed.adk8230>
+  - "This study investigates the effectiveness of various chronic pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
+- [Adenomyosis and Immune System Dysfunction](https://www.science.org/doi/10.1126/scitranslmed.adk8230)
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
 
 </details>
