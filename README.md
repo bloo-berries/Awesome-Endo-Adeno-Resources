@@ -8,9 +8,9 @@
 
 <div align="center">
 
-[![Watch This Is Endometriosis](https://img.shields.io/badge/▶_Watch-This_Is_Endometriosis-FF6B6B?style=for-the-badge&logo=film&logoColor=white)](https://www.thisisendo.com/watch-this-is-endometriosis)
+[![Watch This Is Endometriosis](https://vumbnail.com/966458934.jpg)](https://vimeo.com/966458934 "Watch This Is Endometriosis")
 
-*BAFTA-nominated documentary short film — Free to watch*
+**This Is Endometriosis** — *BAFTA-winning documentary short film (2026) — Free to watch*
 
 </div>
 
