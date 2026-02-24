@@ -6,6 +6,14 @@
   [It affects approximately 1 in 7 people worldwide](https://endometriosisaustralia.org/1-in-7-australian-women/).
 - [*Adenomyosis*](https://en.wikipedia.org/wiki/Adenomyosis): A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement.
 
+<div align="center">
+
+[![Watch This Is Endometriosis](https://img.shields.io/badge/▶_Watch-This_Is_Endometriosis-FF6B6B?style=for-the-badge&logo=film&logoColor=white)](https://www.thisisendo.com/watch-this-is-endometriosis)
+
+*BAFTA-nominated documentary short film — Free to watch*
+
+</div>
+
 ## Contents
 
 <main id="main-content" role="main" aria-label="Main content">
@@ -590,6 +598,11 @@ U.S.A.
 - [Below the Belt](https://www.belowthebelt.film/)
   - A film through the lens of endometriosis featuring the personal stories of four patients.
   - Watch for free on [PBS](https://www.pbs.org/show/below-belt-last-health-taboo/)
+- [This Is Endometriosis](https://www.thisisendo.com)
+  - BAFTA-nominated (2026) documentary short film. A volunteer-led movement created for validation, representation, and education of endometriosis.
+  - Watch for free on Minute Shorts
+- [A Thousand Needles](https://www.athousandneedlesfilm.com/)
+  - A documentary about the effects of women's sexual and reproductive health issues like endometriosis on a woman's life
 - [EndoFound Educational Videos](https://www.endofound.org/video)
   - A collection of educational videos provided by the Endometriosis Foundation of America
 - [Endographics](https://www.endographics.org/english)
