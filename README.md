@@ -8,9 +8,9 @@
 
 <div align="center">
 
-[![Watch This Is Endometriosis](https://vumbnail.com/966458934.jpg)](https://vimeo.com/966458934 "Watch This Is Endometriosis")
+[![Watch This Is Endometriosis](https://cdn.sanity.io/images/4ejxdwee/production/02f0476ff4aefa22c5ecb6cf9b5ce86da174d920-3840x2160.jpg?auto=format&q=75&w=800)](https://www.thisisendo.com/watch-this-is-endometriosis "Watch This Is Endometriosis")
 
-**This Is Endometriosis** — *BAFTA-winning documentary short film (2026) — Free to watch*
+**▶ This Is Endometriosis** — *BAFTA-winning documentary short film (2026) — Free to watch*
 
 </div>
 
