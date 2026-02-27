@@ -5,8 +5,11 @@
             {{ partial "sidebar/sidebar.html" . }}
             <main class="content container" id="main-content">
                 <div class="theme-toggle-wrapper">
+                    <div class="mobile-header-bar">
+                        <span class="mobile-title">Endo &amp; Adeno Resources</span>
+                        {{ partial "light_dark.html" . }}
+                    </div>
                     <div class="header-cards" id="header-cards"></div>
-                    {{ partial "light_dark.html" . }}
                 </div>
                 {{ block "main" . -}}{{- end }}
                 <!-- Back to Top Button -->

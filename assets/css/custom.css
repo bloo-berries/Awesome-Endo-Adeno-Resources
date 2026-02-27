@@ -449,6 +449,15 @@ details[open] summary::before {
     background: var(--content-bg-color-dark, #1A0E14);
 }
 
+/* Mobile header bar: hidden on desktop */
+.mobile-header-bar {
+    display: none;
+}
+
+.mobile-title {
+    display: none;
+}
+
 .header-cards {
     flex: 1;
 }
@@ -1122,26 +1131,72 @@ body:not(.dark-theme) .resource-card.card-active {
 
     .container.content {
         max-width: 100% !important;
-        padding-top: 3.5rem;
+        padding-top: 0;
     }
 
+    .theme-toggle-wrapper {
+        display: block !important;
+        position: sticky;
+        top: 0;
+        padding: 0 0 0.3rem 0;
+    }
+
+    .mobile-header-bar {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        padding: 0;
+        margin: 0.75rem 0 0.4rem 3.5rem;
+    }
+
+    .mobile-title {
+        display: block !important;
+        font-family: 'Monaspace Argon', 'Inter', monospace !important;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #F0D060;
+        letter-spacing: -0.02em;
+    }
+
+    body:not(.dark-theme) .mobile-title {
+        color: #2D1525;
+    }
+
+    .mobile-header-bar .light-dark {
+        flex-shrink: 0;
+    }
+
+    .header-cards {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .header-cards .resource-cards,
     .resource-cards {
-        flex-wrap: wrap !important;
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 0.3rem !important;
         max-width: 100% !important;
+        width: 100% !important;
     }
 
     .resource-card {
-        flex: 0 1 auto !important;
-        padding: 0.35rem 0.6rem !important;
+        display: inline-flex !important;
+        justify-content: center !important;
+        padding: 0.35rem 0.3rem !important;
+        flex: unset !important;
+        white-space: nowrap !important;
+        min-width: 0 !important;
     }
 
     .card-title {
-        font-size: 0.7rem !important;
+        font-size: 0.65rem !important;
     }
 
     .card-icon {
-        width: 13px !important;
-        height: 13px !important;
+        width: 12px !important;
+        height: 12px !important;
     }
 
     .video-embed {
@@ -1154,9 +1209,5 @@ body:not(.dark-theme) .resource-card.card-active {
     .featured-video,
     .content .post {
         max-width: 100% !important;
-    }
-
-    .theme-toggle-wrapper {
-        padding-right: 0;
     }
 }
