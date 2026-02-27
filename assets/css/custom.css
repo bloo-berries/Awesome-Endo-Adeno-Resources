@@ -387,22 +387,65 @@ table {
 }
 
 /* Style for collapsible details/summary elements */
+details {
+    margin-bottom: 0.5rem;
+}
+
 details summary {
     color: #C4982A !important;
     cursor: pointer;
-    font-weight: 500;
-    padding: 0.5rem 0;
-    border-radius: 4px;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
     transition: all 0.2s ease;
     user-select: none;
+    list-style: none;
+    background: rgba(196, 152, 42, 0.08);
+    border: 1px solid rgba(196, 152, 42, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Hide native disclosure marker */
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Chevron indicator */
+details summary::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #C4982A;
+    border-bottom: 2px solid #C4982A;
+    transform: rotate(-45deg);
+    transition: transform 0.2s ease;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+details[open] summary::after {
+    transform: rotate(45deg);
 }
 
 /* Hover effect for summary elements */
 details summary:hover {
-    color: #8B6914 !important; /* Darker blue on hover */
-    background-color: rgba(196, 152, 42, 0.1);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    color: #F0D060 !important;
+    background-color: rgba(196, 152, 42, 0.15);
+    border-color: rgba(196, 152, 42, 0.3);
+}
+
+body:not(.dark-theme) details summary {
+    background: rgba(139, 69, 19, 0.06);
+    border-color: rgba(139, 69, 19, 0.15);
+}
+
+body:not(.dark-theme) details summary:hover {
+    color: #6B2D3E !important;
+    background: rgba(139, 69, 19, 0.12);
+    border-color: rgba(139, 69, 19, 0.3);
 }
 
 /* Focus effect for accessibility */
@@ -413,22 +456,10 @@ details summary:focus {
 
 /* Style for the details content */
 details[open] summary {
-    margin-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(196, 152, 42, 0.2);
-    padding-bottom: 0.5rem;
-}
-
-/* Add a subtle indicator that it's expandable */
-details summary::before {
-    content: "▶ ";
-    color: #C4982A;
-    font-size: 0.8em;
-    transition: transform 0.2s ease;
-}
-
-details[open] summary::before {
-    content: "▼ ";
-    transform: rotate(0deg);
+    margin-bottom: 0.75rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-color: #C4982A;
 }
 
 /* ===== THEME TOGGLE - TOP RIGHT ===== */
@@ -521,31 +552,6 @@ details[open] summary::before {
     }
 }
 
-/* ===== HEADING ANCHOR LINKS ===== */
-
-.heading-anchor {
-    color: #C4982A !important;
-    text-decoration: none !important;
-    opacity: 0;
-    font-size: 0.8em;
-    margin-left: 0.4em;
-    transition: opacity 0.2s ease;
-    font-weight: normal;
-}
-
-.content h1:hover .heading-anchor,
-.content h2:hover .heading-anchor,
-.content h3:hover .heading-anchor,
-.content h4:hover .heading-anchor,
-.content h5:hover .heading-anchor,
-.content h6:hover .heading-anchor,
-.heading-anchor:focus {
-    opacity: 1;
-}
-
-.heading-anchor:hover {
-    text-decoration: underline !important;
-}
 
 /* ===== TABLE OF CONTENTS - LOWER BREAKPOINT ===== */
 

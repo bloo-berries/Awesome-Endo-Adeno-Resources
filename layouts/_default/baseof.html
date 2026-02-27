@@ -44,16 +44,10 @@
             });
         })();
 
-        // Heading Anchor Links
+        // Expand all <details> sections by default
         (function() {
-            var headings = document.querySelectorAll('.content h1[id], .content h2[id], .content h3[id], .content h4[id], .content h5[id], .content h6[id]');
-            headings.forEach(function(h) {
-                var link = document.createElement('a');
-                link.className = 'heading-anchor';
-                link.href = '#' + h.id;
-                link.setAttribute('aria-label', 'Link to ' + h.textContent);
-                link.textContent = '#';
-                h.appendChild(link);
+            document.querySelectorAll('details').forEach(function(d) {
+                d.setAttribute('open', '');
             });
         })();
 
