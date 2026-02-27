@@ -44,7 +44,7 @@
 
   {{ if .Params.featuredImage }}
   <p>
-    <img src="{{.Params.featuredImage}}"><br>
+    <img src="{{.Params.featuredImage}}" alt="{{ .Params.featuredImageAlt | default .Title }}" loading="lazy"><br>
   </p>
   {{ end }}
 </div>

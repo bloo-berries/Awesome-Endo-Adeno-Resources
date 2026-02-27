@@ -1,7 +1,10 @@
 ---
-title: "Endo Adeno Resources"
+title: "Endo & Adeno Resources"
+description: "Comprehensive endometriosis and adenomyosis resources — diagnosis guides, vetted specialists, treatment options, research, and community support for 190+ million affected worldwide."
 date: 2025-01-27
+lastmod: 2026-02-27
 draft: false
+keywords: ["endometriosis", "adenomyosis", "endometriosis resources", "adenomyosis treatment", "chronic pelvic pain", "endometriosis diagnosis"]
 ---
 
 Diagnosis, symptom management, and treatment can be really overwhelming, but it shouldn't be.

@@ -1,9 +1,11 @@
 ---
 title: "Adenomyosis Resources"
+description: "Adenomyosis guide — symptoms, diagnosis, treatment options, and specialist resources for this condition affecting the uterine muscular wall."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
 tags: ["adenomyosis", "diagnosis", "treatment", "symptoms"]
+keywords: ["adenomyosis symptoms", "adenomyosis diagnosis", "adenomyosis treatment", "heavy menstrual bleeding", "uterine enlargement"]
 ---
 
 # Adenomyosis Resources

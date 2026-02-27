@@ -10,7 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- favicon -->
-    <link rel="icon" href={{ .Site.Params.favicon | default "/favicon.png" }}>
+    <link rel="icon" type="image/svg+xml" href="{{ .Site.Params.favicon | default "/favicon.svg" | absURL }}">
+    <link rel="icon" type="image/png" href="{{ .Site.Params.favicon | default "/favicon.svg" | absURL }}">
 
     <!-- Fonts: Inter (UI/headings) + Source Serif 4 (body content) + Monaspace Argon (title) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,4 +35,7 @@
 
     <!-- Custom style tag for parameterized CSS -->
     {{ partial "head/css.html" . }}
+
+    <!-- Structured Data (JSON-LD) -->
+    {{ partial "head/structured-data.html" . }}
 </head>

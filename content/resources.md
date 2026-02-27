@@ -1,9 +1,11 @@
 ---
 title: "Comprehensive Resources"
+description: "Endometriosis and adenomyosis advocacy organizations, support groups, financial assistance, educational materials, and community resources worldwide."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
 tags: ["resources", "support", "education", "advocacy"]
+keywords: ["endometriosis support groups", "adenomyosis advocacy", "financial assistance", "endometriosis organizations", "patient education"]
 ---
 
 # Comprehensive Resources

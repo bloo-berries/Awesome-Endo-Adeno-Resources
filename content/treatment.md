@@ -1,9 +1,11 @@
 ---
 title: "Treatment Resources"
+description: "Evidence-based endometriosis and adenomyosis treatment options — excision surgery, hormonal therapy, pain management, and specialist provider networks."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
 tags: ["treatment", "endometriosis", "adenomyosis", "therapy"]
+keywords: ["endometriosis treatment", "excision surgery", "adenomyosis treatment", "hormonal therapy", "pain management", "laparoscopic surgery"]
 ---
 
 # Treatment Resources

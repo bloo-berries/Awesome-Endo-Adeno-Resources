@@ -1,9 +1,11 @@
 ---
 title: "Endometriosis Resources"
+description: "Comprehensive endometriosis guide — symptoms, stages, diagnosis methods, treatment options, and support resources for the 1 in 7 people affected worldwide."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
 tags: ["endometriosis", "diagnosis", "treatment", "symptoms"]
+keywords: ["endometriosis symptoms", "endometriosis stages", "endometriosis treatment", "chronic pelvic pain", "endometriosis diagnosis"]
 ---
 
 # Endometriosis Resources

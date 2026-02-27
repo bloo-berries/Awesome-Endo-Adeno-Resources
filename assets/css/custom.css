@@ -57,19 +57,23 @@ button, .btn, input {
 /* Skip navigation link for keyboard users */
 .skip-link {
     position: absolute;
-    top: -40px;
+    top: -100px;
     left: 6px;
     background: #000;
     color: #fff;
     padding: 8px;
     text-decoration: none;
     border-radius: 4px;
-    z-index: 1000;
+    z-index: 9999;
     font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .skip-link:focus {
     top: 6px;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 /* High contrast focus indicators */
@@ -991,6 +995,7 @@ body:not(.dark-theme) .resource-card.card-active {
 
 .filtered-content {
     max-width: 100%;
+    scroll-margin-top: 4rem;
 }
 
 .filter-panel {

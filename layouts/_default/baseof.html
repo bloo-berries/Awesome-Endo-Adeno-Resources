@@ -1,5 +1,6 @@
 {{ partial "head/head.html" . }}
     <body class="{{if .Site.Params.layoutReverse}}layout-reverse {{end}}{{if .Site.Params.dark_mode}}dark-theme{{end}}">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
         <div class="wrapper">
             {{ partial "sidebar/sidebar.html" . }}
             <main class="content container" id="main-content">
@@ -53,53 +54,87 @@
             });
         })();
 
-        // Resource Card Filters
+        // Resource Card Filters + Sidebar Nav Filters
         (function() {
             var cards = document.querySelectorAll('.resource-card[data-filter]');
+            var sidebarLinks = document.querySelectorAll('[data-sidebar-filter]');
             var panels = document.querySelectorAll('.filter-panel[data-panel]');
             var homeDefault = document.getElementById('home-default');
             var featuredVideo = document.getElementById('featured-video');
-            if (!cards.length || !panels.length) return;
+            if (!panels.length) return;
 
             var activeFilter = null;
 
-            cards.forEach(function(card) {
-                card.addEventListener('click', function() {
-                    var filter = this.getAttribute('data-filter');
-
-                    // Toggle off if already active
-                    if (activeFilter === filter) {
-                        activeFilter = null;
-                        cards.forEach(function(c) {
-                            c.classList.remove('card-active');
-                            c.setAttribute('aria-pressed', 'false');
-                        });
-                        panels.forEach(function(p) { p.style.display = 'none'; });
-                        if (homeDefault) homeDefault.style.display = '';
-                        if (featuredVideo) featuredVideo.style.display = '';
-                        return;
-                    }
-
-                    activeFilter = filter;
-
-                    // Update card states
+            function applyFilter(filter) {
+                // Toggle off if already active
+                if (activeFilter === filter) {
+                    activeFilter = null;
                     cards.forEach(function(c) {
                         c.classList.remove('card-active');
                         c.setAttribute('aria-pressed', 'false');
                     });
-                    this.classList.add('card-active');
-                    this.setAttribute('aria-pressed', 'true');
+                    sidebarLinks.forEach(function(l) { l.classList.remove('active'); });
+                    panels.forEach(function(p) { p.style.display = 'none'; });
+                    if (homeDefault) homeDefault.style.display = '';
+                    if (featuredVideo) featuredVideo.style.display = '';
+                    return;
+                }
 
-                    // Show matching panel, hide others
-                    panels.forEach(function(p) {
-                        p.style.display = p.getAttribute('data-panel') === filter ? '' : 'none';
-                    });
-                    if (homeDefault) homeDefault.style.display = 'none';
-                    if (featuredVideo) featuredVideo.style.display = 'none';
+                activeFilter = filter;
 
-                    // Scroll to content
-                    var target = document.getElementById('filtered-content');
-                    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Update card button states
+                cards.forEach(function(c) {
+                    c.classList.remove('card-active');
+                    c.setAttribute('aria-pressed', 'false');
+                });
+                var matchingCard = document.querySelector('.resource-card[data-filter="' + filter + '"]');
+                if (matchingCard) {
+                    matchingCard.classList.add('card-active');
+                    matchingCard.setAttribute('aria-pressed', 'true');
+                }
+
+                // Update sidebar link states
+                sidebarLinks.forEach(function(l) { l.classList.remove('active'); });
+                var matchingLink = document.querySelector('[data-sidebar-filter="' + filter + '"]');
+                if (matchingLink) matchingLink.classList.add('active');
+
+                // Show matching panel, hide others
+                panels.forEach(function(p) {
+                    p.style.display = p.getAttribute('data-panel') === filter ? '' : 'none';
+                });
+                if (homeDefault) homeDefault.style.display = 'none';
+                if (featuredVideo) featuredVideo.style.display = 'none';
+
+                // Scroll to content below sticky header
+                var target = document.getElementById('filtered-content');
+                var container = document.querySelector('.content.container');
+                if (target && container) {
+                    var headerHeight = document.querySelector('.theme-toggle-wrapper').offsetHeight;
+                    var targetTop = target.offsetTop - headerHeight - 8;
+                    container.scrollTo({ top: targetTop, behavior: 'smooth' });
+                }
+
+                // Close mobile menu if open
+                var sidebar = document.getElementById('sidebar');
+                var menuBtn = document.getElementById('mobile-menu-btn');
+                var overlay = document.getElementById('mobile-overlay');
+                if (sidebar && sidebar.classList.contains('open')) {
+                    sidebar.classList.remove('open');
+                    if (menuBtn) { menuBtn.classList.remove('active'); menuBtn.setAttribute('aria-expanded', 'false'); }
+                    if (overlay) overlay.classList.remove('active');
+                }
+            }
+
+            cards.forEach(function(card) {
+                card.addEventListener('click', function() {
+                    applyFilter(this.getAttribute('data-filter'));
+                });
+            });
+
+            sidebarLinks.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    applyFilter(this.getAttribute('data-sidebar-filter'));
                 });
             });
         })();

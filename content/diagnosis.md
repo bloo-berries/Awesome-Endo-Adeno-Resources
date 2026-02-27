@@ -1,9 +1,11 @@
 ---
 title: "Diagnosis Resources"
+description: "Endometriosis and adenomyosis diagnostic tools, symptom trackers, AI platforms, vetted healthcare providers, and guidance for navigating diagnosis."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
 tags: ["diagnosis", "endometriosis", "adenomyosis", "testing"]
+keywords: ["endometriosis diagnosis", "adenomyosis diagnosis", "pelvic pain diagnosis", "diagnostic laparoscopy", "symptom tracker"]
 ---
 
 # Diagnosis Resources

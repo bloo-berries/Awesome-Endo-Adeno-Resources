@@ -5,7 +5,7 @@ pluralizelisttitles = false
 
 # Accessibility and SEO settings
 disableHugoGeneratorInject = false
-disableKinds = ["sitemap"]
+# disableKinds = ["sitemap"]  # Sitemap enabled for SEO
 enableRobotsTXT = true
 
 # Suppress warnings about raw HTML (for <details>, <summary>, and <main> tags)
@@ -23,7 +23,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     brand = "Endo & Adeno Resources"
     description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis."
     dark_mode = true
-    favicon = "favicon.png"
+    favicon = "favicon.svg"
     
     # Content display settings
     truncate = false

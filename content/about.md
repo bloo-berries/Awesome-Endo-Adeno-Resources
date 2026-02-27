@@ -1,7 +1,10 @@
 ---
 title: "About"
+description: "About Endo & Adeno Resources — a community-driven, open-source project providing vetted information for endometriosis and adenomyosis patients and advocates."
 date: 2025-01-27
+lastmod: 2026-02-27
 draft: false
+keywords: ["about endometriosis resources", "adenomyosis support", "community health"]
 ---
 
 # About
