@@ -16,12 +16,12 @@
             </div>
             <h3 class="card-title">{{ .Name }}</h3>
             <p class="card-desc">
-                {{ if eq .Name "Endometriosis" }}Understanding symptoms, stages, and resources for endometriosis.
-                {{ else if eq .Name "Adenomyosis" }}Symptoms, diagnosis, and support for adenomyosis.
-                {{ else if eq .Name "Diagnosis" }}Diagnostic methods, tools, and what to expect.
-                {{ else if eq .Name "Treatment" }}Medical, surgical, and alternative treatment options.
-                {{ else if eq .Name "Healthcare" }}Finding specialists and navigating the medical system.
-                {{ else if eq .Name "Resources" }}Support organizations, financial aid, and advocacy.
+                {{ if eq .Name "Endometriosis" }}Symptoms, stages, and support.
+                {{ else if eq .Name "Adenomyosis" }}Symptoms and diagnosis.
+                {{ else if eq .Name "Diagnosis" }}Methods, tools, and guidance.
+                {{ else if eq .Name "Treatment" }}Medical and surgical options.
+                {{ else if eq .Name "Healthcare" }}Specialists and navigation.
+                {{ else if eq .Name "Resources" }}Organizations and advocacy.
                 {{ end }}
             </p>
         </button>
@@ -44,12 +44,18 @@
     {{ end }}
 </section>
 
+<!-- Featured Video -->
+<section class="featured-video" id="featured-video">
+    <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/1q-uLGvRPw0" title="Endometriosis and Adenomyosis Awareness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
 <!-- Default home content (shown when no filter active) -->
 <section class="home-content" id="home-default">
     {{ $frontPageTypes := default (slice "posts") .Site.Params.front_page_content }}
     {{ range (.Paginate (where .Site.RegularPages "Type" "in" $frontPageTypes)).Pages }}
     <article class="post">
-        {{ partial "post/info.html" . }}
         {{ .Content }}
     </article>
     {{- end }}

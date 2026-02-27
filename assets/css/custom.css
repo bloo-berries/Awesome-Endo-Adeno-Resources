@@ -23,9 +23,21 @@ button, .btn, input {
     font-family: 'Source Serif 4', 'Georgia', serif !important;
 }
 
-/* Sidebar brand title - keep a display font feel but use Inter bold */
+/* Sidebar brand title */
 .sidebar-about h1 {
     font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em;
+    font-size: 2rem !important;
+}
+
+.sidebar-about .brand {
+    font-size: 2rem !important;
+}
+
+.sidebar-about .brand h1,
+.sidebar-about .brand a h1 {
+    font-size: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: -0.02em;
 }
@@ -395,6 +407,25 @@ details[open] summary::before {
     transform: rotate(0deg);
 }
 
+/* ===== THEME TOGGLE - TOP RIGHT ===== */
+
+.theme-toggle-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 0;
+}
+
+.theme-toggle-wrapper .light-dark {
+    margin: 0;
+}
+
+.theme-toggle-wrapper .btn-light-dark {
+    margin: 0;
+}
+
 /* ===== BACK TO TOP BUTTON ===== */
 
 .back-to-top {
@@ -645,40 +676,46 @@ details > summary h2 {
     line-height: 1.6;
 }
 
-/* ===== RESOURCE CARDS ===== */
+/* ===== RESOURCE BUTTONS ===== */
 
 .resource-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-bottom: 2.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+    max-width: 820px;
 }
 
 .resource-card {
-    display: flex;
-    flex-direction: column;
-    padding: 1.25rem;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.75rem;
+    flex: 1 1 0;
+    overflow: hidden;
+    background: linear-gradient(145deg, #8B6914 0%, #6B2D3E 50%, #4A0E1B 100%);
+    border: 1px solid rgba(180, 130, 50, 0.35);
+    border-radius: 20px;
     text-decoration: none !important;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
     cursor: pointer;
+    color: #fff;
+    white-space: nowrap;
 }
 
 .resource-card:hover {
-    background: rgba(38, 139, 210, 0.08) !important;
-    border-color: rgba(38, 139, 210, 0.3);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    padding: 1.25rem !important;
+    background: linear-gradient(145deg, #A07A1A 0%, #7D3548 50%, #5C1525 100%) !important;
+    border-color: rgba(200, 150, 60, 0.6);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(139, 105, 20, 0.3);
+    padding: 0.4rem 0.75rem !important;
 }
 
 .card-icon {
-    width: 36px;
-    height: 36px;
-    margin-bottom: 0.75rem;
-    color: #268BD2;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
 }
 
 .card-icon svg {
@@ -687,32 +724,42 @@ details > summary h2 {
 }
 
 .card-title {
-    font-size: 1rem !important;
+    font-size: 0.75rem !important;
     font-weight: 600;
-    color: var(--text-color) !important;
-    margin: 0 0 0.4rem 0;
+    color: #fff !important;
+    margin: 0;
     text-shadow: none !important;
     border-top: none !important;
     padding-top: 0 !important;
 }
 
 .card-desc {
-    font-size: 0.8rem;
-    color: var(--date-color) !important;
-    margin: 0;
-    line-height: 1.4;
+    display: none;
+}
+
+.card-icon {
+    color: rgba(255, 255, 255, 0.85);
 }
 
 /* Light mode card adjustments */
 body:not(.dark-theme) .resource-card {
-    background: rgba(0, 0, 0, 0.02);
-    border-color: rgba(0, 0, 0, 0.08);
+    background: linear-gradient(145deg, #C4982A 0%, #9B3A4A 50%, #6B1E2E 100%);
+    border-color: rgba(196, 152, 42, 0.3);
+    color: #fff;
 }
 
 body:not(.dark-theme) .resource-card:hover {
-    background: rgba(38, 139, 210, 0.05) !important;
-    border-color: rgba(38, 139, 210, 0.3);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: linear-gradient(145deg, #D4A830 0%, #AB4A5A 50%, #7B2E3E 100%) !important;
+    border-color: rgba(196, 152, 42, 0.5);
+    box-shadow: 0 4px 14px rgba(155, 58, 74, 0.25);
+}
+
+body:not(.dark-theme) .resource-card .card-icon {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body:not(.dark-theme) .resource-card .card-title {
+    color: #fff !important;
 }
 
 /* Light mode section dividers */
@@ -731,8 +778,7 @@ body:not(.dark-theme) .hero-title {
 
 @media (max-width: 768px) {
     .resource-cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 0.75rem;
+        gap: 0.4rem;
     }
 
     .hero-banner {
@@ -741,12 +787,6 @@ body:not(.dark-theme) .hero-title {
 
     .hero-title {
         font-size: 1.4rem !important;
-    }
-}
-
-@media (max-width: 480px) {
-    .resource-cards {
-        grid-template-columns: 1fr;
     }
 }
 
@@ -879,21 +919,23 @@ body:not(.dark-theme) .home-content {
 }
 
 .resource-card.card-active {
-    background: rgba(38, 139, 210, 0.15) !important;
-    border-color: #268BD2 !important;
-    box-shadow: 0 0 0 1px #268BD2, 0 4px 12px rgba(38, 139, 210, 0.2);
+    background: linear-gradient(145deg, #A07A1A 0%, #7D3548 50%, #5C1525 100%) !important;
+    border-color: #C4982A !important;
+    box-shadow: 0 0 0 1px #C4982A, 0 4px 14px rgba(139, 105, 20, 0.35);
 }
 
 .resource-card.card-active .card-icon {
-    color: #268BD2;
+    color: #FFD966;
 }
 
 .resource-card.card-active .card-title {
-    color: #268BD2 !important;
+    color: #FFD966 !important;
 }
 
 body:not(.dark-theme) .resource-card.card-active {
-    background: rgba(38, 139, 210, 0.1) !important;
+    background: linear-gradient(145deg, #D4A830 0%, #AB4A5A 50%, #7B2E3E 100%) !important;
+    border-color: #C4982A !important;
+    box-shadow: 0 0 0 1px #C4982A, 0 4px 14px rgba(155, 58, 74, 0.3);
 }
 
 /* ===== FILTER PANELS ===== */
@@ -916,4 +958,26 @@ body:not(.dark-theme) .resource-card.card-active {
 @keyframes panelFadeIn {
     from { opacity: 0; transform: translateY(8px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== VIDEO EMBED ===== */
+
+.video-embed {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    padding-bottom: 270px; /* near-square */
+    height: 0;
+    overflow: hidden;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }

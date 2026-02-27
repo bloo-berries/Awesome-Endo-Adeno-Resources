@@ -3,6 +3,9 @@
         <div class="wrapper">
             {{ partial "sidebar/sidebar.html" . }}
             <main class="content container" id="main-content">
+                <div class="theme-toggle-wrapper">
+                    {{ partial "light_dark.html" . }}
+                </div>
                 {{ block "main" . -}}{{- end }}
                 <!-- Back to Top Button -->
                 <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">
@@ -45,6 +48,7 @@
             var cards = document.querySelectorAll('.resource-card[data-filter]');
             var panels = document.querySelectorAll('.filter-panel[data-panel]');
             var homeDefault = document.getElementById('home-default');
+            var featuredVideo = document.getElementById('featured-video');
             if (!cards.length || !panels.length) return;
 
             var activeFilter = null;
@@ -62,6 +66,7 @@
                         });
                         panels.forEach(function(p) { p.style.display = 'none'; });
                         if (homeDefault) homeDefault.style.display = '';
+                        if (featuredVideo) featuredVideo.style.display = '';
                         return;
                     }
 
@@ -80,6 +85,7 @@
                         p.style.display = p.getAttribute('data-panel') === filter ? '' : 'none';
                     });
                     if (homeDefault) homeDefault.style.display = 'none';
+                    if (featuredVideo) featuredVideo.style.display = 'none';
 
                     // Scroll to content
                     var target = document.getElementById('filtered-content');
