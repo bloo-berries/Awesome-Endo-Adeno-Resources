@@ -24,6 +24,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis."
     dark_mode = true
     favicon = "favicon.svg"
+    og_image = "social-preview.png"
     
     # Content display settings
     truncate = false
