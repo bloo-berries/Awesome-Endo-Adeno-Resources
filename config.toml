@@ -6,7 +6,7 @@ pluralizelisttitles = false
 
 # Accessibility and SEO settings
 disableHugoGeneratorInject = false
-disableKinds = ["RSS", "sitemap"]
+disableKinds = ["sitemap"]
 enableRobotsTXT = true
 
 # Suppress warnings about raw HTML (for <details>, <summary>, and <main> tags)
@@ -35,6 +35,12 @@ ignoreLogs = ['warning-goldmark-raw-html']
     # Menu configuration
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Endometriosis", URL = "/endometriosis/", HasChildren = false},
+        {Name = "Adenomyosis", URL = "/adenomyosis/", HasChildren = false},
+        {Name = "Diagnosis", URL = "/diagnosis/", HasChildren = false},
+        {Name = "Treatment", URL = "/treatment/", HasChildren = false},
+        {Name = "Healthcare", URL = "/healthcare/", HasChildren = false},
+        {Name = "Resources", URL = "/resources/", HasChildren = false},
     ]
 
     # Social links (you can customize these)
@@ -42,7 +48,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     # email_url = "mailto:your-email@domain.com"  # Commented out for now
     
     # RSS configuration
-    rss_icon = false
+    rss_icon = true
     rss_section = "posts"
 
     # Sidebar colors
@@ -82,6 +88,9 @@ ignoreLogs = ['warning-goldmark-raw-html']
     table_border_color_dark = "#515151"
     table_stripe_color_dark = "#202020"
     text_color_dark = "#EEE"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
     series = 'series'

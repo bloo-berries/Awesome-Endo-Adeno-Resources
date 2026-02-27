@@ -1,6 +1,7 @@
 ---
 title: "Comprehensive Resources"
 date: 2025-01-27
+lastmod: 2026-02-27
 draft: false
 tags: ["resources", "support", "education", "advocacy"]
 ---
@@ -9,7 +10,12 @@ tags: ["resources", "support", "education", "advocacy"]
 
 A comprehensive collection of resources for endometriosis and adenomyosis, including support organizations, educational materials, financial assistance, and advocacy groups from around the world.
 
+<details open>
+<summary>
+
 ## Global Support Organizations
+
+</summary>
 
 ### International Organizations
 - **[World Endometriosis Society (WES)](https://endometriosis.ca/)**: Global research and education
@@ -39,7 +45,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - **[Endometriosis Society of India](https://www.endometriosis-india.org/)**: Indian support organization
 - **[Endometriosis Society of Nigeria](https://www.endometriosis-nigeria.org/)**: Nigerian support
 
+</details>
+
+<details>
+<summary>
+
 ## Educational Resources
+
+</summary>
 
 ### Books and Publications
 - **[Beating Endo: How to Reclaim Your Life from Endometriosis](https://www.amazon.com/Beating-Endo-Reclaim-Your-Endometriosis/dp/073828354X)**: Comprehensive guide to living with endometriosis
@@ -58,7 +71,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Clinical trials and research studies
 - Scientific publications and findings
 
+</details>
+
+<details>
+<summary>
+
 ## Financial Assistance
+
+</summary>
 
 ### Patient Assistance Programs
 - Pharmaceutical company assistance programs
@@ -78,7 +98,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Social Security assistance
 - State-specific programs
 
+</details>
+
+<details>
+<summary>
+
 ## Advocacy and Awareness
+
+</summary>
 
 ### Awareness Campaigns
 - Endometriosis Awareness Month (March)
@@ -98,7 +125,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Patient registry participation
 - Data sharing initiatives
 
+</details>
+
+<details>
+<summary>
+
 ## Support Groups and Communities
+
+</summary>
 
 ### Online Communities
 - Patient forums and discussion boards
@@ -118,7 +152,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Peer counseling programs
 - Crisis intervention services
 
+</details>
+
+<details>
+<summary>
+
 ## Technology and Apps
+
+</summary>
 
 ### Symptom Tracking
 - Period and symptom tracking apps
@@ -138,7 +179,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Health data sharing platforms
 - Clinical trial matching
 
+</details>
+
+<details>
+<summary>
+
 ## Specialized Resources
+
+</summary>
 
 ### Fertility and Reproductive Health
 - Fertility preservation information
@@ -164,7 +212,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Stress reduction techniques
 - Sleep and rest optimization
 
+</details>
+
+<details>
+<summary>
+
 ## Research and Clinical Trials
+
+</summary>
 
 ### Finding Clinical Trials
 - Clinical trial databases
@@ -184,7 +239,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Research breakthroughs
 - Future treatment options
 
+</details>
+
+<details>
+<summary>
+
 ## Emergency and Crisis Resources
+
+</summary>
 
 ### Crisis Support
 - Mental health crisis hotlines
@@ -198,7 +260,14 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Medical alert systems
 - Emergency supply preparation
 
+</details>
+
+<details>
+<summary>
+
 ## Legal and Rights Resources
+
+</summary>
 
 ### Patient Rights
 - Healthcare rights and protections
@@ -211,6 +280,8 @@ A comprehensive collection of resources for endometriosis and adenomyosis, inclu
 - Legal aid organizations
 - Disability rights resources
 - Employment protection information
+
+</details>
 
 ---
 

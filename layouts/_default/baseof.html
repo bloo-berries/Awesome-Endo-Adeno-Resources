@@ -1,0 +1,153 @@
+{{ partial "head/head.html" . }}
+    <body class="{{if .Site.Params.layoutReverse}}layout-reverse {{end}}{{if .Site.Params.dark_mode}}dark-theme{{end}}">
+        <div class="wrapper">
+            {{ partial "sidebar/sidebar.html" . }}
+            <main class="content container" id="main-content">
+                {{ block "main" . -}}{{- end }}
+                <!-- Back to Top Button -->
+                <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="18 15 12 9 6 15"></polyline>
+                    </svg>
+                </button>
+            </main>
+            {{ block "sidebar" . }}{{ end }}
+        </div>
+        <script>
+        // Back to Top
+        (function() {
+            var btn = document.getElementById('back-to-top');
+            var container = document.querySelector('.content.container');
+            if (!btn || !container) return;
+            container.addEventListener('scroll', function() {
+                btn.classList.toggle('visible', container.scrollTop > 300);
+            });
+            btn.addEventListener('click', function() {
+                container.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+
+        // Heading Anchor Links
+        (function() {
+            var headings = document.querySelectorAll('.content h1[id], .content h2[id], .content h3[id], .content h4[id], .content h5[id], .content h6[id]');
+            headings.forEach(function(h) {
+                var link = document.createElement('a');
+                link.className = 'heading-anchor';
+                link.href = '#' + h.id;
+                link.setAttribute('aria-label', 'Link to ' + h.textContent);
+                link.textContent = '#';
+                h.appendChild(link);
+            });
+        })();
+
+        // Resource Card Filters
+        (function() {
+            var cards = document.querySelectorAll('.resource-card[data-filter]');
+            var panels = document.querySelectorAll('.filter-panel[data-panel]');
+            var homeDefault = document.getElementById('home-default');
+            if (!cards.length || !panels.length) return;
+
+            var activeFilter = null;
+
+            cards.forEach(function(card) {
+                card.addEventListener('click', function() {
+                    var filter = this.getAttribute('data-filter');
+
+                    // Toggle off if already active
+                    if (activeFilter === filter) {
+                        activeFilter = null;
+                        cards.forEach(function(c) {
+                            c.classList.remove('card-active');
+                            c.setAttribute('aria-pressed', 'false');
+                        });
+                        panels.forEach(function(p) { p.style.display = 'none'; });
+                        if (homeDefault) homeDefault.style.display = '';
+                        return;
+                    }
+
+                    activeFilter = filter;
+
+                    // Update card states
+                    cards.forEach(function(c) {
+                        c.classList.remove('card-active');
+                        c.setAttribute('aria-pressed', 'false');
+                    });
+                    this.classList.add('card-active');
+                    this.setAttribute('aria-pressed', 'true');
+
+                    // Show matching panel, hide others
+                    panels.forEach(function(p) {
+                        p.style.display = p.getAttribute('data-panel') === filter ? '' : 'none';
+                    });
+                    if (homeDefault) homeDefault.style.display = 'none';
+
+                    // Scroll to content
+                    var target = document.getElementById('filtered-content');
+                    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            });
+        })();
+
+        // Client-side Search
+        (function() {
+            var searchInput = document.getElementById('search-input');
+            var resultsContainer = document.getElementById('search-results');
+            if (!searchInput || !resultsContainer) return;
+
+            var searchIndex = null;
+
+            function loadIndex() {
+                if (searchIndex !== null) return Promise.resolve(searchIndex);
+                return fetch('{{ "index.json" | absURL }}')
+                    .then(function(r) { return r.json(); })
+                    .then(function(data) { searchIndex = data; return data; });
+            }
+
+            function search(query) {
+                if (!searchIndex || !query) { resultsContainer.innerHTML = ''; return; }
+                var q = query.toLowerCase();
+                var results = searchIndex.filter(function(page) {
+                    return (page.title && page.title.toLowerCase().indexOf(q) !== -1) ||
+                           (page.summary && page.summary.toLowerCase().indexOf(q) !== -1) ||
+                           (page.content && page.content.toLowerCase().indexOf(q) !== -1) ||
+                           (page.tags && page.tags.some(function(t) { return t.toLowerCase().indexOf(q) !== -1; }));
+                }).slice(0, 5);
+
+                if (results.length === 0) {
+                    resultsContainer.innerHTML = '<div class="search-no-results">No results found</div>';
+                    return;
+                }
+
+                resultsContainer.innerHTML = results.map(function(r) {
+                    return '<a class="search-result-item" href="' + r.permalink + '">' +
+                           '<span class="search-result-title">' + r.title + '</span>' +
+                           '</a>';
+                }).join('');
+            }
+
+            var debounceTimer;
+            searchInput.addEventListener('input', function() {
+                var q = this.value.trim();
+                clearTimeout(debounceTimer);
+                if (q.length < 2) { resultsContainer.innerHTML = ''; return; }
+                debounceTimer = setTimeout(function() {
+                    loadIndex().then(function() { search(q); });
+                }, 200);
+            });
+
+            searchInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    this.value = '';
+                    resultsContainer.innerHTML = '';
+                }
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.sidebar-search')) {
+                    resultsContainer.innerHTML = '';
+                }
+            });
+        })();
+        </script>
+    </body>
+</html>

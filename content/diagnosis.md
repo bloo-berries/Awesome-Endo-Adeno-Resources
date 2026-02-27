@@ -1,6 +1,7 @@
 ---
 title: "Diagnosis Resources"
 date: 2025-01-27
+lastmod: 2026-02-27
 draft: false
 tags: ["diagnosis", "endometriosis", "adenomyosis", "testing"]
 ---

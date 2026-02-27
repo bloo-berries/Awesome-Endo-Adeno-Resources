@@ -1,6 +1,7 @@
 ---
 title: "Treatment Resources"
 date: 2025-01-27
+lastmod: 2026-02-27
 draft: false
 tags: ["treatment", "endometriosis", "adenomyosis", "therapy"]
 ---
@@ -9,7 +10,12 @@ tags: ["treatment", "endometriosis", "adenomyosis", "therapy"]
 
 Comprehensive treatment options for endometriosis and adenomyosis, including medical, surgical, and alternative therapies. Treatment plans should be personalized based on symptoms, disease severity, and individual goals.
 
+<details open>
+<summary>
+
 ## Treatment Overview
+
+</summary>
 
 ### Treatment Goals
 - **Pain Management**: Reduce chronic pelvic pain and discomfort
@@ -24,7 +30,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Evidence-Based**: Using proven treatment methods
 - **Patient-Centered**: Involving patients in decision-making
 
+</details>
+
+<details>
+<summary>
+
 ## Medical Treatments
+
+</summary>
 
 ### Hormonal Therapies
 
@@ -60,7 +73,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Nerve Pain Medications**: Gabapentin, pregabalin
 - **Considerations**: Risk of dependence, side effects
 
+</details>
+
+<details>
+<summary>
+
 ## Surgical Treatments
+
+</summary>
 
 ### Laparoscopic Surgery
 
@@ -88,7 +108,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Ureter Surgery**: For urinary tract involvement
 - **Nerve Surgery**: For severe nerve-related pain
 
+</details>
+
+<details>
+<summary>
+
 ## Alternative and Complementary Therapies
+
+</summary>
 
 ### Physical Therapy
 - **Pelvic Floor Therapy**: Specialized treatment for pelvic pain
@@ -114,7 +141,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Herbal Remedies**: Traditional medicine approaches
 - **Legal Considerations**: Varies by location
 
+</details>
+
+<details>
+<summary>
+
 ## Emerging Treatments
+
+</summary>
 
 ### Research-Based Therapies
 - **Immunotherapy**: Targeting immune system dysfunction
@@ -128,7 +162,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Non-Invasive Methods**: Alternative approaches
 - **Personalized Medicine**: Tailored treatments
 
+</details>
+
+<details>
+<summary>
+
 ## Treatment Planning
+
+</summary>
 
 ### Choosing the Right Treatment
 - **Symptom Severity**: Mild, moderate, or severe
@@ -149,7 +190,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Side Effect Management**: Addressing complications
 - **Treatment Adjustments**: Modifying as needed
 
+</details>
+
+<details>
+<summary>
+
 ## Managing Side Effects
+
+</summary>
 
 ### Hormonal Therapy Side Effects
 - **Nausea**: Take with food, consider timing
@@ -163,7 +211,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Wound Care**: Proper incision care
 - **Follow-up Care**: Monitoring for complications
 
+</details>
+
+<details>
+<summary>
+
 ## Lifestyle Modifications
+
+</summary>
 
 ### Exercise and Movement
 - **Low-Impact Activities**: Walking, swimming, yoga
@@ -183,7 +238,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Rest Periods**: Allowing time for recovery
 - **Energy Conservation**: Pacing activities
 
+</details>
+
+<details>
+<summary>
+
 ## Financial Considerations
+
+</summary>
 
 ### Insurance Coverage
 - **Prior Authorization**: Required for some treatments
@@ -197,7 +259,14 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Payment Plans**: Spreading costs over time
 - **Financial Aid**: Non-profit organizations
 
+</details>
+
+<details>
+<summary>
+
 ## Research and Future Developments
+
+</summary>
 
 ### Ongoing Research
 - **New Medications**: Investigational drugs
@@ -210,6 +279,8 @@ Comprehensive treatment options for endometriosis and adenomyosis, including med
 - **Finding Trials**: Resources for locating studies
 - **Informed Consent**: Understanding participation
 - **Risks and Benefits**: Weighing options
+
+</details>
 
 ---
 

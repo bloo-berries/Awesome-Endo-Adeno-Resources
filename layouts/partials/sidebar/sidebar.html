@@ -1,0 +1,17 @@
+<aside class="sidebar">
+    <div class="container sidebar-sticky">
+        {{ partial "light_dark.html" . }}
+        {{ partial "sidebar/title.html" . }}
+        <!-- Search -->
+        <div class="sidebar-search">
+            <div class="search-wrapper">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="search-input" placeholder="Search resources..." aria-label="Search resources">
+            </div>
+            <div id="search-results" class="search-results"></div>
+        </div>
+        {{ partial "sidebar/menu.html" . }}
+        {{ partial "sidebar/socials.html" . }}
+        {{ partial "sidebar/copyright.html" . }}
+  </div>
+</aside>

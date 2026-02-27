@@ -17,6 +17,11 @@
         {{ .Date.Format "January 2, 2006" }}
       </time>
       {{ end }}
+      {{ with .Params.lastmod }}
+      <span class="last-updated">
+        (Updated: <time datetime="{{ . }}">{{ time.Format "January 2, 2006" . }}</time>)
+      </span>
+      {{ end }}
     </div>
 
     {{ if .Params.tags }}

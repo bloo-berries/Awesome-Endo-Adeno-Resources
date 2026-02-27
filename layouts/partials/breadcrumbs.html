@@ -1,0 +1,11 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+        <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+        {{ if .Parent }}
+            {{ if ne .Parent.RelPermalink "/" }}
+            <li><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+            {{ end }}
+        {{ end }}
+        <li aria-current="page">{{ .Title }}</li>
+    </ol>
+</nav>
