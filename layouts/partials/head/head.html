@@ -12,10 +12,19 @@
     <!-- favicon -->
     <link rel="icon" href={{ .Site.Params.favicon | default "/favicon.png" }}>
 
-    <!-- Fonts: Inter (UI/headings) + Source Serif 4 (body content) -->
+    <!-- Fonts: Inter (UI/headings) + Source Serif 4 (body content) + Monaspace Argon (title) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Monaspace Argon';
+            src: url('https://cdn.jsdelivr.net/gh/githubnext/monaspace@v1.101/fonts/webfonts/MonaspaceArgon-Bold.woff') format('woff');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
 
     <!-- META -->
     {{ partial "head/meta.html" . }}

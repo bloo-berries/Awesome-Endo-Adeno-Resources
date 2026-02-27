@@ -1,4 +1,4 @@
-<aside class="sidebar">
+<aside class="sidebar" id="sidebar">
     <div class="container sidebar-sticky">
         {{ partial "sidebar/title.html" . }}
         <!-- Search -->
@@ -14,3 +14,10 @@
         {{ partial "sidebar/copyright.html" . }}
   </div>
 </aside>
+<!-- Mobile hamburger button -->
+<button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+</button>
+<div class="mobile-overlay" id="mobile-overlay"></div>

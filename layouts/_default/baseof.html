@@ -4,6 +4,7 @@
             {{ partial "sidebar/sidebar.html" . }}
             <main class="content container" id="main-content">
                 <div class="theme-toggle-wrapper">
+                    <div class="header-cards" id="header-cards"></div>
                     {{ partial "light_dark.html" . }}
                 </div>
                 {{ block "main" . -}}{{- end }}
@@ -17,6 +18,15 @@
             {{ block "sidebar" . }}{{ end }}
         </div>
         <script>
+        // Move resource cards into header bar
+        (function() {
+            var cards = document.querySelector('.resource-cards');
+            var target = document.getElementById('header-cards');
+            if (cards && target) {
+                target.appendChild(cards);
+            }
+        })();
+
         // Back to Top
         (function() {
             var btn = document.getElementById('back-to-top');
@@ -92,6 +102,24 @@
                     if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 });
             });
+        })();
+
+        // Mobile Menu Toggle
+        (function() {
+            var btn = document.getElementById('mobile-menu-btn');
+            var sidebar = document.getElementById('sidebar');
+            var overlay = document.getElementById('mobile-overlay');
+            if (!btn || !sidebar) return;
+
+            function toggleMenu() {
+                var isOpen = sidebar.classList.toggle('open');
+                btn.classList.toggle('active');
+                if (overlay) overlay.classList.toggle('active');
+                btn.setAttribute('aria-expanded', isOpen);
+            }
+
+            btn.addEventListener('click', toggleMenu);
+            if (overlay) overlay.addEventListener('click', toggleMenu);
         })();
 
         // Client-side Search
