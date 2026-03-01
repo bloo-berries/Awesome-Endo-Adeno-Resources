@@ -26,7 +26,7 @@
                         {{ else if eq $menu_item.Name "Healthcare" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M9 16h6"/><path d="M12 13v6"/></svg>
                         {{ else if eq $menu_item.Name "Resources" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
                         {{ end }}
-                        <span>{{ $menu_item.Name }}</span>
+                        <span{{ if eq $menu_item.Name "About" }} data-i18n="nav_about"{{ else if eq $menu_item.Name "Endometriosis" }} data-i18n="nav_endometriosis"{{ else if eq $menu_item.Name "Adenomyosis" }} data-i18n="nav_adenomyosis"{{ else if eq $menu_item.Name "Diagnosis" }} data-i18n="nav_diagnosis"{{ else if eq $menu_item.Name "Treatment" }} data-i18n="nav_treatment"{{ else if eq $menu_item.Name "Healthcare" }} data-i18n="nav_healthcare"{{ else if eq $menu_item.Name "Resources" }} data-i18n="nav_resources"{{ end }}>{{ $menu_item.Name }}</span>
                     </a>
                 </li>
             {{ end }}

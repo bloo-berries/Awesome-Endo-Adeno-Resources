@@ -239,10 +239,6 @@ This resource list is packed with expert advice, community support, and the late
 
 ## Potential Co-morbidities
 
-### Data Source
-
-De-identified EHRs using OMOP Common Data Model
-
 ### Research Foundation
 
 <details>

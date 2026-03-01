@@ -5,9 +5,40 @@
         <div class="sidebar-search">
             <div class="search-wrapper">
                 <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                <input type="search" id="search-input" placeholder="Search resources..." aria-label="Search resources">
+                <input type="search" id="search-input" placeholder="Search resources..." aria-label="Search resources" data-i18n="search_placeholder" data-i18n-attr="placeholder" data-i18n-aria="search_label">
             </div>
             <div id="search-results" class="search-results"></div>
+        </div>
+        <!-- Language Picker -->
+        <div class="lang-picker-wrapper">
+            <select id="lang-picker" aria-label="Select language">
+                <option value="en">English</option>
+                <option value="ar">العربية</option>
+                <option value="bn">বাংলা</option>
+                <option value="ca">Català</option>
+                <option value="zh">中文</option>
+                <option value="nl">Nederlands</option>
+                <option value="fi">Suomi</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="el">Ελληνικά</option>
+                <option value="hi">हिन्दी</option>
+                <option value="is">Íslenska</option>
+                <option value="ga">Gaeilge</option>
+                <option value="it">Italiano</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+                <option value="no">Norsk</option>
+                <option value="pl">Polski</option>
+                <option value="pt">Português</option>
+                <option value="ru">Русский</option>
+                <option value="es">Español</option>
+                <option value="sw">Kiswahili</option>
+                <option value="sv">Svenska</option>
+                <option value="tr">Türkçe</option>
+                <option value="uk">Українська</option>
+                <option value="vi">Tiếng Việt</option>
+            </select>
         </div>
         {{ partial "sidebar/menu.html" . }}
         {{ partial "sidebar/socials.html" . }}
@@ -15,7 +46,7 @@
   </div>
 </aside>
 <!-- Mobile hamburger button -->
-<button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+<button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false" data-i18n="toggle_menu" data-i18n-attr="aria-label">
     <span class="hamburger-line"></span>
     <span class="hamburger-line"></span>
     <span class="hamburger-line"></span>
