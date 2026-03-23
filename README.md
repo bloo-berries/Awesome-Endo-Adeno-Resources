@@ -21,7 +21,7 @@
 - [Diagnosis](#diagnosis)
 - [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
 - [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
-- [Medical Data Tools, Trackers, and Mangers](#medical-data-tools-trackers-and-mangers)
+- [Medical Data Tools, Trackers, and Managers](#medical-data-tools-trackers-and-managers)
 - [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
 - [Therapeutic Treatments](#therapeutic-treatments)
 - [Potential Co-morbidities](#potential-co-morbidities)
@@ -48,7 +48,7 @@ This resource list is packed with expert advice, community support, and the late
   - Current Methods:
     - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
     - Definitive diagnosis requires examination of the uterus post-hysterectomy.
-  - Potential Inidcators:
+  - Potential Indicators:
     - [Decidual Casts](https://ispub.com/IJGO/9/1/11420)
     - Excessive Bleeding during periods
 
@@ -149,7 +149,7 @@ This resource list is packed with expert advice, community support, and the late
 - [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis)
   - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose endometriosis using menstrual blood
 
-## Medical Data Tools, Trackers, and Mangers
+## Medical Data Tools, Trackers, and Managers
 
 - Genetic Data Testing
   - [Invitae](https://www.invitae.com/)

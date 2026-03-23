@@ -5,7 +5,6 @@ pluralizelisttitles = false
 
 # Accessibility and SEO settings
 disableHugoGeneratorInject = false
-# disableKinds = ["sitemap"]  # Sitemap enabled for SEO
 enableRobotsTXT = true
 
 # Suppress warnings about raw HTML (for <details>, <summary>, and <main> tags)
@@ -26,12 +25,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
     favicon = "favicon.svg"
     og_image = "social-preview.png"
     
-    # Content display settings
-    truncate = false
-    showFullContent = true
-
-    # front_page_content = ["posts"]  # Not needed with simplified menu
-
     # Menu configuration
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
@@ -43,13 +36,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
         {Name = "Resources", URL = "/resources/", HasChildren = false},
     ]
 
-    # Social links (you can customize these)
     github_url = "https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources"
-    # email_url = "mailto:your-email@domain.com"  # Commented out for now
-    
-    # RSS configuration
-    rss_icon = true
-    rss_section = "posts"
 
     # Sidebar colors — deep burgundy/purple
     moon_sun_background_color = "#5A2D3E"
