@@ -6,7 +6,7 @@
             <main class="content container" id="main-content">
                 <div class="theme-toggle-wrapper">
                     <div class="mobile-header-bar">
-                        <span class="mobile-title" data-i18n="site_title">Endo &amp; Adeno Resources</span>
+                        <span class="mobile-title" data-i18n="site_title">1 in 7</span>
                     </div>
                     <div class="header-cards" id="header-cards"></div>
                     <div class="theme-toggle" id="theme-toggle">
@@ -117,15 +117,7 @@
             });
         })();
 
-        // Expand all <details> sections by default (except Case Studies and table accordions)
-        (function() {
-            document.querySelectorAll('details').forEach(function(d) {
-                if (d.hasAttribute('data-accordion')) return;
-                var summary = d.querySelector('summary');
-                if (summary && summary.textContent.indexOf('Case Stud') !== -1) return;
-                d.setAttribute('open', '');
-            });
-        })();
+        // All <details> sections default to collapsed (no auto-expand)
 
         // Resource Card Filters + Sidebar Nav Filters
         (function() {

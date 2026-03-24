@@ -10,7 +10,7 @@ keywords: ["endometriosis symptoms", "endometriosis stages", "endometriosis trea
 
 # Endometriosis Resources
 
-[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 190 million people worldwide.
+[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 570 million people worldwide.
 
 ## Understanding Endometriosis
 

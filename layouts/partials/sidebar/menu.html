@@ -1,35 +1,23 @@
-<nav aria-label="Main navigation">
-    <ul class="sidebar-nav">
-        {{ $currentURL := .RelPermalink }}
-        {{ range .Site.Params.menu }}
-        {{ $menu_item := . }}
-            {{ if eq (len $menu_item.URL) 0 }}
-                <li class="heading">{{ $menu_item.Name }}</li>
-            {{ else if $menu_item.External }}
-                <li class="nav-item">
-                    <a href="{{ $menu_item.URL }}" target="_blank" rel="noopener noreferrer">{{ $menu_item.Name }}</a>
-                </li>
-            {{ else }}
-                <li class="nav-item">
-                    {{ $menuURL := $menu_item.URL }}
-                    {{ $slug := $menuURL | strings.TrimPrefix "/" | strings.TrimSuffix "/" }}
-                    {{ if ne $menu_item.Name "About" }}
-                    <a href="#" data-sidebar-filter="{{ $slug }}">
-                    {{ else }}
-                    <a href="{{ $menuURL | absURL }}">
+<nav aria-label="Site navigation" class="sidebar-nav">
+    <ul>
+    {{ range .Site.Params.menu }}
+        <li class="nav-item">
+            <a href="{{ .URL | relURL }}"{{ if eq .Name "About" }} data-i18n="nav_about"{{ else if eq .Name "Endometriosis" }} data-i18n="nav_endometriosis"{{ else if eq .Name "Adenomyosis" }} data-i18n="nav_adenomyosis"{{ else if eq .Name "Diagnosis" }} data-i18n="nav_diagnosis"{{ else if eq .Name "Co-morbidities" }} data-i18n="nav_comorbidities"{{ else if eq .Name "Healthcare" }} data-i18n="nav_healthcare"{{ else if eq .Name "Resources" }} data-i18n="nav_resources"{{ else if eq .Name "Education" }} data-i18n="nav_education"{{ else if eq .Name "Research" }} data-i18n="nav_research"{{ end }}>
+                <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    {{ if eq .Name "About" }}<circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>
+                    {{ else if eq .Name "Endometriosis" }}<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                    {{ else if eq .Name "Adenomyosis" }}<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                    {{ else if eq .Name "Diagnosis" }}<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                    {{ else if eq .Name "Co-morbidities" }}<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    {{ else if eq .Name "Healthcare" }}<path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M9 16h6"/><path d="M12 13v6"/>
+                    {{ else if eq .Name "Resources" }}<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+                    {{ else if eq .Name "Education" }}<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                    {{ else if eq .Name "Research" }}<path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16.5h10"/>
                     {{ end }}
-                        {{ if eq $menu_item.Name "About" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-                        {{ else if eq $menu_item.Name "Endometriosis" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-                        {{ else if eq $menu_item.Name "Adenomyosis" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-                        {{ else if eq $menu_item.Name "Diagnosis" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                        {{ else if eq $menu_item.Name "Treatment" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg>
-                        {{ else if eq $menu_item.Name "Healthcare" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M9 16h6"/><path d="M12 13v6"/></svg>
-                        {{ else if eq $menu_item.Name "Resources" }}<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-                        {{ end }}
-                        <span{{ if eq $menu_item.Name "About" }} data-i18n="nav_about"{{ else if eq $menu_item.Name "Endometriosis" }} data-i18n="nav_endometriosis"{{ else if eq $menu_item.Name "Adenomyosis" }} data-i18n="nav_adenomyosis"{{ else if eq $menu_item.Name "Diagnosis" }} data-i18n="nav_diagnosis"{{ else if eq $menu_item.Name "Treatment" }} data-i18n="nav_treatment"{{ else if eq $menu_item.Name "Healthcare" }} data-i18n="nav_healthcare"{{ else if eq $menu_item.Name "Resources" }} data-i18n="nav_resources"{{ end }}>{{ $menu_item.Name }}</span>
-                    </a>
-                </li>
-            {{ end }}
-        {{ end }}
+                </svg>
+                {{ .Name }}
+            </a>
+        </li>
+    {{ end }}
     </ul>
 </nav>

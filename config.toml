@@ -19,7 +19,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     pagerSize = 1000
 
 [params]
-    brand = "Endo & Adeno Resources"
+    brand = "1 in 7"
     description = "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis."
     dark_mode = true
     favicon = "favicon.svg"
@@ -31,9 +31,11 @@ ignoreLogs = ['warning-goldmark-raw-html']
         {Name = "Endometriosis", URL = "/endometriosis/", HasChildren = false},
         {Name = "Adenomyosis", URL = "/adenomyosis/", HasChildren = false},
         {Name = "Diagnosis", URL = "/diagnosis/", HasChildren = false},
-        {Name = "Treatment", URL = "/treatment/", HasChildren = false},
+        {Name = "Co-morbidities", URL = "/treatment/", HasChildren = false},
         {Name = "Healthcare", URL = "/healthcare/", HasChildren = false},
         {Name = "Resources", URL = "/resources/", HasChildren = false},
+        {Name = "Education", URL = "/education/", HasChildren = false},
+        {Name = "Research", URL = "/research/", HasChildren = false},
     ]
 
     github_url = "https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources"

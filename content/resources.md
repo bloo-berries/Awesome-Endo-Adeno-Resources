@@ -1,290 +1,147 @@
 ---
-title: "Comprehensive Resources"
-description: "Endometriosis and adenomyosis advocacy organizations, support groups, financial assistance, educational materials, and community resources worldwide."
+title: "Support & Advocacy"
+description: "Financial assistance platforms, advocacy groups, vetted regional providers, and fertility resources for endometriosis and adenomyosis worldwide."
 date: 2025-01-27
-lastmod: 2026-02-27
+lastmod: 2026-03-23
 draft: false
-tags: ["resources", "support", "education", "advocacy"]
-keywords: ["endometriosis support groups", "adenomyosis advocacy", "financial assistance", "endometriosis organizations", "patient education"]
+tags: ["resources", "support", "advocacy", "financial-assistance", "fertility"]
+keywords: ["endometriosis support groups", "adenomyosis advocacy", "financial assistance", "endometriosis organizations", "fertility resources"]
 ---
 
-# Comprehensive Resources
+## Financial Assistance Platforms
 
-A comprehensive collection of resources for endometriosis and adenomyosis, including support organizations, educational materials, financial assistance, and advocacy groups from around the world.
+<details>
+  <summary>Financial Assistance Platforms</summary>
 
-<details open>
-<summary>
+Australia
 
-## Global Support Organizations
+- [Endometriosis Australia](https://endometriosisaustralia.org/)
+  - Grants for surgical costs, IVF, and travel to specialist clinics
 
-</summary>
+France
 
-### International Organizations
-- **[World Endometriosis Society (WES)](https://endometriosis.ca/)**: Global research and education
-- **[World Endometriosis Research Foundation (WERF)](https://endometriosis.ca/)**: International research collaboration
-- **[Endo Organization](https://endo.is/)**: Global advocacy and awareness
+- [Association Française d'Endométriose (AFEN)](https://www.afena.fr/)
+  - Annual "Solidarity Fund" for surgical costs and travel
 
-### Regional Organizations
+Germany
+
+- [Deutsche Gesellschaft für Endometriose‑Forschung (DGEF)](https://www.endometriose-vereinigung.de/)
+  - Small research‑grant style awards for patients needing surgery or medication
+
+New Zealand
+
+- [NZ Endometriosis Foundation](https://nzendo.org.nz/)
+  - Small emergency‑relief grants for medication and transport
+
+U.K.
+
+- [British Fertility Society (BFS) – Patient Support Fund - U.K.](https://www.britishfertilitysociety.org.uk/)
+  - Partial funding for fertility treatment linked to endometriosis
+- [Endometriosis UK](https://www.endometriosis-uk.org/)
+  - Grants for surgery, IVF, travel to specialist centres; also runs a "Cost‑of‑Care" bursary for low‑income patients
+
+U.S.A.
+
+- [Fortuna Health - U.S.A.](https://www.fortunahealth.com/)
+  - Medicaid eligibility checker, enrollment, and care renewal
+
+</details>
+
+## Advocacy Groups and Vetted Providers
+
+- [Endo Black](https://endoblack.org/)
+  - Black-women-led nonprofit organization advocating for and educating Black women living with and impacted by endometriosis
+- [Transgender Endo Support](https://helloclue.com/articles/cycle-a-z/managing-endometriosis-when-you're-trans)
+  - Provides resources and support for transgender and non-binary people with endometriosis
+- [FOLX Health](https://www.folxhealth.com/)
+  - Provides specialized healthcare services for the LGBTQ+ community, including those with endometriosis
+- [Regional Based Groups](#regional-based-groups-and-platforms)
+  - Comprehensive list of advocacy groups and platforms organized by region
+
+<details>
+  <summary>Regional Based Groups and Platforms</summary>
 
 #### Americas and Caribbean
-- **[The Endometriosis Network Canada](https://endometriosisnetwork.com/)**: Canadian support and education
-- **[Endometriosis Foundation of America (EndoFound)](https://www.endofound.org/)**: US-based advocacy and research
-- **[Endometriosis Research Center](https://www.endocenter.org/)**: Research and patient support
-- **[Endometriosis Association](https://www.endometriosisassn.org/)**: Long-standing patient organization
-- **[Associação Brasileira de Endometriose e Ginecologia Minimamente Invasiva (SBE)](https://www.sbe.com.br/)**: Brazilian association
+
+- [The Endometriosis Network Canada](https://endometriosisnetwork.com/)
+  - Community that supports the diverse needs of every unique endometriosis journey.
+- [The Endometriosis Coalition](https://www.theendo.co/)
+  - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
+- [Worldwide Endometriosis March](https://endomarch.org/)
+  - Largest, internationally-coordinated endometriosis coalition in the world
+
+#### Africa
+
+- East Africa:
+  - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
+    - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
+  - [Endometriosis Foundation of Kenya](https://endofoundke.org/efk-website#home)
+    - NGO raising awareness and proving support for those with Endometriosis
+- West Africa:
+  - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
+    - ESIF is committed to raising awareness about endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
+
+#### APAC & Australia/New Zealand
+
+- [Endometriosis Australia](https://endometriosisaustralia.org/)
+  - Advocacy, funding, education
+- [Endometriosis New Zealand](https://nzendo.org.nz/)
+  - Provides support, education, and advocacy for those affected by endometriosis in New Zealand
+- [Centre for Endometriosis & Fibroids (Singapore)](https://endofibroid.com.sg/)
+  - Offers support and resources for individuals with endometriosis, fibroids and Adenomyosis in Singapore
+- [Pang Man Wah Selina Clinic](https://www.finddoc.com/en/doctors/pang-man-wah-selina-2265)
+  - Focuses on raising awareness and providing support for endometriosis patients in Hong Kong. Dr. Pang Man Wah Selina reviewed "Endometriosis | The Silent Women's Health Crisis of Our Time"
+- [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
+  - Dedicated to supporting and educating individuals with endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
 
 #### Europe
-- **[Endometriosis UK](https://www.endometriosis-uk.org/)**: UK support and advocacy
-- **[Endometriosis.ie (Ireland)](https://www.endometriosis.ie/)**: Irish support organization
-- **[Endometriose-Vereinigung Deutschland e.V. (Germany)](https://www.endometriose-vereinigung.de/)**: German association
-- **[EndoFrance](https://www.endofrance.org/)**: French support and awareness
-- **[Institut de la Femme et de l'Endométriose (IFEEN)](https://ifeen.fr/)**: Multidisciplinary center in Paris
 
-#### Asia-Pacific
-- **[Endometriosis Australia](https://endometriosisaustralia.org/)**: Australian advocacy and funding
-- **[Endometriosis New Zealand](https://nzendo.org.nz/)**: New Zealand support
-- **[Endometriosis Singapore](https://www.endometriosis-singapore.com/)**: Singapore-based support
-- **[Endometriosis Society of India](https://www.endometriosis-india.org/)**: Indian support organization
-- **[Endometriosis Society of Nigeria](https://www.endometriosis-nigeria.org/)**: Nigerian support
+- Belgium
+- France
+  - [EndoFrance](https://www.endofrance.org/)
+    - Provides support and raises awareness about endometriosis in France
+- Germany
+  - [Endometriose Vereinigung Deutschland e.V.](https://www.endometriose-vereinigung.de/)
+    - Offers support, information, and advocacy for individuals with endometriosis in Germany
+- Iceland
+  - [Endo Organization](https://endo.is/)
+    - Provides support and improved health services in Iceland for Endometriosis
+- Ireland
+  - [Endometriosis Association Ireland](https://www.instagram.com/endoireland/)
+- Italy
+  - [Associazione Italiana Endometriosi](https://www.endoassoc.it/)
+    - Dedicated to supporting and educating individuals with endometriosis in Italy
+- Netherlands
+  - [Endometriose Stichting](https://www.endometriose.nl/)
+    - Provides support and information for individuals with endometriosis in the Netherlands
+- Norway
+  - [Endometrioseforeningen](https://www.endometriose.no/)
+    - Offers support and information for individuals with endometriosis in Norway
+- Poland
+  - [Polish Endometriosis Foundation](https://pokonacendometrioze.pl/eng/)
+    - Patient-led organization working to raise awareness, advocate for systemic change, and support those affected by endometriosis in Poland
+- Portugal
+  - [MulherEndo](https://www.mulherendo.pt/)
+    - Provides support and raises awareness about endometriosis in Portugal
+- Spain
+  - [Asociación Endometriosis España](https://www.endoinfo.org/)
+    - Offers resources and advocacy for endometriosis patients in Spain
+- Sweden
+  - [Endometriosföreningen](https://www.endometriosforeningen.com/)
+    - Focuses on raising awareness and providing support for endometriosis patients in Sweden
+- UK
+  - [Endometriosis UK](https://endometriosisuk.org/)
 
-</details>
+#### LATAM
 
-<details>
-<summary>
-
-## Educational Resources
-
-</summary>
-
-### Books and Publications
-- **[Beating Endo: How to Reclaim Your Life from Endometriosis](https://www.amazon.com/Beating-Endo-Reclaim-Your-Endometriosis/dp/073828354X)**: Comprehensive guide to living with endometriosis
-- **[Endometriosis: A Key to Healing Through Nutrition](https://www.amazon.com/Endometriosis-Key-Healing-Through-Nutrition/dp/0722538991)**: Nutritional approaches to management
-- **[The Endometriosis Health and Diet Program](https://www.amazon.com/Endometriosis-Health-Diet-Program/dp/1592335124)**: Dietary strategies for symptom management
-
-### Online Education
-- **[EndoWhat?](https://www.youtube.com/c/endowhat)**: Educational videos and resources
-- **[Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)**: Information and support for adenomyosis
-- Medical journals and research publications
-- Webinars and online conferences
-
-### Research and Studies
-- **[AthenaDAO](https://www.athenadao.co/)**: Funds translational research and biotech startups
-- **[Center for Gynepathology Research (CGR)](https://cgr.mit.edu/research/)**: MIT-based research center
-- Clinical trials and research studies
-- Scientific publications and findings
-
-</details>
-
-<details>
-<summary>
-
-## Financial Assistance
-
-</summary>
-
-### Patient Assistance Programs
-- Pharmaceutical company assistance programs
-- Non-profit financial aid organizations
-- Insurance navigation resources
-- Crowdfunding platforms for medical expenses
-
-### Insurance and Coverage
-- Understanding insurance benefits
-- Prior authorization assistance
-- Appeals process guidance
-- Coverage for specialized treatments
-
-### Government Programs
-- Medicaid and Medicare information
-- Disability benefits
-- Social Security assistance
-- State-specific programs
+- [Expertos en Endometriosis EndoLATAM](https://www.endolatam.com)
+  - Comunidad de médicos certificados en Endometriosis en Latinoamérica
+- [Colombian Association of Endometriosis & Infertility (Team Colombia)](https://www.instagram.com/bienestarmenstrual/)
+  - Passed a historic, first of its kind, Endometriosis Bill in Colombia
 
 </details>
 
-<details>
-<summary>
+## Fertility Resources
 
-## Advocacy and Awareness
-
-</summary>
-
-### Awareness Campaigns
-- Endometriosis Awareness Month (March)
-- Global awareness initiatives
-- Social media campaigns
-- Community events and fundraisers
-
-### Policy and Legislation
-- Healthcare policy advocacy
-- Research funding initiatives
-- Patient rights protection
-- Insurance coverage improvements
-
-### Research Advocacy
-- Clinical trial participation
-- Research funding support
-- Patient registry participation
-- Data sharing initiatives
-
-</details>
-
-<details>
-<summary>
-
-## Support Groups and Communities
-
-</summary>
-
-### Online Communities
-- Patient forums and discussion boards
-- Social media support groups
-- Virtual support meetings
-- Peer-to-peer support networks
-
-### Local Support Groups
-- In-person meetings and events
-- Regional support networks
-- Specialized groups (fertility, pain management)
-- Family and caregiver support
-
-### Professional Support
-- Mental health counseling
-- Support group facilitation
-- Peer counseling programs
-- Crisis intervention services
-
-</details>
-
-<details>
-<summary>
-
-## Technology and Apps
-
-</summary>
-
-### Symptom Tracking
-- Period and symptom tracking apps
-- Pain management tools
-- Medication reminders
-- Health data visualization
-
-### Telemedicine
-- Virtual consultation platforms
-- Remote monitoring tools
-- Online appointment scheduling
-- Digital health records
-
-### Research and Data
-- Patient registry participation
-- Research study apps
-- Health data sharing platforms
-- Clinical trial matching
-
-</details>
-
-<details>
-<summary>
-
-## Specialized Resources
-
-</summary>
-
-### Fertility and Reproductive Health
-- Fertility preservation information
-- Reproductive health specialists
-- Family planning resources
-- Pregnancy and endometriosis guidance
-
-### Pain Management
-- Chronic pain specialists
-- Pain management clinics
-- Alternative pain therapies
-- Pain psychology resources
-
-### Mental Health
-- Counseling and therapy services
-- Mental health support groups
-- Stress management resources
-- Coping strategies and tools
-
-### Nutrition and Lifestyle
-- Dietary guidance and support
-- Exercise and movement therapy
-- Stress reduction techniques
-- Sleep and rest optimization
-
-</details>
-
-<details>
-<summary>
-
-## Research and Clinical Trials
-
-</summary>
-
-### Finding Clinical Trials
-- Clinical trial databases
-- Research center contacts
-- Patient matching services
-- Trial participation guidance
-
-### Research Participation
-- Benefits and risks of participation
-- Informed consent process
-- Patient rights and protections
-- Research results and findings
-
-### Emerging Treatments
-- Investigational therapies
-- New treatment approaches
-- Research breakthroughs
-- Future treatment options
-
-</details>
-
-<details>
-<summary>
-
-## Emergency and Crisis Resources
-
-</summary>
-
-### Crisis Support
-- Mental health crisis hotlines
-- Emergency medical resources
-- 24/7 support services
-- Crisis intervention programs
-
-### Emergency Preparedness
-- Medical emergency planning
-- Emergency contact information
-- Medical alert systems
-- Emergency supply preparation
-
-</details>
-
-<details>
-<summary>
-
-## Legal and Rights Resources
-
-</summary>
-
-### Patient Rights
-- Healthcare rights and protections
-- Medical decision-making rights
-- Privacy and confidentiality
-- Access to medical records
-
-### Legal Support
-- Healthcare advocacy services
-- Legal aid organizations
-- Disability rights resources
-- Employment protection information
-
-</details>
-
----
-
-*This information is for educational purposes only and should not replace professional medical advice. Always consult with qualified healthcare providers for diagnosis and treatment decisions.*
+- [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
+  - This article explores how endometriosis affects fertility, when to consider egg freezing

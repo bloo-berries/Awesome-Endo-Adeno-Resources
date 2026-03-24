@@ -699,6 +699,41 @@ body:not(.dark-theme) .toggle-btn:hover {
     opacity: 1;
 }
 
+/* ===== SIDEBAR TABLE OF CONTENTS ===== */
+
+.sidebar-toc #TableOfContents {
+    font-size: 0.85rem;
+}
+
+.sidebar-toc #TableOfContents ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.sidebar-toc #TableOfContents ul ul {
+    padding-left: 1rem;
+}
+
+.sidebar-toc #TableOfContents li {
+    margin-bottom: 0.15rem;
+}
+
+.sidebar-toc #TableOfContents a {
+    display: block;
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    text-decoration: none !important;
+    transition: background-color 0.15s ease, color 0.15s ease;
+    color: var(--sidebar-a-color) !important;
+    font-weight: 400;
+}
+
+.sidebar-toc #TableOfContents a:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #C4982A !important;
+}
+
 /* ===== CONTENT MAX-WIDTH FOR READABILITY ===== */
 
 .content .post,
@@ -1172,6 +1207,14 @@ body:not(.dark-theme) .resource-card.card-active {
     margin: 0 auto;
 }
 
+.video-caption {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0.5rem 0 0.25rem;
+}
+
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1356,7 +1399,7 @@ body:not(.dark-theme) .resource-card.card-active {
     .header-cards .resource-cards,
     .resource-cards {
         display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-columns: repeat(4, 1fr) !important;
         gap: 0.4rem !important;
         max-width: 100% !important;
         width: 100% !important;
@@ -1404,10 +1447,45 @@ body:not(.dark-theme) .resource-card.card-active {
 /* ===== TABLE ACCORDION ===== */
 
 .table-accordion {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.table-accordion > details {
+    aspect-ratio: 1 / 1;
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
-    margin-bottom: 1rem;
+}
+
+.table-accordion > details > summary {
+    justify-content: center;
+    text-align: center;
+    min-height: 100%;
+    flex-direction: column;
+    font-size: 0.6em;
+    padding: 0.3rem 0.4rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    background: linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%) !important;
+    border-color: rgba(107, 58, 92, 0.5) !important;
+    color: #F5E6D0 !important;
+}
+
+.table-accordion > details > summary::after {
+    border-color: #F5E6D0 !important;
+}
+
+body:not(.dark-theme) .table-accordion > details > summary {
+    background: linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%) !important;
+    border-color: rgba(107, 58, 92, 0.5) !important;
+    color: #F5E6D0 !important;
+}
+
+body:not(.dark-theme) .table-accordion > details > summary::after {
+    border-color: #F5E6D0 !important;
 }
 
 .table-accordion-content {
@@ -1450,7 +1528,20 @@ body:not(.dark-theme) .table-accordion-row {
     border-bottom-color: rgba(139, 69, 19, 0.1);
 }
 
+.table-accordion > details[open] {
+    aspect-ratio: auto;
+    grid-column: 1 / -1;
+}
+
+.table-accordion > details[open] > summary {
+    min-height: auto;
+}
+
 @media (max-width: 768px) {
+    .table-accordion {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .table-accordion-row {
         flex-direction: column;
         gap: 0.15rem;
