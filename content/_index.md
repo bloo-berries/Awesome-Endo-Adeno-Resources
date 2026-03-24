@@ -1,6 +1,6 @@
 ---
 title: "1 in 7"
-description: "Comprehensive endometriosis and adenomyosis resources — diagnosis guides, vetted specialists, treatment options, research, and community support for 190+ million affected worldwide."
+description: "Comprehensive endometriosis and adenomyosis resources — diagnosis guides, vetted specialists, treatment options, research, and community support. 1 in 7 women have endometriosis — approximately 570 million worldwide."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
@@ -9,7 +9,7 @@ keywords: ["endometriosis", "adenomyosis", "endometriosis resources", "adenomyos
 
 ### [Endometriosis](https://en.wikipedia.org/wiki/Endometriosis)
 
-A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 570 million people worldwide.
+A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. 1 in 7 women have endometriosis — approximately 570 million worldwide.
 
 ### [Adenomyosis](https://en.wikipedia.org/wiki/Adenomyosis)
 

@@ -3,7 +3,7 @@
 *Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be overwhelming, but it shouldn't be.
 
 - [*Endometriosis*](https://en.wikipedia.org/wiki/Endometriosis): A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility.  
-  [It affects approximately 1 in 7 people worldwide](https://endometriosisaustralia.org/1-in-7-australian-women/).
+  [1 in 7 women have endometriosis](https://endometriosisaustralia.org/1-in-7-australian-women/) — approximately 570 million worldwide.
 - [*Adenomyosis*](https://en.wikipedia.org/wiki/Adenomyosis): A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement.
 
 <div align="center">

@@ -25,7 +25,7 @@ This comprehensive resource list is packed with expert advice, community support
 ## Conditions We Address
 
 ### Endometriosis
-A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. It affects approximately 570 million people worldwide.
+A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. 1 in 7 women have endometriosis — approximately 570 million worldwide.
 
 ### Adenomyosis  
 A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
