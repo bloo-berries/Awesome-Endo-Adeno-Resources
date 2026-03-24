@@ -65,4 +65,154 @@
 <section class="home-content" id="home-default">
     {{ .Content }}
 </section>
+
+<!-- Impact Statistics Row -->
+<section class="statistics-row" aria-label="Endometriosis statistics">
+    <div class="stat-box">
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5425631/" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="55% Infertility Rate - view research source">
+            <span data-i18n="stats_infertility">55% Infertility Rate</span>
+            <svg class="stat-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+    </div>
+    <div class="stat-box">
+        <a href="https://www.bmj.com/content/387/bmj-2023-078797" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="31% Increased Early Mortality - view research source">
+            <span data-i18n="stats_mortality">31% Increased Early Mortality</span>
+            <svg class="stat-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+    </div>
+    <div class="stat-box">
+        <a href="https://kinfertility.com.au/blog/what-are-the-costs-of-endometriosis" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="Average cost approximately 25,000 euros - view research source">
+            <span data-i18n="stats_cost">Avg. Cost: ~&euro;25,000</span>
+            <svg class="stat-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+    </div>
+    <div class="stat-box">
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8849430/" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="10 years average time to diagnose - view research source">
+            <span data-i18n="stats_diagnose">10 Years to Diagnose</span>
+            <svg class="stat-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+    </div>
+</section>
+
+<!-- Poll + Carousel Side-by-Side -->
+<div class="poll-carousel-row">
+
+<!-- Symptom Poll -->
+<section class="poll-section" id="poll-section">
+    <div class="poll-box">
+        <h3 class="poll-title" data-i18n="poll_title">Could you have Endo?</h3>
+        <div id="poll-form" class="poll-form">
+            <label class="poll-option">
+                <input type="checkbox" name="poll" value="female_afab">
+                <span class="poll-checkmark"></span>
+                <span data-i18n="poll_option1">Female or AFAB</span>
+            </label>
+            <label class="poll-option">
+                <input type="checkbox" name="poll" value="bloating">
+                <span class="poll-checkmark"></span>
+                <span data-i18n="poll_option2">Bloating</span>
+            </label>
+            <label class="poll-option">
+                <input type="checkbox" name="poll" value="heavy_irregular_periods">
+                <span class="poll-checkmark"></span>
+                <span data-i18n="poll_option3">Heavy or Irregular Periods</span>
+            </label>
+            <label class="poll-option">
+                <input type="checkbox" name="poll" value="severe_period_pain">
+                <span class="poll-checkmark"></span>
+                <span data-i18n="poll_option4">Severe Period Pain</span>
+            </label>
+            <label class="poll-option">
+                <input type="checkbox" name="poll" value="painful_bowel_urination">
+                <span class="poll-checkmark"></span>
+                <span data-i18n="poll_option5">Painful Bowel Movements or Urination</span>
+            </label>
+            <label class="poll-option">
+                <input type="checkbox" name="poll" value="sciatica">
+                <span class="poll-checkmark"></span>
+                <span data-i18n="poll_option6">Sciatica</span>
+            </label>
+            <label class="poll-option">
+                <input type="checkbox" name="poll" value="fatigue_exhaustion">
+                <span class="poll-checkmark"></span>
+                <span data-i18n="poll_option7">Fatigue and Exhaustion</span>
+            </label>
+            <label class="poll-option">
+                <input type="checkbox" name="poll" value="difficulty_pregnant">
+                <span class="poll-checkmark"></span>
+                <span data-i18n="poll_option8">Difficulty Getting Pregnant</span>
+            </label>
+            <p id="poll-error" class="poll-error" style="display:none;" data-i18n="poll_error">Please select at least one option</p>
+            <button id="poll-submit" class="poll-submit" data-i18n="poll_submit">Submit</button>
+        </div>
+        <div id="poll-thanks" class="poll-thanks" style="display:none;">
+            <p data-i18n="poll_thanks">Thank you for participating!</p>
+            <div id="poll-suggestions" class="poll-suggestions" style="display:none;">
+                <p class="poll-suggestions-intro" data-i18n="poll_suggestions_intro">Based on your responses, these resources may help:</p>
+                <ul class="poll-suggestions-list">
+                    <li>
+                        <a href="{{ "diagnosis/" | relURL }}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <span data-i18n="poll_suggestion_diagnosis">Diagnosis &mdash; Learn about testing and getting properly diagnosed</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ "healthcare/" | relURL }}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M9 16h6"/><path d="M12 13v6"/></svg>
+                            <span data-i18n="poll_suggestion_healthcare">Healthcare &mdash; Find vetted specialists near you</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ "endometriosis/" | relURL }}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                            <span data-i18n="poll_suggestion_endometriosis">Endometriosis &mdash; Understand symptoms, stages, and support options</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="poll-thanks-action" id="poll-take-action" data-i18n="cta_take_action">Take Action Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- Image Carousel -->
+<section class="carousel-section" id="carousel-section">
+    <div class="carousel-box">
+        <h3 class="carousel-title" data-i18n="carousel_title">The Reality of Endo</h3>
+        <div class="carousel-viewport">
+            <div class="carousel-track">
+                <div class="carousel-slide">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/9db078e4-94aa-4bc9-9ed0-dea467f42999/EN_Affected+Sites.png?format=750w" alt="Body sites affected by endometriosis" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1537831739125-3BVWNUCDG4IBQSU4HJYC/Surgeries+Small.png?format=750w" alt="Endometriosis surgical approaches" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1551546026756-0C1M3T5XD6TI4N2GZ9H1/What+Can+Detect+Endometriosis?format=750w" alt="Diagnostic methods for endometriosis" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1523740747471-STTCFEWPTVJ9YL0MNWXC/Could+I+Have+Endometriosis+Small.png?format=750w" alt="Common endometriosis symptoms" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-arrow carousel-prev" aria-label="Previous slide">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <div class="carousel-dots"></div>
+            <button class="carousel-arrow carousel-next" aria-label="Next slide">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+        </div>
+        <p class="carousel-credit">Graphics via <a href="http://endographics.org/" target="_blank" rel="noopener noreferrer">endographics.org</a></p>
+        <a href="{{ "endometriosis/" | relURL }}" class="carousel-cta" data-i18n="carousel_cta">Graphic Images of Endo</a>
+    </div>
+</section>
+
+</div><!-- end .poll-carousel-row -->
+
+<!-- Take Action CTA -->
+<section class="cta-section" id="cta-section">
+    <button class="cta-btn" id="cta-take-action" data-i18n="cta_take_action">Take Action Now</button>
+</section>
 {{- end }}

@@ -26,6 +26,212 @@
             </main>
             {{ block "sidebar" . }}{{ end }}
         </div>
+
+        <!-- Action Modal -->
+        <div id="action-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Take Action" style="display:none;">
+            <div class="modal-container">
+                <button class="modal-close" id="modal-close" aria-label="Close modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+
+                <!-- Main Action Cards View -->
+                <div id="main-cards-view" class="modal-content">
+                    <div class="action-cards">
+                        <div class="action-card" data-action="symptoms">
+                            <div class="action-card-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 12l2 2 4-4"></path>
+                                    <path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"></path>
+                                    <path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"></path>
+                                    <path d="M12 3c0 1-1 3-3 3s-3-2-3-3 1-3 3-3 3 2 3 3"></path>
+                                    <path d="M12 21c0-1 1-3 3-3s3 2 3 3-1 3-3 3-3-2-3-3"></path>
+                                </svg>
+                            </div>
+                            <h3 class="action-card-title" data-i18n="actions_symptoms_title">Know the Symptoms</h3>
+                            <p class="action-card-desc" data-i18n="actions_symptoms_desc">1 in 7 have Endometriosis. Learn the signs and find expert help.</p>
+                        </div>
+                        <div class="action-card" data-action="connect">
+                            <div class="action-card-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <h3 class="action-card-title" data-i18n="actions_connect_title">Connect with Others</h3>
+                            <p class="action-card-desc" data-i18n="actions_connect_desc">You're not alone. Join ~200M people worldwide in the endo community.</p>
+                        </div>
+                        <div class="action-card" data-action="awareness">
+                            <div class="action-card-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M8 2v4"></path>
+                                    <path d="M16 2v4"></path>
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <path d="M3 10h18"></path>
+                                    <path d="M8 14h.01"></path>
+                                    <path d="M12 14h.01"></path>
+                                    <path d="M16 14h.01"></path>
+                                    <path d="M8 18h.01"></path>
+                                    <path d="M12 18h.01"></path>
+                                    <path d="M16 18h.01"></path>
+                                </svg>
+                            </div>
+                            <h3 class="action-card-title" data-i18n="actions_awareness_title">Spread Awareness</h3>
+                            <p class="action-card-desc" data-i18n="actions_awareness_desc">Share the truth: It's 1 in 7, not 1 in 10. Help others learn.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Know the Symptoms View -->
+                <div id="symptoms-view" class="modal-content" style="display:none;">
+                    <button class="back-button" data-back="main">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M12 19l-7-7 7-7"></path></svg>
+                        <span data-i18n="modal_back">Back to Actions</span>
+                    </button>
+                    <div class="symptoms-hero">
+                        <h2 class="symptoms-stat" data-i18n="symptoms_hero">1 in 7 women have endometriosis</h2>
+                        <div class="timeline-badge">
+                            <span class="badge-icon">&#9201;</span>
+                            <span data-i18n="symptoms_badge">Average diagnosis takes 7-10 years - know what to look for NOW</span>
+                        </div>
+                    </div>
+                    <div class="symptoms-grid">
+                        <div class="symptom-card"><div class="symptom-header" aria-expanded="false"><h4 data-i18n="symptoms_s1">Severe Period Pain</h4><svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 12,15 18,9"></polyline></svg></div><div class="symptom-details"><p>Pain that goes beyond typical cramps. This pain can be debilitating, interfere with daily activities, and not respond well to over-the-counter pain medication.</p></div></div>
+                        <div class="symptom-card"><div class="symptom-header" aria-expanded="false"><h4 data-i18n="symptoms_s2">Pain During/After Sex</h4><svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 12,15 18,9"></polyline></svg></div><div class="symptom-details"><p>Deep pain during or after sexual intercourse, which can affect relationships and quality of life.</p></div></div>
+                        <div class="symptom-card"><div class="symptom-header" aria-expanded="false"><h4 data-i18n="symptoms_s3">Painful Bowel Movements or Urination</h4><svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 12,15 18,9"></polyline></svg></div><div class="symptom-details"><p>Pain during bowel movements or urination, especially during menstruation. May include cyclic bowel symptoms or blood in stool/urine.</p></div></div>
+                        <div class="symptom-card"><div class="symptom-header" aria-expanded="false"><h4 data-i18n="symptoms_s4">Heavy or Irregular Bleeding</h4><svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 12,15 18,9"></polyline></svg></div><div class="symptom-details"><p>Heavy menstrual bleeding (menorrhagia), bleeding between periods, or passing large blood clots.</p></div></div>
+                        <div class="symptom-card"><div class="symptom-header" aria-expanded="false"><h4 data-i18n="symptoms_s5">Fatigue and Exhaustion</h4><svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 12,15 18,9"></polyline></svg></div><div class="symptom-details"><p>Persistent tiredness and low energy that isn't relieved by rest, often related to chronic pain and inflammation.</p></div></div>
+                        <div class="symptom-card"><div class="symptom-header" aria-expanded="false"><h4 data-i18n="symptoms_s6">Difficulty Getting Pregnant</h4><svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 12,15 18,9"></polyline></svg></div><div class="symptom-details"><p>Infertility or difficulty conceiving. Endometriosis is found in 25-50% of women experiencing infertility.</p></div></div>
+                        <div class="symptom-card"><div class="symptom-header" aria-expanded="false"><h4 data-i18n="symptoms_s7">Chronic Pelvic Pain</h4><svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 12,15 18,9"></polyline></svg></div><div class="symptom-details"><p>Persistent pain in the pelvic region that may occur throughout the month, not just during menstruation.</p></div></div>
+                        <div class="symptom-card"><div class="symptom-header" aria-expanded="false"><h4 data-i18n="symptoms_s8">Bloating / "Endo Belly"</h4><svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 12,15 18,9"></polyline></svg></div><div class="symptom-details"><p>Persistent abdominal swelling and distension, often worsening around menstruation, that can make the stomach appear significantly larger for hours or days.</p></div></div>
+                    </div>
+                    <div class="symptoms-checklist">
+                        <h3 data-i18n="symptoms_checklist_title">Which symptoms are you experiencing?</h3>
+                        <div class="checklist-items">
+                            <label class="checklist-item"><input type="checkbox" data-symptom="severe-pain"><span class="checkmark"></span><span data-i18n="symptoms_s1">Severe Period Pain</span></label>
+                            <label class="checklist-item"><input type="checkbox" data-symptom="painful-sex"><span class="checkmark"></span><span data-i18n="symptoms_s2">Pain During/After Sex</span></label>
+                            <label class="checklist-item"><input type="checkbox" data-symptom="bowel-urination"><span class="checkmark"></span><span data-i18n="symptoms_s3">Painful Bowel Movements or Urination</span></label>
+                            <label class="checklist-item"><input type="checkbox" data-symptom="heavy-bleeding"><span class="checkmark"></span><span data-i18n="symptoms_s4">Heavy or Irregular Bleeding</span></label>
+                            <label class="checklist-item"><input type="checkbox" data-symptom="fatigue"><span class="checkmark"></span><span data-i18n="symptoms_s5">Fatigue and Exhaustion</span></label>
+                            <label class="checklist-item"><input type="checkbox" data-symptom="infertility"><span class="checkmark"></span><span data-i18n="symptoms_s6">Difficulty Getting Pregnant</span></label>
+                            <label class="checklist-item"><input type="checkbox" data-symptom="chronic-pain"><span class="checkmark"></span><span data-i18n="symptoms_s7">Chronic Pelvic Pain</span></label>
+                            <label class="checklist-item"><input type="checkbox" data-symptom="endo-belly"><span class="checkmark"></span><span data-i18n="symptoms_s8">Bloating / "Endo Belly"</span></label>
+                        </div>
+                        <div class="checklist-counter"><span id="symptom-count">0</span> <span data-i18n="symptoms_counter">of 8 symptoms checked</span></div>
+                    </div>
+                    <div class="symptoms-cta">
+                        <button class="cta-primary" id="find-specialist-btn" data-i18n="symptoms_find_specialist">Find a Specialist Near You</button>
+                        <button class="cta-secondary" id="doctor-questions-btn" data-i18n="symptoms_doctor_visit">Prepare for Your Doctor Visit</button>
+                    </div>
+                    <!-- Specialist Resources -->
+                    <div id="specialist-resources" class="expandable-section" style="display:none;">
+                        <h4 data-i18n="specialists_title">Connect with Vetted Endometriosis Specialists</h4>
+                        <div class="resource-links">
+                            <a href="https://icarebetter.com/endometriosis-specialist/" target="_blank" rel="noopener noreferrer" class="resource-link"><strong>iCareBetter</strong> - Connecting patients to endo experts</a>
+                            <a href="https://www.theyellowhub.org/" target="_blank" rel="noopener noreferrer" class="resource-link"><strong>The Yellow Hub</strong> - Empowering patient lives with compassionate tech</a>
+                            <a href="https://www.roon.com/" target="_blank" rel="noopener noreferrer" class="resource-link"><strong>Roon</strong> - Remote access to vetted medical experts</a>
+                            <a href="https://www.gethale.it/" target="_blank" rel="noopener noreferrer" class="resource-link"><strong>Hale</strong> - In-person/remote clinic for endo, vulvodynia, sexual pain (Italy)</a>
+                        </div>
+                    </div>
+                    <!-- Doctor Questions -->
+                    <div id="doctor-questions" class="expandable-section" style="display:none;">
+                        <h4 data-i18n="doctor_title">Questions to Ask Your Doctor</h4>
+                        <div class="questions-categories">
+                            <div class="question-category"><h5 data-i18n="doctor_cat_symptoms">About Your Symptoms</h5><ul><li data-i18n="doctor_q1">Could my symptoms indicate endometriosis?</li><li data-i18n="doctor_q2">Are there other conditions that might cause similar symptoms?</li></ul></div>
+                            <div class="question-category"><h5 data-i18n="doctor_cat_diagnosis">About Diagnosis</h5><ul><li data-i18n="doctor_q3">What diagnostic tests do you recommend? (ultrasound, MRI, laparoscopy?)</li><li data-i18n="doctor_q4">Are there any non-invasive diagnostic options available?</li><li data-i18n="doctor_q5">How accurate are these diagnostic methods?</li></ul></div>
+                            <div class="question-category"><h5 data-i18n="doctor_cat_treatment">About Treatment</h5><ul><li data-i18n="doctor_q6">What treatment options are available for my stage/type of endometriosis?</li><li data-i18n="doctor_q7">What are the pros and cons of surgical vs. hormonal treatments?</li><li data-i18n="doctor_q8">Are there specialists you can refer me to?</li></ul></div>
+                            <div class="question-category"><h5 data-i18n="doctor_cat_team">About Your Medical Team</h5><ul><li data-i18n="doctor_q9">Do you have experience treating endometriosis?</li><li data-i18n="doctor_q10">Can you refer me to an endometriosis specialist or excision surgeon?</li><li data-i18n="doctor_q11">What is your approach to pain management?</li></ul></div>
+                            <div class="question-category"><h5 data-i18n="doctor_cat_tracking">Tracking &amp; Follow-up</h5><ul><li data-i18n="doctor_q12">Should I track my symptoms? If so, what should I track?</li><li data-i18n="doctor_q13">When should I follow up with you?</li><li data-i18n="doctor_q14">What warning signs should prompt me to seek immediate care?</li></ul></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Connect with Others View -->
+                <div id="connect-view" class="modal-content" style="display:none;">
+                    <button class="back-button" data-back="main">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M12 19l-7-7 7-7"></path></svg>
+                        <span data-i18n="modal_back">Back to Actions</span>
+                    </button>
+                    <div class="connect-hero"><h2 data-i18n="connect_hero">You're not alone. ~200 million people worldwide living with Endo.</h2></div>
+                    <div class="connect-categories">
+                        <div class="connect-category">
+                            <h3 data-i18n="connect_communities">Join Online Communities</h3>
+                            <div class="community-links">
+                                <a href="https://reddit.com/r/Endo" target="_blank" rel="noopener noreferrer" class="community-link">r/Endo - Treatments, stories, support and research</a>
+                                <a href="https://reddit.com/r/Endometriosis" target="_blank" rel="noopener noreferrer" class="community-link">r/Endometriosis - Endo support community</a>
+                                <a href="https://reddit.com/r/adenomyosis" target="_blank" rel="noopener noreferrer" class="community-link">r/adenomyosis - Support for adenomyosis</a>
+                                <a href="https://citizenendo.org/" target="_blank" rel="noopener noreferrer" class="community-link">Citizen Endo - Research initiative + Phendo App for tracking</a>
+                            </div>
+                        </div>
+                        <div class="connect-category">
+                            <h3 data-i18n="connect_specialists">Find Endo Specialists</h3>
+                            <div class="community-links">
+                                <a href="https://icarebetter.com/endometriosis-specialist/" target="_blank" rel="noopener noreferrer" class="community-link"><strong>iCareBetter</strong> - Database of endometriosis specialists worldwide</a>
+                                <a href="https://www.theyellowhub.org/" target="_blank" rel="noopener noreferrer" class="community-link"><strong>The Yellow Hub</strong> - Compassionate tech platform connecting patients to care</a>
+                                <a href="https://www.roon.com/" target="_blank" rel="noopener noreferrer" class="community-link"><strong>Roon</strong> - Remote access to vetted medical experts</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="regional-groups">
+                        <h4 data-i18n="connect_regional">Regional Advocacy Groups</h4>
+                        <div class="regions-grid">
+                            <div class="region-section"><h5>North America</h5><p>Endometriosis Network Canada, The Endometriosis Coalition (US)</p></div>
+                            <div class="region-section"><h5>Australia/NZ</h5><p>Endometriosis Australia, Endometriosis New Zealand</p></div>
+                            <div class="region-section"><h5>Europe</h5><p>EndoFrance, Endometriose Vereinigung Deutschland, Endometriosis UK</p></div>
+                            <div class="region-section"><h5>Asia</h5><p>Indian Centre for Endometriosis (ICE), Centre for Endometriosis &amp; Fibroids (Singapore)</p></div>
+                            <div class="region-section"><h5>Africa</h5><p>Endo Sisters East Africa Foundation (Kenya), Endometriosis Foundation of Kenya</p></div>
+                            <div class="region-section"><h5>Latin America</h5><p>Expertos en Endometriosis EndoLATAM, Colombian Association (Team Colombia)</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spread Awareness View -->
+                <div id="awareness-view" class="modal-content" style="display:none;">
+                    <button class="back-button" data-back="main">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M12 19l-7-7 7-7"></path></svg>
+                        <span data-i18n="modal_back">Back to Actions</span>
+                    </button>
+                    <div class="awareness-hero">
+                        <div class="truth-callout">
+                            <h2 data-i18n="awareness_headline">New research shows 1 in 7 have Endometriosis</h2>
+                            <div class="strikethrough-text"><span class="old-stat" data-i18n="awareness_old_stat">Not 1 in 10</span></div>
+                            <p data-i18n="awareness_update">Time to update the conversation</p>
+                            <div class="source-links">
+                                <a href="https://www.nature.com/articles/s44294-025-00096-6" target="_blank" rel="noopener noreferrer" class="source-link">Nature Medicine Study</a>
+                                <a href="https://www.aihw.gov.au/reports/chronic-disease/endometriosis-in-australia" target="_blank" rel="noopener noreferrer" class="source-link">Australian Institute of Health &amp; Welfare</a>
+                                <a href="https://endometriosisaustralia.org/1-in-7-australian-women/" target="_blank" rel="noopener noreferrer" class="source-link">Endometriosis Australia</a>
+                                <a href="https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/ijgo.15756" target="_blank" rel="noopener noreferrer" class="source-link">IJGO Study</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shareable-content">
+                        <div class="graphics-section">
+                            <h4><span data-i18n="awareness_graphics_title">Social Media Graphics</span> <span class="graphics-credit">— via <a href="http://endographics.org/" target="_blank" rel="noopener noreferrer" class="graphics-credit-link">endographics.org</a></span></h4>
+                            <div class="graphics-grid">
+                                <div class="graphic-preview"><div class="graphic-image"><img src="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/9db078e4-94aa-4bc9-9ed0-dea467f42999/EN_Affected+Sites.png?format=500w" alt="Body sites affected by endometriosis" loading="lazy"></div><a href="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/9db078e4-94aa-4bc9-9ed0-dea467f42999/EN_Affected+Sites.png?format=500w" target="_blank" rel="noopener noreferrer" class="save-graphic-btn">Save Image</a></div>
+                                <div class="graphic-preview"><div class="graphic-image"><img src="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1537831739125-3BVWNUCDG4IBQSU4HJYC/Surgeries+Small.png?format=500w" alt="Endometriosis surgical approaches" loading="lazy"></div><a href="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1537831739125-3BVWNUCDG4IBQSU4HJYC/Surgeries+Small.png?format=500w" target="_blank" rel="noopener noreferrer" class="save-graphic-btn">Save Image</a></div>
+                                <div class="graphic-preview"><div class="graphic-image"><img src="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1551546026756-0C1M3T5XD6TI4N2GZ9H1/What+Can+Detect+Endometriosis?format=500w" alt="Diagnostic methods for endometriosis" loading="lazy"></div><a href="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1551546026756-0C1M3T5XD6TI4N2GZ9H1/What+Can+Detect+Endometriosis?format=500w" target="_blank" rel="noopener noreferrer" class="save-graphic-btn">Save Image</a></div>
+                                <div class="graphic-preview"><div class="graphic-image"><img src="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1523740747471-STTCFEWPTVJ9YL0MNWXC/Could+I+Have+Endometriosis+Small.png?format=500w" alt="Common endometriosis symptoms" loading="lazy"></div><a href="https://images.squarespace-cdn.com/content/v1/5ab94f88c3c16ad94bd06936/1523740747471-STTCFEWPTVJ9YL0MNWXC/Could+I+Have+Endometriosis+Small.png?format=500w" target="_blank" rel="noopener noreferrer" class="save-graphic-btn">Save Image</a></div>
+                            </div>
+                        </div>
+                        <div class="share-templates">
+                            <h4 data-i18n="awareness_share_title">Share Template</h4>
+                            <div class="template-section">
+                                <div class="template-content">
+                                    <p>"<span data-i18n="awareness_share_text">New research shows 1 in 7 have Endometriosis, not 1 in 10. It's time to update the conversation. If you're experiencing severe period pain, painful sex, or other symptoms, you're not alone.</span> #EndoWarrior #1in7 #EndometriosisAwareness"</p>
+                                    <button class="copy-btn" data-i18n="awareness_copy">Copy Text</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script>
         // Move resource cards into header bar
         (function() {
@@ -126,7 +332,13 @@
             var panels = document.querySelectorAll('.filter-panel[data-panel]');
             var homeDefault = document.getElementById('home-default');
             var featuredVideo = document.getElementById('featured-video');
+            var pollSection = document.getElementById('poll-section');
+            var carouselSection = document.getElementById('carousel-section');
+            var ctaSection = document.getElementById('cta-section');
+            var statsRow = document.querySelector('.statistics-row');
             if (!panels.length) return;
+
+            var homeSections = [homeDefault, featuredVideo, pollSection, carouselSection, ctaSection, statsRow];
 
             var activeFilter = null;
 
@@ -140,8 +352,7 @@
                     });
                     sidebarLinks.forEach(function(l) { l.classList.remove('active'); });
                     panels.forEach(function(p) { p.style.display = 'none'; });
-                    if (homeDefault) homeDefault.style.display = '';
-                    if (featuredVideo) featuredVideo.style.display = '';
+                    homeSections.forEach(function(s) { if (s) s.style.display = ''; });
                     return;
                 }
 
@@ -167,8 +378,7 @@
                 panels.forEach(function(p) {
                     p.style.display = p.getAttribute('data-panel') === filter ? '' : 'none';
                 });
-                if (homeDefault) homeDefault.style.display = 'none';
-                if (featuredVideo) featuredVideo.style.display = 'none';
+                homeSections.forEach(function(s) { if (s) s.style.display = 'none'; });
 
                 // Scroll to content below sticky header
                 var target = document.getElementById('filtered-content');
@@ -320,7 +530,7 @@
                 localStorage.setItem('site-language', lang);
             }
 
-            fetch('/i18n/translations.json')
+            fetch('{{ "i18n/translations.json" | absURL }}')
                 .then(function(r) { return r.json(); })
                 .then(function(data) {
                     translations = data;
@@ -333,6 +543,212 @@
                         });
                     }
                 });
+        })();
+
+        // Image Carousel
+        (function() {
+            var track = document.querySelector('.carousel-track');
+            var slides = document.querySelectorAll('.carousel-slide');
+            var dotsContainer = document.querySelector('.carousel-dots');
+            var prevBtn = document.querySelector('.carousel-prev');
+            var nextBtn = document.querySelector('.carousel-next');
+            var carouselBox = document.querySelector('.carousel-box');
+            if (!track || slides.length === 0) return;
+
+            var currentIndex = 0;
+            var autoRotateInterval = null;
+
+            slides.forEach(function(_, i) {
+                var dot = document.createElement('button');
+                dot.classList.add('carousel-dot');
+                if (i === 0) dot.classList.add('active');
+                dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+                dot.addEventListener('click', function() { goToSlide(i); });
+                dotsContainer.appendChild(dot);
+            });
+
+            function goToSlide(index) {
+                currentIndex = index;
+                track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+                var dots = dotsContainer.querySelectorAll('.carousel-dot');
+                dots.forEach(function(dot, i) { dot.classList.toggle('active', i === currentIndex); });
+            }
+            function nextSlide() { goToSlide((currentIndex + 1) % slides.length); }
+            function prevSlide() { goToSlide((currentIndex - 1 + slides.length) % slides.length); }
+            function startAutoRotate() { stopAutoRotate(); autoRotateInterval = setInterval(nextSlide, 4000); }
+            function stopAutoRotate() { if (autoRotateInterval) { clearInterval(autoRotateInterval); autoRotateInterval = null; } }
+
+            if (nextBtn) nextBtn.addEventListener('click', function() { nextSlide(); startAutoRotate(); });
+            if (prevBtn) prevBtn.addEventListener('click', function() { prevSlide(); startAutoRotate(); });
+            if (carouselBox) {
+                carouselBox.addEventListener('mouseenter', stopAutoRotate);
+                carouselBox.addEventListener('mouseleave', startAutoRotate);
+            }
+            startAutoRotate();
+        })();
+
+        // Symptom Poll
+        (function() {
+            var pollForm = document.getElementById('poll-form');
+            var pollOptions = document.querySelectorAll('.poll-option input[type="checkbox"]');
+            var pollSubmit = document.getElementById('poll-submit');
+            var pollThanks = document.getElementById('poll-thanks');
+            if (!pollSubmit) return;
+
+            pollSubmit.addEventListener('click', async function() {
+                var selected = [];
+                pollOptions.forEach(function(opt) { if (opt.checked) selected.push(opt.value); });
+                if (selected.length === 0) {
+                    var pollError = document.getElementById('poll-error');
+                    if (pollError) { pollError.style.display = 'block'; setTimeout(function() { pollError.style.display = 'none'; }, 3000); }
+                    return;
+                }
+                pollSubmit.disabled = true;
+                pollSubmit.textContent = '...';
+                try {
+                    await fetch('https://formspree.io/f/xdalyrze', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                        body: JSON.stringify({ poll_responses: selected.join(', '), source: 'awesome-endo-adeno' })
+                    });
+                } catch (e) { console.error('Poll error:', e); }
+                if (pollForm) pollForm.style.display = 'none';
+                if (pollThanks) pollThanks.style.display = 'block';
+                var suggestions = document.getElementById('poll-suggestions');
+                if (suggestions && selected.length >= 5) suggestions.style.display = 'block';
+            });
+        })();
+
+        // Action Modal
+        (function() {
+            function openModal() {
+                var modal = document.getElementById('action-modal');
+                if (!modal) return;
+                modal.style.display = 'flex';
+                setTimeout(function() { modal.classList.add('active'); }, 10);
+                document.body.style.overflow = 'hidden';
+                var first = modal.querySelector('button, [tabindex]:not([tabindex="-1"])');
+                if (first) first.focus();
+            }
+            function closeModal() {
+                var modal = document.getElementById('action-modal');
+                if (!modal) return;
+                modal.classList.remove('active');
+                setTimeout(function() { modal.style.display = 'none'; document.body.style.overflow = ''; }, 300);
+            }
+            function showView(viewId) {
+                document.querySelectorAll('#action-modal .modal-content').forEach(function(v) { v.style.display = 'none'; });
+                var target = document.getElementById(viewId);
+                if (target) { target.style.display = 'block'; target.scrollTop = 0; }
+            }
+
+            // CTA buttons
+            var ctaBtn = document.getElementById('cta-take-action');
+            if (ctaBtn) ctaBtn.addEventListener('click', openModal);
+            var pollAction = document.getElementById('poll-take-action');
+            if (pollAction) pollAction.addEventListener('click', openModal);
+
+            // Close
+            var closeBtn = document.getElementById('modal-close');
+            if (closeBtn) closeBtn.addEventListener('click', closeModal);
+            var overlay = document.getElementById('action-modal');
+            if (overlay) overlay.addEventListener('click', function(e) { if (e.target === overlay) closeModal(); });
+
+            // Action cards
+            document.querySelectorAll('.action-card').forEach(function(card) {
+                card.addEventListener('click', function() {
+                    var action = this.getAttribute('data-action');
+                    if (action === 'symptoms') showView('symptoms-view');
+                    else if (action === 'connect') showView('connect-view');
+                    else if (action === 'awareness') showView('awareness-view');
+                });
+            });
+
+            // Back buttons
+            document.querySelectorAll('.back-button').forEach(function(btn) {
+                btn.addEventListener('click', function() { showView('main-cards-view'); });
+            });
+
+            // Symptom card expand/collapse
+            var symptomCards = document.querySelectorAll('.symptom-card');
+            symptomCards.forEach(function(card, index) {
+                var header = card.querySelector('.symptom-header');
+                if (header) {
+                    header.addEventListener('click', function() {
+                        var grid = card.closest('.symptoms-grid');
+                        var cols = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
+                        var rowStart = Math.floor(index / cols) * cols;
+                        var isExpanding = !card.classList.contains('expanded');
+                        for (var i = rowStart; i < rowStart + cols && i < symptomCards.length; i++) {
+                            symptomCards[i].classList.toggle('expanded', isExpanding);
+                            var h = symptomCards[i].querySelector('.symptom-header');
+                            if (h) h.setAttribute('aria-expanded', isExpanding);
+                        }
+                    });
+                }
+            });
+
+            // Symptom checklist counter
+            var symptomCheckboxes = document.querySelectorAll('.symptoms-checklist input[type="checkbox"]');
+            var symptomCount = document.getElementById('symptom-count');
+            function updateCount() {
+                var checked = document.querySelectorAll('.symptoms-checklist input[type="checkbox"]:checked').length;
+                if (symptomCount) symptomCount.textContent = checked;
+                var checkedSymptoms = Array.from(symptomCheckboxes).filter(function(cb) { return cb.checked; }).map(function(cb) { return cb.getAttribute('data-symptom'); });
+                sessionStorage.setItem('endo-symptoms', JSON.stringify(checkedSymptoms));
+            }
+            symptomCheckboxes.forEach(function(cb) { cb.addEventListener('change', updateCount); });
+            var saved = sessionStorage.getItem('endo-symptoms');
+            if (saved) { try { JSON.parse(saved).forEach(function(s) { var cb = document.querySelector('input[data-symptom="' + s + '"]'); if (cb) cb.checked = true; }); updateCount(); } catch(e) {} }
+
+            // Find Specialist / Doctor Questions toggles
+            var findBtn = document.getElementById('find-specialist-btn');
+            var doctorBtn = document.getElementById('doctor-questions-btn');
+            var specRes = document.getElementById('specialist-resources');
+            var docQ = document.getElementById('doctor-questions');
+            if (findBtn && specRes) {
+                findBtn.addEventListener('click', function() {
+                    if (specRes.style.display === 'none' || specRes.style.display === '') {
+                        specRes.style.display = 'block'; if (docQ) docQ.style.display = 'none';
+                        this.textContent = 'Hide Specialist Resources';
+                        if (doctorBtn) doctorBtn.textContent = doctorBtn.getAttribute('data-i18n-original') || 'Prepare for Your Doctor Visit';
+                    } else { specRes.style.display = 'none'; this.textContent = 'Find a Specialist Near You'; }
+                });
+            }
+            if (doctorBtn && docQ) {
+                doctorBtn.addEventListener('click', function() {
+                    if (docQ.style.display === 'none' || docQ.style.display === '') {
+                        docQ.style.display = 'block'; if (specRes) specRes.style.display = 'none';
+                        this.textContent = 'Hide Doctor Questions';
+                        if (findBtn) findBtn.textContent = findBtn.getAttribute('data-i18n-original') || 'Find a Specialist Near You';
+                    } else { docQ.style.display = 'none'; this.textContent = 'Prepare for Your Doctor Visit'; }
+                });
+            }
+
+            // Copy text
+            document.querySelectorAll('.copy-btn').forEach(function(btn) {
+                btn.addEventListener('click', async function() {
+                    var p = this.parentElement.querySelector('p');
+                    if (!p) return;
+                    var text = p.textContent;
+                    var original = btn.textContent;
+                    try {
+                        await navigator.clipboard.writeText(text);
+                        btn.textContent = 'Copied!'; btn.style.background = '#5C1A3A'; btn.style.color = '#fff';
+                    } catch(e) {
+                        btn.textContent = 'Select & copy manually'; btn.style.background = '#dc3545'; btn.style.color = '#fff';
+                        var range = document.createRange(); range.selectNodeContents(p);
+                        var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+                    }
+                    setTimeout(function() { btn.textContent = original; btn.style.background = ''; btn.style.color = ''; }, 2000);
+                });
+            });
+
+            // Escape key closes modal
+            document.addEventListener('keydown', function(e) {
+                var modal = document.getElementById('action-modal');
+                if (modal && modal.classList.contains('active') && e.key === 'Escape') closeModal();
+            });
         })();
 
         // Custom Theme Toggle

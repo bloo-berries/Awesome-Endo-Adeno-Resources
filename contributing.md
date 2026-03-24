@@ -19,8 +19,8 @@ Thank you for your interest in contributing to this comprehensive resource for E
    git checkout -b feature/add-new-resource
    ```
 
-4. **Edit the main resource file**:
-   - Open `content/posts/endo-adeno-resources-overview.md`
+4. **Edit the appropriate content file**:
+   - Content pages are in `content/` (e.g., `diagnosis.md`, `healthcare.md`, `resources.md`, etc.)
    - Add your resource in the appropriate section
    - Follow the existing format and style
 
