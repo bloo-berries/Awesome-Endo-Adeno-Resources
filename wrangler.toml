@@ -1,7 +1,12 @@
-name = "awesome-endo-adeno-resources"
+name = "one-in-seven"
 compatibility_date = "2025-01-01"
 
 [assets]
 directory = "./public"
 html_handling = "auto-trailing-slash"
 not_found_handling = "404-page"
+
+routes = [
+  { pattern = "in7.info/*", zone_name = "in7.info" },
+  { pattern = "www.in7.info/*", zone_name = "in7.info" },
+]

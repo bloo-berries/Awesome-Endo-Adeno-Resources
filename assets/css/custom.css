@@ -274,26 +274,27 @@ body:not(.dark-theme) .container.content::-webkit-scrollbar-thumb:hover {
     background-color: rgba(0, 0, 0, 0.35);
 }
 
-/* Override the body overflow to allow horizontal scrolling when needed */
+/* Override the body overflow — no sidebar layout, normal page scroll */
 body {
     overflow-x: auto !important;
-    overflow-y: hidden;
-    height: 100vh;
+    overflow-y: auto !important;
+    height: auto !important;
 }
 
-/* Fix the main content container to prevent overflow */
+/* Fix the main content container — full width, no sidebar offset */
 .container.content {
-    max-width: calc(100vw - 300px); /* Account for sidebar width */
+    max-width: 100% !important;
     overflow-x: auto;
-    overflow-y: auto;
+    overflow-y: visible;
     padding-right: 1rem;
     padding-left: 1rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
-/* Ensure the wrapper doesn't cause horizontal overflow */
+/* Wrapper — block layout, no flex sidebar */
 body > .wrapper {
+    display: block !important;
     max-width: 100vw;
     overflow-x: auto;
 }
@@ -354,37 +355,29 @@ table {
     text-decoration-thickness: 1px !important;
 }
 
-/* Responsive adjustments for different screen sizes */
+/* Responsive adjustments */
 @media (max-width: 1400px) {
     .container.content {
-        max-width: calc(100vw - 280px);
         font-size: 0.95em;
     }
 }
 
 @media (max-width: 1200px) {
     .container.content {
-        max-width: calc(100vw - 260px);
         font-size: 0.9em;
     }
-    
+
     table {
         font-size: 0.85em;
     }
 }
 
 @media (max-width: 768px) {
-    body {
-        overflow: auto !important;
-        height: auto !important;
-    }
-    
     .container.content {
-        max-width: 100%;
         padding-right: 0.5rem;
         padding-left: 0.5rem;
     }
-    
+
     #TableOfContents {
         font-size: 0.85em;
     }
@@ -488,12 +481,11 @@ details[open] summary {
     top: 0;
     z-index: 50;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 0;
-    margin: -1rem -100vw 1rem -1rem;
-    padding-left: 1rem;
-    padding-right: 100vw;
+    padding: 1.75rem 0.5rem 0.3rem 0.5rem;
+    margin: 0;
     background: #1A0E14;
     gap: 0.5rem;
 }
@@ -502,31 +494,48 @@ body:not(.dark-theme) .theme-toggle-wrapper {
     background: #F5E6D0;
 }
 
+/* Background extension above sticky header */
 .theme-toggle-wrapper::before {
     content: "";
     position: absolute;
     bottom: 100%;
     left: 0;
     right: 0;
-    height: 100vh;
+    height: 2rem;
     background: inherit;
 }
 
-/* Mobile header bar: hidden on desktop */
+/* Header bar: visible at all sizes */
 .mobile-header-bar {
-    display: none;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: 0 3.5rem;
+    margin: 0;
 }
 
 .mobile-title {
-    display: none;
+    display: block !important;
+    font-family: var(--font-ui) !important;
+    font-size: 2rem;
+    font-weight: 900 !important;
+    color: #F5E6D0;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+body:not(.dark-theme) .mobile-title {
+    color: #2D1525;
 }
 
 /* Custom theme toggle button */
 .theme-toggle {
     position: fixed;
-    top: 0.5rem;
-    right: 1rem;
-    z-index: 51;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 1100;
 }
 
 .toggle-btn {
@@ -1153,6 +1162,25 @@ body:not(.dark-theme) #lang-picker option {
     padding-right: 0.75rem;
 }
 
+/* ===== DEFINITIONS SIDE-BY-SIDE ===== */
+
+.definitions-row {
+    display: flex;
+    gap: 2rem;
+}
+
+.definition-col {
+    flex: 1;
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+    .definitions-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
 /* ===== HOME CONTENT SECTION ===== */
 
 .home-content {
@@ -1218,16 +1246,16 @@ body:not(.dark-theme) .resource-card.card-active {
 /* ===== VIDEO EMBED ===== */
 
 .featured-video {
-    max-width: 90%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
 .video-caption {
     text-align: center;
     font-family: var(--font-ui) !important;
-    font-size: 1.3rem;
-    font-weight: 900 !important;
-    letter-spacing: -0.03em;
+    font-size: 1.1rem;
+    font-weight: 600 !important;
+    letter-spacing: -0.01em;
     margin: 0.5rem 0 0.25rem;
 }
 
@@ -1278,7 +1306,7 @@ body:not(.dark-theme) .resource-card.card-active {
 /* ===== MOBILE HAMBURGER MENU ===== */
 
 .mobile-menu-btn {
-    display: none;
+    display: flex;
     position: fixed;
     top: 0.75rem;
     left: 0.75rem;
@@ -1334,84 +1362,45 @@ body:not(.dark-theme) .resource-card.card-active {
     display: block;
 }
 
+/* ===== SIDEBAR OFF-CANVAS (all screen sizes) ===== */
+
+.sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 280px !important;
+    height: 100vh !important;
+    z-index: 1050 !important;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto !important;
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+/* Override theme's sticky sidebar at 48em+ */
+.sidebar-sticky {
+    position: static !important;
+    width: 100% !important;
+}
+
+/* Content takes full width — no sidebar offset */
+.container.content {
+    padding-top: 0;
+}
+
+body:not(.dark-theme) .mobile-menu-btn {
+    background: #F5E6D0;
+    border-color: rgba(139, 69, 19, 0.2);
+}
+
+body:not(.dark-theme) .hamburger-line {
+    background: #2D1525;
+}
+
 @media (max-width: 768px) {
-    .mobile-menu-btn {
-        display: flex;
-    }
-
-    .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 280px;
-        height: 100vh;
-        z-index: 1050;
-        transform: translateX(-100%);
-        transition: transform 0.3s ease;
-        overflow-y: auto;
-    }
-
-    .sidebar.open {
-        transform: translateX(0);
-    }
-
-    .container.content {
-        max-width: 100% !important;
-        padding-top: 0;
-    }
-
-    .theme-toggle-wrapper {
-        display: flex !important;
-        flex-wrap: wrap;
-        position: sticky;
-        top: 0;
-        margin: 0 !important;
-        padding: 1.75rem 0.5rem 0.3rem 0.5rem !important;
-    }
-
-    .mobile-header-bar {
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 40px;
-        padding: 0 3.5rem;
-        margin: 0;
-    }
-
-    .mobile-title {
-        display: block !important;
-        font-family: var(--font-display) !important;
-        font-size: 1.1rem;
-        font-weight: 700;
-        color: #F0D060;
-        letter-spacing: -0.02em;
-        text-align: center;
-    }
-
-    body:not(.dark-theme) .mobile-title {
-        color: #2D1525;
-    }
-
-    .mobile-menu-btn {
-        position: fixed;
-        top: 0.75rem;
-        left: 0.75rem;
-        z-index: 1100;
-    }
-
-    .theme-toggle {
-        position: fixed !important;
-        right: 0.75rem !important;
-        top: 0.75rem !important;
-        z-index: 1100 !important;
-    }
-
-    .header-cards {
-        display: block !important;
-        width: 100% !important;
-    }
-
     .header-cards .resource-cards,
     .resource-cards {
         display: grid !important;
