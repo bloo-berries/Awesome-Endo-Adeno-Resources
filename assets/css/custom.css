@@ -11,6 +11,7 @@
 html {
     font-family: var(--font-ui) !important;
     font-weight: 400;
+    font-size: 18px;
 }
 
 /* UI elements: Inter */
@@ -48,19 +49,32 @@ button, .btn, input {
     letter-spacing: -0.02em;
 }
 
-/* Headings - use medium/semibold weights */
+/* Headings - clear visual hierarchy */
 .content h1, .content h2, .content h3 {
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.01em;
 }
 
 .content h2, .content h3, .content h4 {
     font-family: var(--font-display) !important;
-    font-weight: 900 !important;
 }
 
-.content h4, .content h5, .content h6 {
+.content h4 {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.content h5, .content h6 {
     font-weight: 500;
+}
+
+/* Prose readability */
+.content p {
+    line-height: 1.75;
+}
+
+.content .post {
+    max-width: 72ch;
 }
 
 /* ===== ACCESSIBILITY IMPROVEMENTS ===== */
@@ -356,17 +370,7 @@ table {
 }
 
 /* Responsive adjustments */
-@media (max-width: 1400px) {
-    .container.content {
-        font-size: 0.95em;
-    }
-}
-
 @media (max-width: 1200px) {
-    .container.content {
-        font-size: 0.9em;
-    }
-
     table {
         font-size: 0.85em;
     }
@@ -521,9 +525,10 @@ body:not(.dark-theme) .theme-toggle-wrapper {
     font-family: var(--font-ui) !important;
     font-size: 2rem;
     font-weight: 900 !important;
-    color: #F5E6D0;
+    color: #F5E6D0 !important;
     letter-spacing: -0.03em;
     text-align: center;
+    text-decoration: none !important;
 }
 
 body:not(.dark-theme) .mobile-title {
@@ -1162,22 +1167,83 @@ body:not(.dark-theme) #lang-picker option {
     padding-right: 0.75rem;
 }
 
-/* ===== DEFINITIONS SIDE-BY-SIDE ===== */
+/* ===== DEFINITION BLOCK + ADENOMYOSIS TOOLTIP ===== */
 
-.definitions-row {
-    display: flex;
-    gap: 2rem;
+.definition-block {
+    max-width: 72ch;
 }
 
-.definition-col {
-    flex: 1;
-    min-width: 0;
+.adeno-info-wrap {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.adeno-info-btn {
+    background: none !important;
+    border: none !important;
+    padding: 2px !important;
+    margin-left: 4px;
+    cursor: pointer;
+    color: #C4982A !important;
+    vertical-align: middle;
+    line-height: 1;
+    min-height: auto !important;
+    min-width: auto !important;
+    box-shadow: none !important;
+}
+
+.adeno-info-btn:hover,
+.adeno-info-btn:focus {
+    color: #E8B84A !important;
+}
+
+.adeno-tooltip {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 8px);
+    transform: translateX(-50%);
+    background: #2D1525;
+    color: #F5E6D0;
+    border: 1px solid #C4982A;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 320px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5;
+    z-index: 100;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    font-family: var(--font-body) !important;
+}
+
+.adeno-tooltip strong {
+    font-family: var(--font-display) !important;
+    font-size: 0.95rem;
+}
+
+.adeno-tooltip a {
+    color: #E8B84A !important;
+    text-decoration: underline;
+}
+
+.adeno-info-wrap.active .adeno-tooltip {
+    display: block;
+}
+
+/* On desktop, also show on hover */
+@media (hover: hover) {
+    .adeno-info-wrap:hover .adeno-tooltip {
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
-    .definitions-row {
-        flex-direction: column;
-        gap: 0;
+    .adeno-tooltip {
+        left: 0;
+        transform: none;
+        width: 260px;
     }
 }
 
@@ -1577,11 +1643,29 @@ body:not(.dark-theme) .table-accordion-row {
     width: 50%;
 }
 
-.poll-carousel-row > .poll-section .poll-box,
-.poll-carousel-row > .carousel-section .carousel-box {
+.poll-carousel-row > .poll-section .poll-box {
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.poll-carousel-row > .carousel-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.poll-carousel-row > .carousel-section .carousel-box-top {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+.poll-carousel-row > .carousel-section .carousel-box-bottom {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -1889,11 +1973,8 @@ body:not(.dark-theme) .carousel-box {
     font-weight: 700;
     margin-bottom: 0.75rem;
     text-align: center;
-    color: #FFD166 !important;
+    color: #FFD166;
     font-family: var(--font-display) !important;
-    text-shadow: none !important;
-    border-top: none !important;
-    padding-top: 0 !important;
 }
 
 .carousel-viewport {
@@ -1994,6 +2075,10 @@ body:not(.dark-theme) .carousel-box {
     color: #FFD166 !important;
     background: none !important;
     padding: 0 !important;
+}
+
+.carousel-box-bottom .carousel-cta {
+    width: 100%;
 }
 
 .carousel-box a.carousel-cta,
@@ -2833,4 +2918,56 @@ a.carousel-cta:hover {
 @media (min-width: 1024px) {
     .graphics-grid { grid-template-columns: repeat(4, 1fr); }
     .questions-categories { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== REDUCED MOTION ===== */
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ===== PRINT STYLES ===== */
+
+@media print {
+    html { font-size: 12pt; }
+
+    body {
+        background: #fff !important;
+        color: #000 !important;
+    }
+
+    .sidebar, .hamburger-btn, .theme-toggle, .theme-toggle-wrapper,
+    .resource-cards, .header-cards, .mobile-header-bar,
+    .poll-section, .carousel-section, .poll-carousel-row,
+    .cta-section, .back-to-top, .skip-link,
+    #search-input, .search-results, .statistics-row,
+    .featured-video { display: none !important; }
+
+    .content.container {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-weight: normal;
+        word-break: break-all;
+    }
+
+    a[href^="#"]::after,
+    a[href^="javascript"]::after { content: ""; }
+
+    details { open: true; }
+    details[open] summary ~ * { display: block !important; }
+    details > summary { list-style: disc; font-weight: bold; }
+
+    h1, h2, h3, h4, table, figure { page-break-inside: avoid; }
+    h1, h2, h3, h4 { page-break-after: avoid; }
 }

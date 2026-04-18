@@ -35,6 +35,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
         {Name = "Healthcare", URL = "/healthcare/", HasChildren = false},
         {Name = "Resources", URL = "/resources/", HasChildren = false},
         {Name = "Education", URL = "/education/", HasChildren = false},
+        {Name = "Myths & Facts", URL = "/myths/", HasChildren = false},
         {Name = "Research", URL = "/research/", HasChildren = false},
     ]
 

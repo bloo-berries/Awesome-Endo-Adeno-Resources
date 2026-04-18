@@ -40,7 +40,20 @@ keywords: ["endometriosis education", "adenomyosis education", "endometriosis bo
 - Reddit
   - [/r/Endo](https://www.reddit.com/r/Endo/)
     - Endo: treatments, stories, support and research into Endometriosis
-  - [/r/adenommyosis](https://www.reddit.com/r/adenomyosis/)
+  - [/r/adenomyosis](https://www.reddit.com/r/adenomyosis/)
     - A place for people with Adenomyosis
   - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
     - Endo support community
+  - [/r/ChronicPain](https://www.reddit.com/r/ChronicPain/)
+    - Support community for people living with chronic pain conditions
+  - [/r/endopartners](https://www.reddit.com/r/endopartners/)
+    - Community for partners and loved ones of people with endometriosis
+- Online Communities
+  - [MyEndometriosisTeam](https://www.myendometriosisteam.com/)
+    - Social network for people living with endometriosis — share experiences and find support
+  - [Endometriosis UK Community](https://www.endometriosis-uk.org/forum)
+    - Forum and support groups run by Endometriosis UK
+  - [The Mighty: Endometriosis](https://themighty.com/topic/endometriosis/)
+    - Personal stories, articles, and community from people living with chronic illness
+  - [Nancy's Nook Endometriosis Education](https://nancysnookendo.com/)
+    - Evidence-based endometriosis education and vetted specialist directory

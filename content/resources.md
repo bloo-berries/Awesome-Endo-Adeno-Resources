@@ -8,6 +8,17 @@ tags: ["resources", "support", "advocacy", "financial-assistance", "fertility"]
 keywords: ["endometriosis support groups", "adenomyosis advocacy", "financial assistance", "endometriosis organizations", "fertility resources"]
 ---
 
+## Crisis & Mental Health Support
+
+If you or someone you know is in crisis or struggling with chronic pain, please reach out:
+
+- **988 Suicide & Crisis Lifeline** (U.S.) — Call or text **988** | [988lifeline.org](https://988lifeline.org/)
+- **Crisis Text Line** (U.S., U.K., Canada, Ireland) — Text **HOME** to **741741** | [crisistextline.org](https://www.crisistextline.org/)
+- **Samaritans** (U.K. & Ireland) — Call **116 123** (free, 24/7) | [samaritans.org](https://www.samaritans.org/)
+- **Lifeline Australia** — Call **13 11 14** | [lifeline.org.au](https://www.lifeline.org.au/)
+- **International Association for Suicide Prevention** — [Find a crisis centre](https://www.iasp.info/resources/Crisis_Centres/)
+- **Endometriosis UK Helpline** — Call **0808 808 2227** | [endometriosis-uk.org](https://www.endometriosis-uk.org/helpline)
+
 ## Financial Assistance Platforms
 
 <details>
@@ -145,3 +156,16 @@ U.S.A.
 
 - [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
   - This article explores how endometriosis affects fertility, when to consider egg freezing
+
+## For Partners, Families & Employers
+
+- [Endometriosis UK: Information for Friends and Family](https://www.endometriosis-uk.org/information-friends-and-family)
+  - How to understand and support someone with endometriosis
+- [EndoFound: How to Support Someone with Endometriosis](https://www.endofound.org/how-to-support-someone-with-endometriosis)
+  - Practical guidance for partners and loved ones
+- [The Mighty: Endometriosis](https://themighty.com/topic/endometriosis/)
+  - Personal stories and community support from people living with chronic illness
+- [ACAS: Reasonable Adjustments for Chronic Conditions (U.K.)](https://www.acas.org.uk/reasonable-adjustments)
+  - Employer guidance on workplace accommodations for chronic health conditions
+- [Job Accommodation Network (JAN) (U.S.)](https://askjan.org/)
+  - Free guidance on workplace accommodations for chronic health conditions

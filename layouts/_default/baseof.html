@@ -6,7 +6,7 @@
             <main class="content container" id="main-content">
                 <div class="theme-toggle-wrapper">
                     <div class="mobile-header-bar">
-                        <span class="mobile-title" data-i18n="site_title">1 in 7</span>
+                        <a href="{{ "/" | relURL }}" class="mobile-title" data-i18n="site_title">1 in 7</a>
                     </div>
                     <div class="header-cards" id="header-cards"></div>
                     <div class="theme-toggle" id="theme-toggle">
@@ -242,6 +242,25 @@
             }
         })();
 
+        // Adenomyosis info tooltip toggle (mobile click)
+        (function() {
+            var infoBtn = document.querySelector('.adeno-info-btn');
+            if (!infoBtn) return;
+            var wrap = infoBtn.closest('.adeno-info-wrap');
+            infoBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                var expanded = wrap.classList.toggle('active');
+                infoBtn.setAttribute('aria-expanded', expanded);
+            });
+            document.addEventListener('click', function(e) {
+                if (!wrap.contains(e.target)) {
+                    wrap.classList.remove('active');
+                    infoBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        })();
+
         // Back to Top
         (function() {
             var btn = document.getElementById('back-to-top');
@@ -447,14 +466,48 @@
                     .then(function(data) { searchIndex = data; return data; });
             }
 
+            var synonyms = [
+                ['period pain', 'dysmenorrhea', 'menstrual cramps', 'cramps'],
+                ['endo', 'endometriosis'],
+                ['adeno', 'adenomyosis'],
+                ['painful sex', 'dyspareunia', 'painful intercourse'],
+                ['heavy periods', 'menorrhagia', 'heavy bleeding', 'heavy menstrual bleeding'],
+                ['bloating', 'endo belly', 'abdominal bloating'],
+                ['cyst', 'endometrioma', 'chocolate cyst'],
+                ['infertility', 'fertility', 'difficulty getting pregnant', 'subfertility'],
+                ['fatigue', 'exhaustion', 'chronic fatigue'],
+                ['bowel', 'rectal', 'intestinal', 'bowel endometriosis'],
+                ['pelvic pain', 'chronic pelvic pain', 'cpp'],
+                ['excision', 'laparoscopy', 'surgery', 'surgical'],
+                ['hormone', 'hormonal', 'birth control', 'contraceptive'],
+                ['diagnosis', 'diagnostic', 'diagnosed'],
+                ['specialist', 'doctor', 'gynecologist', 'gynaecologist']
+            ];
+
+            function expandQuery(query) {
+                var q = query.toLowerCase();
+                var terms = [q];
+                synonyms.forEach(function(group) {
+                    var match = group.some(function(s) { return q.indexOf(s) !== -1; });
+                    if (match) {
+                        group.forEach(function(s) {
+                            if (terms.indexOf(s) === -1) terms.push(s);
+                        });
+                    }
+                });
+                return terms;
+            }
+
             function search(query) {
                 if (!searchIndex || !query) { resultsContainer.innerHTML = ''; return; }
-                var q = query.toLowerCase();
+                var terms = expandQuery(query);
                 var results = searchIndex.filter(function(page) {
-                    return (page.title && page.title.toLowerCase().indexOf(q) !== -1) ||
-                           (page.summary && page.summary.toLowerCase().indexOf(q) !== -1) ||
-                           (page.content && page.content.toLowerCase().indexOf(q) !== -1) ||
-                           (page.tags && page.tags.some(function(t) { return t.toLowerCase().indexOf(q) !== -1; }));
+                    return terms.some(function(term) {
+                        return (page.title && page.title.toLowerCase().indexOf(term) !== -1) ||
+                               (page.summary && page.summary.toLowerCase().indexOf(term) !== -1) ||
+                               (page.content && page.content.toLowerCase().indexOf(term) !== -1) ||
+                               (page.tags && page.tags.some(function(t) { return t.toLowerCase().indexOf(term) !== -1; }));
+                    });
                 }).slice(0, 5);
 
                 if (results.length === 0) {
