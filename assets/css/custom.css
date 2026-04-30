@@ -702,6 +702,7 @@ body:not(.dark-theme) .toggle-btn:hover {
     color: var(--sidebar-a-color) !important;
     font-weight: 400;
     font-size: 0.9rem;
+    white-space: nowrap;
 }
 
 .sidebar-nav .nav-item a:hover {
@@ -1467,18 +1468,6 @@ body:not(.dark-theme) .hamburger-line {
 }
 
 @media (max-width: 768px) {
-    .header-cards .resource-cards,
-    .resource-cards {
-        display: grid !important;
-        grid-template-columns: repeat(4, 1fr) !important;
-        gap: 0.4rem !important;
-        max-width: 100% !important;
-        width: 100% !important;
-        margin: 0 auto !important;
-        padding: 0 0.5rem !important;
-        box-sizing: border-box !important;
-    }
-
     .resource-card {
         display: inline-flex !important;
         justify-content: center !important;
