@@ -7,6 +7,6 @@ html_handling = "auto-trailing-slash"
 not_found_handling = "404-page"
 
 routes = [
-  { pattern = "in7.info/*", zone_name = "in7.info" },
-  { pattern = "www.in7.info/*", zone_name = "in7.info" },
+  { pattern = "1in7.info/*", zone_name = "1in7.info" },
+  { pattern = "www.1in7.info/*", zone_name = "1in7.info" },
 ]
