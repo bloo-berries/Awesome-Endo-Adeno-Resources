@@ -6,7 +6,7 @@
             <main class="content container" id="main-content">
                 <div class="theme-toggle-wrapper">
                     <div class="mobile-header-bar">
-                        <a href="{{ "/" | relURL }}" class="mobile-title" data-i18n="site_title">1 in 7</a>
+                        <a href="{{ site.Home.RelPermalink }}" class="mobile-title" data-i18n="site_title">1 in 7</a>
                     </div>
                     <div class="header-cards" id="header-cards"></div>
                     <div class="theme-toggle" id="theme-toggle">
@@ -233,6 +233,10 @@
         </div>
 
         <script>
+        // Hugo-generated URLs for extracted JS modules
+        window.__searchIndexURL = '{{ "index.json" | absURL }}';
+        window.__translationsURL = '{{ "i18n/translations.json" | absURL }}';
+
         // Move resource cards into header bar
         (function() {
             var cards = document.querySelector('.resource-cards');
@@ -342,8 +346,6 @@
             });
         })();
 
-        // All <details> sections default to collapsed (no auto-expand)
-
         // Resource Card Filters + Sidebar Nav Filters
         (function() {
             var cards = document.querySelectorAll('.resource-card[data-filter]');
@@ -451,359 +453,6 @@
             if (overlay) overlay.addEventListener('click', toggleMenu);
         })();
 
-        // Client-side Search
-        (function() {
-            var searchInput = document.getElementById('search-input');
-            var resultsContainer = document.getElementById('search-results');
-            if (!searchInput || !resultsContainer) return;
-
-            var searchIndex = null;
-
-            function loadIndex() {
-                if (searchIndex !== null) return Promise.resolve(searchIndex);
-                return fetch('{{ "index.json" | absURL }}')
-                    .then(function(r) { return r.json(); })
-                    .then(function(data) { searchIndex = data; return data; });
-            }
-
-            var synonyms = [
-                ['period pain', 'dysmenorrhea', 'menstrual cramps', 'cramps'],
-                ['endo', 'endometriosis'],
-                ['adeno', 'adenomyosis'],
-                ['painful sex', 'dyspareunia', 'painful intercourse'],
-                ['heavy periods', 'menorrhagia', 'heavy bleeding', 'heavy menstrual bleeding'],
-                ['bloating', 'endo belly', 'abdominal bloating'],
-                ['cyst', 'endometrioma', 'chocolate cyst'],
-                ['infertility', 'fertility', 'difficulty getting pregnant', 'subfertility'],
-                ['fatigue', 'exhaustion', 'chronic fatigue'],
-                ['bowel', 'rectal', 'intestinal', 'bowel endometriosis'],
-                ['pelvic pain', 'chronic pelvic pain', 'cpp'],
-                ['excision', 'laparoscopy', 'surgery', 'surgical'],
-                ['hormone', 'hormonal', 'birth control', 'contraceptive'],
-                ['diagnosis', 'diagnostic', 'diagnosed'],
-                ['specialist', 'doctor', 'gynecologist', 'gynaecologist']
-            ];
-
-            function expandQuery(query) {
-                var q = query.toLowerCase();
-                var terms = [q];
-                synonyms.forEach(function(group) {
-                    var match = group.some(function(s) { return q.indexOf(s) !== -1; });
-                    if (match) {
-                        group.forEach(function(s) {
-                            if (terms.indexOf(s) === -1) terms.push(s);
-                        });
-                    }
-                });
-                return terms;
-            }
-
-            function search(query) {
-                if (!searchIndex || !query) { resultsContainer.innerHTML = ''; return; }
-                var terms = expandQuery(query);
-                var results = searchIndex.filter(function(page) {
-                    return terms.some(function(term) {
-                        return (page.title && page.title.toLowerCase().indexOf(term) !== -1) ||
-                               (page.summary && page.summary.toLowerCase().indexOf(term) !== -1) ||
-                               (page.content && page.content.toLowerCase().indexOf(term) !== -1) ||
-                               (page.tags && page.tags.some(function(t) { return t.toLowerCase().indexOf(term) !== -1; }));
-                    });
-                }).slice(0, 5);
-
-                if (results.length === 0) {
-                    resultsContainer.innerHTML = '<div class="search-no-results">No results found</div>';
-                    return;
-                }
-
-                resultsContainer.innerHTML = results.map(function(r) {
-                    return '<a class="search-result-item" href="' + r.permalink + '">' +
-                           '<span class="search-result-title">' + r.title + '</span>' +
-                           '</a>';
-                }).join('');
-            }
-
-            var debounceTimer;
-            searchInput.addEventListener('input', function() {
-                var q = this.value.trim();
-                clearTimeout(debounceTimer);
-                if (q.length < 2) { resultsContainer.innerHTML = ''; return; }
-                debounceTimer = setTimeout(function() {
-                    loadIndex().then(function() { search(q); });
-                }, 200);
-            });
-
-            searchInput.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape') {
-                    this.value = '';
-                    resultsContainer.innerHTML = '';
-                }
-            });
-
-            document.addEventListener('click', function(e) {
-                if (!e.target.closest('.sidebar-search')) {
-                    resultsContainer.innerHTML = '';
-                }
-            });
-        })();
-
-        // i18n Translation System
-        (function() {
-            var translations = null;
-            var currentLang = localStorage.getItem('site-language') || 'en';
-
-            function applyTranslations(lang) {
-                if (!translations || !translations[lang]) return;
-                var t = translations[lang];
-                document.querySelectorAll('[data-i18n]').forEach(function(el) {
-                    var key = el.getAttribute('data-i18n');
-                    if (!t[key]) return;
-                    var attrs = el.getAttribute('data-i18n-attr');
-                    if (attrs) {
-                        attrs.split(',').forEach(function(attr) {
-                            el.setAttribute(attr.trim(), t[key]);
-                        });
-                    } else {
-                        el.textContent = t[key];
-                    }
-                    // Handle separate aria-label key
-                    var ariaKey = el.getAttribute('data-i18n-aria');
-                    if (ariaKey && t[ariaKey]) {
-                        el.setAttribute('aria-label', t[ariaKey]);
-                    }
-                });
-                // Update no-results text if visible
-                var noResults = document.querySelector('.search-no-results');
-                if (noResults && t.no_results) noResults.textContent = t.no_results;
-                // Handle RTL for Arabic
-                document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
-                // Sync picker
-                var picker = document.getElementById('lang-picker');
-                if (picker) picker.value = lang;
-                currentLang = lang;
-                localStorage.setItem('site-language', lang);
-            }
-
-            fetch('{{ "i18n/translations.json" | absURL }}')
-                .then(function(r) { return r.json(); })
-                .then(function(data) {
-                    translations = data;
-                    applyTranslations(currentLang);
-                    var picker = document.getElementById('lang-picker');
-                    if (picker) {
-                        picker.value = currentLang;
-                        picker.addEventListener('change', function() {
-                            applyTranslations(this.value);
-                        });
-                    }
-                });
-        })();
-
-        // Image Carousel
-        (function() {
-            var track = document.querySelector('.carousel-track');
-            var slides = document.querySelectorAll('.carousel-slide');
-            var dotsContainer = document.querySelector('.carousel-dots');
-            var prevBtn = document.querySelector('.carousel-prev');
-            var nextBtn = document.querySelector('.carousel-next');
-            var carouselBox = document.querySelector('.carousel-box');
-            if (!track || slides.length === 0) return;
-
-            var currentIndex = 0;
-            var autoRotateInterval = null;
-
-            slides.forEach(function(_, i) {
-                var dot = document.createElement('button');
-                dot.classList.add('carousel-dot');
-                if (i === 0) dot.classList.add('active');
-                dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
-                dot.addEventListener('click', function() { goToSlide(i); });
-                dotsContainer.appendChild(dot);
-            });
-
-            function goToSlide(index) {
-                currentIndex = index;
-                track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
-                var dots = dotsContainer.querySelectorAll('.carousel-dot');
-                dots.forEach(function(dot, i) { dot.classList.toggle('active', i === currentIndex); });
-            }
-            function nextSlide() { goToSlide((currentIndex + 1) % slides.length); }
-            function prevSlide() { goToSlide((currentIndex - 1 + slides.length) % slides.length); }
-            function startAutoRotate() { stopAutoRotate(); autoRotateInterval = setInterval(nextSlide, 4000); }
-            function stopAutoRotate() { if (autoRotateInterval) { clearInterval(autoRotateInterval); autoRotateInterval = null; } }
-
-            if (nextBtn) nextBtn.addEventListener('click', function() { nextSlide(); startAutoRotate(); });
-            if (prevBtn) prevBtn.addEventListener('click', function() { prevSlide(); startAutoRotate(); });
-            if (carouselBox) {
-                carouselBox.addEventListener('mouseenter', stopAutoRotate);
-                carouselBox.addEventListener('mouseleave', startAutoRotate);
-            }
-            startAutoRotate();
-        })();
-
-        // Symptom Poll
-        (function() {
-            var pollForm = document.getElementById('poll-form');
-            var pollOptions = document.querySelectorAll('.poll-option input[type="checkbox"]');
-            var pollSubmit = document.getElementById('poll-submit');
-            var pollThanks = document.getElementById('poll-thanks');
-            if (!pollSubmit) return;
-
-            pollSubmit.addEventListener('click', async function() {
-                var selected = [];
-                pollOptions.forEach(function(opt) { if (opt.checked) selected.push(opt.value); });
-                if (selected.length === 0) {
-                    var pollError = document.getElementById('poll-error');
-                    if (pollError) { pollError.style.display = 'block'; setTimeout(function() { pollError.style.display = 'none'; }, 3000); }
-                    return;
-                }
-                pollSubmit.disabled = true;
-                pollSubmit.textContent = '...';
-                try {
-                    await fetch('https://formspree.io/f/xdalyrze', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                        body: JSON.stringify({ poll_responses: selected.join(', '), source: 'awesome-endo-adeno' })
-                    });
-                } catch (e) { console.error('Poll error:', e); }
-                if (pollForm) pollForm.style.display = 'none';
-                if (pollThanks) pollThanks.style.display = 'block';
-                var suggestions = document.getElementById('poll-suggestions');
-                if (suggestions) suggestions.style.display = 'block';
-            });
-        })();
-
-        // Action Modal
-        (function() {
-            function openModal() {
-                var modal = document.getElementById('action-modal');
-                if (!modal) return;
-                modal.style.display = 'flex';
-                setTimeout(function() { modal.classList.add('active'); }, 10);
-                document.body.style.overflow = 'hidden';
-                var first = modal.querySelector('button, [tabindex]:not([tabindex="-1"])');
-                if (first) first.focus();
-            }
-            function closeModal() {
-                var modal = document.getElementById('action-modal');
-                if (!modal) return;
-                modal.classList.remove('active');
-                setTimeout(function() { modal.style.display = 'none'; document.body.style.overflow = ''; }, 300);
-            }
-            function showView(viewId) {
-                document.querySelectorAll('#action-modal .modal-content').forEach(function(v) { v.style.display = 'none'; });
-                var target = document.getElementById(viewId);
-                if (target) { target.style.display = 'block'; target.scrollTop = 0; }
-            }
-
-            // CTA buttons
-            var ctaBtn = document.getElementById('cta-take-action');
-            if (ctaBtn) ctaBtn.addEventListener('click', openModal);
-            var pollAction = document.getElementById('poll-take-action');
-            if (pollAction) pollAction.addEventListener('click', openModal);
-
-            // Close
-            var closeBtn = document.getElementById('modal-close');
-            if (closeBtn) closeBtn.addEventListener('click', closeModal);
-            var overlay = document.getElementById('action-modal');
-            if (overlay) overlay.addEventListener('click', function(e) { if (e.target === overlay) closeModal(); });
-
-            // Action cards
-            document.querySelectorAll('.action-card').forEach(function(card) {
-                card.addEventListener('click', function() {
-                    var action = this.getAttribute('data-action');
-                    if (action === 'symptoms') showView('symptoms-view');
-                    else if (action === 'connect') showView('connect-view');
-                    else if (action === 'awareness') showView('awareness-view');
-                });
-            });
-
-            // Back buttons
-            document.querySelectorAll('.back-button').forEach(function(btn) {
-                btn.addEventListener('click', function() { showView('main-cards-view'); });
-            });
-
-            // Symptom card expand/collapse
-            var symptomCards = document.querySelectorAll('.symptom-card');
-            symptomCards.forEach(function(card, index) {
-                var header = card.querySelector('.symptom-header');
-                if (header) {
-                    header.addEventListener('click', function() {
-                        var grid = card.closest('.symptoms-grid');
-                        var cols = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
-                        var rowStart = Math.floor(index / cols) * cols;
-                        var isExpanding = !card.classList.contains('expanded');
-                        for (var i = rowStart; i < rowStart + cols && i < symptomCards.length; i++) {
-                            symptomCards[i].classList.toggle('expanded', isExpanding);
-                            var h = symptomCards[i].querySelector('.symptom-header');
-                            if (h) h.setAttribute('aria-expanded', isExpanding);
-                        }
-                    });
-                }
-            });
-
-            // Symptom checklist counter
-            var symptomCheckboxes = document.querySelectorAll('.symptoms-checklist input[type="checkbox"]');
-            var symptomCount = document.getElementById('symptom-count');
-            function updateCount() {
-                var checked = document.querySelectorAll('.symptoms-checklist input[type="checkbox"]:checked').length;
-                if (symptomCount) symptomCount.textContent = checked;
-                var checkedSymptoms = Array.from(symptomCheckboxes).filter(function(cb) { return cb.checked; }).map(function(cb) { return cb.getAttribute('data-symptom'); });
-                sessionStorage.setItem('endo-symptoms', JSON.stringify(checkedSymptoms));
-            }
-            symptomCheckboxes.forEach(function(cb) { cb.addEventListener('change', updateCount); });
-            var saved = sessionStorage.getItem('endo-symptoms');
-            if (saved) { try { JSON.parse(saved).forEach(function(s) { var cb = document.querySelector('input[data-symptom="' + s + '"]'); if (cb) cb.checked = true; }); updateCount(); } catch(e) {} }
-
-            // Find Specialist / Doctor Questions toggles
-            var findBtn = document.getElementById('find-specialist-btn');
-            var doctorBtn = document.getElementById('doctor-questions-btn');
-            var specRes = document.getElementById('specialist-resources');
-            var docQ = document.getElementById('doctor-questions');
-            if (findBtn && specRes) {
-                findBtn.addEventListener('click', function() {
-                    if (specRes.style.display === 'none' || specRes.style.display === '') {
-                        specRes.style.display = 'block'; if (docQ) docQ.style.display = 'none';
-                        this.textContent = 'Hide Specialist Resources';
-                        if (doctorBtn) doctorBtn.textContent = doctorBtn.getAttribute('data-i18n-original') || 'Prepare for Your Doctor Visit';
-                    } else { specRes.style.display = 'none'; this.textContent = 'Find a Specialist Near You'; }
-                });
-            }
-            if (doctorBtn && docQ) {
-                doctorBtn.addEventListener('click', function() {
-                    if (docQ.style.display === 'none' || docQ.style.display === '') {
-                        docQ.style.display = 'block'; if (specRes) specRes.style.display = 'none';
-                        this.textContent = 'Hide Doctor Questions';
-                        if (findBtn) findBtn.textContent = findBtn.getAttribute('data-i18n-original') || 'Find a Specialist Near You';
-                    } else { docQ.style.display = 'none'; this.textContent = 'Prepare for Your Doctor Visit'; }
-                });
-            }
-
-            // Copy text
-            document.querySelectorAll('.copy-btn').forEach(function(btn) {
-                btn.addEventListener('click', async function() {
-                    var p = this.parentElement.querySelector('p');
-                    if (!p) return;
-                    var text = p.textContent;
-                    var original = btn.textContent;
-                    try {
-                        await navigator.clipboard.writeText(text);
-                        btn.textContent = 'Copied!'; btn.style.background = '#5C1A3A'; btn.style.color = '#fff';
-                    } catch(e) {
-                        btn.textContent = 'Select & copy manually'; btn.style.background = '#dc3545'; btn.style.color = '#fff';
-                        var range = document.createRange(); range.selectNodeContents(p);
-                        var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
-                    }
-                    setTimeout(function() { btn.textContent = original; btn.style.background = ''; btn.style.color = ''; }, 2000);
-                });
-            });
-
-            // Escape key closes modal
-            document.addEventListener('keydown', function(e) {
-                var modal = document.getElementById('action-modal');
-                if (modal && modal.classList.contains('active') && e.key === 'Escape') closeModal();
-            });
-        })();
-
         // Custom Theme Toggle
         (function() {
             var btn = document.getElementById('toggle-theme-btn');
@@ -835,5 +484,15 @@
             updateIcons();
         })();
         </script>
+
+        {{/* Bundled extracted JS modules */}}
+        {{ $js_bundle := slice
+            (resources.Get "js/search.js")
+            (resources.Get "js/i18n.js")
+            (resources.Get "js/carousel.js")
+            (resources.Get "js/poll.js")
+            (resources.Get "js/action-modal.js")
+          | resources.Concat "js/app.js" | minify }}
+        <script>{{ $js_bundle.Content | safeJS }}</script>
     </body>
 </html>
