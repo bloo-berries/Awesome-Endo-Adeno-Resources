@@ -92,9 +92,8 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 ## Support Resources
 
 ### Healthcare Providers
-- [iCareBetter](https://icarebetter.com/) - Specialized endometriosis and adenomyosis care
-- [The Yellow Hub](https://www.theyellowhub.org/) - Patient support and resources
-- [Roon](https://www.roon.com/) - Access to medical experts
+
+For vetted specialists and diagnostic tools, see [Healthcare Providers & Tools](/healthcare/).
 
 ### Educational Resources
 - [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)

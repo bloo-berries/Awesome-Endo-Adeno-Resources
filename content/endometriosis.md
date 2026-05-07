@@ -10,7 +10,7 @@ keywords: ["endometriosis symptoms", "endometriosis stages", "endometriosis trea
 
 # Endometriosis Resources
 
-[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. 1 in 7 women have endometriosis — approximately 570 million worldwide.
+[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [1 in 7 women have endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis) — approximately 570 million worldwide.
 
 ## Understanding Endometriosis
 
@@ -75,9 +75,8 @@ Endometriosis occurs when endometrial-like tissue grows outside the uterus, comm
 ## Support Resources
 
 ### Healthcare Providers
-- [iCareBetter](https://icarebetter.com/) - Connecting patients to endometriosis specialists
-- [The Yellow Hub](https://www.theyellowhub.org/) - Patient empowerment through technology
-- [Roon](https://www.roon.com/) - Remote access to vetted medical experts
+
+For vetted specialists and diagnostic tools, see [Healthcare Providers & Tools](/healthcare/).
 
 ### Advocacy Organizations
 - [Endometriosis Foundation of America](https://www.endofound.org/)

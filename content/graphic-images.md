@@ -3,7 +3,7 @@ title: "Graphic Images of Endo"
 description: "Visual gallery of endometriosis — surgical photos, imaging, and anatomical illustrations."
 date: 2026-03-24
 lastmod: 2026-03-24
-draft: false
+draft: true
 tags: ["endometriosis", "images", "surgery", "diagnosis"]
 keywords: ["endometriosis images", "endo surgery photos", "endometriosis pictures", "graphic images endometriosis"]
 ---

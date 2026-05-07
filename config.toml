@@ -31,7 +31,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
         {Name = "Endometriosis", URL = "/endometriosis/", HasChildren = false},
         {Name = "Adenomyosis", URL = "/adenomyosis/", HasChildren = false},
         {Name = "Diagnosis", URL = "/diagnosis/", HasChildren = false},
-        {Name = "Co-morbidities", URL = "/treatment/", HasChildren = false},
+        {Name = "Co-morbidities", URL = "/comorbidities/", HasChildren = false},
         {Name = "Healthcare", URL = "/healthcare/", HasChildren = false},
         {Name = "Resources", URL = "/resources/", HasChildren = false},
         {Name = "Education", URL = "/education/", HasChildren = false},

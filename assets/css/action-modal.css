@@ -99,12 +99,12 @@
 .action-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-    border-color: #FFD166;
+    border-color: var(--color-gold-warm);
     background: rgba(255, 255, 255, 0.12);
 }
 
 .action-card-icon {
-    color: #FFD166;
+    color: var(--color-gold-warm);
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -148,7 +148,7 @@
 }
 
 .back-button:hover {
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     transform: none !important;
     box-shadow: none !important;
     background: none !important;
@@ -172,13 +172,13 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: #FFD166;
-    border: 2px solid #5C1A3A;
+    background: var(--color-gold-warm);
+    border: 2px solid var(--color-plum-dark);
     border-radius: 25px;
     padding: 6px 14px;
     font-size: 0.75rem;
     font-weight: 600;
-    color: #5C1A3A !important;
+    color: var(--color-plum-dark) !important;
     font-family: var(--font-ui) !important;
 }
 
@@ -197,7 +197,7 @@
     background: rgba(92, 26, 58, 0.4);
 }
 
-.symptom-card:hover { border-color: #FFD166; }
+.symptom-card:hover { border-color: var(--color-gold-warm); }
 
 .symptom-header {
     display: flex;
@@ -226,7 +226,7 @@
     flex-shrink: 0;
 }
 
-.symptom-card.expanded .expand-icon { transform: rotate(180deg); color: #FFD166; }
+.symptom-card.expanded .expand-icon { transform: rotate(180deg); color: var(--color-gold-warm); }
 
 .symptom-details {
     padding: 0 14px;
@@ -258,7 +258,7 @@
 .symptoms-checklist h3 {
     font-size: 0.85rem !important;
     font-weight: 700 !important;
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     margin-bottom: 8px;
     text-align: center;
     text-shadow: none !important;
@@ -300,8 +300,8 @@
 }
 
 .checklist-item input[type="checkbox"]:checked + .checkmark {
-    background: #FFD166;
-    border-color: #FFD166;
+    background: var(--color-gold-warm);
+    border-color: var(--color-gold-warm);
 }
 
 .checklist-item input[type="checkbox"]:checked + .checkmark::after {
@@ -310,7 +310,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #5C1A3A;
+    color: var(--color-plum-dark);
     font-weight: bold;
     font-size: 12px;
 }
@@ -323,7 +323,7 @@
     font-family: var(--font-ui) !important;
 }
 
-#symptom-count { color: #FFD166; font-size: 0.85rem; }
+#symptom-count { color: var(--color-gold-warm); font-size: 0.85rem; }
 
 /* CTA Buttons in modal */
 .symptoms-cta {
@@ -346,13 +346,13 @@
 }
 
 .cta-primary {
-    background: #FFD166 !important;
-    color: #5C1A3A !important;
-    border-color: #FFD166 !important;
+    background: var(--color-gold-warm) !important;
+    color: var(--color-plum-dark) !important;
+    border-color: var(--color-gold-warm) !important;
 }
 
 .cta-primary:hover {
-    background: #FFE085 !important;
+    background: var(--color-gold-hover) !important;
     transform: translateY(-2px);
 }
 
@@ -364,8 +364,8 @@
 
 .cta-secondary:hover {
     background: rgba(255, 255, 255, 0.1) !important;
-    color: #FFD166 !important;
-    border-color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
+    border-color: var(--color-gold-warm) !important;
     transform: translateY(-2px);
 }
 
@@ -381,7 +381,7 @@
 .expandable-section h4 {
     font-size: 1.1rem !important;
     font-weight: 700 !important;
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     margin-bottom: 16px;
     text-shadow: none !important;
     border-top: none !important;
@@ -408,13 +408,13 @@
 }
 
 .resource-link:hover {
-    border-color: #FFD166;
+    border-color: var(--color-gold-warm);
     background: rgba(255, 209, 102, 0.15) !important;
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     padding: 14px !important;
 }
 
-.resource-link strong { color: #FFD166; }
+.resource-link strong { color: var(--color-gold-warm); }
 
 /* Questions Categories */
 .questions-categories {
@@ -433,7 +433,7 @@
 .question-category h5 {
     font-size: 1rem !important;
     font-weight: 600 !important;
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     margin-bottom: 10px;
     text-shadow: none !important;
 }
@@ -478,7 +478,7 @@
 .connect-category h3 {
     font-size: 1rem !important;
     font-weight: 700 !important;
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     margin-bottom: 10px;
     text-shadow: none !important;
     border-top: none !important;
@@ -505,13 +505,13 @@
 }
 
 .community-link:hover {
-    border-color: #FFD166;
+    border-color: var(--color-gold-warm);
     background: rgba(255, 209, 102, 0.15) !important;
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     padding: 8px 12px !important;
 }
 
-.community-link strong { color: #FFD166; }
+.community-link strong { color: var(--color-gold-warm); }
 
 .regional-groups {
     background: rgba(255, 255, 255, 0.08);
@@ -522,7 +522,7 @@
 }
 
 .regional-groups h4 {
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     font-size: 0.9rem !important;
     margin-bottom: 8px;
     text-shadow: none !important;
@@ -555,8 +555,8 @@
 .awareness-hero { text-align: center; margin-bottom: 30px; }
 
 .truth-callout {
-    background: #FFD166;
-    border: 3px solid #5C1A3A;
+    background: var(--color-gold-warm);
+    border: 3px solid var(--color-plum-dark);
     border-radius: 12px;
     padding: 20px 24px;
 }
@@ -632,7 +632,7 @@
 .graphics-section h4 {
     font-size: 1rem !important;
     font-weight: 600 !important;
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     margin-bottom: 16px;
     text-shadow: none !important;
     border-top: none !important;
@@ -642,7 +642,7 @@
 .graphics-credit { font-weight: 400; font-size: 0.8rem; }
 
 .graphics-credit-link {
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     text-decoration: underline !important;
 }
 
@@ -662,7 +662,7 @@
 }
 
 .graphic-preview:hover {
-    border-color: #FFD166;
+    border-color: var(--color-gold-warm);
     transform: translateY(-2px);
 }
 
@@ -688,8 +688,8 @@
 
 .save-graphic-btn {
     display: inline-block !important;
-    background: #FFD166 !important;
-    color: #5C1A3A !important;
+    background: var(--color-gold-warm) !important;
+    color: var(--color-plum-dark) !important;
     padding: 6px 14px !important;
     border-radius: 6px !important;
     font-weight: 600 !important;
@@ -699,15 +699,15 @@
 }
 
 .save-graphic-btn:hover {
-    background: #FFE085 !important;
-    color: #5C1A3A !important;
+    background: var(--color-gold-hover) !important;
+    color: var(--color-plum-dark) !important;
 }
 
 /* Share Templates */
 .share-templates h4 {
     font-size: 1rem !important;
     font-weight: 600 !important;
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     margin-bottom: 16px;
     text-shadow: none !important;
     border-top: none !important;
@@ -740,8 +740,8 @@
 }
 
 .copy-btn {
-    background: #FFD166 !important;
-    color: #5C1A3A !important;
+    background: var(--color-gold-warm) !important;
+    color: var(--color-plum-dark) !important;
     border: none !important;
     padding: 8px 16px !important;
     border-radius: 6px !important;
@@ -754,7 +754,7 @@
 }
 
 .copy-btn:hover {
-    background: #FFE085 !important;
+    background: var(--color-gold-hover) !important;
     transform: translateY(-1px);
 }
 

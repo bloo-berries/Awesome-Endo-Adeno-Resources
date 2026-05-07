@@ -6,14 +6,14 @@
 }
 
 .carousel-box {
-    background: linear-gradient(160deg, #C4873A 0%, #A0694A 40%, #6B3A5C 100%);
+    background: var(--gradient-component);
     border-radius: 10px;
     padding: 0.6rem 0.75rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 body:not(.dark-theme) .carousel-box {
-    background: linear-gradient(160deg, #D4974A 0%, #B0795A 40%, #7D4A6C 100%);
+    background: var(--gradient-component-light);
 }
 
 .carousel-title {
@@ -21,7 +21,7 @@ body:not(.dark-theme) .carousel-box {
     font-weight: 700;
     margin-bottom: 0.75rem;
     text-align: center;
-    color: #FFD166;
+    color: var(--color-gold-warm);
     font-family: var(--font-display) !important;
 }
 
@@ -76,9 +76,9 @@ body:not(.dark-theme) .carousel-box {
 }
 
 .carousel-arrow:hover {
-    background: #FFD166 !important;
-    border-color: #FFD166 !important;
-    color: #5C1A3A !important;
+    background: var(--color-gold-warm) !important;
+    border-color: var(--color-gold-warm) !important;
+    color: var(--color-plum-dark) !important;
 }
 
 .carousel-dots {
@@ -101,7 +101,7 @@ body:not(.dark-theme) .carousel-box {
 }
 
 .carousel-dot.active {
-    background: #FFD166 !important;
+    background: var(--color-gold-warm) !important;
     transform: scale(1.2);
 }
 
@@ -120,7 +120,7 @@ body:not(.dark-theme) .carousel-box {
 }
 
 .carousel-credit a:hover {
-    color: #FFD166 !important;
+    color: var(--color-gold-warm) !important;
     background: none !important;
     padding: 0 !important;
 }
@@ -132,8 +132,8 @@ body:not(.dark-theme) .carousel-box {
 .carousel-box a.carousel-cta,
 a.carousel-cta {
     display: block;
-    background: #FFD166 !important;
-    color: #5C1A3A !important;
+    background: var(--color-gold-warm) !important;
+    color: var(--color-plum-dark) !important;
     border: none !important;
     padding: 0.6rem 1rem !important;
     border-radius: 6px !important;
@@ -146,14 +146,14 @@ a.carousel-cta {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none !important;
-    -webkit-text-fill-color: #5C1A3A;
+    -webkit-text-fill-color: var(--color-plum-dark);
 }
 
 .carousel-box a.carousel-cta:hover,
 a.carousel-cta:hover {
-    background: #FFE085 !important;
+    background: var(--color-gold-hover) !important;
     transform: translateY(-1px);
-    color: #5C1A3A !important;
-    -webkit-text-fill-color: #5C1A3A;
+    color: var(--color-plum-dark) !important;
+    -webkit-text-fill-color: var(--color-plum-dark);
 }
 
