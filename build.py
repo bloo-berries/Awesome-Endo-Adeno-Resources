@@ -23,18 +23,6 @@ def load_config():
     with open(os.path.join(ROOT, "site.json")) as f:
         return json.load(f)
 
-# ── Flat menu helper (derives from nav_groups for backward compat) ──
-def get_flat_menu(cfg):
-    """Return flat list of all menu items from nav_groups + footer_links.
-    Falls back to cfg['menu'] if nav_groups is absent."""
-    if "nav_groups" not in cfg:
-        return cfg.get("menu", [])
-    items = []
-    for group in cfg["nav_groups"]:
-        items.extend(group["items"])
-    items.extend(cfg.get("footer_links", []))
-    return items
-
 def get_card_menu(cfg):
     """Return flat list of menu items for cards/panels (excludes About)."""
     if "nav_groups" not in cfg:

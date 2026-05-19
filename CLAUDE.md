@@ -21,8 +21,7 @@ Deployed via **GitHub Pages** through `.github/workflows/deploy.yml` (push to `m
 | Function | Purpose |
 |---|---|
 | `load_config()` | Read `site.json` |
-| `get_flat_menu(cfg)` | Derive flat menu list from `nav_groups` + `footer_links` (backward compat) |
-| `get_card_menu(cfg)` | Flat list for cards/panels (excludes About) |
+| `get_card_menu(cfg)` | Flat list of nav items for cards/panels (excludes About) |
 | `parse_frontmatter(text)` | Split `---` frontmatter from body, parse key-value pairs |
 | `md_to_html(text)` | Markdown→HTML: headings (auto-IDs), bold/italic, links (external→`target="_blank"`), images, lists, tables, code blocks, blockquotes, hr, raw HTML passthrough |
 | `build_css_vars(config)` | Generate complete `<style>` block: all design tokens for `body` (light) + `body.dark-theme` (dark) — brand colors, gradients, radius, font stack |

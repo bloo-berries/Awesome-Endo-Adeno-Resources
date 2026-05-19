@@ -419,13 +419,6 @@ details summary h2 {
     padding-top: 0;
 }
 
-details summary h2,
-details > summary h2 {
-    border-top: none;
-    margin-top: 0;
-    padding-top: 0;
-}
-
 /* ===== BREADCRUMBS ===== */
 
 .breadcrumbs {
@@ -1325,26 +1318,6 @@ details[open] > summary .accordion-card-chevron {
 #TableOfContents li { margin-bottom: 0.1em; line-height: 1.35; }
 #TableOfContents a { word-break: break-word; overflow-wrap: break-word; text-decoration-thickness: 1px; }
 
-.sidebar-toc #TableOfContents { font-size: 0.85rem; }
-.sidebar-toc #TableOfContents ul { padding-left: 0; list-style: none; margin: 0; }
-.sidebar-toc #TableOfContents ul ul { padding-left: 1rem; }
-.sidebar-toc #TableOfContents li { margin-bottom: 0.15rem; }
-
-.sidebar-toc #TableOfContents a {
-    display: block;
-    padding: 0.35rem 0.75rem;
-    border-radius: var(--radius-sm);
-    text-decoration: none;
-    transition: background-color 0.15s ease, color 0.15s ease;
-    color: var(--sidebar-a-color);
-    font-weight: 400;
-}
-
-.sidebar-toc #TableOfContents a:hover {
-    background-color: rgba(255, 255, 255, 0.08);
-    color: var(--color-gold);
-}
-
 /* ===== LAST UPDATED DATE ===== */
 
 .last-updated {
@@ -1407,10 +1380,6 @@ details[open] > summary .accordion-card-chevron {
     .back-to-top { bottom: 1rem; right: 1rem; }
 
     #TableOfContents { font-size: 0.85em; }
-}
-
-@media screen and (min-width: 75em) {
-    .article-toc { display: block; }
 }
 
 /* ===== REDUCED MOTION ===== */
