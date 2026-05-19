@@ -3,80 +3,104 @@
 ## Build / Serve / Deploy
 
 ```bash
-# Local development
-hugo server
+# Build site
+python3 build.py
 
-# Production build (mirrors GitHub Actions)
-hugo --gc --minify --baseURL "https://bloo-berries.github.io/Awesome-Endo-Adeno-Resources/"
-
-# Theme is a git submodule — initialize after cloning
-git submodule update --init --recursive
+# Serve locally
+python3 -m http.server 8000 --directory dist
 ```
 
-Deployed via **GitHub Pages** through `.github/workflows/hugo.yml` (push to `main` triggers build). Also configured for **Cloudflare Pages** via `wrangler.toml` (project name: `one-in-seven`, custom domain: `in7.info`).
+Deployed via **GitHub Pages** through `.github/workflows/deploy.yml` (push to `main` triggers build). Also configured for **Cloudflare Pages** via `wrangler.toml` (project name: `one-in-seven`, custom domain: `1in7.info`).
 
 ## Architecture
 
-**Hugo + Poison theme** with extensive custom overrides. No npm, no bundler — pure Hugo + vanilla JS.
+**Standalone static site** — no framework, no npm, no bundler. A Python build script (stdlib only) converts Markdown content + HTML templates into static pages. All CSS/JS is vanilla and self-contained.
+
+### Build pipeline (`build.py`)
+
+| Function | Purpose |
+|---|---|
+| `load_config()` | Read `site.json` |
+| `get_flat_menu(cfg)` | Derive flat menu list from `nav_groups` + `footer_links` (backward compat) |
+| `get_card_menu(cfg)` | Flat list for cards/panels (excludes About) |
+| `parse_frontmatter(text)` | Split `---` frontmatter from body, parse key-value pairs |
+| `md_to_html(text)` | Markdown→HTML: headings (auto-IDs), bold/italic, links (external→`target="_blank"`), images, lists, tables, code blocks, blockquotes, hr, raw HTML passthrough |
+| `build_css_vars(config)` | Generate complete `<style>` block: all design tokens for `body` (light) + `body.dark-theme` (dark) — brand colors, gradients, radius, font stack |
+| `build_sidebar_nav(config)` | Generate grouped `<nav>` with `<div class="nav-group">` sections, each with `<h3 class="nav-group-label">` and item `<ul>` |
+| `build_footer_links(config)` | Generate footer links (About) for sidebar bottom |
+| `build_menu_cards(config)` | Generate resource card buttons for homepage |
+| `build_filter_panels(pages, config)` | Render each page's content into `<article class="filter-panel">` |
+| `build_search_index(pages)` | Generate `index.json` (title, permalink, summary, content, tags) |
+| `build_structured_data(config)` | Generate JSON-LD structured data for SEO |
+| `main()` | Clean dist/, concat CSS→`dist/css/bundle.css`, concat JS→`dist/js/app.js`, build all pages, copy static assets, write `.nojekyll` + `robots.txt` |
 
 ### JS systems
 
-Extracted JS modules live in `assets/js/` and are bundled via Hugo Pipes `resources.Concat`, then inlined in `baseof.html`. Small systems remain inline.
+Extracted JS modules live in `assets/js/` and are concatenated into `dist/js/app.js` by the build script. Small systems remain inline in `templates/base.html`.
 
 | System | Location | What it does |
 |---|---|---|
 | Client-side search | `assets/js/search.js` | Loads `/index.json`, debounced real-time search (200ms), max 5 results, synonym expansion |
-| Client-side i18n | `assets/js/i18n.js` | Loads `/static/i18n/translations.json`, 27 languages, `data-i18n` attributes, localStorage persistence, RTL support for Arabic |
+| Client-side i18n | `assets/js/i18n.js` | Loads `/i18n/translations.json`, 26 languages, `data-i18n` attributes, localStorage persistence, RTL support for Arabic |
 | Image carousel | `assets/js/carousel.js` | Auto-rotating carousel with dot indicators and arrow controls |
 | Symptom poll | `assets/js/poll.js` | Checkbox-based poll submitted to Formspree |
 | Action modal | `assets/js/action-modal.js` | Modal with symptoms/connect/awareness views, checklists, copy-to-clipboard |
-| Resource card filtering | inline in `baseof.html` | Toggle-based filter cards on home page; sidebar links trigger same logic |
-| Theme toggle | inline in `baseof.html` | Light/dark mode with localStorage + system preference detection |
-| Hamburger menu | inline in `baseof.html` | Collapsible sidebar overlay on **all screen sizes**, with aria-expanded |
-| Table → accordion | inline in `baseof.html` | Converts tables to accordion layout on mobile via `data-accordion` |
-| Back-to-top | inline in `baseof.html` | Smooth scroll, appears after 300px scroll |
-| Resource card movement | inline in `baseof.html` | Moves cards from main content into header bar |
+| Codeblock copy | `assets/js/codeblock.js` | Copy button for code blocks (loaded separately via `<script defer>`) |
+| Resource card filtering | inline in `base.html` | Toggle-based filter cards on home page; sidebar links trigger same logic |
+| Theme toggle | inline in `base.html` | Light/dark mode with localStorage + system preference detection |
+| Hamburger menu | inline in `base.html` | Collapsible sidebar overlay on mobile (≤1024px), persistent on desktop |
+| Table → accordion | inline in `base.html` | Converts tables to accordion layout on mobile via `data-accordion` |
+| Back-to-top | inline in `base.html` | Smooth scroll, appears after 300px scroll |
+| Resource card movement | inline in `base.html` | Moves cards from main content into header bar |
 
 ### Search index
 
-`layouts/index.json` generates `/index.json` with title, permalink, summary (200 chars), content (500 chars), and tags.
+`build.py` generates `dist/index.json` with title, permalink, summary (200 chars), content (500 chars), and tags.
 
 ## Key File Locations
 
 | Path | Purpose |
 |---|---|
-| `config.toml` | Hugo configuration, menu, theme colors, params |
-| `layouts/_default/baseof.html` | Base template — inline JS + bundled extracted JS (~498 lines) |
-| `layouts/index.html` | Home page with resource card filter grid |
-| `layouts/_default/single.html` | Single page template |
-| `layouts/partials/sidebar/` | Sidebar: menu, title, search, language picker, copyright |
-| `layouts/partials/head/` | Head: fonts, meta, scripts, stylesheets, structured-data (JSON-LD) |
-| `layouts/partials/head/stylesheets.html` | CSS bundle override (adds extracted CSS to Hugo Pipes concat) |
-| `layouts/partials/breadcrumbs.html` | Semantic breadcrumb nav |
-| `assets/css/custom.css` | Core custom CSS (~1,823 lines) |
-| `assets/css/symptom-poll.css` | Symptom poll component styles (~203 lines) |
-| `assets/css/carousel.css` | Image carousel component styles (~159 lines) |
-| `assets/css/action-modal.css` | Action modal component styles (~777 lines) |
+| `site.json` | Site config: base URL, brand, `nav_groups` (grouped nav), `footer_links`, `colors` (brand + light/dark + gradients), CSS/JS file lists |
+| `build.py` | Python build script (stdlib only) |
+| `templates/base.html` | Base template — full page shell with sidebar, modal, inline JS |
+| `templates/home.html` | Homepage content (cards, videos, poll, carousel, stats) |
+| `templates/page.html` | Single page wrapper (breadcrumbs + content) |
+| `templates/404.html` | 404 page content |
+| `assets/css/base.css` | Clean CSS reset + semantic defaults (~130 lines, all colors via variables) |
+| `assets/css/codeblock.css` | Code block styling + syntax highlighting |
+| `assets/css/custom.css` | Core site styles — layout, sidebar, components, responsive, print |
+| `assets/css/symptom-poll.css` | Symptom poll component styles |
+| `assets/css/carousel.css` | Image carousel component styles |
+| `assets/css/action-modal.css` | Action modal component styles |
 | `assets/js/search.js` | Client-side search with synonym expansion |
-| `assets/js/i18n.js` | 27-language translation system with RTL |
+| `assets/js/i18n.js` | 26-language translation system with RTL |
 | `assets/js/carousel.js` | Image carousel auto-rotate and controls |
 | `assets/js/poll.js` | Symptom poll submission |
 | `assets/js/action-modal.js` | Action modal views, checklists, copy-to-clipboard |
-| `design/brand.md` | Brand identity: typography, colors, accessibility, UI patterns |
+| `assets/js/codeblock.js` | Code block copy button |
+| `design/brand.md` | Brand identity: Figtree font, color tokens, grouped nav, radius/gradient tokens, accessibility |
 | `wrangler.toml` | Cloudflare Pages deployment config |
-| `static/i18n/translations.json` | 27-language translation file |
+| `static/i18n/translations.json` | 26-language translation file |
 | `static/icons/`, `static/images/` | Static assets |
-| `content/` | Markdown pages: about, endometriosis, adenomyosis, diagnosis, treatment, healthcare, resources |
-| `content/posts/` | Blog posts |
-| `themes/poison/` | Poison theme (git submodule — do not edit directly) |
+| `content/` | Markdown pages: about, endometriosis, adenomyosis, diagnosis, comorbidities, healthcare, resources, education, myths, research |
+
+## Template markers
+
+The build script replaces these placeholders in templates:
+
+`{{BASE_URL}}`, `{{META_TITLE}}`, `{{BRAND}}`, `{{DESCRIPTION}}`, `{{PAGE_URL}}`, `{{PAGE_CONTENT}}`, `{{CSS_VARIABLES}}`, `{{STRUCTURED_DATA}}`, `{{SIDEBAR_NAV}}`, `{{FOOTER_LINKS}}`, `{{SOCIALS}}`, `{{MENU_CARDS}}`, `{{FILTER_PANELS}}`, `{{HOME_CONTENT}}`, `{{BREADCRUMBS}}`, `{{YEAR}}`
 
 ## Conventions
 
-- **No npm / no bundler** — Hugo is the only build tool. All JS is vanilla. Larger systems are in `assets/js/` and bundled via Hugo Pipes; smaller systems remain inline in `baseof.html`.
-- **Client-side i18n** — NOT Hugo's built-in i18n. Translations live in `/static/i18n/translations.json`; DOM elements use `data-i18n="key"` attributes; language stored in localStorage (`site-language`).
+- **No npm / no bundler** — Python stdlib is the only build tool. All JS is vanilla. JS modules in `assets/js/` are concatenated by the build script; inline JS stays in `templates/base.html`.
+- **Client-side i18n** — Translations live in `/static/i18n/translations.json`; DOM elements use `data-i18n="key"` attributes; language stored in localStorage (`site-language`).
 - **Accessibility focus** — skip-to-content link, 3px focus outlines, 44px min touch targets, ARIA labels, semantic HTML (`<nav>`, `<article>`, `<main>`, breadcrumb `<ol>`).
-- **Fonts** — Inter (UI), Source Serif 4 (body), Monaspace Argon (display/title headings h2-h4). All loaded from Google Fonts / CDN. See `design/brand.md` for full typography system.
-- **Theme overrides** — Custom layouts in `/layouts/` override the Poison theme. Never edit files inside `themes/poison/` directly.
-- **Markdown content** — Goldmark processor with unsafe HTML enabled (supports `<details>`, `<summary>`, `<main>`). Frontmatter: title, description, date, lastmod, draft, tags, keywords.
-- **Sidebar layout** — Sidebar is always off-canvas (hamburger menu) at all screen sizes. The theme's default desktop sidebar is overridden via CSS (`position: fixed`, `transform: translateX(-100%)`). Header bar with site title is always visible.
-- **Responsive breakpoint** — Mobile-first design, primary breakpoint at 768px. Resource cards use compact grid on mobile.
+- **Font** — Figtree (single family for all text). Loaded from Google Fonts. Headings differentiate by weight/size/letter-spacing. See `design/brand.md` for hierarchy.
+- **Design tokens** — All colors, gradients, radii, and font stack set by `build_css_vars()` in `build.py` as an injected `<style>` block. Light values on `body`, dark overrides on `body.dark-theme`. No `:root` in CSS, no `body:not(.dark-theme)` selectors.
+- **No `!important`** — CSS is structured so specificity conflicts are resolved without `!important`. Only exception: `@media (prefers-reduced-motion)`.
+- **Grouped navigation** — `site.json` has `nav_groups` array with 4 groups (Conditions, Getting Care, Support, Research). `build_sidebar_nav()` emits `<div class="nav-group">` with `<h3 class="nav-group-label">`. Flat `menu` array kept for backward compat.
+- **Standalone design** — No external dependencies. `assets/css/base.css` provides the CSS reset with variable-based colors. CSS custom properties from `site.json` config.
+- **Markdown content** — Custom `md_to_html()` converter with raw HTML passthrough (supports `<details>`, `<summary>`, `<main>`). Frontmatter: title, description, date, lastmod, draft, tags, keywords.
+- **Sidebar layout** — Persistent on desktop (>1024px) with content margin-left. Off-canvas on mobile (≤1024px) with hamburger toggle and overlay.
+- **Responsive breakpoints** — Mobile-first design. Primary: 768px (layout). Secondary: 1024px (sidebar persistent). Resource cards use compact grid on mobile.

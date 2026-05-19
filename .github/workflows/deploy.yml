@@ -1,4 +1,4 @@
-name: Deploy Hugo site to Pages
+name: Deploy site to Pages
 
 on:
   push:
@@ -24,34 +24,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          submodules: recursive
-          fetch-depth: 0
-      
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-      
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
-      
-      - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "https://bloo-berries.github.io/Awesome-Endo-Adeno-Resources/"
-      
+          python-version: '3.12'
+
+      - name: Build site
+        run: python build.py
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./dist
 
   deploy:
     environment:

@@ -1,12 +1,130 @@
-{{ partial "head/head.html" . }}
-    <body class="{{if .Site.Params.layoutReverse}}layout-reverse {{end}}{{if .Site.Params.dark_mode}}dark-theme{{end}}">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    <!-- Content Type -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{BASE_URL}}favicon.svg">
+    <link rel="icon" type="image/png" href="{{BASE_URL}}favicon.svg">
+
+    <!-- Font: Figtree (single family for all text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!-- META -->
+    <title itemprop="name">{{META_TITLE}}</title>
+    <meta property="og:title" content="{{META_TITLE}}" />
+    <meta name="twitter:title" content="{{META_TITLE}}" />
+    <meta itemprop="name" content="{{META_TITLE}}" />
+    <meta name="application-name" content="{{META_TITLE}}" />
+    <meta property="og:site_name" content="{{BRAND}}" />
+
+    <meta name="description" content="{{DESCRIPTION}}" />
+    <meta itemprop="description" content="{{DESCRIPTION}}" />
+    <meta property="og:description" content="{{DESCRIPTION}}" />
+    <meta name="twitter:description" content="{{DESCRIPTION}}" />
+
+    <base href="{{PAGE_URL}}" />
+    <link rel="canonical" href="{{PAGE_URL}}" itemprop="url" />
+    <meta name="url" content="{{PAGE_URL}}" />
+    <meta name="twitter:url" content="{{PAGE_URL}}" />
+    <meta property="og:url" content="{{PAGE_URL}}" />
+
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="apple-mobile-web-app-title" content="{{BRAND}}" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="{{BASE_URL}}css/bundle.css">
+
+    <!-- Theme color variables -->
+    {{CSS_VARIABLES}}
+
+    <!-- Structured Data (JSON-LD) -->
+    {{STRUCTURED_DATA}}
+
+    <!-- Codeblock JS (deferred) -->
+    <script defer type="text/javascript" src="{{BASE_URL}}js/codeblock.js"></script>
+</head>
+    <body class="dark-theme">
         <a href="#main-content" class="skip-link" data-i18n="skip_to_content">Skip to main content</a>
         <div class="wrapper">
-            {{ partial "sidebar/sidebar.html" . }}
+            <aside class="sidebar" id="sidebar">
+                <div class="container sidebar-sticky">
+                    <div class="sidebar-about">
+                        <h1 class="brand">
+                            <a href="{{BASE_URL}}">
+                                <h1>{{BRAND}}</h1>
+                            </a>
+                        </h1>
+                    </div>
+                    <!-- Search -->
+                    <div class="sidebar-search">
+                        <div class="search-wrapper">
+                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <input type="search" id="search-input" placeholder="Search resources..." aria-label="Search resources" data-i18n="search_placeholder" data-i18n-attr="placeholder" data-i18n-aria="search_label">
+                        </div>
+                        <div id="search-results" class="search-results"></div>
+                    </div>
+                    <!-- Language Picker -->
+                    <div class="lang-picker-wrapper">
+                        <select id="lang-picker" aria-label="Select language">
+                            <option value="en">English</option>
+                            <option value="ar">العربية</option>
+                            <option value="bn">বাংলা</option>
+                            <option value="ca">Català</option>
+                            <option value="zh">中文</option>
+                            <option value="nl">Nederlands</option>
+                            <option value="fi">Suomi</option>
+                            <option value="fr">Français</option>
+                            <option value="de">Deutsch</option>
+                            <option value="el">Ελληνικά</option>
+                            <option value="hi">हिन्दी</option>
+                            <option value="is">Íslenska</option>
+                            <option value="ga">Gaeilge</option>
+                            <option value="it">Italiano</option>
+                            <option value="ja">日本語</option>
+                            <option value="ko">한국어</option>
+                            <option value="no">Norsk</option>
+                            <option value="pl">Polski</option>
+                            <option value="pt">Português</option>
+                            <option value="ru">Русский</option>
+                            <option value="es">Español</option>
+                            <option value="sw">Kiswahili</option>
+                            <option value="sv">Svenska</option>
+                            <option value="tr">Türkçe</option>
+                            <option value="uk">Українська</option>
+                            <option value="vi">Tiếng Việt</option>
+                        </select>
+                    </div>
+                    {{SIDEBAR_NAV}}
+                    <!-- Footer links -->
+                    {{FOOTER_LINKS}}
+                    <!-- Socials -->
+                    {{SOCIALS}}
+                    <p class="footnote">
+                        &copy; {{YEAR}} Bloomed Health
+                    </p>
+                </div>
+            </aside>
+            <!-- Mobile hamburger button -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false" data-i18n="toggle_menu" data-i18n-attr="aria-label">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="mobile-overlay" id="mobile-overlay"></div>
             <main class="content container" id="main-content">
                 <div class="theme-toggle-wrapper">
                     <div class="mobile-header-bar">
-                        <a href="{{ site.Home.RelPermalink }}" class="mobile-title" data-i18n="site_title">1 in 7</a>
+                        <a href="{{BASE_URL}}" class="mobile-title" data-i18n="site_title">1 in 7</a>
                     </div>
                     <div class="header-cards" id="header-cards"></div>
                     <div class="theme-toggle" id="theme-toggle">
@@ -16,7 +134,7 @@
                         </button>
                     </div>
                 </div>
-                {{ block "main" . -}}{{- end }}
+                {{PAGE_CONTENT}}
                 <!-- Back to Top Button -->
                 <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top" data-i18n="back_to_top" data-i18n-attr="title,aria-label">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -24,7 +142,6 @@
                     </svg>
                 </button>
             </main>
-            {{ block "sidebar" . }}{{ end }}
         </div>
 
         <!-- Action Modal -->
@@ -233,9 +350,9 @@
         </div>
 
         <script>
-        // Hugo-generated URLs for extracted JS modules
-        window.__searchIndexURL = '{{ "index.json" | absURL }}';
-        window.__translationsURL = '{{ "i18n/translations.json" | absURL }}';
+        // URLs for extracted JS modules
+        window.__searchIndexURL = '{{BASE_URL}}index.json';
+        window.__translationsURL = '{{BASE_URL}}i18n/translations.json';
 
         // Move resource cards into header bar
         (function() {
@@ -296,6 +413,19 @@
 
         // Convert tables to accordion layout
         (function() {
+            var chevronSVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>';
+
+            function stripTags(html) {
+                var tmp = document.createElement('div');
+                tmp.innerHTML = html;
+                return tmp.textContent.trim();
+            }
+
+            function truncate(text, max) {
+                if (text.length <= max) return text;
+                return text.substring(0, max).replace(/\s+\S*$/, '') + '…';
+            }
+
             var tables = document.querySelectorAll('.content table');
             tables.forEach(function(table) {
                 var thead = table.querySelector('thead');
@@ -317,10 +447,36 @@
                     var details = document.createElement('details');
                     details.setAttribute('data-accordion', 'table');
 
+                    // Title: strip <strong>/<b> wrappers but keep text
+                    var titleHTML = cells[0].innerHTML;
+                    var titleText = stripTags(titleHTML);
+
+                    // Badge + preview based on column count
+                    var badgeText = '';
+                    var previewText = '';
+                    if (cells.length >= 3) {
+                        badgeText = stripTags(cells[1].innerHTML);
+                        previewText = truncate(stripTags(cells[2].innerHTML), 120);
+                    } else if (cells.length === 2) {
+                        previewText = truncate(stripTags(cells[1].innerHTML), 120);
+                    }
+
+                    // Build summary
                     var summary = document.createElement('summary');
-                    summary.innerHTML = cells[0].innerHTML;
+                    var headerDiv = '<div class="accordion-card-header">';
+                    headerDiv += '<span class="accordion-card-title">' + titleText + '</span>';
+                    if (badgeText) {
+                        headerDiv += '<span class="accordion-card-badge">' + badgeText + '</span>';
+                    }
+                    headerDiv += '<span class="accordion-card-chevron">' + chevronSVG + '</span>';
+                    headerDiv += '</div>';
+                    if (previewText) {
+                        headerDiv += '<p class="accordion-card-preview">' + previewText + '</p>';
+                    }
+                    summary.innerHTML = headerDiv;
                     details.appendChild(summary);
 
+                    // Expanded content: all non-first cells as dt/dd
                     if (cells.length > 1) {
                         var dl = document.createElement('dl');
                         dl.className = 'table-accordion-content';
@@ -485,14 +641,7 @@
         })();
         </script>
 
-        {{/* Bundled extracted JS modules */}}
-        {{ $js_bundle := slice
-            (resources.Get "js/search.js")
-            (resources.Get "js/i18n.js")
-            (resources.Get "js/carousel.js")
-            (resources.Get "js/poll.js")
-            (resources.Get "js/action-modal.js")
-          | resources.Concat "js/app.js" | minify }}
-        <script>{{ $js_bundle.Content | safeJS }}</script>
+        <!-- Bundled extracted JS modules -->
+        <script src="{{BASE_URL}}js/app.js"></script>
     </body>
 </html>
