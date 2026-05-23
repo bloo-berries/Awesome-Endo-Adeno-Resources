@@ -33,6 +33,12 @@ jobs:
       - name: Build site
         run: python build.py
 
+      - name: Check links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --no-progress --exclude fonts.googleapis.com --exclude formspree.io --exclude 'localhost' './dist/**/*.html'
+          fail: false
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -8,16 +8,7 @@ tags: ["myths", "facts", "endometriosis", "adenomyosis", "awareness"]
 keywords: ["endometriosis myths", "adenomyosis myths", "period pain myths", "endo facts", "endometriosis misconceptions"]
 ---
 
-## Crisis & Mental Health Support
-
-If you or someone you know is in crisis or struggling with chronic pain, please reach out:
-
-- **988 Suicide & Crisis Lifeline** (U.S.) — Call or text **988** | [988lifeline.org](https://988lifeline.org/)
-- **Crisis Text Line** (U.S., U.K., Canada, Ireland) — Text **HOME** to **741741** | [crisistextline.org](https://www.crisistextline.org/)
-- **Samaritans** (U.K. & Ireland) — Call **116 123** (free, 24/7) | [samaritans.org](https://www.samaritans.org/)
-- **Lifeline Australia** — Call **13 11 14** | [lifeline.org.au](https://www.lifeline.org.au/)
-- **International Association for Suicide Prevention** — [Find a crisis centre](https://www.iasp.info/resources/Crisis_Centres/)
-- **Endometriosis UK Helpline** — Call **0808 808 2227** | [endometriosis-uk.org](https://www.endometriosis-uk.org/helpline)
+If you are struggling, help is available — see [Crisis Support & Mental Health Resources](/mental-health/#crisis-support).
 
 ---
 

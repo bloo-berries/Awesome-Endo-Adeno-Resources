@@ -1,0 +1,145 @@
+/* layout.css — Scrollbar, layout, theme toggle, header bar */
+
+/* ===== SCROLLBAR STYLING ===== */
+
+.container.content {
+    scrollbar-width: auto;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+.container.content::-webkit-scrollbar { width: 10px; }
+.container.content::-webkit-scrollbar-track { background: var(--scrollbar-track); margin: 0.5em 0; }
+.container.content::-webkit-scrollbar-thumb { background-color: var(--scrollbar-thumb); border-radius: 5px; border: 2px solid transparent; background-clip: content-box; }
+
+.sidebar {
+    scrollbar-width: auto;
+    scrollbar-color: var(--white-soft) transparent;
+}
+
+.sidebar::-webkit-scrollbar { width: 10px; }
+.sidebar::-webkit-scrollbar-track { background: transparent; }
+.sidebar::-webkit-scrollbar-thumb { background-color: var(--white-soft); border-radius: 5px; border: 2px solid transparent; background-clip: content-box; }
+
+/* ===== LAYOUT ===== */
+
+body {
+    overflow-x: auto;
+    overflow-y: auto;
+    height: auto;
+}
+
+.container.content {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+body > .wrapper {
+    display: block;
+    max-width: 100vw;
+    overflow-x: auto;
+}
+
+.post, .content div, .content p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.content pre, .content code {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.85em;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.content .post,
+.content .posts,
+.content .home-content {
+    max-width: 100%;
+}
+
+/* ===== THEME TOGGLE / HEADER BAR ===== */
+
+.theme-toggle-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.75rem 0.5rem 0.3rem 0.5rem;
+    margin: 0;
+    background: var(--bkg-color);
+    gap: 0.5rem;
+}
+
+/* Header bar: visible at all sizes */
+.mobile-header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: 0 3.5rem;
+    margin: 0;
+}
+
+.mobile-title {
+    display: block;
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--text-color);
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    position: fixed;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 1100;
+}
+
+.toggle-btn {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background: rgba(196, 152, 42, 0.1);
+    border: 1px solid rgba(196, 152, 42, 0.25);
+    color: var(--color-gold-bright);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.toggle-btn:hover {
+    background: rgba(196, 152, 42, 0.2);
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+.toggle-icon { display: block; }
+
+.header-cards { flex: 1; }
+.header-cards .resource-cards { margin-bottom: 0; }

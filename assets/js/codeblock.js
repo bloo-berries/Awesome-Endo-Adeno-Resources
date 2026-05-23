@@ -1,30 +1,20 @@
-document.addEventListener("DOMContentLoaded", function() {
+// Code Block Copy Buttons
+(function() {
+    var codeblocks = document.querySelectorAll('pre code');
+    codeblocks.forEach(function(codeblock) {
+        var copyButton = document.createElement('button');
+        copyButton.className = 'copy-button';
+        var container = document.createElement('div');
+        container.className = 'code-container';
 
-  // Get code blocks
-  const codeblocks = document.querySelectorAll("pre code");
+        copyButton.addEventListener('click', function(e) {
+            e.target.className = 'copy-success';
+            setTimeout(function() { e.target.className = 'copy-button'; }, 1000);
+            navigator.clipboard.writeText(codeblock.textContent);
+        });
 
-  // Iterate over each to perform modifications
-  codeblocks.forEach((codeblock) => {
-    // Create copy button and container element
-    const copyButton = document.createElement("button");
-    copyButton.className = "copy-button";
-    const container = document.createElement("div");
-    container.className = "code-container";
-
-    // Copy clicked closure
-    copyButton.addEventListener("click", (e) => {
-      e.target.className = "copy-success";
-      setTimeout(() => {
-        e.target.className = "copy-button";
-      }, 1000);
-      const code = codeblock.textContent;
-      navigator.clipboard.writeText(code);
+        codeblock.parentNode.insertBefore(container, codeblock);
+        container.appendChild(codeblock);
+        container.appendChild(copyButton);
     });
-
-    // Wrap the codeblock with the container
-    codeblock.parentNode.insertBefore(container, codeblock);
-    container.appendChild(codeblock);
-    // Add the copy button to the container
-    container.appendChild(copyButton);
-  })
-});
+})();

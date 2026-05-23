@@ -11,6 +11,17 @@
     var currentIndex = 0;
     var autoRotateInterval = null;
 
+    // Accessibility: make carousel a keyboard-navigable region
+    if (carouselBox) {
+        carouselBox.setAttribute('tabindex', '0');
+        carouselBox.setAttribute('role', 'region');
+        carouselBox.setAttribute('aria-label', 'Image carousel');
+    }
+    slides.forEach(function(slide, i) {
+        slide.setAttribute('aria-roledescription', 'slide');
+        slide.setAttribute('aria-label', 'Slide ' + (i + 1) + ' of ' + slides.length);
+    });
+
     slides.forEach(function(_, i) {
         var dot = document.createElement('button');
         dot.classList.add('carousel-dot');
@@ -36,6 +47,11 @@
     if (carouselBox) {
         carouselBox.addEventListener('mouseenter', stopAutoRotate);
         carouselBox.addEventListener('mouseleave', startAutoRotate);
+        // Keyboard navigation
+        carouselBox.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') { prevSlide(); startAutoRotate(); e.preventDefault(); }
+            if (e.key === 'ArrowRight') { nextSlide(); startAutoRotate(); e.preventDefault(); }
+        });
     }
     startAutoRotate();
 })();

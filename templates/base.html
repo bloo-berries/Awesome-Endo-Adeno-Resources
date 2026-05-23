@@ -9,7 +9,7 @@
 
     <!-- favicon -->
     <link rel="icon" type="image/svg+xml" href="{{BASE_URL}}favicon.svg">
-    <link rel="icon" type="image/png" href="{{BASE_URL}}favicon.svg">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="{{BASE_URL}}favicon.svg">
 
     <!-- Font: Figtree (single family for all text) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,10 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
     <!-- META -->
-    <title itemprop="name">{{META_TITLE}}</title>
+    <title>{{META_TITLE}}</title>
     <meta property="og:title" content="{{META_TITLE}}" />
     <meta name="twitter:title" content="{{META_TITLE}}" />
-    <meta itemprop="name" content="{{META_TITLE}}" />
     <meta name="application-name" content="{{META_TITLE}}" />
     <meta property="og:site_name" content="{{BRAND}}" />
 
@@ -34,6 +33,10 @@
     <meta name="url" content="{{PAGE_URL}}" />
     <meta name="twitter:url" content="{{PAGE_URL}}" />
     <meta property="og:url" content="{{PAGE_URL}}" />
+    <meta property="og:image" content="{{OG_IMAGE}}" />
+    <meta property="og:type" content="{{OG_TYPE}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{OG_IMAGE}}" />
 
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
@@ -42,7 +45,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <!-- CSS -->
-    <link type="text/css" rel="stylesheet" href="{{BASE_URL}}css/bundle.css">
+    <link type="text/css" rel="stylesheet" href="{{BASE_URL}}{{CSS_BUNDLE}}">
 
     <!-- Theme color variables -->
     {{CSS_VARIABLES}}
@@ -50,8 +53,6 @@
     <!-- Structured Data (JSON-LD) -->
     {{STRUCTURED_DATA}}
 
-    <!-- Codeblock JS (deferred) -->
-    <script defer type="text/javascript" src="{{BASE_URL}}js/codeblock.js"></script>
 </head>
     <body class="dark-theme">
         <a href="#main-content" class="skip-link" data-i18n="skip_to_content">Skip to main content</a>
@@ -60,9 +61,7 @@
                 <div class="container sidebar-sticky">
                     <div class="sidebar-about">
                         <h1 class="brand">
-                            <a href="{{BASE_URL}}">
-                                <h1>{{BRAND}}</h1>
-                            </a>
+                            <a href="{{BASE_URL}}" onclick="window.location.href=this.href;">{{BRAND}}</a>
                         </h1>
                     </div>
                     <!-- Search -->
@@ -358,9 +357,7 @@
         (function() {
             var cards = document.querySelector('.resource-cards');
             var target = document.getElementById('header-cards');
-            if (cards && target) {
-                target.appendChild(cards);
-            }
+            if (cards && target) target.appendChild(cards);
         })();
 
         // Adenomyosis info tooltip toggle (mobile click)
@@ -388,206 +385,17 @@
             var container = document.querySelector('.content.container');
             if (!btn) return;
             var isMobile = window.innerWidth <= 768;
-
             function onScroll() {
                 var scrollTop = isMobile
                     ? (window.pageYOffset || document.documentElement.scrollTop)
                     : (container ? container.scrollTop : 0);
                 btn.classList.toggle('visible', scrollTop > 300);
             }
-
-            if (isMobile) {
-                window.addEventListener('scroll', onScroll);
-            } else if (container) {
-                container.addEventListener('scroll', onScroll);
-            }
-
+            if (isMobile) window.addEventListener('scroll', onScroll);
+            else if (container) container.addEventListener('scroll', onScroll);
             btn.addEventListener('click', function() {
-                if (isMobile) {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                } else if (container) {
-                    container.scrollTo({ top: 0, behavior: 'smooth' });
-                }
-            });
-        })();
-
-        // Convert tables to accordion layout
-        (function() {
-            var chevronSVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>';
-
-            function stripTags(html) {
-                var tmp = document.createElement('div');
-                tmp.innerHTML = html;
-                return tmp.textContent.trim();
-            }
-
-            function truncate(text, max) {
-                if (text.length <= max) return text;
-                return text.substring(0, max).replace(/\s+\S*$/, '') + '…';
-            }
-
-            var tables = document.querySelectorAll('.content table');
-            tables.forEach(function(table) {
-                var thead = table.querySelector('thead');
-                if (!thead) return;
-                var headers = [];
-                thead.querySelectorAll('th').forEach(function(th) {
-                    headers.push(th.textContent.trim());
-                });
-                if (headers.length < 2) return;
-
-                var container = document.createElement('div');
-                container.className = 'table-accordion';
-
-                var rows = table.querySelectorAll('tbody tr');
-                rows.forEach(function(row) {
-                    var cells = row.querySelectorAll('td');
-                    if (!cells.length) return;
-
-                    var details = document.createElement('details');
-                    details.setAttribute('data-accordion', 'table');
-
-                    // Title: strip <strong>/<b> wrappers but keep text
-                    var titleHTML = cells[0].innerHTML;
-                    var titleText = stripTags(titleHTML);
-
-                    // Badge + preview based on column count
-                    var badgeText = '';
-                    var previewText = '';
-                    if (cells.length >= 3) {
-                        badgeText = stripTags(cells[1].innerHTML);
-                        previewText = truncate(stripTags(cells[2].innerHTML), 120);
-                    } else if (cells.length === 2) {
-                        previewText = truncate(stripTags(cells[1].innerHTML), 120);
-                    }
-
-                    // Build summary
-                    var summary = document.createElement('summary');
-                    var headerDiv = '<div class="accordion-card-header">';
-                    headerDiv += '<span class="accordion-card-title">' + titleText + '</span>';
-                    if (badgeText) {
-                        headerDiv += '<span class="accordion-card-badge">' + badgeText + '</span>';
-                    }
-                    headerDiv += '<span class="accordion-card-chevron">' + chevronSVG + '</span>';
-                    headerDiv += '</div>';
-                    if (previewText) {
-                        headerDiv += '<p class="accordion-card-preview">' + previewText + '</p>';
-                    }
-                    summary.innerHTML = headerDiv;
-                    details.appendChild(summary);
-
-                    // Expanded content: all non-first cells as dt/dd
-                    if (cells.length > 1) {
-                        var dl = document.createElement('dl');
-                        dl.className = 'table-accordion-content';
-                        for (var i = 1; i < cells.length; i++) {
-                            var row_div = document.createElement('div');
-                            row_div.className = 'table-accordion-row';
-                            var dt = document.createElement('dt');
-                            dt.textContent = headers[i] || '';
-                            var dd = document.createElement('dd');
-                            dd.innerHTML = cells[i].innerHTML;
-                            row_div.appendChild(dt);
-                            row_div.appendChild(dd);
-                            dl.appendChild(row_div);
-                        }
-                        details.appendChild(dl);
-                    }
-                    container.appendChild(details);
-                });
-
-                if (container.children.length > 0) {
-                    table.parentNode.replaceChild(container, table);
-                }
-            });
-        })();
-
-        // Resource Card Filters + Sidebar Nav Filters
-        (function() {
-            var cards = document.querySelectorAll('.resource-card[data-filter]');
-            var sidebarLinks = document.querySelectorAll('[data-sidebar-filter]');
-            var panels = document.querySelectorAll('.filter-panel[data-panel]');
-            var homeDefault = document.getElementById('home-default');
-            var featuredVideo = document.getElementById('featured-video');
-            var pollSection = document.getElementById('poll-section');
-            var carouselSection = document.getElementById('carousel-section');
-            var ctaSection = document.getElementById('cta-section');
-            var statsRow = document.querySelector('.statistics-row');
-            if (!panels.length) return;
-
-            var homeSections = [homeDefault, featuredVideo, pollSection, carouselSection, ctaSection, statsRow];
-
-            var activeFilter = null;
-
-            function applyFilter(filter) {
-                // Toggle off if already active
-                if (activeFilter === filter) {
-                    activeFilter = null;
-                    cards.forEach(function(c) {
-                        c.classList.remove('card-active');
-                        c.setAttribute('aria-pressed', 'false');
-                    });
-                    sidebarLinks.forEach(function(l) { l.classList.remove('active'); });
-                    panels.forEach(function(p) { p.style.display = 'none'; });
-                    homeSections.forEach(function(s) { if (s) s.style.display = ''; });
-                    return;
-                }
-
-                activeFilter = filter;
-
-                // Update card button states
-                cards.forEach(function(c) {
-                    c.classList.remove('card-active');
-                    c.setAttribute('aria-pressed', 'false');
-                });
-                var matchingCard = document.querySelector('.resource-card[data-filter="' + filter + '"]');
-                if (matchingCard) {
-                    matchingCard.classList.add('card-active');
-                    matchingCard.setAttribute('aria-pressed', 'true');
-                }
-
-                // Update sidebar link states
-                sidebarLinks.forEach(function(l) { l.classList.remove('active'); });
-                var matchingLink = document.querySelector('[data-sidebar-filter="' + filter + '"]');
-                if (matchingLink) matchingLink.classList.add('active');
-
-                // Show matching panel, hide others
-                panels.forEach(function(p) {
-                    p.style.display = p.getAttribute('data-panel') === filter ? '' : 'none';
-                });
-                homeSections.forEach(function(s) { if (s) s.style.display = 'none'; });
-
-                // Scroll to content below sticky header
-                var target = document.getElementById('filtered-content');
-                var container = document.querySelector('.content.container');
-                if (target && container) {
-                    var headerHeight = document.querySelector('.theme-toggle-wrapper').offsetHeight;
-                    var targetTop = target.offsetTop - headerHeight - 8;
-                    container.scrollTo({ top: targetTop, behavior: 'smooth' });
-                }
-
-                // Close mobile menu if open
-                var sidebar = document.getElementById('sidebar');
-                var menuBtn = document.getElementById('mobile-menu-btn');
-                var overlay = document.getElementById('mobile-overlay');
-                if (sidebar && sidebar.classList.contains('open')) {
-                    sidebar.classList.remove('open');
-                    if (menuBtn) { menuBtn.classList.remove('active'); menuBtn.setAttribute('aria-expanded', 'false'); }
-                    if (overlay) overlay.classList.remove('active');
-                }
-            }
-
-            cards.forEach(function(card) {
-                card.addEventListener('click', function() {
-                    applyFilter(this.getAttribute('data-filter'));
-                });
-            });
-
-            sidebarLinks.forEach(function(link) {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    applyFilter(this.getAttribute('data-sidebar-filter'));
-                });
+                if (isMobile) window.scrollTo({ top: 0, behavior: 'smooth' });
+                else if (container) container.scrollTo({ top: 0, behavior: 'smooth' });
             });
         })();
 
@@ -597,14 +405,12 @@
             var sidebar = document.getElementById('sidebar');
             var overlay = document.getElementById('mobile-overlay');
             if (!btn || !sidebar) return;
-
             function toggleMenu() {
                 var isOpen = sidebar.classList.toggle('open');
                 btn.classList.toggle('active');
                 if (overlay) overlay.classList.toggle('active');
                 btn.setAttribute('aria-expanded', isOpen);
             }
-
             btn.addEventListener('click', toggleMenu);
             if (overlay) overlay.addEventListener('click', toggleMenu);
         })();
@@ -615,33 +421,25 @@
             if (!btn) return;
             var sunIcon = btn.querySelector('.sun-icon');
             var moonIcon = btn.querySelector('.moon-icon');
-
-            // Restore saved theme
             var saved = localStorage.getItem('theme');
-            if (saved === 'dark') {
-                document.body.classList.add('dark-theme');
-            } else if (saved === 'light') {
-                document.body.classList.remove('dark-theme');
-            }
-
+            if (saved === 'dark') document.body.classList.add('dark-theme');
+            else if (saved === 'light') document.body.classList.remove('dark-theme');
             function updateIcons() {
                 var isDark = document.body.classList.contains('dark-theme');
                 sunIcon.style.display = isDark ? 'none' : 'block';
                 moonIcon.style.display = isDark ? 'block' : 'none';
             }
-
             btn.addEventListener('click', function() {
                 document.body.classList.toggle('dark-theme');
                 var isDark = document.body.classList.contains('dark-theme');
                 localStorage.setItem('theme', isDark ? 'dark' : 'light');
                 updateIcons();
             });
-
             updateIcons();
         })();
         </script>
 
         <!-- Bundled extracted JS modules -->
-        <script src="{{BASE_URL}}js/app.js"></script>
+        <script src="{{BASE_URL}}{{JS_BUNDLE}}"></script>
     </body>
 </html>

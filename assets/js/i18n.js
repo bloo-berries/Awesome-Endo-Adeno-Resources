@@ -6,21 +6,24 @@
     function applyTranslations(lang) {
         if (!translations || !translations[lang]) return;
         var t = translations[lang];
+        var fallback = translations.en || {};
         document.querySelectorAll('[data-i18n]').forEach(function(el) {
             var key = el.getAttribute('data-i18n');
-            if (!t[key]) return;
+            var value = t[key] || fallback[key];
+            if (!value) return;
             var attrs = el.getAttribute('data-i18n-attr');
             if (attrs) {
                 attrs.split(',').forEach(function(attr) {
-                    el.setAttribute(attr.trim(), t[key]);
+                    el.setAttribute(attr.trim(), value);
                 });
             } else {
-                el.textContent = t[key];
+                el.textContent = value;
             }
             // Handle separate aria-label key
             var ariaKey = el.getAttribute('data-i18n-aria');
-            if (ariaKey && t[ariaKey]) {
-                el.setAttribute('aria-label', t[ariaKey]);
+            if (ariaKey) {
+                var ariaValue = t[ariaKey] || fallback[ariaKey];
+                if (ariaValue) el.setAttribute('aria-label', ariaValue);
             }
         });
         // Update no-results text if visible

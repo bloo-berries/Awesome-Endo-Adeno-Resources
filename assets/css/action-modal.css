@@ -44,7 +44,7 @@
     padding: 6px;
     border-radius: var(--radius-md);
     color: rgba(255, 255, 255, 0.7);
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
     z-index: 10;
     min-width: auto;
     min-height: auto;
@@ -76,8 +76,8 @@
 .action-cards { display: grid; grid-template-columns: 1fr; gap: 20px; }
 
 .action-card {
-    background: rgba(255, 255, 255, 0.08);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: var(--white-subtle);
+    border: 2px solid var(--white-soft);
     border-radius: var(--radius-lg);
     padding: 30px;
     text-align: center;
@@ -88,7 +88,7 @@
 }
 
 .action-card:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow-md);
     border-color: var(--color-gold-warm);
     background: rgba(255, 255, 255, 0.12);
 }
@@ -157,7 +157,7 @@
 .symptoms-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 12px; }
 
 .symptom-card {
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid var(--white-soft);
     border-radius: var(--radius-md);
     overflow: hidden;
     transition: all 0.3s ease;
@@ -203,8 +203,8 @@
 
 /* Symptoms Checklist */
 .symptoms-checklist {
-    background: rgba(255, 255, 255, 0.08);
-    border: 2px solid rgba(255, 255, 255, 0.15);
+    background: var(--white-subtle);
+    border: 2px solid var(--white-muted);
     border-radius: var(--radius-md);
     padding: 10px 16px;
     margin-bottom: 12px;
@@ -235,7 +235,7 @@
     font-size: 0.75rem;
 }
 
-.checklist-item:hover { background: rgba(255, 255, 255, 0.08); }
+.checklist-item:hover { background: var(--white-subtle); }
 .checklist-item input[type="checkbox"] { display: none; }
 
 .checkmark {
@@ -244,7 +244,7 @@
     border: 2px solid rgba(255, 255, 255, 0.4);
     border-radius: 3px;
     position: relative;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
     flex-shrink: 0;
 }
 
@@ -273,7 +273,7 @@
     font-size: 0.8rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
     border: 2px solid;
     text-align: center;
     min-height: auto;
@@ -288,11 +288,11 @@
 
 /* Expandable sections */
 .expandable-section {
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--white-subtle);
     border-radius: var(--radius-lg);
     padding: 24px;
     margin-top: 16px;
-    border: 2px solid rgba(255, 255, 255, 0.15);
+    border: 2px solid var(--white-muted);
 }
 
 .expandable-section h4 {
@@ -311,11 +311,11 @@
     display: block;
     padding: 14px;
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid var(--white-soft);
     border-radius: var(--radius-md);
     text-decoration: none;
     color: #fff;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
     font-size: 0.85rem;
 }
 
@@ -326,10 +326,10 @@
 .questions-categories { display: grid; grid-template-columns: 1fr; gap: 16px; }
 
 .question-category {
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--white-subtle);
     border-radius: var(--radius-md);
     padding: 16px;
-    border: 2px solid rgba(255, 255, 255, 0.15);
+    border: 2px solid var(--white-muted);
 }
 
 .question-category h5 {
@@ -384,22 +384,22 @@
     display: block;
     padding: 8px 12px;
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid var(--white-soft);
     border-radius: var(--radius-sm);
     text-decoration: none;
     color: #fff;
     font-size: 0.8rem;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
 }
 
 .community-link:hover { border-color: var(--color-gold-warm); background: rgba(255, 209, 102, 0.15); color: var(--color-gold-warm); }
 .community-link strong { color: var(--color-gold-warm); }
 
 .regional-groups {
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--white-subtle);
     border-radius: var(--radius-md);
     padding: 12px 14px;
-    border: 2px solid rgba(255, 255, 255, 0.15);
+    border: 2px solid var(--white-muted);
     margin-top: 14px;
 }
 
@@ -460,7 +460,7 @@
     text-decoration: none;
     font-size: 0.7rem;
     font-weight: 600;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
     border: none;
     min-height: auto;
     min-width: auto;
@@ -489,12 +489,12 @@
 .graphics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
 
 .graphic-preview {
-    background: rgba(255, 255, 255, 0.08);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: var(--white-subtle);
+    border: 2px solid var(--white-soft);
     border-radius: var(--radius-lg);
     padding: 16px;
     text-align: center;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
 }
 
 .graphic-preview:hover { border-color: var(--color-gold-warm); }
@@ -528,7 +528,7 @@
     font-weight: 600;
     font-size: 0.8rem;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
 }
 
 .save-graphic-btn:hover { background: var(--color-gold-hover); color: var(--color-plum-dark); }
@@ -545,10 +545,10 @@
 }
 
 .template-section {
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--white-subtle);
     border-radius: var(--radius-lg);
     padding: 16px;
-    border: 2px solid rgba(255, 255, 255, 0.15);
+    border: 2px solid var(--white-muted);
 }
 
 .template-content { display: flex; flex-direction: column; gap: 12px; }
@@ -572,13 +572,15 @@
     border-radius: var(--radius-sm);
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
     align-self: flex-start;
     font-size: 0.8rem;
     min-height: auto;
 }
 
 .copy-btn:hover { background: var(--color-gold-hover); transform: translateY(-1px); }
+.copy-btn.copy-success-state { background: var(--color-plum-dark); color: #fff; }
+.copy-btn.copy-error-state { background: var(--color-error); color: #fff; }
 
 /* Modal responsive */
 @media (min-width: 768px) {

@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to this comprehensive resource for Endometriosis and Adenomyosis! This guide will help you understand how to contribute effectively.
 
-## 🌟 How to Contribute
+## How to Contribute
 
 ### Adding New Resources
 
@@ -11,7 +11,6 @@ Thank you for your interest in contributing to this comprehensive resource for E
    ```bash
    git clone https://github.com/YOUR_USERNAME/Awesome-Endo-Adeno-Resources.git
    cd Awesome-Endo-Adeno-Resources
-   git submodule update --init --recursive
    ```
 
 3. **Create a feature branch**:
@@ -26,9 +25,10 @@ Thank you for your interest in contributing to this comprehensive resource for E
 
 5. **Test your changes locally**:
    ```bash
-   hugo server
+   python3 build.py
+   python3 -m http.server 8000 --directory dist
    ```
-   Visit `http://localhost:1313` to preview your changes
+   Visit `http://localhost:8000` to preview your changes
 
 6. **Commit and push**:
    ```bash
@@ -69,34 +69,41 @@ By participating in this project, you agree to:
 - Support evidence-based approaches
 - Maintain a supportive community environment
 
-## 🛠️ Technical Contributions
+## Technical Contributions
 
-### Hugo Development
+### Development Setup
 
 If you're contributing to the site's technical aspects:
 
-1. **Install Hugo** (if not already installed):
+1. **Requirements**: Python 3.8+ (no pip dependencies needed)
+
+2. **Build the site**:
    ```bash
-   brew install hugo  # macOS
+   python3 build.py
    ```
 
-2. **Make your changes** to the appropriate files:
-   - `config.toml` - Site configuration
-   - `content/` - Content files
-   - `assets/css/custom.css` - Custom styles (if needed)
+3. **Serve locally**:
+   ```bash
+   python3 -m http.server 8000 --directory dist
+   ```
 
-3. **Test thoroughly** before submitting
+4. **Make your changes** to the appropriate files:
+   - `site.json` - Site configuration
+   - `content/` - Content files (Markdown)
+   - `assets/css/` - Stylesheets
+   - `assets/js/` - JavaScript modules
+   - `templates/` - HTML templates
+
+5. **Test thoroughly** before submitting
 
 ### Link Validation
 
-We maintain link quality with our validation script:
+Links are checked automatically in CI using [lychee](https://github.com/lycheeverse/lychee). You can also run it locally:
 ```bash
-python3 check_links.py
+lychee dist/
 ```
 
-Please run this before submitting changes to ensure all links are working.
-
-## 📝 Pull Request Guidelines
+## Pull Request Guidelines
 
 When submitting a Pull Request:
 
@@ -106,7 +113,7 @@ When submitting a Pull Request:
 4. **Formatting**: Ensure proper markdown formatting
 5. **Links**: Verify all links are working
 
-## 🚀 Getting Help
+## Getting Help
 
 If you need help or have questions:
 
@@ -114,10 +121,10 @@ If you need help or have questions:
 2. **Create a new issue** for bugs or feature requests
 3. **Join discussions** in existing pull requests
 
-## 📄 License
+## License
 
 By contributing, you agree that your contributions will be licensed under the same license as the project.
 
 ---
 
-**Thank you for helping make this resource better for the Endometriosis and Adenomyosis community!** ❤️
+**Thank you for helping make this resource better for the Endometriosis and Adenomyosis community!**

@@ -9,7 +9,7 @@
     background: var(--gradient-component);
     border-radius: var(--radius-md);
     padding: 0.6rem 0.75rem;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow-md);
 }
 
 .carousel-title {
@@ -62,7 +62,7 @@
     justify-content: center;
     cursor: pointer;
     color: #fff;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
     flex-shrink: 0;
     padding: 0;
 }
@@ -85,7 +85,7 @@
     border: none;
     cursor: pointer;
     padding: 0;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
 }
 
 .carousel-dot.active {
@@ -125,7 +125,7 @@ a.carousel-cta {
     font-weight: 700;
     font-size: 0.85rem;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: var(--transition-fast);
     margin-top: auto;
     text-transform: uppercase;
     text-align: center;

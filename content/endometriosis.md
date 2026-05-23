@@ -19,15 +19,16 @@ Endometriosis occurs when endometrial-like tissue grows outside the uterus, comm
 
 ### Endometriosis Symptoms by Stage
 
-|Stage/Type|Severity|Symptoms|Metastasis|
-|---|---|---|---|
-|**Stage I (Minimal)**|Mild|Mild or no pelvic pain; Possible infertility; Occasional dysmenorrhea|None|
-|**Stage II (Mild)**|Mild to moderate|Moderate pelvic pain; Dysmenorrhea; Dyspareunia; Possible infertility|None|
-|**Stage III (Moderate)**|Moderate|Chronic pelvic pain; Severe dysmenorrhea; Dyspareunia; Dyschezia; Infertility|Local spread|
-|**Stage IV (Severe)**|Severe|Chronic, severe pelvic pain; Debilitating dysmenorrhea; Severe dyspareunia; Dyschezia; Dysuria; Infertility; Bowel/bladder dysfunction|Extensive local spread|
-|**Stage IV+ (Very Severe)**|Very severe|All Stage IV symptoms, plus: Deep Infiltrating Endometriosis (DIE): Intense chronic pelvic pain; Severe dyspareunia; Dyschezia, bowel obstruction possible; Dysuria, hydronephrosis possible; Organ dysfunction depending on affected areas (e.g., bowel, bladder). Thoracic Endometriosis: Catamenial pneumothorax (lung collapse during menstruation); Hemoptysis (coughing up blood); Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath); Hemothorax or pericardial effusion in severe cases|Extensive spread to deep tissues or distant sites such as the chest cavity|
+|Stage/Type|Severity|Key Symptoms|
+|---|---|---|
+|**Stage I (Minimal)**|Mild|Mild pelvic pain; occasional dysmenorrhea; possible infertility|
+|**Stage II (Mild)**|Mild–Moderate|Pelvic pain; dysmenorrhea; dyspareunia; possible infertility|
+|**Stage III (Moderate)**|Moderate|Chronic pelvic pain; severe dysmenorrhea; dyspareunia; dyschezia; infertility|
+|**Stage IV (Severe)**|Severe|Chronic severe pelvic pain; debilitating dysmenorrhea; dyspareunia; dyschezia; dysuria; bowel/bladder dysfunction; infertility|
+|**Deep Infiltrating (DIE)**|Very Severe|All Stage IV symptoms plus bowel obstruction; hydronephrosis; organ dysfunction (bowel, bladder, ureters)|
+|**Thoracic**|Very Severe|Catamenial pneumothorax; hemoptysis; cyclic chest/shoulder pain; dyspnea|
 
-*Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms*
+*Staging is not universal — stage does not determine pain severity. [Learn more about diagnosis](/diagnosis/).*
 
 ## Diagnosis
 
@@ -42,22 +43,9 @@ Endometriosis occurs when endometrial-like tissue grows outside the uterus, comm
 - Heavy menstrual bleeding
 - Infertility
 
-## Treatment Options
+## Treatment Overview
 
-### Surgical Treatments
-- **Laparoscopic Excision**: Gold standard surgical treatment
-- **Hysterectomy**: For severe cases when fertility is not desired
-- **Deep Infiltrating Endometriosis Surgery**: Specialized procedures for advanced cases
-
-### Medical Treatments
-- **Hormonal Therapy**: Birth control pills, GnRH agonists, progestins
-- **Pain Management**: NSAIDs, opioids for severe pain
-- **Fertility Treatments**: IVF, IUI for those trying to conceive
-
-### Alternative Therapies
-- **Physical Therapy**: Pelvic floor therapy
-- **Dietary Changes**: Anti-inflammatory diets
-- **Complementary Medicine**: Acupuncture, herbal remedies
+There is no cure for endometriosis, but symptoms can be managed through surgery, medication, and supportive therapies. **Laparoscopic excision surgery** is the gold standard — see [Diagnosis & Treatments](/diagnosis/) for surgical details and [Medications](/medications/) for a full drug comparison.
 
 ## Research and Studies
 
@@ -72,33 +60,14 @@ Endometriosis occurs when endometrial-like tissue grows outside the uterus, comm
 - Non-hormonal treatment options
 - Fertility preservation techniques
 
-## Support Resources
+## Further Resources
 
-### Healthcare Providers
-
-For vetted specialists and diagnostic tools, see [Healthcare Providers & Tools](/healthcare/).
-
-### Advocacy Organizations
-- [Endometriosis Foundation of America](https://www.endofound.org/)
-- [Endometriosis UK](https://www.endometriosis-uk.org/)
-- [World Endometriosis Society](https://endometriosis.ca/)
-
-### Educational Resources
-- [EndoWhat?](https://www.youtube.com/c/endowhat) - Educational videos
-- [Beating Endo: How to Reclaim Your Life from Endometriosis](https://www.amazon.com/Beating-Endo-Reclaim-Your-Endometriosis/dp/073828354X)
-
-## Financial Assistance
-
-### Insurance and Coverage
-- Understanding insurance coverage for endometriosis treatment
-- Prior authorization requirements
-- Appeals process for denied claims
-
-### Financial Support Programs
-- Patient assistance programs from pharmaceutical companies
-- Non-profit financial aid organizations
-- Crowdfunding platforms for medical expenses
+- [Healthcare Providers & Tools](/healthcare/) — Vetted specialists and diagnostic tools
+- [Support & Advocacy](/resources/) — Organizations, financial assistance, and regional support groups
+- [Education & Community](/education/) — Books, films, and online communities
+- [Fertility](/fertility/) — IVF, egg freezing, and conception guidance
+- [Mental Health](/mental-health/) — Coping strategies, therapy, and crisis support
 
 ---
 
-*This information is for educational purposes only and should not replace professional medical advice. Always consult with qualified healthcare providers for diagnosis and treatment decisions.*
+*This information is for educational purposes only and should not replace professional medical advice.*

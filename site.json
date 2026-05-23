@@ -24,7 +24,9 @@
             "items": [
                 {"name": "Diagnosis", "url": "/diagnosis/", "slug": "diagnosis", "icon": "diagnosis", "i18n_nav": "nav_diagnosis", "i18n_desc": "desc_diagnosis", "description": "Methods, tools, and guidance."},
                 {"name": "Healthcare", "url": "/healthcare/", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation."},
-                {"name": "Co-morbidities", "url": "/comorbidities/", "slug": "comorbidities", "icon": "co-morbidities", "i18n_nav": "nav_comorbidities", "i18n_desc": "desc_comorbidities", "description": "Associated conditions and risks."}
+                {"name": "Co-morbidities", "url": "/comorbidities/", "slug": "comorbidities", "icon": "co-morbidities", "i18n_nav": "nav_comorbidities", "i18n_desc": "desc_comorbidities", "description": "Associated conditions and risks."},
+                {"name": "Fertility", "url": "/fertility/", "slug": "fertility", "icon": "fertility", "i18n_nav": "nav_fertility", "i18n_desc": "desc_fertility", "description": "Fertility, IVF, and pregnancy."},
+                {"name": "Medications", "url": "/medications/", "slug": "medications", "icon": "medications", "i18n_nav": "nav_medications", "i18n_desc": "desc_medications", "description": "Treatment and medication guide."}
             ]
         },
         {
@@ -33,7 +35,10 @@
             "items": [
                 {"name": "Resources", "url": "/resources/", "slug": "resources", "icon": "resources", "i18n_nav": "nav_resources", "i18n_desc": "desc_resources", "description": "Organizations and advocacy."},
                 {"name": "Education", "url": "/education/", "slug": "education", "icon": "education", "i18n_nav": "nav_education", "i18n_desc": "desc_education", "description": "Books, films, and guides."},
-                {"name": "Notable People", "url": "/notable-people/", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with endometriosis."}
+                {"name": "Notable People", "url": "/notable-people/", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with endometriosis."},
+                {"name": "FAQ", "url": "/faq/", "slug": "faq", "icon": "faq", "i18n_nav": "nav_faq", "i18n_desc": "desc_faq", "description": "Common questions answered."},
+                {"name": "Mental Health", "url": "/mental-health/", "slug": "mental-health", "icon": "mental-health", "i18n_nav": "nav_mental_health", "i18n_desc": "desc_mental_health", "description": "Coping, therapy, and support."},
+                {"name": "Symptom Tracker", "url": "/tracker/", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately."}
             ]
         },
         {
@@ -131,11 +136,15 @@
 
     "css_files": [
         "css/base.css",
-        "css/codeblock.css",
         "css/custom.css",
+        "css/layout.css",
+        "css/sidebar.css",
+        "css/components.css",
+        "css/responsive.css",
         "css/symptom-poll.css",
         "css/carousel.css",
-        "css/action-modal.css"
+        "css/action-modal.css",
+        "css/tracker.css"
     ],
     "js_files": [
         "js/codeblock.js",
@@ -143,6 +152,9 @@
         "js/i18n.js",
         "js/carousel.js",
         "js/poll.js",
-        "js/action-modal.js"
+        "js/accordion.js",
+        "js/filter.js",
+        "js/action-modal.js",
+        "js/tracker.js"
     ]
 }

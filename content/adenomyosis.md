@@ -19,14 +19,14 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 
 ### Adenomyosis Symptoms by Type and Stage
 
-| Type/Stage | Severity | Symptoms | Metastasis |
-|------------|----------|----------|------------|
-| **Focal Adenomyosis** | Mild to severe | Localized uterine pain or tenderness; Heavy menstrual bleeding (menorrhagia); Dysmenorrhea (painful periods); Dyspareunia (painful intercourse); Pelvic pressure or fullness; Possible infertility | Localized uterine involvement |
-| **Diffuse Adenomyosis** | Moderate to severe | Diffuse uterine pain or tenderness; Severe menorrhagia (heavy menstrual bleeding); Chronic pelvic pain; Dyspareunia; Significant uterine enlargement ("boggy" uterus); Anemia due to heavy bleeding; Infertility or miscarriage risk | Extensive uterine involvement |
-| **Stage 1: Early** | Mild | Minimal infiltration of endometrial tissue into the uterine wall; Symptoms often mild or non-existent | None |
-| **Stage 2: Moderate** | Moderate | Increased infiltration of uterine wall tissue; Heavy and painful periods; Bloating and discomfort during intercourse | None |
-| **Stage 3: Severe** | Severe | Severe infiltration leading to distortion of uterine shape; Escalating menstrual pain and flow intensity | Possible localized spread |
-| **Stage 4: Advanced** | Very severe | Extensive tissue infiltration causing significant uterine damage; Chronic pelvic pain, heavy bleeding, intermenstrual bleeding, and painful intercourse | Potential damage to surrounding structures |
+| Type/Stage | Severity | Key Symptoms |
+|---|---|---|
+| **Focal** | Mild–Severe | Localized uterine pain; menorrhagia; dysmenorrhea; dyspareunia; pelvic pressure |
+| **Diffuse** | Moderate–Severe | Diffuse uterine pain; severe menorrhagia; chronic pelvic pain; uterine enlargement; anemia; infertility risk |
+| **Stage 1 (Early)** | Mild | Minimal uterine wall infiltration; symptoms mild or absent |
+| **Stage 2 (Moderate)** | Moderate | Heavy painful periods; bloating; discomfort during intercourse |
+| **Stage 3 (Severe)** | Severe | Uterine shape distortion; escalating pain and bleeding |
+| **Stage 4 (Advanced)** | Very Severe | Extensive uterine damage; chronic pelvic pain; intermenstrual bleeding |
 
 ## Diagnosis
 
@@ -89,41 +89,15 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 - Pre-treatment with hormonal therapy may improve outcomes
 - Surgical treatment options for those planning pregnancy
 
-## Support Resources
+## Further Resources
 
-### Healthcare Providers
-
-For vetted specialists and diagnostic tools, see [Healthcare Providers & Tools](/healthcare/).
-
-### Educational Resources
-- [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/)
-- Research articles and medical journals
-- Patient support groups and forums
-
-### Advocacy Organizations
-- [Endometriosis Foundation of America](https://www.endofound.org/) - Also covers adenomyosis
-- [World Endometriosis Society](https://endometriosis.ca/) - Research and education
-- Regional support groups and organizations
-
-## Living with Adenomyosis
-
-### Daily Management
-- Pain management strategies
-- Tracking symptoms and menstrual cycles
-- Dietary and lifestyle modifications
-- Stress management techniques
-
-### Quality of Life
-- Impact on work and daily activities
-- Relationship and intimacy considerations
-- Mental health support
-- Support network building
-
-### Long-term Outlook
-- Natural resolution after menopause
-- Ongoing research and treatment advances
-- Hope for improved quality of life
+- [Healthcare Providers & Tools](/healthcare/) — Vetted specialists and diagnostic tools
+- [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/) — Dedicated adenomyosis education and support
+- [Support & Advocacy](/resources/) — Organizations, financial assistance, and regional groups
+- [Fertility](/fertility/) — IVF, pregnancy, and conception guidance
+- [Mental Health](/mental-health/) — Coping strategies, therapy, and crisis support
+- [Symptom Tracker](/tracker/) — Track symptoms privately on your device
 
 ---
 
-*This information is for educational purposes only and should not replace professional medical advice. Always consult with qualified healthcare providers for diagnosis and treatment decisions.*
+*This information is for educational purposes only and should not replace professional medical advice.*

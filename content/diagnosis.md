@@ -42,40 +42,38 @@ For the full type/stage table, see [Adenomyosis Symptoms by Type and Stage](/ade
 
 - It is critical to note: Hysterecomy DOES NOT treat Endometriosis, only Adenomyosis
 
-| Technique | Key Advantage | Provider Network |
-|-----------|---------------|------------------|
-| **Laparoscopic Excision Surgery** | Gold standard for endometriosis treatment; removes lesions while preserving healthy tissue | Various specialized centers worldwide |
-| **Nerve-Sparing Excision** | Preserves pelvic nerve plexus to reduce post-op chronic pain | Mayo Clinic; UCSF; EEL Centers |
-| **Presacral Neurectomy** | Cuts nerves to uterus to relieve severe pelvic pain | Various specialized centers |
-| **Lysis of Adhesions** | Removes scar tissue that can cause pain and infertility | Various specialized centers |
-| **Resection of Deep Infiltrating Endometriosis (DIE)** | Targets removal of deeply infiltrating lesions affecting bowel, bladder, ureters | Various specialized centers |
-| **Robotic-Assisted DIE Resection** | Enhanced precision for rectovaginal and bladder lesions | Memorial Sloan Kettering; Johns Hopkins |
-| **Robotic-Assisted Surgery** | Enhanced precision and control for complex cases | Various specialized centers |
+| Technique | Key Advantage |
+|---|---|
+| **Laparoscopic Excision Surgery** | Gold standard; removes lesions while preserving healthy tissue |
+| **Nerve-Sparing Excision** | Preserves pelvic nerve plexus to reduce post-op chronic pain |
+| **Presacral Neurectomy** | Cuts nerves to uterus to relieve severe midline pelvic pain |
+| **Lysis of Adhesions** | Removes scar tissue that can cause pain and infertility |
+| **DIE Resection** | Targets deeply infiltrating lesions affecting bowel, bladder, ureters |
+| **Robotic-Assisted Surgery** | Enhanced precision for complex and rectovaginal cases |
 
 <h4>Adenomyosis Treatments</h4>
 
-| Technique | Key Advantage | Provider Network |
-|-----------|---------------|------------------|
-| **Hysterectomy** | Surgical removal of uterus for severe cases not responding to other treatments | Various specialized centers |
-| **Uterine Artery Embolization (UAE)** | Minimally invasive; blocks blood supply to affected areas; [92.3% improvement rate, 82% avoid hysterectomy long term](https://blog.nbir.com.au/alternative-to-hysterectomy-for-adenoymosis) | Various specialized centers |
-| **Focal Adenomyoma Excision** | Conservative uterine-sparing removal | Centre for Reproductive Medicine (The Netherlands) |
-| **Radiofrequency Ablation** | [68.1% pain reduction and fertility preservation potential](https://pmc.ncbi.nlm.nih.gov/articles/PMC8348135/) | Various specialized centers |
-| **High-Intensity Focused Ultrasound (HIFU)** | [Non-surgical option using ultrasound waves for coagulative necrosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8348135/) | Various specialized centers |
-| **Myomectomy** | Surgical removal of fibroids while preserving fertility | Various specialized centers |
+| Technique | Key Advantage |
+|---|---|
+| **Hysterectomy** | Definitive treatment for severe cases not responding to other therapies |
+| **Uterine Artery Embolization (UAE)** | Minimally invasive; [92.3% improvement rate](https://blog.nbir.com.au/alternative-to-hysterectomy-for-adenoymosis) |
+| **Focal Adenomyoma Excision** | Conservative uterine-sparing removal |
+| **Radiofrequency Ablation** | [68.1% pain reduction](https://pmc.ncbi.nlm.nih.gov/articles/PMC8348135/) with fertility preservation potential |
+| **HIFU** | [Non-surgical ultrasound-based treatment](https://pmc.ncbi.nlm.nih.gov/articles/PMC8348135/) |
+| **Myomectomy** | Fibroid removal while preserving fertility |
 
 <h3>Non-Surgical</h3>
 
 - Latest Advancements in Non-Surgical Diagnostics & Therapeutics for Endometriosis
 
-| Method        | Key Features                                   | Advantages                                    | Limitations                               |
-|--------------------------|-----------------------------------------------|-------------------------------------|-------------------------------------------|
-| [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test)| Identifies protein biomarkers  | Cost-effective, early-stage detection        | Requires further validation for global use |
-| Electroviscerography (EVG)| Monitors gastrointestinal myoelectric activity| Non-invasive, experimental                   | Needs more clinical trials                |
-| EVG-Guided Pelvic Floor Biofeedback | Uses EVG monitoring for targeted pelvic floor therapy | Personalized pelvic floor rehabilitation | Requires specialized equipment and training |
-| Infrared Spectroscopy    | Spectrochemical analysis                      | Highly sensitive, non-invasive               | Early research stage                      |
-| Imaging Innovations      | Advanced imaging technologies                 | Reliable alternative to surgery              | Clinical trials ongoing                   |
-| [AI + Omics Integration](https://pubmed.ncbi.nlm.nih.gov/39926583/)   | Combines AI and molecular data                | Personalized diagnostics                     | Requires large-scale validation           |
-| [Microbiome modulation](https://www.sciencedirect.com/science/article/pii/S1471491424001667)    | Gut–microbiota–brain axis recently emerged as a key player in neuro-pain pathways                | Personalized treatment                     | Needs More Developed Research           |
+| Method | Description | Status |
+|---|---|---|
+| [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test) | Protein biomarker detection; cost-effective, early-stage | Requires global validation |
+| Electroviscerography (EVG) | Non-invasive GI myoelectric monitoring | Experimental — needs clinical trials |
+| EVG-Guided Biofeedback | Targeted pelvic floor rehab via EVG monitoring | Requires specialized equipment |
+| Infrared Spectroscopy | Highly sensitive spectrochemical analysis | Early research stage |
+| [AI + Omics Integration](https://pubmed.ncbi.nlm.nih.gov/39926583/) | AI combined with molecular data for personalized diagnostics | Requires large-scale validation |
+| [Microbiome Modulation](https://www.sciencedirect.com/science/article/pii/S1471491424001667) | Gut–microbiota–brain axis in neuro-pain pathways | Needs more research |
 
 <h3>Medicinal</h3>
 

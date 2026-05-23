@@ -28,7 +28,11 @@
         ['excision', 'laparoscopy', 'surgery', 'surgical'],
         ['hormone', 'hormonal', 'birth control', 'contraceptive'],
         ['diagnosis', 'diagnostic', 'diagnosed'],
-        ['specialist', 'doctor', 'gynecologist', 'gynaecologist']
+        ['specialist', 'doctor', 'gynecologist', 'gynaecologist'],
+        ['mental health', 'depression', 'anxiety', 'therapy'],
+        ['medication', 'drug', 'medicine', 'treatment'],
+        ['faq', 'frequently asked', 'questions'],
+        ['tracker', 'tracking', 'symptom diary', 'symptom log']
     ];
 
     function expandQuery(query) {
@@ -48,14 +52,28 @@
     function search(query) {
         if (!searchIndex || !query) { resultsContainer.innerHTML = ''; return; }
         var terms = expandQuery(query);
-        var results = searchIndex.filter(function(page) {
-            return terms.some(function(term) {
-                return (page.title && page.title.toLowerCase().indexOf(term) !== -1) ||
-                       (page.summary && page.summary.toLowerCase().indexOf(term) !== -1) ||
-                       (page.content && page.content.toLowerCase().indexOf(term) !== -1) ||
-                       (page.tags && page.tags.some(function(t) { return t.toLowerCase().indexOf(term) !== -1; }));
+
+        // Weighted scoring
+        var scored = [];
+        searchIndex.forEach(function(page) {
+            var score = 0;
+            var titleLower = (page.title || '').toLowerCase();
+            var summaryLower = (page.summary || '').toLowerCase();
+            var contentLower = (page.content || '').toLowerCase();
+            var tagsLower = (page.tags || []).map(function(t) { return t.toLowerCase(); });
+
+            terms.forEach(function(term) {
+                if (titleLower.indexOf(term) !== -1) score += 10;
+                tagsLower.forEach(function(tag) { if (tag.indexOf(term) !== -1) score += 5; });
+                if (summaryLower.indexOf(term) !== -1) score += 3;
+                if (contentLower.indexOf(term) !== -1) score += 1;
             });
-        }).slice(0, 5);
+
+            if (score > 0) scored.push({ page: page, score: score });
+        });
+
+        scored.sort(function(a, b) { return b.score - a.score; });
+        var results = scored.slice(0, 8);
 
         if (results.length === 0) {
             resultsContainer.innerHTML = '<div class="search-no-results">No results found</div>';
@@ -63,8 +81,12 @@
         }
 
         resultsContainer.innerHTML = results.map(function(r) {
-            return '<a class="search-result-item" href="' + r.permalink + '">' +
-                   '<span class="search-result-title">' + r.title + '</span>' +
+            var summary = r.page.summary || '';
+            if (summary.length > 120) summary = summary.substring(0, 120) + '...';
+            var summaryHtml = summary ? '<span class="search-result-summary">' + summary + '</span>' : '';
+            return '<a class="search-result-item" href="' + r.page.permalink + '">' +
+                   '<span class="search-result-title">' + r.page.title + '</span>' +
+                   summaryHtml +
                    '</a>';
         }).join('');
     }

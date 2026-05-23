@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Static site builder — stdlib only, no pip dependencies."""
-import json, os, re, shutil, datetime, html as html_mod, sys
+import json, os, re, shutil, datetime, html as html_mod, sys, hashlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
@@ -18,6 +18,11 @@ ICONS = {
     "myths": '<path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>',
     "research": '<path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16.5h10"/>',
     "notable-people": '<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>',
+    "faq": '<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>',
+    "mental-health": '<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M12 13v-2"/><path d="M12 17h.01"/>',
+    "fertility": '<path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><circle cx="12" cy="12" r="10"/>',
+    "medications": '<path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/>',
+    "tracker": '<rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/>',
 }
 
 def load_config():
@@ -79,6 +84,7 @@ def md_to_html(text, base_url=""):
     in_table = False
     table_headers = []
     in_para = False
+    used_ids = set()
 
     def flush_para():
         nonlocal in_para
@@ -193,6 +199,13 @@ def md_to_html(text, base_url=""):
             text = re.sub(r'\s+#+\s*$', '', text)
             slug = re.sub(r'[^\w\s-]', '', text.lower())
             slug = re.sub(r'[\s]+', '-', slug).strip('-')
+            # Deduplicate heading IDs
+            orig_slug = slug
+            counter = 2
+            while slug in used_ids:
+                slug = f"{orig_slug}-{counter}"
+                counter += 1
+            used_ids.add(slug)
             out.append(f'<h{level} id="{slug}">{inline(text)}</h{level}>')
             i += 1
             continue
@@ -346,6 +359,12 @@ def build_css_vars(cfg):
         --radius-pill: 9999px;
         --focus-color: {brand.get('gold', '#C4982A')};
         --focus-shadow: 0 0 0 3px rgba(196, 152, 42, 0.3);
+        --transition-fast: all 0.2s ease;
+        --shadow-sm: 0 2px 8px rgba(0,0,0,0.2);
+        --shadow-md: 0 4px 16px rgba(0,0,0,0.2);
+        --white-subtle: rgba(255,255,255,0.08);
+        --white-muted: rgba(255,255,255,0.15);
+        --white-soft: rgba(255,255,255,0.2);
 
         background-color: var(--bkg-color);
     }}
@@ -374,7 +393,7 @@ def build_css_vars(cfg):
 </style>"""
 
 # ── Grouped sidebar nav ──
-def build_sidebar_nav(cfg):
+def build_sidebar_nav(cfg, active_slug=None):
     if "nav_groups" not in cfg:
         # Fallback to flat nav
         items = []
@@ -384,9 +403,10 @@ def build_sidebar_nav(cfg):
             sidebar_filter = ""
             if m["slug"] != "about":
                 sidebar_filter = f' data-sidebar-filter="{m["slug"]}"'
+            active_attr = ' aria-current="page"' if m["slug"] == active_slug else ""
             items.append(
                 f'        <li class="nav-item">'
-                f'<a href="{cfg["base_url"]}{m["slug"]}/"{sidebar_filter}>'
+                f'<a href="{cfg["base_url"]}{m["slug"]}/"{sidebar_filter}{active_attr}>'
                 f'<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
                 f'{icon_svg}</svg>'
                 f'<span{i18n_attr}>{m["name"]}</span></a></li>'
@@ -403,9 +423,10 @@ def build_sidebar_nav(cfg):
             icon_svg = ICONS.get(m["icon"], "")
             nav_i18n = f' data-i18n="{m["i18n_nav"]}"' if m.get("i18n_nav") else ""
             sidebar_filter = f' data-sidebar-filter="{m["slug"]}"'
+            active_attr = ' aria-current="page"' if m["slug"] == active_slug else ""
             items.append(
                 f'            <li class="nav-item">'
-                f'<a href="{cfg["base_url"]}{m["slug"]}/"{sidebar_filter}>'
+                f'<a href="{cfg["base_url"]}{m["slug"]}/"{sidebar_filter}{active_attr}>'
                 f'<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
                 f'{icon_svg}</svg>'
                 f'<span{nav_i18n}>{m["name"]}</span></a></li>'
@@ -523,7 +544,7 @@ def build_structured_data(cfg, page=None):
     lastmod = page.get("lastmod", date)
     keywords = page.get("keywords", [])
     kw_str = f',\n  "keywords": "{", ".join(keywords)}"' if keywords else ""
-    return f'''<script type="application/ld+json">
+    result = f'''<script type="application/ld+json">
 {{
   "@context": "https://schema.org",
   "@type": "Article",
@@ -562,6 +583,18 @@ def build_structured_data(cfg, page=None):
   ]
 }}
 </script>'''
+    # FAQ page: add FAQPage schema
+    if page.get("slug") == "faq":
+        html_content = page.get("html", "")
+        faq_pairs = re.findall(r'<summary>(.*?)</summary>.*?<p>(.*?)</p>', html_content, re.DOTALL)
+        if faq_pairs:
+            qa_items = []
+            for q, a in faq_pairs:
+                q_clean = html_mod.escape(re.sub(r'<[^>]+>', '', q).strip())
+                a_clean = html_mod.escape(re.sub(r'<[^>]+>', '', a).strip())
+                qa_items.append(f'{{"@type":"Question","name":"{q_clean}","acceptedAnswer":{{"@type":"Answer","text":"{a_clean}"}}}}')
+            result += '\n<script type="application/ld+json">\n{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[' + ','.join(qa_items) + ']}\n</script>'
+    return result
 
 # ── Search index ──
 def build_search_index(pages, cfg):
@@ -574,18 +607,78 @@ def build_search_index(pages, cfg):
         index.append({
             "title": page.get("title", ""),
             "permalink": page.get("permalink", ""),
-            "summary": plain[:200],
-            "content": plain[:500],
+            "summary": plain[:300],
+            "content": plain,
             "tags": page.get("tags", []),
         })
     return json.dumps(index, ensure_ascii=False)
+
+# ── Sitemap ──
+def build_sitemap(pages, cfg):
+    base = cfg["base_url"]
+    urls = []
+    # Homepage
+    urls.append(f'  <url>\n    <loc>{base}</loc>\n    <priority>1.0</priority>\n  </url>')
+    for slug, page in sorted(pages.items()):
+        if slug == "_index" or page.get("draft"):
+            continue
+        lastmod = page.get("lastmod", page.get("date", "2025-01-27"))
+        urls.append(
+            f'  <url>\n    <loc>{base}{slug}/</loc>\n'
+            f'    <lastmod>{lastmod}</lastmod>\n'
+            f'    <priority>0.8</priority>\n  </url>'
+        )
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            + "\n".join(urls) + "\n</urlset>\n")
+
+# ── CSS/JS Minification ──
+def minify_css(text):
+    # Strip block comments
+    text = re.sub(r'/\*.*?\*/', '', text, flags=re.DOTALL)
+    # Collapse whitespace around structural chars
+    text = re.sub(r'\s*([{}:;,])\s*', r'\1', text)
+    # Collapse multiple whitespace
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
+
+def minify_js(text):
+    # Strip block comments (but not URLs with //)
+    text = re.sub(r'/\*.*?\*/', '', text, flags=re.DOTALL)
+    # Strip single-line comments (only at start of line or after semicolons)
+    lines = text.split('\n')
+    out = []
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith('//'):
+            continue
+        out.append(line)
+    text = '\n'.join(out)
+    # Collapse multiple blank lines
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text.strip()
+
+# ── Table of Contents ──
+def build_toc(html_content, min_headings=4):
+    headings = re.findall(r'<h([23]) id="([^"]*)">(.*?)</h\1>', html_content)
+    if len(headings) < min_headings:
+        return ""
+    items = []
+    for level, hid, text in headings:
+        # Strip inline HTML tags from heading text
+        clean = re.sub(r'<[^>]+>', '', text)
+        indent = ' toc-h3' if level == '3' else ''
+        items.append(f'<li class="toc-item{indent}"><a href="#{hid}">{clean}</a></li>')
+    return ('<nav class="toc" aria-label="Table of contents">\n'
+            '<h3 class="toc-heading" data-i18n="toc_title">On this page</h3>\n'
+            '<ul>\n' + '\n'.join(items) + '\n</ul>\n</nav>')
 
 # ── Breadcrumbs ──
 def build_breadcrumbs(cfg, title):
     return (
         '<nav class="breadcrumbs" aria-label="Breadcrumb">\n'
         '    <ol>\n'
-        f'        <li><a href="{cfg["base_url"]}">Home</a></li>\n'
+        f'        <li><a href="{cfg["base_url"]}" data-i18n="nav_home">Home</a></li>\n'
         f'        <li aria-current="page">{html_mod.escape(title)}</li>\n'
         '    </ol>\n'
         '</nav>'
@@ -634,13 +727,18 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None):
         desc = page_meta.get("description", cfg["description"])
         page_url = page_meta.get("permalink", base_url)
         structured = build_structured_data(cfg, page_meta)
+        og_type = "article"
     else:
         title = brand
         desc = cfg["description"]
         page_url = base_url
         structured = build_structured_data(cfg)
+        og_type = "website"
 
-    sidebar_nav = build_sidebar_nav(cfg)
+    og_image = base_url + cfg.get("og_image", "social-preview.png")
+
+    active_slug = page_meta.get("slug") if page_meta else None
+    sidebar_nav = build_sidebar_nav(cfg, active_slug)
     socials = build_socials(cfg)
     css_vars = build_css_vars(cfg)
     footer_links = build_footer_links(cfg)
@@ -657,6 +755,10 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None):
     out = out.replace("{{FOOTER_LINKS}}", footer_links)
     out = out.replace("{{SOCIALS}}", socials)
     out = out.replace("{{YEAR}}", year)
+    out = out.replace("{{OG_IMAGE}}", og_image)
+    out = out.replace("{{OG_TYPE}}", og_type)
+    out = out.replace("{{CSS_BUNDLE}}", cfg.get("_css_bundle", "css/bundle.css"))
+    out = out.replace("{{JS_BUNDLE}}", cfg.get("_js_bundle", "js/app.js"))
     out = out.replace("{{PAGE_CONTENT}}", inner_html)
     return out
 
@@ -686,7 +788,7 @@ def main():
     page_tpl = read_tpl("page.html")
     four04_tpl = read_tpl("404.html")
 
-    # Concat CSS
+    # Concat + minify CSS
     css_dir = os.path.join(DIST, "css")
     os.makedirs(css_dir, exist_ok=True)
     css_parts = []
@@ -695,26 +797,28 @@ def main():
         if os.path.exists(path):
             with open(path, encoding="utf-8") as fh:
                 css_parts.append(fh.read())
-    with open(os.path.join(css_dir, "bundle.css"), "w", encoding="utf-8") as f:
-        f.write("\n".join(css_parts))
+    css_content = minify_css("\n".join(css_parts))
+    css_hash = hashlib.md5(css_content.encode()).hexdigest()[:8]
+    css_bundle_name = f"css/bundle.{css_hash}.css"
+    cfg["_css_bundle"] = css_bundle_name
+    with open(os.path.join(css_dir, f"bundle.{css_hash}.css"), "w", encoding="utf-8") as f:
+        f.write(css_content)
 
-    # Concat JS (app.js = all except codeblock.js)
+    # Concat + minify JS into app.js bundle
     js_dir = os.path.join(DIST, "js")
     os.makedirs(js_dir, exist_ok=True)
     js_parts = []
     for f in cfg["js_files"]:
-        if f == "js/codeblock.js":
-            # Copy codeblock.js separately (loaded via <script defer>)
-            src = os.path.join(ROOT, "assets", f)
-            if os.path.exists(src):
-                shutil.copy2(src, os.path.join(js_dir, "codeblock.js"))
-            continue
         path = os.path.join(ROOT, "assets", f)
         if os.path.exists(path):
             with open(path, encoding="utf-8") as fh:
                 js_parts.append(fh.read())
-    with open(os.path.join(js_dir, "app.js"), "w", encoding="utf-8") as f:
-        f.write("\n".join(js_parts))
+    js_content = minify_js("\n".join(js_parts))
+    js_hash = hashlib.md5(js_content.encode()).hexdigest()[:8]
+    js_bundle_name = f"js/app.{js_hash}.js"
+    cfg["_js_bundle"] = js_bundle_name
+    with open(os.path.join(js_dir, f"app.{js_hash}.js"), "w", encoding="utf-8") as f:
+        f.write(js_content)
 
     # Copy static assets
     static_src = os.path.join(ROOT, "static")
@@ -733,6 +837,10 @@ def main():
     # Build search index
     with open(os.path.join(DIST, "index.json"), "w", encoding="utf-8") as f:
         f.write(build_search_index(pages, cfg))
+
+    # Build sitemap
+    with open(os.path.join(DIST, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write(build_sitemap(pages, cfg))
 
     # Build homepage
     home_content = pages.get("_index", {}).get("html", "")
@@ -754,8 +862,10 @@ def main():
         if slug == "_index":
             continue
         breadcrumbs = build_breadcrumbs(cfg, page["title"])
+        toc = build_toc(page["html"])
         inner = page_tpl
         inner = inner.replace("{{BREADCRUMBS}}", breadcrumbs)
+        inner = inner.replace("{{TOC}}", toc)
         inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
 
         page_html = render_page(base_tpl, cfg, inner, page)

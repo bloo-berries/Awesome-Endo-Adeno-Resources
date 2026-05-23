@@ -1,0 +1,267 @@
+/* tracker.css — Symptom tracker component styles */
+
+.tracker-form {
+    background: rgba(196, 152, 42, 0.06);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+}
+
+.tracker-form h3 {
+    margin-top: 0;
+    color: var(--color-gold);
+}
+
+.tracker-label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.tracker-input {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    padding: 0.4rem 0.6rem;
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    color: var(--text-color);
+    font-family: var(--font-primary);
+    font-size: 0.85rem;
+    min-height: auto;
+    min-width: auto;
+}
+
+.tracker-input:focus {
+    border-color: var(--color-gold);
+    outline: 2px solid rgba(196, 152, 42, 0.3);
+}
+
+textarea.tracker-input {
+    resize: vertical;
+}
+
+.tracker-slider {
+    display: block;
+    width: 100%;
+    margin-top: 0.35rem;
+    accent-color: var(--color-gold);
+    min-height: auto;
+    min-width: auto;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.tracker-fieldset {
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: 0.75rem;
+    margin: 0 0 0.75rem;
+}
+
+.tracker-fieldset legend {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--color-gold);
+    padding: 0 0.3rem;
+}
+
+.tracker-symptom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3rem;
+}
+
+.tracker-check {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.tracker-check input {
+    min-height: auto;
+    min-width: auto;
+    accent-color: var(--color-gold);
+}
+
+.tracker-mood-row {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+}
+
+.tracker-mood-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    min-height: auto;
+    min-width: auto;
+    font-weight: 500;
+}
+
+.tracker-mood-btn.active {
+    background: var(--color-gold);
+    color: #fff;
+    border-color: var(--color-gold);
+}
+
+.tracker-mood-btn:hover {
+    border-color: var(--color-gold);
+}
+
+.tracker-save-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    font-size: 0.9rem;
+}
+
+/* History */
+
+.tracker-history {
+    max-width: 600px;
+}
+
+.tracker-history h3 {
+    color: var(--color-gold);
+    margin-bottom: 0.5rem;
+}
+
+.tracker-actions-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.tracker-export-btn {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.75rem;
+    min-height: auto;
+    min-width: auto;
+}
+
+/* Chart */
+
+.tracker-chart {
+    margin-bottom: 1.5rem;
+}
+
+.chart-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 120px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1.25rem;
+}
+
+.chart-bar-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    min-width: 0;
+}
+
+.chart-bar {
+    width: 100%;
+    max-width: 20px;
+    background: var(--gradient-component, var(--color-gold));
+    border-radius: 2px 2px 0 0;
+    min-height: 2px;
+}
+
+.chart-label {
+    font-size: 0.55rem;
+    color: var(--muted-color);
+    margin-top: 0.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+/* Entry cards */
+
+.tracker-entry-card {
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem 0.75rem;
+    margin-bottom: 0.5rem;
+    background: var(--surface-color);
+}
+
+.tracker-entry-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
+}
+
+.tracker-pain-badge {
+    background: rgba(196, 152, 42, 0.15);
+    color: var(--color-gold);
+    padding: 0.1rem 0.4rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.tracker-delete-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: var(--muted-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0 0.3rem;
+    min-height: auto;
+    min-width: auto;
+    line-height: 1;
+}
+
+.tracker-delete-btn:hover { color: var(--color-gold); }
+
+.tracker-entry-detail {
+    font-size: 0.8rem;
+    color: var(--muted-color);
+    line-height: 1.4;
+}
+
+.tracker-entry-notes {
+    font-style: italic;
+    margin-top: 0.2rem;
+}
+
+.tracker-empty {
+    color: var(--muted-color);
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .tracker-symptom-grid {
+        grid-template-columns: 1fr;
+    }
+}
