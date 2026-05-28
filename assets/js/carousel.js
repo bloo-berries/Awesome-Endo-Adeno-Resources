@@ -31,15 +31,26 @@
         dotsContainer.appendChild(dot);
     });
 
+    // Respect prefers-reduced-motion: skip autoplay for users who request reduced motion.
+    // Touch users also don't get hover-pause, so autoplay on touch can feel intrusive.
+    var motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var isTouch = window.matchMedia('(hover: none)').matches;
+    var shouldAutoplay = !motionQuery.matches && !isTouch;
+
     function goToSlide(index) {
         currentIndex = index;
         track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
         var dots = dotsContainer.querySelectorAll('.carousel-dot');
         dots.forEach(function(dot, i) { dot.classList.toggle('active', i === currentIndex); });
+        slides.forEach(function(s, i) { s.setAttribute('aria-hidden', i === currentIndex ? 'false' : 'true'); });
     }
     function nextSlide() { goToSlide((currentIndex + 1) % slides.length); }
     function prevSlide() { goToSlide((currentIndex - 1 + slides.length) % slides.length); }
-    function startAutoRotate() { stopAutoRotate(); autoRotateInterval = setInterval(nextSlide, 4000); }
+    function startAutoRotate() {
+        if (!shouldAutoplay) return;
+        stopAutoRotate();
+        autoRotateInterval = setInterval(nextSlide, 4000);
+    }
     function stopAutoRotate() { if (autoRotateInterval) { clearInterval(autoRotateInterval); autoRotateInterval = null; } }
 
     if (nextBtn) nextBtn.addEventListener('click', function() { nextSlide(); startAutoRotate(); });
@@ -47,11 +58,20 @@
     if (carouselBox) {
         carouselBox.addEventListener('mouseenter', stopAutoRotate);
         carouselBox.addEventListener('mouseleave', startAutoRotate);
-        // Keyboard navigation
         carouselBox.addEventListener('keydown', function(e) {
             if (e.key === 'ArrowLeft') { prevSlide(); startAutoRotate(); e.preventDefault(); }
             if (e.key === 'ArrowRight') { nextSlide(); startAutoRotate(); e.preventDefault(); }
         });
     }
+
+    // If the user changes their motion preference mid-session, adapt.
+    motionQuery.addEventListener('change', function(e) {
+        shouldAutoplay = !e.matches && !isTouch;
+        if (shouldAutoplay) startAutoRotate(); else stopAutoRotate();
+    });
+
+    // Initialize aria-hidden state
+    slides.forEach(function(s, i) { s.setAttribute('aria-hidden', i === 0 ? 'false' : 'true'); });
+
     startAutoRotate();
 })();

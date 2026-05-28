@@ -1,0 +1,95 @@
+/*
+ * utilities.css — Layout primitives + a11y helpers (Phase 2)
+ *
+ * All classes are prefixed `u-` to prevent collision with author-written
+ * Markdown content classes. Use these as building blocks; avoid inventing
+ * one-off layout classes when a utility composition would suffice.
+ *
+ * Tokens consumed: --space-*, --tap-min, --focus-ring, --focus-offset.
+ * See design/css-architecture.md §8.
+ */
+
+/* ----- u-stack: vertical rhythm -----
+ * Children flow vertically with consistent spacing.
+ * Override per-instance: style="--stack-space: var(--space-lg)"
+ */
+.u-stack > * + * {
+  margin-top: var(--stack-space, var(--space-md));
+}
+
+/* ----- u-cluster: horizontal wrap -----
+ * Children flow horizontally and wrap. Good for tag lists, button rows,
+ * breadcrumbs, top-bar contents.
+ */
+.u-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--cluster-gap, var(--space-sm));
+  align-items: center;
+}
+
+/* ----- u-grid-auto: responsive auto-grid -----
+ * Items wrap when they hit --grid-min. No breakpoint queries needed.
+ * Browser support: Safari 14+, Chrome 88+, Firefox 79+ (nested min/minmax).
+ * Older Safari renders single-column — acceptable graceful degradation.
+ */
+.u-grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--grid-min, 16rem)), 1fr));
+  gap: var(--grid-gap, var(--space-md));
+}
+
+/* ----- u-skip-link: visually hidden until focused -----
+ * For "Skip to main content" links at the top of the page.
+ */
+.u-skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--surface-deep);
+  color: var(--text-on-deep);
+  z-index: 100;
+  transform: translateY(-100%);
+  transition: transform 150ms ease-out;
+}
+
+.u-skip-link:focus {
+  transform: translateY(0);
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+/* ----- u-visually-hidden: screen-reader-only content -----
+ * Visually hidden but accessible to assistive tech.
+ */
+.u-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ----- u-tap-target: enforce minimum touch target -----
+ * Apply to interactive elements that may otherwise be too small.
+ */
+.u-tap-target {
+  min-block-size: var(--tap-min);
+  min-inline-size: var(--tap-min);
+}
+
+/* ----- :root breakpoint markers (JS introspection) -----
+ * CSS custom properties can't be referenced inside @media queries, but JS
+ * can read these via getComputedStyle(document.documentElement). Useful
+ * for keeping JS and CSS breakpoints in sync.
+ */
+:root {
+  --bp-tablet: 48rem;
+  --bp-desktop: 64rem;
+  --bp-wide: 80rem;
+}

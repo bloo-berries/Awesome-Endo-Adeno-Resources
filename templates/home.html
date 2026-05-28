@@ -1,178 +1,172 @@
-<!-- Resource Filter Cards -->
-<section class="resource-cards">
-    {{MENU_CARDS}}
+<!--
+  home-v2.html — New home page (Phase 3a)
+  Block order per design/ia.md §13:
+    1. Hero
+    2. Three journey cards
+    3. Linked stats strip
+    4. Watch & Learn (featured videos)
+    5. Quiz teaser
+    6. Carousel
+    7. Help CTA
+-->
+
+<!-- 1. Hero -->
+<section class="home-hero" aria-labelledby="hero-headline">
+  <h1 id="hero-headline" class="home-hero-headline" data-i18n="home_hero_headline">
+    1 in 7 women live with endometriosis. Here's where to start.
+  </h1>
+  <p class="home-hero-sub" data-i18n="home_hero_sub">
+    Symptom checker, diagnostic guidance, and resources for navigating endometriosis and adenomyosis &mdash; from the day you first wonder, to long after diagnosis.
+  </p>
+  <div class="home-hero-actions">
+    <a href="{{BASE_URL}}quiz/" class="home-hero-cta-primary" data-i18n="home_hero_cta_primary">
+      Take the symptom quiz
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+    <a href="{{BASE_URL}}treatments/" class="home-hero-cta-secondary" data-i18n="home_hero_cta_secondary">
+      I'm already diagnosed
+    </a>
+  </div>
 </section>
 
-<!-- Filtered Content Panels -->
-<section class="filtered-content" id="filtered-content">
-    {{FILTER_PANELS}}
+<!-- 2. Three journey cards -->
+<section class="home-journeys" aria-labelledby="journeys-heading">
+  <h2 id="journeys-heading" class="u-visually-hidden" data-i18n="home_journeys_heading">Where to begin</h2>
+  <div class="home-journeys-grid">
+
+    <a href="{{BASE_URL}}quiz/" class="journey-card">
+      <span class="journey-card-eyebrow" data-i18n="journey_1_eyebrow">Could this be me?</span>
+      <h3 class="journey-card-title" data-i18n="journey_1_title">Take the symptom quiz</h3>
+      <p class="journey-card-desc" data-i18n="journey_1_desc">
+        Answer a few questions and get a personalized list of next steps for diagnosis.
+      </p>
+      <span class="journey-card-cta" data-i18n="journey_1_cta">
+        Start the quiz
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </span>
+    </a>
+
+    <a href="{{BASE_URL}}treatments/" class="journey-card">
+      <span class="journey-card-eyebrow" data-i18n="journey_2_eyebrow">I have endo or adeno</span>
+      <h3 class="journey-card-title" data-i18n="journey_2_title">Explore treatment options</h3>
+      <p class="journey-card-desc" data-i18n="journey_2_desc">
+        Medications, surgical paths, fertility, and mental-health support &mdash; in plain language.
+      </p>
+      <span class="journey-card-cta" data-i18n="journey_2_cta">
+        Browse treatments
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </span>
+    </a>
+
+    <a href="{{BASE_URL}}endometriosis/" class="journey-card">
+      <span class="journey-card-eyebrow" data-i18n="journey_3_eyebrow">I want to learn</span>
+      <h3 class="journey-card-title" data-i18n="journey_3_title">Understand the conditions</h3>
+      <p class="journey-card-desc" data-i18n="journey_3_desc">
+        Endometriosis, adenomyosis, myths versus evidence, and current research.
+      </p>
+      <span class="journey-card-cta" data-i18n="journey_3_cta">
+        Read more
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </span>
+    </a>
+
+  </div>
 </section>
 
-<!-- Featured Videos -->
-<section class="featured-video" id="featured-video">
-    <h1 class="video-caption">New research shows ~570 million worldwide live with Endometriosis. <span class="adeno-info-wrap"><button class="adeno-info-btn" aria-label="Research sources" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></button><span class="adeno-tooltip" role="tooltip"><strong>Sources</strong><br><a href="https://turoparkmedical.com/medical-services/english-speaking-gynecologist-barcelona/management-of-endometriosis/" target="_blank" rel="noopener noreferrer">Turo Park Medical</a><br><a href="https://endometriosisaustralia.org/1-in-7-australian-women/" target="_blank" rel="noopener noreferrer">Endometriosis Australia</a></span></span></h1>
-    <div class="video-grid">
-        <a href="https://www.youtube.com/watch?v=nL91LegtUWk" target="_blank" rel="noopener noreferrer" class="video-link">
-            <img src="{{BASE_URL}}images/End-O.webp" alt="End-O: Understanding Endometriosis" loading="lazy">
-        </a>
-        <a href="https://www.youtube.com/watch?v=1q-uLGvRPw0" target="_blank" rel="noopener noreferrer" class="video-link">
-            <img src="{{BASE_URL}}images/this-is-endometriosis.jpg" alt="This is Endometriosis" loading="lazy">
-        </a>
-    </div>
+<!-- 3. Linked stats strip -->
+<section class="home-stats" aria-label="Endometriosis statistics">
+  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5425631/" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="55% Infertility Rate &mdash; view research source">
+    <span data-i18n="stats_infertility">55% Infertility Rate</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+  </a>
+  <a href="https://www.bmj.com/content/387/bmj-2023-078797" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="31% Increased Early Mortality &mdash; view research source">
+    <span data-i18n="stats_mortality">31% Increased Mortality</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+  </a>
+  <a href="https://kinfertility.com.au/blog/what-are-the-costs-of-endometriosis" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="Average cost approximately 25,000 euros &mdash; view research source">
+    <span data-i18n="stats_cost">Avg. Cost ~&euro;25,000</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+  </a>
+  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8849430/" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="10 years average time to diagnose &mdash; view research source">
+    <span data-i18n="stats_diagnose">10 Years to Diagnose</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+  </a>
 </section>
 
-<!-- Default home content -->
-<section class="home-content" id="home-default">
-    {{HOME_CONTENT}}
+<!-- 4. Watch & Learn -->
+<section class="home-videos" aria-labelledby="videos-heading">
+  <h2 id="videos-heading" class="home-section-heading" data-i18n="home_videos_heading">Watch &amp; learn</h2>
+  <div class="home-videos-grid">
+    <a href="https://www.youtube.com/watch?v=nL91LegtUWk" target="_blank" rel="noopener noreferrer" class="video-card">
+      <img src="{{BASE_URL}}images/End-O.webp" alt="End-O: Understanding Endometriosis" loading="lazy">
+      <div class="video-card-caption" data-i18n="video_endo_caption">End-O &mdash; Understanding endometriosis</div>
+    </a>
+    <a href="https://www.thisisendo.com/watch-this-is-endometriosis" target="_blank" rel="noopener noreferrer" class="video-card">
+      <img src="{{BASE_URL}}images/this-is-endometriosis.jpg" alt="This Is Endometriosis (BAFTA-winning documentary)" loading="lazy">
+      <div class="video-card-caption" data-i18n="video_this_is_endo_caption">This Is Endometriosis &mdash; BAFTA-winning short film</div>
+    </a>
+  </div>
 </section>
 
-<!-- Impact Statistics Row -->
-<section class="statistics-row" aria-label="Endometriosis statistics">
-    <div class="stat-box">
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5425631/" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="55% Infertility Rate - view research source">
-            <span data-i18n="stats_infertility">55% Infertility Rate</span>
-            <svg class="stat-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-        </a>
-    </div>
-    <div class="stat-box">
-        <a href="https://www.bmj.com/content/387/bmj-2023-078797" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="31% Increased Early Mortality - view research source">
-            <span data-i18n="stats_mortality">31% Increased Early Mortality</span>
-            <svg class="stat-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-        </a>
-    </div>
-    <div class="stat-box">
-        <a href="https://kinfertility.com.au/blog/what-are-the-costs-of-endometriosis" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="Average cost approximately 25,000 euros - view research source">
-            <span data-i18n="stats_cost">Avg. Cost: ~&euro;25,000</span>
-            <svg class="stat-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-        </a>
-    </div>
-    <div class="stat-box">
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8849430/" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="10 years average time to diagnose - view research source">
-            <span data-i18n="stats_diagnose">10 Years to Diagnose</span>
-            <svg class="stat-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-        </a>
-    </div>
+<!-- 5. Quiz teaser (3 quick checks → full quiz at /quiz/) -->
+<section class="home-quiz-teaser" aria-labelledby="quiz-teaser-heading">
+  <h2 id="quiz-teaser-heading" class="home-quiz-teaser-title" data-i18n="home_quiz_teaser_title">A quick check</h2>
+  <p class="home-quiz-teaser-desc" data-i18n="home_quiz_teaser_desc">
+    Do any of these sound familiar? The full quiz takes a couple of minutes.
+  </p>
+  <div class="home-quiz-teaser-options">
+    <label class="home-quiz-teaser-option">
+      <input type="checkbox" name="teaser" value="severe_period_pain">
+      <span data-i18n="teaser_option_pain">Severe period pain</span>
+    </label>
+    <label class="home-quiz-teaser-option">
+      <input type="checkbox" name="teaser" value="heavy_irregular">
+      <span data-i18n="teaser_option_heavy">Heavy or irregular periods</span>
+    </label>
+    <label class="home-quiz-teaser-option">
+      <input type="checkbox" name="teaser" value="fatigue">
+      <span data-i18n="teaser_option_fatigue">Persistent fatigue</span>
+    </label>
+  </div>
+  <a href="{{BASE_URL}}quiz/" class="home-quiz-teaser-cta" data-i18n="home_quiz_teaser_cta">
+    Take the full quiz
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+  </a>
 </section>
 
-<!-- Poll + Carousel Side-by-Side -->
-<div class="poll-carousel-row">
-
-<!-- Symptom Poll -->
-<section class="poll-section" id="poll-section">
-    <div class="poll-box">
-        <h3 class="poll-title" data-i18n="poll_title">Could you have Endo?</h3>
-        <div id="poll-form" class="poll-form">
-            <label class="poll-option">
-                <input type="checkbox" name="poll" value="female_afab">
-                <span class="poll-checkmark"></span>
-                <span data-i18n="poll_option1">Female or AFAB</span>
-            </label>
-            <label class="poll-option">
-                <input type="checkbox" name="poll" value="bloating">
-                <span class="poll-checkmark"></span>
-                <span data-i18n="poll_option2">Bloating</span>
-            </label>
-            <label class="poll-option">
-                <input type="checkbox" name="poll" value="heavy_irregular_periods">
-                <span class="poll-checkmark"></span>
-                <span data-i18n="poll_option3">Heavy or Irregular Periods</span>
-            </label>
-            <label class="poll-option">
-                <input type="checkbox" name="poll" value="severe_period_pain">
-                <span class="poll-checkmark"></span>
-                <span data-i18n="poll_option4">Severe Period Pain</span>
-            </label>
-            <label class="poll-option">
-                <input type="checkbox" name="poll" value="painful_bowel_urination">
-                <span class="poll-checkmark"></span>
-                <span data-i18n="poll_option5">Painful Bowel Movements or Urination</span>
-            </label>
-            <label class="poll-option">
-                <input type="checkbox" name="poll" value="sciatica">
-                <span class="poll-checkmark"></span>
-                <span data-i18n="poll_option6">Sciatica</span>
-            </label>
-            <label class="poll-option">
-                <input type="checkbox" name="poll" value="fatigue_exhaustion">
-                <span class="poll-checkmark"></span>
-                <span data-i18n="poll_option7">Fatigue and Exhaustion</span>
-            </label>
-            <label class="poll-option">
-                <input type="checkbox" name="poll" value="difficulty_pregnant">
-                <span class="poll-checkmark"></span>
-                <span data-i18n="poll_option8">Difficulty Getting Pregnant</span>
-            </label>
-            <p id="poll-error" class="poll-error" style="display:none;" data-i18n="poll_error">Please select at least one option</p>
-            <button id="poll-submit" class="poll-submit" data-i18n="poll_submit">Submit</button>
-        </div>
-        <div id="poll-thanks" class="poll-thanks" style="display:none;">
-            <p data-i18n="poll_thanks">Based on your input, here are some helpful resources</p>
-            <div id="poll-suggestions" class="poll-suggestions" style="display:none;">
-                <ul class="poll-suggestions-list">
-                    <li>
-                        <a href="{{BASE_URL}}diagnosis/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                            <span data-i18n="poll_suggestion_diagnosis">Get Diagnosed</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{BASE_URL}}healthcare/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M9 16h6"/><path d="M12 13v6"/></svg>
-                            <span data-i18n="poll_suggestion_healthcare">Find a Specialist</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{BASE_URL}}endometriosis/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-                            <span data-i18n="poll_suggestion_endometriosis">Understand Endo</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <button class="poll-thanks-action" id="poll-take-action" data-i18n="cta_take_action">Take Action Now</button>
-        </div>
+<!-- 6. Carousel -->
+<section class="home-carousel-wrapper carousel-section" id="carousel-section">
+  <div class="carousel-box carousel-box-top">
+    <h2 class="carousel-title home-section-heading" data-i18n="carousel_title">The reality of endo</h2>
+    <div class="carousel-viewport">
+      <div class="carousel-track">
+        <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/affected-sites.png" alt="Body sites affected by endometriosis" loading="lazy"></div>
+        <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/surgeries.png" alt="Endometriosis surgical approaches" loading="lazy"></div>
+        <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/detection.png" alt="Diagnostic methods for endometriosis" loading="lazy"></div>
+        <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/symptoms.png" alt="Common endometriosis symptoms" loading="lazy"></div>
+      </div>
     </div>
+    <div class="carousel-controls">
+      <button class="carousel-arrow carousel-prev" aria-label="Previous slide">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="carousel-dots"></div>
+      <button class="carousel-arrow carousel-next" aria-label="Next slide">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+    <p class="carousel-credit">Graphics via <a href="http://endographics.org/" target="_blank" rel="noopener noreferrer">endographics.org</a></p>
+  </div>
 </section>
 
-<!-- Image Carousel + CTA Split -->
-<div class="carousel-section" id="carousel-section">
-    <div class="carousel-box carousel-box-top">
-        <h3 class="carousel-title" data-i18n="carousel_title">The Reality of Endo</h3>
-        <div class="carousel-viewport">
-            <div class="carousel-track">
-                <div class="carousel-slide">
-                    <img src="{{BASE_URL}}images/carousel/affected-sites.png" alt="Body sites affected by endometriosis" loading="lazy">
-                </div>
-                <div class="carousel-slide">
-                    <img src="{{BASE_URL}}images/carousel/surgeries.png" alt="Endometriosis surgical approaches" loading="lazy">
-                </div>
-                <div class="carousel-slide">
-                    <img src="{{BASE_URL}}images/carousel/detection.png" alt="Diagnostic methods for endometriosis" loading="lazy">
-                </div>
-                <div class="carousel-slide">
-                    <img src="{{BASE_URL}}images/carousel/symptoms.png" alt="Common endometriosis symptoms" loading="lazy">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-controls">
-            <button class="carousel-arrow carousel-prev" aria-label="Previous slide">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-            </button>
-            <div class="carousel-dots"></div>
-            <button class="carousel-arrow carousel-next" aria-label="Next slide">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-            </button>
-        </div>
-        <p class="carousel-credit">Graphics via <a href="http://endographics.org/" target="_blank" rel="noopener noreferrer">endographics.org</a></p>
-    </div>
-    <div class="carousel-box carousel-box-bottom">
-        <a href="{{BASE_URL}}graphic-images/" class="carousel-cta" data-i18n="carousel_cta">NSFW/Raw Images of Endo</a>
-    </div>
-</div>
-
-</div><!-- end .poll-carousel-row -->
-
-<!-- Take Action CTA -->
-<section class="cta-section" id="cta-section">
-    <button class="cta-btn" id="cta-take-action" data-i18n="cta_take_action">Take Action Now</button>
+<!-- 7. Help CTA -->
+<section class="home-help-cta" aria-labelledby="help-cta-heading">
+  <h2 id="help-cta-heading" class="home-help-cta-title" data-i18n="home_help_title">Need to talk to someone?</h2>
+  <p class="home-help-cta-desc" data-i18n="home_help_desc">
+    Practical scripts for talking to doctors, family, and partners &mdash; with copy-and-paste templates.
+  </p>
+  <a href="{{BASE_URL}}take-action/" class="home-help-cta-btn" data-i18n="home_help_cta">
+    Get help now
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+  </a>
 </section>

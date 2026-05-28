@@ -7,53 +7,48 @@
     "og_image": "social-preview.png",
     "dark_mode": true,
     "github_url": "https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources",
-
     "nav_groups": [
         {
-            "label": "Conditions",
-            "i18n_key": "nav_group_conditions",
+            "label": "Could this be me?",
+            "i18n_key": "nav_group_could_this_be_me",
             "items": [
-                {"name": "Endometriosis", "url": "/endometriosis/", "slug": "endometriosis", "icon": "endometriosis", "i18n_nav": "nav_endometriosis", "i18n_desc": "desc_endometriosis", "description": "Symptoms, stages, and support."},
-                {"name": "Adenomyosis", "url": "/adenomyosis/", "slug": "adenomyosis", "icon": "adenomyosis", "i18n_nav": "nav_adenomyosis", "i18n_desc": "desc_adenomyosis", "description": "Symptoms and diagnosis."},
-                {"name": "Myths & Facts", "url": "/myths/", "slug": "myths", "icon": "myths", "i18n_nav": "nav_myths", "i18n_desc": "desc_myths", "description": "Debunking common myths."}
+                { "name": "Symptom quiz", "url": "/quiz/", "slug": "quiz", "icon": "diagnosis", "i18n_nav": "nav_quiz", "i18n_desc": "desc_quiz", "description": "Guided checklist with next steps." },
+                { "name": "Diagnosis", "url": "/diagnosis/", "slug": "diagnosis", "icon": "diagnosis", "i18n_nav": "nav_diagnosis", "i18n_desc": "desc_diagnosis", "description": "Methods, tools, and guidance." },
+                { "name": "Co-morbidities", "url": "/comorbidities/", "slug": "comorbidities", "icon": "co-morbidities", "i18n_nav": "nav_comorbidities", "i18n_desc": "desc_comorbidities", "description": "Associated conditions and risks." },
+                { "name": "Healthcare", "url": "/healthcare/", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation." }
             ]
         },
         {
-            "label": "Getting Care",
-            "i18n_key": "nav_group_care",
+            "label": "I have endo or adeno",
+            "i18n_key": "nav_group_already_diagnosed",
             "items": [
-                {"name": "Diagnosis", "url": "/diagnosis/", "slug": "diagnosis", "icon": "diagnosis", "i18n_nav": "nav_diagnosis", "i18n_desc": "desc_diagnosis", "description": "Methods, tools, and guidance."},
-                {"name": "Healthcare", "url": "/healthcare/", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation."},
-                {"name": "Co-morbidities", "url": "/comorbidities/", "slug": "comorbidities", "icon": "co-morbidities", "i18n_nav": "nav_comorbidities", "i18n_desc": "desc_comorbidities", "description": "Associated conditions and risks."},
-                {"name": "Fertility", "url": "/fertility/", "slug": "fertility", "icon": "fertility", "i18n_nav": "nav_fertility", "i18n_desc": "desc_fertility", "description": "Fertility, IVF, and pregnancy."},
-                {"name": "Medications", "url": "/medications/", "slug": "medications", "icon": "medications", "i18n_nav": "nav_medications", "i18n_desc": "desc_medications", "description": "Treatment and medication guide."}
+                { "name": "Treatments", "url": "/treatments/", "slug": "treatments", "icon": "medications", "i18n_nav": "nav_treatments", "i18n_desc": "desc_treatments", "description": "Surgical, hormonal, and supportive." },
+                { "name": "Medications", "url": "/medications/", "slug": "medications", "icon": "medications", "i18n_nav": "nav_medications", "i18n_desc": "desc_medications", "description": "Treatment and medication guide." },
+                { "name": "Fertility", "url": "/fertility/", "slug": "fertility", "icon": "fertility", "i18n_nav": "nav_fertility", "i18n_desc": "desc_fertility", "description": "Fertility, IVF, and pregnancy." },
+                { "name": "Mental health", "url": "/mental-health/", "slug": "mental-health", "icon": "mental-health", "i18n_nav": "nav_mental_health", "i18n_desc": "desc_mental_health", "description": "Coping, therapy, and support." },
+                { "name": "Resources & support", "url": "/resources/", "slug": "resources", "icon": "resources", "i18n_nav": "nav_resources", "i18n_desc": "desc_resources", "description": "Organizations and advocacy." },
+                { "name": "Symptom tracker", "url": "/tracker/", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately." }
             ]
         },
         {
-            "label": "Support",
-            "i18n_key": "nav_group_support",
+            "label": "Learn",
+            "i18n_key": "nav_group_learn",
             "items": [
-                {"name": "Resources", "url": "/resources/", "slug": "resources", "icon": "resources", "i18n_nav": "nav_resources", "i18n_desc": "desc_resources", "description": "Organizations and advocacy."},
-                {"name": "Education", "url": "/education/", "slug": "education", "icon": "education", "i18n_nav": "nav_education", "i18n_desc": "desc_education", "description": "Books, films, and guides."},
-                {"name": "Notable People", "url": "/notable-people/", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with endometriosis."},
-                {"name": "FAQ", "url": "/faq/", "slug": "faq", "icon": "faq", "i18n_nav": "nav_faq", "i18n_desc": "desc_faq", "description": "Common questions answered."},
-                {"name": "Mental Health", "url": "/mental-health/", "slug": "mental-health", "icon": "mental-health", "i18n_nav": "nav_mental_health", "i18n_desc": "desc_mental_health", "description": "Coping, therapy, and support."},
-                {"name": "Symptom Tracker", "url": "/tracker/", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately."}
-            ]
-        },
-        {
-            "label": "Research",
-            "i18n_key": "nav_group_research",
-            "items": [
-                {"name": "Research", "url": "/research/", "slug": "research", "icon": "research", "i18n_nav": "nav_research", "i18n_desc": "desc_research", "description": "Studies and clinical trials."}
+                { "name": "Endometriosis", "url": "/endometriosis/", "slug": "endometriosis", "icon": "endometriosis", "i18n_nav": "nav_endometriosis", "i18n_desc": "desc_endometriosis", "description": "Symptoms, stages, and support." },
+                { "name": "Adenomyosis", "url": "/adenomyosis/", "slug": "adenomyosis", "icon": "adenomyosis", "i18n_nav": "nav_adenomyosis", "i18n_desc": "desc_adenomyosis", "description": "Symptoms and diagnosis." },
+                { "name": "Myths & facts", "url": "/myths/", "slug": "myths", "icon": "myths", "i18n_nav": "nav_myths", "i18n_desc": "desc_myths", "description": "Debunking common myths." },
+                { "name": "Notable people", "url": "/notable-people/", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with endometriosis." },
+                { "name": "Research", "url": "/research/", "slug": "research", "icon": "research", "i18n_nav": "nav_research", "i18n_desc": "desc_research", "description": "Studies and clinical trials." },
+                { "name": "Education", "url": "/education/", "slug": "education", "icon": "education", "i18n_nav": "nav_education", "i18n_desc": "desc_education", "description": "Books, films, and guides." }
             ]
         }
     ],
-
     "footer_links": [
-        {"name": "About", "url": "/about/", "slug": "about", "icon": "about", "i18n_nav": "nav_about"}
+        { "name": "About", "url": "/about/", "slug": "about", "icon": "about", "i18n_nav": "nav_about" },
+        { "name": "FAQ", "url": "/faq/", "slug": "faq", "icon": "faq", "i18n_nav": "nav_faq" },
+        { "name": "Take action", "url": "/take-action/", "slug": "take-action", "icon": "resources", "i18n_nav": "nav_take_action" },
+        { "name": "Privacy", "url": "/privacy/", "slug": "privacy", "icon": "about", "i18n_nav": "nav_privacy" }
     ],
-
     "colors": {
         "brand": {
             "gold": "#C4982A",
@@ -133,17 +128,72 @@
             "scrollbar_track": "rgba(255, 255, 255, 0.05)"
         }
     },
-
+    "semantic": {
+        "light": {
+            "text": "#2D1525",
+            "text-muted": "#7A5A3A",
+            "surface": "#F5E6D0",
+            "surface-raised": "#EDD8BC",
+            "surface-deep": "#6B3A5C",
+            "accent": "#8B4513",
+            "accent-hover": "#6B2D3E",
+            "border": "rgba(139, 69, 19, 0.15)",
+            "code": "#2D1525",
+            "code-bg": "#F0E0C8",
+            "error": "#A41A1A"
+        },
+        "dark": {
+            "text": "#F5E6D0",
+            "text-muted": "#C4A07A",
+            "surface": "#1A0E14",
+            "surface-raised": "#2D1525",
+            "surface-deep": "#5A2D3E",
+            "accent": "#E8B84A",
+            "accent-hover": "#F0D060",
+            "border": "rgba(255, 255, 255, 0.1)",
+            "code": "#F5E6D0",
+            "code-bg": "#3D1F30",
+            "error": "#F87171"
+        },
+        "constant": {
+            "text-on-warm": "#1A0A10",
+            "text-on-deep": "#F5E6D0",
+            "surface-warm": "#C4873A",
+            "border-strong": "#C4982A"
+        },
+        "scale": {
+            "radius-sm": "6px",
+            "radius-md": "10px",
+            "radius-pill": "9999px",
+            "space-xs": "0.25rem",
+            "space-sm": "0.5rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.5rem",
+            "space-section": "clamp(2rem, 5vw, 4rem)",
+            "container-padding": "clamp(1rem, 4vw, 2rem)",
+            "text-xs": "clamp(0.75rem, 0.4vw + 0.65rem, 0.85rem)",
+            "text-sm": "clamp(0.875rem, 0.5vw + 0.75rem, 0.95rem)",
+            "text-base": "clamp(1rem, 0.5vw + 0.85rem, 1.125rem)",
+            "text-lg": "clamp(1.125rem, 0.75vw + 0.9rem, 1.25rem)",
+            "text-xl": "clamp(1.25rem, 1vw + 1rem, 1.5rem)",
+            "text-2xl": "clamp(1.5rem, 2vw + 1rem, 2rem)",
+            "text-3xl": "clamp(2rem, 3vw + 1rem, 2.75rem)",
+            "focus-ring": "3px solid var(--border-strong)",
+            "focus-offset": "2px",
+            "tap-min": "44px",
+            "gradient-warm": "linear-gradient(180deg, #C4873A 0%, #9B5A3A 40%, #6B3A5C 100%)",
+            "gradient-deep": "linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%)"
+        }
+    },
     "css_files": [
-        "css/base.css",
-        "css/custom.css",
+        "css/tokens.css",
+        "css/reset.css",
+        "css/utilities.css",
         "css/layout.css",
-        "css/sidebar.css",
         "css/components.css",
-        "css/responsive.css",
-        "css/symptom-poll.css",
+        "css/pages.css",
         "css/carousel.css",
-        "css/action-modal.css",
         "css/tracker.css"
     ],
     "js_files": [
@@ -153,8 +203,8 @@
         "js/carousel.js",
         "js/poll.js",
         "js/accordion.js",
-        "js/filter.js",
-        "js/action-modal.js",
+        "js/sidebar.js",
+        "js/take-action.js",
         "js/tracker.js"
     ]
 }
