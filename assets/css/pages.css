@@ -1,0 +1,508 @@
+/*
+ * pages.css — Page-specific styles (Phase 3)
+ *
+ * Currently scoped to home page. As other pages get redesigned, their
+ * styles join this file. Long-form content styling lives in reset.css /
+ * components.css; this file is for whole-page compositions.
+ *
+ * Mobile-first. See design/ia.md §13 and css-architecture.md §5.
+ */
+
+/* =====================================================================
+ * Home: Hero
+ * ===================================================================== */
+
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-xl) 0 var(--space-lg);
+  text-align: start;
+}
+
+.home-hero-headline {
+  margin: 0;
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--heading-color);
+  text-wrap: balance;
+  max-width: 22ch;
+}
+
+.home-hero-sub {
+  margin: 0;
+  font-size: var(--text-lg);
+  color: var(--text-muted);
+  max-width: 60ch;
+}
+
+.home-hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+.home-hero-cta-primary,
+.home-hero-cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-lg);
+  min-block-size: var(--tap-min);
+  font-weight: 600;
+  font-size: var(--text-base);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.home-hero-cta-primary {
+  background: var(--gradient-deep);
+  color: var(--text-on-deep);
+  box-shadow: var(--shadow-sm);
+}
+
+.home-hero-cta-primary:hover,
+.home-hero-cta-primary:focus-visible {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+  color: var(--text-on-deep);
+}
+
+.home-hero-cta-secondary {
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--border-strong);
+}
+
+.home-hero-cta-secondary:hover,
+.home-hero-cta-secondary:focus-visible {
+  background: var(--surface-raised);
+  text-decoration: none;
+  color: var(--accent-hover);
+}
+
+@media (min-width: 48rem) {
+  .home-hero-actions {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-md);
+  }
+  .home-hero-headline {
+    font-size: clamp(2.25rem, 4vw + 1rem, 3rem);
+  }
+}
+
+/* =====================================================================
+ * Home: Journey cards (3-up)
+ * ===================================================================== */
+
+.home-journeys {
+  margin-top: var(--space-xl);
+}
+
+.home-journeys-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 48rem) {
+  .home-journeys-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.journey-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--text);
+  min-block-size: var(--tap-min);
+  transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.journey-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-deep);
+  opacity: 0;
+  transition: opacity 200ms ease;
+  pointer-events: none;
+}
+
+.journey-card:hover,
+.journey-card:focus-visible {
+  text-decoration: none;
+  color: var(--text-on-deep);
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.journey-card:hover::before,
+.journey-card:focus-visible::before {
+  opacity: 1;
+}
+
+.journey-card > * {
+  position: relative; /* stack above ::before */
+  z-index: 1;
+}
+
+.journey-card-eyebrow {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  transition: color 200ms;
+}
+
+.journey-card:hover .journey-card-eyebrow,
+.journey-card:focus-visible .journey-card-eyebrow {
+  color: var(--text-on-deep);
+  opacity: 0.85;
+}
+
+.journey-card-title {
+  margin: 0;
+  font-size: var(--text-xl);
+  font-weight: 700;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.journey-card-desc {
+  margin: 0;
+  font-size: var(--text-base);
+  line-height: 1.5;
+  color: var(--text-muted);
+  transition: color 200ms;
+}
+
+.journey-card:hover .journey-card-desc,
+.journey-card:focus-visible .journey-card-desc {
+  color: var(--text-on-deep);
+  opacity: 0.85;
+}
+
+.journey-card-cta {
+  margin-top: auto;
+  padding-top: var(--space-sm);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  transition: color 200ms;
+}
+
+.journey-card:hover .journey-card-cta,
+.journey-card:focus-visible .journey-card-cta {
+  color: var(--text-on-deep);
+}
+
+.journey-card-cta svg {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 150ms;
+}
+
+.journey-card:hover .journey-card-cta svg,
+.journey-card:focus-visible .journey-card-cta svg {
+  transform: translateX(3px);
+}
+
+/* =====================================================================
+ * Home: Linked stats strip
+ * ===================================================================== */
+
+.home-stats {
+  margin-top: var(--space-xl);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-sm);
+}
+
+@media (min-width: 48rem) {
+  .home-stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stat-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xs);
+  padding: var(--space-md);
+  min-block-size: var(--tap-min);
+  background: var(--gradient-deep);
+  color: var(--text-on-deep);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: var(--text-sm);
+  transition: transform 120ms ease;
+}
+
+.stat-link:hover,
+.stat-link:focus-visible {
+  text-decoration: none;
+  color: var(--text-on-deep);
+  transform: translateY(-2px);
+}
+
+.stat-link svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+/* =====================================================================
+ * Home: Watch & Learn (featured videos)
+ * ===================================================================== */
+
+.home-videos {
+  margin-top: var(--space-xl);
+}
+
+.home-section-heading {
+  margin: 0 0 var(--space-md);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.home-videos-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 48rem) {
+  .home-videos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.video-card {
+  display: block;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+  position: relative;
+}
+
+.video-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 0;
+}
+
+.video-card:hover,
+.video-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.video-card-caption {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--surface-raised);
+  font-size: var(--text-sm);
+  color: var(--text);
+}
+
+/* =====================================================================
+ * Home: Quiz teaser
+ * ===================================================================== */
+
+.home-quiz-teaser {
+  margin-top: var(--space-xl);
+  padding: var(--space-lg);
+  background: var(--surface-raised);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.home-quiz-teaser-title {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+
+.home-quiz-teaser-desc {
+  margin: 0 0 var(--space-md);
+  color: var(--text-muted);
+}
+
+.home-quiz-teaser-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.home-quiz-teaser-option {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  min-block-size: var(--tap-min);
+}
+
+.home-quiz-teaser-option input {
+  accent-color: var(--accent);
+}
+
+.home-quiz-teaser-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-lg);
+  min-block-size: var(--tap-min);
+  background: var(--gradient-deep);
+  color: var(--text-on-deep);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.home-quiz-teaser-cta:hover,
+.home-quiz-teaser-cta:focus-visible {
+  text-decoration: none;
+  color: var(--text-on-deep);
+  transform: translateY(-1px);
+}
+
+/* =====================================================================
+ * Home: Help CTA (below the fold)
+ * ===================================================================== */
+
+.home-help-cta {
+  margin-top: var(--space-xl);
+  padding: var(--space-xl);
+  background: var(--gradient-warm);
+  color: var(--text-on-warm);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.home-help-cta-title {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--text-on-warm);
+}
+
+.home-help-cta-desc {
+  margin: 0 0 var(--space-md);
+  font-size: var(--text-base);
+  opacity: 0.85;
+}
+
+.home-help-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-lg);
+  min-block-size: var(--tap-min);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.home-help-cta-btn:hover,
+.home-help-cta-btn:focus-visible {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* =====================================================================
+ * Home: Carousel (kept from existing carousel.css for compatibility)
+ * The existing carousel.css handles .carousel-* styles; we just position
+ * the wrapper here for the new layout.
+ * ===================================================================== */
+
+.home-carousel-wrapper {
+  margin-top: var(--space-xl);
+}
+
+/* =====================================================================
+ * /take-action/: copyable template blocks (Phase 4c)
+ * ===================================================================== */
+
+.copyable-block {
+  position: relative;
+}
+
+.copyable-block > blockquote {
+  padding-inline-end: 4.5rem; /* leaves room for the copy button (logical: flips for RTL) */
+}
+
+.copyable-btn {
+  position: absolute;
+  top: var(--space-sm);
+  inset-inline-end: var(--space-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  min-block-size: var(--tap-min);
+  min-inline-size: var(--tap-min);
+  background-color: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+
+.copyable-btn:hover,
+.copyable-btn:focus-visible {
+  background-color: var(--surface-raised);
+  border-color: var(--border-strong);
+}
+
+.copyable-btn:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+.copyable-btn.copied {
+  background-color: var(--accent);
+  color: var(--text-on-warm);
+  border-color: var(--accent);
+}
+
+.copyable-btn svg {
+  flex-shrink: 0;
+}

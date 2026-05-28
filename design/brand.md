@@ -1,163 +1,336 @@
-# 1 in 7 — Brand Identity
+# 1 in 7 — Brand Identity (v2)
 
-## Brand
+Updated 2026-05-28 after the UI/UX overhaul (Phases 1–5). Pairs with:
+
+- `design/ia.md` — information architecture spec
+- `design/css-architecture.md` — token system, mobile-first CSS, file structure
+- `design/accessibility-audit.md` — WCAG AA verification, RTL coverage
+
+---
+
+## 1. Brand
 
 - **Name:** 1 in 7
 - **Domain:** 1in7.info
-- **Mission:** A comprehensive resource hub for navigating the challenges of Endometriosis and Adenomyosis.
-- **Voice:** Compassionate, evidence-based, accessible. Avoids medical jargon where possible; empowers patients with clear information.
+- **Mission:** A comprehensive resource hub for navigating endometriosis and adenomyosis. The "1 in 7" framing reflects the real prevalence — not the under-counted "1 in 10" that's still commonly cited.
+- **Voice:** Compassionate, evidence-based, accessible. Avoids medical jargon where possible; empowers patients with clear information and concrete next steps.
+- **Privacy posture:** No third-party tracking. No analytics. No cookies. Symptom data lives only in the user's browser. Privacy notice at `/privacy/`.
 
 ---
 
-## Typography
+## 2. Typography
 
-Single font family — **Figtree** — used for all text. Differentiation via weight, size, and letter-spacing.
+Single family — **Figtree**, self-hosted (OFL 1.1) — used for all text. Differentiation is by weight, size, and letter-spacing.
 
-| Element | Weight | Size | Letter-spacing |
+### Loading
+
+```css
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('../fonts/figtree.woff2') format('woff2-variations');
+}
+```
+
+Variable WOFF2 (~26 KB regular, ~27 KB italic). `<link rel="preload">` on the regular file to avoid FOIT.
+
+### Type scale (modular, ratio 1.2, fluid via `clamp()`)
+
+| Token | Mobile floor | Desktop ceiling | Used for |
 |---|---|---|---|
-| Sidebar brand title | 800 | 2rem | -0.02em |
-| Content h1 | 800 | 2rem | -0.02em |
-| Content h2 | 700 | 1.5rem | -0.01em |
-| Content h3 | 700 | 1.25rem | -0.01em |
-| Content h4 | 600 | 1.15rem | normal |
-| Body text | 400 | 18px base | normal |
-| UI labels/buttons | 400-700 | varies | normal |
+| `--text-xs` | 0.75rem | 0.85rem | Eyebrows, badges, captions |
+| `--text-sm` | 0.875rem | 0.95rem | Secondary body, meta |
+| `--text-base` | 1rem | 1.125rem | Body |
+| `--text-lg` | 1.125rem | 1.25rem | Lead, top-bar brand, h4 |
+| `--text-xl` | 1.25rem | 1.5rem | h3 |
+| `--text-2xl` | 1.5rem | 2rem | h2, section headings |
+| `--text-3xl` | 2rem | 2.75rem | h1, hero headline |
 
-### Font loading
+Headings differentiate by weight (h1 800 / h2 700 / h3 700 / h4 600) and letter-spacing (h1 −0.02em / h2 −0.01em). Body line-height: 1.55 on mobile, 1.6 from tablet up.
 
-Figtree loaded from Google Fonts with variable weight range (300-900).
+### Font stack
 
-### CSS variable
-
-`--font-primary: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`
+```
+--font-primary: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+```
 
 ---
 
-## Navigation
+## 3. Color system
 
-Sidebar nav is grouped into sections:
+Two-layer system: a raw brand palette plus a semantic layer that components consume. Defined in `site.json:semantic`, emitted by `build_css_vars()`.
+
+### 3.1 Semantic tokens (what components reference)
+
+| Token | Light | Dark | Used for |
+|---|---|---|---|
+| `--text` | `#2D1525` | `#F5E6D0` | Body text |
+| `--text-muted` | `#7A5A3A` | `#C4A07A` | Captions, meta, dates |
+| `--text-on-warm` | `#1A0A10` | `#1A0A10` | Text on `--surface-warm` (constant) |
+| `--text-on-deep` | `#F5E6D0` | `#F5E6D0` | Text on `--surface-deep` (constant) |
+| `--surface` | `#F5E6D0` | `#1A0E14` | Page background |
+| `--surface-raised` | `#EDD8BC` | `#2D1525` | Cards, panels |
+| `--surface-warm` | `#C4873A` | `#C4873A` | Sidebar, hero accent (constant) |
+| `--surface-deep` | `#6B3A5C` | `#5A2D3E` | Stat tiles, primary CTA |
+| `--accent` | `#8B4513` | `#E8B84A` | Links, focus, primary CTA |
+| `--accent-hover` | `#6B2D3E` | `#F0D060` | Link hover |
+| `--border` | `rgba(139,69,19,0.15)` | `rgba(255,255,255,0.1)` | Subtle dividers |
+| `--border-strong` | `#C4982A` | `#C4982A` | Focus rings, emphasized borders (constant) |
+| `--error` | `#A41A1A` | `#F87171` | Validation errors (per-theme; WCAG AA on both surfaces) |
+| `--code` | `#2D1525` | `#F5E6D0` | Inline code text |
+| `--code-bg` | `#F0E0C8` | `#3D1F30` | Inline code background |
+
+All semantic pairs **pass WCAG AA** (4.5:1 normal text, 3:1 large text). See `design/accessibility-audit.md` for the verified contrast table.
+
+### 3.2 Gradients
+
+Reduced from 5 to 2 semantic gradients:
+
+| Token | Value | Used for |
+|---|---|---|
+| `--gradient-warm` | `linear-gradient(180deg, #C4873A 0%, #9B5A3A 40%, #6B3A5C 100%)` | Sidebar background, home-help CTA |
+| `--gradient-deep` | `linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%)` | Stat tiles, primary CTA, journey-card hover, back-to-top |
+
+### 3.3 Raw palette (authoring layer, not consumed by components)
+
+```
+gold        = #C4982A    Focus, borders, emphasized accents
+gold-warm   = #FFD166    Reserved (deprecated for components)
+plum        = #6B3A5C    Gradient component
+plum-deep   = #5A2D3E    Gradient component, deep accent
+brown       = #8B4513    Light-mode link color (now: --accent)
+error       = (per-theme; see semantic above)
+```
+
+Legacy tokens (`--color-gold-light`, `--color-gold-bright`, `--color-burgundy`, `--color-plum-dark`) still emit for backward compatibility but are not used by current code.
+
+---
+
+## 4. Design tokens (constants)
+
+### Radius
+
+| Token | Value | Used for |
+|---|---|---|
+| `--radius-sm` | `6px` | Inputs, small buttons, badges |
+| `--radius-md` | `10px` | Cards, panels |
+| `--radius-pill` | `9999px` | Pills, avatar masks |
+
+### Spacing
+
+| Token | Value | Used for |
+|---|---|---|
+| `--space-xs` | `0.25rem` | Inline gaps |
+| `--space-sm` | `0.5rem` | Tight groups |
+| `--space-md` | `1rem` | Default block spacing |
+| `--space-lg` | `1.5rem` | Section spacing |
+| `--space-xl` | `2.5rem` | Major section breaks |
+| `--space-section` | `clamp(2rem, 5vw, 4rem)` | Fluid section gap |
+| `--container-padding` | `clamp(1rem, 4vw, 2rem)` | Fluid container padding |
+
+### Accessibility
+
+| Token | Value | Used for |
+|---|---|---|
+| `--focus-ring` | `3px solid var(--border-strong)` | Focus outline |
+| `--focus-offset` | `2px` | Outline offset |
+| `--tap-min` | `44px` | Minimum touch target dimension |
+
+### Breakpoints (rem-based)
+
+| Token | Value | Equivalent | Triggers |
+|---|---|---|---|
+| `--bp-tablet` | `48rem` | 768px | 2-col layouts, larger touch targets |
+| `--bp-desktop` | `64rem` | 1024px | Persistent sidebar, hide bottom nav |
+| `--bp-wide` | `80rem` | 1280px | Max content width caps |
+
+CSS `@media` rules hardcode values; the `--bp-*` tokens are `:root`-defined for JS introspection via `getComputedStyle()`.
+
+---
+
+## 5. Information architecture
+
+### 5.1 Sidebar nav (3 journeys)
 
 | Group | Items |
 |---|---|
-| **Conditions** | Endometriosis, Adenomyosis, Myths & Facts |
-| **Getting Care** | Diagnosis, Healthcare, Co-morbidities |
-| **Support** | Resources, Education |
-| **Research** | Research |
+| **Could this be me?** | Symptom quiz / Diagnosis / Co-morbidities / Healthcare |
+| **I have endo or adeno** | Treatments / Medications / Fertility / Mental health / Resources & support / Symptom tracker |
+| **Learn** | Endometriosis / Adenomyosis / Myths & facts / Notable people / Research / Education |
 
-About is in `footer_links` at bottom of sidebar. All groups have i18n keys (`nav_group_conditions`, `nav_group_care`, `nav_group_support`, `nav_group_research`).
+Each group is **collapsible** with localStorage persistence (`sidebar-groups` key).
+
+### 5.2 Footer links
+
+About / FAQ / Take action / Privacy
+
+### 5.3 Bottom nav (mobile only, ≤1024px)
+
+4 thumb-zone tabs: **Home / Quiz / Learn / Help** (Help → `/take-action/`).
+
+### 5.4 Page set (21 markdown files)
+
+`_index`, about, adenomyosis, comorbidities, diagnosis, education, endometriosis, faq, fertility, graphic-images (draft), healthcare, medications, mental-health, myths, notable-people, **privacy** (new), **quiz** (new), research, resources, **take-action** (new), tracker, **treatments** (new).
+
+Pages with `search: false` frontmatter are excluded from the search index (`/take-action/`, `/privacy/`). Pages with `draft: true` are excluded from both build and index (`/graphic-images/`).
 
 ---
 
-## Color Palette
+## 6. Layout shell
 
-### Design Tokens (set by `build_css_vars()`)
+### Top bar (sticky, all viewports)
 
-All colors are CSS custom properties set in a `<style>` block injected by `build.py`. Light mode values are set on `body`, dark mode overrides on `body.dark-theme`.
+```
+[≡ menu]  [brand]    [search...]    [EN ▾]  [☀ theme]
+```
 
-### Brand Colors (constant across themes)
+- Hamburger hidden on desktop (sidebar persistent).
+- Brand at `--text-lg`, weight 800.
+- Search input collapses to icon on mobile, expands to full top-bar width on focus.
+- Language picker is a styled native `<select>` with 2-letter language codes (EN, ES, FR, 中, 日, …) so all 26 languages fit.
+- Theme toggle: sun ↔ moon, syncs with `localStorage.theme` and first-load `prefers-color-scheme`.
 
-| Token | Hex | Usage |
-|---|---|---|
-| `--color-gold` | `#C4982A` | Focus outlines, borders, accents |
-| `--color-gold-light` | `#E8B84A` | Content links (dark mode) |
-| `--color-gold-bright` | `#F0D060` | Hover highlights |
-| `--color-gold-warm` | `#FFD166` | CTAs, active states, badges |
-| `--color-gold-hover` | `#FFE085` | Button hover states |
-| `--color-plum` | `#6B3A5C` | Gradient component |
-| `--color-plum-dark` | `#5C1A3A` | Text on gold backgrounds |
-| `--color-plum-deep` | `#5A2D3E` | Deep accent |
-| `--color-burgundy` | `#6B2D3E` | Dark accents |
-| `--color-brown` | `#8B4513` | Light mode links |
-| `--color-error` | `#dc3545` | Error states |
+### Sidebar (off-canvas mobile, sticky-persistent desktop)
 
-### Theme-Switching Tokens
+- Mobile (`< 64rem`): off-canvas, slides in from inline-start, 70% width with 30% backdrop tap-to-close. `inset-inline-*` logical properties + `[dir="rtl"]` translate override for Arabic.
+- Desktop (`≥ 64rem`): persistent left column, `grid-template-columns: minmax(17.5rem, 20rem) 1fr`.
+- Collapsible nav groups via `<button class="nav-group-toggle">` with chevron + `aria-expanded`.
 
-These change value between `body` (light) and `body.dark-theme` (dark):
+### Bottom nav (mobile only)
 
-| Token | Light | Dark |
-|---|---|---|
-| `--text-color` | `#2D1525` | `#F5E6D0` |
-| `--bkg-color` | `#F5E6D0` | `#1A0E14` |
-| `--heading-color` | `#2D1525` | `#F0D060` |
-| `--link-color` | `#8B4513` | `#E8B84A` |
-| `--link-hover-color` | `#6B2D3E` | `#F0D060` |
-| `--muted-color` | `#7A5A3A` | `#C4A07A` |
-| `--surface-color` | `#EDD8BC` | `#2D1525` |
-| `--border-color` | `rgba(139,69,19,0.15)` | `rgba(255,255,255,0.1)` |
+- Fixed, 4 tabs, `padding-bottom: env(safe-area-inset-bottom)` for iOS home indicator.
+- Hides automatically when a `[role="dialog"][aria-modal="true"]` is open (clickjacking mitigation).
+- Each item is at least 4rem tall (well above the 44px target).
+- Current page is marked via `aria-current="page"` (JS path matching).
 
-### Sidebar Colors (constant)
+### Back-to-top
 
-| Token | Hex |
+- Fixed bottom-right (`inset-inline-end`), above the bottom nav on mobile via `bottom: calc(4rem + env(safe-area-inset-bottom) + 1rem)`.
+- Appears after 300px window scroll. Window-scroll (not container-scroll — see `design/css-architecture.md` §3).
+
+---
+
+## 7. Component patterns
+
+### Hero (home)
+
+- One headline at `--text-3xl`, max-width `22ch` for line-balance.
+- One supporting paragraph at `--text-lg`, max-width `60ch`.
+- Two CTAs side-by-side on tablet+, stacked on mobile: primary (`--gradient-deep`) and secondary (outlined, accent border).
+
+### Journey cards (home, 3-up)
+
+- `grid-template-columns: 1fr` mobile, `repeat(3, 1fr)` tablet+.
+- Each card: eyebrow (uppercase, `--accent`), title, description, CTA chevron.
+- On hover/focus the card's `::before` pseudo-element fills with `--gradient-deep` (`opacity: 0 → 1`), shifting all text to `--text-on-deep`.
+- Whole card is one `<a>` — no nested interactives. `aria-current` set by browser navigation.
+
+### Stat strip (home, 4-up)
+
+- 2-col mobile, 4-col tablet+.
+- Each stat is a `.stat-link` to a source URL. `--gradient-deep` background, `--text-on-deep` text.
+- External-link icon at end, opens in new tab with `rel="noopener noreferrer"`.
+
+### Symptom-quiz teaser (home, deferred-to-page)
+
+- 3 sample checkboxes (no submission), CTA links to full `/quiz/` page.
+
+### Take-action page
+
+- Markdown content with `<blockquote>` template scripts.
+- `assets/js/take-action.js` injects a Copy button on each blockquote. Clipboard API with text-selection fallback.
+
+### Search popup (topbar)
+
+- Focus on empty input → 6 suggestion chips from `search_suggestion_1`…`_6` i18n keys (English defaults).
+- Type 2+ chars → debounced (200ms), weighted scoring, max 8 results.
+- ↑/↓ navigate, Enter on suggestion runs it, Esc clears + blurs.
+- `aria-live="polite"` on results panel.
+
+### Table → accordion
+
+- Tables with `data-accordion="table"` collapse into `<details>`/`<summary>` blocks on mobile.
+
+### Carousel (home)
+
+- Auto-rotates every 4s **only if** `prefers-reduced-motion: no-preference` AND `hover: hover` (not touch).
+- Reacts to live changes in the motion preference.
+- Per-slide `aria-hidden`, dots have `aria-label="Go to slide N"`, arrow buttons have ARIA labels.
+
+---
+
+## 8. Accessibility commitments
+
+Verified in `design/accessibility-audit.md`. Summary:
+
+- **Skip-link** to `#main-content` at the top of every page (visually hidden until focused).
+- **Focus indicator** via `--focus-ring` (3px solid `--border-strong`, 2px offset).
+- **Touch targets**: every interactive `≥ 44px` block size.
+- **ARIA**:
+  - `aria-current="page"` on sidebar + bottom-nav for active route.
+  - `aria-expanded` + `aria-controls` on sidebar group toggles.
+  - `aria-live="polite"` on search results panel + take-action copy-button label.
+  - `aria-hidden` on inactive carousel slides.
+  - All icon-only buttons have `aria-label`.
+- **Reduced motion**: `prefers-reduced-motion: reduce` disables animations, transitions, carousel autoplay, and chevron rotations.
+- **RTL**: Arabic (`dir="rtl"` set by `i18n.js`) is supported via logical properties (`inset-inline-*`, `padding-inline-*`, `text-align: start`) and `[dir="rtl"]` overrides for the sidebar transform.
+- **Print styles**: Hide interactive UI, show link URLs, avoid page breaks inside headings/tables.
+- **Contrast**: All semantic token pairs pass WCAG AA on both light and dark surfaces.
+- **Keyboard nav**: Tab reaches everything. Esc closes sidebar/search and returns focus to the trigger. Arrow keys navigate carousel and search results.
+- **Sidebar focus management**: Opening the sidebar on mobile moves focus into the first nav link.
+
+---
+
+## 9. i18n
+
+- 26 languages, 170+ keys.
+- Translations live in `static/i18n/translations.json`, loaded async by `assets/js/i18n.js`.
+- DOM uses `data-i18n="key"`, optional `data-i18n-attr="title,aria-label"` for attribute targeting, `data-i18n-aria="key"` for aria-label-only.
+- Missing translations auto-fall-back to English.
+- New keys land in `en` first; placeholders propagate across all 26 languages; the gap is tracked in `static/i18n/_review.json` for human translation later.
+- Arabic triggers `dir="rtl"` on `<html>` and exercises the logical-property layout.
+
+---
+
+## 10. Performance
+
+| Bundle | gzip |
 |---|---|
-| `--sidebar-bg-color` | `#C4873A` |
-| `--sidebar-a-color` | `#1A0A10` |
-| `--sidebar-h1-color` | `#1A0A10` |
-| `--sidebar-p-color` | `#3D1F30` |
+| CSS | ~7.5 KB (target: <15 KB) |
+| JS | ~8.5 KB (target: <10 KB) |
 
-### Key Gradients
-
-| Token | CSS | Usage |
-|---|---|---|
-| `--gradient-sidebar` | `linear-gradient(180deg, #C4873A 0%, #9B5A3A 40%, #6B3A5C 100%)` | Sidebar background |
-| `--gradient-component` | `linear-gradient(160deg, #C4873A 0%, #A0694A 40%, #6B3A5C 100%)` | Poll box, carousel box |
-| `--gradient-modal` | `linear-gradient(180deg, #C4873A 0%, #8B2B5A 100%)` | Action modal |
-| `--gradient-tile` | `linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%)` | Stat boxes, resource cards |
-
-### Design Tokens
-
-| Token | Value | Usage |
-|---|---|---|
-| `--radius-sm` | `6px` | Buttons, nav items, small elements |
-| `--radius-md` | `8px` | Cards, inputs, tooltips |
-| `--radius-lg` | `12px` | Hero banners, modals, large cards |
-| `--radius-pill` | `9999px` | Pill-shaped buttons, badges |
+- Self-hosted Figtree variable WOFF2 with `preload`; no Google Fonts request.
+- Cache-busted bundles (content-hashed filenames).
+- Critical CSS inlined via `{{CSS_VARIABLES}}` block in `<head>`.
+- Lazy-loaded images (`loading="lazy"` on all non-hero content imgs).
+- No analytics, no third-party requests.
 
 ---
 
-## Accessibility Standards
+## 11. What changed in the v2 overhaul
 
-| Standard | Implementation |
+For historical context, see the design docs:
+
+- `design/ia.md` — three-journey IA design, journey definitions, page-set decisions, URL stability, privacy
+- `design/css-architecture.md` — semantic token layer rationale, mobile-first inversion, file consolidation
+- `design/accessibility-audit.md` — Phase 5 audit results and fixes
+- `design/perf-baseline.md` — pre-overhaul perf snapshot
+
+Key changes from v1:
+
+| v1 | v2 |
 |---|---|
-| Skip navigation | `.skip-link` hidden until focused, jumps to `#main-content` |
-| Focus indicators | 3px solid `var(--focus-color)` outline + 2px offset + `var(--focus-shadow)` on all focusable elements |
-| Touch targets | Minimum 44px on interactive elements (buttons, links) |
-| Reduced motion | `prefers-reduced-motion: reduce` disables all animations/transitions |
-| RTL support | Arabic (`ar`) triggers `dir="rtl"` on `<html>` |
-| Semantic HTML | `<nav>`, `<article>`, `<main>`, breadcrumb `<ol>`, ARIA labels throughout |
-| Link contrast | 2px underline with `text-underline-offset: 2px`, thickens to 3px on hover |
-| Print styles | Hides interactive UI, shows link URLs, avoids page breaks inside headings/tables |
-
----
-
-## Layout
-
-### Sidebar
-- **Desktop (>1024px):** Persistent, fixed at left, 280px wide. Content gets `margin-left: 280px`. Hamburger hidden.
-- **Mobile (<=1024px):** Off-canvas, triggered by hamburger. Overlay dims content.
-
-### Header bar
-- Sticky at top of content area with site title centered.
-- Theme toggle fixed top-right.
-- Resource filter cards rendered in header bar.
-
----
-
-## UI Component Patterns
-
-### Resource Cards
-Toggle-based filter buttons in a sticky header bar. Click activates a filter panel; clicking again deactivates. Cards use `data-filter` attributes, sidebar links use `data-sidebar-filter`.
-
-### Action Modal
-Full-screen overlay (`z-index: 2000`) with three sub-views: Symptoms, Connect, Awareness. Uses scale+translateY entrance animation. Escape key and overlay click close.
-
-### Symptom Poll
-Checkbox-based poll submitted to Formspree. Shows suggestions list after submission. Gradient background consistent with carousel.
-
-### Image Carousel
-Auto-rotating (4s interval) with dot indicators and arrow controls. Pauses on hover. Contained in gradient box matching poll styling.
-
-### Back-to-Top
-Appears after 300px scroll. Uses `smooth` scroll behavior. Positioned fixed in bottom-right.
-
-### Table Accordion
-Tables automatically convert to `<details>`/`<summary>` accordion layout on mobile. Uses `data-accordion="table"` attribute.
+| 4 nav groups by content type | 3 journeys by user intent |
+| 18 pages | 21 pages (+quiz, treatments, take-action, privacy) |
+| Resource filter cards on home | Removed; cards became real navigation |
+| Action modal as overlay | Real page at `/take-action/` |
+| Google Fonts (Figtree) | Self-hosted Figtree, OFL 1.1 |
+| Sidebar persistent at 280px fixed | Sidebar `minmax(17.5rem, 20rem)` desktop, off-canvas mobile |
+| No bottom nav | 4-tab thumb-zone bottom nav (mobile) |
+| 5 gradients | 2 gradients (`--gradient-warm`, `--gradient-deep`) |
+| 11 brand colors, no semantic layer | 7 raw + 15 semantic tokens |
+| Desktop-first CSS with `@media (max-width)` | Mobile-first with `@media (min-width)` in rem |
+| 10 CSS files, 9 JS files | 8 CSS files, 9 JS files |
+| Container-scroll on desktop (latent bug) | Window-scroll everywhere |

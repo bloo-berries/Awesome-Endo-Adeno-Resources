@@ -42,6 +42,8 @@
         .then(function(r) { return r.json(); })
         .then(function(data) {
             translations = data;
+            // Expose to other modules (e.g., search.js) for runtime lookups
+            window.__i18nTranslations = data;
             applyTranslations(currentLang);
             var picker = document.getElementById('lang-picker');
             if (picker) {

@@ -29,15 +29,6 @@ def load_config():
     with open(os.path.join(ROOT, "site.json")) as f:
         return json.load(f)
 
-def get_card_menu(cfg):
-    """Return flat list of menu items for cards/panels (excludes About)."""
-    if "nav_groups" not in cfg:
-        return [m for m in cfg.get("menu", []) if m["name"] != "About"]
-    items = []
-    for group in cfg["nav_groups"]:
-        items.extend(group["items"])
-    return items
-
 # ── Frontmatter parser ──
 def parse_frontmatter(text):
     """Split YAML frontmatter from markdown body. Returns (meta_dict, body)."""
@@ -311,6 +302,22 @@ def build_css_vars(cfg):
         gradient_lines.append(f"        --gradient-{css_key}: {val};")
     gradient_css = "\n".join(gradient_lines)
 
+    # Semantic layer (Phase 2 addition; coexists with legacy tokens above)
+    sem = cfg.get("semantic", {})
+    sem_light = sem.get("light", {})
+    sem_dark = sem.get("dark", {})
+    sem_constant = sem.get("constant", {})
+    sem_scale = sem.get("scale", {})
+
+    def emit_tokens(d, indent=8):
+        pad = " " * indent
+        return "\n".join(f"{pad}--{k}: {v};" for k, v in d.items())
+
+    semantic_light_css = emit_tokens(sem_light)
+    semantic_dark_css = emit_tokens(sem_dark)
+    semantic_constant_css = emit_tokens(sem_constant)
+    semantic_scale_css = emit_tokens(sem_scale)
+
     return f"""<style>
     body {{
         /* Sidebar tokens */
@@ -367,6 +374,11 @@ def build_css_vars(cfg):
         --white-soft: rgba(255,255,255,0.2);
 
         background-color: var(--bkg-color);
+
+        /* === Semantic layer (Phase 2) === */
+{semantic_light_css}
+{semantic_constant_css}
+{semantic_scale_css}
     }}
     body.dark-theme {{
         --text-color: {dk['text_color']};
@@ -389,6 +401,9 @@ def build_css_vars(cfg):
         --border-color: {dk.get('border_color', 'rgba(255,255,255,0.1)')};
         --scrollbar-thumb: {dk.get('scrollbar_thumb', 'rgba(255,255,255,0.25)')};
         --scrollbar-track: {dk.get('scrollbar_track', 'rgba(255,255,255,0.05)')};
+
+        /* === Semantic layer (Phase 2) === */
+{semantic_dark_css}
     }}
 </style>"""
 
@@ -400,13 +415,10 @@ def build_sidebar_nav(cfg, active_slug=None):
         for m in cfg["menu"]:
             icon_svg = ICONS.get(m["icon"], "")
             i18n_attr = f' data-i18n="{m["i18n_nav"]}"' if m.get("i18n_nav") else ""
-            sidebar_filter = ""
-            if m["slug"] != "about":
-                sidebar_filter = f' data-sidebar-filter="{m["slug"]}"'
             active_attr = ' aria-current="page"' if m["slug"] == active_slug else ""
             items.append(
                 f'        <li class="nav-item">'
-                f'<a href="{cfg["base_url"]}{m["slug"]}/"{sidebar_filter}{active_attr}>'
+                f'<a href="{cfg["base_url"]}{m["slug"]}/"{active_attr}>'
                 f'<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
                 f'{icon_svg}</svg>'
                 f'<span{i18n_attr}>{m["name"]}</span></a></li>'
@@ -415,26 +427,32 @@ def build_sidebar_nav(cfg, active_slug=None):
 
     # Grouped nav
     groups_html = []
-    for group in cfg["nav_groups"]:
+    for idx, group in enumerate(cfg["nav_groups"]):
         i18n_key = group.get("i18n_key", "")
         i18n_attr = f' data-i18n="{i18n_key}"' if i18n_key else ""
+        group_id = f"nav-group-{idx}"
+        list_id = f"nav-group-list-{idx}"
         items = []
         for m in group["items"]:
             icon_svg = ICONS.get(m["icon"], "")
             nav_i18n = f' data-i18n="{m["i18n_nav"]}"' if m.get("i18n_nav") else ""
-            sidebar_filter = f' data-sidebar-filter="{m["slug"]}"'
             active_attr = ' aria-current="page"' if m["slug"] == active_slug else ""
             items.append(
                 f'            <li class="nav-item">'
-                f'<a href="{cfg["base_url"]}{m["slug"]}/"{sidebar_filter}{active_attr}>'
+                f'<a href="{cfg["base_url"]}{m["slug"]}/"{active_attr}>'
                 f'<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
                 f'{icon_svg}</svg>'
                 f'<span{nav_i18n}>{m["name"]}</span></a></li>'
             )
         group_html = (
-            f'        <div class="nav-group">\n'
-            f'            <h3 class="nav-group-label"{i18n_attr}>{group["label"]}</h3>\n'
-            f'            <ul>\n'
+            f'        <div class="nav-group" data-group-id="{group_id}">\n'
+            f'            <h3 class="nav-group-label">\n'
+            f'                <button class="nav-group-toggle" aria-expanded="true" aria-controls="{list_id}">\n'
+            f'                    <span{i18n_attr}>{group["label"]}</span>\n'
+            f'                    <svg class="nav-group-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>\n'
+            f'                </button>\n'
+            f'            </h3>\n'
+            f'            <ul id="{list_id}">\n'
             + "\n".join(items) + "\n"
             f'            </ul>\n'
             f'        </div>'
@@ -469,42 +487,6 @@ def build_socials(cfg):
             <path fill="currentColor" d="M18.88 1.099C18.147.366 17.265 0 16.233 0H3.746C2.714 0 1.832.366 1.099 1.099C.366 1.832 0 2.714 0 3.746v12.487c0 1.032.366 1.914 1.099 2.647c.733.733 1.615 1.099 2.647 1.099H6.66c.19 0 .333-.007.429-.02a.504.504 0 0 0 .286-.169c.095-.1.143-.245.143-.435l-.007-.885c-.004-.564-.006-1.01-.006-1.34l-.3.052c-.19.035-.43.05-.721.046a5.555 5.555 0 0 1-.904-.091a2.026 2.026 0 0 1-.872-.39a1.651 1.651 0 0 1-.572-.8l-.13-.3a3.25 3.25 0 0 0-.41-.663c-.186-.243-.375-.407-.566-.494l-.09-.065a.956.956 0 0 1-.17-.156a.723.723 0 0 1-.117-.182c-.026-.061-.004-.111.065-.15c.07-.04.195-.059.378-.059l.26.04c.173.034.388.138.643.311a2.1 2.1 0 0 1 .631.677c.2.355.44.626.722.813c.282.186.566.28.852.28c.286 0 .533-.022.742-.065a2.59 2.59 0 0 0 .585-.196c.078-.58.29-1.028.637-1.34a8.907 8.907 0 0 1-1.333-.234a5.314 5.314 0 0 1-1.223-.507a3.5 3.5 0 0 1-1.047-.872c-.277-.347-.505-.802-.683-1.365c-.177-.564-.266-1.215-.266-1.952c0-1.049.342-1.942 1.027-2.68c-.32-.788-.29-1.673.091-2.652c.252-.079.625-.02 1.119.175c.494.195.856.362 1.086.5c.23.14.414.257.553.352a9.233 9.233 0 0 1 2.497-.338c.859 0 1.691.113 2.498.338l.494-.312a6.997 6.997 0 0 1 1.197-.572c.46-.174.81-.221 1.054-.143c.39.98.424 1.864.103 2.653c.685.737 1.028 1.63 1.028 2.68c0 .737-.089 1.39-.267 1.957c-.177.568-.407 1.023-.689 1.366a3.65 3.65 0 0 1-1.053.865c-.42.234-.828.403-1.223.507a8.9 8.9 0 0 1-1.333.235c.45.39.676 1.005.676 1.846v3.11c0 .147.021.266.065.357a.36.36 0 0 0 .208.189c.096.034.18.056.254.064c.074.01.18.013.318.013h2.914c1.032 0 1.914-.366 2.647-1.099c.732-.732 1.099-1.615 1.099-2.647V3.746c0-1.032-.367-1.914-1.1-2.647z"/>
         </svg>
     </a>'''
-
-# ── Menu cards for homepage ──
-def build_menu_cards(cfg):
-    cards = []
-    for m in get_card_menu(cfg):
-        icon_svg = ICONS.get(m["icon"], "")
-        i18n_nav = f' data-i18n="{m["i18n_nav"]}"' if m.get("i18n_nav") else ""
-        i18n_desc = f' data-i18n="{m["i18n_desc"]}"' if m.get("i18n_desc") else ""
-        cards.append(
-            f'    <button class="resource-card" data-filter="{m["slug"]}" aria-pressed="false">\n'
-            f'        <div class="card-icon">\n'
-            f'            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">\n'
-            f'                {icon_svg}\n'
-            f'            </svg>\n'
-            f'        </div>\n'
-            f'        <h3 class="card-title"{i18n_nav}>{m["name"]}</h3>\n'
-            f'        <p class="card-desc"{i18n_desc}>{m["description"]}</p>\n'
-            f'    </button>'
-        )
-    return "\n".join(cards)
-
-# ── Filter panels (rendered page content for homepage) ──
-def build_filter_panels(pages, cfg):
-    panels = []
-    for m in get_card_menu(cfg):
-        slug = m["slug"]
-        page = pages.get(slug)
-        if not page:
-            continue
-        panels.append(
-            f'    <article class="filter-panel" data-panel="{slug}" style="display:none;">\n'
-            f'        <h2 class="panel-title">{page["title"]}</h2>\n'
-            f'        {page["html"]}\n'
-            f'    </article>'
-        )
-    return "\n".join(panels)
 
 # ── Structured data JSON-LD ──
 def build_structured_data(cfg, page=None):
@@ -601,6 +583,9 @@ def build_search_index(pages, cfg):
     index = []
     for slug, page in pages.items():
         if page.get("draft"):
+            continue
+        # Honor `search: false` frontmatter (e.g., take-action, privacy, graphic-images)
+        if str(page.get("search", "true")).lower() == "false":
             continue
         plain = re.sub(r'<[^>]+>', '', page.get("html", ""))
         plain = re.sub(r'\s+', ' ', plain).strip()
@@ -710,6 +695,7 @@ def load_pages(cfg):
             "tags": meta.get("tags", []),
             "keywords": meta.get("keywords", []),
             "draft": meta.get("draft", False),
+            "search": meta.get("search", True),
             "html": html_content,
             "permalink": permalink,
             "slug": slug,
@@ -843,16 +829,7 @@ def main():
         f.write(build_sitemap(pages, cfg))
 
     # Build homepage
-    home_content = pages.get("_index", {}).get("html", "")
-    menu_cards = build_menu_cards(cfg)
-    filter_panels = build_filter_panels(pages, cfg)
-
-    home_inner = home_tpl
-    home_inner = home_inner.replace("{{MENU_CARDS}}", menu_cards)
-    home_inner = home_inner.replace("{{FILTER_PANELS}}", filter_panels)
-    home_inner = home_inner.replace("{{HOME_CONTENT}}", home_content)
-    home_inner = home_inner.replace("{{BASE_URL}}", base_url)
-
+    home_inner = home_tpl.replace("{{BASE_URL}}", base_url)
     home_html = render_page(base_tpl, cfg, home_inner)
     with open(os.path.join(DIST, "index.html"), "w", encoding="utf-8") as f:
         f.write(home_html)
