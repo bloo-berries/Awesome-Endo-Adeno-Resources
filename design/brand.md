@@ -12,7 +12,7 @@ Updated 2026-05-28 after the UI/UX overhaul (Phases 1–5). Pairs with:
 
 - **Name:** 1 in 7
 - **Domain:** 1in7.info
-- **Mission:** A comprehensive resource hub for navigating endometriosis and adenomyosis. The "1 in 7" framing reflects the real prevalence — not the under-counted "1 in 10" that's still commonly cited.
+- **Mission:** A comprehensive resource hub for navigating Endometriosis and adenomyosis. The "1 in 7" framing reflects the real prevalence — not the under-counted "1 in 10" that's still commonly cited.
 - **Voice:** Compassionate, evidence-based, accessible. Avoids medical jargon where possible; empowers patients with clear information and concrete next steps.
 - **Privacy posture:** No third-party tracking. No analytics. No cookies. Symptom data lives only in the user's browser. Privacy notice at `/privacy/`.
 
@@ -172,7 +172,7 @@ About / FAQ / Take action / Privacy
 
 ### 5.4 Page set (21 markdown files)
 
-`_index`, about, adenomyosis, comorbidities, diagnosis, education, endometriosis, faq, fertility, graphic-images (draft), healthcare, medications, mental-health, myths, notable-people, **privacy** (new), **quiz** (new), research, resources, **take-action** (new), tracker, **treatments** (new).
+`_index`, about, adenomyosis, comorbidities, diagnosis, education, Endometriosis, faq, fertility, graphic-images (draft), healthcare, medications, mental-health, myths, notable-people, **privacy** (new), **quiz** (new), research, resources, **take-action** (new), tracker, **treatments** (new).
 
 Pages with `search: false` frontmatter are excluded from the search index (`/take-action/`, `/privacy/`). Pages with `draft: true` are excluded from both build and index (`/graphic-images/`).
 

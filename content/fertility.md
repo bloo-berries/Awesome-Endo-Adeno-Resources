@@ -1,10 +1,10 @@
 ---
 title: Fertility
-description: Understanding endometriosis and adenomyosis impact on fertility, IVF, egg freezing, and conception guidance
+description: Understanding Endometriosis and adenomyosis impact on fertility, IVF, egg freezing, and conception guidance
 date: 2025-06-01
 lastmod: 2025-06-01
 tags: ["fertility", "infertility", "IVF", "pregnancy", "egg freezing"]
-keywords: ["fertility", "endometriosis infertility", "IVF", "egg freezing", "pregnancy with endometriosis"]
+keywords: ["fertility", "Endometriosis infertility", "IVF", "egg freezing", "pregnancy with Endometriosis"]
 ---
 
 ## Fertility & Endometriosis
@@ -20,14 +20,16 @@ Endometriosis is one of the leading causes of infertility, found in 25-50% of pe
 - **Endometriomas:** Ovarian cysts ("chocolate cysts") can damage healthy ovarian tissue and reduce egg reserve
 - **Hormonal disruption:** Altered hormonal signaling can affect ovulation and implantation
 - **Immune dysfunction:** Changes in immune response may impair embryo implantation
-- **Reduced egg quality:** Oxidative stress from endometriosis may affect oocyte quality
+- **Reduced egg quality:** Oxidative stress from Endometriosis may affect oocyte quality
 
 ### Fertility Statistics
 
-- **30-50%** of people with endometriosis experience some degree of infertility
-- **55%** infertility rate is reported in more severe cases
-- Severity of visible disease does **not** always predict fertility outcomes
-- Many people with endometriosis conceive **without** medical assistance
+<div class="stat-grid">
+<div class="stat-highlight"><span class="stat-number">30-50%</span><span class="stat-label">experience some infertility</span></div>
+<div class="stat-highlight"><span class="stat-number">55%</span><span class="stat-label">infertility in severe cases</span></div>
+</div>
+
+Severity of visible disease does **not** always predict fertility outcomes. Many people with Endometriosis conceive **without** medical assistance.
 
 ## Fertility Preservation
 
@@ -36,14 +38,14 @@ Endometriosis is one of the leading causes of infertility, found in 25-50% of pe
 Egg freezing may be recommended if:
 - You have endometriomas that may require surgery (which can reduce ovarian reserve)
 - You're not ready for pregnancy but have declining ovarian reserve (AMH levels)
-- You're planning future endometriosis surgery
+- You're planning future Endometriosis surgery
 - You want to preserve options while managing your condition
 
 **Key considerations:**
 - Best outcomes when done before age 35
 - Typically requires 1-2 weeks of hormone injections and monitoring
 - Multiple cycles may be needed to bank enough eggs
-- Discuss timing with both your endometriosis specialist and reproductive endocrinologist
+- Discuss timing with both your Endometriosis specialist and reproductive endocrinologist
 
 ### Embryo Freezing
 
@@ -53,30 +55,30 @@ If you have a partner or want to use donor sperm, embryo freezing may offer high
 
 ### IVF (In Vitro Fertilization)
 
-IVF is the most common assisted reproduction technology for endometriosis-related infertility:
+IVF is the most common assisted reproduction technology for Endometriosis-related infertility:
 
-- **Success rates** for people with endometriosis are generally good, though may be slightly lower than for other causes of infertility
+- **Success rates** for people with Endometriosis are generally good, though may be slightly lower than for other causes of infertility
 - **Suppression protocols:** Some clinics use 2-3 months of GnRH agonist suppression before IVF to improve outcomes
 - **Endometrioma management:** Surgical drainage before IVF is controversial; discuss pros and cons with your team
 - **Multiple cycles** may be needed; this is normal
 
 ### IUI (Intrauterine Insemination)
 
-- May be appropriate for mild endometriosis with open fallopian tubes
+- May be appropriate for mild Endometriosis with open fallopian tubes
 - Often combined with ovulation-stimulating medications
 - Lower success rates than IVF but less invasive and less expensive
 - Typically 3-6 cycles are attempted before moving to IVF
 
 ### Surgery Before Fertility Treatment
 
-- Excision surgery may improve natural conception rates, especially for mild-moderate endometriosis
+- Excision surgery may improve natural conception rates, especially for mild-moderate Endometriosis
 - Removing endometriomas requires careful technique to preserve ovarian tissue
 - Discuss the balance between surgical benefits and potential ovarian damage with your surgeon
 - Timing between surgery and IVF is important; most specialists recommend proceeding within 6-12 months
 
 ## Natural Conception
 
-Many people with endometriosis conceive naturally. Tips that may help:
+Many people with Endometriosis conceive naturally. Tips that may help:
 
 - **Track ovulation:** Use ovulation predictor kits, basal body temperature, or cervical mucus monitoring
 - **Optimize timing:** Intercourse in the 5 days before and day of ovulation
@@ -88,7 +90,7 @@ Many people with endometriosis conceive naturally. Tips that may help:
 
 ### What to Expect
 
-- Pregnancy often (but not always) temporarily improves endometriosis symptoms due to high progesterone
+- Pregnancy often (but not always) temporarily improves Endometriosis symptoms due to high progesterone
 - Some people experience worsening symptoms, particularly in the first trimester
 - Endometriosis may increase risk of: preterm birth, placenta previa, cesarean delivery, and miscarriage
 - Adenomyosis may increase risk of preterm labor and postpartum hemorrhage
@@ -101,17 +103,17 @@ Many people with endometriosis conceive naturally. Tips that may help:
 
 ## Finding a Fertility Specialist
 
-Look for a **reproductive endocrinologist (RE)** who has specific experience with endometriosis:
+Look for a **reproductive endocrinologist (RE)** who has specific experience with Endometriosis:
 
 - [SART](https://www.sart.org/): Society for Assisted Reproductive Technology (find clinics, compare success rates)
 - [ASRM](https://www.asrm.org/): American Society for Reproductive Medicine
 - [Fertility Network UK](https://fertilitynetworkuk.org/): UK-based fertility support
 - [Access Australia](https://www.accessaustralia.org.au/): Australian fertility support
-- Ask your endometriosis specialist for referrals to REs they trust
+- Ask your Endometriosis specialist for referrals to REs they trust
 
 ## Emotional Support
 
-The intersection of endometriosis and fertility struggles can be emotionally devastating:
+The intersection of Endometriosis and fertility struggles can be emotionally devastating:
 
 - **Grief is valid:** Mourning the loss of expected fertility is a real and important process
 - **Couples counseling:** Fertility challenges strain relationships; professional support helps
@@ -122,6 +124,6 @@ The intersection of endometriosis and fertility struggles can be emotionally dev
 ## Key Research
 
 - Endometriosis treatment before IVF may improve outcomes ([Cochrane Review](https://www.cochranelibrary.com/))
-- Long-acting GnRH agonist before IVF increases live birth rates in moderate-severe endometriosis
-- Conservative surgery improves spontaneous pregnancy rates in early-stage endometriosis
+- Long-acting GnRH agonist before IVF increases live birth rates in moderate-severe Endometriosis
+- Conservative surgery improves spontaneous pregnancy rates in early-stage Endometriosis
 - AMH testing helps assess ovarian reserve and guide fertility planning

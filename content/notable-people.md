@@ -1,135 +1,429 @@
 ---
 title: "Notable People"
-description: "Public figures who have spoken openly about their endometriosis diagnosis, surgeries, and advocacy, organized by region."
+description: "Public figures who have spoken openly about their Endometriosis diagnosis, surgeries, and advocacy, organized by region."
 date: 2026-05-20
-lastmod: 2026-05-20
+lastmod: 2026-05-29
 draft: false
-tags: ["endometriosis", "notable people", "advocacy", "surgery", "awareness"]
-keywords: ["celebrities with endometriosis", "famous people endometriosis", "endometriosis surgery", "endometriosis advocacy", "endometriosis awareness"]
+tags: ["Endometriosis", "notable people", "advocacy", "surgery", "awareness"]
+keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "Endometriosis surgery", "Endometriosis advocacy", "Endometriosis awareness"]
 ---
 
 ## Notable People with Endometriosis
 
-Public figures who have spoken openly about their endometriosis. Surgery details, surgeon names, and hospital locations are included where publicly confirmed.
+Public figures who have spoken openly about their Endometriosis. Surgery details and surgeon names are included where publicly confirmed.
 
-<details>
-  <summary>North America (25 people)</summary>
+## North America
 
-| Celebrity | Surgery Confirmed? | Surgeon | Location / Hospital |
-|---|---|---|---|
-| **Amy Schumer** | Yes, Sept 2021 hysterectomy + appendectomy | Dr. Tamer Seckin | Seckin Endometriosis Center, NYC |
-| **Bethenny Frankel** | Yes, multiple surgeries | Not publicly disclosed | Not publicly disclosed |
-| **Brandi Rhodes** | Yes | Not publicly disclosed | Not publicly disclosed |
-| **Chrissy Teigen** | Yes, laparoscopic excision, Feb 2021 | Not publicly disclosed | LA area presumed |
-| **Cyndi Lauper** | Some surgery in 30s | Not publicly disclosed | Not publicly disclosed |
-| **Diana Falzone** | Yes | Not publicly disclosed | Not publicly disclosed |
-| **Dolly Parton** | Yes, partial hysterectomy 1982 | Not publicly disclosed | Not publicly disclosed |
-| **Folake Olowofoyeku** | Yes, excision surgery | Likely Seckin Endometriosis Center | NYC (likely) |
-| **Halsey** | Yes, multiple surgeries from Jan 2017 | Dr. Thais Aliabadi | Los Angeles |
-| **Jaime King** | Diagnosed; no excision confirmed | Diagnosed by Dr. Randy Harris | Cedars-Sinai, LA |
-| **Janel Parrish** | Yes, 2 surgeries (June 2024 + Dec 2025) | Not publicly disclosed | Not publicly disclosed |
-| **Julianne Hough** | Yes, 2 surgeries (2008 + 2017) | Not publicly disclosed | Cedars-Sinai Medical Center, LA (first) |
-| **Lena Dunham** | Yes, 8+ surgeries + total hysterectomy at 31 (2017) | Dr. Tamer Seckin | NYC |
-| **Lili Reinhart** | Yes, laparoscopic surgery, Dec 2025 | Endometriosis specialist (not named) | Not publicly disclosed |
-| **Mae Whitman** | Yes, excision surgery (referred by Lena Dunham) | Dr. Iris Kerin Orbuch | Los Angeles |
-| **Monica (Brown)** | Yes, 8-hour surgery, May 2017 | Dr. Ceana Nezhat | Northside Hospital, Atlanta |
-| **Molly Qerim** | Yes, multiple surgeries | First: Dr. Mark Surrey (LA); 2025: Dr. Masahide Kanayama | LA / New York Endometriosis Center |
-| **Olivia Culpo** | Yes, laparoscopic surgery, Nov 2020 | Dr. Smitha Vilasagar (per Olivia) or Dr. Thais Aliabadi (per clinic) | Los Angeles |
-| **Padma Lakshmi** | Yes, first 2006; ~4 total surgeries | Dr. Tamer Seckin | NYC |
-| **Sarah Hyland** | Yes, laparoscopic surgery, Spring 2018 | Not publicly disclosed | Not publicly disclosed |
-| **Savannah Chrisley** | Yes, 3 surgeries (third in 2020) | Dr. Ken Sinervo (with Dr. Winer) | Center for Endometriosis Care, Atlanta |
-| **Tara Lipinski** | Yes, robotic excision, Sept 2020; second surgery 2024 | Not publicly disclosed | California |
-| **Tia Mowry** | Yes, 2 laparoscopic surgeries (2006 + ~2007/8) | Not publicly disclosed | Not publicly disclosed |
-| **Tiffany Haddish** | Yes, endo shave + fibroid removal (~2023/24) | Not publicly disclosed | Not publicly disclosed |
-| **Whoopi Goldberg** | Yes, multiple surgeries (~40 yrs ago) | Not publicly disclosed | Not publicly disclosed |
+<div class="people-grid">
+  <div class="person-card">
+    <div class="person-avatar">AS</div>
+    <strong class="person-name">Amy Schumer</strong>
+    <span class="person-role">Comedian & Actress</span>
+    <span class="person-condition">Hysterectomy, 2021</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">BF</div>
+    <strong class="person-name">Bethenny Frankel</strong>
+    <span class="person-role">TV Personality & Entrepreneur</span>
+    <span class="person-condition">Multiple surgeries</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">BR</div>
+    <strong class="person-name">Brandi Rhodes</strong>
+    <span class="person-role">Professional Wrestler</span>
+    <span class="person-condition">Surgery confirmed</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">CT</div>
+    <strong class="person-name">Chrissy Teigen</strong>
+    <span class="person-role">Model & TV Personality</span>
+    <span class="person-condition">Excision surgery, 2021</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">CL</div>
+    <strong class="person-name">Cyndi Lauper</strong>
+    <span class="person-role">Singer & Songwriter</span>
+    <span class="person-condition">Surgery in her 30s</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">DF</div>
+    <strong class="person-name">Diana Falzone</strong>
+    <span class="person-role">Journalist & Author</span>
+    <span class="person-condition">Surgery confirmed</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">DP</div>
+    <strong class="person-name">Dolly Parton</strong>
+    <span class="person-role">Singer & Songwriter</span>
+    <span class="person-condition">Partial hysterectomy, 1982</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">FO</div>
+    <strong class="person-name">Folake Olowofoyeku</strong>
+    <span class="person-role">Actress, Bob Hearts Abishola</span>
+    <span class="person-condition">Excision surgery</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">H</div>
+    <strong class="person-name">Halsey</strong>
+    <span class="person-role">Singer & Songwriter</span>
+    <span class="person-condition">Multiple surgeries, 2017+</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">JK</div>
+    <strong class="person-name">Jaime King</strong>
+    <span class="person-role">Actress & Model</span>
+    <span class="person-condition">Diagnosed, no excision confirmed</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">JP</div>
+    <strong class="person-name">Janel Parrish</strong>
+    <span class="person-role">Actress, Pretty Little Liars</span>
+    <span class="person-condition">2 surgeries, 2024-2025</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">JH</div>
+    <strong class="person-name">Julianne Hough</strong>
+    <span class="person-role">Dancer & Actress</span>
+    <span class="person-condition">2 surgeries, 2008 & 2017</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">LD</div>
+    <strong class="person-name">Lena Dunham</strong>
+    <span class="person-role">Actress & Writer, Girls</span>
+    <span class="person-condition">8+ surgeries + hysterectomy</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">LR</div>
+    <strong class="person-name">Lili Reinhart</strong>
+    <span class="person-role">Actress, Riverdale</span>
+    <span class="person-condition">Laparoscopic surgery, 2025</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">MW</div>
+    <strong class="person-name">Mae Whitman</strong>
+    <span class="person-role">Actress, Good Girls</span>
+    <span class="person-condition">Excision surgery</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">MB</div>
+    <strong class="person-name">Monica</strong>
+    <span class="person-role">R&B Singer</span>
+    <span class="person-condition">8-hour surgery, 2017</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">MQ</div>
+    <strong class="person-name">Molly Qerim</strong>
+    <span class="person-role">Sports Broadcaster, ESPN</span>
+    <span class="person-condition">Multiple surgeries</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">OC</div>
+    <strong class="person-name">Olivia Culpo</strong>
+    <span class="person-role">Model & Miss Universe 2012</span>
+    <span class="person-condition">Laparoscopic surgery, 2020</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">PL</div>
+    <strong class="person-name">Padma Lakshmi</strong>
+    <span class="person-role">TV Host & Author, Top Chef</span>
+    <span class="person-condition">~4 surgeries, from 2006</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">SH</div>
+    <strong class="person-name">Sarah Hyland</strong>
+    <span class="person-role">Actress, Modern Family</span>
+    <span class="person-condition">Laparoscopic surgery, 2018</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">SC</div>
+    <strong class="person-name">Savannah Chrisley</strong>
+    <span class="person-role">TV Personality</span>
+    <span class="person-condition">3 surgeries</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">TL</div>
+    <strong class="person-name">Tara Lipinski</strong>
+    <span class="person-role">Olympic Figure Skater</span>
+    <span class="person-condition">Robotic excision, 2020 & 2024</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">TM</div>
+    <strong class="person-name">Tia Mowry</strong>
+    <span class="person-role">Actress, Sister Sister</span>
+    <span class="person-condition">2 laparoscopic surgeries</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">TH</div>
+    <strong class="person-name">Tiffany Haddish</strong>
+    <span class="person-role">Comedian & Actress</span>
+    <span class="person-condition">Endo shave + fibroid removal</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">WG</div>
+    <strong class="person-name">Whoopi Goldberg</strong>
+    <span class="person-role">Actress & TV Host, The View</span>
+    <span class="person-condition">Multiple surgeries</span>
+  </div>
+</div>
 
-</details>
+## North America: Diagnosed
 
-<details>
-  <summary>North America: Diagnosed, No Surgery Confirmed (7 people)</summary>
+<div class="people-grid">
+  <div class="person-card">
+    <div class="person-avatar">DJ</div>
+    <strong class="person-name">Daisy Edgar-Jones</strong>
+    <span class="person-role">Actress, Normal People</span>
+    <span class="person-condition">Diagnosed at 24</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">ER</div>
+    <strong class="person-name">Emma Roberts</strong>
+    <span class="person-role">Actress, Scream Queens</span>
+    <span class="person-condition">Diagnosed, froze eggs</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">FP</div>
+    <strong class="person-name">Florence Pugh</strong>
+    <span class="person-role">Actress, Little Women</span>
+    <span class="person-condition">Diagnosed, egg freezing</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">GU</div>
+    <strong class="person-name">Gabrielle Union</strong>
+    <span class="person-role">Actress, Bring It On</span>
+    <span class="person-condition">Adenomyosis</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">HC</div>
+    <strong class="person-name">Hillary Clinton</strong>
+    <span class="person-role">Politician & Former Secretary of State</span>
+    <span class="person-condition">Diagnosed; Exec Producer, Below the Belt</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">JM</div>
+    <strong class="person-name">Jillian Michaels</strong>
+    <span class="person-role">Fitness Trainer & TV Personality</span>
+    <span class="person-condition">Diagnosed at 28</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">MM</div>
+    <strong class="person-name">Mandy Moore</strong>
+    <span class="person-role">Actress & Singer, This Is Us</span>
+    <span class="person-condition">Scheduled surgery, got pregnant first</span>
+  </div>
+</div>
 
-| Celebrity | Status |
-|---|---|
-| **Daisy Edgar-Jones** | Diagnosed at 24, no surgery yet |
-| **Emma Roberts** | Diagnosed, froze eggs, no excision surgery |
-| **Florence Pugh** | Diagnosed by Dr. Aliabadi, egg freezing, no excision |
-| **Gabrielle Union** | Has adenomyosis, not endometriosis, used surrogate |
-| **Hillary Clinton** | Diagnosed, no publicized surgery (Exec Producer, *Below the Belt*) |
-| **Jillian Michaels** | Diagnosed at 28, no publicized surgery |
-| **Mandy Moore** | Scheduled but never had it, got pregnant first |
+## UK / Ireland
 
-</details>
+<div class="people-grid">
+  <div class="person-card">
+    <div class="person-avatar">AC</div>
+    <strong class="person-name">Alexa Chung</strong>
+    <span class="person-role">Model & TV Presenter</span>
+    <span class="person-condition">Laparoscopic surgery, 2019</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">AF</div>
+    <strong class="person-name">Anna Friel</strong>
+    <span class="person-role">Actress, Brookside</span>
+    <span class="person-condition">Diagnosed at 28</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">AC</div>
+    <strong class="person-name">Annabel Croft</strong>
+    <span class="person-role">Tennis Player & TV Presenter</span>
+    <span class="person-condition">Surgery, 1992</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">AT</div>
+    <strong class="person-name">Anthea Turner</strong>
+    <span class="person-role">TV Presenter</span>
+    <span class="person-condition">Surgery confirmed</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">DR</div>
+    <strong class="person-name">Daisy Ridley</strong>
+    <span class="person-role">Actress, Star Wars</span>
+    <span class="person-condition">Laparoscopy at 15</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">EB</div>
+    <strong class="person-name">Emma Bunton</strong>
+    <span class="person-role">Singer, Spice Girls</span>
+    <span class="person-condition">Diagnosed, 2004</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">EF</div>
+    <strong class="person-name">Emma Forbes</strong>
+    <span class="person-role">TV Presenter</span>
+    <span class="person-condition">7+ laparoscopic surgeries</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">HM</div>
+    <strong class="person-name">Hilary Mantel</strong>
+    <span class="person-role">Author, Wolf Hall</span>
+    <span class="person-condition">Hysterectomy at 27</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">JB</div>
+    <strong class="person-name">Julia Bradbury</strong>
+    <span class="person-role">TV Presenter</span>
+    <span class="person-condition">Laparoscopic surgery, 2006+</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">MH</div>
+    <strong class="person-name">Molly-Mae Hague</strong>
+    <span class="person-role">TV Personality & Influencer</span>
+    <span class="person-condition">Keyhole surgery, 2021</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">RM</div>
+    <strong class="person-name">Rosie Marcel</strong>
+    <span class="person-role">Actress, Holby City</span>
+    <span class="person-condition">Diagnosed at 20</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">SS</div>
+    <strong class="person-name">Susan Sarandon</strong>
+    <span class="person-role">Actress</span>
+    <span class="person-condition">Diagnostic procedure, 1983</span>
+  </div>
+</div>
 
-<details>
-  <summary>UK / Ireland (12 people)</summary>
+## Australia / New Zealand
 
-| Celebrity | Surgery Confirmed? | Surgeon | Location / Hospital |
-|---|---|---|---|
-| **Alexa Chung** | Yes, laparoscopic surgery, 2019 | Not publicly disclosed | UK |
-| **Anna Friel** | Yes, diagnosed at 28 after ruptured ovarian cyst | Not publicly disclosed | UK |
-| **Annabel Croft** | Yes, surgery 1992 | Not publicly disclosed | UK |
-| **Anthea Turner** | Yes | Not publicly disclosed | UK |
-| **Daisy Ridley** | Yes, laparoscopy at 15 (~2007) | Not publicly disclosed | UK |
-| **Emma Bunton** | Diagnosed 2004, specific surgery not detailed | Not publicly disclosed | UK |
-| **Emma Forbes** | Yes, 7+ laparoscopic surgeries + ovary/fallopian tube removal | Not publicly disclosed | UK |
-| **Hilary Mantel** | Yes, at 27; removed uterus, ovaries, part of bowel | Not publicly disclosed | UK |
-| **Julia Bradbury** | Yes, laparoscopic surgery after 2006 diagnosis | Not publicly disclosed | UK |
-| **Molly-Mae Hague** | Yes, keyhole surgery, late 2021 | Private specialist | UK |
-| **Rosie Marcel** | Yes, diagnosed at 20 | Not publicly disclosed | UK |
-| **Susan Sarandon** | Yes, diagnostic procedure 1983 while filming *The Hunger* | Not publicly disclosed | England |
+<div class="people-grid">
+  <div class="person-card">
+    <div class="person-avatar">AK</div>
+    <strong class="person-name">Angie Kent</strong>
+    <span class="person-role">TV Personality, Bachelorette AU</span>
+    <span class="person-condition">3 laparoscopic surgeries</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">AP</div>
+    <strong class="person-name">Annastacia Palaszczuk</strong>
+    <span class="person-role">Politician, Former QLD Premier</span>
+    <span class="person-condition">Keyhole surgery</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">BI</div>
+    <strong class="person-name">Bindi Irwin</strong>
+    <span class="person-role">Wildlife Conservationist & TV Personality</span>
+    <span class="person-condition">Surgeries, 2023 (treated in US)</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">ES</div>
+    <strong class="person-name">Emily Seebohm</strong>
+    <span class="person-role">Olympic Swimmer</span>
+    <span class="person-condition">Laparoscopic surgery, 2016</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">EW</div>
+    <strong class="person-name">Emma Watkins</strong>
+    <span class="person-role">Entertainer, The Wiggles</span>
+    <span class="person-condition">Keyhole surgery, 2018</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">EB</div>
+    <strong class="person-name">Erin Barnett</strong>
+    <span class="person-role">TV Personality, Love Island AU</span>
+    <span class="person-condition">16 surgeries; ovary removed</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">RC</div>
+    <strong class="person-name">Ricki-Lee Coulter</strong>
+    <span class="person-role">Singer & TV Presenter</span>
+    <span class="person-condition">Laparoscopy + excision, 2024</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">SW</div>
+    <strong class="person-name">Samantha Wills</strong>
+    <span class="person-role">Jewelry Designer & Author</span>
+    <span class="person-condition">Surgery, Stage IV</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">SD</div>
+    <strong class="person-name">Sophie Dillman</strong>
+    <span class="person-role">Actress, Home and Away</span>
+    <span class="person-condition">3 surgeries since age 21</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">SM</div>
+    <strong class="person-name">Sophie Monk</strong>
+    <span class="person-role">Singer & TV Personality</span>
+    <span class="person-condition">Keyhole surgery, 2018</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">TB</div>
+    <strong class="person-name">Thessy Batsinilas</strong>
+    <span class="person-role">Influencer & Entrepreneur</span>
+    <span class="person-condition">Reproductive organs removed</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">ZM</div>
+    <strong class="person-name">Zoe Marshall</strong>
+    <span class="person-role">TV Presenter & Podcaster</span>
+    <span class="person-condition">Surgery confirmed</span>
+  </div>
+</div>
 
-</details>
+## Africa
 
-<details>
-  <summary>Australia / New Zealand (12 people)</summary>
+<div class="people-grid">
+  <div class="person-card">
+    <div class="person-avatar">NK</div>
+    <strong class="person-name">Njambi Koikai</strong>
+    <span class="person-role">TV & Radio Presenter, Kenya (d. 2024)</span>
+    <span class="person-condition">20+ surgeries, Stage IV thoracic</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">JM</div>
+    <strong class="person-name">Janet Mbugua</strong>
+    <span class="person-role">Journalist & Media Personality, Kenya</span>
+    <span class="person-condition">Laparoscopy, 2005</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">CM</div>
+    <strong class="person-name">Ciru Muriuki</strong>
+    <span class="person-role">Media Personality, Kenya</span>
+    <span class="person-condition">Surgery, 2017</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">CK</div>
+    <strong class="person-name">Corazon Kwamboka</strong>
+    <span class="person-role">Socialite & Lawyer, Kenya</span>
+    <span class="person-condition">Surgery, cysts removed</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">TS</div>
+    <strong class="person-name">Tayo Sobola-Soleye</strong>
+    <span class="person-role">Businesswoman, Nigeria</span>
+    <span class="person-condition">Multiple surgeries since age 13</span>
+  </div>
+</div>
 
-| Celebrity | Surgery Confirmed? | Surgeon | Location / Hospital |
-|---|---|---|---|
-| **Angie Kent** | Yes, 3 laparoscopic surgeries (3rd in Feb 2022) | Not publicly disclosed | Australia |
-| **Annastacia Palaszczuk** | Yes, keyhole surgery | Not publicly disclosed | Australia |
-| **Bindi Irwin** (treated in US) | Yes, 2023 surgeries | Dr. Tamer Seckin | Seckin Endo Center / Lenox Hill, NYC |
-| **Emily Seebohm** | Yes, laparoscopic surgery, Dec 2016 | Not publicly disclosed | Australia |
-| **Emma Watkins** | Yes, keyhole surgery, April 2018 | Not publicly disclosed | Australia |
-| **Erin Barnett** | Yes, 16 surgeries; left ovary removed | Not publicly disclosed | Australia |
-| **Ricki-Lee Coulter** | Yes, laparoscopy + excision, April 2024 | Not publicly disclosed | Australia |
-| **Samantha Wills** | Yes, surgery for Stage 4 endometriosis | Not publicly disclosed | Australia |
-| **Sophie Dillman** | Yes, 3 surgeries since age 21 | Not publicly disclosed | Australia |
-| **Sophie Monk** | Yes, keyhole surgery 2018 | Surgeon at Monash IVF (not publicly named) | Monash IVF clinic, Australia |
-| **Thessy Batsinilas** | Yes, surgery to remove reproductive organs | Not publicly disclosed | Australia |
-| **Zoe Marshall** | Yes, surgery; declined a second | Not publicly disclosed | Australia |
+## South America
 
-</details>
+<div class="people-grid">
+  <div class="person-card">
+    <div class="person-avatar">A</div>
+    <strong class="person-name">Anitta</strong>
+    <span class="person-role">Pop Star, Brazil</span>
+    <span class="person-condition">Surgery, 2022 (9 yrs undiagnosed)</span>
+  </div>
+</div>
 
-<details>
-  <summary>Africa (5 people)</summary>
+## Asia
 
-| Celebrity | Surgery Confirmed? | Surgeon | Location / Hospital |
-|---|---|---|---|
-| **Njambi Koikai** (Kenyan TV/radio, deceased 2024) | Yes, 20+ surgeries, including major excision for thoracic endo at Stage IV | Dr. Ken Sinervo + Dr. John Gouldman (Atlanta); Dr. Prafull Patel + Dr. Maurice Muhinga (Nairobi) | Center for Endometriosis Care / Northside Hospital, Atlanta; Nairobi for earlier surgeries |
-| **Janet Mbugua** (Kenyan media personality) | Yes, laparoscopy in 2005 for deep ovarian endo | Not publicly disclosed | Kenya |
-| **Ciru Muriuki** (Kenyan media) | Yes, surgery 2017 for ovarian cysts | Not publicly disclosed | Kenya |
-| **Corazon Kwamboka** (Kenyan socialite) | Yes, surgery to remove 2 cysts | Not publicly disclosed | Kenya |
-| **Tayo Sobola-Soleye** (Nigerian businesswoman) | Yes, multiple surgeries since age 13 | Not publicly disclosed | Nigeria / abroad |
-
-</details>
-
-<details>
-  <summary>South America (1 person)</summary>
-
-| Celebrity | Surgery Confirmed? | Surgeon | Location / Hospital |
-|---|---|---|---|
-| **Anitta** (Brazilian pop star) | Yes, surgery July 2022 after 9 years undiagnosed | Not publicly disclosed | Brazil |
-
-</details>
-
-<details>
-  <summary>Asia (1 person)</summary>
-
-| Celebrity | Surgery Confirmed? | Surgeon | Location / Hospital |
-|---|---|---|---|
-| **Shruti Haasan** (Indian/Bollywood actress) | Diagnosed with PCOS + endo, no surgery publicly confirmed | N/A | N/A |
-
-</details>
+<div class="people-grid">
+  <div class="person-card">
+    <div class="person-avatar">SH</div>
+    <strong class="person-name">Shruti Haasan</strong>
+    <span class="person-role">Actress, India / Bollywood</span>
+    <span class="person-condition">Diagnosed (PCOS + endo)</span>
+  </div>
+</div>
 
 ## Key Surgeon Hubs
 
@@ -137,6 +431,6 @@ Public figures who have spoken openly about their endometriosis. Surgery details
 
 **Los Angeles:** Dr. Thais Aliabadi (Halsey, Olivia Culpo likely, Florence Pugh diagnosis), Dr. Iris Kerin Orbuch (Mae Whitman, prominently featured in *Below the Belt* documentary), Dr. Mark Surrey (Molly Qerim's first), Cedars-Sinai Medical Center (Julianne Hough first surgery; Jaime King diagnosis with Dr. Randy Harris).
 
-**Atlanta:** Dr. Ken Sinervo (Center for Endometriosis Care: Savannah Chrisley, Njambi Koikai), Dr. Ceana Nezhat (Nezhat Medical Center / Northside: Monica). Non-US patients with severe endometriosis often travel to Atlanta for treatment. Njambi Koikai is a prominent example.
+**Atlanta:** Dr. Ken Sinervo (Center for Endometriosis Care: Savannah Chrisley, Njambi Koikai), Dr. Ceana Nezhat (Nezhat Medical Center / Northside: Monica). Non-US patients with severe Endometriosis often travel to Atlanta for treatment. Njambi Koikai is a prominent example.
 
 **Kenya:** Dr. Joseph Njagi (African Centre for Endometriosis / ACK Mt. Kenya Hospital) runs the "Healing Mama Africa" surgical camp drawing patients from Nigeria, Cameroon, and across the continent.

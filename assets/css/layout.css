@@ -23,6 +23,12 @@
   .shell {
     grid-template-columns: minmax(17.5rem, 20rem) 1fr;
   }
+  .shell::before {
+    content: '';
+    grid-column: 1;
+    grid-row: 1;
+    background: #6B3A5C;
+  }
 }
 
 /* ====================================================================
@@ -317,6 +323,8 @@
     position: sticky;
     top: 3.5rem;
     inset: auto;
+    grid-column: 1;
+    grid-row: 1;
     height: calc(100dvh - 3.5rem);
     transform: none;
     transition: none;
@@ -445,6 +453,8 @@
 
 @media (min-width: 64rem) {
   .content {
+    grid-column: 2;
+    grid-row: 1;
     padding: var(--space-lg) var(--space-xl);
     padding-bottom: var(--space-xl);
   }

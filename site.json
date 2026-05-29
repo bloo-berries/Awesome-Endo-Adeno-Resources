@@ -37,7 +37,7 @@
                 { "name": "Endometriosis", "url": "/endometriosis/", "slug": "endometriosis", "icon": "endometriosis", "i18n_nav": "nav_endometriosis", "i18n_desc": "desc_endometriosis", "description": "Symptoms, stages, and support." },
                 { "name": "Adenomyosis", "url": "/adenomyosis/", "slug": "adenomyosis", "icon": "adenomyosis", "i18n_nav": "nav_adenomyosis", "i18n_desc": "desc_adenomyosis", "description": "Symptoms and diagnosis." },
                 { "name": "Myths & facts", "url": "/myths/", "slug": "myths", "icon": "myths", "i18n_nav": "nav_myths", "i18n_desc": "desc_myths", "description": "Debunking common myths." },
-                { "name": "Notable people", "url": "/notable-people/", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with endometriosis." },
+                { "name": "Notable people", "url": "/notable-people/", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with Endometriosis." },
                 { "name": "Research", "url": "/research/", "slug": "research", "icon": "research", "i18n_nav": "nav_research", "i18n_desc": "desc_research", "description": "Studies and clinical trials." },
                 { "name": "Education", "url": "/education/", "slug": "education", "icon": "education", "i18n_nav": "nav_education", "i18n_desc": "desc_education", "description": "Books, films, and guides." }
             ]
@@ -201,7 +201,7 @@
         "js/search.js",
         "js/i18n.js",
         "js/carousel.js",
-        "js/poll.js",
+
         "js/accordion.js",
         "js/sidebar.js",
         "js/take-action.js",

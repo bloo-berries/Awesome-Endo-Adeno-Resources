@@ -1,19 +1,20 @@
 ---
 title: Medications
-description: Comprehensive comparison of medications used to treat endometriosis and adenomyosis
+description: Comprehensive comparison of medications used to treat Endometriosis and adenomyosis
 date: 2025-06-01
 lastmod: 2025-06-01
 tags: ["medications", "treatment", "hormones", "pain management"]
-keywords: ["medications", "endometriosis treatment", "hormonal therapy", "pain management", "GnRH", "progestins"]
+keywords: ["medications", "Endometriosis treatment", "hormonal therapy", "pain management", "GnRH", "progestins"]
 ---
 
 ## Medication Guide
 
-A comprehensive comparison of medications commonly used in the management of endometriosis and adenomyosis. **Always consult your healthcare provider before starting, stopping, or changing any medication.**
+A comprehensive comparison of medications commonly used in the management of Endometriosis and Adenomyosis. **Always consult your healthcare provider before starting, stopping, or changing any medication.**
 
-## Hormonal Treatments
+<details>
+<summary>Hormonal Treatments (10 medications)</summary>
 
-Hormonal therapies reduce estrogen levels or counteract its effects, slowing endometriosis growth and reducing symptoms.
+Hormonal therapies reduce estrogen levels or counteract its effects, slowing Endometriosis growth and reducing symptoms.
 
 | Name | Type | Mechanism | Common Side Effects |
 |---|---|---|---|
@@ -28,7 +29,10 @@ Hormonal therapies reduce estrogen levels or counteract its effects, slowing end
 | Nafarelin (Synarel) | GnRH agonist (nasal spray) | Suppresses estrogen production | Hot flashes, nasal irritation, headache |
 | Danazol | Androgenic steroid | Creates high-androgen environment | Weight gain, acne, voice deepening (rarely used) |
 
-## Pain Management
+</details>
+
+<details>
+<summary>Pain Management (8 medications)</summary>
 
 | Name | Type | Mechanism | Common Side Effects |
 |---|---|---|---|
@@ -41,19 +45,23 @@ Hormonal therapies reduce estrogen levels or counteract its effects, slowing end
 | Amitriptyline | Tricyclic antidepressant | Low-dose pain and sleep modulation | Drowsiness, dry mouth, constipation |
 | Duloxetine (Cymbalta) | SNRI antidepressant | Dual pain and mood modulation | Nausea, dizziness, fatigue |
 
-## Surgical Options
+</details>
 
-Surgical approaches are often part of the treatment plan. See [Diagnosis & Treatments](/diagnosis/) for full surgical details.
+<details>
+<summary>Surgical Options (5 approaches)</summary>
 
 | Approach | Type | Recovery |
 |---|---|---|
-| Laparoscopic excision | Gold standard, removes lesions including roots | 2–6 weeks |
-| Laparoscopic ablation | Surface burning of visible lesions (higher recurrence) | 1–4 weeks |
-| Robotic-assisted excision | Enhanced precision for complex cases | 2–6 weeks |
-| Hysterectomy | Removes uterus (helps adenomyosis, does not cure endo) | 4–8 weeks |
-| Oophorectomy | Removes ovaries, induces menopause (last resort) | 4–8 weeks |
+| Laparoscopic excision | Gold standard, removes lesions including roots | 2-6 weeks |
+| Laparoscopic ablation | Surface burning of visible lesions (higher recurrence) | 1-4 weeks |
+| Robotic-assisted excision | Enhanced precision for complex cases | 2-6 weeks |
+| Hysterectomy | Removes uterus (helps Adenomyosis, does not cure endo) | 4-8 weeks |
+| Oophorectomy | Removes ovaries, induces menopause (last resort) | 4-8 weeks |
 
-## Complementary Approaches
+</details>
+
+<details>
+<summary>Complementary Approaches (6 options)</summary>
 
 Not replacements for medical treatment, but may help manage symptoms alongside conventional care:
 
@@ -66,9 +74,11 @@ Not replacements for medical treatment, but may help manage symptoms alongside c
 | CBD products | Supplement | Limited research; legal status varies |
 | Turmeric/Curcumin | Supplement | Anti-inflammatory; limited endo-specific evidence |
 
+</details>
+
 ## Important Notes
 
-- **No medication cures endometriosis.** They manage symptoms and may slow progression
+- **No medication cures Endometriosis.** They manage symptoms and may slow progression
 - **Hormonal treatments suppress, not eliminate.** Symptoms typically return when stopped
 - **Side effect profiles vary.** What works for one person may not work for another
 - **Bone density monitoring** is essential for GnRH agonists/antagonists used beyond 6 months

@@ -1,10 +1,10 @@
 ---
 title: Symptom Tracker
-description: Track your endometriosis and adenomyosis symptoms privately on your device
+description: Track your Endometriosis and adenomyosis symptoms privately on your device
 date: 2025-06-01
 lastmod: 2025-06-01
 tags: ["tracker", "symptoms", "pain diary", "self-care"]
-keywords: ["symptom tracker", "pain diary", "endometriosis tracker", "symptom log"]
+keywords: ["symptom tracker", "pain diary", "Endometriosis tracker", "symptom log"]
 ---
 
 ## Symptom Tracker

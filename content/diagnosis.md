@@ -4,8 +4,8 @@ description: "Endometriosis and adenomyosis diagnostic methods, symptom staging,
 date: 2025-01-27
 lastmod: 2026-03-23
 draft: false
-tags: ["diagnosis", "endometriosis", "adenomyosis", "treatment", "surgery"]
-keywords: ["endometriosis diagnosis", "adenomyosis diagnosis", "laparoscopy", "excision surgery", "endometriosis treatment", "adenomyosis treatment"]
+tags: ["diagnosis", "Endometriosis", "adenomyosis", "treatment", "surgery"]
+keywords: ["Endometriosis diagnosis", "adenomyosis diagnosis", "laparoscopy", "excision surgery", "Endometriosis treatment", "adenomyosis treatment"]
 ---
 
 ## Diagnosis
@@ -22,17 +22,11 @@ keywords: ["endometriosis diagnosis", "adenomyosis diagnosis", "laparoscopy", "e
   - Current Methods:
     - Diagnosis is often based on symptoms, pelvic exams, and imaging (MRI or ultrasound).
     - Definitive diagnosis requires examination of the uterus post-hysterectomy.
-  - Potential Inidcators:
+  - Potential Indicators:
     - [Decidual Casts](https://ispub.com/IJGO/9/1/11420)
     - Excessive Bleeding during periods
 
-### Endometriosis Symptoms
-
-For the full staging table, see [Endometriosis Symptoms by Stage](/endometriosis/#endometriosis-symptoms-by-stage).
-
-### Adenomyosis Symptoms
-
-For the full type/stage table, see [Adenomyosis Symptoms by Type and Stage](/adenomyosis/#adenomyosis-symptoms-by-type-and-stage).
+For full symptom tables, see [Endometriosis](/endometriosis/#endometriosis-symptoms-by-stage) and [Adenomyosis](/adenomyosis/#adenomyosis-symptoms-by-type-and-stage).
 
 ## Treatments
 
@@ -40,7 +34,9 @@ For the full type/stage table, see [Adenomyosis Symptoms by Type and Stage](/ade
 
 <h4>Endometriosis Treatments</h4>
 
-- It is critical to note: Hysterecomy DOES NOT treat Endometriosis, only Adenomyosis
+<div class="callout callout-warning">
+<p><strong>Hysterectomy DOES NOT treat Endometriosis, only Adenomyosis.</strong> Endometriosis lesions exist outside the uterus and will remain after hysterectomy unless excised.</p>
+</div>
 
 | Technique | Key Advantage |
 |---|---|
@@ -80,7 +76,7 @@ For the full type/stage table, see [Adenomyosis Symptoms by Type and Stage](/ade
 <details>
   <summary>Medicinal Treatments</summary>
 
- As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at "treating" endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress endometriosis, not eradicate it."
+ As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at "treating" Endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress Endometriosis, not eradicate it."
 
 #### Medication and Medicinal Supplements
 
@@ -90,44 +86,17 @@ For the full type/stage table, see [Adenomyosis Symptoms by Type and Stage](/ade
 #### Cannabis and Herbal
 
 - [Lara Parker's Journey with Endometriosis](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2)
-  - "Lara Parker shares her personal experience with endometriosis and discusses various non-surgical treatment options."
+  - "Lara Parker shares her personal experience with Endometriosis and discusses various non-surgical treatment options."
 - [Cannabis and Endometriosis: A Survey of Its Effectiveness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940)
-  - "This study explores the effectiveness of cannabis in managing endometriosis symptoms, providing valuable insights into its potential benefits."
+  - "This study explores the effectiveness of cannabis in managing Endometriosis symptoms, providing valuable insights into its potential benefits."
 - [Cannabinoids Improve Symptoms in Mice with Endometriosis](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis)
-  - "This research highlights the potential of cannabinoids in alleviating endometriosis symptoms in a mouse model."
+  - "This research highlights the potential of cannabinoids in alleviating Endometriosis symptoms in a mouse model."
 
 #### Physical Therapy
 
 - [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/)
-  - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of endometriosis, like pain with sexual activity. It's also helpful for treating other conditions and diseases that many people with endometriosis have, either independently or as a result of endometriosis.
+  - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of Endometriosis, like pain with sexual activity. It's also helpful for treating other conditions and diseases that many people with Endometriosis have, either independently or as a result of Endometriosis.
 
 </details>
 
-<details>
-  <summary>Scientific Research and Findings</summary>
-
-<h3>Endometriosis</h3>
-
-- [Comorbidity analysis and clustering of endometriosis patients using electronic health records](https://www.sciencedirect.com/science/article/pii/S2666379125003180) (Khan et al., 2025)
-  - **Groundbreaking study** analyzing >43,500 endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and confirming endometriosis as a **multi-system disorder**. Key findings include strongest associations with uterine adenomyosis (OR = 181), pelvic adhesions (OR = 51.1), and protective effects of hyperlipidemia (OR = 0.67). Study reveals distinct patient subgroups requiring personalized treatment approaches.
-- [Endometriosis Typology and Ovarian Cancer Risk](https://jamanetwork.com/journals/jama/article-abstract/2821194)
-  - "Those with endometriosis had 4.2-fold higher ovarian cancer risk than those without endometriosis. Those with ovarian endometriomas and/or deep infiltrating endometriosis, compared with no endometriosis, had 9.7-fold higher risk"
-- [Endometriosis and the risk of ovarian cancer: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/36988819/)
-  - "The pooled odds ratio for endometriosis and ovarian cancer was 4.2 (95% CI, 3.2 to 5.5)"
-- [Novel Biomarkers for Endometriosis Diagnosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7891234/)
-  - "Recent studies have identified several potential biomarkers, including microRNAs and cytokines, that could improve the accuracy of endometriosis diagnosis."
-- [Endometriosis Association with Gut Health and Inflammation](https://www.frontiersin.org/journals/reproductive-health/articles/10.3389/frph.2022.963752/full)
-  - "This article explores the link between endometriosis, gut health, and inflammation, suggesting that gut microbiota may play a role in the pathogenesis of endometriosis and its associated symptoms."
-- [Endometriosis: Pathophysiology and Management](https://www.mdpi.com/2227-9059/12/4/888)
-  - "This study provides an overview of the pathophysiology of endometriosis and discusses current management strategies, emphasizing the importance of personalized treatment approaches."
-
-<h3>Adenomyosis</h3>
-
-- [Gonadotropin-releasing hormone antagonist in uterine adenomyosis](https://www.fertstert.org/article/S0015-0282(25)00518-7/fulltext)
-  - "Oral gonadotropin-releasing hormone (GnRH) antagonists appear to offer a promising new potential treatment alternative, allowing dose-dependent control of estradiol levels with rapid reversibility and no flare-up effect."
-- [Emerging Therapies for Adenomyosis Management](https://www.tandfonline.com/doi/full/10.1080/13625187.2021.1901234)
-  - "New therapeutic approaches, including the use of GnRH antagonists and uterine artery embolization, are showing promise in the management of adenomyosis symptoms."
-- [Systemic comorbidities in patients with adenomyosis](https://www.sciencedirect.com/science/article/pii/S1472648325003098)
-  - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and endometriosis (n=347)."
-
-</details>
+For clinical studies, research findings, and active clinical trials, see [Medical Research](/research/).

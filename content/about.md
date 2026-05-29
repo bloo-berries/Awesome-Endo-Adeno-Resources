@@ -1,10 +1,10 @@
 ---
 title: "About"
-description: "About Endo & Adeno Resources, a community-driven, open-source project providing vetted information for endometriosis and adenomyosis patients and advocates."
+description: "About Endo & Adeno Resources, a community-driven, open-source project providing vetted information for Endometriosis and adenomyosis patients and advocates."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
-keywords: ["about endometriosis resources", "adenomyosis support", "community health"]
+keywords: ["about Endometriosis resources", "adenomyosis support", "community health"]
 ---
 
 Welcome to **Endo Adeno Resources**, your comprehensive guide to navigating Endometriosis and Adenomyosis.
@@ -15,24 +15,12 @@ This comprehensive resource list is packed with expert advice, community support
 
 ## What We Cover
 
-- **Diagnosis**: Current methods, symptoms, and diagnostic tools
-- **Vetted Healthcare Providers**: Trusted physicians and specialists  
-- **Treatment Options**: Surgical, non-surgical, and medicinal approaches
-- **Research & Studies**: Latest scientific findings and ongoing research
-- **Support Resources**: Advocacy groups, community support, and financial assistance
-- **Educational Materials**: Comprehensive guides and learning resources
-
-## Conditions We Address
-
-### Endometriosis
-A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [1 in 7 women have endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis), approximately 570 million worldwide.
-
-### Adenomyosis  
-A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.
-
-## How to Use This Resource
-
-Dive in to discover practical tips, connect with others who understand what you're going through, and explore treatment options that could make a real difference in your life. Each section is carefully curated to provide the most relevant and up-to-date information.
+- **[Endometriosis](/endometriosis/)** and **[Adenomyosis](/adenomyosis/)**: Symptoms, stages, and condition guides
+- **[Diagnosis](/diagnosis/)**: Current methods, symptoms, and diagnostic tools
+- **[Healthcare Providers](/healthcare/)**: Trusted physicians and specialists
+- **[Treatments](/treatments/)** and **[Medications](/medications/)**: Surgical, non-surgical, and medicinal approaches
+- **[Research](/research/)**: Latest scientific findings and ongoing studies
+- **[Support & Advocacy](/resources/)**: Organizations, community support, and financial assistance
 
 ## Contributing
 

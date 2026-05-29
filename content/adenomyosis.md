@@ -33,7 +33,7 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 ### Current Diagnostic Methods
 - **Pelvic Exam**: May reveal an enlarged, tender uterus
 - **Ultrasound**: Transvaginal ultrasound can detect uterine wall thickening
-- **MRI**: Most accurate imaging method for adenomyosis diagnosis
+- **MRI**: Most accurate imaging method for Adenomyosis diagnosis
 - **Hysterectomy**: Definitive diagnosis requires examination of the uterus post-hysterectomy
 
 ### Potential Indicators
@@ -52,7 +52,7 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 ### Surgical Treatments
 - **Hysterectomy**: Most effective treatment, especially for those not planning pregnancy
 - **Adenomyomectomy**: Surgical removal of adenomyotic tissue (less common)
-- **Endometrial Ablation**: For heavy bleeding (less effective for adenomyosis)
+- **Endometrial Ablation**: For heavy bleeding (less effective for Adenomyosis)
 
 ### Alternative Therapies
 - **Physical Therapy**: Pelvic floor therapy for pain management
@@ -62,41 +62,19 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 ## Research and Studies
 
 ### Recent Developments
-- **RPN-002 (nolasiban)**: A molecular entity being studied for adenomyosis management
+- **RPN-002 (nolasiban)**: A molecular entity being studied for Adenomyosis management
 - **Non-hormonal Therapies**: Research on alternative treatment approaches
-- **Fertility Impact**: Studies on adenomyosis and reproductive health
+- **Fertility Impact**: Studies on Adenomyosis and reproductive health
 
 ### Ongoing Clinical Trials
-- Evaluating the efficacy of non-hormonal therapies for adenomyosis
-- Research on adenomyosis and mental health impacts
+- Evaluating the efficacy of non-hormonal therapies for Adenomyosis
+- Research on Adenomyosis and mental health impacts
 - Studies on chronic pain management strategies
-- Investigation of adenomyosis and cardiovascular health connections
+- Investigation of Adenomyosis and cardiovascular health connections
 
 ## Fertility and Pregnancy
 
-### Impact on Fertility
-- Adenomyosis can affect fertility and increase miscarriage risk
-- The condition may interfere with embryo implantation
-- Uterine contractions may be affected
-
-### Treatment During Pregnancy
-- Close monitoring during pregnancy
-- Management of pain and bleeding
-- Consideration of delivery method based on uterine condition
-
-### Fertility Treatments
-- IVF may be recommended for those with fertility challenges
-- Pre-treatment with hormonal therapy may improve outcomes
-- Surgical treatment options for those planning pregnancy
-
-## Further Resources
-
-- [Healthcare Providers & Tools](/healthcare/): Vetted specialists and diagnostic tools
-- [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/): Dedicated adenomyosis education and support
-- [Support & Advocacy](/resources/): Organizations, financial assistance, and regional groups
-- [Fertility](/fertility/): IVF, pregnancy, and conception guidance
-- [Mental Health](/mental-health/): Coping strategies, therapy, and crisis support
-- [Symptom Tracker](/tracker/): Track symptoms privately on your device
+Adenomyosis can affect fertility and increase miscarriage risk by interfering with embryo implantation and uterine contractions. See [Fertility](/fertility/) for preservation options, IVF guidance, and pregnancy management.
 
 ---
 

@@ -1,18 +1,18 @@
 ---
 title: "Symptom Quiz"
-description: "A guided checklist to help you understand whether your symptoms match endometriosis or adenomyosis, with personalized next steps."
+description: "A guided checklist to help you understand whether your symptoms match Endometriosis or adenomyosis, with personalized next steps."
 date: "2026-05-28"
 lastmod: "2026-05-28"
 draft: false
 tags: ["diagnosis", "symptoms", "quiz"]
-keywords: ["endometriosis quiz", "adenomyosis symptoms", "symptom checker"]
+keywords: ["Endometriosis quiz", "adenomyosis symptoms", "symptom checker"]
 ---
 
 # Symptom Quiz
 
 *This page is being built.* The full quiz, with personalized recommendations based on your answers, is coming in Phase 3 of the site overhaul.
 
-In the meantime, the symptoms most often associated with endometriosis and adenomyosis are:
+In the meantime, the symptoms most often associated with Endometriosis and Adenomyosis are:
 
 ## Common symptoms
 
@@ -29,7 +29,7 @@ In the meantime, the symptoms most often associated with endometriosis and adeno
 If three or more of these are familiar, the next step is typically:
 
 1. [Read about diagnosis](/diagnosis/): what tests exist, what to expect from each
-2. [Find a specialist](/healthcare/): endometriosis-trained gynecologists, MIGS surgeons
+2. [Find a specialist](/healthcare/): Endometriosis-trained gynecologists, MIGS surgeons
 3. [Track symptoms](/tracker/): bringing a symptom log to your first appointment significantly speeds up diagnosis
 
 ## Why this matters

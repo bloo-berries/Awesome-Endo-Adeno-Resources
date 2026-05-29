@@ -27,8 +27,11 @@
         toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
     }
 
-    // Apply persisted state on load
-    var collapsed = loadCollapsed();
+    // Apply persisted state on load; default-collapse groups 1 & 2
+    var DEFAULT_COLLAPSED = ['nav-group-1', 'nav-group-2'];
+    var hasStored = false;
+    try { hasStored = localStorage.getItem(STORAGE_KEY) !== null; } catch (e) {}
+    var collapsed = hasStored ? loadCollapsed() : DEFAULT_COLLAPSED;
     groups.forEach(function(group) {
         var id = group.getAttribute('data-group-id');
         if (id && collapsed.indexOf(id) !== -1) setCollapsed(group, true);
