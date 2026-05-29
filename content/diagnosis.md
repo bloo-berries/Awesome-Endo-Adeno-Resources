@@ -69,7 +69,7 @@ For the full type/stage table, see [Adenomyosis Symptoms by Type and Stage](/ade
 | Method | Description | Status |
 |---|---|---|
 | [PromarkerEndo](https://www.proteomics.com.au/) (Blood Test) | Protein biomarker detection; cost-effective, early-stage | Requires global validation |
-| Electroviscerography (EVG) | Non-invasive GI myoelectric monitoring | Experimental — needs clinical trials |
+| Electroviscerography (EVG) | Non-invasive GI myoelectric monitoring | Experimental, needs clinical trials |
 | EVG-Guided Biofeedback | Targeted pelvic floor rehab via EVG monitoring | Requires specialized equipment |
 | Infrared Spectroscopy | Highly sensitive spectrochemical analysis | Early research stage |
 | [AI + Omics Integration](https://pubmed.ncbi.nlm.nih.gov/39926583/) | AI combined with molecular data for personalized diagnostics | Requires large-scale validation |

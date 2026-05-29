@@ -8,7 +8,7 @@ tags: ["resources", "support", "advocacy", "financial-assistance", "fertility"]
 keywords: ["endometriosis support groups", "adenomyosis advocacy", "financial assistance", "endometriosis organizations", "fertility resources"]
 ---
 
-If you are struggling, help is available — see [Crisis Support & Mental Health Resources](/mental-health/#crisis-support).
+If you are struggling, help is available. See [Crisis Support & Mental Health Resources](/mental-health/#crisis-support).
 
 ## Financial Assistance Platforms
 
@@ -37,14 +37,14 @@ New Zealand
 
 U.K.
 
-- [British Fertility Society (BFS) – Patient Support Fund - U.K.](https://www.britishfertilitysociety.org.uk/)
+- [British Fertility Society (BFS), Patient Support Fund, U.K.](https://www.britishfertilitysociety.org.uk/)
   - Partial funding for fertility treatment linked to endometriosis
 - [Endometriosis UK](https://www.endometriosis-uk.org/)
   - Grants for surgery, IVF, travel to specialist centres; also runs a "Cost‑of‑Care" bursary for low‑income patients
 
 U.S.A.
 
-- [Fortuna Health - U.S.A.](https://www.fortunahealth.com/)
+- [Fortuna Health, U.S.A.](https://www.fortunahealth.com/)
   - Medicaid eligibility checker, enrollment, and care renewal
 
 </details>
@@ -150,6 +150,6 @@ U.S.A.
 
 ## For Partners, Families & Employers
 
-- [Endometriosis UK: Information for Friends and Family](https://www.endometriosis-uk.org/information-friends-and-family) — Understanding and supporting someone with endo
-- [EndoFound: How to Support Someone](https://www.endofound.org/how-to-support-someone-with-endometriosis) — Practical guidance for partners
-- See [Mental Health — Caregiver Support](/mental-health/#caregiver-support) for coping tips and workplace accommodations
+- [Endometriosis UK: Information for Friends and Family](https://www.endometriosis-uk.org/information-friends-and-family): Understanding and supporting someone with endo
+- [EndoFound: How to Support Someone](https://www.endofound.org/how-to-support-someone-with-endometriosis): Practical guidance for partners
+- See [Mental Health: Caregiver Support](/mental-health/#caregiver-support) for coping tips and workplace accommodations

@@ -32,7 +32,7 @@ You can clear all of this at any time using your browser's "Clear site data" opt
 
 By default: **nothing**.
 
-The only third-party submission on the site is the optional "help us improve" form at the end of the symptom quiz, sent to [Formspree](https://formspree.io). That form is **opt-in only** &mdash; you must check a clearly-labelled consent box to submit. Without that checkbox, no data leaves your device.
+The only third-party submission on the site is the optional "help us improve" form at the end of the symptom quiz, sent to [Formspree](https://formspree.io). That form is **opt-in only**; you must check a clearly-labelled consent box to submit. Without that checkbox, no data leaves your device.
 
 ## Fonts and analytics
 

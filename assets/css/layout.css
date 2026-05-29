@@ -217,7 +217,28 @@
   gap: var(--space-xs);
 }
 
-.topbar-lang,
+.topbar-lang {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: var(--tap-min);
+  padding: 0 var(--space-sm);
+  background: var(--surface-deep);
+  color: var(--text-on-deep);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.topbar-lang:hover,
+.topbar-lang:focus-visible {
+  background: var(--accent);
+  color: var(--text-on-warm);
+  border-color: var(--accent);
+}
+
 .topbar-theme {
   display: inline-flex;
   align-items: center;
@@ -231,7 +252,6 @@
   font-weight: 500;
 }
 
-.topbar-lang:hover,
 .topbar-theme:hover {
   background-color: var(--surface-raised);
 }

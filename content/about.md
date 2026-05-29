@@ -1,13 +1,13 @@
 ---
 title: "About"
-description: "About Endo & Adeno Resources — a community-driven, open-source project providing vetted information for endometriosis and adenomyosis patients and advocates."
+description: "About Endo & Adeno Resources, a community-driven, open-source project providing vetted information for endometriosis and adenomyosis patients and advocates."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
 keywords: ["about endometriosis resources", "adenomyosis support", "community health"]
 ---
 
-Welcome to **Endo Adeno Resources** - your comprehensive guide to navigating Endometriosis and Adenomyosis.
+Welcome to **Endo Adeno Resources**, your comprehensive guide to navigating Endometriosis and Adenomyosis.
 
 ## Our Mission
 
@@ -25,7 +25,7 @@ This comprehensive resource list is packed with expert advice, community support
 ## Conditions We Address
 
 ### Endometriosis
-A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [1 in 7 women have endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis) — approximately 570 million worldwide.
+A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [1 in 7 women have endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis), approximately 570 million worldwide.
 
 ### Adenomyosis  
 A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement. It often resolves after menopause.

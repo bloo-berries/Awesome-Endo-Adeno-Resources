@@ -31,7 +31,7 @@ keywords: ["endometriosis specialist", "adenomyosis doctor", "diagnostic tools",
 - [Joii](https://joiicare.com/)
   - Advancing menstrual and gynaecological health research
 - [Hera](https://www.herabiotech.com/)
-  - Hera Biotech created a diagnostic tool, MetriDx™ - which "replaces costly diagnostic laparoscopic surgery plagued by a calamitous 36% miss rate"
+  - Hera Biotech created a diagnostic tool, MetriDx™, which "replaces costly diagnostic laparoscopic surgery plagued by a calamitous 36% miss rate"
 - [The Blood](https://www.theblood.io/)
   - The first menstrual blood fertility and menopause test
 - [Afynia](https://afynia.com/)

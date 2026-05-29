@@ -1,6 +1,6 @@
 ---
 title: "1 in 7"
-description: "Comprehensive endometriosis and adenomyosis resources — diagnosis guides, vetted specialists, treatment options, research, and community support. 1 in 7 women have endometriosis — approximately 570 million worldwide."
+description: "Comprehensive endometriosis and adenomyosis resources including diagnosis guides, vetted specialists, treatment options, research, and community support. 1 in 7 women have endometriosis, approximately 570 million worldwide."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false

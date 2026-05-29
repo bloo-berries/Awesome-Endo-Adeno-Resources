@@ -1,6 +1,6 @@
 ---
 title: "Adenomyosis Resources"
-description: "Adenomyosis guide — symptoms, diagnosis, treatment options, and specialist resources for this condition affecting the uterine muscular wall."
+description: "Adenomyosis guide covering symptoms, diagnosis, treatment options, and specialist resources for this condition affecting the uterine muscular wall."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
@@ -37,7 +37,7 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 - **Hysterectomy**: Definitive diagnosis requires examination of the uterus post-hysterectomy
 
 ### Potential Indicators
-- [Decidual Casts](https://ispub.com/IJGO/9/1/11420) - tissue casts passed during menstruation
+- [Decidual Casts](https://ispub.com/IJGO/9/1/11420): tissue casts passed during menstruation
 - Excessive bleeding during periods
 - Chronic pelvic pain
 - Uterine enlargement
@@ -91,12 +91,12 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 
 ## Further Resources
 
-- [Healthcare Providers & Tools](/healthcare/) — Vetted specialists and diagnostic tools
-- [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/) — Dedicated adenomyosis education and support
-- [Support & Advocacy](/resources/) — Organizations, financial assistance, and regional groups
-- [Fertility](/fertility/) — IVF, pregnancy, and conception guidance
-- [Mental Health](/mental-health/) — Coping strategies, therapy, and crisis support
-- [Symptom Tracker](/tracker/) — Track symptoms privately on your device
+- [Healthcare Providers & Tools](/healthcare/): Vetted specialists and diagnostic tools
+- [Adenomyosis Advice Association](https://www.adenomyosisadviceassociation.org/): Dedicated adenomyosis education and support
+- [Support & Advocacy](/resources/): Organizations, financial assistance, and regional groups
+- [Fertility](/fertility/): IVF, pregnancy, and conception guidance
+- [Mental Health](/mental-health/): Coping strategies, therapy, and crisis support
+- [Symptom Tracker](/tracker/): Track symptoms privately on your device
 
 ---
 

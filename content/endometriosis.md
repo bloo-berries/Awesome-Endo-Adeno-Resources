@@ -1,6 +1,6 @@
 ---
 title: "Endometriosis Resources"
-description: "Comprehensive endometriosis guide — symptoms, stages, diagnosis methods, treatment options, and support resources. 1 in 7 women have endometriosis — approximately 570 million worldwide."
+description: "Comprehensive endometriosis guide covering symptoms, stages, diagnosis methods, treatment options, and support resources. 1 in 7 women have endometriosis, approximately 570 million worldwide."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
@@ -10,7 +10,7 @@ keywords: ["endometriosis symptoms", "endometriosis stages", "endometriosis trea
 
 # Endometriosis Resources
 
-[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [1 in 7 women have endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis) — approximately 570 million worldwide.
+[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [1 in 7 women have endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis), approximately 570 million worldwide.
 
 ## Understanding Endometriosis
 
@@ -28,7 +28,7 @@ Endometriosis occurs when endometrial-like tissue grows outside the uterus, comm
 |**Deep Infiltrating (DIE)**|Very Severe|All Stage IV symptoms plus bowel obstruction; hydronephrosis; organ dysfunction (bowel, bladder, ureters)|
 |**Thoracic**|Very Severe|Catamenial pneumothorax; hemoptysis; cyclic chest/shoulder pain; dyspnea|
 
-*Staging is not universal — stage does not determine pain severity. [Learn more about diagnosis](/diagnosis/).*
+*Staging is not universal. Stage does not determine pain severity. [Learn more about diagnosis](/diagnosis/).*
 
 ## Diagnosis
 
@@ -38,14 +38,14 @@ Endometriosis occurs when endometrial-like tissue grows outside the uterus, comm
 - **Blood Tests**: New non-invasive tests like [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/) and [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf) show promise in detecting biomarkers
 
 ### Potential Indicators
-- Presence of [Endometriomas](https://en.wikipedia.org/wiki/Endometrioma) - cysts filled with old blood
+- Presence of [Endometriomas](https://en.wikipedia.org/wiki/Endometrioma), cysts filled with old blood
 - Chronic pelvic pain
 - Heavy menstrual bleeding
 - Infertility
 
 ## Treatment Overview
 
-There is no cure for endometriosis, but symptoms can be managed through surgery, medication, and supportive therapies. **Laparoscopic excision surgery** is the gold standard — see [Diagnosis & Treatments](/diagnosis/) for surgical details and [Medications](/medications/) for a full drug comparison.
+There is no cure for endometriosis, but symptoms can be managed through surgery, medication, and supportive therapies. **Laparoscopic excision surgery** is the gold standard. See [Diagnosis & Treatments](/diagnosis/) for surgical details and [Medications](/medications/) for a full drug comparison.
 
 ## Research and Studies
 
@@ -62,11 +62,11 @@ There is no cure for endometriosis, but symptoms can be managed through surgery,
 
 ## Further Resources
 
-- [Healthcare Providers & Tools](/healthcare/) — Vetted specialists and diagnostic tools
-- [Support & Advocacy](/resources/) — Organizations, financial assistance, and regional support groups
-- [Education & Community](/education/) — Books, films, and online communities
-- [Fertility](/fertility/) — IVF, egg freezing, and conception guidance
-- [Mental Health](/mental-health/) — Coping strategies, therapy, and crisis support
+- [Healthcare Providers & Tools](/healthcare/): Vetted specialists and diagnostic tools
+- [Support & Advocacy](/resources/): Organizations, financial assistance, and regional support groups
+- [Education & Community](/education/): Books, films, and online communities
+- [Fertility](/fertility/): IVF, egg freezing, and conception guidance
+- [Mental Health](/mental-health/): Coping strategies, therapy, and crisis support
 
 ---
 

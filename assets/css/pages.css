@@ -332,11 +332,36 @@
 }
 
 /* =====================================================================
+ * Home: Quiz teaser + Carousel duo (side-by-side on desktop)
+ * ===================================================================== */
+
+.home-duo {
+  margin-top: var(--space-xl);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 48rem) {
+  .home-duo {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
+}
+
+.home-duo > .home-quiz-teaser,
+.home-duo > .home-carousel-wrapper {
+  margin-top: 0;
+}
+
+/* =====================================================================
  * Home: Quiz teaser
  * ===================================================================== */
 
 .home-quiz-teaser {
   margin-top: var(--space-xl);
+  display: flex;
+  flex-direction: column;
   padding: var(--space-lg);
   background: var(--surface-raised);
   border-radius: var(--radius-md);
@@ -389,6 +414,7 @@
   border-radius: var(--radius-md);
   text-decoration: none;
   font-weight: 600;
+  margin-top: auto;
 }
 
 .home-quiz-teaser-cta:hover,

@@ -5,6 +5,23 @@
     margin: 1.5rem auto;
 }
 
+.home-duo .carousel-section {
+    max-width: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-duo .carousel-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-duo .carousel-viewport {
+    flex: 1;
+}
+
 .carousel-box {
     background: var(--gradient-component);
     border-radius: var(--radius-md);

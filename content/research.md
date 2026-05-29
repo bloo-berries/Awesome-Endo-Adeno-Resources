@@ -40,7 +40,7 @@ keywords: ["endometriosis research", "adenomyosis clinical trials", "endometrios
     - **661 significantly enriched conditions** identified at UCSF
     - **302 conditions replicated** across independent datasets (45% validation rate)
     - **Strongest associations:** Uterine adenomyosis (OR = 181), pelvic adhesions (OR = 51.1)
-    - **Protective effects:** Hyperlipidemia (OR = 0.67) - potential statin therapy benefits
+    - **Protective effects:** Hyperlipidemia (OR = 0.67), potential statin therapy benefits
     - **Patient clustering:** Distinct subgroups with different comorbidity patterns
   - **Clinical Impact:** Confirms endometriosis as multi-system disorder requiring personalized treatment approaches
   - **Data Source:** De-identified EHRs using OMOP Common Data Model with cross-dataset validation
@@ -81,11 +81,11 @@ Active Clinical Studies:
 <details>
   <summary>Genetics</summary>
 
-- Genetic Predisposition and Endometriosis - clinicaltrials.gov/ct2/show/NCT04712367
+- Genetic Predisposition and Endometriosis: clinicaltrials.gov/ct2/show/NCT04712367
   - "This research focuses on identifying genetic markers that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
-- Gut Microbiota and Endometriosis - clinicaltrials.gov/ct2/show/NCT04978934
+- Gut Microbiota and Endometriosis: clinicaltrials.gov/ct2/show/NCT04978934
   - "This ongoing research examines the relationship between gut microbiota and endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
-- Endometriosis and Genetic Research - clinicaltrials.gov/ct2/show/NCT08145678
+- Endometriosis and Genetic Research: clinicaltrials.gov/ct2/show/NCT08145678
   - "This study explores the genetic factors that may contribute to the development of endometriosis, aiming to improve early diagnosis and personalized treatment plans."
 - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
   - Enhancing genetic association power in endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
@@ -101,86 +101,86 @@ Active Clinical Studies:
 
 **Endometriosis Studies**
 
-- NCT04512345 — Hormonal Treatments on Endo Progression
-- NCT05012389 — Long-term Surgical Outcomes
-- NCT05278901 — Endometriosis and Autoimmune Disorders
-- NCT05445678 — Endometriosis and Mental Health
-- NCT05612345 — Endometriosis and Cardiovascular Health
-- NCT05745678 — Hormonal vs. Non-Hormonal Treatments
-- NCT05912345 — Endometriosis and Inflammation
-- NCT06178901 — Endometriosis and Reproductive Outcomes
-- NCT06345678 — Endometriosis and Gut Health
-- NCT06512345 — Endometriosis and Immune System Dysfunction
-- NCT06945678 — Chronic Pain Management
-- NCT07112345 — Hormonal Treatments
-- NCT07378901 — Quality of Life
-- NCT07545678 — Surgical Interventions
-- NCT07712345 — Non-Hormonal Treatments
-- NCT07978901 — Fertility Treatments
-- NCT08312345 — Chronic Pelvic Pain
-- NCT08578901 — Reproductive Health
-- NCT08745678 — Inflammation
-- NCT08912345 — Cardiovascular Health
-- NCT09178901 — Autoimmune Disorders
-- NCT09345678 — Gut Health
-- NCT09778901 — Immune System Dysfunction
-- NCT09945678 — Chronic Pain Management
-- NCT10112345 — Hormonal Treatments
-- NCT10378901 — Quality of Life
-- NCT10545678 — Surgical Interventions
-- NCT10712345 — Non-Hormonal Treatments
-- NCT10978901 — Fertility Treatments
-- NCT11145678 — Chronic Pelvic Pain
-- NCT11312345 — Mental Health
+- NCT04512345: Hormonal Treatments on Endo Progression
+- NCT05012389: Long-term Surgical Outcomes
+- NCT05278901: Endometriosis and Autoimmune Disorders
+- NCT05445678: Endometriosis and Mental Health
+- NCT05612345: Endometriosis and Cardiovascular Health
+- NCT05745678: Hormonal vs. Non-Hormonal Treatments
+- NCT05912345: Endometriosis and Inflammation
+- NCT06178901: Endometriosis and Reproductive Outcomes
+- NCT06345678: Endometriosis and Gut Health
+- NCT06512345: Endometriosis and Immune System Dysfunction
+- NCT06945678: Chronic Pain Management
+- NCT07112345: Hormonal Treatments
+- NCT07378901: Quality of Life
+- NCT07545678: Surgical Interventions
+- NCT07712345: Non-Hormonal Treatments
+- NCT07978901: Fertility Treatments
+- NCT08312345: Chronic Pelvic Pain
+- NCT08578901: Reproductive Health
+- NCT08745678: Inflammation
+- NCT08912345: Cardiovascular Health
+- NCT09178901: Autoimmune Disorders
+- NCT09345678: Gut Health
+- NCT09778901: Immune System Dysfunction
+- NCT09945678: Chronic Pain Management
+- NCT10112345: Hormonal Treatments
+- NCT10378901: Quality of Life
+- NCT10545678: Surgical Interventions
+- NCT10712345: Non-Hormonal Treatments
+- NCT10978901: Fertility Treatments
+- NCT11145678: Chronic Pelvic Pain
+- NCT11312345: Mental Health
 
 **Adenomyosis Studies**
 
-- NCT04678901 — Non-Hormonal Therapies
-- NCT04845678 — Innovative Imaging Techniques
-- NCT05145690 — Fertility Treatments
-- NCT05312345 — Pain Management Strategies
-- NCT05578912 — Chronic Pelvic Pain
-- NCT05878901 — Uterine Artery Embolization
-- NCT06045678 — Quality of Life
-- NCT06212345 — Hormonal Treatments
-- NCT06478901 — Surgical Interventions
-- NCT06645678 — Non-Hormonal Pain Management
-- NCT06812345 — Mental Health
-- NCT07078901 — Reproductive Health
-- NCT07245678 — Inflammation
-- NCT07412345 — Cardiovascular Health
-- NCT07678901 — Autoimmune Disorders
-- NCT07845678 — Gut Health
-- NCT08012345 — Genetic Research
-- NCT08278901 — Chronic Pelvic Pain
-- NCT08445678 — Mental Health
-- NCT08612345 — Chronic Pain Management
-- NCT08878901 — Quality of Life
-- NCT09045678 — Surgical Interventions
-- NCT09212345 — Non-Hormonal Treatments
-- NCT09478901 — Fertility Treatments
-- NCT09645678 — Chronic Pelvic Pain
-- NCT09812345 — Immune System Dysfunction
-- NCT10078901 — Reproductive Health
-- NCT10245678 — Hormonal Treatments
-- NCT10412345 — Cardiovascular Health
-- NCT10678901 — Autoimmune Disorders
-- NCT10845678 — Gut Health
-- NCT11012345 — Genetic Research
-- NCT11278901 — Immune System Dysfunction
-- NCT11445678 — Chronic Pain Management
-- NCT11678901 — Immune System Dysfunction
-- NCT11812345 — Mental Health
-- NCT12045678 — Chronic Pain Management
-- NCT12278901 — Reproductive Health
-- NCT12412345 — Hormonal Treatments
-- NCT12645678 — Inflammation
-- NCT12878901 — Quality of Life
-- NCT13012345 — Cardiovascular Health
+- NCT04678901: Non-Hormonal Therapies
+- NCT04845678: Innovative Imaging Techniques
+- NCT05145690: Fertility Treatments
+- NCT05312345: Pain Management Strategies
+- NCT05578912: Chronic Pelvic Pain
+- NCT05878901: Uterine Artery Embolization
+- NCT06045678: Quality of Life
+- NCT06212345: Hormonal Treatments
+- NCT06478901: Surgical Interventions
+- NCT06645678: Non-Hormonal Pain Management
+- NCT06812345: Mental Health
+- NCT07078901: Reproductive Health
+- NCT07245678: Inflammation
+- NCT07412345: Cardiovascular Health
+- NCT07678901: Autoimmune Disorders
+- NCT07845678: Gut Health
+- NCT08012345: Genetic Research
+- NCT08278901: Chronic Pelvic Pain
+- NCT08445678: Mental Health
+- NCT08612345: Chronic Pain Management
+- NCT08878901: Quality of Life
+- NCT09045678: Surgical Interventions
+- NCT09212345: Non-Hormonal Treatments
+- NCT09478901: Fertility Treatments
+- NCT09645678: Chronic Pelvic Pain
+- NCT09812345: Immune System Dysfunction
+- NCT10078901: Reproductive Health
+- NCT10245678: Hormonal Treatments
+- NCT10412345: Cardiovascular Health
+- NCT10678901: Autoimmune Disorders
+- NCT10845678: Gut Health
+- NCT11012345: Genetic Research
+- NCT11278901: Immune System Dysfunction
+- NCT11445678: Chronic Pain Management
+- NCT11678901: Immune System Dysfunction
+- NCT11812345: Mental Health
+- NCT12045678: Chronic Pain Management
+- NCT12278901: Reproductive Health
+- NCT12412345: Hormonal Treatments
+- NCT12645678: Inflammation
+- NCT12878901: Quality of Life
+- NCT13012345: Cardiovascular Health
 
 **Still Active**
 
-- [ROSE (Research OutSmarts Endometriosis)](https://feinstein.northwell.edu/institutes-researchers/institute-molecular-medicine/robert-s-boas-center-for-genomics-and-human-genetics/rose-research-outsmarts-endometriosis) — Genetic, cellular, and molecular mechanisms underlying endometriosis
-- [Adenomyosis and Immune System Dysfunction](https://www.science.org/doi/10.1126/scitranslmed.adk8230) — Role of immune system dysfunction in adenomyosis progression
+- [ROSE (Research OutSmarts Endometriosis)](https://feinstein.northwell.edu/institutes-researchers/institute-molecular-medicine/robert-s-boas-center-for-genomics-and-human-genetics/rose-research-outsmarts-endometriosis): Genetic, cellular, and molecular mechanisms underlying endometriosis
+- [Adenomyosis and Immune System Dysfunction](https://www.science.org/doi/10.1126/scitranslmed.adk8230): Role of immune system dysfunction in adenomyosis progression
 
 </details>

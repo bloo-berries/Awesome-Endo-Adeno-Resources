@@ -47,7 +47,7 @@ Surgical approaches are often part of the treatment plan. See [Diagnosis & Treat
 
 | Approach | Type | Recovery |
 |---|---|---|
-| Laparoscopic excision | Gold standard — removes lesions including roots | 2–6 weeks |
+| Laparoscopic excision | Gold standard, removes lesions including roots | 2–6 weeks |
 | Laparoscopic ablation | Surface burning of visible lesions (higher recurrence) | 1–4 weeks |
 | Robotic-assisted excision | Enhanced precision for complex cases | 2–6 weeks |
 | Hysterectomy | Removes uterus (helps adenomyosis, does not cure endo) | 4–8 weeks |
@@ -68,10 +68,10 @@ Not replacements for medical treatment, but may help manage symptoms alongside c
 
 ## Important Notes
 
-- **No medication cures endometriosis** — they manage symptoms and may slow progression
-- **Hormonal treatments suppress, not eliminate** — symptoms typically return when stopped
-- **Side effect profiles vary** — what works for one person may not work for another
+- **No medication cures endometriosis.** They manage symptoms and may slow progression
+- **Hormonal treatments suppress, not eliminate.** Symptoms typically return when stopped
+- **Side effect profiles vary.** What works for one person may not work for another
 - **Bone density monitoring** is essential for GnRH agonists/antagonists used beyond 6 months
 - **Add-back therapy** (low-dose estrogen/progesterone) can reduce menopause-like side effects of GnRH treatments
 - **Discuss fertility plans** with your doctor before starting hormonal therapy, as some treatments suppress fertility
-- **Multi-modal approach** works best — combining medication, surgery, physiotherapy, and lifestyle changes
+- **Multi-modal approach** works best, combining medication, surgery, physiotherapy, and lifestyle changes

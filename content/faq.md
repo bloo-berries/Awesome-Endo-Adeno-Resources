@@ -30,7 +30,7 @@ Adenomyosis occurs when endometrial-like tissue grows into the muscular wall of 
 <details>
 <summary>How common is endometriosis?</summary>
 
-Recent research shows that approximately 1 in 7 women and people assigned female at birth have endometriosis — roughly 570 million people worldwide. Previous estimates of 1 in 10 are now considered conservative based on updated studies.
+Recent research shows that approximately 1 in 7 women and people assigned female at birth have endometriosis, roughly 570 million people worldwide. Previous estimates of 1 in 10 are now considered conservative based on updated studies.
 
 </details>
 
@@ -67,7 +67,7 @@ No. While mild cramps are common, pain that interferes with daily activities, re
 <details>
 <summary>What is "endo belly"?</summary>
 
-"Endo belly" refers to severe abdominal bloating and distension commonly experienced by people with endometriosis. The stomach can appear significantly larger — sometimes resembling a pregnancy — and may last for hours or days. It is often worse around menstruation and can be triggered by certain foods.
+"Endo belly" refers to severe abdominal bloating and distension commonly experienced by people with endometriosis. The stomach can appear significantly larger (sometimes resembling a pregnancy) and may last for hours or days. It is often worse around menstruation and can be triggered by certain foods.
 
 </details>
 

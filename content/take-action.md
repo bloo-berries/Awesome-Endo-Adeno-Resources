@@ -11,7 +11,7 @@ keywords: ["talk to doctor", "endo advocacy", "scripts"]
 
 # Take Action
 
-Three things you can do right now &mdash; for yourself, for someone you love, or for the wider community.
+Three things you can do right now, for yourself, for someone you love, or for the wider community.
 
 ## 1. Know the symptoms
 
@@ -36,9 +36,9 @@ Endometriosis affects approximately 570 million people worldwide. You are not al
 
 **Quick paths in:**
 
-- **Online forums** &mdash; r/endometriosis, r/adenomyosis on Reddit; Inspire's endo community
-- **Country-specific charities** &mdash; Endometriosis UK, Endo Black, Endometriosis Australia, EndoFound (US)
-- **Patient-led research networks** &mdash; ROSE study, EndoMarch
+- **Online forums:** r/endometriosis, r/adenomyosis on Reddit; Inspire's endo community
+- **Country-specific charities:** Endometriosis UK, Endo Black, Endometriosis Australia, EndoFound (US)
+- **Patient-led research networks:** ROSE study, EndoMarch
 
 [See the full list of organizations &rarr;](/resources/)
 
@@ -50,15 +50,15 @@ Endometriosis is **commonly under-recognized**. Sharing accurate information hel
 
 For social media:
 
-> 1 in 7 women live with endometriosis &mdash; not 1 in 10 as commonly cited. It takes an average of 10 years to diagnose. If period pain stops you from working, sleeping, or living, please see a specialist. Resources: 1in7.info
+> 1 in 7 women live with endometriosis, not 1 in 10 as commonly cited. It takes an average of 10 years to diagnose. If period pain stops you from working, sleeping, or living, please see a specialist. Resources: 1in7.info
 
 For a partner or family member:
 
-> I've been reading about endometriosis. The pattern of pain I've been describing matches what's documented for this condition. It's not "just bad cramps" &mdash; it's an inflammatory condition that grows tissue similar to the uterine lining in places it doesn't belong. I'd like your support in pursuing a proper diagnosis.
+> I've been reading about endometriosis. The pattern of pain I've been describing matches what's documented for this condition. It's not "just bad cramps." It's an inflammatory condition that grows tissue similar to the uterine lining in places it doesn't belong. I'd like your support in pursuing a proper diagnosis.
 
 ## If you need help right now
 
-If you're in crisis &mdash; suicidal thoughts, unmanageable pain, considering self-harm &mdash; please reach out to a crisis line in your country. Endo's mental-health toll is real. You deserve support today.
+If you're in crisis (suicidal thoughts, unmanageable pain, considering self-harm), please reach out to a crisis line in your country. Endo's mental-health toll is real. You deserve support today.
 
 - **US:** 988 Suicide & Crisis Lifeline
 - **UK:** Samaritans, 116 123

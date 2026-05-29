@@ -9,6 +9,6 @@ keywords: ["symptom tracker", "pain diary", "endometriosis tracker", "symptom lo
 
 ## Symptom Tracker
 
-Track your symptoms privately — all data stays on your device. Nothing is sent to any server.
+Track your symptoms privately. All data stays on your device. Nothing is sent to any server.
 
 <div id="tracker-app"></div>

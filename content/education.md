@@ -50,7 +50,7 @@ keywords: ["endometriosis education", "adenomyosis education", "endometriosis bo
     - Community for partners and loved ones of people with endometriosis
 - Online Communities
   - [MyEndometriosisTeam](https://www.myendometriosisteam.com/)
-    - Social network for people living with endometriosis — share experiences and find support
+    - Social network for people living with endometriosis. Share experiences and find support
   - [Endometriosis UK Community](https://www.endometriosis-uk.org/forum)
     - Forum and support groups run by Endometriosis UK
   - [The Mighty: Endometriosis](https://themighty.com/topic/endometriosis/)

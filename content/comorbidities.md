@@ -1,6 +1,6 @@
 ---
 title: "Potential Co-morbidities"
-description: "Research-backed comorbidity data for endometriosis and adenomyosis — gynecological, gastrointestinal, neurological, mental health, autoimmune, and novel associations."
+description: "Research-backed comorbidity data for endometriosis and adenomyosis including gynecological, gastrointestinal, neurological, mental health, autoimmune, and novel associations."
 date: 2025-01-27
 lastmod: 2026-05-04
 draft: false
@@ -23,7 +23,7 @@ keywords: ["endometriosis comorbidities", "adenomyosis comorbidities", "chronic 
 <h3>Comorbidity Categories</h3>
 
 <details open class="category-details">
-<summary>Gynecological Conditions — Strongest Associations (8)</summary>
+<summary>Gynecological Conditions: Strongest Associations (8)</summary>
 
 | Condition | Association | Details |
 |---|---|---|
@@ -106,7 +106,7 @@ keywords: ["endometriosis comorbidities", "adenomyosis comorbidities", "chronic 
 </details>
 
 <details class="category-details">
-<summary>Protective Associations — Novel Finding (2)</summary>
+<summary>Protective Associations: Novel Finding (2)</summary>
 
 | Condition | Association | Details |
 |---|---|---|

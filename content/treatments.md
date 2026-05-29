@@ -16,27 +16,27 @@ This page is an overview. For deep dives, follow the sub-topic links below.
 
 ## Surgical options
 
-- **Laparoscopic excision** — the gold standard for endometriosis. A trained MIGS or endometriosis-specialist surgeon removes lesions while preserving organ function.
-- **Ablation** — burns the surface of lesions. Faster but recurrence rates are higher than excision.
-- **Hysterectomy** — sometimes recommended for adenomyosis when other options have failed. Does not "cure" endometriosis on its own (lesions can exist outside the uterus).
-- **Uterine artery embolization (UAE)** — a uterus-sparing option for adenomyosis in some cases.
+- **Laparoscopic excision:** the gold standard for endometriosis. A trained MIGS or endometriosis-specialist surgeon removes lesions while preserving organ function.
+- **Ablation:** burns the surface of lesions. Faster but recurrence rates are higher than excision.
+- **Hysterectomy:** sometimes recommended for adenomyosis when other options have failed. Does not "cure" endometriosis on its own (lesions can exist outside the uterus).
+- **Uterine artery embolization (UAE):** a uterus-sparing option for adenomyosis in some cases.
 
 See [Healthcare](/healthcare/) for how to find a specialist surgeon.
 
 ## Hormonal medications
 
-- **Combined oral contraceptives** — first-line for many; suppresses periods to reduce pain.
-- **Progestin-only options** — pills, IUDs (e.g., Mirena), and implants. Often better tolerated than combined pills.
-- **GnRH agonists/antagonists** — induce a temporary menopausal state. Used short-term due to bone-density concerns.
-- **Aromatase inhibitors** — typically combined with other hormonal therapy.
+- **Combined oral contraceptives:** first-line for many; suppresses periods to reduce pain.
+- **Progestin-only options:** pills, IUDs (e.g., Mirena), and implants. Often better tolerated than combined pills.
+- **GnRH agonists/antagonists:** induce a temporary menopausal state. Used short-term due to bone-density concerns.
+- **Aromatase inhibitors:** typically combined with other hormonal therapy.
 
 See [Medications](/medications/) for the full medication guide.
 
 ## Non-hormonal medications
 
-- **NSAIDs** (ibuprofen, naproxen) — most effective when started 24 hours before expected pain.
-- **Tranexamic acid** — for heavy bleeding.
-- **Antidepressants and gabapentinoids** — for chronic pain modulation (off-label for some).
+- **NSAIDs** (ibuprofen, naproxen): most effective when started 24 hours before expected pain.
+- **Tranexamic acid:** for heavy bleeding.
+- **Antidepressants and gabapentinoids:** for chronic pain modulation (off-label for some).
 
 ## Fertility-specific paths
 
@@ -57,7 +57,7 @@ There's no single right order. A common pattern is:
 1. **Stabilize pain** with NSAIDs + hormonal birth control
 2. **Get diagnosed** properly (often via laparoscopy with excision)
 3. **Adjust hormones** based on response and side effects
-4. **Layer in supportive care** — pelvic PT, mental health, nutrition
+4. **Layer in supportive care:** pelvic PT, mental health, nutrition
 5. **Plan around fertility goals** if relevant
 
-If your current treatment isn't working after 3–6 months, that's a signal to revisit the plan with your specialist — not a reason to lose hope.
+If your current treatment isn't working after 3–6 months, that's a signal to revisit the plan with your specialist, not a reason to lose hope.
