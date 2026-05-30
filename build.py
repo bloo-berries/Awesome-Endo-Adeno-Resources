@@ -696,6 +696,7 @@ def load_pages(cfg):
             "keywords": meta.get("keywords", []),
             "draft": meta.get("draft", False),
             "search": meta.get("search", True),
+            "toc": meta.get("toc", True),
             "html": html_content,
             "permalink": permalink,
             "slug": slug,
@@ -839,7 +840,7 @@ def main():
         if slug == "_index":
             continue
         breadcrumbs = build_breadcrumbs(cfg, page["title"])
-        toc = build_toc(page["html"])
+        toc = build_toc(page["html"]) if page.get("toc", True) else ""
         inner = page_tpl
         inner = inner.replace("{{BREADCRUMBS}}", breadcrumbs)
         inner = inner.replace("{{TOC}}", toc)

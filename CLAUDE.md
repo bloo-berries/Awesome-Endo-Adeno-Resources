@@ -28,7 +28,7 @@ The site went through a full UI/UX overhaul (Phases 1–5) documented under `des
 | Function | Purpose |
 |---|---|
 | `load_config()` | Read `site.json` |
-| `parse_frontmatter(text)` | Split `---` frontmatter from body; supports `title`, `description`, `date`, `lastmod`, `draft`, `tags`, `keywords`, `search` |
+| `parse_frontmatter(text)` | Split `---` frontmatter from body; supports `title`, `description`, `date`, `lastmod`, `draft`, `tags`, `keywords`, `search`, `toc` |
 | `md_to_html(text, base_url)` | Markdown→HTML: headings (auto-IDs), bold/italic, links (external→`target="_blank"`, internal rewritten with `base_url`), images, lists, tables, code blocks, blockquotes, hr, raw HTML passthrough |
 | `build_css_vars(cfg)` | Emit `<style>` block: legacy color tokens + semantic layer from `site.json:semantic` (light/dark/constant/scale) |
 | `build_sidebar_nav(cfg, active_slug)` | Grouped `<nav>` with `<div class="nav-group">` sections, each with a `<button class="nav-group-toggle">` controlling its `<ul>`; sets `aria-current="page"` on the active link |
@@ -37,10 +37,10 @@ The site went through a full UI/UX overhaul (Phases 1–5) documented under `des
 | `build_structured_data(cfg, page)` | JSON-LD for SEO |
 | `build_search_index(pages, cfg)` | `dist/index.json` — title, permalink, summary, content, tags. Excludes pages with `search: false` frontmatter (`/take-action/`, `/privacy/`) |
 | `build_sitemap(pages, cfg)` | `dist/sitemap.xml` |
-| `build_toc(html, min_headings=4)` | Per-page TOC from H2/H3 (only emitted if ≥4 headings) |
+| `build_toc(html, min_headings=4)` | Per-page TOC from H2/H3 (only emitted if ≥4 headings). Suppressed when `toc: false` in frontmatter |
 | `build_breadcrumbs(cfg, title)` | Per-page breadcrumb |
 | `minify_css(text)` / `minify_js(text)` | Whitespace/comment stripping |
-| `load_pages(cfg)` | Walk `content/`, parse markdown, propagate frontmatter fields (including `search`) |
+| `load_pages(cfg)` | Walk `content/`, parse markdown, propagate frontmatter fields (including `search`, `toc`) |
 | `render_page(base_tpl, cfg, inner, page_meta)` | Apply `base.html` with all `{{...}}` markers replaced |
 | `main()` | Clean `dist/`, concat+minify CSS→`dist/css/bundle.<hash>.css`, JS→`dist/js/app.<hash>.js`, build all pages, copy `static/*` (incl. self-hosted fonts) to `dist/`, write `.nojekyll`, `robots.txt`, `sitemap.xml`, `index.json`, `404.html` |
 
@@ -56,7 +56,6 @@ JS modules in `assets/js/` are listed in `site.json:js_files`, concatenated and 
 | Client-side search | `assets/js/search.js` | Loads `/index.json`. Empty-state suggestions (6 i18n keys). Debounced search (200ms). Synonym expansion. Weighted scoring. ↑/↓/Enter/Esc keyboard nav. `aria-live="polite"` on results panel |
 | Client-side i18n | `assets/js/i18n.js` | Loads `/i18n/translations.json`, 26 languages, `data-i18n` attributes, localStorage persistence (`site-language`), `dir="rtl"` for Arabic. Exposes `window.__i18nTranslations` for other modules |
 | Image carousel | `assets/js/carousel.js` | Auto-rotates 4s. Disabled if `prefers-reduced-motion: reduce` OR `hover: none` (touch). Reacts to live motion-pref changes. ARIA-roledescription + per-slide labels + `aria-hidden` |
-| Symptom poll | `assets/js/poll.js` | Currently dormant (former home-page poll). Kept for the upcoming `/quiz/` recommendation engine |
 | Table → accordion | `assets/js/accordion.js` | Converts tables to accordion layout on mobile via `data-accordion="table"` |
 | Sidebar collapse | `assets/js/sidebar.js` | Per-group expand/collapse toggle; state persists to `localStorage["sidebar-groups"]` |
 | Take-action copy | `assets/js/take-action.js` | On `/take-action/` only: adds a Copy button to every `<blockquote>` (template scripts for doctor visits, social blurbs). Clipboard API with text-selection fallback. `aria-live="polite"` on label |
@@ -84,7 +83,7 @@ The inline block exposes two globals consumed by extracted modules: `window.__se
 | `assets/css/utilities.css` | `u-stack`, `u-cluster`, `u-grid-auto`, `u-skip-link`, `u-visually-hidden`, `u-tap-target`. `:root` breakpoint markers for JS introspection |
 | `assets/css/layout.css` | Topbar, off-canvas sidebar, sidebar nav groups (collapsible), shell grid, bottom nav, back-to-top. Safe-area + RTL logical properties throughout |
 | `assets/css/components.css` | Cards, buttons, forms, breadcrumbs, accordion |
-| `assets/css/pages.css` | Page-specific blocks: home hero/journey cards/stats/videos/quiz-teaser/help-CTA; take-action copyable-blocks |
+| `assets/css/pages.css` | Page-specific blocks: home hero/journey cards/stats/videos/quiz-teaser/help-CTA; notable-people gallery grid; take-action copyable-blocks |
 | `assets/css/carousel.css` | Carousel-specific |
 | `assets/css/tracker.css` | Symptom tracker page |
 | `assets/js/*` | See JS systems table above |
@@ -116,6 +115,7 @@ The build script replaces these placeholders:
 - **Safe-area on mobile** — Every fixed/sticky bottom-anchored element includes `env(safe-area-inset-bottom)`. `viewport-fit=cover` is set on the `<meta name="viewport">` tag.
 - **Client-side i18n** — Translations live in `/static/i18n/translations.json`; DOM elements use `data-i18n="key"` (optional `data-i18n-attr="title,aria-label"` and `data-i18n-aria="key"` for aria-label-only). New keys go to `en` first; placeholders propagate to all 26 languages and are tracked in `static/i18n/_review.json` for human translation later. i18n.js auto-falls-back to English when a key is missing.
 - **`search: false` frontmatter** — Excludes a page from the search index. Used for `/take-action/`, `/privacy/`. Pages with `draft: true` are excluded from both build and index.
+- **`toc: false` frontmatter** — Suppresses the auto-generated table of contents for a page. Used on `/notable-people/` (gallery layout).
 - **Accessibility** — Skip-to-content, 3px focus outlines via `--focus-ring` token, 44px min touch targets (`var(--tap-min)`), `aria-current="page"` in sidebar + bottom-nav, `aria-live="polite"` on search results + copy-button label, semantic HTML (`<nav>`, `<article>`, `<main>`, breadcrumb `<ol>`). WCAG AA contrast verified on all semantic token pairs.
 - **Privacy** — No third-party requests by default. Symptom data lives only in `localStorage`. Formspree submission is opt-in only and limited to the `/quiz/` result page (when built). Privacy notice at `/privacy/`.
 - **Self-hosted fonts** — Figtree variable WOFF2 at `static/fonts/`, loaded via `tokens.css` `@font-face` with `../fonts/...` relative paths (works on both root and subpath deploys). No Google Fonts.
@@ -124,4 +124,4 @@ The build script replaces these placeholders:
 - **Cache-busted bundles** — CSS and JS bundles are content-hashed (`bundle.<hash>.css`, `app.<hash>.js`); never reference by static name. Use `{{CSS_BUNDLE}}` / `{{JS_BUNDLE}}`.
 - **`{{BASE_URL}}` for internal links** — Never use bare `/foo/` for internal navigation; always `{{BASE_URL}}foo/`. The site deploys to a subpath on GitHub Pages and root on Cloudflare; bare slashes break under subpath.
 - **Three-journey navigation** — `site.json:nav_groups` has 3 groups: *Could this be me?* / *I have endo or adeno* / *Learn*. Each `nav-group` is collapsible with localStorage persistence via `sidebar.js`. Bottom nav (mobile) has 4 tabs: Home / Quiz / Learn / Help.
-- **Markdown content** — Custom `md_to_html()` converter with raw HTML passthrough (supports `<details>`, `<summary>`, `<main>`, blockquotes). Frontmatter (after leading `---`): `title`, `description`, `date`, `lastmod`, `draft`, `tags`, `keywords`, `search` (default true). Internal `[text](/slug/)` links are rewritten to include `base_url`.
+- **Markdown content** — Custom `md_to_html()` converter with raw HTML passthrough (supports `<details>`, `<summary>`, `<main>`, blockquotes). Frontmatter (after leading `---`): `title`, `description`, `date`, `lastmod`, `draft`, `tags`, `keywords`, `search` (default true), `toc` (default true). Internal `[text](/slug/)` links are rewritten to include `base_url`.

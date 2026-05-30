@@ -4,6 +4,7 @@ description: "Public figures who have spoken openly about their Endometriosis di
 date: 2026-05-20
 lastmod: 2026-05-29
 draft: false
+toc: false
 tags: ["Endometriosis", "notable people", "advocacy", "surgery", "awareness"]
 keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "Endometriosis surgery", "Endometriosis advocacy", "Endometriosis awareness"]
 ---
@@ -134,12 +135,6 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <strong class="person-name">Sarah Hyland</strong>
     <span class="person-role">Actress, Modern Family</span>
     <span class="person-condition">Laparoscopic surgery, 2018</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">SC</div>
-    <strong class="person-name">Savannah Chrisley</strong>
-    <span class="person-role">TV Personality</span>
-    <span class="person-condition">3 surgeries</span>
   </div>
   <div class="person-card">
     <div class="person-avatar">TL</div>
@@ -431,6 +426,6 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
 
 **Los Angeles:** Dr. Thais Aliabadi (Halsey, Olivia Culpo likely, Florence Pugh diagnosis), Dr. Iris Kerin Orbuch (Mae Whitman, prominently featured in *Below the Belt* documentary), Dr. Mark Surrey (Molly Qerim's first), Cedars-Sinai Medical Center (Julianne Hough first surgery; Jaime King diagnosis with Dr. Randy Harris).
 
-**Atlanta:** Dr. Ken Sinervo (Center for Endometriosis Care: Savannah Chrisley, Njambi Koikai), Dr. Ceana Nezhat (Nezhat Medical Center / Northside: Monica). Non-US patients with severe Endometriosis often travel to Atlanta for treatment. Njambi Koikai is a prominent example.
+**Atlanta:** Dr. Ken Sinervo (Center for Endometriosis Care: Njambi Koikai), Dr. Ceana Nezhat (Nezhat Medical Center / Northside: Monica). Non-US patients with severe Endometriosis often travel to Atlanta for treatment. Njambi Koikai is a prominent example.
 
 **Kenya:** Dr. Joseph Njagi (African Centre for Endometriosis / ACK Mt. Kenya Hospital) runs the "Healing Mama Africa" surgical camp drawing patients from Nigeria, Cameroon, and across the continent.
