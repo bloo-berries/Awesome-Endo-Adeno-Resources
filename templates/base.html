@@ -113,11 +113,13 @@
     <div class="shell">
         <aside class="sidebar" id="sidebar" data-open="false">
             {{SIDEBAR_NAV}}
-            {{FOOTER_LINKS}}
-            {{SOCIALS}}
-            <p class="footnote">
-                &copy; {{YEAR}} Bloomed Health
-            </p>
+            <div class="sidebar-bottom">
+                {{FOOTER_LINKS}}
+                {{SOCIALS}}
+                <p class="footnote">
+                    &copy; {{YEAR}} Bloomed Health
+                </p>
+            </div>
         </aside>
 
         <main class="content" id="main-content">
@@ -252,6 +254,18 @@
             catch (e) { hrefPath = href; }
             if (path === hrefPath) a.setAttribute('aria-current', 'page');
         });
+    })();
+
+    // Notable People carousel scroll arrows
+    (function() {
+        var track = document.querySelector('.home-people-track');
+        if (!track) return;
+        var prev = document.querySelector('.home-people-prev');
+        var next = document.querySelector('.home-people-next');
+        if (!prev || !next) return;
+        var scrollAmt = function() { return track.clientWidth * 0.7; };
+        prev.addEventListener('click', function() { track.scrollBy({ left: -scrollAmt(), behavior: 'smooth' }); });
+        next.addEventListener('click', function() { track.scrollBy({ left: scrollAmt(), behavior: 'smooth' }); });
     })();
     </script>
 

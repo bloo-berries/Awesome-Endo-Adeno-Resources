@@ -3,7 +3,7 @@ title: "Myths & Facts"
 description: "Debunking common myths about Endometriosis and adenomyosis with evidence-based facts and medical sources."
 date: 2026-04-17
 lastmod: 2026-04-17
-draft: false
+draft: true
 tags: ["myths", "facts", "Endometriosis", "adenomyosis", "awareness"]
 keywords: ["Endometriosis myths", "adenomyosis myths", "period pain myths", "endo facts", "Endometriosis misconceptions"]
 ---

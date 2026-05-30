@@ -280,6 +280,8 @@
   inset-inline-end: 30%;
   z-index: 25;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
   padding: var(--space-md);
   padding-bottom: calc(var(--space-md) + env(safe-area-inset-bottom));
   background: var(--gradient-warm);
@@ -334,6 +336,14 @@
   .sidebar-backdrop {
     display: none;
   }
+}
+
+.sidebar-nav {
+  flex: 1;
+}
+
+.sidebar-bottom {
+  margin-top: auto;
 }
 
 /* Sidebar nav group styling */
@@ -438,6 +448,46 @@
   .sidebar-nav .nav-group > ul {
     transition: none;
   }
+}
+
+/* ── Sidebar footer links (About, FAQ, Take action, Privacy) ───────── */
+
+.sidebar-footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xs);
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  min-block-size: var(--tap-min);
+  color: var(--text-on-warm);
+  text-decoration: none;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+}
+
+.footer-link:hover,
+.footer-link:focus-visible {
+  background-color: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+}
+
+.footer-link:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+.footer-link .nav-icon {
+  flex-shrink: 0;
+  opacity: 0.75;
 }
 
 /* ====================================================================

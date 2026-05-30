@@ -112,7 +112,7 @@
 @media (min-width: 48rem) {
   .home-duo {
     grid-template-columns: 1fr 1fr;
-    align-items: start;
+    align-items: stretch;
   }
 }
 
@@ -121,8 +121,23 @@
   margin-top: 0;
 }
 
+.home-duo > .home-carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-duo > .home-carousel-wrapper .carousel-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-duo > .home-carousel-wrapper .carousel-viewport {
+  flex: 1;
+}
+
 /* =====================================================================
- * Home: Linked stats
+ * Home: Linked stats (2x2 grid, matches carousel height)
  * ===================================================================== */
 
 .home-stats {
@@ -136,7 +151,7 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--space-xs);
-  padding: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
   min-block-size: var(--tap-min);
   background: var(--gradient-deep);
   color: var(--text-on-deep);
@@ -145,6 +160,7 @@
   font-weight: 600;
   font-size: var(--text-sm);
   transition: transform 120ms ease;
+  flex: 1;
 }
 
 .stat-link:hover,
@@ -210,11 +226,139 @@
   box-shadow: var(--shadow-md);
 }
 
-.video-card-caption {
-  padding: var(--space-sm) var(--space-md);
+
+/* =====================================================================
+ * Home: Notable People carousel
+ * ===================================================================== */
+
+.home-people {
+  margin-top: var(--space-xl);
+}
+
+.home-people-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.home-people-header .home-section-heading {
+  margin-bottom: 0;
+}
+
+.home-people-arrows {
+  display: flex;
+  gap: var(--space-xs);
+  flex-shrink: 0;
+}
+
+.home-people-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-pill);
   background: var(--surface-raised);
-  font-size: var(--text-sm);
   color: var(--text);
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+
+.home-people-arrow:hover {
+  background: var(--accent);
+  color: var(--text-on-warm);
+}
+
+.home-people-arrow:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+.home-people-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.home-people-track {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding: var(--space-md) 0;
+  scrollbar-width: none;
+}
+
+.home-people-track::-webkit-scrollbar {
+  display: none;
+}
+
+.home-people-card {
+  flex: 0 0 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  text-decoration: none;
+  color: var(--text);
+  scroll-snap-align: start;
+}
+
+@media (min-width: 48rem) {
+  .home-people-card {
+    flex: 0 0 7.5rem;
+  }
+}
+
+.home-people-card .person-avatar {
+  aspect-ratio: 1;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: transform 150ms ease;
+}
+
+.home-people-card:hover .person-avatar,
+.home-people-card:focus-visible .person-avatar {
+  transform: scale(1.04);
+}
+
+.home-people-card:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+  border-radius: var(--radius-md);
+}
+
+.home-people-card .person-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.home-people-name {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.home-people-see-all {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-weight: 600;
+  font-size: var(--text-base);
+  color: var(--accent);
+}
+
+.home-people-see-all:hover {
+  color: var(--accent-hover);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-people-card .person-avatar { transition: none; }
+  .home-people-track { scroll-behavior: auto; }
 }
 
 /* =====================================================================
@@ -312,6 +456,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 20%;
 }
 
 .person-card:nth-child(7n+2) .person-avatar { background: linear-gradient(145deg, #3A5C6B 0%, #2D3E5A 100%); }
@@ -344,6 +489,196 @@
   .people-grid {
     grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
   }
+}
+
+/* ── Person card interactivity ──────────────────────────────────────── */
+
+.person-card[role="button"] {
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.person-card[role="button"]:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.person-card[role="button"]:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .person-card[role="button"] { transition: none; }
+}
+
+/* ── Person modal ────────────────────────────────────────────────────── */
+
+.person-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+.person-modal-backdrop[hidden] {
+  display: none;
+}
+
+.person-modal-backdrop.is-visible {
+  opacity: 1;
+}
+
+.person-modal {
+  position: relative;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  background: var(--surface);
+  color: var(--text);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  padding: var(--space-lg);
+  padding-bottom: calc(var(--space-lg) + env(safe-area-inset-bottom));
+  transform: translateY(100%);
+  transition: transform 250ms ease;
+}
+
+.person-modal-backdrop.is-visible .person-modal {
+  transform: translateY(0);
+}
+
+/* Close button */
+.person-modal-close {
+  position: absolute;
+  top: var(--space-sm);
+  inset-inline-end: var(--space-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--tap-min);
+  height: var(--tap-min);
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+}
+
+.person-modal-close:hover { color: var(--text); }
+.person-modal-close:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+/* Modal body content */
+.person-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-sm);
+}
+
+.person-modal-avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: var(--radius-md);
+  background: var(--gradient-deep);
+  color: var(--text-on-deep);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.person-modal-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.person-modal-initials {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  user-select: none;
+}
+
+.person-modal-name {
+  margin: 0;
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.person-modal-role {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+
+.person-modal-condition {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--accent);
+  color: var(--text-on-deep);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+}
+
+.person-modal-bio {
+  margin: var(--space-sm) 0 0;
+  font-size: var(--text-base);
+  color: var(--text);
+  text-align: start;
+  line-height: 1.6;
+}
+
+.person-modal-detail {
+  margin: var(--space-sm) 0 0;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  text-align: start;
+  line-height: 1.6;
+}
+
+/* Tablet+: centered dialog */
+@media (min-width: 48rem) {
+  .person-modal-backdrop {
+    align-items: center;
+  }
+
+  .person-modal {
+    width: min(28rem, 90vw);
+    border-radius: var(--radius-md);
+    padding-bottom: var(--space-lg);
+    transform: translateY(1rem);
+  }
+
+  .person-modal-backdrop.is-visible .person-modal {
+    transform: translateY(0);
+  }
+
+  .person-modal-avatar {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .person-modal-backdrop,
+  .person-modal { transition: none; }
+  .person-modal { transform: none; }
 }
 
 /* =====================================================================

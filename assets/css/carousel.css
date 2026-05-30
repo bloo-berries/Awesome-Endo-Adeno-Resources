@@ -8,18 +8,6 @@
 .home-duo .carousel-section {
     max-width: none;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.home-duo .carousel-box {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.home-duo .carousel-viewport {
-    flex: 1;
 }
 
 .carousel-box {
@@ -52,7 +40,7 @@
 
 .carousel-slide img {
     width: 100%;
-    height: 280px;
+    height: 200px;
     object-fit: contain;
     display: block;
     border-radius: var(--radius-md);

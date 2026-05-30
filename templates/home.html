@@ -3,8 +3,9 @@
   Block order:
     1. Hero
     2. Watch & Learn (featured videos)
-    3. Carousel + Stats (side-by-side on desktop)
-    4. Help CTA
+    3. Notable People (carousel)
+    4. Reality of Endo carousel + Stats 2x2 (side-by-side)
+    5. Help CTA
 -->
 
 <!-- 1. Hero -->
@@ -32,16 +33,91 @@
   <div class="home-videos-grid">
     <a href="https://www.youtube.com/watch?v=nL91LegtUWk" target="_blank" rel="noopener noreferrer" class="video-card">
       <img src="{{BASE_URL}}images/End-O.webp" alt="End-O: Understanding Endometriosis" loading="lazy">
-      <div class="video-card-caption" data-i18n="video_endo_caption">End-O: Understanding Endometriosis</div>
     </a>
     <a href="https://www.thisisendo.com/watch-this-is-endometriosis" target="_blank" rel="noopener noreferrer" class="video-card">
       <img src="{{BASE_URL}}images/this-is-endometriosis.jpg" alt="This Is Endometriosis (BAFTA-winning documentary)" loading="lazy">
-      <div class="video-card-caption" data-i18n="video_this_is_endo_caption">This Is Endometriosis: BAFTA-winning short film</div>
     </a>
   </div>
 </section>
 
-<!-- 3. Carousel + Stats duo -->
+<!-- 3. Notable People (carousel) -->
+<section class="home-people" aria-labelledby="people-heading">
+  <div class="home-people-header">
+    <h2 id="people-heading" class="home-section-heading" data-i18n="home_people_heading">Notable people with Endometriosis</h2>
+    <div class="home-people-arrows">
+      <button class="home-people-arrow home-people-prev" aria-label="Scroll left">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="home-people-arrow home-people-next" aria-label="Scroll right">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="home-people-track">
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Daisy-Ridley.webp" alt="Daisy Ridley" loading="lazy"></div>
+      <div class="home-people-name">Daisy Ridley</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Padma-Lakshmi.webp" alt="Padma Lakshmi" loading="lazy"></div>
+      <div class="home-people-name">Padma Lakshmi</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Ciru-Muriuki.webp" alt="Ciru Muriuki" loading="lazy"></div>
+      <div class="home-people-name">Ciru Muriuki</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Dolly-Parton.webp" alt="Dolly Parton" loading="lazy"></div>
+      <div class="home-people-name">Dolly Parton</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Shruti-Haasan.webp" alt="Shruti Haasan" loading="lazy"></div>
+      <div class="home-people-name">Shruti Haasan</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Njambi-Koikai.webp" alt="Njambi Koikai" loading="lazy"></div>
+      <div class="home-people-name">Njambi Koikai</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Cyndi-Lauper.webp" alt="Cyndi Lauper" loading="lazy"></div>
+      <div class="home-people-name">Cyndi Lauper</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Tayo-Sobola-Soleye.webp" alt="Tayo Sobola-Soleye" loading="lazy"></div>
+      <div class="home-people-name">Tayo Sobola-Soleye</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Chrissy-Teigen.webp" alt="Chrissy Teigen" loading="lazy"></div>
+      <div class="home-people-name">Chrissy Teigen</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Janel-Parrish.webp" alt="Janel Parrish" loading="lazy"></div>
+      <div class="home-people-name">Janel Parrish</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Anitta.webp" alt="Anitta" loading="lazy"></div>
+      <div class="home-people-name">Anitta</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Folake-Olowofoyeku.webp" alt="Folake Olowofoyeku" loading="lazy"></div>
+      <div class="home-people-name">Folake Olowofoyeku</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Alexa-Chung.webp" alt="Alexa Chung" loading="lazy"></div>
+      <div class="home-people-name">Alexa Chung</div>
+    </a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Corazon-Kwamboka.webp" alt="Corazon Kwamboka" loading="lazy"></div>
+      <div class="home-people-name">Corazon Kwamboka</div>
+    </a>
+  </div>
+  <a href="{{BASE_URL}}notable-people/" class="home-people-see-all" data-i18n="home_people_see_all">
+    See all 62 people
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+  </a>
+</section>
+
+<!-- 4. Reality of Endo + Stats (side-by-side on desktop) -->
 <div class="home-duo">
   <section class="home-carousel-wrapper carousel-section" id="carousel-section">
     <div class="carousel-box carousel-box-top">
@@ -87,7 +163,7 @@
   </section>
 </div>
 
-<!-- 4. Help CTA -->
+<!-- 5. Help CTA -->
 <section class="home-help-cta" aria-labelledby="help-cta-heading">
   <h2 id="help-cta-heading" class="home-help-cta-title" data-i18n="home_help_title">Need to talk to someone?</h2>
   <p class="home-help-cta-desc" data-i18n="home_help_desc">

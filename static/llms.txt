@@ -1,0 +1,38 @@
+# 1 in 7
+
+> A community-driven, open-source resource for navigating Endometriosis and Adenomyosis. Covers symptoms, diagnosis, treatments, medications, fertility, mental health, research, and advocacy. Approximately 1 in 7 women worldwide are affected. No trackers, no third-party requests; all data stays on-device.
+
+## Getting started
+
+- [Endometriosis](https://1in7.info/endometriosis/): Comprehensive guide covering symptoms, stages, diagnosis methods, treatment options, and support resources
+- [Adenomyosis](https://1in7.info/adenomyosis/): Guide covering symptoms, diagnosis, treatment options, and specialist resources for this condition affecting the uterine muscular wall
+- [Symptom Quiz](https://1in7.info/quiz/): Guided checklist to help understand whether your symptoms match Endometriosis or Adenomyosis, with personalized next steps
+
+## Could this be me?
+
+- [Diagnosis](https://1in7.info/diagnosis/): Diagnostic methods, symptom staging, surgical and non-surgical treatments, medicinal options, and scientific research findings
+- [Co-morbidities](https://1in7.info/comorbidities/): Research-backed comorbidity data including gynecological, gastrointestinal, neurological, mental health, autoimmune, and novel associations
+- [Healthcare Providers](https://1in7.info/healthcare/): Vetted specialists, diagnostic tools, medical data trackers, and AI-enabled research platforms
+- [Myths & Facts](https://1in7.info/myths/): Debunking common myths with evidence-based facts and medical sources
+
+## I have endo or adeno
+
+- [Treatments](https://1in7.info/treatments/): Overview of treatment options: surgical, hormonal, non-hormonal, and supportive
+- [Medications](https://1in7.info/medications/): Comprehensive comparison of medications used to treat Endometriosis and Adenomyosis
+- [Fertility](https://1in7.info/fertility/): Impact on fertility, IVF, egg freezing, and conception guidance
+- [Mental Health](https://1in7.info/mental-health/): Coping strategies, therapy options, and support resources
+- [Support & Advocacy](https://1in7.info/resources/): Financial assistance, advocacy groups, vetted regional providers, and fertility resources worldwide
+- [Symptom Tracker](https://1in7.info/tracker/): Track symptoms privately on your device
+
+## Learn
+
+- [Notable People](https://1in7.info/notable-people/): Public figures who have spoken openly about their Endometriosis diagnosis, surgeries, and advocacy
+- [Research](https://1in7.info/research/): Scientific research organizations, current studies, clinical trials, and genetic research
+- [Education](https://1in7.info/education/): Films, books, and community resources for awareness and understanding
+- [Take Action](https://1in7.info/take-action/): Practical scripts for talking to doctors, family, and partners about Endometriosis or Adenomyosis
+
+## Optional
+
+- [FAQ](https://1in7.info/faq/): Common questions and answers about Endometriosis and Adenomyosis
+- [About](https://1in7.info/about/): About the project, a community-driven open-source initiative
+- [Privacy](https://1in7.info/privacy/): How the site handles your data: by default, nothing leaves your device
