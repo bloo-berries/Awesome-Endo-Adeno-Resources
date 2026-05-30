@@ -47,7 +47,7 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">Surgery in her 30s</span>
   </div>
   <div class="person-card">
-    <div class="person-avatar">DJ</div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Daisy-Edgar-Jones.webp" alt="Daisy Edgar-Jones" loading="lazy"></div>
     <strong class="person-name">Daisy Edgar-Jones</strong>
     <span class="person-role">Actress, Normal People</span>
     <span class="person-condition">Diagnosed at 24</span>
@@ -65,13 +65,13 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">Partial hysterectomy, 1982</span>
   </div>
   <div class="person-card">
-    <div class="person-avatar">ER</div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Emma-Roberts.webp" alt="Emma Roberts" loading="lazy"></div>
     <strong class="person-name">Emma Roberts</strong>
     <span class="person-role">Actress, Scream Queens</span>
     <span class="person-condition">Diagnosed, froze eggs</span>
   </div>
   <div class="person-card">
-    <div class="person-avatar">FP</div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Florence-Pugh.webp" alt="Florence Pugh" loading="lazy"></div>
     <strong class="person-name">Florence Pugh</strong>
     <span class="person-role">Actress, Little Women</span>
     <span class="person-condition">Diagnosed, egg freezing</span>
@@ -83,7 +83,7 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">Excision surgery</span>
   </div>
   <div class="person-card">
-    <div class="person-avatar">GU</div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Gabrielle-Union.webp" alt="Gabrielle Union" loading="lazy"></div>
     <strong class="person-name">Gabrielle Union</strong>
     <span class="person-role">Actress, Bring It On</span>
     <span class="person-condition">Adenomyosis</span>
@@ -95,7 +95,7 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">Multiple surgeries, 2017+</span>
   </div>
   <div class="person-card">
-    <div class="person-avatar">HC</div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Hillary-Clinton.webp" alt="Hillary Clinton" loading="lazy"></div>
     <strong class="person-name">Hillary Clinton</strong>
     <span class="person-role">Politician & Former Secretary of State</span>
     <span class="person-condition">Diagnosed; Exec Producer, Below the Belt</span>
@@ -113,7 +113,7 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">2 surgeries, 2024-2025</span>
   </div>
   <div class="person-card">
-    <div class="person-avatar">JM</div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Jillian-Michaels.webp" alt="Jillian Michaels" loading="lazy"></div>
     <strong class="person-name">Jillian Michaels</strong>
     <span class="person-role">Fitness Trainer & TV Personality</span>
     <span class="person-condition">Diagnosed at 28</span>
@@ -143,7 +143,7 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">Excision surgery</span>
   </div>
   <div class="person-card">
-    <div class="person-avatar">MM</div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Mandy-Moore.webp" alt="Mandy Moore" loading="lazy"></div>
     <strong class="person-name">Mandy Moore</strong>
     <span class="person-role">Actress & Singer, This Is Us</span>
     <span class="person-condition">Scheduled surgery, got pregnant first</span>
