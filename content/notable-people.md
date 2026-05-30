@@ -2,7 +2,7 @@
 title: "Notable People"
 description: "Public figures who have spoken openly about their Endometriosis diagnosis, surgeries, and advocacy, organized by region."
 date: 2026-05-20
-lastmod: 2026-05-29
+lastmod: 2026-05-30
 draft: false
 toc: false
 tags: ["Endometriosis", "notable people", "advocacy", "surgery", "awareness"]
@@ -47,129 +47,22 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">Surgery in her 30s</span>
   </div>
   <div class="person-card">
+    <div class="person-avatar">DJ</div>
+    <strong class="person-name">Daisy Edgar-Jones</strong>
+    <span class="person-role">Actress, Normal People</span>
+    <span class="person-condition">Diagnosed at 24</span>
+  </div>
+  <div class="person-card">
     <div class="person-avatar">DF</div>
     <strong class="person-name">Diana Falzone</strong>
     <span class="person-role">Journalist & Author</span>
     <span class="person-condition">Surgery confirmed</span>
   </div>
   <div class="person-card">
-    <div class="person-avatar">DP</div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Dolly-Parton.webp" alt="Dolly Parton" loading="lazy"></div>
     <strong class="person-name">Dolly Parton</strong>
     <span class="person-role">Singer & Songwriter</span>
     <span class="person-condition">Partial hysterectomy, 1982</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">FO</div>
-    <strong class="person-name">Folake Olowofoyeku</strong>
-    <span class="person-role">Actress, Bob Hearts Abishola</span>
-    <span class="person-condition">Excision surgery</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">H</div>
-    <strong class="person-name">Halsey</strong>
-    <span class="person-role">Singer & Songwriter</span>
-    <span class="person-condition">Multiple surgeries, 2017+</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">JK</div>
-    <strong class="person-name">Jaime King</strong>
-    <span class="person-role">Actress & Model</span>
-    <span class="person-condition">Diagnosed, no excision confirmed</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">JP</div>
-    <strong class="person-name">Janel Parrish</strong>
-    <span class="person-role">Actress, Pretty Little Liars</span>
-    <span class="person-condition">2 surgeries, 2024-2025</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">JH</div>
-    <strong class="person-name">Julianne Hough</strong>
-    <span class="person-role">Dancer & Actress</span>
-    <span class="person-condition">2 surgeries, 2008 & 2017</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">LD</div>
-    <strong class="person-name">Lena Dunham</strong>
-    <span class="person-role">Actress & Writer, Girls</span>
-    <span class="person-condition">8+ surgeries + hysterectomy</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">LR</div>
-    <strong class="person-name">Lili Reinhart</strong>
-    <span class="person-role">Actress, Riverdale</span>
-    <span class="person-condition">Laparoscopic surgery, 2025</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">MW</div>
-    <strong class="person-name">Mae Whitman</strong>
-    <span class="person-role">Actress, Good Girls</span>
-    <span class="person-condition">Excision surgery</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">MB</div>
-    <strong class="person-name">Monica</strong>
-    <span class="person-role">R&B Singer</span>
-    <span class="person-condition">8-hour surgery, 2017</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">MQ</div>
-    <strong class="person-name">Molly Qerim</strong>
-    <span class="person-role">Sports Broadcaster, ESPN</span>
-    <span class="person-condition">Multiple surgeries</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">OC</div>
-    <strong class="person-name">Olivia Culpo</strong>
-    <span class="person-role">Model & Miss Universe 2012</span>
-    <span class="person-condition">Laparoscopic surgery, 2020</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">PL</div>
-    <strong class="person-name">Padma Lakshmi</strong>
-    <span class="person-role">TV Host & Author, Top Chef</span>
-    <span class="person-condition">~4 surgeries, from 2006</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">SH</div>
-    <strong class="person-name">Sarah Hyland</strong>
-    <span class="person-role">Actress, Modern Family</span>
-    <span class="person-condition">Laparoscopic surgery, 2018</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">TL</div>
-    <strong class="person-name">Tara Lipinski</strong>
-    <span class="person-role">Olympic Figure Skater</span>
-    <span class="person-condition">Robotic excision, 2020 & 2024</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">TM</div>
-    <strong class="person-name">Tia Mowry</strong>
-    <span class="person-role">Actress, Sister Sister</span>
-    <span class="person-condition">2 laparoscopic surgeries</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">TH</div>
-    <strong class="person-name">Tiffany Haddish</strong>
-    <span class="person-role">Comedian & Actress</span>
-    <span class="person-condition">Endo shave + fibroid removal</span>
-  </div>
-  <div class="person-card">
-    <div class="person-avatar">WG</div>
-    <strong class="person-name">Whoopi Goldberg</strong>
-    <span class="person-role">Actress & TV Host, The View</span>
-    <span class="person-condition">Multiple surgeries</span>
-  </div>
-</div>
-
-## North America: Diagnosed
-
-<div class="people-grid">
-  <div class="person-card">
-    <div class="person-avatar">DJ</div>
-    <strong class="person-name">Daisy Edgar-Jones</strong>
-    <span class="person-role">Actress, Normal People</span>
-    <span class="person-condition">Diagnosed at 24</span>
   </div>
   <div class="person-card">
     <div class="person-avatar">ER</div>
@@ -184,10 +77,22 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">Diagnosed, egg freezing</span>
   </div>
   <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Folake-Olowofoyeku.webp" alt="Folake Olowofoyeku" loading="lazy"></div>
+    <strong class="person-name">Folake Olowofoyeku</strong>
+    <span class="person-role">Actress, Bob Hearts Abishola</span>
+    <span class="person-condition">Excision surgery</span>
+  </div>
+  <div class="person-card">
     <div class="person-avatar">GU</div>
     <strong class="person-name">Gabrielle Union</strong>
     <span class="person-role">Actress, Bring It On</span>
     <span class="person-condition">Adenomyosis</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/halsey.webp" alt="Halsey" loading="lazy"></div>
+    <strong class="person-name">Halsey</strong>
+    <span class="person-role">Singer & Songwriter</span>
+    <span class="person-condition">Multiple surgeries, 2017+</span>
   </div>
   <div class="person-card">
     <div class="person-avatar">HC</div>
@@ -196,16 +101,106 @@ Public figures who have spoken openly about their Endometriosis. Surgery details
     <span class="person-condition">Diagnosed; Exec Producer, Below the Belt</span>
   </div>
   <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Jaime-King.webp" alt="Jaime King" loading="lazy"></div>
+    <strong class="person-name">Jaime King</strong>
+    <span class="person-role">Actress & Model</span>
+    <span class="person-condition">Diagnosed, no excision confirmed</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar">JP</div>
+    <strong class="person-name">Janel Parrish</strong>
+    <span class="person-role">Actress, Pretty Little Liars</span>
+    <span class="person-condition">2 surgeries, 2024-2025</span>
+  </div>
+  <div class="person-card">
     <div class="person-avatar">JM</div>
     <strong class="person-name">Jillian Michaels</strong>
     <span class="person-role">Fitness Trainer & TV Personality</span>
     <span class="person-condition">Diagnosed at 28</span>
   </div>
   <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Julianne-Hough.webp" alt="Julianne Hough" loading="lazy"></div>
+    <strong class="person-name">Julianne Hough</strong>
+    <span class="person-role">Dancer & Actress</span>
+    <span class="person-condition">2 surgeries, 2008 & 2017</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Lena-Dunham.webp" alt="Lena Dunham" loading="lazy"></div>
+    <strong class="person-name">Lena Dunham</strong>
+    <span class="person-role">Actress & Writer, Girls</span>
+    <span class="person-condition">8+ surgeries + hysterectomy</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Lili-Reinhart.webp" alt="Lili Reinhart" loading="lazy"></div>
+    <strong class="person-name">Lili Reinhart</strong>
+    <span class="person-role">Actress, Riverdale</span>
+    <span class="person-condition">Laparoscopic surgery, 2025</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Mae-Whitman.webp" alt="Mae Whitman" loading="lazy"></div>
+    <strong class="person-name">Mae Whitman</strong>
+    <span class="person-role">Actress, Good Girls</span>
+    <span class="person-condition">Excision surgery</span>
+  </div>
+  <div class="person-card">
     <div class="person-avatar">MM</div>
     <strong class="person-name">Mandy Moore</strong>
     <span class="person-role">Actress & Singer, This Is Us</span>
     <span class="person-condition">Scheduled surgery, got pregnant first</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Molly-Qerim.webp" alt="Molly Qerim" loading="lazy"></div>
+    <strong class="person-name">Molly Qerim</strong>
+    <span class="person-role">Sports Broadcaster, ESPN</span>
+    <span class="person-condition">Multiple surgeries</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Monica.webp" alt="Monica" loading="lazy"></div>
+    <strong class="person-name">Monica</strong>
+    <span class="person-role">R&B Singer</span>
+    <span class="person-condition">8-hour surgery, 2017</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Olivia-Culpo.webp" alt="Olivia Culpo" loading="lazy"></div>
+    <strong class="person-name">Olivia Culpo</strong>
+    <span class="person-role">Model & Miss Universe 2012</span>
+    <span class="person-condition">Laparoscopic surgery, 2020</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Padma-Lakshmi.webp" alt="Padma Lakshmi" loading="lazy"></div>
+    <strong class="person-name">Padma Lakshmi</strong>
+    <span class="person-role">TV Host & Author, Top Chef</span>
+    <span class="person-condition">~4 surgeries, from 2006</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Sarah-Hyland.webp" alt="Sarah Hyland" loading="lazy"></div>
+    <strong class="person-name">Sarah Hyland</strong>
+    <span class="person-role">Actress, Modern Family</span>
+    <span class="person-condition">Laparoscopic surgery, 2018</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Tara-Lipinski.webp" alt="Tara Lipinski" loading="lazy"></div>
+    <strong class="person-name">Tara Lipinski</strong>
+    <span class="person-role">Olympic Figure Skater</span>
+    <span class="person-condition">Robotic excision, 2020 & 2024</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Tia-Mowry.webp" alt="Tia Mowry" loading="lazy"></div>
+    <strong class="person-name">Tia Mowry</strong>
+    <span class="person-role">Actress, Sister Sister</span>
+    <span class="person-condition">2 laparoscopic surgeries</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Tiffany-Haddish.webp" alt="Tiffany Haddish" loading="lazy"></div>
+    <strong class="person-name">Tiffany Haddish</strong>
+    <span class="person-role">Comedian & Actress</span>
+    <span class="person-condition">Endo shave + fibroid removal</span>
+  </div>
+  <div class="person-card">
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Whoopi-Goldberg.webp" alt="Whoopi Goldberg" loading="lazy"></div>
+    <strong class="person-name">Whoopi Goldberg</strong>
+    <span class="person-role">Actress & TV Host, The View</span>
+    <span class="person-condition">Multiple surgeries</span>
   </div>
 </div>
 
