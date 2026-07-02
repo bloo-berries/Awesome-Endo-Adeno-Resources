@@ -255,7 +255,7 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Nigerian-American actress known for Bob Hearts Abishola."
-       data-detail="Underwent excision surgery for Endometriosis, reportedly with Dr. Tamer Seckin, and has been open about her experience.">
+       data-detail="Underwent excision surgery for Endometriosis and has been open about her experience.">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Folake-Olowofoyeku.webp" alt="Folake Olowofoyeku" loading="lazy"></div>
     <strong class="person-name">Folake Olowofoyeku</strong>
     <span class="person-role">Actress, Bob Hearts Abishola</span>
@@ -335,7 +335,7 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="American actress known for Good Girls and Arrested Development."
-       data-detail="Underwent excision surgery for Endometriosis, reportedly with Dr. Iris Kerin Orbuch, and has been open about her experience.">
+       data-detail="Underwent excision surgery for Endometriosis and has been open about her experience.">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Mae-Whitman.webp" alt="Mae Whitman" loading="lazy"></div>
     <strong class="person-name">Mae Whitman</strong>
     <span class="person-role">Actress, Good Girls</span>
@@ -542,13 +542,13 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
 <details>
 <summary>New York</summary>
 
-Dr. Tamer Seckin (Seckin Endometriosis Center / Lenox Hill) is the most frequently named celebrity endo surgeon globally: Bindi Irwin, Padma Lakshmi, Amy Schumer, Lena Dunham, likely Folake Olowofoyeku. Dr. Masahide Kanayama (New York Endometriosis Center) handled Molly Qerim's 2025 surgery.
+Dr. Tamer Seckin (Seckin Endometriosis Center / Lenox Hill) is the most frequently named celebrity endo surgeon globally: Bindi Irwin, Padma Lakshmi, Amy Schumer, Lena Dunham. Dr. Masahide Kanayama (New York Endometriosis Center) handled Molly Qerim's 2025 surgery.
 </details>
 
 <details>
 <summary>Los Angeles</summary>
 
-Dr. Thais Aliabadi (Halsey, Olivia Culpo likely, Florence Pugh diagnosis), Dr. Iris Kerin Orbuch (Mae Whitman, prominently featured in *Below the Belt* documentary), Dr. Mark Surrey (Molly Qerim's first), Cedars-Sinai Medical Center (Julianne Hough first surgery; Jaime King diagnosis with Dr. Randy Harris).
+Dr. Thais Aliabadi (Florence Pugh diagnosis), Dr. Iris Kerin Orbuch (prominently featured in *Below the Belt* documentary), Dr. Mark Surrey, Cedars-Sinai Medical Center (Julianne Hough first surgery; Jaime King diagnosis with Dr. Randy Harris).
 </details>
 
 <details>

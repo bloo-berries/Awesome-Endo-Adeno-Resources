@@ -120,6 +120,7 @@ The build script replaces these placeholders:
 - **Privacy** — No third-party requests by default. Symptom data lives only in `localStorage`. Formspree submission is opt-in only and limited to the `/quiz/` result page (when built). Privacy notice at `/privacy/`.
 - **Self-hosted fonts** — Figtree variable WOFF2 at `static/fonts/`, loaded via `tokens.css` `@font-face` with `../fonts/...` relative paths (works on both root and subpath deploys). No Google Fonts.
 - **No `:root` in CSS** — Tokens emit on `body` (light) + `body.dark-theme` (dark). The only exception is `:root { --bp-tablet/desktop/wide }` in `utilities.css` for JS introspection.
+- **No left-border accent bars** — Boxes (TOC, blockquotes, callouts) use a full `border` + `border-radius` instead of a left-only accent stripe. Do not add `border-left` as a decorative element to containers.
 - **No `!important`** — CSS structured so specificity conflicts resolve without it. Only exception: `@media (prefers-reduced-motion)`.
 - **Cache-busted bundles** — CSS and JS bundles are content-hashed (`bundle.<hash>.css`, `app.<hash>.js`); never reference by static name. Use `{{CSS_BUNDLE}}` / `{{JS_BUNDLE}}`.
 - **`{{BASE_URL}}` for internal links** — Never use bare `/foo/` for internal navigation; always `{{BASE_URL}}foo/`. The site deploys to a subpath on GitHub Pages and root on Cloudflare; bare slashes break under subpath.

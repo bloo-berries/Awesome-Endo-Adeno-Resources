@@ -30,7 +30,7 @@ A condition where endometrial-like tissue grows into the muscular wall of the ut
 <details>
 <summary>How common is Endometriosis?</summary>
 
-Approximately 1 in 7 women and people assigned female at birth, roughly 570 million people worldwide.
+Approximately 10% of women and girls of reproductive age, around 190 million worldwide according to the WHO. In Australia, the figure is estimated at 1 in 7, suggesting global underdiagnosis.
 
 </details>
 

@@ -262,6 +262,12 @@
   background-color: var(--surface-raised);
 }
 
+/* Theme toggle icon visibility (CSS-only, no JS flash) */
+.sun-icon { display: block; }
+.moon-icon { display: none; }
+.dark-theme .sun-icon { display: none; }
+.dark-theme .moon-icon { display: block; }
+
 /* Hamburger hidden on desktop where sidebar is persistent */
 @media (min-width: 64rem) {
   .topbar-menu { display: none; }
@@ -386,7 +392,7 @@
 }
 
 .nav-group-chevron {
-  transition: transform 180ms ease;
+  transition: transform var(--transition-fast);
   flex-shrink: 0;
   opacity: 0.75;
 }
@@ -501,6 +507,15 @@
   padding-bottom: calc(4rem + env(safe-area-inset-bottom) + var(--space-md));
 }
 
+/* Article content max-width for readability */
+.post {
+  max-inline-size: 70ch;
+}
+
+.post table {
+  max-inline-size: 100%;
+}
+
 @media (min-width: 64rem) {
   .content {
     grid-column: 2;
@@ -541,8 +556,8 @@
 }
 
 .bottomnav-item svg {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .bottomnav-item:hover,

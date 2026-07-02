@@ -1,17 +1,17 @@
 /* tracker.css — Symptom tracker component styles */
 
 .tracker-form {
-    background: rgba(196, 152, 42, 0.06);
-    border: 1px solid var(--border-color);
+    background: var(--accent-bg);
+    border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 1.25rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--space-lg);
     max-width: 600px;
 }
 
 .tracker-form h3 {
     margin-top: 0;
-    color: var(--color-gold);
+    color: var(--accent);
 }
 
 .tracker-label {
@@ -19,7 +19,7 @@
     margin-bottom: 0.75rem;
     font-size: 0.85rem;
     font-weight: 600;
-    color: var(--text-color);
+    color: var(--text);
 }
 
 .tracker-input {
@@ -27,10 +27,10 @@
     width: 100%;
     margin-top: 0.25rem;
     padding: 0.4rem 0.6rem;
-    background: var(--surface-color);
-    border: 1px solid var(--border-color);
+    background: var(--surface);
+    border: 1px solid var(--border);
     border-radius: var(--radius-sm);
-    color: var(--text-color);
+    color: var(--text);
     font-family: var(--font-primary);
     font-size: 0.85rem;
     min-height: auto;
@@ -38,8 +38,8 @@
 }
 
 .tracker-input:focus {
-    border-color: var(--color-gold);
-    outline: 2px solid rgba(196, 152, 42, 0.3);
+    border-color: var(--accent);
+    outline: 2px solid var(--accent-bg-hover);
 }
 
 textarea.tracker-input {
@@ -50,7 +50,7 @@ textarea.tracker-input {
     display: block;
     width: 100%;
     margin-top: 0.35rem;
-    accent-color: var(--color-gold);
+    accent-color: var(--accent);
     min-height: auto;
     min-width: auto;
     cursor: pointer;
@@ -60,7 +60,7 @@ textarea.tracker-input {
 }
 
 .tracker-fieldset {
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     padding: 0.75rem;
     margin: 0 0 0.75rem;
@@ -69,13 +69,13 @@ textarea.tracker-input {
 .tracker-fieldset legend {
     font-weight: 600;
     font-size: 0.85rem;
-    color: var(--color-gold);
+    color: var(--accent);
     padding: 0 0.3rem;
 }
 
 .tracker-symptom-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.3rem;
 }
 
@@ -86,13 +86,13 @@ textarea.tracker-input {
     font-size: 0.8rem;
     cursor: pointer;
     font-weight: 400;
-    color: var(--text-color);
+    color: var(--text);
 }
 
 .tracker-check input {
     min-height: auto;
     min-width: auto;
-    accent-color: var(--color-gold);
+    accent-color: var(--accent);
 }
 
 .tracker-mood-row {
@@ -104,9 +104,9 @@ textarea.tracker-input {
 .tracker-mood-btn {
     padding: 0.3rem 0.6rem;
     font-size: 0.75rem;
-    background: var(--surface-color);
-    border: 1px solid var(--border-color);
-    color: var(--text-color);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
     border-radius: var(--radius-sm);
     cursor: pointer;
     min-height: auto;
@@ -115,13 +115,13 @@ textarea.tracker-input {
 }
 
 .tracker-mood-btn.active {
-    background: var(--color-gold);
-    color: #fff;
-    border-color: var(--color-gold);
+    background: var(--accent);
+    color: var(--text-on-deep);
+    border-color: var(--accent);
 }
 
 .tracker-mood-btn:hover {
-    border-color: var(--color-gold);
+    border-color: var(--accent);
 }
 
 .tracker-save-btn {
@@ -138,8 +138,8 @@ textarea.tracker-input {
 }
 
 .tracker-history h3 {
-    color: var(--color-gold);
-    margin-bottom: 0.5rem;
+    color: var(--accent);
+    margin-bottom: var(--space-sm);
 }
 
 .tracker-actions-row {
@@ -168,7 +168,7 @@ textarea.tracker-input {
     align-items: flex-end;
     gap: 3px;
     height: 120px;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border);
     padding-bottom: 1.25rem;
 }
 
@@ -192,7 +192,7 @@ textarea.tracker-input {
 
 .chart-label {
     font-size: 0.55rem;
-    color: var(--muted-color);
+    color: var(--text-muted);
     margin-top: 0.2rem;
     white-space: nowrap;
     overflow: hidden;
@@ -203,11 +203,11 @@ textarea.tracker-input {
 /* Entry cards */
 
 .tracker-entry-card {
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     padding: 0.6rem 0.75rem;
     margin-bottom: 0.5rem;
-    background: var(--surface-color);
+    background: var(--surface);
 }
 
 .tracker-entry-header {
@@ -219,8 +219,8 @@ textarea.tracker-input {
 }
 
 .tracker-pain-badge {
-    background: rgba(196, 152, 42, 0.15);
-    color: var(--color-gold);
+    background: var(--accent-bg);
+    color: var(--accent);
     padding: 0.1rem 0.4rem;
     border-radius: var(--radius-pill);
     font-size: 0.7rem;
@@ -228,10 +228,10 @@ textarea.tracker-input {
 }
 
 .tracker-delete-btn {
-    margin-left: auto;
+    margin-inline-start: auto;
     background: none;
     border: none;
-    color: var(--muted-color);
+    color: var(--text-muted);
     font-size: 1.1rem;
     cursor: pointer;
     padding: 0 0.3rem;
@@ -240,11 +240,11 @@ textarea.tracker-input {
     line-height: 1;
 }
 
-.tracker-delete-btn:hover { color: var(--color-gold); }
+.tracker-delete-btn:hover { color: var(--accent); }
 
 .tracker-entry-detail {
     font-size: 0.8rem;
-    color: var(--muted-color);
+    color: var(--text-muted);
     line-height: 1.4;
 }
 
@@ -254,14 +254,14 @@ textarea.tracker-input {
 }
 
 .tracker-empty {
-    color: var(--muted-color);
+    color: var(--text-muted);
     font-size: 0.85rem;
     font-style: italic;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
+/* Symptom grid is single-column by default (mobile-first), expands on tablet+ */
+@media (min-width: 48rem) {
     .tracker-symptom-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }

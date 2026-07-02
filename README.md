@@ -1,9 +1,11 @@
 # Endo Adeno Resources Overview
 
+> **Naming note:** This repository (`Awesome-Endo-Adeno-Resources`) is the source for the [1 in 7](https://1in7.info) website, published by Bloomed Health. Contributors should edit the content files in `content/` rather than the generated output in `dist/`.
+
 *Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be overwhelming, but it shouldn't be.
 
 - [*Endometriosis*](https://en.wikipedia.org/wiki/Endometriosis): A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility.  
-  [1 in 7 women have Endometriosis](https://endometriosisaustralia.org/1-in-7-australian-women/) — approximately 570 million worldwide.
+  [Approximately 10% of women and girls of reproductive age have Endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis) — around 190 million worldwide (WHO). In Australia, [the figure is estimated at 1 in 7](https://endometriosisaustralia.org/1-in-7-australian-women/), suggesting underdiagnosis globally.
 - [*Adenomyosis*](https://en.wikipedia.org/wiki/Adenomyosis): A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement.
 
 <div align="center">
@@ -40,7 +42,7 @@ This resource list is packed with expert advice, community support, and the late
   - Current Methods:
     - Laparoscopy remains the gold standard for definitive diagnosis.
     - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases.
-    - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) have shown promise in detecting biomarkers associated with the disease.
+    - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) have shown promise in detecting biomarkers associated with the disease. *Performance claims are manufacturer-reported; independent peer-reviewed validation is ongoing.*
   - Potential Indicators:
     - Presence of [Endometriomas](https://en.wikipedia.org/wiki/Endometrioma)
       - These are cysts filled with old blood. Endometriomas are a type of Endometriosis, but alternatively, Endometriosis does not mean that you have an Endometrioma.
@@ -55,13 +57,13 @@ This resource list is packed with expert advice, community support, and the late
 ### [Endometriosis Symptoms](https://www.ivf.com.au/blog/heres-the-four-stages-of-endometriosis)
 
 <table role="table" aria-label="Endometriosis symptoms by stage and severity">
-<caption>Endometriosis symptoms categorized by stage, severity, symptoms, and metastasis potential</caption>
+<caption>Endometriosis symptoms categorized by stage, severity, symptoms, and spread</caption>
 <thead>
 <tr>
 <th scope="col">Stage/Type</th>
 <th scope="col">Severity</th>
 <th scope="col">Symptoms</th>
-<th scope="col">Metastasis</th>
+<th scope="col">Spread / Distribution</th>
 </tr>
 </thead>
 <tbody>
@@ -90,19 +92,25 @@ This resource list is packed with expert advice, community support, and the late
 <td>Extensive local spread</td>
 </tr>
 <tr>
-<td><strong>Stage IV+ (Very Severe)</strong></td>
+<td><strong>Deep Infiltrating (DIE)</strong></td>
 <td>Very severe</td>
-<td>All Stage IV symptoms, plus: Deep Infiltrating Endometriosis (DIE): Intense chronic pelvic pain; Severe dyspareunia; Dyschezia, bowel obstruction possible; Dysuria, hydronephrosis possible; Organ dysfunction depending on affected areas (e.g., bowel, bladder). Thoracic Endometriosis: Catamenial pneumothorax (lung collapse during menstruation); Hemoptysis (coughing up blood); Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath); Hemothorax or pericardial effusion in severe cases</td>
-<td>Extensive spread to deep tissues or distant sites such as the chest cavity</td>
+<td>All Stage IV symptoms plus: Intense chronic pelvic pain; Severe dyspareunia; Dyschezia, bowel obstruction possible; Dysuria, hydronephrosis possible; Organ dysfunction depending on affected areas (e.g., bowel, bladder, ureters)</td>
+<td>Deep tissue involvement (bowel, bladder, ureters)</td>
+</tr>
+<tr>
+<td><strong>Thoracic</strong></td>
+<td>Very severe</td>
+<td>Catamenial pneumothorax (lung collapse during menstruation); Hemoptysis (coughing up blood); Cyclic chest pain, shoulder pain, or dyspnea (shortness of breath); Hemothorax or pericardial effusion in severe cases</td>
+<td>Distant sites such as the chest cavity</td>
 </tr>
 </tbody>
 </table>
 
-*Staging is not utilized universally, nor does staging denote the severity of pain and/or symptoms
+*rASRM staging describes anatomical extent (adhesions, implant size) — it does not correlate with pain severity. Stage I can cause debilitating symptoms and Stage IV can be asymptomatic.*
 
 ### [Adenomyosis Symptoms](https://asktia.com/article/adenomyosis-causes-symptoms-treatment/)
 
-| Type/Stage   | Severity   | Symptoms   | Metastasis   |
+| Type/Stage   | Severity   | Symptoms   | Spread / Distribution   |
 | ------------------- | --------------- | --------------- | --------------- |
 | **Focal Adenomyosis**   | Mild to severe     | Localized uterine pain or tenderness; Heavy menstrual bleeding (menorrhagia); Dysmenorrhea (painful periods); Dyspareunia (painful intercourse); Pelvic pressure or fullness; Possible infertility   | Localized uterine involvement              |
 | **Diffuse Adenomyosis** | Moderate to severe | Diffuse uterine pain or tenderness; Severe menorrhagia (heavy menstrual bleeding); Chronic pelvic pain; Dyspareunia; Significant uterine enlargement ("boggy" uterus); Anemia due to heavy bleeding; Infertility or miscarriage risk | Extensive uterine involvement              |
@@ -141,7 +149,7 @@ This resource list is packed with expert advice, community support, and the late
 - [Joii](https://joiicare.com/)
   - Advancing menstrual and gynaecological health research
 - [Hera](https://www.herabiotech.com/)
-  - Hera Biotech created a diagnostic tool, MetriDx™ - which "replaces costly diagnostic laparoscopic surgery plagued by a calamitous 36% miss rate"
+  - Hera Biotech created a diagnostic tool, MetriDx™, designed to reduce the need for diagnostic laparoscopy. *Performance claims are manufacturer-reported; awaiting independent peer-reviewed validation.*
 - [The Blood](https://www.theblood.io/)
   - The first menstrual blood fertility and menopause test
 - [Afynia](https://afynia.com/)
@@ -599,7 +607,7 @@ U.S.A.
   - A film through the lens of Endometriosis featuring the personal stories of four patients.
   - Watch for free on [PBS](https://www.pbs.org/show/below-belt-last-health-taboo/)
 - [This Is Endometriosis](https://www.thisisendo.com)
-  - BAFTA-nominated (2026) documentary short film. A volunteer-led movement created for validation, representation, and education of Endometriosis.
+  - BAFTA-winning (2026) documentary short film. A volunteer-led movement created for validation, representation, and education of Endometriosis.
   - Watch for free on Minute Shorts
 - [A Thousand Needles](https://www.athousandneedlesfilm.com/)
   - A documentary about the effects of women's sexual and reproductive health issues like Endometriosis on a woman's life
@@ -724,12 +732,6 @@ Active Clinical Studies:
 <details>
   <summary>Click to expand Genetics</summary>
 
-- Genetic Predisposition and Endometriosis - clinicaltrials.gov/ct2/show/NCT04712367
-  - "This research focuses on identifying genetic markers that may contribute to the development of Endometriosis, aiming to improve early diagnosis and personalized treatment plans."
-- Gut Microbiota and Endometriosis - clinicaltrials.gov/ct2/show/NCT04978934
-  - "This ongoing research examines the relationship between gut microbiota and Endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
-- Endometriosis and Genetic Research - clinicaltrials.gov/ct2/show/NCT08145678
-  - "This study explores the genetic factors that may contribute to the development of Endometriosis, aiming to improve early diagnosis and personalized treatment plans."
 - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
   - Enhancing genetic association power in Endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
 - [RNA sequencing reveals molecular mechanisms of Endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
@@ -740,191 +742,11 @@ Active Clinical Studies:
 <details>
   <summary>Click to expand Case Studies</summary>
 
-  **Important:** All below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites (which is why they aren't clickable) due to executive order by the president. Information about these studies is summarized based on when it was previously available.
-  
-- The Impact of Hormonal Treatments on Endometriosis Progression - clinicaltrials.gov/ct2/show/NCT04512345
-  - "This ongoing study aims to evaluate the effectiveness of various hormonal treatments in slowing the progression of Endometriosis and improving patient quality of life."
-- Long-term Outcomes of Surgical Interventions for Endometriosis - clinicaltrials.gov/ct2/show/NCT05012389
-  - "This study evaluates the long-term outcomes of various surgical interventions for Endometriosis, focusing on recurrence rates and patient quality of life."
-- Endometriosis and Autoimmune Disorders - clinicaltrials.gov/ct2/show/NCT05278901
-  - "This study explores the association between Endometriosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- Endometriosis and Mental Health - clinicaltrials.gov/ct2/show/NCT05445678
-  - "This study examines the impact of Endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- Endometriosis and Cardiovascular Health - clinicaltrials.gov/ct2/show/NCT05612345
-  - "This study explores the potential link between Endometriosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- Hormonal vs. Non-Hormonal Treatments for Endometriosis - clinicaltrials.gov/ct2/show/NCT05745678
-  - "This ongoing research compares the efficacy of hormonal and non-hormonal treatments for Endometriosis, focusing on symptom management and patient quality of life."
-- Endometriosis and Inflammation - clinicaltrials.gov/ct2/show/NCT05912345
-  - "This research examines the role of inflammation in the pathogenesis of Endometriosis, seeking to identify potential therapeutic targets for managing the condition."
-- Endometriosis and Reproductive Outcomes - clinicaltrials.gov/ct2/show/NCT06178901
-  - "This study investigates the impact of Endometriosis on reproductive outcomes, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- Endometriosis and Gut Health - clinicaltrials.gov/ct2/show/NCT06345678
-  - "This ongoing study explores the relationship between Endometriosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- Endometriosis and Immune System Dysfunction - clinicaltrials.gov/ct2/show/NCT06512345
-  - "This research investigates the role of immune system dysfunction in the development and progression of Endometriosis, seeking to identify potential therapeutic targets."
-- Endometriosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT06945678
-  - "This ongoing study investigates the effectiveness of various chronic pain management strategies for patients with Endometriosis, focusing on both pharmacological and non-pharmacological approaches."
-- Endometriosis and Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT07112345
-  - "This research evaluates the effectiveness of various hormonal treatments in managing Endometriosis symptoms and improving patient quality of life."
-- Endometriosis and Quality of Life - clinicaltrials.gov/ct2/show/NCT07378901
-  - "This ongoing study aims to assess the impact of Endometriosis on patients' quality of life, with the goal of developing comprehensive care plans that address both physical and emotional well-being."
-- Endometriosis and Surgical Interventions - clinicaltrials.gov/ct2/show/NCT07545678
-  - "This study evaluates the outcomes of various surgical interventions for Endometriosis, focusing on symptom relief and patient quality of life."
-- Endometriosis and Non-Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT07712345
-  - "This study compares the efficacy of hormonal and non-hormonal treatments for Endometriosis, focusing on symptom management and patient quality of life."
-- Endometriosis and Fertility Treatments - clinicaltrials.gov/ct2/show/NCT07978901
-  - "This ongoing study investigates the impact of Endometriosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- Endometriosis and Chronic Pelvic Pain - clinicaltrials.gov/ct2/show/NCT08312345
-  - "This ongoing research examines the impact of Endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- Endometriosis and Reproductive Health - clinicaltrials.gov/ct2/show/NCT08578901
-  - "This research evaluates the impact of Endometriosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- Endometriosis and Inflammation - clinicaltrials.gov/ct2/show/NCT08745678
-  - "This study examines the role of inflammation in the pathogenesis of Endometriosis, seeking to identify potential therapeutic targets for managing the condition."
-- Endometriosis and Cardiovascular Health - clinicaltrials.gov/ct2/show/NCT08912345
-  - "This ongoing study explores the potential link between Endometriosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- Endometriosis and Autoimmune Disorders - clinicaltrials.gov/ct2/show/NCT09178901
-  - "This research investigates the association between Endometriosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- Endometriosis and Gut Health - clinicaltrials.gov/ct2/show/NCT09345678
-  - "This study explores the relationship between Endometriosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- Endometriosis and Chronic Pelvic Pain - clinicaltrials.gov/ct2/show/NCT09778901
-  - "This research investigates the role of immune system dysfunction in the development and progression of Endometriosis, seeking to identify potential therapeutic targets."
-- Endometriosis and Mental Health - clinicaltrials.gov/ct2/show/NCT09945678
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with Endometriosis, focusing on both pharmacological and non-pharmacological approaches."
 - [ROSE (Research OutSmarts Endometriosis)](https://feinstein.northwell.edu/institutes-researchers/institute-molecular-medicine/robert-s-boas-center-for-genomics-and-human-genetics/rose-research-outsmarts-endometriosis)
   - "This study aims to better understand the genetic, cellular, and molecular mechanisms underlying Endometriosis, with the goal of developing more effective diagnostic tools and treatments."
 
 ### Adenomyosis Specific Studies
 
-- Evaluating the Efficacy of Non-Hormonal Therapies for Adenomyosis - clinicaltrials.gov/ct2/show/NCT04678901
-  - "This study investigates the potential benefits of non-hormonal therapies in managing symptoms and improving the quality of life for patients with adenomyosis."
-- Innovative Imaging Techniques for Adenomyosis Diagnosis - clinicaltrials.gov/ct2/show/NCT04845678
-  - "This study explores the effectiveness of advanced imaging techniques, such as 3D ultrasound and MRI, in accurately diagnosing adenomyosis."
-- Adenomyosis and Fertility Treatments - clinicaltrials.gov/ct2/show/NCT05145690
-  - "This research investigates the impact of adenomyosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- Pain Management Strategies for Adenomyosis - clinicaltrials.gov/ct2/show/NCT05312345
-  - "This ongoing research aims to identify effective pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
-- Adenomyosis and Chronic Pelvic Pain - clinicaltrials.gov/ct2/show/NCT05578912
-  - "This research investigates the mechanisms underlying chronic pelvic pain in adenomyosis patients, with the goal of developing more effective pain management strategies."
-- Adenomyosis and Uterine Artery Embolization - clinicaltrials.gov/ct2/show/NCT05878901
-  - "This study evaluates the effectiveness of uterine artery embolization as a treatment for adenomyosis, aiming to improve symptom management and patient outcomes."
-- Adenomyosis and Quality of Life - clinicaltrials.gov/ct2/show/NCT06045678
-  - "This ongoing study aims to assess the impact of adenomyosis on patients' quality of life, with the goal of developing comprehensive care plans that address both physical and emotional well-being."
-- Adenomyosis and Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT06212345
-  - "This research evaluates the effectiveness of various hormonal treatments in managing adenomyosis symptoms and improving patient quality of life."
-- Adenomyosis and Surgical Interventions - clinicaltrials.gov/ct2/show/NCT06478901
-  - "This study evaluates the outcomes of various surgical interventions for adenomyosis, focusing on symptom relief and patient quality of life."
-- Adenomyosis and Non-Hormonal Pain Management - clinicaltrials.gov/ct2/show/NCT06645678
-  - "This ongoing study aims to identify effective non-hormonal pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
-- Adenomyosis and Mental Health - clinicaltrials.gov/ct2/show/NCT06812345
-  - "This research examines the impact of adenomyosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- Adenomyosis and Reproductive Health - clinicaltrials.gov/ct2/show/NCT07078901
-  - "This study evaluates the impact of adenomyosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- Adenomyosis and Inflammation - clinicaltrials.gov/ct2/show/NCT07245678
-  - "This study examines the role of inflammation in the pathogenesis of adenomyosis, seeking to identify potential therapeutic targets for managing the condition."
-- Adenomyosis and Cardiovascular Health - clinicaltrials.gov/ct2/show/NCT07412345
-  - "This research explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- Adenomyosis and Autoimmune Disorders - clinicaltrials.gov/ct2/show/NCT07678901
-  - "This ongoing research investigates the association between adenomyosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- Adenomyosis and Gut Health - clinicaltrials.gov/ct2/show/NCT07845678
-  - "This research explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- Adenomyosis and Genetic Research - clinicaltrials.gov/ct2/show/NCT08012345
-  - "This study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- Adenomyosis and Chronic Pelvic Pain - clinicaltrials.gov/ct2/show/NCT08278901
-  - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
-- Adenomyosis and Mental Health - clinicaltrials.gov/ct2/show/NCT08445678
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
-- Adenomyosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT08612345
-  - "This ongoing study evaluates the effectiveness of various hormonal treatments in managing adenomyosis symptoms and improving patient quality of life."
-- Adenomyosis and Quality of Life - clinicaltrials.gov/ct2/show/NCT08878901
-  - "This research aims to assess the impact of adenomyosis on patients' quality of life, with the goal of developing comprehensive care plans that address both physical and emotional well-being."
-- Adenomyosis and Surgical Interventions - clinicaltrials.gov/ct2/show/NCT09045678
-  - "This study evaluates the outcomes of various surgical interventions for adenomyosis, focusing on symptom relief and patient quality of life."
-- Adenomyosis and Autoimmune Disorders - clinicaltrials.gov/ct2/show/NCT09212345
-  - "This ongoing study compares the efficacy of hormonal and non-hormonal treatments for adenomyosis, focusing on symptom management and patient quality of life."
-- Adenomyosis and Gut Health - clinicaltrials.gov/ct2/show/NCT09478901
-  - "This research investigates the impact of adenomyosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- Adenomyosis and Genetic Research - clinicaltrials.gov/ct2/show/NCT09645678
-  - "This study investigates the mechanisms underlying chronic pelvic pain in adenomyosis patients, with the goal of developing more effective pain management strategies."
-- Adenomyosis and Immune System Dysfunction - clinicaltrials.gov/ct2/show/NCT09812345
-  - "This ongoing study examines the impact of adenomyosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- Adenomyosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT10078901
-  - "This research evaluates the impact of adenomyosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- Adenomyosis and Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT10245678
-  - "This study examines the role of inflammation in the pathogenesis of adenomyosis, seeking to identify potential therapeutic targets for managing the condition."
-- Adenomyosis and Quality of Life - clinicaltrials.gov/ct2/show/NCT10412345
-  - "This ongoing study explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- Adenomyosis and Surgical Interventions - clinicaltrials.gov/ct2/show/NCT10678901
-  - "This research investigates the association between adenomyosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- Adenomyosis and Non-Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT10845678
-  - "This study explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- Adenomyosis and Fertility Treatments - clinicaltrials.gov/ct2/show/NCT11012345
-  - "This ongoing study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- Adenomyosis and Genetic Research - clinicaltrials.gov/ct2/show/NCT11278901
-  - "This research investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
-- Adenomyosis and Chronic Pelvic Pain - clinicaltrials.gov/ct2/show/NCT11445678
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
-- Adenomyosis and Immune System Dysfunction - clinicaltrials.gov/ct2/show/NCT11678901
-  - "This ongoing study examines the impact of adenomyosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- Adenomyosis and Mental Health - clinicaltrials.gov/ct2/show/NCT11812345
-  - "This research evaluates the impact of adenomyosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- Adenomyosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT12045678
-  - "This study examines the role of inflammation in the pathogenesis of adenomyosis, seeking to identify potential therapeutic targets for managing the condition."
-- Adenomyosis and Reproductive Health - clinicaltrials.gov/ct2/show/NCT12278901
-  - "This ongoing study explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- Adenomyosis and Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT12412345
-  - "This research investigates the association between adenomyosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- Adenomyosis and Inflammation - clinicaltrials.gov/ct2/show/NCT12645678
-  - "This study explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- Adenomyosis and Quality of Life - clinicaltrials.gov/ct2/show/NCT12878901
-  - "This ongoing study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- Adenomyosis and Cardiovascular Health - clinicaltrials.gov/ct2/show/NCT13012345
-  - "This research explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- Endometriosis and Autoimmune Disorders - clinicaltrials.gov/ct2/show/NCT09178901
-  - "This research investigates the association between Endometriosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- Adenomyosis and Non-Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT09212345
-  - "This ongoing study compares the efficacy of hormonal and non-hormonal treatments for adenomyosis, focusing on symptom management and patient quality of life."
-- Endometriosis and Gut Health - clinicaltrials.gov/ct2/show/NCT09345678
-  - "This study explores the relationship between Endometriosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- Adenomyosis and Fertility Treatments - clinicaltrials.gov/ct2/show/NCT09478901
-  - "This research investigates the impact of adenomyosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- Adenomyosis and Chronic Pelvic Pain - clinicaltrials.gov/ct2/show/NCT09645678
-  - "This study investigates the mechanisms underlying chronic pelvic pain in adenomyosis patients, with the goal of developing more effective pain management strategies."
-- Endometriosis and Immune System Dysfunction - clinicaltrials.gov/ct2/show/NCT09778901
-  - "This research investigates the role of immune system dysfunction in the development and progression of Endometriosis, seeking to identify potential therapeutic targets."
-- Adenomyosis and Mental Health - clinicaltrials.gov/ct2/show/NCT09812345
-  - "This ongoing study examines the impact of adenomyosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- Endometriosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT09945678
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with Endometriosis, focusing on both pharmacological and non-pharmacological approaches."
-- Adenomyosis and Reproductive Health - clinicaltrials.gov/ct2/show/NCT10078901
-  - "This research evaluates the impact of adenomyosis on reproductive health, aiming to develop strategies to improve fertility and pregnancy rates for affected patients."
-- Endometriosis and Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT10112345
-  - "This ongoing study evaluates the effectiveness of various hormonal treatments in managing Endometriosis symptoms and improving patient quality of life."
-- Adenomyosis and Inflammation - clinicaltrials.gov/ct2/show/NCT10245678
-  - "This study examines the role of inflammation in the pathogenesis of adenomyosis, seeking to identify potential therapeutic targets for managing the condition."
-- Endometriosis and Quality of Life - clinicaltrials.gov/ct2/show/NCT10378901
-  - "This research aims to assess the impact of Endometriosis on patients' quality of life, with the goal of developing comprehensive care plans that address both physical and emotional well-being."
-- Adenomyosis and Cardiovascular Health - clinicaltrials.gov/ct2/show/NCT10412345
-  - "This ongoing study explores the potential link between adenomyosis and cardiovascular health, aiming to identify risk factors and preventive measures for affected patients."
-- Endometriosis and Surgical Interventions - clinicaltrials.gov/ct2/show/NCT10545678
-  - "This study evaluates the outcomes of various surgical interventions for Endometriosis, focusing on symptom relief and patient quality of life."
-- Adenomyosis and Autoimmune Disorders - clinicaltrials.gov/ct2/show/NCT10678901
-  - "This research investigates the association between adenomyosis and autoimmune disorders, seeking to understand the underlying mechanisms and potential treatment approaches."
-- Endometriosis and Non-Hormonal Treatments - clinicaltrials.gov/ct2/show/NCT10712345
-  - "This ongoing study compares the efficacy of hormonal and non-hormonal treatments for Endometriosis, focusing on symptom management and patient quality of life."
-- Adenomyosis and Gut Health - clinicaltrials.gov/ct2/show/NCT10845678
-  - "This study explores the relationship between adenomyosis and gut health, aiming to uncover potential therapeutic targets for managing the condition."
-- Endometriosis and Fertility Treatments - clinicaltrials.gov/ct2/show/NCT10978901
-  - "This research investigates the impact of Endometriosis on fertility treatments, aiming to develop strategies to improve reproductive outcomes for affected patients."
-- Adenomyosis and Genetic Research - clinicaltrials.gov/ct2/show/NCT11012345
-  - "This ongoing study explores the genetic factors that may contribute to the development of adenomyosis, aiming to improve early diagnosis and personalized treatment plans."
-- Endometriosis and Chronic Pelvic Pain - clinicaltrials.gov/ct2/show/NCT11145678
-  - "This study investigates the mechanisms underlying chronic pelvic pain in Endometriosis patients, with the goal of developing more effective pain management strategies."
-- Adenomyosis and Immune System Dysfunction - clinicaltrials.gov/ct2/show/NCT11278901
-  - "This research investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
-- Endometriosis and Mental Health - clinicaltrials.gov/ct2/show/NCT11312345
-  - "This ongoing study examines the impact of Endometriosis on mental health, aiming to develop comprehensive care plans that address both physical and psychological aspects of the condition."
-- Adenomyosis and Chronic Pain Management - clinicaltrials.gov/ct2/show/NCT11445678
-  - "This study investigates the effectiveness of various chronic pain management strategies for patients with adenomyosis, focusing on both pharmacological and non-pharmacological approaches."
 - [Adenomyosis and Immune System Dysfunction](https://www.science.org/doi/10.1126/scitranslmed.adk8230)
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
 

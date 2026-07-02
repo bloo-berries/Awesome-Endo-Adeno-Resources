@@ -8,9 +8,18 @@
         container.className = 'code-container';
 
         copyButton.addEventListener('click', function(e) {
-            e.target.className = 'copy-success';
-            setTimeout(function() { e.target.className = 'copy-button'; }, 1000);
-            navigator.clipboard.writeText(codeblock.textContent);
+            var btn = e.currentTarget;
+            navigator.clipboard.writeText(codeblock.textContent).then(function() {
+                btn.className = 'copy-success';
+                setTimeout(function() { btn.className = 'copy-button'; }, 1000);
+            }).catch(function() {
+                // Fallback: select text
+                var range = document.createRange();
+                range.selectNodeContents(codeblock);
+                var sel = window.getSelection();
+                sel.removeAllRanges();
+                sel.addRange(range);
+            });
         });
 
         codeblock.parentNode.insertBefore(container, codeblock);

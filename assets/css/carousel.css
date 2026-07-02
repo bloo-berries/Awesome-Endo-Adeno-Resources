@@ -5,10 +5,6 @@
     margin: 1.5rem auto;
 }
 
-.home-duo .carousel-section {
-    max-width: none;
-    margin: 0;
-}
 
 .carousel-box {
     background: var(--gradient-component);
@@ -58,10 +54,10 @@
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    min-width: 32px;
-    min-height: 32px;
+    width: var(--tap-min);
+    height: var(--tap-min);
+    min-width: var(--tap-min);
+    min-height: var(--tap-min);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,6 +77,7 @@
 .carousel-dots { display: flex; gap: 6px; align-items: center; }
 
 .carousel-dot {
+    position: relative;
     width: 8px;
     height: 8px;
     min-width: 8px;
@@ -91,6 +88,13 @@
     cursor: pointer;
     padding: 0;
     transition: var(--transition-fast);
+}
+
+.carousel-dot::before {
+    content: "";
+    position: absolute;
+    inset: -18px;
+    border-radius: 50%;
 }
 
 .carousel-dot.active {
@@ -117,33 +121,3 @@
     padding: 0;
 }
 
-.carousel-box-bottom .carousel-cta { width: 100%; }
-
-.carousel-box a.carousel-cta,
-a.carousel-cta {
-    display: block;
-    background: var(--color-gold-warm);
-    color: var(--color-plum-dark);
-    border: none;
-    padding: 0.6rem 1rem;
-    border-radius: var(--radius-sm);
-    font-weight: 700;
-    font-size: 0.85rem;
-    cursor: pointer;
-    transition: var(--transition-fast);
-    margin-top: auto;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    -webkit-text-fill-color: var(--color-plum-dark);
-    min-height: auto;
-    min-width: auto;
-}
-
-.carousel-box a.carousel-cta:hover,
-a.carousel-cta:hover {
-    background: var(--color-gold-hover);
-    transform: translateY(-1px);
-    color: var(--color-plum-dark);
-    -webkit-text-fill-color: var(--color-plum-dark);
-}

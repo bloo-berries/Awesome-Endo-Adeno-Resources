@@ -32,7 +32,7 @@ The single most useful thing you can do before a doctor's appointment is bring a
 
 ## 2. Connect with others
 
-Endometriosis affects approximately 570 million people worldwide. You are not alone. Communities range from anonymous online forums to in-person local groups.
+Endometriosis affects approximately 190 million people worldwide (WHO). You are not alone. Communities range from anonymous online forums to in-person local groups.
 
 **Quick paths in:**
 

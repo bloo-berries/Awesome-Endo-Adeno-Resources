@@ -44,8 +44,13 @@
 
     {{CSS_VARIABLES}}
     {{STRUCTURED_DATA}}
+    <script>
+    // Theme detection before body renders (prevents FOUC)
+    (function(){var t=localStorage.getItem('theme');if(t==='light')document.documentElement.classList.add('light-boot');else if(t!=='dark'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches)document.documentElement.classList.add('light-boot');})();
+    </script>
 </head>
 <body class="dark-theme">
+    <script>if(document.documentElement.classList.contains('light-boot')){document.body.classList.remove('dark-theme');document.documentElement.classList.remove('light-boot');}</script>
     <a class="u-skip-link" href="#main-content" data-i18n="skip_to_content">Skip to main content</a>
 
     <!-- Top bar -->
@@ -200,34 +205,16 @@
         });
     })();
 
-    // Theme toggle (with first-load OS preference detection)
+    // Theme toggle (icons handled via CSS, no updateIcons needed)
     (function() {
         var btn = document.getElementById('toggle-theme-btn');
         if (!btn) return;
-        var sunIcon = btn.querySelector('.sun-icon');
-        var moonIcon = btn.querySelector('.moon-icon');
-        var stored = localStorage.getItem('theme');
-
-        if (stored === 'dark') document.body.classList.add('dark-theme');
-        else if (stored === 'light') document.body.classList.remove('dark-theme');
-        else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-            document.body.classList.remove('dark-theme');
-        }
-
-        function updateIcons() {
-            var isDark = document.body.classList.contains('dark-theme');
-            if (sunIcon) sunIcon.style.display = isDark ? 'none' : 'block';
-            if (moonIcon) moonIcon.style.display = isDark ? 'block' : 'none';
-        }
 
         btn.addEventListener('click', function() {
             document.body.classList.toggle('dark-theme');
             var isDark = document.body.classList.contains('dark-theme');
             localStorage.setItem('theme', isDark ? 'dark' : 'light');
-            updateIcons();
         });
-
-        updateIcons();
     })();
 
     // Back-to-top — always uses window scroll
@@ -236,7 +223,7 @@
         if (!btn) return;
         function onScroll() {
             var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            btn.classList.toggle('visible', scrollTop > 300);
+            btn.classList.toggle('visible', scrollTop > window.innerHeight * 0.75);
         }
         window.addEventListener('scroll', onScroll, { passive: true });
         btn.addEventListener('click', function() {

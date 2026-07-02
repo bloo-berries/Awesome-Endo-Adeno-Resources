@@ -25,7 +25,7 @@ Patient clustering reveals distinct subgroups requiring personalized treatment a
 
 | Condition | Association | Details |
 |---|---|---|
-| [**Adenomyosis**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **OR = 181** (80.6%) | Strongest identified association; 91% reverse co-occurrence |
+| [**Adenomyosis**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **OR = 181** (80.6%) | Strongest identified association; 91% reverse co-occurrence. Note: the authors caution this figure may be inflated by overlap in diagnostic coding between uterine adenomyosis and uterine endometriosis |
 | [**Pelvic peritoneal adhesions**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **OR = 51.1** | Very high association with Endometriosis |
 | [**Noninflammatory disorders of female genital organs**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **OR = 30.2** | Female genital organ disorders |
 | Uterine Leiomyoma (Fibroids) | Moderate | Common in both Endometriosis and Adenomyosis |
@@ -52,7 +52,7 @@ Patient clustering reveals distinct subgroups requiring personalized treatment a
 | Condition | Association | Details |
 |---|---|---|
 | [**Migraine**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **Common** | Temporal persistence before/after diagnosis; shared biological pathways |
-| [Small Fiber Neuropathy (SFN)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 30% prevalence | Emerging link; skin biopsy–confirmed SFN may underlie chronic pelvic pain |
+| [Small Fiber Neuropathy (SFN)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Reported in some cohorts | Emerging link; skin biopsy–confirmed SFN may underlie chronic pelvic pain |
 | [Sciatica](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Rare | Due to nerve compression or inflammation |
 | [Referred Shoulder Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Rare | Possibly linked to diaphragmatic Endometriosis |
 
@@ -74,20 +74,19 @@ Patient clustering reveals distinct subgroups requiring personalized treatment a
 | Condition | Association | Details |
 |---|---|---|
 | [**Multiple autoimmune conditions**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **Significant** | Strong correlations supporting immune dysfunction theories |
-| [Autoimmune Thyroiditis](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 25% in Adenomyosis | Routine thyroid panels recommended |
+| [Autoimmune Thyroiditis](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Reported in some cohorts | Routine thyroid panels recommended |
 | [Thyroid Disorders](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Increased risk | Higher prevalence of hypothyroidism in Endometriosis |
-| [Mast Cell Activation Syndrome (MCAS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 10–20% | Antihistamine therapy can ameliorate pelvic pain |
+| [Mast Cell Activation Syndrome (MCAS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Reported in some cohorts | Antihistamine therapy can ameliorate pelvic pain |
 | [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Increased risk | Higher incidence; shared inflammatory pathways |
 
 </details>
 
 <details class="category-details">
-<summary>Respiratory & Allergic (2)</summary>
+<summary>Respiratory & Allergic (1)</summary>
 
 | Condition | Association | Details |
 |---|---|---|
 | [**Asthma**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **Significant** | Shared inflammatory pathways; confirmed in multiple studies |
-| [Allergies](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Increased risk | Higher incidence reported |
 
 </details>
 
@@ -120,8 +119,8 @@ Patient clustering reveals distinct subgroups requiring personalized treatment a
 |---|---|---|
 | [Chronic Pelvic Pain](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Common | Major symptom in both conditions |
 | [Anemia](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Varies | Iron deficiency anemia more common in Adenomyosis |
-| [Postural Orthostatic Tachycardia Syndrome (POTS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 10–20% | Higher prevalence in Endometriosis |
-| [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | 10–20% | Higher prevalence in Endometriosis |
+| [Postural Orthostatic Tachycardia Syndrome (POTS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Reported in some cohorts | Higher prevalence reported in Endometriosis |
+| [Hypermobile Ehlers Danlos Syndrome (hEDS)](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Reported in some cohorts | Higher prevalence reported in Endometriosis |
 | [Interstitial Cystitis](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Common | Often co-occurs with Endometriosis |
 | [Fibromyalgia](https://www.ncbi.nlm.nih.gov/books/NBK56049/) | Common | Contributing to widespread pain |
 

@@ -1,6 +1,6 @@
 ---
 title: "Endometriosis Resources"
-description: "Comprehensive Endometriosis guide covering symptoms, stages, diagnosis methods, treatment options, and support resources. 1 in 7 women have Endometriosis, approximately 570 million worldwide."
+description: "Comprehensive Endometriosis guide covering symptoms, stages, diagnosis methods, treatment options, and support resources. Approximately 10% of women of reproductive age have Endometriosis, around 190 million worldwide (WHO)."
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
@@ -10,7 +10,7 @@ keywords: ["Endometriosis symptoms", "Endometriosis stages", "Endometriosis trea
 
 # Endometriosis Resources
 
-[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [1 in 7 women have Endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis), approximately 570 million worldwide.
+[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [Approximately 10% of women and girls of reproductive age have Endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis), around 190 million worldwide (WHO). In Australia, [the figure is estimated at 1 in 7](https://endometriosisaustralia.org/1-in-7-australian-women/), suggesting global underdiagnosis.
 
 ## Understanding Endometriosis
 
@@ -32,7 +32,7 @@ keywords: ["Endometriosis symptoms", "Endometriosis stages", "Endometriosis trea
 ### Current Diagnostic Methods
 - **Laparoscopy**: Remains the gold standard for definitive diagnosis
 - **Imaging**: MRI and ultrasound are used but may miss early or atypical cases
-- **Blood Tests**: New non-invasive tests like [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/) and [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf) show promise in detecting biomarkers
+- **Blood Tests**: New non-invasive tests like [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/) and [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf) show promise in detecting biomarkers. *Performance claims are manufacturer-reported; independent validation is ongoing.*
 
 ### Potential Indicators
 - Presence of [Endometriomas](https://en.wikipedia.org/wiki/Endometrioma), cysts filled with old blood
@@ -42,7 +42,7 @@ keywords: ["Endometriosis symptoms", "Endometriosis stages", "Endometriosis trea
 
 ## Treatment Overview
 
-There is no cure for Endometriosis, but symptoms can be managed through surgery, medication, and supportive therapies. **Laparoscopic excision surgery** is the gold standard. See [Diagnosis & Treatments](/diagnosis/) for surgical details and [Medications](/medications/) for a full drug comparison.
+There is no cure for Endometriosis, but symptoms can be managed through surgery, medication, and supportive therapies. **Laparoscopic excision surgery** is the gold standard. See [Diagnosis](/diagnosis/) for surgical details and [Medications](/medications/) for a full drug comparison.
 
 ## Research and Studies
 

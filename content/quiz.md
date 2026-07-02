@@ -10,7 +10,7 @@ keywords: ["Endometriosis quiz", "adenomyosis symptoms", "symptom checker"]
 
 # Symptom Quiz
 
-*This page is being built.* The full quiz, with personalized recommendations based on your answers, is coming in Phase 3 of the site overhaul.
+*This page is being built.* A full interactive quiz with personalized recommendations based on your answers is coming soon.
 
 In the meantime, the symptoms most often associated with Endometriosis and Adenomyosis are:
 
@@ -34,6 +34,6 @@ If three or more of these are familiar, the next step is typically:
 
 ## Why this matters
 
-Endometriosis takes an average of **10 years to diagnose**. The most consistent finding in the research literature is that women who present a written symptom history to their physician get diagnosed substantially faster. The quiz, when complete, will help you build that history.
+Endometriosis takes an average of **10 years to diagnose**. Presenting a written symptom history to your physician can help speed up diagnosis. The quiz, when complete, will help you build that history.
 
 If you're experiencing **severe pain that doesn't respond to medication**, **heavy bleeding**, or **symptoms that interfere with daily life**, please see a doctor regardless of what an online checker says. This tool is informational, not diagnostic.

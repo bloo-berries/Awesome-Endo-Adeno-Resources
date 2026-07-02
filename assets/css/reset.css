@@ -122,12 +122,40 @@ a:focus-visible {
   border-radius: 2px;
 }
 
+/* External link indicator (excludes nav, stat, video, and button contexts) */
+a[target="_blank"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-inline-start: 0.2em;
+  vertical-align: baseline;
+  background: currentColor;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.sidebar-nav a[target="_blank"]::after,
+.bottomnav a[target="_blank"]::after,
+.stat-link[target="_blank"]::after,
+.video-card[target="_blank"]::after,
+.home-help-cta-btn[target="_blank"]::after,
+.home-people-card[target="_blank"]::after,
+.carousel-credit a[target="_blank"]::after,
+.footer-link[target="_blank"]::after {
+  display: none;
+}
+
 /* ===== Lists ===== */
 
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: var(--space-md, 1rem);
-  padding-left: 1.5rem;
+  padding-inline-start: 1.5rem;
 }
 
 li > ul,
@@ -186,7 +214,9 @@ blockquote {
   margin: var(--space-md, 1rem) 0;
   padding: var(--space-sm, 0.5rem) var(--space-md, 1rem);
   color: var(--text-muted, var(--muted-color));
-  border-left: 3px solid var(--border-strong, var(--color-gold));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--accent-bg);
 }
 
 blockquote p:last-child {
@@ -244,13 +274,13 @@ caption {
   padding: var(--space-sm) 0;
   font-size: var(--text-sm);
   color: var(--text-muted);
-  text-align: left;
+  text-align: start;
 }
 
 td, th {
   padding: var(--space-sm, 0.5rem) var(--space-md, 0.75rem);
   border: 1px solid var(--border);
-  text-align: left;
+  text-align: start;
   vertical-align: top;
 }
 

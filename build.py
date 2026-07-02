@@ -113,6 +113,9 @@ def md_to_html(text, base_url=""):
             text, href = m.group(1), m.group(2)
             if href.startswith("http"):
                 return f'<a href="{href}" target="_blank" rel="noopener noreferrer">{text}</a>'
+            # Rewrite root-relative internal links with base_url
+            if base_url and href.startswith("/"):
+                href = base_url + href[1:]
             return f'<a href="{href}">{text}</a>'
         t = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', link_repl, t)
         # Bold + italic
@@ -361,12 +364,10 @@ def build_css_vars(cfg):
         /* Design tokens */
         --font-primary: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         --radius-sm: 6px;
-        --radius-md: 8px;
         --radius-lg: 12px;
         --radius-pill: 9999px;
         --focus-color: {brand.get('gold', '#C4982A')};
         --focus-shadow: 0 0 0 3px rgba(196, 152, 42, 0.3);
-        --transition-fast: all 0.2s ease;
         --shadow-sm: 0 2px 8px rgba(0,0,0,0.2);
         --shadow-md: 0 4px 16px rgba(0,0,0,0.2);
         --white-subtle: rgba(255,255,255,0.08);
@@ -657,9 +658,9 @@ def build_toc(html_content, min_headings=4):
         clean = re.sub(r'<[^>]+>', '', text)
         indent = ' toc-h3' if level == '3' else ''
         items.append(f'<li class="toc-item{indent}"><a href="#{hid}">{clean}</a></li>')
-    return ('<nav class="toc" aria-label="Table of contents">\n'
-            '<h3 class="toc-heading" data-i18n="toc_title">On this page</h3>\n'
-            '<ul>\n' + '\n'.join(items) + '\n</ul>\n</nav>')
+    return ('<details class="toc">\n'
+            '<summary class="toc-heading" data-i18n="toc_title">On this page</summary>\n'
+            '<ul>\n' + '\n'.join(items) + '\n</ul>\n</details>')
 
 # ── Breadcrumbs ──
 def build_breadcrumbs(cfg, title):

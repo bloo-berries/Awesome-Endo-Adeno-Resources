@@ -139,6 +139,8 @@
             "border": "rgba(139, 69, 19, 0.15)",
             "code": "#2D1525",
             "code-bg": "#F0E0C8",
+            "accent-bg": "rgba(139, 69, 19, 0.1)",
+            "accent-bg-hover": "rgba(139, 69, 19, 0.2)",
             "error": "#A41A1A"
         },
         "dark": {
@@ -152,6 +154,8 @@
             "border": "rgba(255, 255, 255, 0.1)",
             "code": "#F5E6D0",
             "code-bg": "#3D1F30",
+            "accent-bg": "rgba(232, 184, 74, 0.1)",
+            "accent-bg-hover": "rgba(232, 184, 74, 0.2)",
             "error": "#F87171"
         },
         "constant": {
@@ -181,6 +185,9 @@
             "focus-ring": "3px solid var(--border-strong)",
             "focus-offset": "2px",
             "tap-min": "44px",
+            "transition-fast": "120ms ease",
+            "transition-normal": "200ms ease",
+            "transition-slow": "350ms ease",
             "gradient-warm": "linear-gradient(180deg, #C4873A 0%, #9B5A3A 40%, #6B3A5C 100%)",
             "gradient-deep": "linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%)"
         }

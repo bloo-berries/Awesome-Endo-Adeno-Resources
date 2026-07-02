@@ -33,12 +33,8 @@ keywords: ["Endometriosis research", "adenomyosis clinical trials", "Endometrios
 
 #### Recent Breakthrough Research (2025)
 
-- **[Comorbidity Analysis and Clustering of Endometriosis Patients Using Electronic Health Records](https://www.sciencedirect.com/science/article/pii/S2666379125003180)** (Khan et al., 2025)
-  - Retrospective study of >43,500 Endometriosis patients across six UC medical centers. Identified 661 enriched conditions (302 replicated). Strongest associations: Adenomyosis (OR = 181), pelvic adhesions (OR = 51.1); protective effect of hyperlipidemia (OR = 0.67). Confirms Endometriosis as a multi-system disorder.
-
-<h3>Important Note</h3>
-
-**Important:** All below mentioned U.S. based clinical studies have been frozen, and/or taken down from USG websites due to executive order by the president. Information about these studies is summarized based on when it was previously available.
+- **[Comorbidity Analysis and Clustering of Endometriosis Patients Using Electronic Health Records](https://www.sciencedirect.com/science/article/pii/S2666379125003180)** (Khan et al., 2025, *Cell Reports Medicine*)
+  - Retrospective study of over 40,000 Endometriosis patients across six UC medical centers. Identified 661 enriched conditions (302 replicated). Strongest associations: Adenomyosis (OR = 181, noting potential overlap in diagnostic coding with uterine endometriosis), pelvic adhesions (OR = 51.1); protective effect of hyperlipidemia (OR = 0.67). Confirms Endometriosis as a multi-system disorder.
 
 <details>
   <summary>Active Research Studies</summary>
@@ -72,29 +68,10 @@ Active Clinical Studies:
 <details>
   <summary>Genetics</summary>
 
-- Genetic Predisposition and Endometriosis: clinicaltrials.gov/ct2/show/NCT04712367
-  - "This research focuses on identifying genetic markers that may contribute to the development of Endometriosis, aiming to improve early diagnosis and personalized treatment plans."
-- Gut Microbiota and Endometriosis: clinicaltrials.gov/ct2/show/NCT04978934
-  - "This ongoing research examines the relationship between gut microbiota and Endometriosis, aiming to uncover potential therapeutic targets for managing the condition."
-- Endometriosis and Genetic Research: clinicaltrials.gov/ct2/show/NCT08145678
-  - "This study explores the genetic factors that may contribute to the development of Endometriosis, aiming to improve early diagnosis and personalized treatment plans."
 - [Endometriosis Subtyping Research](https://www.researchsquare.com/article/rs-5004325/v1)
   - Enhancing genetic association power in Endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
 - [RNA sequencing reveals molecular mechanisms of endometriosis lesion development in mice](https://journals.biologists.com/dmm/article/17/10/dmm050566/362466/RNA-sequencing-reveals-molecular-mechanisms-of)
   - "Using a C57Bl/6 mouse model in which decidualized endometrial tissue is injected subcutaneously in the abdomen of recipient mice, we generated a comprehensive profile of gene expression in decidualized endometrial tissue (n=4), and in Endometriosis-like lesions at Day 7 (n=4) and Day 14 (n=4) of formation."
-
-</details>
-
-<details>
-  <summary>Frozen Clinical Trials (archived -- 31 endo, 41 adeno trial IDs)</summary>
-
-**Note:** The following U.S.-based clinical studies have been frozen and/or removed from government websites due to executive order. Trial IDs are preserved for reference; no detailed information is available.
-
-- **Endometriosis:** NCT04512345, NCT05012389, NCT05278901, NCT05445678, NCT05612345, NCT05745678, NCT05912345, NCT06178901, NCT06345678, NCT06512345, NCT06945678, NCT07112345, NCT07378901, NCT07545678, NCT07712345, NCT07978901, NCT08312345, NCT08578901, NCT08745678, NCT08912345, NCT09178901, NCT09345678, NCT09778901, NCT09945678, NCT10112345, NCT10378901, NCT10545678, NCT10712345, NCT10978901, NCT11145678, NCT11312345
-- **Adenomyosis:** NCT04678901, NCT04845678, NCT05145690, NCT05312345, NCT05578912, NCT05878901, NCT06045678, NCT06212345, NCT06478901, NCT06645678, NCT06812345, NCT07078901, NCT07245678, NCT07412345, NCT07678901, NCT07845678, NCT08012345, NCT08278901, NCT08445678, NCT08612345, NCT08878901, NCT09045678, NCT09212345, NCT09478901, NCT09645678, NCT09812345, NCT10078901, NCT10245678, NCT10412345, NCT10678901, NCT10845678, NCT11012345, NCT11278901, NCT11445678, NCT11678901, NCT11812345, NCT12045678, NCT12278901, NCT12412345, NCT12645678, NCT12878901, NCT12878901, NCT13012345
-
-**Still Active**
-
 - [ROSE (Research OutSmarts Endometriosis)](https://feinstein.northwell.edu/institutes-researchers/institute-molecular-medicine/robert-s-boas-center-for-genomics-and-human-genetics/rose-research-outsmarts-endometriosis): Genetic, cellular, and molecular mechanisms underlying Endometriosis
 - [Adenomyosis and Immune System Dysfunction](https://www.science.org/doi/10.1126/scitranslmed.adk8230): Role of immune system dysfunction in Adenomyosis progression
 
