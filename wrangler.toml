@@ -1,6 +1,9 @@
 name = "one-in-seven"
 compatibility_date = "2025-01-01"
 
+[build]
+command = "python3 build.py --base-url=/"
+
 [assets]
 directory = "./dist"
 html_handling = "auto-trailing-slash"
