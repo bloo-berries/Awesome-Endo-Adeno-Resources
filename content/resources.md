@@ -3,7 +3,7 @@ title: "Support & Advocacy"
 description: "Financial assistance platforms, advocacy groups, vetted regional providers, and fertility resources for Endometriosis and adenomyosis worldwide."
 date: 2025-01-27
 lastmod: 2026-03-23
-draft: false
+draft: true
 tags: ["resources", "support", "advocacy", "financial-assistance", "fertility"]
 keywords: ["Endometriosis support groups", "adenomyosis advocacy", "financial assistance", "Endometriosis organizations", "fertility resources"]
 ---

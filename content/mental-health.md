@@ -7,6 +7,8 @@ tags: ["mental health", "depression", "anxiety", "chronic pain", "support"]
 keywords: ["mental health", "Endometriosis depression", "chronic pain anxiety", "therapy", "coping strategies"]
 ---
 
+# Mental Health
+
 ## Mental Health & Chronic Pain
 
 Living with Endometriosis and Adenomyosis affects far more than physical health. Chronic pain, delayed diagnosis, and the daily impact on quality of life can take a significant toll on mental well-being.
@@ -95,7 +97,7 @@ If you are in crisis or experiencing thoughts of self-harm, please reach out:
 - [r/Endo](https://reddit.com/r/Endo) and [r/ChronicPain](https://reddit.com/r/ChronicPain): Active Reddit communities
 - [MyEndometriosisTeam](https://www.myendometriosisteam.com/): Social network for people with Endometriosis
 - See [Education & Community](/education/) for the full list of online communities and forums
-- See [Support & Advocacy](/resources/) for organizations and regional groups
+- See [Education & Resources](/education/#advocacy-groups) for organizations and regional groups
 
 </details>
 
@@ -123,3 +125,5 @@ If you are supporting someone with Endometriosis:
 - Consider joining employer disability or chronic illness networks for peer support
 
 </details>
+
+*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

@@ -7,6 +7,8 @@ tags: ["medications", "treatment", "hormones", "pain management"]
 keywords: ["medications", "Endometriosis treatment", "hormonal therapy", "pain management", "GnRH", "progestins"]
 ---
 
+# Medications
+
 ## Medication Guide
 
 A comprehensive comparison of medications commonly used in the management of Endometriosis and Adenomyosis. **Always consult your healthcare provider before starting, stopping, or changing any medication.**
@@ -85,3 +87,5 @@ Not replacements for medical treatment, but may help manage symptoms alongside c
 - **Add-back therapy** (low-dose estrogen/progesterone) can reduce menopause-like side effects of GnRH treatments
 - **Discuss fertility plans** with your doctor before starting hormonal therapy, as some treatments suppress fertility
 - **Multi-modal approach** works best, combining medication, surgery, physiotherapy, and lifestyle changes
+
+*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

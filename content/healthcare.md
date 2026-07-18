@@ -1,5 +1,5 @@
 ---
-title: "Healthcare Providers & Tools"
+title: "Healthcare"
 description: "Vetted Endometriosis and adenomyosis specialists, diagnostic tools and platforms, medical data trackers, and AI-enabled research platforms."
 date: 2025-01-27
 lastmod: 2026-03-23
@@ -7,6 +7,8 @@ draft: false
 tags: ["healthcare", "providers", "specialists", "diagnostic-tools", "AI"]
 keywords: ["Endometriosis specialist", "adenomyosis doctor", "diagnostic tools", "symptom tracker", "AI diagnosis", "vetted healthcare providers"]
 ---
+
+# Healthcare
 
 ## Vetted Physician and Healthcare Providers
 
@@ -60,3 +62,5 @@ keywords: ["Endometriosis specialist", "adenomyosis doctor", "diagnostic tools",
 - [Endometriosis Subtyping study](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping) -- Genetic association via unsupervised clustering of clinical subtypes
 
 </details>
+
+*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

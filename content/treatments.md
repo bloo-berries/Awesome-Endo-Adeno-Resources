@@ -123,3 +123,5 @@ If your current treatment isn't working after 3-6 months, that's a signal to rev
 - [Medications](/medications/) -- full medication guide
 - [Fertility](/fertility/) -- IVF, egg freezing, and pregnancy
 - [Mental Health](/mental-health/) -- therapy, crisis support, and coping strategies
+
+*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

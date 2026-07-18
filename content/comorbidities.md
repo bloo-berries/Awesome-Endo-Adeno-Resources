@@ -8,6 +8,8 @@ tags: ["comorbidities", "Endometriosis", "adenomyosis", "research"]
 keywords: ["Endometriosis comorbidities", "adenomyosis comorbidities", "chronic pelvic pain", "autoimmune", "POTS", "fibromyalgia"]
 ---
 
+# Potential Co-morbidities
+
 <h3>Research Foundation</h3>
 
 <div class="stat-grid">
@@ -133,3 +135,5 @@ Patient clustering reveals distinct subgroups requiring personalized treatment a
 - **Statin therapy:** Based on protective lipid associations (OR = 0.67)
 - **Migraine medications:** Shared pathway treatments for neurological symptoms
 - **Multi-target approaches:** Addressing systemic inflammation across affected systems
+
+*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

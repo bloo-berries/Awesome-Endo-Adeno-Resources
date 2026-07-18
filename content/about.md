@@ -7,7 +7,9 @@ draft: false
 keywords: ["about Endometriosis resources", "adenomyosis support", "community health"]
 ---
 
-Welcome to **Endo Adeno Resources**, your comprehensive guide to navigating Endometriosis and Adenomyosis.
+# About
+
+Welcome to **1 in 7**, your comprehensive guide to navigating Endometriosis and Adenomyosis.
 
 ## Our Mission
 
@@ -20,12 +22,10 @@ This comprehensive resource list is packed with expert advice, community support
 - **[Healthcare Providers](/healthcare/)**: Trusted physicians and specialists
 - **[Treatments](/treatments/)** and **[Medications](/medications/)**: Surgical, non-surgical, and medicinal approaches
 - **[Research](/research/)**: Latest scientific findings and ongoing studies
-- **[Support & Advocacy](/resources/)**: Organizations, community support, and financial assistance
+- **[Education & Resources](/education/)**: Organizations, community support, and financial assistance
 
 ## Contributing
 
-This is a community-driven resource. If you have suggestions, corrections, or additional resources to share, please consider contributing to help others on their journey.
+This is a community-driven, open-source project. If you have suggestions, corrections, or additional resources to share, please contribute on [GitHub](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources).
 
----
-
-*This resource is for informational purposes only and should not replace professional medical advice. Always consult with qualified healthcare providers for diagnosis and treatment decisions.*
+*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

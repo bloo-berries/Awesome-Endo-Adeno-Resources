@@ -8,6 +8,8 @@ tags: ["research", "clinical-trials", "Endometriosis", "adenomyosis", "genetics"
 keywords: ["Endometriosis research", "adenomyosis clinical trials", "Endometriosis genetics", "medical research", "Endometriosis studies"]
 ---
 
+# Medical Research
+
 <details>
   <summary>Scientific Research & Medical Research Organizations</summary>
 

@@ -29,16 +29,7 @@ keywords: ["Endometriosis symptoms", "Endometriosis stages", "Endometriosis trea
 
 ## Diagnosis
 
-### Current Diagnostic Methods
-- **Laparoscopy**: Remains the gold standard for definitive diagnosis
-- **Imaging**: MRI and ultrasound are used but may miss early or atypical cases
-- **Blood Tests**: New non-invasive tests like [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/) and [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf) show promise in detecting biomarkers. *Performance claims are manufacturer-reported; independent validation is ongoing.*
-
-### Potential Indicators
-- Presence of [Endometriomas](https://en.wikipedia.org/wiki/Endometrioma), cysts filled with old blood
-- Chronic pelvic pain
-- Heavy menstrual bleeding
-- Infertility
+Diagnosis typically involves clinical evaluation, imaging, and sometimes laparoscopy. For detailed information on diagnostic methods and emerging tests, see [Diagnosis](/diagnosis/).
 
 ## Treatment Overview
 
@@ -59,4 +50,4 @@ There is no cure for Endometriosis, but symptoms can be managed through surgery,
 
 ---
 
-*This information is for educational purposes only and should not replace professional medical advice.*
+*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

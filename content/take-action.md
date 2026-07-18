@@ -40,7 +40,7 @@ Endometriosis affects approximately 190 million people worldwide (WHO). You are 
 - **Country-specific charities:** Endometriosis UK, Endo Black, Endometriosis Australia, EndoFound (US)
 - **Patient-led research networks:** ROSE study, EndoMarch
 
-[See the full list of organizations &rarr;](/resources/)
+[See the full list of organizations &rarr;](/education/#advocacy-groups)
 
 ## 3. Spread awareness
 
@@ -50,7 +50,7 @@ Endometriosis is **commonly under-recognized**. Sharing accurate information hel
 
 For social media:
 
-> 1 in 7 women live with Endometriosis, not 1 in 10 as commonly cited. It takes an average of 10 years to diagnose. If period pain stops you from working, sleeping, or living, please see a specialist. Resources: 1in7.info
+> 1 in 7 women live with Endometriosis (Endometriosis Australia), not 1 in 10 as commonly cited. It takes an average of 10 years to diagnose. If period pain stops you from working, sleeping, or living, please see a specialist. Resources: 1in7.info
 
 For a partner or family member:
 
@@ -60,7 +60,17 @@ For a partner or family member:
 
 If you're in crisis (suicidal thoughts, unmanageable pain, considering self-harm), please reach out to a crisis line in your country. Endo's mental-health toll is real. You deserve support today.
 
-- **US:** 988 Suicide & Crisis Lifeline
-- **UK:** Samaritans, 116 123
-- **Australia:** Lifeline, 13 11 14
-- **International:** [findahelpline.com](https://findahelpline.com) lists hotlines for 130+ countries
+<div class="crisis-grid">
+<div class="crisis-card"><div class="crisis-region">International</div><div class="crisis-name">Crisis Text Line</div><div class="crisis-number">Text HOME to 741741</div></div>
+<div class="crisis-card"><div class="crisis-region">USA</div><div class="crisis-name">988 Suicide & Crisis Lifeline</div><div class="crisis-number">988</div></div>
+<div class="crisis-card"><div class="crisis-region">USA</div><div class="crisis-name">SAMHSA Helpline</div><div class="crisis-number">1-800-662-4357</div></div>
+<div class="crisis-card"><div class="crisis-region">UK</div><div class="crisis-name">Samaritans</div><div class="crisis-number">116 123</div></div>
+<div class="crisis-card"><div class="crisis-region">Australia</div><div class="crisis-name">Lifeline</div><div class="crisis-number">13 11 14</div></div>
+<div class="crisis-card"><div class="crisis-region">Australia</div><div class="crisis-name">Beyond Blue</div><div class="crisis-number">1300 22 4636</div></div>
+<div class="crisis-card"><div class="crisis-region">Canada</div><div class="crisis-name">Crisis Services Canada</div><div class="crisis-number">1-833-456-4566</div></div>
+<div class="crisis-card"><div class="crisis-region">New Zealand</div><div class="crisis-name">Need to Talk?</div><div class="crisis-number">1737</div></div>
+<div class="crisis-card"><div class="crisis-region">Ireland</div><div class="crisis-name">Samaritans Ireland</div><div class="crisis-number">116 123</div></div>
+<div class="crisis-card"><div class="crisis-region">India</div><div class="crisis-name">iCall</div><div class="crisis-number">9152987821</div></div>
+</div>
+
+[findahelpline.com](https://findahelpline.com) lists hotlines for 130+ countries.

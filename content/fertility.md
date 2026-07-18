@@ -7,6 +7,8 @@ tags: ["fertility", "infertility", "IVF", "pregnancy", "egg freezing"]
 keywords: ["fertility", "Endometriosis infertility", "IVF", "egg freezing", "pregnancy with Endometriosis"]
 ---
 
+# Fertility
+
 ## Fertility & Endometriosis
 
 Endometriosis is one of the leading causes of infertility, found in 25-50% of people experiencing difficulty conceiving. Understanding how it affects fertility, and the options available, is essential for informed decision-making.
@@ -127,3 +129,5 @@ The intersection of Endometriosis and fertility struggles can be emotionally dev
 - Long-acting GnRH agonist before IVF increases live birth rates in moderate-severe Endometriosis
 - Conservative surgery improves spontaneous pregnancy rates in early-stage Endometriosis
 - AMH testing helps assess ovarian reserve and guide fertility planning
+
+*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

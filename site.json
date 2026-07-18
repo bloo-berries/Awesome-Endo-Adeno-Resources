@@ -15,7 +15,8 @@
                 { "name": "Symptom quiz", "url": "/quiz/", "slug": "quiz", "icon": "diagnosis", "i18n_nav": "nav_quiz", "i18n_desc": "desc_quiz", "description": "Guided checklist with next steps." },
                 { "name": "Diagnosis", "url": "/diagnosis/", "slug": "diagnosis", "icon": "diagnosis", "i18n_nav": "nav_diagnosis", "i18n_desc": "desc_diagnosis", "description": "Methods, tools, and guidance." },
                 { "name": "Co-morbidities", "url": "/comorbidities/", "slug": "comorbidities", "icon": "co-morbidities", "i18n_nav": "nav_comorbidities", "i18n_desc": "desc_comorbidities", "description": "Associated conditions and risks." },
-                { "name": "Healthcare", "url": "/healthcare/", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation." }
+                { "name": "Healthcare", "url": "/healthcare/", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation." },
+                { "name": "Symptom tracker", "url": "/tracker/", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately." }
             ]
         },
         {
@@ -26,7 +27,7 @@
                 { "name": "Medications", "url": "/medications/", "slug": "medications", "icon": "medications", "i18n_nav": "nav_medications", "i18n_desc": "desc_medications", "description": "Treatment and medication guide." },
                 { "name": "Fertility", "url": "/fertility/", "slug": "fertility", "icon": "fertility", "i18n_nav": "nav_fertility", "i18n_desc": "desc_fertility", "description": "Fertility, IVF, and pregnancy." },
                 { "name": "Mental health", "url": "/mental-health/", "slug": "mental-health", "icon": "mental-health", "i18n_nav": "nav_mental_health", "i18n_desc": "desc_mental_health", "description": "Coping, therapy, and support." },
-                { "name": "Resources & support", "url": "/resources/", "slug": "resources", "icon": "resources", "i18n_nav": "nav_resources", "i18n_desc": "desc_resources", "description": "Organizations and advocacy." },
+                { "name": "Healthcare", "url": "/healthcare/", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation." },
                 { "name": "Symptom tracker", "url": "/tracker/", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately." }
             ]
         },
@@ -38,7 +39,7 @@
                 { "name": "Adenomyosis", "url": "/adenomyosis/", "slug": "adenomyosis", "icon": "adenomyosis", "i18n_nav": "nav_adenomyosis", "i18n_desc": "desc_adenomyosis", "description": "Symptoms and diagnosis." },
 { "name": "Notable people", "url": "/notable-people/", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with Endometriosis." },
                 { "name": "Research", "url": "/research/", "slug": "research", "icon": "research", "i18n_nav": "nav_research", "i18n_desc": "desc_research", "description": "Studies and clinical trials." },
-                { "name": "Education", "url": "/education/", "slug": "education", "icon": "education", "i18n_nav": "nav_education", "i18n_desc": "desc_education", "description": "Books, films, and guides." }
+                { "name": "Education & resources", "url": "/education/", "slug": "education", "icon": "education", "i18n_nav": "nav_education", "i18n_desc": "desc_education", "description": "Books, community, organizations, and myths debunked." }
             ]
         }
     ],
@@ -46,6 +47,7 @@
         { "name": "About", "url": "/about/", "slug": "about", "icon": "about", "i18n_nav": "nav_about" },
         { "name": "FAQ", "url": "/faq/", "slug": "faq", "icon": "faq", "i18n_nav": "nav_faq" },
         { "name": "Take action", "url": "/take-action/", "slug": "take-action", "icon": "resources", "i18n_nav": "nav_take_action" },
+        { "name": "Crisis support", "url": "/mental-health/#crisis-support", "slug": "crisis", "icon": "mental-health", "i18n_nav": "nav_crisis" },
         { "name": "Privacy", "url": "/privacy/", "slug": "privacy", "icon": "about", "i18n_nav": "nav_privacy" }
     ],
     "colors": {
@@ -212,6 +214,7 @@
         "js/sidebar.js",
         "js/take-action.js",
         "js/person-modal.js",
-        "js/tracker.js"
+        "js/tracker.js",
+        "js/quiz.js"
     ]
 }
