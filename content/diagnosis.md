@@ -20,7 +20,7 @@ Endometriosis is a chronic inflammatory condition where tissue similar to the ut
 
 ### Potential Indicators
 
-- **Endometriomas** — cysts filled with old blood. These are a type of Endometriosis, but having Endometriosis does not mean you have an endometrioma
+- **Endometriomas** - cysts filled with old blood. These are a type of Endometriosis, but having Endometriosis does not mean you have an endometrioma
 - Chronic pelvic pain
 - Heavy menstrual bleeding
 - Infertility
@@ -33,7 +33,7 @@ Endometriosis is a chronic inflammatory condition where tissue similar to the ut
 
 ### Potential Indicators
 
-- [Decidual casts](https://ispub.com/IJGO/9/1/11420) — tissue casts passed during menstruation
+- [Decidual casts](https://ispub.com/IJGO/9/1/11420) - tissue casts passed during menstruation
 - Excessive bleeding during periods
 - Uterine enlargement
 
@@ -43,4 +43,3 @@ For treatment options, see [Treatments](/treatments/).
 
 For clinical studies and active clinical trials, see [Medical Research](/research/).
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

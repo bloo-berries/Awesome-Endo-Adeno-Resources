@@ -81,9 +81,9 @@ Some patients find meaningful relief from physical therapy (pelvic floor specifi
 <details>
   <summary>Cannabis and herbal research</summary>
 
-- [Lara Parker's Journey with Endometriosis](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2) — personal experience with Endometriosis and non-surgical treatment options
-- [Cannabis and Endometriosis: A Survey of Its Effectiveness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940) — effectiveness of cannabis in managing Endometriosis symptoms
-- [Cannabinoids Improve Symptoms in Mice with Endometriosis](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis) — potential of cannabinoids in alleviating Endometriosis symptoms
+- [Lara Parker's Journey with Endometriosis](https://www.forbes.com/sites/javierhasse/2019/12/04/lara-parker/#16937b1561e2) - \1ersonal experience with Endometriosis and non-surgical treatment options
+- [Cannabis and Endometriosis: A Survey of Its Effectiveness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258940) - \1ffectiveness of cannabis in managing Endometriosis symptoms
+- [Cannabinoids Improve Symptoms in Mice with Endometriosis](https://elifesciences.org/for-the-press/84e17c36/cannabinoids-improve-symptoms-in-mice-with-endometriosis) - \1otential of cannabinoids in alleviating Endometriosis symptoms
 
 </details>
 
@@ -92,14 +92,14 @@ Some patients find meaningful relief from physical therapy (pelvic floor specifi
 
 As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications aimed at 'treating' Endometriosis only manage symptoms. They do not treat the disease itself. Drug therapy can suppress Endometriosis, not eradicate it."
 
-- [Immunology and Immunotherapy of Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8708975/) — research on the treatment of Endometriosis symptoms with Low Dose Naltrexone
+- [Immunology and Immunotherapy of Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8708975/) - \1esearch on the treatment of Endometriosis symptoms with Low Dose Naltrexone
 
 </details>
 
 <details>
   <summary>Physical therapy</summary>
 
-- [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/) — pelvic health physiotherapy is an effective, evidence-based treatment for some symptoms of Endometriosis, like pain with sexual activity
+- [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/) - \1elvic health physiotherapy is an effective, evidence-based treatment for some symptoms of Endometriosis, like pain with sexual activity
 
 </details>
 
@@ -124,4 +124,3 @@ If your current treatment isn't working after 3-6 months, that's a signal to rev
 - [Fertility](/fertility/) -- IVF, egg freezing, and pregnancy
 - [Mental Health](/mental-health/) -- therapy, crisis support, and coping strategies
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

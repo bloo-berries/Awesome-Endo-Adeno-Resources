@@ -10,7 +10,7 @@ keywords: ["Endometriosis symptoms", "Endometriosis stages", "Endometriosis trea
 
 # Endometriosis Resources
 
-[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility. [Approximately 10% of women and girls of reproductive age have Endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis), around 190 million worldwide (WHO). In Australia, [the figure is estimated at 1 in 7](https://endometriosisaustralia.org/1-in-7-australian-women/), suggesting global underdiagnosis.
+[Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility.
 
 ## Understanding Endometriosis
 
@@ -50,4 +50,3 @@ There is no cure for Endometriosis, but symptoms can be managed through surgery,
 
 ---
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

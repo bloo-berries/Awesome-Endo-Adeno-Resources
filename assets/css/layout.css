@@ -407,6 +407,14 @@
   margin-top: auto;
 }
 
+.sidebar-disclaimer {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.4;
+  margin: var(--space-sm) 0;
+}
+
 .sidebar-prefs {
   display: flex;
   align-items: center;

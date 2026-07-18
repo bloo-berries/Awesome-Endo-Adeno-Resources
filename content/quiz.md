@@ -10,7 +10,7 @@ keywords: ["Endometriosis quiz", "adenomyosis symptoms", "symptom checker"]
 
 # Symptom Quiz
 
-Select the symptoms you experience regularly. This is not a diagnostic tool — it helps you prepare for a conversation with your doctor.
+Select the symptoms you experience regularly. This is not a diagnostic tool - it helps you prepare for a conversation with your doctor.
 
 <div id="quiz-app"></div>
 
@@ -42,4 +42,3 @@ Endometriosis takes an average of **10 years to diagnose**. Presenting a written
 
 If you're experiencing **severe pain that doesn't respond to medication**, **heavy bleeding**, or **symptoms that interfere with daily life**, please see a doctor regardless of what an online checker says.
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*
