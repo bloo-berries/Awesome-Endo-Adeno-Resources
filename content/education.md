@@ -232,4 +232,3 @@ U.S.A.
 
 </details>
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

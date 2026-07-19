@@ -1,0 +1,21 @@
+{
+  "name": "1 in 7 — Endometriosis & Adenomyosis Resources",
+  "short_name": "1 in 7",
+  "description": "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#7D4E6E",
+  "background_color": "#F5E6D0",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "brand/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ]
+}

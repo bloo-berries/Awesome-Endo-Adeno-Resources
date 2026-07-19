@@ -18,7 +18,7 @@
     font-weight: 700;
     margin-bottom: 0.75rem;
     text-align: center;
-    color: var(--color-gold-warm);
+    color: var(--accent-warm);
 }
 
 .carousel-viewport {
@@ -67,9 +67,9 @@
 }
 
 .carousel-arrow:hover {
-    background: var(--color-gold-warm);
-    border-color: var(--color-gold-warm);
-    color: var(--color-plum-dark);
+    background: var(--accent-warm);
+    border-color: var(--accent-warm);
+    color: var(--surface-deep);
 }
 
 .carousel-dots { display: flex; gap: 6px; align-items: center; }
@@ -96,7 +96,7 @@
 }
 
 .carousel-dot.active {
-    background: var(--color-gold-warm);
+    background: var(--accent-warm);
     transform: scale(1.2);
 }
 
@@ -114,7 +114,7 @@
 }
 
 .carousel-credit a:hover {
-    color: var(--color-gold-warm);
+    color: var(--accent-warm);
     background: none;
     padding: 0;
 }

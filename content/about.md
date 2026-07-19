@@ -28,4 +28,3 @@ This comprehensive resource list is packed with expert advice, community support
 
 This is a community-driven, open-source project. If you have suggestions, corrections, or additional resources to share, please contribute on [GitHub](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources).
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

@@ -136,4 +136,3 @@ Patient clustering reveals distinct subgroups requiring personalized treatment a
 - **Migraine medications:** Shared pathway treatments for neurological symptoms
 - **Multi-target approaches:** Addressing systemic inflammation across affected systems
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

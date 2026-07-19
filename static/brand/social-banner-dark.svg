@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A830"/>
+      <stop offset="40%" stop-color="#C4982A"/>
+      <stop offset="70%" stop-color="#8B3A4A"/>
+      <stop offset="100%" stop-color="#4A0E1B"/>
+    </linearGradient>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A1A24"/>
+      <stop offset="100%" stop-color="#3D2435"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bg-grad)"/>
+  <!-- Decorative circles -->
+  <circle cx="1350" cy="100" r="180" fill="rgba(232, 184, 74, 0.04)"/>
+  <circle cx="150" cy="400" r="120" fill="rgba(125, 78, 110, 0.08)"/>
+  <!-- Heart icon -->
+  <g transform="translate(500, 120) scale(3.5)">
+    <path d="M32 56.9l-3.87-3.52C14.4 40.96 5.33 32.75 5.33 22.67 5.33 14.45 11.78 8 20 8c4.64 0 9.09 2.16 12 5.57C34.91 10.16 39.36 8 44 8c8.22 0 14.67 6.45 14.67 14.67 0 10.08-9.07 18.29-22.8 30.72L32 56.9z" fill="url(#hg)"/>
+  </g>
+  <!-- Brand name -->
+  <style>
+    .banner-title { font-family: 'Figtree', system-ui, sans-serif; font-weight: 700; font-size: 72px; fill: #F0D060; }
+    .banner-tagline { font-family: 'Figtree', system-ui, sans-serif; font-weight: 400; font-size: 28px; fill: #C4A07A; }
+    .banner-url { font-family: 'Figtree', system-ui, sans-serif; font-weight: 500; font-size: 24px; fill: #E8B84A; }
+  </style>
+  <text x="750" y="380" text-anchor="middle" class="banner-title">1 in 7</text>
+  <text x="750" y="425" text-anchor="middle" class="banner-tagline">Endometriosis &amp; Adenomyosis Resources</text>
+  <text x="750" y="470" text-anchor="middle" class="banner-url">1in7.info</text>
+</svg>

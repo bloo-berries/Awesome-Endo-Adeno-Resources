@@ -88,4 +88,3 @@ Not replacements for medical treatment, but may help manage symptoms alongside c
 - **Discuss fertility plans** with your doctor before starting hormonal therapy, as some treatments suppress fertility
 - **Multi-modal approach** works best, combining medication, surgery, physiotherapy, and lifestyle changes
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

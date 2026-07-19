@@ -282,30 +282,8 @@ def md_to_html(text, base_url=""):
 
     return "\n".join(out)
 
-# ── CSS variables from config (complete design token set) ──
+# ── CSS variables from config (semantic tokens only) ──
 def build_css_vars(cfg):
-    c = cfg["colors"]
-    s = c["sidebar"]
-    lt = c["light"]
-    dk = c["dark"]
-    brand = c.get("brand", {})
-    gradients = c.get("gradients", {})
-
-    # Build brand token lines
-    brand_lines = []
-    for key, val in brand.items():
-        css_key = key.replace("_", "-")
-        brand_lines.append(f"        --color-{css_key}: {val};")
-    brand_css = "\n".join(brand_lines)
-
-    # Build gradient token lines
-    gradient_lines = []
-    for key, val in gradients.items():
-        css_key = key.replace("_", "-")
-        gradient_lines.append(f"        --gradient-{css_key}: {val};")
-    gradient_css = "\n".join(gradient_lines)
-
-    # Semantic layer (Phase 2 addition; coexists with legacy tokens above)
     sem = cfg.get("semantic", {})
     sem_light = sem.get("light", {})
     sem_dark = sem.get("dark", {})
@@ -323,87 +301,42 @@ def build_css_vars(cfg):
 
     return f"""<style>
     body {{
-        /* Sidebar tokens */
-        --sidebar-bg-color: {s['sidebar_bg_color']};
-        --sidebar-img-border-color: {s['sidebar_img_border_color']};
-        --sidebar-p-color: {s['sidebar_p_color']};
-        --sidebar-h1-color: {s['sidebar_h1_color']};
-        --sidebar-a-color: {s['sidebar_a_color']};
-        --sidebar-socials-color: {s['sidebar_socials_color']};
-        --moon-sun-color: {s['moon_sun_color']};
-        --moon-sun-background-color: {s['moon_sun_background_color']};
-
-        /* Theme tokens (light default in body, dark override below) */
-        --text-color: {lt['text_color']};
-        --bkg-color: {lt['content_bg_color']};
-        --post-title-color: {lt['post_title_color']};
-        --list-color: {lt['list_color']};
-        --link-color: {lt['link_color']};
-        --link-hover-color: {lt.get('link_hover_color', lt['link_color'])};
-        --heading-color: {lt.get('heading_color', lt['text_color'])};
-        --date-color: {lt['date_color']};
-        --table-border-color: {lt['table_border_color']};
-        --table-stripe-color: {lt['table_stripe_color']};
-        --table-header-bg: {lt.get('table_header_bg', 'rgba(0,0,0,0.05)')};
-        --code-color: {lt['code_color']};
-        --code-background-color: {lt['code_background_color']};
-        --code-block-color: {lt['code_block_color']};
-        --code-block-background-color: {lt['code_block_background_color']};
-        --muted-color: {lt.get('muted_color', lt['date_color'])};
-        --surface-color: {lt.get('surface_color', lt['content_bg_color'])};
-        --border-color: {lt.get('border_color', 'rgba(0,0,0,0.1)')};
-        --scrollbar-thumb: {lt.get('scrollbar_thumb', 'rgba(0,0,0,0.2)')};
-        --scrollbar-track: {lt.get('scrollbar_track', 'rgba(0,0,0,0.03)')};
-
-        /* Brand colors */
-{brand_css}
-
-        /* Gradients */
-{gradient_css}
-
         /* Design tokens */
         --font-primary: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        --radius-sm: 6px;
-        --radius-lg: 12px;
-        --radius-pill: 9999px;
-        --focus-color: {brand.get('gold', '#C4982A')};
-        --focus-shadow: 0 0 0 3px rgba(196, 152, 42, 0.3);
         --shadow-sm: 0 2px 8px rgba(0,0,0,0.2);
         --shadow-md: 0 4px 16px rgba(0,0,0,0.2);
-        --white-subtle: rgba(255,255,255,0.08);
-        --white-muted: rgba(255,255,255,0.15);
-        --white-soft: rgba(255,255,255,0.2);
 
-        background-color: var(--bkg-color);
+        /* Legacy compatibility aliases */
+        --heading-color: var(--heading);
+        --text-color: var(--text);
+        --bkg-color: var(--surface);
+        --link-color: var(--accent);
+        --link-hover-color: var(--accent-hover);
+        --date-color: var(--text-muted);
+        --muted-color: var(--text-muted);
+        --code-color: var(--code);
+        --code-background-color: var(--code-bg);
+        --code-block-color: var(--text-on-deep);
+        --code-block-background-color: var(--surface-deep);
+        --table-border-color: var(--border);
+        --table-stripe-color: var(--table-stripe);
+        --list-color: var(--text);
+        --post-title-color: var(--heading);
+        --border-color: var(--border);
+        --surface-color: var(--surface-raised);
+        --gradient-component: var(--surface-deep);
+        --gradient-warm: var(--surface-warm);
+        --gradient-deep: var(--surface-deep);
 
-        /* === Semantic layer (Phase 2) === */
+        background-color: var(--surface);
+
+        /* Semantic tokens (light) */
 {semantic_light_css}
 {semantic_constant_css}
 {semantic_scale_css}
     }}
     body.dark-theme {{
-        --text-color: {dk['text_color']};
-        --bkg-color: {dk['content_bg_color']};
-        --post-title-color: {dk['post_title_color']};
-        --list-color: {dk['list_color']};
-        --link-color: {dk['link_color']};
-        --link-hover-color: {dk.get('link_hover_color', dk['link_color'])};
-        --heading-color: {dk.get('heading_color', dk['text_color'])};
-        --date-color: {dk['date_color']};
-        --table-border-color: {dk['table_border_color']};
-        --table-stripe-color: {dk['table_stripe_color']};
-        --table-header-bg: {dk.get('table_header_bg', 'rgba(255,255,255,0.05)')};
-        --code-color: {dk['code_color']};
-        --code-background-color: {dk['code_background_color']};
-        --code-block-color: {dk['code_block_color']};
-        --code-block-background-color: {dk['code_block_background_color']};
-        --muted-color: {dk.get('muted_color', dk['date_color'])};
-        --surface-color: {dk.get('surface_color', dk['content_bg_color'])};
-        --border-color: {dk.get('border_color', 'rgba(255,255,255,0.1)')};
-        --scrollbar-thumb: {dk.get('scrollbar_thumb', 'rgba(255,255,255,0.25)')};
-        --scrollbar-track: {dk.get('scrollbar_track', 'rgba(255,255,255,0.05)')};
-
-        /* === Semantic layer (Phase 2) === */
+        /* Semantic tokens (dark) */
 {semantic_dark_css}
     }}
 </style>"""
@@ -667,14 +600,7 @@ def build_toc(html_content, min_headings=4):
 
 # ── Breadcrumbs ──
 def build_breadcrumbs(cfg, title):
-    return (
-        '<nav class="breadcrumbs" aria-label="Breadcrumb">\n'
-        '    <ol>\n'
-        f'        <li><a href="{cfg["base_url"]}" data-i18n="nav_home">Home</a></li>\n'
-        f'        <li aria-current="page">{html_mod.escape(title)}</li>\n'
-        '    </ol>\n'
-        '</nav>'
-    )
+    return ''
 
 # ── Read all content pages ──
 def load_pages(cfg):
@@ -704,6 +630,7 @@ def load_pages(cfg):
             "draft": meta.get("draft", False),
             "search": meta.get("search", True),
             "toc": meta.get("toc", True),
+            "template": meta.get("template"),
             "html": html_content,
             "permalink": permalink,
             "slug": slug,
@@ -846,12 +773,21 @@ def main():
     for slug, page in pages.items():
         if slug == "_index":
             continue
+
+        # Select template (custom or default page template)
+        custom_tpl_name = page.get("template")
+        if custom_tpl_name:
+            inner = read_tpl(f"{custom_tpl_name}.html")
+        else:
+            inner = page_tpl
+            toc = build_toc(page["html"]) if page.get("toc", True) else ""
+            inner = inner.replace("{{TOC}}", toc)
+            inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
+
+        # Common replacements for all page templates
         breadcrumbs = build_breadcrumbs(cfg, page["title"])
-        toc = build_toc(page["html"]) if page.get("toc", True) else ""
-        inner = page_tpl
         inner = inner.replace("{{BREADCRUMBS}}", breadcrumbs)
-        inner = inner.replace("{{TOC}}", toc)
-        inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
+        inner = inner.replace("{{BASE_URL}}", base_url)
 
         page_html = render_page(base_tpl, cfg, inner, page)
         page_dir = os.path.join(DIST, slug)

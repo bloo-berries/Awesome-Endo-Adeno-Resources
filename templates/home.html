@@ -1,3 +1,4 @@
+<style>.topbar-home { display: none; }</style>
 <!--
   home.html — Home page
   Block order:
@@ -11,11 +12,11 @@
 
 <!-- 1. Hero -->
 <section class="home-hero" aria-labelledby="hero-headline">
-  <h1 id="hero-headline" class="home-hero-headline" data-i18n="home_hero_headline">
-    1 in 7 women live with Endometriosis. Here's where to start.
+  <h1 id="hero-headline" class="home-hero-headline">
+    <span class="home-hero-mark">1 in 7</span> women live with Endometriosis.<br>Here's where to start.
   </h1>
   <p class="home-hero-sub" data-i18n="home_hero_sub">
-    It takes an average of 10 years to get a diagnosis. Symptom checker, diagnostic guidance, and resources for navigating Endometriosis and Adenomyosis.
+    It takes an average of 10 years to get a diagnosis.
   </p>
   <div class="home-hero-actions">
     <a href="{{BASE_URL}}quiz/" class="home-hero-cta-primary" data-i18n="home_hero_cta_primary">
@@ -25,104 +26,96 @@
     <a href="{{BASE_URL}}treatments/" class="home-hero-cta-secondary" data-i18n="home_hero_cta_secondary">
       I'm already diagnosed
     </a>
-    <a href="{{BASE_URL}}endometriosis/" class="home-hero-cta-tertiary" data-i18n="home_hero_cta_tertiary">
-      Learn about the condition
+    <a href="{{BASE_URL}}endometriosis/" class="home-hero-cta-secondary" data-i18n="home_hero_cta_tertiary">
+      Learn more about Endo
+    </a>
+    <a href="{{BASE_URL}}surgery-costs/" class="home-hero-cta-secondary" data-i18n="home_hero_cta_surgery">
+      Surgical Costs
     </a>
   </div>
 </section>
 
-<!-- 2. Notable People (carousel) -->
+<!-- 2. Notable People (stories-style strip) -->
 <section class="home-people" aria-labelledby="people-heading">
   <div class="home-people-header">
-    <h2 id="people-heading" class="home-section-heading" data-i18n="home_people_heading">Notable people with Endometriosis</h2>
-    <div class="home-people-arrows">
-      <button class="home-people-arrow home-people-prev" aria-label="Scroll left">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-      <button class="home-people-arrow home-people-next" aria-label="Scroll right">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-      </button>
+    <a href="{{BASE_URL}}notable-people/" id="people-heading" class="home-people-title" data-i18n="home_people_heading">Notable people with Endometriosis</a>
+    <a href="{{BASE_URL}}notable-people/" class="home-people-all">See all</a>
+  </div>
+  <div class="home-people-strip">
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="British actress known for the Star Wars sequel trilogy." data-detail="Had her first laparoscopy at age 15 and was diagnosed with Endometriosis, which she has discussed in multiple interviews.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Daisy-Ridley.webp" alt="Daisy Ridley" loading="lazy"></div>
+      <strong class="person-name">Daisy</strong>
+      <span class="person-role" hidden>Actress, Star Wars</span>
+      <span class="person-condition" hidden>Laparoscopy at 15</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="Indian-American TV host, author, and host of Top Chef." data-detail="Has undergone approximately 4 Endometriosis surgeries from 2006 onward, treated by Dr. Tamer Seckin, and co-founded the Endometriosis Foundation of America.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Padma-Lakshmi.webp" alt="Padma Lakshmi" loading="lazy"></div>
+      <strong class="person-name">Padma</strong>
+      <span class="person-role" hidden>TV Host &amp; Author, Top Chef</span>
+      <span class="person-condition" hidden>~4 surgeries, from 2006</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="Legendary American singer-songwriter and philanthropist." data-detail="Underwent a partial hysterectomy in 1982 due to Endometriosis, which she has discussed openly in connection with not having children.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Dolly-Parton.webp" alt="Dolly Parton" loading="lazy"></div>
+      <strong class="person-name">Dolly</strong>
+      <span class="person-role" hidden>Singer &amp; Songwriter</span>
+      <span class="person-condition" hidden>Partial hysterectomy, 1982</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="Grammy-winning American singer-songwriter known for Girls Just Want to Have Fun." data-detail="Underwent Endometriosis surgery in her 30s and has spoken about years of undiagnosed chronic pain during her career.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Cyndi-Lauper.webp" alt="Cyndi Lauper" loading="lazy"></div>
+      <strong class="person-name">Cyndi</strong>
+      <span class="person-role" hidden>Singer &amp; Songwriter</span>
+      <span class="person-condition" hidden>Surgery in her 30s</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="American model, TV personality, and cookbook author." data-detail="Underwent excision surgery for Endometriosis in 2021 and has been open about her experience with chronic pain and fertility challenges.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Chrissy-Teigen.webp" alt="Chrissy Teigen" loading="lazy"></div>
+      <strong class="person-name">Chrissy</strong>
+      <span class="person-role" hidden>Model &amp; TV Personality</span>
+      <span class="person-condition" hidden>Excision surgery, 2021</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="Brazilian pop star and singer-songwriter." data-detail="Underwent Endometriosis surgery in 2022 after 9 years undiagnosed, and has used her global platform to raise awareness, especially in Latin America.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Anitta.webp" alt="Anitta" loading="lazy"></div>
+      <strong class="person-name">Anitta</strong>
+      <span class="person-role" hidden>Pop Star, Brazil</span>
+      <span class="person-condition" hidden>Surgery, 2022 (9 yrs undiagnosed)</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="Kenyan TV and radio presenter (d. 2024)." data-detail="Underwent 20+ surgeries for Stage IV thoracic Endometriosis, including treatment with Dr. Ken Sinervo in Atlanta. She became Kenya&#39;s most prominent endo advocate before her passing.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Njambi-Koikai.webp" alt="Njambi Koikai" loading="lazy"></div>
+      <strong class="person-name">Njambi</strong>
+      <span class="person-role" hidden>TV &amp; Radio Presenter, Kenya (d. 2024)</span>
+      <span class="person-condition" hidden>20+ surgeries, Stage IV thoracic</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="Indian actress in Bollywood and South Indian cinema." data-detail="Diagnosed with both PCOS and Endometriosis, she has spoken publicly about managing multiple conditions.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Shruti-Haasan.webp" alt="Shruti Haasan" loading="lazy"></div>
+      <strong class="person-name">Shruti</strong>
+      <span class="person-role" hidden>Actress, India / Bollywood</span>
+      <span class="person-condition" hidden>Diagnosed (PCOS + endo)</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="American actress known for Pretty Little Liars." data-detail="Underwent two Endometriosis surgeries in 2024-2025 and has been open about her journey with the condition.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Janel-Parrish.webp" alt="Janel Parrish" loading="lazy"></div>
+      <strong class="person-name">Janel</strong>
+      <span class="person-role" hidden>Actress, Pretty Little Liars</span>
+      <span class="person-condition" hidden>2 surgeries, 2024-2025</span>
+    </div>
+    <div class="home-people-card person-card" role="button" tabindex="0" data-bio="British model, TV presenter, and fashion designer." data-detail="Underwent laparoscopic Endometriosis surgery in 2019 and has spoken about the condition publicly.">
+      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Alexa-Chung.webp" alt="Alexa Chung" loading="lazy"></div>
+      <strong class="person-name">Alexa</strong>
+      <span class="person-role" hidden>Model &amp; TV Presenter</span>
+      <span class="person-condition" hidden>Laparoscopic surgery, 2019</span>
     </div>
   </div>
-  <div class="home-people-track">
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Daisy-Ridley.webp" alt="Daisy Ridley" loading="lazy"></div>
-      <div class="home-people-name">Daisy Ridley</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Padma-Lakshmi.webp" alt="Padma Lakshmi" loading="lazy"></div>
-      <div class="home-people-name">Padma Lakshmi</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Ciru-Muriuki.webp" alt="Ciru Muriuki" loading="lazy"></div>
-      <div class="home-people-name">Ciru Muriuki</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Dolly-Parton.webp" alt="Dolly Parton" loading="lazy"></div>
-      <div class="home-people-name">Dolly Parton</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Shruti-Haasan.webp" alt="Shruti Haasan" loading="lazy"></div>
-      <div class="home-people-name">Shruti Haasan</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Njambi-Koikai.webp" alt="Njambi Koikai" loading="lazy"></div>
-      <div class="home-people-name">Njambi Koikai</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Cyndi-Lauper.webp" alt="Cyndi Lauper" loading="lazy"></div>
-      <div class="home-people-name">Cyndi Lauper</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Tayo-Sobola-Soleye.webp" alt="Tayo Sobola-Soleye" loading="lazy"></div>
-      <div class="home-people-name">Tayo Sobola-Soleye</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Chrissy-Teigen.webp" alt="Chrissy Teigen" loading="lazy"></div>
-      <div class="home-people-name">Chrissy Teigen</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Janel-Parrish.webp" alt="Janel Parrish" loading="lazy"></div>
-      <div class="home-people-name">Janel Parrish</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Anitta.webp" alt="Anitta" loading="lazy"></div>
-      <div class="home-people-name">Anitta</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Folake-Olowofoyeku.webp" alt="Folake Olowofoyeku" loading="lazy"></div>
-      <div class="home-people-name">Folake Olowofoyeku</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Alexa-Chung.webp" alt="Alexa Chung" loading="lazy"></div>
-      <div class="home-people-name">Alexa Chung</div>
-    </a>
-    <a href="{{BASE_URL}}notable-people/" class="home-people-card">
-      <div class="person-avatar"><img src="{{BASE_URL}}images/people/Corazon-Kwamboka.webp" alt="Corazon Kwamboka" loading="lazy"></div>
-      <div class="home-people-name">Corazon Kwamboka</div>
-    </a>
-  </div>
-  <a href="{{BASE_URL}}notable-people/" class="home-people-see-all" data-i18n="home_people_see_all">
-    See all 62 people
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-  </a>
 </section>
 
 <!-- 3. Quiz + Key Statistics card -->
 <section class="home-stats-section" aria-labelledby="quiz-stats-heading">
-  <h2 id="quiz-stats-heading" class="stats-heading" data-i18n="home_quiz_heading">Do your symptoms match?</h2>
-  <a href="{{BASE_URL}}quiz/" class="stats-cta" data-i18n="home_quiz_cta">
-    Take the quiz
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-  </a>
   <div class="stats-grid" aria-label="Endometriosis statistics" data-i18n="stats_section_label" data-i18n-attr="aria-label">
     <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5425631/" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="Up to 50% of infertility cases involve Endometriosis, view research source">
       <span class="stat-number" data-i18n="stats_infertility_number">50%</span>
       <span class="stat-label" data-i18n="stats_infertility_label">infertility link</span>
     </a>
-    <a href="https://www.bmj.com/content/387/bmj-2023-078797" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="31% increased risk of premature death before age 70, view research source">
+    <a href="https://www.bmj.com/content/387/bmj-2023-078797" target="_blank" rel="noopener noreferrer" class="stat-link stat-link--has-tooltip" aria-label="31% increased risk of premature death before age 70, view research source">
       <span class="stat-number" data-i18n="stats_mortality_number">31%</span>
       <span class="stat-label" data-i18n="stats_mortality_label">early mortality risk*</span>
+      <span class="stat-tooltip" data-i18n="stats_context">*Mortality risk reflects death before age 70, largely driven by associated conditions. The study authors stress this should not cause alarm - regular monitoring and specialist care matter most.</span>
     </a>
     <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7872926/" target="_blank" rel="noopener noreferrer" class="stat-link" aria-label="Average cost approximately $20,000 per year, view research source">
       <span class="stat-number" data-i18n="stats_cost_number">~$20k</span>
@@ -133,7 +126,6 @@
       <span class="stat-label" data-i18n="stats_diagnose_label">to diagnose</span>
     </a>
   </div>
-  <p class="stats-context" data-i18n="stats_context">*Mortality risk reflects death before age 70, largely driven by associated conditions. The study authors stress this should not cause alarm - regular monitoring and specialist care matter most.</p>
 </section>
 
 <!-- 4. Watch & Learn -->
@@ -151,31 +143,33 @@
   </div>
 </section>
 
-<!-- 5. Reality of Endo + Myths (side by side) -->
-<div class="home-dual-row">
-  <section class="home-carousel-compact carousel-section" id="carousel-section">
-    <h2 class="home-section-heading" data-i18n="carousel_title">The reality of endo</h2>
-    <div class="carousel-viewport">
-      <div class="carousel-track">
-        <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/affected-sites.png" alt="Body sites affected by Endometriosis" loading="lazy"></div>
-        <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/surgeries.png" alt="Endometriosis surgical approaches" loading="lazy"></div>
-        <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/detection.png" alt="Diagnostic methods for Endometriosis" loading="lazy"></div>
-        <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/symptoms.png" alt="Common Endometriosis symptoms" loading="lazy"></div>
-      </div>
-    </div>
-    <div class="carousel-controls">
-      <button class="carousel-arrow carousel-prev" aria-label="Previous slide" data-i18n="carousel_prev" data-i18n-attr="aria-label">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-      <div class="carousel-dots"></div>
-      <button class="carousel-arrow carousel-next" aria-label="Next slide" data-i18n="carousel_next" data-i18n-attr="aria-label">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-      </button>
+<!-- 5. The Reality of Endo (full-width carousel) -->
+<section class="home-carousel-full carousel-section" id="carousel-section">
+  <h2 class="home-section-heading" data-i18n="carousel_title">The reality of endo</h2>
+  <div class="carousel-viewport">
+    <div class="carousel-track">
+      <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/affected-sites.png" alt="Body sites affected by Endometriosis" loading="lazy"></div>
+      <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/surgeries.png" alt="Endometriosis surgical approaches" loading="lazy"></div>
+      <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/detection.png" alt="Diagnostic methods for Endometriosis" loading="lazy"></div>
+      <div class="carousel-slide"><img src="{{BASE_URL}}images/carousel/symptoms.png" alt="Common Endometriosis symptoms" loading="lazy"></div>
     </div>
     <p class="carousel-credit">Graphics via <a href="http://endographics.org/" target="_blank" rel="noopener noreferrer">endographics.org</a></p>
-  </section>
-  <section class="home-myths-compact" aria-labelledby="myths-teaser-heading">
-    <h2 id="myths-teaser-heading" class="home-section-heading" data-i18n="home_myths_heading">Myths vs. facts</h2>
+  </div>
+  <div class="carousel-controls">
+    <button class="carousel-arrow carousel-prev" aria-label="Previous slide" data-i18n="carousel_prev" data-i18n-attr="aria-label">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="carousel-dots"></div>
+    <button class="carousel-arrow carousel-next" aria-label="Next slide" data-i18n="carousel_next" data-i18n-attr="aria-label">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+</section>
+
+<!-- 6. Myths + CTAs (closing section) -->
+<section class="home-closing">
+  <details class="home-myths-expandable">
+    <summary class="home-section-heading" data-i18n="home_myths_heading">Myths vs. facts</summary>
     <dl class="myths-list">
       <div class="myths-list-item">
         <dt class="myths-myth">"It's just a bad period"</dt>
@@ -186,21 +180,15 @@
         <dd class="myths-fact">Diagnosed in adolescents as young as 10&ndash;11 years old. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6257623/" target="_blank">PMC&nbsp;&#8599;</a></dd>
       </div>
     </dl>
-    <a href="{{BASE_URL}}education/#myths--facts" class="home-myths-see-all" data-i18n="home_myths_see_all">
+  </details>
+  <div class="home-closing-actions">
+    <a href="{{BASE_URL}}education/#myths--facts" class="home-closing-btn" data-i18n="home_myths_see_all">
       See all 8 myths debunked
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
     </a>
-  </section>
-</div>
-
-<!-- 8. Help CTA -->
-<section class="home-help-cta" aria-labelledby="help-cta-heading">
-  <h2 id="help-cta-heading" class="home-help-cta-title" data-i18n="home_help_title">Ready to take action?</h2>
-  <p class="home-help-cta-desc" data-i18n="home_help_desc">
-    Practical scripts for talking to doctors, family, and partners with copy-and-paste templates.
-  </p>
-  <a href="{{BASE_URL}}take-action/" class="home-help-cta-btn" data-i18n="home_help_cta">
-    Get conversation scripts
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-  </a>
+    <a href="{{BASE_URL}}take-action/" class="home-closing-btn" data-i18n="home_help_cta">
+      Get conversation scripts
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+  </div>
 </section>

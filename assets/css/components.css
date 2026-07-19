@@ -88,37 +88,16 @@ details[open] summary {
 
 .breadcrumbs {
     display: none;
-    margin-bottom: var(--space-lg);
-    font-size: 0.85rem;
-}
-
-@media (min-width: 64rem) {
-    .breadcrumbs { display: block; }
-}
-
-.breadcrumbs ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 0;
-}
-
-.breadcrumbs li {
-    display: flex;
-    align-items: center;
-    color: var(--date-color);
-    margin-bottom: 0;
+    margin-bottom: var(--space-lg);
+    font-size: 0.85rem;
+    color: var(--text-muted);
     line-height: 1.2;
 }
 
-.breadcrumbs li:not(:last-child)::after {
-    content: "/";
-    margin: 0 0.5rem;
-    color: var(--date-color);
-    opacity: 0.5;
+@media (min-width: 64rem) {
+    .breadcrumbs { display: flex; }
 }
 
 .breadcrumbs a {
@@ -129,7 +108,14 @@ details[open] summary {
 
 .breadcrumbs a:hover { text-decoration: underline; }
 
-.breadcrumbs li[aria-current="page"] {
+.breadcrumbs a::after {
+    content: "/";
+    margin: 0 0.5rem;
+    color: var(--text-muted);
+    opacity: 0.5;
+}
+
+.breadcrumbs span[aria-current="page"] {
     color: var(--text);
     font-weight: 500;
 }

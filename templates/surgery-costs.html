@@ -1,0 +1,235 @@
+<article class="surgery-costs">
+    {{BREADCRUMBS}}
+
+    <header class="sc-hero">
+        <div class="sc-hero-grid">
+            <div>
+                <p class="sc-eyebrow">Community-built · <span id="stat-inline-count">364</span> reports · <span id="stat-inline-countries">29</span> countries</p>
+                <h1 class="sc-title">What endometriosis surgery <span class="sc-mark sc-mark-anim">actually costs.</span></h1>
+                <p class="sc-lede">Endo surgery pricing is almost impossible to research until the bill arrives. This tracker collects real numbers shared by patients and clinics worldwide: quoted fees, amounts billed to insurance, and what people truly paid, so you can walk in knowing what to expect.</p>
+                <div class="sc-btn-row">
+                    <a class="sc-btn sc-btn-solid" href="#sc-situation">Find your situation</a>
+                    <a class="sc-btn sc-btn-ghost" href="#sc-submit">Share your numbers</a>
+                </div>
+            </div>
+            <div>
+                <div class="sc-eob" aria-label="Example report: amount billed versus amount paid">
+                    <div class="sc-eob-tag"><span>Specimen · one real report</span><span>USA · insured</span></div>
+                    <div class="sc-eob-row"><span class="sc-eob-lbl">Procedure</span><span class="sc-eob-val">Excision surgery</span></div>
+                    <div class="sc-eob-row"><span class="sc-eob-lbl">Amount billed to insurance</span><span class="sc-eob-val">$2,500,000</span></div>
+                    <div class="sc-eob-row"><span class="sc-eob-lbl">After claims disputes (~1 year)</span><span class="sc-eob-val">cleared</span></div>
+                    <div class="sc-eob-row sc-eob-total"><span class="sc-eob-lbl">Patient actually paid</span><span class="sc-eob-val"><span class="sc-mark">&lt; $1,500</span></span></div>
+                    <p class="sc-eob-note">&larr; the number that mattered</p>
+                </div>
+                <p class="sc-eob-caption">The gap between "billed" and "paid" is why this tracker separates the two.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="sc-stats" role="group" aria-label="Summary statistics">
+        <div class="sc-stats-grid">
+            <div class="sc-stat"><b id="stat-count">364</b><span>patient &amp; clinic reports</span></div>
+            <div class="sc-stat"><b id="stat-insured">$0 - $30,000</b><span>what insured patients actually paid</span></div>
+            <div class="sc-stat"><b id="stat-selfpay">$1,000 - $60,000</b><span>self-pay prices &amp; quotes</span></div>
+            <div class="sc-stat"><b>$2.5M &rarr; &lt;$1.5k</b><span>largest billed-to-paid gap</span></div>
+        </div>
+    </div>
+
+    <section id="sc-situation" class="sc-section">
+        <div class="sc-section-head">
+            <h2>Start with your situation</h2>
+            <p>The single biggest driver of what you'll pay isn't the surgery. It's how you're covered. Tap yours to see matching reports.</p>
+        </div>
+        <div class="sc-paths">
+            <button class="sc-path" data-ins="insured" type="button">
+                <div class="sc-path-top"><span class="sc-path-name">I have insurance</span><span class="sc-path-count" id="pc-insured"></span></div>
+                <div class="sc-path-range" id="pr-insured"></div>
+                <div class="sc-path-desc">Actual out-of-pocket payments reported by insured patients, whatever was billed.</div>
+            </button>
+            <button class="sc-path" data-ins="selfpay" type="button">
+                <div class="sc-path-top"><span class="sc-path-name">I'm paying myself</span><span class="sc-path-count" id="pc-selfpay"></span></div>
+                <div class="sc-path-range" id="pr-selfpay"></div>
+                <div class="sc-path-desc">Cash prices, medical travel, financial aid and uninsured experiences.</div>
+            </button>
+            <button class="sc-path" data-ins="public" type="button">
+                <div class="sc-path-top"><span class="sc-path-name">I'm in a public system</span><span class="sc-path-count" id="pc-public"></span></div>
+                <div class="sc-path-range" id="pr-public"></div>
+                <div class="sc-path-desc">NHS, Medicare, OHIP, statutory insurance and other national systems. The cost is usually time.</div>
+            </button>
+        </div>
+        <details class="sc-country-toggle">
+            <summary class="sc-sub-head">Or browse by country</summary>
+            <div class="sc-chips" id="sc-countries" role="group" aria-label="Filter reports by country"></div>
+        </details>
+    </section>
+
+    <section id="sc-reports" class="sc-section">
+        <div class="sc-section-head">
+            <h2>The reports</h2>
+            <p>Every figure is self-reported and unverified. Treat it as a starting point, not a guarantee. Tap any report for the full story; the <span class="sc-mark-soft">highlighted number</span> is what the patient actually paid.</p>
+        </div>
+
+        <div class="sc-toolbar">
+            <label for="sc-q" class="u-visually-hidden">Search reports</label>
+            <input type="search" id="sc-q" placeholder="Search surgeon, city, keyword...">
+            <label for="sc-f-ins" class="u-visually-hidden">Filter by insurance status</label>
+            <select id="sc-f-ins">
+                <option value="">All situations</option>
+                <option value="insured">Insured</option>
+                <option value="public">Public / national system</option>
+                <option value="selfpay">Self-pay</option>
+                <option value="list">List price / quote</option>
+                <option value="notshared">Not shared</option>
+            </select>
+            <label for="sc-f-sort" class="u-visually-hidden">Sort reports</label>
+            <select id="sc-f-sort">
+                <option value="">Original order</option>
+                <option value="paid-asc">Paid: low &rarr; high</option>
+                <option value="paid-desc">Paid: high &rarr; low</option>
+                <option value="billed-desc">Charges: high &rarr; low</option>
+                <option value="billed-asc">Charges: low &rarr; high</option>
+            </select>
+            <span class="sc-count" id="sc-count"></span>
+        </div>
+
+        <div class="sc-reports" id="sc-cards">
+            <noscript><p>This section requires JavaScript to display the surgery cost reports. Please enable JavaScript to view the data.</p></noscript>
+        </div>
+
+        <div class="sc-empty-note" id="sc-empty" hidden>No reports match these filters yet. Clear a filter, or <a href="#sc-submit">add yours</a> to fill the gap.</div>
+        <div class="sc-more-wrap" id="sc-more-wrap" hidden><button class="sc-btn-more" id="sc-more" type="button"></button></div>
+
+        <p class="sc-table-foot">* Location added from the provider's public practice listings; it wasn't stated in the original report. Currency conversions marked &asymp; are approximate (mid-2026) and for rough comparison only. Amounts span different years and don't account for inflation. Locations shown as "USA (inferred)" weren't stated in the report but use US-specific insurance terms (copay, deductible, out-of-pocket max).</p>
+    </section>
+
+    <section id="sc-watchouts" class="sc-section sc-watchouts">
+        <div class="sc-section-head">
+            <h2>Before the sticker shock</h2>
+            <p>Patterns that show up again and again in these reports, worth knowing before your consult, and before you open the first bill. Tap to expand.</p>
+        </div>
+        <div class="sc-tips">
+            <details class="sc-tip">
+                <summary>"Billed" is not what you owe</summary>
+                <p>Insurers here were billed $165k, $300k, $400k, $1M, even $1.5M and $2.5M in disputed cases that resolved to a few thousand dollars or less, while those same insured patients ultimately paid between $0 and $30,000, most well under $7,000. One surgery was billed at $400,000 where the surgeon's own cash price was $15,000; a commenter who works in insurance verification adds that insurers' contracted rates can shrink even scary plan math to a few hundred dollars. The giant number on an EOB is a provider-insurer negotiation, not your bill.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>Your deductible and out-of-pocket max are the real numbers</summary>
+                <p>Insured patients' payments tracked their plan, not the surgery: $0 with a met out-of-pocket max, $10-$300 copays at in-network hospitals, deductibles around $2,000-$6,500, and up to $14k-$30k on high-deductible or out-of-network plans. One patient's second surgery cost $0 purely because her plan year hadn't reset. Look those two figures up before anything else.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>In-network excision specialists do exist</summary>
+                <p>NYU Langone patients here paid $90-$300 copays, Portland patients with the same insurer were quoted $680-$5,000, and one patient found the in-network head of a hospital endo center through personal recommendations. An insurance-verification worker suggests combing your insurer's own directory and searching each listed surgeon for excision experience. Tedious, but it beats assuming cash-pay is the only route.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>Anesthesia, co-surgeons and facilities can arrive out-of-network</summary>
+                <p>Surprise bills came from anesthesiologists patients never chose; assistant-surgeon fees ($2,500), anesthesiologist charges ($20-30k billed) and follow-up imaging (an ultrasound billed at ~$10k) each appeared as separate line items. In the US, the No Surprises Act (2022) protects against many out-of-network bills at in-network facilities. Ask about it, and ask up front exactly who else will bill you.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>Self-pay: get every number in writing, early</summary>
+                <p>Self-pay discounts can be dramatic ($15k versus $40k+ at the same hospital) but fragile; one billing office wrongly attached insurance info that would have voided the discount. Another patient saved for an $8k surgeon fee, only for the hospital to demand $47,000 on the day of surgery and refuse service. Get the complete facility + anesthesia + surgeon total in writing well before your date.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>Payment plans, financing and aid are everywhere; ask</summary>
+                <p>Practices here offered installments on balances from $2,500 to $30,000, sometimes at 0% for as long as you need; hospital financial aid took an uninsured patient's $50k bill down to about $5k, and erased another's $2,500 balance entirely based on income. Others used CareCredit-style financing, county programs, or Medicaid. Research hospitals with their own out-of-pocket caps also appear in these reports.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>Disputes take time, and persistence works</summary>
+                <p>Several reports describe roughly a year of claims back-and-forth before balances of $1.5M and $2.5M shrank to almost nothing; another patient's denied $320k claim is being fought by an external appeals agency. Keep every document, request itemized bills, audit charges while claims are still processing, get pre-approval in writing, appeal, escalate.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>Quotes aren't apples-to-apples, and the facility drives the bill</summary>
+                <p>Self-pay figures run from a $6,500 surgeon-only fee to $60,000 all-in. Where you have the surgery matters enormously: in one fully itemized $51,512 bill, the one-night hospital stay was $41k of it, while a patient whose surgeon uses an ambulatory surgery center paid $1,700-$2,300 per lap. Ask exactly what's included.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>Public systems: free or near-free, but the wait is the price</summary>
+                <p>Reports from the UK, Canada, Ireland, France, Germany, Denmark, Finland, Belgium, Lithuania, Australia and New Zealand ran from $0 to a few hundred dollars, but the waits ranged from 2 months to 3+ years. Many patients chose the wait deliberately over debt; others went private or traveled for speed.</p>
+            </details>
+            <details class="sc-tip">
+                <summary>The bill isn't the whole cost</summary>
+                <p>One patient lost almost $18,000 of income in a year from being too sick to work, on top of her $9,500 surgery. Others paid for travel, uncovered medications, and rule-out procedures. When you're budgeting, count recovery time, lost wages and the diagnostic runway, not just the surgeon's quote.</p>
+            </details>
+        </div>
+    </section>
+
+    <section id="sc-submit" class="sc-section sc-submit-section">
+        <div class="sc-section-head">
+            <h2>Share your surgery costs</h2>
+            <p>Every report makes the next person's decision a little less blind. Share as much or as little as you're comfortable with. All submissions are reviewed by the site administrator before appearing on this page.</p>
+        </div>
+
+        <form class="sc-form" id="sc-form" action="https://formspree.io/f/xwpkpjog" method="POST">
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="sc-form-grid">
+                <div class="sc-field">
+                    <label for="sc-f-country">Country <span class="sc-required">*</span></label>
+                    <input type="text" id="sc-f-country" name="country" required placeholder="e.g. USA, UK, Australia">
+                </div>
+                <div class="sc-field">
+                    <label for="sc-f-city">City / State / Region</label>
+                    <input type="text" id="sc-f-city" name="city" placeholder="e.g. New York, NY">
+                </div>
+                <div class="sc-field">
+                    <label for="sc-f-surgeon">Surgeon or clinic (optional)</label>
+                    <input type="text" id="sc-f-surgeon" name="surgeon" placeholder="Name or 'prefer not to share'">
+                </div>
+                <div class="sc-field">
+                    <label for="sc-f-insurance">Insurance situation <span class="sc-required">*</span></label>
+                    <select id="sc-f-insurance" name="insurance" required>
+                        <option value="">Select...</option>
+                        <option value="insured">I had insurance</option>
+                        <option value="selfpay">I paid myself (self-pay)</option>
+                        <option value="public">Public / national health system</option>
+                        <option value="other">Other / prefer not to say</option>
+                    </select>
+                </div>
+                <div class="sc-field">
+                    <label for="sc-f-billed">Amount billed or quoted</label>
+                    <input type="text" id="sc-f-billed" name="billed" placeholder="e.g. $30,000 or £12,000">
+                </div>
+                <div class="sc-field">
+                    <label for="sc-f-paid">What you actually paid out of pocket <span class="sc-required">*</span></label>
+                    <input type="text" id="sc-f-paid" name="paid" required placeholder="e.g. $2,500 or $0">
+                </div>
+                <div class="sc-field">
+                    <label for="sc-f-year">Year of surgery</label>
+                    <input type="text" id="sc-f-year" name="year" placeholder="e.g. 2025">
+                </div>
+                <div class="sc-field">
+                    <label for="sc-f-wait">Wait time (if relevant)</label>
+                    <input type="text" id="sc-f-wait" name="wait_time" placeholder="e.g. 3 months, 2 years">
+                </div>
+            </div>
+
+            <div class="sc-field sc-field-full">
+                <label for="sc-f-notes">Additional details</label>
+                <textarea id="sc-f-notes" name="notes" rows="4" placeholder="What was included? Stage? OR time? Billing notes? Anything you wish you'd known..."></textarea>
+            </div>
+
+            <div class="sc-form-footer">
+                <p class="sc-form-privacy">Your submission is sent securely to the site administrator for review. No account required. Anonymous submissions are welcome.</p>
+                <button type="submit" class="sc-btn sc-btn-solid sc-btn-submit">Submit report</button>
+            </div>
+        </form>
+
+        <div class="sc-confirm" id="sc-confirm" hidden>
+            <div class="sc-confirm-inner">
+                <h3>Thank you for sharing!</h3>
+                <p>Your report has been received. The site administrator will review it and, once approved, it will appear on this page alongside the other reports.</p>
+                <p>This review step keeps the data reliable and prevents spam. Most submissions are approved within a few days.</p>
+                <button type="button" class="sc-btn sc-btn-ghost" id="sc-confirm-dismiss">Close</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sc-section sc-about-hover-wrap">
+        <span class="sc-about-trigger">About this tracker
+            <span class="sc-about-tooltip">
+                <strong>What this is:</strong> a community-gathered collection of real endometriosis surgery costs, inspired by salary-transparency projects. Pay transparency changed how people negotiate work; cost transparency can do the same for endo care, where pricing is routinely gatekept until the bill arrives.<br><br>
+                <strong>What this isn't:</strong> verified, complete, or advice. Figures are unedited beyond formatting, may mix years and currencies, and reflect individual plans, hospitals, and negotiations that won't match yours exactly. Nothing here is medical, financial, or legal advice; always confirm costs directly with your provider and insurer before making decisions.<br><br>
+                Where surgeons are named, entries describe billing experiences, not surgical skill or quality of care. Names appear because patients chose to share them, exactly as they would in a support group.<br><br>
+                <strong>Spotted an error, or want your entry updated or removed?</strong> <a href="mailto:bloomedhealth@pm.me">Contact us</a>; corrections are made quickly.
+            </span>
+        </span>
+    </section>
+</article>

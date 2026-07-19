@@ -130,4 +130,3 @@ The intersection of Endometriosis and fertility struggles can be emotionally dev
 - Conservative surgery improves spontaneous pregnancy rates in early-stage Endometriosis
 - AMH testing helps assess ovarian reserve and guide fertility planning
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

@@ -27,7 +27,7 @@
         toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
     }
 
-    // Apply persisted state on load; default-collapse groups 1 & 2
+    // Apply persisted state on load; collapse groups 1 & 2 by default
     var DEFAULT_COLLAPSED = ['nav-group-1', 'nav-group-2'];
     var hasStored = false;
     try { hasStored = localStorage.getItem(STORAGE_KEY) !== null; } catch (e) {}

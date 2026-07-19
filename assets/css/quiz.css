@@ -1,0 +1,272 @@
+/*
+ * quiz.css — Quiz page styles
+ *
+ * Progress bar, cards, results, steps, reset, context card.
+ * Mobile-first. Split from pages.css.
+ */
+
+/* =====================================================================
+ * Quiz: Context card (above quiz)
+ * ===================================================================== */
+
+.quiz-context-card {
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.quiz-context-card p {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.quiz-context-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* =====================================================================
+ * Quiz: Interactive symptom quiz
+ * ===================================================================== */
+
+.quiz-progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.quiz-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--surface-raised);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.quiz-progress-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: var(--radius-pill);
+  transition: width 300ms ease;
+}
+
+.quiz-counter {
+  margin: 0;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.quiz-counter-num {
+  color: var(--accent);
+  font-size: var(--text-lg);
+  font-weight: 800;
+}
+
+.quiz-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+@media (min-width: 48rem) {
+  .quiz-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.quiz-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-md);
+  background: var(--surface-raised);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+  min-block-size: var(--tap-min);
+}
+
+.quiz-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-card.checked {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(232, 184, 74, 0.15);
+}
+
+.quiz-card input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.quiz-card-text {
+  font-size: var(--text-sm);
+  line-height: 1.4;
+  color: var(--text);
+}
+
+.quiz-card-check {
+  position: absolute;
+  top: var(--space-sm);
+  inset-inline-end: var(--space-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: transparent;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.quiz-card.checked .quiz-card-check {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #000;
+}
+
+.quiz-results {
+  margin-bottom: var(--space-md);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.quiz-results:not(.has-content) {
+  display: none;
+}
+
+.quiz-results-inner {
+  padding: var(--space-lg);
+}
+
+.quiz-results-mild {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+}
+
+.quiz-results-match {
+  background: var(--accent-bg);
+  border: 1.5px solid var(--accent);
+}
+
+.quiz-results-heading {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.quiz-results-inner p {
+  margin: 0 0 var(--space-md);
+  line-height: 1.6;
+}
+
+.quiz-results-inner p:last-child {
+  margin-bottom: 0;
+}
+
+.quiz-next-steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+@media (min-width: 48rem) {
+  .quiz-next-steps {
+    flex-direction: row;
+    gap: var(--space-md);
+  }
+}
+
+.quiz-step-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
+  min-block-size: var(--tap-min);
+}
+
+.quiz-step-link:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: var(--text);
+}
+
+.quiz-step-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  color: #000;
+  font-weight: 800;
+  font-size: var(--text-sm);
+  flex-shrink: 0;
+}
+
+.quiz-step-text {
+  flex: 1;
+}
+
+.quiz-reset {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-md);
+  min-block-size: var(--tap-min);
+  background: var(--surface-raised);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.quiz-reset:hover {
+  background: var(--accent-bg-hover);
+  color: var(--text);
+}
+
+.quiz-reset:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-card { transition: border-color var(--transition-fast), background-color var(--transition-fast); }
+  .quiz-card:hover,
+  .quiz-card.checked { transform: none; box-shadow: none; }
+  .quiz-progress-fill { transition: none; }
+}

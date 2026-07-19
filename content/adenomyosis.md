@@ -78,4 +78,3 @@ Adenomyosis can affect fertility and increase miscarriage risk by interfering wi
 
 ---
 
-*This information is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for diagnosis and treatment decisions.*

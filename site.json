@@ -23,6 +23,7 @@
             "label": "I have endo or adeno",
             "i18n_key": "nav_group_already_diagnosed",
             "items": [
+                { "name": "Surgery costs", "url": "/surgery-costs/", "slug": "surgery-costs", "icon": "medications", "i18n_nav": "nav_surgery_costs", "i18n_desc": "desc_surgery_costs", "description": "Real prices from 364+ patients." },
                 { "name": "Treatments", "url": "/treatments/", "slug": "treatments", "icon": "medications", "i18n_nav": "nav_treatments", "i18n_desc": "desc_treatments", "description": "Surgical, hormonal, and supportive." },
                 { "name": "Medications", "url": "/medications/", "slug": "medications", "icon": "medications", "i18n_nav": "nav_medications", "i18n_desc": "desc_medications", "description": "Treatment and medication guide." },
                 { "name": "Fertility", "url": "/fertility/", "slug": "fertility", "icon": "fertility", "i18n_nav": "nav_fertility", "i18n_desc": "desc_fertility", "description": "Fertility, IVF, and pregnancy." },
@@ -50,120 +51,48 @@
         { "name": "Crisis support", "url": "/mental-health/#crisis-support", "slug": "crisis", "icon": "mental-health", "i18n_nav": "nav_crisis" },
         { "name": "Privacy", "url": "/privacy/", "slug": "privacy", "icon": "about", "i18n_nav": "nav_privacy" }
     ],
-    "colors": {
-        "brand": {
-            "gold": "#C4982A",
-            "gold_light": "#E8B84A",
-            "gold_bright": "#F0D060",
-            "gold_warm": "#FFD166",
-            "gold_hover": "#FFE085",
-            "plum": "#6B3A5C",
-            "plum_dark": "#5C1A3A",
-            "plum_deep": "#5A2D3E",
-            "burgundy": "#6B2D3E",
-            "brown": "#8B4513",
-            "error": "#dc3545"
-        },
-        "gradients": {
-            "sidebar": "linear-gradient(180deg, #C4873A 0%, #9B5A3A 40%, #6B3A5C 100%)",
-            "component": "linear-gradient(160deg, #C4873A 0%, #A0694A 40%, #6B3A5C 100%)",
-            "component_light": "linear-gradient(160deg, #CA9654 0%, #AA7B60 40%, #794E6B 100%)",
-            "modal": "linear-gradient(180deg, #C4873A 0%, #8B2B5A 100%)",
-            "tile": "linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%)",
-            "tile_light": "linear-gradient(145deg, #7D4A6C 0%, #5C2D4E 100%)",
-            "back_to_top": "linear-gradient(180deg, #D4A830 0%, #C4982A 40%, #8B3A4A 70%, #4A0E1B 100%)",
-            "back_to_top_hover": "linear-gradient(180deg, #E0B838 0%, #D4A830 40%, #9B4A5A 70%, #5C1525 100%)"
-        },
-        "sidebar": {
-            "moon_sun_background_color": "#5A2D3E",
-            "moon_sun_color": "#F0D060",
-            "sidebar_a_color": "#1A0A10",
-            "sidebar_bg_color": "#C4873A",
-            "sidebar_h1_color": "#1A0A10",
-            "sidebar_img_border_color": "#5A2D3E",
-            "sidebar_p_color": "#3D1F30",
-            "sidebar_socials_color": "#1A0A10"
-        },
-        "light": {
-            "code_color": "#2D1525",
-            "code_background_color": "#F0E0C8",
-            "code_block_color": "#F5E6D0",
-            "code_block_background_color": "#2D1525",
-            "content_bg_color": "#F5E6D0",
-            "date_color": "#7A5A3A",
-            "link_color": "#8B4513",
-            "link_hover_color": "#6B2D3E",
-            "heading_color": "#2D1525",
-            "list_color": "#4A2A1A",
-            "post_title_color": "#2D1525",
-            "table_border_color": "#D4B896",
-            "table_stripe_color": "#F0DCC4",
-            "table_header_bg": "rgba(139, 69, 19, 0.12)",
-            "text_color": "#2D1525",
-            "muted_color": "#7A5A3A",
-            "surface_color": "#EDD8BC",
-            "border_color": "rgba(139, 69, 19, 0.15)",
-            "scrollbar_thumb": "rgba(0, 0, 0, 0.2)",
-            "scrollbar_track": "rgba(0, 0, 0, 0.03)"
-        },
-        "dark": {
-            "code_color": "#F5E6D0",
-            "code_background_color": "#3D1F30",
-            "code_block_color": "#F5E6D0",
-            "code_block_background_color": "#2D1525",
-            "content_bg_color": "#1A0E14",
-            "date_color": "#C4A07A",
-            "link_color": "#E8B84A",
-            "link_hover_color": "#F0D060",
-            "heading_color": "#F0D060",
-            "list_color": "#D4B896",
-            "post_title_color": "#F0D060",
-            "table_border_color": "#5A2D3E",
-            "table_stripe_color": "#2D1525",
-            "table_header_bg": "rgba(196, 152, 42, 0.2)",
-            "text_color": "#F5E6D0",
-            "muted_color": "#C4A07A",
-            "surface_color": "#2D1525",
-            "border_color": "rgba(255, 255, 255, 0.1)",
-            "scrollbar_thumb": "rgba(255, 255, 255, 0.25)",
-            "scrollbar_track": "rgba(255, 255, 255, 0.05)"
-        }
-    },
     "semantic": {
         "light": {
-            "text": "#2D1525",
+            "text": "#3D2435",
             "text-muted": "#7A5A3A",
+            "heading": "#3D2435",
             "surface": "#F5E6D0",
             "surface-raised": "#EDD8BC",
-            "surface-deep": "#6B3A5C",
+            "surface-deep": "#7D4E6E",
             "accent": "#8B4513",
-            "accent-hover": "#6B2D3E",
+            "accent-hover": "#7D4060",
             "border": "rgba(139, 69, 19, 0.15)",
-            "code": "#2D1525",
+            "code": "#3D2435",
             "code-bg": "#F0E0C8",
             "accent-bg": "rgba(139, 69, 19, 0.1)",
             "accent-bg-hover": "rgba(139, 69, 19, 0.2)",
+            "table-header-bg": "rgba(139, 69, 19, 0.12)",
+            "table-stripe": "#F0DCC4",
             "error": "#A41A1A"
         },
         "dark": {
             "text": "#F5E6D0",
             "text-muted": "#C4A07A",
-            "surface": "#1A0E14",
-            "surface-raised": "#2D1525",
-            "surface-deep": "#5A2D3E",
+            "heading": "#F0D060",
+            "surface": "#2A1A24",
+            "surface-raised": "#3D2435",
+            "surface-deep": "#6B4A5C",
             "accent": "#E8B84A",
             "accent-hover": "#F0D060",
-            "border": "rgba(255, 255, 255, 0.1)",
+            "border": "rgba(255, 255, 255, 0.12)",
             "code": "#F5E6D0",
-            "code-bg": "#3D1F30",
+            "code-bg": "#4A2E40",
             "accent-bg": "rgba(232, 184, 74, 0.1)",
             "accent-bg-hover": "rgba(232, 184, 74, 0.2)",
+            "table-header-bg": "rgba(196, 152, 42, 0.2)",
+            "table-stripe": "#3D2435",
             "error": "#F87171"
         },
         "constant": {
-            "text-on-warm": "#1A0A10",
+            "text-on-warm": "#F5E6D0",
             "text-on-deep": "#F5E6D0",
-            "surface-warm": "#C4873A",
+            "surface-warm": "#7D4E6E",
+            "accent-warm": "#FFD166",
             "border-strong": "#C4982A"
         },
         "scale": {
@@ -190,8 +119,8 @@
             "transition-fast": "120ms ease",
             "transition-normal": "200ms ease",
             "transition-slow": "350ms ease",
-            "gradient-warm": "linear-gradient(180deg, #C4873A 0%, #9B5A3A 40%, #6B3A5C 100%)",
-            "gradient-deep": "linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%)"
+            "gradient-warm": "#7D4E6E",
+            "gradient-deep": "#7D4E6E"
         }
     },
     "css_files": [
@@ -200,11 +129,17 @@
         "css/utilities.css",
         "css/layout.css",
         "css/components.css",
-        "css/pages.css",
+        "css/home.css",
+        "css/quiz.css",
+        "css/notable-people.css",
+        "css/take-action.css",
         "css/carousel.css",
-        "css/tracker.css"
+        "css/tracker.css",
+        "css/surgery-costs.css",
+        "css/ambient.css"
     ],
     "js_files": [
+        "js/shell.js",
         "js/codeblock.js",
         "js/search.js",
         "js/i18n.js",
@@ -215,6 +150,7 @@
         "js/take-action.js",
         "js/person-modal.js",
         "js/tracker.js",
-        "js/quiz.js"
+        "js/quiz.js",
+        "js/surgery-costs.js"
     ]
 }

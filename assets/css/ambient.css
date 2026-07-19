@@ -1,0 +1,118 @@
+/*
+ * ambient.css — Subtle animated background glow for dark mode
+ *
+ * Uses GPU-accelerated transform + opacity on blurred pseudo-elements
+ * for smooth, fluid motion. Only active in dark mode.
+ * Respects prefers-reduced-motion.
+ */
+
+.ambient-glow {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.ambient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  will-change: transform;
+}
+
+/* Dark mode orbs — complementary purple tones */
+.dark-theme .ambient-orb-1 {
+  background: rgba(100, 60, 140, 0.16);
+}
+
+.dark-theme .ambient-orb-2 {
+  background: rgba(140, 90, 180, 0.1);
+}
+
+.dark-theme .ambient-orb-3 {
+  background: rgba(80, 50, 120, 0.13);
+}
+
+.dark-theme .ambient-orb-4 {
+  background: rgba(120, 70, 160, 0.09);
+}
+
+/* Light mode orbs — visible soft purple wash */
+body:not(.dark-theme) .ambient-orb-1 {
+  background: rgba(130, 80, 170, 0.18);
+}
+
+body:not(.dark-theme) .ambient-orb-2 {
+  background: rgba(160, 100, 200, 0.12);
+}
+
+body:not(.dark-theme) .ambient-orb-3 {
+  background: rgba(110, 70, 150, 0.14);
+}
+
+body:not(.dark-theme) .ambient-orb-4 {
+  background: rgba(180, 130, 210, 0.10);
+}
+
+.ambient-orb-1 {
+  width: 55vw;
+  height: 55vw;
+  top: -15%;
+  left: -15%;
+  animation: orb-drift-1 25s ease-in-out infinite alternate;
+}
+
+.ambient-orb-2 {
+  width: 45vw;
+  height: 45vw;
+  bottom: -10%;
+  right: -10%;
+  animation: orb-drift-2 30s ease-in-out infinite alternate;
+}
+
+.ambient-orb-3 {
+  width: 40vw;
+  height: 40vw;
+  top: 40%;
+  left: 35%;
+  animation: orb-drift-3 22s ease-in-out infinite alternate;
+}
+
+.ambient-orb-4 {
+  width: 35vw;
+  height: 35vw;
+  top: 10%;
+  right: 20%;
+  animation: orb-drift-4 28s ease-in-out infinite alternate;
+}
+
+@keyframes orb-drift-1 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(15vw, 20vh) scale(1.1); }
+  100% { transform: translate(5vw, 10vh) scale(0.95); }
+}
+
+@keyframes orb-drift-2 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-20vw, -15vh) scale(1.15); }
+  100% { transform: translate(-8vw, -25vh) scale(1.05); }
+}
+
+@keyframes orb-drift-3 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-10vw, -10vh) scale(1.2); }
+  100% { transform: translate(12vw, 5vh) scale(0.9); }
+}
+
+@keyframes orb-drift-4 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-12vw, 18vh) scale(1.12); }
+  100% { transform: translate(8vw, -8vh) scale(0.92); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-orb {
+    animation: none;
+  }
+}

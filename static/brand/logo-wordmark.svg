@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48">
+  <style>
+    .wordmark { font-family: 'Figtree', system-ui, sans-serif; font-weight: 700; font-size: 36px; fill: #3D2435; }
+    @media (prefers-color-scheme: dark) { .wordmark { fill: #F5E6D0; } }
+  </style>
+  <text x="100" y="35" text-anchor="middle" class="wordmark">1 in 7</text>
+</svg>

@@ -2,8 +2,6 @@
 // Activates only on the notable-people page. Each .person-card[role="button"]
 // opens a modal showing the person's avatar, name, role, condition, and bio.
 (function() {
-    if (!/\/notable-people\/?$/.test(window.location.pathname)) return;
-
     var cards = document.querySelectorAll('.person-card[role="button"]');
     if (!cards.length) return;
 
@@ -159,4 +157,20 @@
             }
         });
     });
+
+    // ── Auto-open from URL hash (e.g. #Daisy-Ridley) ─────────────────
+    function openFromHash() {
+        var hash = window.location.hash.replace('#', '');
+        if (!hash) return;
+        var target = decodeURIComponent(hash).replace(/-/g, ' ').toLowerCase();
+        for (var i = 0; i < cards.length; i++) {
+            var name = (cards[i].querySelector('.person-name') || {}).textContent || '';
+            if (name.toLowerCase() === target) {
+                cards[i].scrollIntoView({ block: 'center' });
+                open(cards[i]);
+                break;
+            }
+        }
+    }
+    openFromHash();
 })();

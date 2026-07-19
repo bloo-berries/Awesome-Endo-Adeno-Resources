@@ -185,7 +185,7 @@ textarea.tracker-input {
 .chart-bar {
     width: 100%;
     max-width: 20px;
-    background: var(--gradient-component, var(--color-gold));
+    background: var(--surface-deep);
     border-radius: 2px 2px 0 0;
     min-height: 2px;
 }
