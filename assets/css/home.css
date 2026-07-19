@@ -409,6 +409,8 @@ a.home-section-link:focus-visible {
   overflow-x: auto;
   padding: var(--space-xs) 0 var(--space-sm);
   scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 1.5rem, black calc(100% - 1.5rem), transparent);
+  mask-image: linear-gradient(to right, transparent, black 1.5rem, black calc(100% - 1.5rem), transparent);
 }
 
 @media (min-width: 48rem) {
