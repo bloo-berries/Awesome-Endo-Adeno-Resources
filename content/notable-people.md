@@ -16,7 +16,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
 <div class="people-grid">
   <div class="person-card" role="button" tabindex="0"
        data-bio="Kenyan TV and radio presenter (d. 2024)."
-       data-detail="Underwent 20+ surgeries for Stage IV thoracic Endometriosis, including treatment with Dr. Ken Sinervo in Atlanta. She became Kenya&#39;s most prominent endo advocate before her passing.">
+       data-detail="Underwent 20+ surgeries for Stage IV thoracic Endometriosis, including treatment with Dr. Ken Sinervo in Atlanta. She became Kenya&#39;s most prominent endo advocate before her passing."
+       data-link="https://www.endofound.org/njambi-koikai-endometriosis-advocate-and-kenyan-media-personality-has-died">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Njambi-Koikai.webp" alt="Njambi Koikai" loading="lazy"></div>
     <strong class="person-name">Njambi Koikai</strong>
     <span class="person-role">TV & Radio Presenter, Kenya (d. 2024)</span>
@@ -33,7 +34,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Kenyan media personality."
-       data-detail="Underwent Endometriosis surgery in 2017 and has spoken about her experience to raise awareness in Kenya.">
+       data-detail="Underwent Endometriosis surgery in 2017 and has spoken about her experience to raise awareness in Kenya."
+       data-link="https://www.instagram.com/cirumuriuki/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Ciru-Muriuki.webp" alt="Ciru Muriuki" loading="lazy"></div>
     <strong class="person-name">Ciru Muriuki</strong>
     <span class="person-role">Media Personality, Kenya</span>
@@ -41,7 +43,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Kenyan socialite and lawyer."
-       data-detail="Underwent surgery to remove Endometriosis-related cysts and has spoken about the condition publicly.">
+       data-detail="Underwent surgery to remove Endometriosis-related cysts and has spoken about the condition publicly."
+       data-link="https://www.instagram.com/coaborishade/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Corazon-Kwamboka.webp" alt="Corazon Kwamboka" loading="lazy"></div>
     <strong class="person-name">Corazon Kwamboka</strong>
     <span class="person-role">Socialite & Lawyer, Kenya</span>
@@ -49,7 +52,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Nigerian businesswoman."
-       data-detail="Has undergone multiple Endometriosis surgeries since age 13 and advocates for awareness across West Africa.">
+       data-detail="Has undergone multiple Endometriosis surgeries since age 13 and advocates for awareness across West Africa."
+       data-link="https://www.instagram.com/tayosobola/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Tayo-Sobola-Soleye.webp" alt="Tayo Sobola-Soleye" loading="lazy"></div>
     <strong class="person-name">Tayo Sobola-Soleye</strong>
     <span class="person-role">Businesswoman, Nigeria</span>
@@ -121,7 +125,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Australian TV personality from Love Island Australia."
-       data-detail="Has undergone 16 Endometriosis surgeries and had an ovary removed, becoming one of Australia&#39;s most vocal endo advocates.">
+       data-detail="Has undergone 16 Endometriosis surgeries and had an ovary removed, becoming one of Australia&#39;s most vocal endo advocates."
+       data-link="https://www.instagram.com/erin.barnett/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Erin-Barnett.webp" alt="Erin Barnett" loading="lazy"></div>
     <strong class="person-name">Erin Barnett</strong>
     <span class="person-role">TV Personality, Love Island AU</span>
@@ -138,7 +143,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Australian jewelry designer and author."
-       data-detail="Diagnosed with Stage IV Endometriosis, underwent surgery, and has written about her experience in her memoir.">
+       data-detail="Diagnosed with Stage IV Endometriosis, underwent surgery, and has written about her experience in her memoir."
+       data-link="https://samanthawills.com/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Samantha-Wills.webp" alt="Samantha Wills" loading="lazy"></div>
     <strong class="person-name">Samantha Wills</strong>
     <span class="person-role">Jewelry Designer & Author</span>
@@ -146,7 +152,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Australian actress known for Home and Away."
-       data-detail="Has undergone 3 Endometriosis surgeries since age 21 and has spoken about the condition&#39;s impact on her life.">
+       data-detail="Has undergone 3 Endometriosis surgeries since age 21 and has spoken about the condition&#39;s impact on her life."
+       data-link="https://www.instagram.com/sophie_dillman/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Sophie-Dillman.webp" alt="Sophie Dillman" loading="lazy"></div>
     <strong class="person-name">Sophie Dillman</strong>
     <span class="person-role">Actress, Home and Away</span>
@@ -163,7 +170,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Australian influencer and entrepreneur."
-       data-detail="Had her reproductive organs removed due to severe Endometriosis and has shared her journey with her online following.">
+       data-detail="Had her reproductive organs removed due to severe Endometriosis and has shared her journey with her online following."
+       data-link="https://www.instagram.com/thessy_k/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Thessy-Batsinilas.webp" alt="Thessy Batsinilas" loading="lazy"></div>
     <strong class="person-name">Thessy Batsinilas</strong>
     <span class="person-role">Influencer & Entrepreneur</span>
@@ -171,7 +179,8 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   </div>
   <div class="person-card" role="button" tabindex="0"
        data-bio="Australian TV presenter and podcaster."
-       data-detail="Has confirmed undergoing surgery for Endometriosis and has discussed the condition on her podcast.">
+       data-detail="Has confirmed undergoing surgery for Endometriosis and has discussed the condition on her podcast."
+       data-link="https://www.instagram.com/zoebmarshall/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Zoe-Marshall.webp" alt="Zoe Marshall" loading="lazy"></div>
     <strong class="person-name">Zoe Marshall</strong>
     <span class="person-role">TV Presenter & Podcaster</span>
@@ -293,7 +302,6 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   <div class="person-card" role="button" tabindex="0"
        data-bio="American singer-songwriter known for Without Me and Bad at Love."
        data-detail="Has undergone multiple Endometriosis surgeries from 2017 onward and has been outspoken about the condition&#39;s impact on their life and fertility."
-       data-wiki="https://en.wikipedia.org/wiki/Halsey_(singer)"
        data-wiki="https://en.wikipedia.org/wiki/Halsey_(singer)">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/halsey.webp" alt="Halsey" loading="lazy"></div>
     <strong class="person-name">Halsey</strong>
@@ -393,7 +401,6 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   <div class="person-card" role="button" tabindex="0"
        data-bio="American R&amp;B singer known for The Boy Is Mine and Angel of Mine."
        data-detail="Underwent an 8-hour Endometriosis surgery in 2017, treated by Dr. Ceana Nezhat in Atlanta, and has spoken about years of debilitating symptoms."
-       data-wiki="https://en.wikipedia.org/wiki/Monica_(singer)"
        data-wiki="https://en.wikipedia.org/wiki/Monica_(singer)">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Monica.webp" alt="Monica" loading="lazy"></div>
     <strong class="person-name">Monica</strong>
@@ -471,7 +478,6 @@ keywords: ["celebrities with Endometriosis", "famous people Endometriosis", "End
   <div class="person-card" role="button" tabindex="0"
        data-bio="Brazilian pop star and singer-songwriter."
        data-detail="Underwent Endometriosis surgery in 2022 after 9 years undiagnosed, and has used her global platform to raise awareness, especially in Latin America."
-       data-wiki="https://en.wikipedia.org/wiki/Anitta_(singer)"
        data-wiki="https://en.wikipedia.org/wiki/Anitta_(singer)">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Anitta.webp" alt="Anitta" loading="lazy"></div>
     <strong class="person-name">Anitta</strong>

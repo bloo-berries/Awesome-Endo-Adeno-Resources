@@ -18,7 +18,8 @@ Endometriosis is not "just a bad period." It is a systemic disease that can affe
        data-bio="Kenyan TV and radio presenter (d. 2024)."
        data-detail="Underwent 20+ surgeries for Stage IV thoracic Endometriosis, including treatment with Dr. Ken Sinervo in Atlanta. She became Kenya&#39;s most prominent endo advocate before her passing."
        data-i18n-bio="person_njambi_koikai_bio"
-       data-i18n-detail="person_njambi_koikai_detail">
+       data-i18n-detail="person_njambi_koikai_detail"
+       data-link="https://www.endofound.org/njambi-koikai-endometriosis-advocate-and-kenyan-media-personality-has-died">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/Njambi-Koikai.webp" alt="Njambi Koikai" loading="lazy"></div>
     <strong class="person-name">Njambi Koikai</strong>
     <span class="person-years">1985–2024</span>
@@ -41,7 +42,8 @@ Endometriosis is not "just a bad period." It is a systemic disease that can affe
        data-bio="Nurse, founder of The Endometriosis Coalition (d. 2026)."
        data-detail="Founded The Endometriosis Coalition (The Endo Co) and built a community of over 23,000 followers sharing her journey with Endometriosis, adenomyosis, and dermatomyositis. She died at age 39 from a saddle pulmonary embolism."
        data-i18n-bio="person_jenneh_rishe_bio"
-       data-i18n-detail="person_jenneh_rishe_detail">
+       data-i18n-detail="person_jenneh_rishe_detail"
+       data-link="https://www.instagram.com/theendometriosiscoalition/">
     <div class="person-avatar"><img src="{{BASE_URL}}images/people/jenneh-rishe.webp" alt="Jenneh Rishe" loading="lazy"></div>
     <strong class="person-name">Jenneh Rishe</strong>
     <span class="person-years">1986–2026</span>
