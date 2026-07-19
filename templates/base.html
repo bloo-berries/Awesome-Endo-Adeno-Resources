@@ -47,8 +47,8 @@
     {{CSS_VARIABLES}}
     {{STRUCTURED_DATA}}
     <script>
-    // Theme detection before body renders (prevents FOUC)
-    (function(){var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.classList.add('dark-boot');else if(t!=='light'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.classList.add('dark-boot');})();
+    // Theme detection before body renders (prevents FOUC). Default is light.
+    (function(){if(localStorage.getItem('theme')==='dark')document.documentElement.classList.add('dark-boot');})();
     </script>
 </head>
 <body>
