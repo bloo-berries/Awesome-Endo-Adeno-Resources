@@ -119,3 +119,6 @@
     padding: 0;
 }
 
+/* RTL: flip arrow direction so "next" points left */
+[dir="rtl"] .carousel-arrow svg { transform: scaleX(-1); }
+

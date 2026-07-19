@@ -136,7 +136,8 @@
         "css/carousel.css",
         "css/tracker.css",
         "css/surgery-costs.css",
-        "css/ambient.css"
+        "css/ambient.css",
+        "css/print.css"
     ],
     "js_files": [
         "js/shell.js",

@@ -1,0 +1,49 @@
+/* ===== Print Stylesheet ===== */
+@media print {
+    /* Hide non-content UI */
+    .topbar,
+    .sidebar,
+    .sidebar-backdrop,
+    .bottomnav,
+    .back-to-top-v2,
+    .ambient-glow,
+    .u-skip-link,
+    .carousel-controls,
+    .carousel-credit,
+    .home-hero-actions,
+    .home-people-strip,
+    .home-videos-grid,
+    .search-results,
+    #search-input { display: none; }
+
+    /* Reset layout */
+    body {
+        background: #fff;
+        color: #000;
+        font-size: 12pt;
+        line-height: 1.6;
+    }
+    .shell { display: block; }
+    .content {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Readable links */
+    a { color: #000; text-decoration: underline; }
+    a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #555; }
+    a[href^="#"]::after { content: none; }
+
+    /* Avoid page breaks inside */
+    h2, h3, h4 { break-after: avoid; }
+    table, blockquote, details { break-inside: avoid; }
+
+    /* Open all details for print */
+    details { open: ; }
+    details > summary { font-weight: 700; }
+
+    /* Tables */
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: start; }
+}
