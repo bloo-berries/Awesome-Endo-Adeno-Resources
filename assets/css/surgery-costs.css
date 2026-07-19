@@ -305,9 +305,8 @@
     position: sticky;
     top: 0;
     z-index: 20;
-    background: var(--surface);
+    background: transparent;
     padding: var(--space-sm) 0 var(--space-md);
-    border-bottom: 1px solid var(--border);
     display: grid;
     grid-template-columns: 1fr;
     gap: 8px;

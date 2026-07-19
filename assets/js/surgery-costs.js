@@ -56,7 +56,10 @@
   var emptyEl = document.getElementById('sc-empty');
   var chipsEl = document.getElementById('sc-countries');
 
-  var state = { country: '' };
+  var BATCH = 10;
+  var moreWrap = document.getElementById('sc-more-wrap');
+  var moreBtn = document.getElementById('sc-more');
+  var state = { country: '', shown: BATCH };
 
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
   function fmt(n) { return '$' + n.toLocaleString('en-US'); }
@@ -118,6 +121,7 @@
     b.addEventListener('click', function() {
       state.country = (state.country === key && key !== '') ? '' : key;
       if (key === '') state.country = '';
+      state.shown = BATCH;
       syncChips();
       apply();
       document.getElementById('sc-reports').scrollIntoView({ behavior: 'smooth' });
@@ -202,25 +206,41 @@
       });
     }
 
+    var slice = visible.slice(0, state.shown);
     var html = '';
-    visible.forEach(function(r) { html += renderCard(r); });
+    slice.forEach(function(r) { html += renderCard(r); });
     cardsWrap.innerHTML = html;
     cardsWrap.style.display = 'grid';
 
+    var remaining = visible.length - state.shown;
+    if (remaining > 0) {
+      moreWrap.hidden = false;
+      var next = Math.min(remaining, BATCH);
+      moreBtn.textContent = 'Show ' + next + ' more of ' + remaining + ' remaining';
+    } else {
+      moreWrap.hidden = true;
+    }
+
     emptyEl.hidden = visible.length !== 0;
-    countEl.textContent = 'Showing ' + visible.length + ' of ' + DATA.length +
-      ' report' + (DATA.length === 1 ? '' : 's') +
+    countEl.textContent = 'Showing ' + Math.min(state.shown, visible.length) + ' of ' + visible.length +
+      ' report' + (visible.length === 1 ? '' : 's') +
       (visible.length !== DATA.length ? ' (filtered)' : '');
   }
 
-  q.addEventListener('input', function() { apply(); });
-  fIns.addEventListener('change', function() { apply(); });
-  fSort.addEventListener('change', function() { apply(); });
+  q.addEventListener('input', function() { state.shown = BATCH; apply(); });
+  fIns.addEventListener('change', function() { state.shown = BATCH; apply(); });
+  fSort.addEventListener('change', function() { state.shown = BATCH; apply(); });
+
+  moreBtn.addEventListener('click', function() {
+    state.shown += BATCH;
+    apply();
+  });
 
   Array.prototype.forEach.call(document.querySelectorAll('.sc-path'), function(btn) {
     btn.addEventListener('click', function() {
       fIns.value = btn.getAttribute('data-ins');
       state.country = '';
+      state.shown = BATCH;
       syncChips();
       apply();
       document.getElementById('sc-reports').scrollIntoView({ behavior: 'smooth' });
