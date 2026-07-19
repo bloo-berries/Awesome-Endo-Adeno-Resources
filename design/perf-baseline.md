@@ -1,4 +1,4 @@
-# Perf baseline — pre-Phase 2
+# Perf baseline - pre-Phase 2
 
 Recorded 2026-05-27 before any Phase 2 implementation.
 

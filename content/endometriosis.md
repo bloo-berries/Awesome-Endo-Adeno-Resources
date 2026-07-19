@@ -4,6 +4,7 @@ description: "Comprehensive Endometriosis guide covering symptoms, stages, diagn
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
+toc: false
 tags: ["Endometriosis", "diagnosis", "treatment", "symptoms"]
 keywords: ["Endometriosis symptoms", "Endometriosis stages", "Endometriosis treatment", "chronic pelvic pain", "Endometriosis diagnosis"]
 ---

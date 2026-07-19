@@ -5,6 +5,7 @@ date: 2025-06-01
 lastmod: 2025-06-01
 tags: ["mental health", "depression", "anxiety", "chronic pain", "support"]
 keywords: ["mental health", "Endometriosis depression", "chronic pain anxiety", "therapy", "coping strategies"]
+toc: false
 ---
 
 # Mental Health

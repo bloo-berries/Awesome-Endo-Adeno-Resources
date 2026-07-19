@@ -1,6 +1,6 @@
-# 1 in 7 — Information Architecture
+# 1 in 7 - Information Architecture
 
-Status: **draft v2 — addresses adversarial review findings**. Spec for the Phase 1 IA reset of the UI/UX overhaul. Read alongside `design/css-architecture.md` (Phase 2) and `design/brand.md` (legacy — will be rewritten in Phase 6).
+Status: **draft v2 - addresses adversarial review findings**. Spec for the Phase 1 IA reset of the UI/UX overhaul. Read alongside `design/css-architecture.md` (Phase 2) and `design/brand.md` (legacy - will be rewritten in Phase 6).
 
 Changes from v1: resolved all "open questions" into explicit decisions; added Privacy & data handling (§7); added URL stability table (§4); reconciled Treatments hub and comorbidities (§3, §5); rewrote i18n strategy to honor the no-English-only-ship constraint (§12); scoped action-modal port realistically (§8); scoped quiz feature realistically (§6).
 
@@ -14,7 +14,7 @@ Two competing nav systems and no defined user journey:
 - The **homepage filter cards** re-list the same 18 items as in-page filters that render stripped-down page excerpts inside the home page.
 - The **action modal** offers a third path (Symptoms / Connect / Awareness) that overlaps with the above.
 
-A first-time visitor lands on the homepage and sees seven competing sections with no clear first step. On mobile the entire sidebar — including search and language picker — is hidden behind a hamburger.
+A first-time visitor lands on the homepage and sees seven competing sections with no clear first step. On mobile the entire sidebar - including search and language picker - is hidden behind a hamburger.
 
 **Goal:** one nav, three explicit journeys, search elevated to a top-bar primary affordance, modal absorbed into a real page, mobile-first ergonomics throughout.
 
@@ -34,8 +34,8 @@ Every visitor maps to one of three intents on arrival. The IA must make each pat
 
 Real users span all three intents (newly diagnosed people are also learning while seeking care). The nav resolves this two ways:
 
-1. **A persistent "Browse all topics" entry** at the bottom of the sidebar that opens an index of every page, grouped alphabetically. Not a journey — an escape hatch.
-2. **Cross-links at the end of every page** — each content page closes with "Related" links spanning journeys, so a user reading `/diagnosis/` (Journey 1) sees curated links into `/medications/` (Journey 2) and `/research/` (Journey 3).
+1. **A persistent "Browse all topics" entry** at the bottom of the sidebar that opens an index of every page, grouped alphabetically. Not a journey - an escape hatch.
+2. **Cross-links at the end of every page** - each content page closes with "Related" links spanning journeys, so a user reading `/diagnosis/` (Journey 1) sees curated links into `/medications/` (Journey 2) and `/research/` (Journey 3).
 
 ---
 
@@ -45,7 +45,7 @@ Current page set: 18 pages. Every URL is preserved (see §4 for stability table)
 
 | Slug | Decision | Where it lives in new nav |
 |---|---|---|
-| `_index` | Keep as homepage | — |
+| `_index` | Keep as homepage | - |
 | `about` | Keep | Footer link |
 | `endometriosis` | Keep | Learn |
 | `adenomyosis` | Keep | Learn |
@@ -103,7 +103,7 @@ Explicit policy: **zero URL breakage in this overhaul.** Every existing URL cont
 | `/treatments/` | **New** | Treatment hub page summarizing options + sub-link grid |
 | `/take-action/` | **New** | Modal content as page |
 
-Anchor links inside existing pages (e.g., `#comorbidities` in `/diagnosis/`) are additive — no existing anchors are renamed.
+Anchor links inside existing pages (e.g., `#comorbidities` in `/diagnosis/`) are additive - no existing anchors are renamed.
 
 ---
 
@@ -141,7 +141,7 @@ Learn
   Browse all topics     (in-page index modal)
 ```
 
-### Treatments hub — decision: real page, not nav-only
+### Treatments hub - decision: real page, not nav-only
 
 `/treatments/` is a **real markdown page** at `content/treatments.md` that:
 
@@ -157,13 +157,13 @@ The current sidebar-link-activates-home-filter-panel behavior is removed. Clicki
 
 ### Why this structure beats the four-bucket version
 
-- The current four groups are organized by *content type*, not *user intent*. Users don't think "I need a Support resource" — they think "I'm scared and need to find a doctor."
+- The current four groups are organized by *content type*, not *user intent*. Users don't think "I need a Support resource" - they think "I'm scared and need to find a doctor."
 - Journey labels phrased as the visitor's own thought lower cognitive load.
-- "Could this be me?" first acknowledges the 10-year diagnostic delay — the #1 problem this site addresses.
+- "Could this be me?" first acknowledges the 10-year diagnostic delay - the #1 problem this site addresses.
 
 ---
 
-## 6. The quiz — scope clarification (was under-specified in v1)
+## 6. The quiz - scope clarification (was under-specified in v1)
 
 Adversarial review correctly flagged that the v1 phrasing ("symptom quiz becomes a journey entry") understated the work. Explicit scope:
 
@@ -177,7 +177,7 @@ A **new client-side decision tool**, not a relocation:
 
 - New page `content/quiz.md` + `templates/quiz.html` partial.
 - Expanded question set (10–15 checkboxes covering both endo and adeno symptom patterns) with optional severity scoring.
-- **Client-side recommendation engine** in `assets/js/quiz.js` that maps answers to a personalized result panel ("Based on your answers, your next steps are…"). Recommendations are deterministic and rule-based, not ML — a small set of if/then rules per symptom cluster.
+- **Client-side recommendation engine** in `assets/js/quiz.js` that maps answers to a personalized result panel ("Based on your answers, your next steps are…"). Recommendations are deterministic and rule-based, not ML - a small set of if/then rules per symptom cluster.
 - **No third-party submission by default.** Formspree integration becomes opt-in via a separate "help us improve" checkbox at the bottom of the result panel, with an explicit consent label. See §7 (Privacy).
 - The inline poll on the homepage is replaced by a 3-question teaser that links to the full quiz at `/quiz/`. Keeps the high-intent funnel visible without duplicating logic.
 
@@ -203,7 +203,7 @@ Symptom data is special-category personal data under GDPR Article 9. The site se
 
 1. **Client-side by default.** Quiz answers, tracker entries, sidebar group state, language preference, and theme preference live in `localStorage` only and never leave the device unless the user explicitly opts in.
 2. **No analytics on health data.** Page analytics may exist (basic page views), but symptom answers, tracker entries, and quiz inputs are never sent to any analytics provider.
-3. **Third-party submission is opt-in.** The existing Formspree integration is reframed: it appears only at the bottom of the `/quiz/` result panel as a checkbox + explicit-consent label ("Send anonymized answers to help improve this resource — optional"), defaulting to unchecked. No submission without affirmative consent.
+3. **Third-party submission is opt-in.** The existing Formspree integration is reframed: it appears only at the bottom of the `/quiz/` result panel as a checkbox + explicit-consent label ("Send anonymized answers to help improve this resource - optional"), defaulting to unchecked. No submission without affirmative consent.
 4. **Self-host fonts.** Google Fonts is removed in Phase 2 (Figtree variable font is self-hosted under `/fonts/`) so that page loads don't leak user IP to Google. See `design/css-architecture.md` §9.
 5. **Privacy notice on every page.** A footer link to `/privacy/` (new page) appears on every page. Notice covers what's stored, where, retention, opt-in submission, third-party fonts/services (post-Phase-2: none).
 6. **Privacy notice is localized.** Translation of the privacy notice into all 26 supported languages is a Phase 5 blocker (not Phase 6). EU users in any of the 13 EU languages we support must see the notice in their language.
@@ -240,15 +240,15 @@ Persistent thin bar at the top of the content area, visible on all viewports.
 [≡]  [brand]    [search...]    [EN ▾]  [☀]
 ```
 
-- **Hamburger (mobile only)** — opens off-canvas sidebar. Hidden on desktop (sidebar persistent).
-- **Brand** — text "1 in 7", links to `{{BASE_URL}}` (templating note: never `/` alone; all internal links use `{{BASE_URL}}` to honor the GitHub Pages `/Awesome-Endo-Adeno-Resources/` subpath and the Cloudflare Pages `/` root identically).
-- **Search** — input expands inline. Mobile: input collapses to icon, expands to full top-bar width on focus (animated via `transition: width 200ms`).
-- **Language picker** — collapsed to language code (`EN`, `ES`, etc.) with a dropdown chevron. Click opens a popup list of 26 languages. Replaces the sidebar `<select>`. Width budget: the popup is positioned with `right: 0` and the trigger is icon+code only, so the picker never has to fit 26 long-name labels in-line.
-- **Theme** — sun/moon toggle, joins the top bar (was: floating top-right `position: fixed`).
+- **Hamburger (mobile only)** - opens off-canvas sidebar. Hidden on desktop (sidebar persistent).
+- **Brand** - text "1 in 7", links to `{{BASE_URL}}` (templating note: never `/` alone; all internal links use `{{BASE_URL}}` to honor the GitHub Pages `/Awesome-Endo-Adeno-Resources/` subpath and the Cloudflare Pages `/` root identically).
+- **Search** - input expands inline. Mobile: input collapses to icon, expands to full top-bar width on focus (animated via `transition: width 200ms`).
+- **Language picker** - collapsed to language code (`EN`, `ES`, etc.) with a dropdown chevron. Click opens a popup list of 26 languages. Replaces the sidebar `<select>`. Width budget: the popup is positioned with `right: 0` and the trigger is icon+code only, so the picker never has to fit 26 long-name labels in-line.
+- **Theme** - sun/moon toggle, joins the top bar (was: floating top-right `position: fixed`).
 
-Scroll behavior: `position: sticky; top: 0` on the body's natural scroll. Verified safe — the current site uses viewport-level scrolling (body `overflow-y: auto` with content sized larger than viewport, root scroller is `html`).
+Scroll behavior: `position: sticky; top: 0` on the body's natural scroll. Verified safe - the current site uses viewport-level scrolling (body `overflow-y: auto` with content sized larger than viewport, root scroller is `html`).
 
-i18n keys: all exist (`search_placeholder`, `language_picker_label`, `toggle_theme`, `toggle_menu`) — no new keys.
+i18n keys: all exist (`search_placeholder`, `language_picker_label`, `toggle_theme`, `toggle_menu`) - no new keys.
 
 ---
 
@@ -277,7 +277,7 @@ A fixed-position 4-tab bar at the bottom of the viewport, in the thumb zone.
 
 The current back-to-top button sits at `bottom: 1rem; right: 1rem`. With the bottom nav at `bottom: 0`, they collide. Resolution:
 
-- On mobile, back-to-top moves to `bottom: calc(4rem + env(safe-area-inset-bottom) + 1rem)` — above the bottom nav.
+- On mobile, back-to-top moves to `bottom: calc(4rem + env(safe-area-inset-bottom) + 1rem)` - above the bottom nav.
 - On desktop, back-to-top stays at `bottom: 1rem; right: 1rem` (bottom nav is hidden).
 - Also fix the current latent bug in back-to-top JS (binds to `container.scrollTop` on desktop, but container doesn't scroll). Phase 2 standardizes on `window.pageYOffset`.
 
@@ -301,7 +301,7 @@ i18n: 4 new keys (`nav_home`, `nav_quiz`, `nav_learn`, `nav_help`).
 
 ---
 
-## 10. Action modal — port to /take-action/
+## 10. Action modal - port to /take-action/
 
 The action modal (Symptoms / Connect / Awareness) becomes a route at `/take-action/`.
 
@@ -326,9 +326,9 @@ Porting it means:
 
 Total: roughly **8 hours of focused work**. Not the 30 minutes that "modal → markdown page" implies.
 
-### Privacy property loss — acknowledged trade-off
+### Privacy property loss - acknowledged trade-off
 
-The current modal doesn't change the URL. Visiting `/take-action/` does put it in browser history and the URL bar — a small privacy regression for users on shared devices. We accept this trade-off in exchange for:
+The current modal doesn't change the URL. Visiting `/take-action/` does put it in browser history and the URL bar - a small privacy regression for users on shared devices. We accept this trade-off in exchange for:
 
 - Linkability (someone can share `/take-action/` to a friend without explaining "go to the home page and click the floating button")
 - Search-indexability (modal content currently invisible to search)
@@ -341,7 +341,7 @@ The privacy notice on the take-action page will note: *"Visiting this page is lo
 
 - The CTA buttons on home (`#cta-take-action`, `#poll-take-action`) navigate to `{{BASE_URL}}take-action/` instead of opening the modal.
 - The Help tab in bottom nav points to the same.
-- The take-action page is **excluded from the search index** (see §11) — searching for "endometriosis" shouldn't surface a UI-tooling page.
+- The take-action page is **excluded from the search index** (see §11) - searching for "endometriosis" shouldn't surface a UI-tooling page.
 
 i18n: all existing card title/body keys reused (`actions_symptoms_title`, `actions_connect_title`, etc.). One new key: `take_action_title`.
 
@@ -363,21 +363,21 @@ i18n: all existing card title/body keys reused (`actions_symptoms_title`, `actio
 
 Implementation: add a `search: false` frontmatter key to the markdown of excluded pages; `build_search_index()` honors it.
 
-The tracker page's *content* (description of the tool) is indexed; **the user's tracker data is never indexed** — it lives only in their `localStorage` and is never read at build time.
+The tracker page's *content* (description of the tool) is indexed; **the user's tracker data is never indexed** - it lives only in their `localStorage` and is never read at build time.
 
 ---
 
-## 12. i18n strategy — honors the no-English-only-ship constraint
+## 12. i18n strategy - honors the no-English-only-ship constraint
 
 User constraint: *"Every new copy string and every nav item must have a data-i18n key from day one. No English-only ship."*
 
 Two-part compliance:
 
-### Part A — every new string is wired
+### Part A - every new string is wired
 
-Every new copy element in HTML/templates has a `data-i18n="key"` attribute from the moment it's written. No exceptions, no `TODO:i18n` placeholders. `i18n.js` already falls back to the English value automatically when a target-language string is missing — so wiring is what unlocks all 26 languages with English as fallback.
+Every new copy element in HTML/templates has a `data-i18n="key"` attribute from the moment it's written. No exceptions, no `TODO:i18n` placeholders. `i18n.js` already falls back to the English value automatically when a target-language string is missing - so wiring is what unlocks all 26 languages with English as fallback.
 
-### Part B — every new key has all 26 translations before Phase 3 ships
+### Part B - every new key has all 26 translations before Phase 3 ships
 
 Adversarial review correctly noted v1 violated this by saying "ships English-only with a translation pass before launch." Revised: **translation completion is a Phase 3 ship blocker, not a pre-launch task.**
 
@@ -412,17 +412,17 @@ Process:
 
 Detailed in Phase 3 (`templates/home.html` rewrite). For IA purposes, five blocks in order:
 
-1. **Hero** — one sentence problem statement, one primary CTA ("Take the symptom quiz" → `/quiz/`), one secondary link ("I'm already diagnosed" → `/treatments/`).
-2. **Three journey cards** — large tap targets, one per journey, with the entry phrase + first concrete next step.
-3. **Linked stats strip** — the four existing stats become buttons routing to source/topic.
-4. **Featured videos** — kept on home as the BAFTA documentary block. Demoted in vertical priority (after journey cards + stats) but not removed. Reframed as a "Watch & learn" module so it feels like content not a competing CTA. (v1 wanted to remove these; adversarial review correctly identified that as an SEO/visibility regression. Reversed.)
-5. **Below the fold** — 3-question quiz teaser (full quiz lives at `/quiz/`), carousel, "Get help now" CTA → `/take-action/`.
+1. **Hero** - one sentence problem statement, one primary CTA ("Take the symptom quiz" → `/quiz/`), one secondary link ("I'm already diagnosed" → `/treatments/`).
+2. **Three journey cards** - large tap targets, one per journey, with the entry phrase + first concrete next step.
+3. **Linked stats strip** - the four existing stats become buttons routing to source/topic.
+4. **Featured videos** - kept on home as the BAFTA documentary block. Demoted in vertical priority (after journey cards + stats) but not removed. Reframed as a "Watch & learn" module so it feels like content not a competing CTA. (v1 wanted to remove these; adversarial review correctly identified that as an SEO/visibility regression. Reversed.)
+5. **Below the fold** - 3-question quiz teaser (full quiz lives at `/quiz/`), carousel, "Get help now" CTA → `/take-action/`.
 
 ---
 
 ## 14. What gets deleted
 
-- `assets/js/filter.js` — filter-panel system no longer needed.
+- `assets/js/filter.js` - filter-panel system no longer needed.
 - `build_filter_panels()` function in `build.py` and `{{FILTER_PANELS}}` template marker.
 - Sidebar `data-sidebar-filter` attributes and the inline JS in `base.html` that wires them up.
 - `<section class="resource-cards">` and the homepage filter panel block.
@@ -432,7 +432,7 @@ Detailed in Phase 3 (`templates/home.html` rewrite). For IA purposes, five block
 
 - All content under `content/` (no content deletion; reorganized in §3).
 - Sidebar nav, reorganized around journeys and rewired to real navigation.
-- Search, language picker, theme toggle — moved to top bar.
+- Search, language picker, theme toggle - moved to top bar.
 - Carousel, poll (de-emphasized, kept on home).
 - Symptom tracker on its own page.
 - Featured videos on home (demoted in priority but kept).
@@ -442,12 +442,12 @@ Detailed in Phase 3 (`templates/home.html` rewrite). For IA purposes, five block
 
 ## 15. Resolved questions (v1 had these as "open")
 
-1. ~~Quiz as a standalone page?~~ **Yes** (§6) — new page, new feature, scope acknowledged.
-2. ~~Comorbidities demoted?~~ **No** (§3, §5) — kept at top-level URL, regrouped in nav under Journey 1.
-3. ~~FAQ merged into About?~~ **No** — kept as footer link (§3).
+1. ~~Quiz as a standalone page?~~ **Yes** (§6) - new page, new feature, scope acknowledged.
+2. ~~Comorbidities demoted?~~ **No** (§3, §5) - kept at top-level URL, regrouped in nav under Journey 1.
+3. ~~FAQ merged into About?~~ **No** - kept as footer link (§3).
 4. ~~Bottom nav tab choices?~~ Home / Quiz / Learn / Help (§9).
 5. ~~Action modal stays as overlay or becomes route?~~ **Becomes route** on all viewports (§10).
-6. ~~Featured videos moving from home to /education/?~~ **No, kept on home** (§13) — both places now host video content.
+6. ~~Featured videos moving from home to /education/?~~ **No, kept on home** (§13) - both places now host video content.
 
 ### Remaining decisions that need explicit owner sign-off
 

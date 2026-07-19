@@ -1,4 +1,4 @@
-// /notable-people/ — clickable person cards with modal bio popup
+// /notable-people/ - clickable person cards with modal bio popup
 // Activates only on the notable-people page. Each .person-card[role="button"]
 // opens a modal showing the person's avatar, name, role, condition, and bio.
 (function() {
@@ -85,6 +85,8 @@
         var detailKey = card.getAttribute('data-i18n-detail');
         var bio = ti18n(bioKey) || card.getAttribute('data-bio') || '';
         var detail = ti18n(detailKey) || card.getAttribute('data-detail') || '';
+        var wiki = card.getAttribute('data-wiki') || '';
+        var link = card.getAttribute('data-link') || '';
 
         // Clone avatar content (img or initials text)
         var avatarHTML = '';
@@ -109,7 +111,9 @@
             (role ? '<p class="person-modal-role">' + role + '</p>' : '') +
             (condition ? '<span class="person-modal-condition">' + condition + '</span>' : '') +
             (bio ? '<p class="person-modal-bio">' + bio + '</p>' : '') +
-            (detail ? '<p class="person-modal-detail">' + detail + '</p>' : '');
+            (detail ? '<p class="person-modal-detail">' + detail + '</p>' : '') +
+            (wiki ? '<a class="person-modal-wiki" href="' + wiki + '" target="_blank" rel="noopener noreferrer">Wikipedia \u2197</a>' : '') +
+            (link ? '<a class="person-modal-wiki" href="' + link + '" target="_blank" rel="noopener noreferrer">' + t('read_more', 'Read more') + ' \u2197</a>' : '');
 
         backdrop.removeAttribute('hidden');
         document.body.style.overflow = 'hidden';

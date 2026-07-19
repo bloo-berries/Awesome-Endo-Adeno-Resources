@@ -1,8 +1,8 @@
-# 1 in 7 — CSS Architecture (mobile-first rebuild)
+# 1 in 7 - CSS Architecture (mobile-first rebuild)
 
-Status: **draft v2 — addresses adversarial review findings**. Phase 2 of the UI/UX overhaul. Pairs with `design/ia.md` (Phase 1).
+Status: **draft v2 - addresses adversarial review findings**. Phase 2 of the UI/UX overhaul. Pairs with `design/ia.md` (Phase 1).
 
-Changes from v1: corrected scroll-model analysis (§3 — current site uses viewport scroll, not container scroll); added safe-area + dynamic-viewport handling (§7); self-host Figtree (§9); specified `build_css_vars()` interface (§2.6); reframed "token diet" as "semantic layer" (§2); added type-scale rationale (§2.5); prefixed utilities with `u-` (§5); added `{{BASE_URL}}` templating note (§6); sidebar floor raised to language-picker-safe (§6).
+Changes from v1: corrected scroll-model analysis (§3 - current site uses viewport scroll, not container scroll); added safe-area + dynamic-viewport handling (§7); self-host Figtree (§9); specified `build_css_vars()` interface (§2.6); reframed "token diet" as "semantic layer" (§2); added type-scale rationale (§2.5); prefixed utilities with `u-` (§5); added `{{BASE_URL}}` templating note (§6); sidebar floor raised to language-picker-safe (§6).
 
 ---
 
@@ -10,12 +10,12 @@ Changes from v1: corrected scroll-model analysis (§3 — current site uses view
 
 Current CSS architecture has four structural issues:
 
-1. **Desktop-first** — base styles target desktop; `@media (max-width: 768px)` strips back for mobile. Inverts modern convention; mobile bugs are always the last fix.
-2. **No semantic layer over the brand palette** — 11 brand color tokens with overlapping intent (`--color-gold` / `--color-gold-light` / `--color-gold-bright` / `--color-gold-warm` / `--color-gold-hover`), and components consume the raw tokens directly. No abstraction means a theme change requires editing every component.
-3. **File overlap** — 10 CSS files; `custom.css`, `components.css`, and `layout.css` each contain partial overlapping concerns.
-4. **Fixed-pixel layout constraints** — sidebar at fixed 280px, content at fixed `margin-left: 280px`, breakpoints as hard cliffs at 768/1024 px.
+1. **Desktop-first** - base styles target desktop; `@media (max-width: 768px)` strips back for mobile. Inverts modern convention; mobile bugs are always the last fix.
+2. **No semantic layer over the brand palette** - 11 brand color tokens with overlapping intent (`--color-gold` / `--color-gold-light` / `--color-gold-bright` / `--color-gold-warm` / `--color-gold-hover`), and components consume the raw tokens directly. No abstraction means a theme change requires editing every component.
+3. **File overlap** - 10 CSS files; `custom.css`, `components.css`, and `layout.css` each contain partial overlapping concerns.
+4. **Fixed-pixel layout constraints** - sidebar at fixed 280px, content at fixed `margin-left: 280px`, breakpoints as hard cliffs at 768/1024 px.
 
-Plus a confirmed latent bug: `assets/js/codeblock.js`-adjacent back-to-top logic in `templates/base.html` (line 384–399) binds to `.content.container.scrollTop` on desktop, but `.content.container { overflow-y: visible }` means the container doesn't scroll — viewport does. The back-to-top button never appears on desktop. Phase 2 fixes this.
+Plus a confirmed latent bug: `assets/js/codeblock.js`-adjacent back-to-top logic in `templates/base.html` (line 384–399) binds to `.content.container.scrollTop` on desktop, but `.content.container { overflow-y: visible }` means the container doesn't scroll - viewport does. The back-to-top button never appears on desktop. Phase 2 fixes this.
 
 Goal: constraint-based, mobile-first system with a thin semantic layer over the brand palette, viewport-anchored layout, and explicit safe-area handling.
 
@@ -33,7 +33,7 @@ Two-layer color system. Raw brand palette stays in `site.json` for theme authori
 gold        = #C4982A    (was: gold)
 gold-warm   = #FFD166    (was: gold-warm)
 plum        = #6B3A5C    (was: plum)
-plum-deep   = #5A2D3E    (was: plum-deep / plum-dark / burgundy — merged)
+plum-deep   = #5A2D3E    (was: plum-deep / plum-dark / burgundy - merged)
 brown       = #8B4513    (was: brown)
 error       = #dc3545    (was: error)
 ```
@@ -42,7 +42,7 @@ Dropped from `site.json:colors.brand`: `gold-light`, `gold-bright`, `gold-hover`
 
 7 raw colors instead of 11.
 
-### 2.2 Semantic layer (new — what components consume)
+### 2.2 Semantic layer (new - what components consume)
 
 Component CSS references **only** these names:
 
@@ -64,7 +64,7 @@ Component CSS references **only** these names:
 | `--code` | `#2D1525` | `#F5E6D0` | Inline code text |
 | `--code-bg` | `#F0E0C8` | `#3D1F30` | Inline code background |
 
-**Naming convention** — `--text-color` (old, kept transitional) → `--text` (new). Migration: Phase 2 emits **both** name forms from `build_css_vars()` so old components keep working while we rewrite them. Phase 3 components use new names. Phase 4 deletes the transitional aliases.
+**Naming convention** - `--text-color` (old, kept transitional) → `--text` (new). Migration: Phase 2 emits **both** name forms from `build_css_vars()` so old components keep working while we rewrite them. Phase 3 components use new names. Phase 4 deletes the transitional aliases.
 
 ### 2.3 Gradients
 
@@ -108,7 +108,7 @@ Plus two fluid spacing tokens for layout breathing room:
 --container-padding: clamp(1rem, 4vw, 2rem)
 ```
 
-### 2.6 Type scale (new) — rationale included
+### 2.6 Type scale (new) - rationale included
 
 Modular scale with ratio **1.2** ("minor third"), base size `1rem` at the 768px tablet breakpoint. Fluid `clamp()` interpolates between mobile floor and desktop ceiling.
 
@@ -116,13 +116,13 @@ Math per step (`base × ratio^n`):
 
 | Step | Base × ratio | Floor (mobile) | Ceiling (desktop) | Token value | Used for |
 |---|---|---|---|---|---|
-| -1 | 1 × 1.2⁻¹ = 0.833 | 0.875rem | 0.95rem | `clamp(0.875rem, 0.5vw + 0.75rem, 0.95rem)` | `--text-sm` — captions |
-| 0 | 1 × 1.2⁰ = 1.0 | 1rem | 1.125rem | `clamp(1rem, 0.5vw + 0.85rem, 1.125rem)` | `--text-base` — body |
-| 1 | 1 × 1.2¹ = 1.2 | 1.125rem | 1.25rem | `clamp(1.125rem, 0.75vw + 0.9rem, 1.25rem)` | `--text-lg` — lead |
-| 2 | 1 × 1.2² = 1.44 | 1.25rem | 1.5rem | `clamp(1.25rem, 1vw + 1rem, 1.5rem)` | `--text-xl` — h3 |
-| 3 | 1 × 1.2³ = 1.73 | 1.5rem | 2rem | `clamp(1.5rem, 2vw + 1rem, 2rem)` | `--text-2xl` — h2 |
-| 4 | 1 × 1.2⁴ = 2.07 | 2rem | 2.75rem | `clamp(2rem, 3vw + 1rem, 2.75rem)` | `--text-3xl` — h1, hero |
-| -2 | 1 × 1.2⁻² = 0.694 | 0.75rem | 0.85rem | `clamp(0.75rem, 0.4vw + 0.65rem, 0.85rem)` | `--text-xs` — badges |
+| -1 | 1 × 1.2⁻¹ = 0.833 | 0.875rem | 0.95rem | `clamp(0.875rem, 0.5vw + 0.75rem, 0.95rem)` | `--text-sm` - captions |
+| 0 | 1 × 1.2⁰ = 1.0 | 1rem | 1.125rem | `clamp(1rem, 0.5vw + 0.85rem, 1.125rem)` | `--text-base` - body |
+| 1 | 1 × 1.2¹ = 1.2 | 1.125rem | 1.25rem | `clamp(1.125rem, 0.75vw + 0.9rem, 1.25rem)` | `--text-lg` - lead |
+| 2 | 1 × 1.2² = 1.44 | 1.25rem | 1.5rem | `clamp(1.25rem, 1vw + 1rem, 1.5rem)` | `--text-xl` - h3 |
+| 3 | 1 × 1.2³ = 1.73 | 1.5rem | 2rem | `clamp(1.5rem, 2vw + 1rem, 2rem)` | `--text-2xl` - h2 |
+| 4 | 1 × 1.2⁴ = 2.07 | 2rem | 2.75rem | `clamp(2rem, 3vw + 1rem, 2.75rem)` | `--text-3xl` - h1, hero |
+| -2 | 1 × 1.2⁻² = 0.694 | 0.75rem | 0.85rem | `clamp(0.75rem, 0.4vw + 0.65rem, 0.85rem)` | `--text-xs` - badges |
 
 Why ratio 1.2: large enough to differentiate h1/h2/h3, small enough that body and lead don't look discontinuous. Synthwave/luxury serifs use larger ratios (1.333+); patient-facing reading-heavy interfaces benefit from tighter ratios.
 
@@ -179,14 +179,14 @@ This keeps `build_css_vars()` to a small Python loop over JSON keys, no hardcode
 
 Adversarial review's v1 assertion that the site uses container-scroll on desktop was based on the back-to-top JS. Verified: `.content.container` has `overflow-y: visible` (`assets/css/layout.css:34`), so the container doesn't actually scroll. The site uses **viewport-level scroll** (body content grows past viewport height; root scroller is `html`/`body`).
 
-The back-to-top JS that binds `container.addEventListener('scroll', ...)` on desktop is **latent dead code** — the listener never fires because the container has no scroll. Visible-on-mobile only.
+The back-to-top JS that binds `container.addEventListener('scroll', ...)` on desktop is **latent dead code** - the listener never fires because the container has no scroll. Visible-on-mobile only.
 
 ### Phase 2 changes
 
 1. **Standardize on `window.pageYOffset`** in back-to-top JS for both mobile and desktop. Remove the `isMobile`-branched scroll source.
 2. **Top bar uses `position: sticky; top: 0`** on its place in the body's natural flow. Works because we're already viewport-scrolling.
-3. **Drop the dual scrollbar styling** in `assets/css/layout.css:5–22` that targets both `.container.content` and the body scrollbar — only the body's scrollbar exists in practice.
-4. **Sidebar gets its own scroll** (it's tall and may overflow when collapsed groups are expanded). `aside.sidebar { overflow-y: auto; }` — verified safe with `position: fixed` (or `position: sticky; top: 0; height: 100dvh`).
+3. **Drop the dual scrollbar styling** in `assets/css/layout.css:5–22` that targets both `.container.content` and the body scrollbar - only the body's scrollbar exists in practice.
+4. **Sidebar gets its own scroll** (it's tall and may overflow when collapsed groups are expanded). `aside.sidebar { overflow-y: auto; }` - verified safe with `position: fixed` (or `position: sticky; top: 0; height: 100dvh`).
 
 ### Tested before commit
 
@@ -198,7 +198,7 @@ Browser matrix: Safari 16+, Chrome 110+, Firefox 110+, mobile Safari iOS 16+, Ch
 
 ### 4.1 Convention
 
-Base styles target mobile (320px–767px viewport). All `@media` queries are `min-width`, layered in ascending order. Breakpoints in `rem` so a user's font-size zoom shifts breakpoints proportionally — accessibility win.
+Base styles target mobile (320px–767px viewport). All `@media` queries are `min-width`, layered in ascending order. Breakpoints in `rem` so a user's font-size zoom shifts breakpoints proportionally - accessibility win.
 
 ```css
 /* Base: mobile (no media query) */
@@ -263,7 +263,7 @@ v1 promised "stays buildable at every commit" without explaining how. Concrete s
 
 1. **Land `tokens.css` as pure addition** (semantic + scale tokens, transitional aliases for old names). Existing components keep using old names; new tokens are dormant until referenced. ✅ Buildable.
 2. **Land `utilities.css` as pure addition** (u-prefixed classes). Not yet used anywhere. ✅ Buildable.
-3. **Land `reset.css` next to `base.css`** (mobile-first, no overlapping selectors). Don't delete `base.css` yet — both ship. Test for selector conflicts. ✅ Buildable.
+3. **Land `reset.css` next to `base.css`** (mobile-first, no overlapping selectors). Don't delete `base.css` yet - both ship. Test for selector conflicts. ✅ Buildable.
 4. **Rewrite layout shell in `layout.css`** (new top bar, off-canvas sidebar, bottom nav). Old shell coexists; the new template references new layout, old templates reference old. ✅ Buildable.
 5. **Migrate `components.css` selector-by-selector** to consume semantic tokens. Each commit changes one component, drops corresponding rules from `custom.css`. ✅ Buildable.
 6. **Move home-page styles to `pages.css`** in one commit (`symptom-poll.css` + `carousel.css` content + home blocks from `components.css`). Delete the source files. ✅ Buildable.
@@ -315,7 +315,7 @@ Each step ships green. The site is deployable after every commit. Phase 2 is rou
 </body>
 ```
 
-**`{{BASE_URL}}` templating** — every internal link uses `{{BASE_URL}}` (already replaced by `build.py`). Never use bare `/` for internal links; the site deploys to both a root (Cloudflare Pages) and a subpath (GitHub Pages: `/Awesome-Endo-Adeno-Resources/`). Bare-slash links break under the subpath deployment.
+**`{{BASE_URL}}` templating** - every internal link uses `{{BASE_URL}}` (already replaced by `build.py`). Never use bare `/` for internal links; the site deploys to both a root (Cloudflare Pages) and a subpath (GitHub Pages: `/Awesome-Endo-Adeno-Resources/`). Bare-slash links break under the subpath deployment.
 
 ### 6.2 Shell layout
 
@@ -333,7 +333,7 @@ Each step ships green. The site is deployable after every commit. Phase 2 is rou
 }
 ```
 
-**Sidebar width floor raised to 17.5rem (280px)** — adversarial review flagged that 16rem (256px) wouldn't fit the 26-language picker. With the language picker moved to the top bar (per `ia.md` §8), the floor could theoretically come down, but 17.5rem also accommodates long sidebar group labels in German/Russian/Polish without wrap. Keep the existing 280px floor.
+**Sidebar width floor raised to 17.5rem (280px)** - adversarial review flagged that 16rem (256px) wouldn't fit the 26-language picker. With the language picker moved to the top bar (per `ia.md` §8), the floor could theoretically come down, but 17.5rem also accommodates long sidebar group labels in German/Russian/Polish without wrap. Keep the existing 280px floor.
 
 ### 6.3 Topbar
 
@@ -421,7 +421,7 @@ Backdrop is a sibling `.sidebar-backdrop` with `position: fixed; inset: 0; z-ind
   color: var(--accent);
 }
 
-/* Hide when a dialog is open — prevents clickjacking-adjacent intercepts */
+/* Hide when a dialog is open - prevents clickjacking-adjacent intercepts */
 body:has([role="dialog"][aria-modal="true"]) .bottomnav { display: none; }
 
 @media (min-width: 64rem) {
@@ -474,16 +474,16 @@ Use `dvh` (dynamic viewport height) for any full-height container so layout does
 
 All fixed/sticky bottom-anchored elements **must** include `env(safe-area-inset-bottom)`. The audit list:
 
-- `.bottomnav` — bottom: 0 with `padding-bottom: env(safe-area-inset-bottom)`
-- `.back-to-top` — bottom calc includes `env(safe-area-inset-bottom)` on mobile
-- `.content` — padding-bottom on mobile clears the nav and includes safe-area
+- `.bottomnav` - bottom: 0 with `padding-bottom: env(safe-area-inset-bottom)`
+- `.back-to-top` - bottom calc includes `env(safe-area-inset-bottom)` on mobile
+- `.content` - padding-bottom on mobile clears the nav and includes safe-area
 
 For top-anchored elements:
 
-- `.topbar` — sticky; the system top-bar (notch area) is handled by the browser, no manual inset needed
-- `.sidebar` (desktop) — `height: 100dvh` ensures it doesn't extend past visible viewport when URL bar is visible
+- `.topbar` - sticky; the system top-bar (notch area) is handled by the browser, no manual inset needed
+- `.sidebar` (desktop) - `height: 100dvh` ensures it doesn't extend past visible viewport when URL bar is visible
 
-Required `<meta>` viewport tag (verified present in `templates/base.html:8`): `<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">`. **The current site is missing `viewport-fit=cover`** — without it, `env(safe-area-inset-*)` returns 0 on iOS even with notch devices. Phase 2 adds this to the meta tag.
+Required `<meta>` viewport tag (verified present in `templates/base.html:8`): `<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">`. **The current site is missing `viewport-fit=cover`** - without it, `env(safe-area-inset-*)` returns 0 on iOS even with notch devices. Phase 2 adds this to the meta tag.
 
 ---
 
@@ -491,7 +491,7 @@ Required `<meta>` viewport tag (verified present in `templates/base.html:8`): `<
 
 Three core classes solve 90% of layouts. Defined in `utilities.css`, all prefixed `u-` to prevent collision with author-written Markdown content classes.
 
-### `.u-stack` — vertical rhythm
+### `.u-stack` - vertical rhythm
 
 ```css
 .u-stack > * + * {
@@ -499,7 +499,7 @@ Three core classes solve 90% of layouts. Defined in `utilities.css`, all prefixe
 }
 ```
 
-### `.u-cluster` — horizontal wrap
+### `.u-cluster` - horizontal wrap
 
 ```css
 .u-cluster {
@@ -510,7 +510,7 @@ Three core classes solve 90% of layouts. Defined in `utilities.css`, all prefixe
 }
 ```
 
-### `.u-grid-auto` — responsive auto-grid
+### `.u-grid-auto` - responsive auto-grid
 
 ```css
 .u-grid-auto {
@@ -520,14 +520,14 @@ Three core classes solve 90% of layouts. Defined in `utilities.css`, all prefixe
 }
 ```
 
-Items wrap when they hit `--grid-min`, no breakpoint queries needed. **Browser support note:** the nested `min()` inside `minmax()` inside `repeat(auto-fit, ...)` is supported in Safari 14+, Chrome 88+, Firefox 79+. Older Safari (≤13) renders as a single column instead of broken grid — acceptable graceful degradation.
+Items wrap when they hit `--grid-min`, no breakpoint queries needed. **Browser support note:** the nested `min()` inside `minmax()` inside `repeat(auto-fit, ...)` is supported in Safari 14+, Chrome 88+, Firefox 79+. Older Safari (≤13) renders as a single column instead of broken grid - acceptable graceful degradation.
 
 ### Other utilities
 
-- `.u-skip-link` — visually-hidden skip nav, becomes visible on focus
-- `.u-visually-hidden` — for screen-reader-only content
-- `.u-sr-text` — alias for visually-hidden (semantic name)
-- `.u-tap-target` — `min-block-size: var(--tap-min); min-inline-size: var(--tap-min);` for touch ergonomics
+- `.u-skip-link` - visually-hidden skip nav, becomes visible on focus
+- `.u-visually-hidden` - for screen-reader-only content
+- `.u-sr-text` - alias for visually-hidden (semantic name)
+- `.u-tap-target` - `min-block-size: var(--tap-min); min-inline-size: var(--tap-min);` for touch ergonomics
 
 ---
 
@@ -564,7 +564,7 @@ Current site loads Figtree from Google Fonts (`templates/base.html:17`). Per Ger
 
 ### License check
 
-Figtree is licensed under the Open Font License (OFL 1.1) — self-hosting is permitted.
+Figtree is licensed under the Open Font License (OFL 1.1) - self-hosting is permitted.
 
 ---
 
@@ -580,7 +580,7 @@ Touch-target audit (Phase 5): every interactive must have `min-block-size: var(-
 
 ---
 
-## 11. Dark mode default — preserved
+## 11. Dark mode default - preserved
 
 Current site ships `<body class="dark-theme">` from the server. Phase 2 preserves this.
 
@@ -599,7 +599,7 @@ Returning users always get their stored choice. First-time light-OS users get li
 
 ## 12. Performance budget
 
-Baseline (current site, no measurement done yet — Phase 2 step 0 is to measure):
+Baseline (current site, no measurement done yet - Phase 2 step 0 is to measure):
 
 - CSS bundle uncompressed: 2,094 lines (~52 KB estimated)
 - JS bundle uncompressed: 9 files totaling ~1,041 lines (~28 KB estimated)
@@ -622,14 +622,14 @@ Measurement: WebPageTest or Chrome DevTools Lighthouse run on `https://1in7.info
 Files removed once consolidation lands:
 - `assets/css/custom.css` (folded into `pages.css` + `components.css`)
 - `assets/css/responsive.css` (eliminated; mobile-first base means no top-level `@media` file)
-- `assets/css/symptom-poll.css`, `assets/css/carousel.css` (folded into `pages.css` — home-page-only)
+- `assets/css/symptom-poll.css`, `assets/css/carousel.css` (folded into `pages.css` - home-page-only)
 - `assets/css/action-modal.css` (mostly deleted; small subset moves to `components.css`)
 - `assets/css/base.css` (replaced by `reset.css` + `tokens.css`)
 
 Net file count: 10 → 6.
 
 External resource removed:
-- Google Fonts (preconnect + stylesheet) — self-hosted instead.
+- Google Fonts (preconnect + stylesheet) - self-hosted instead.
 
 ---
 
@@ -661,11 +661,11 @@ Each step is a self-contained commit; site stays deployable throughout.
 
 ## 15. Decisions made (v1 had these as "open")
 
-1. ~~Bottom-nav scroll-hide?~~ **No** — static, simpler, no scroll-direction state to manage (§6.5).
-2. ~~Sidebar minmax?~~ **`minmax(17.5rem, 20rem)`** — keeps current floor; allows wider sidebars on large screens (§6.2).
-3. ~~Gradient cut visual review?~~ **Cut to 2** — `--gradient-deep` carries the urgency signal previously held by `--gradient-modal` (§2.3).
-4. ~~Radius drop to 3?~~ **Yes** — 12px vs 10px wasn't legibly different (§2.4).
-5. ~~rem-based breakpoints?~~ **Yes** — accessibility win for zoom users (§4.1).
+1. ~~Bottom-nav scroll-hide?~~ **No** - static, simpler, no scroll-direction state to manage (§6.5).
+2. ~~Sidebar minmax?~~ **`minmax(17.5rem, 20rem)`** - keeps current floor; allows wider sidebars on large screens (§6.2).
+3. ~~Gradient cut visual review?~~ **Cut to 2** - `--gradient-deep` carries the urgency signal previously held by `--gradient-modal` (§2.3).
+4. ~~Radius drop to 3?~~ **Yes** - 12px vs 10px wasn't legibly different (§2.4).
+5. ~~rem-based breakpoints?~~ **Yes** - accessibility win for zoom users (§4.1).
 
 ### Remaining open items
 

@@ -1,6 +1,15 @@
-# 1 in 7
+# 1 in 7 - Endometriosis & Adenomyosis Resources
 
-> A community-driven, open-source resource for navigating Endometriosis and Adenomyosis. Covers symptoms, diagnosis, treatments, medications, fertility, mental health, research, and advocacy. Approximately 1 in 7 women worldwide are affected. No trackers, no third-party requests; all data stays on-device.
+> Comprehensive, evidence-based resource hub for Endometriosis and Adenomyosis. Named for the statistic that 1 in 7 women and people assigned female at birth are affected. No trackers, no third-party requests; all data stays on-device.
+
+## Key facts
+
+- Endometriosis affects approximately 190 million people worldwide (roughly 1 in 7 women and AFAB individuals)
+- Average diagnosis time: 7-10 years from symptom onset
+- Gold standard treatment: laparoscopic excision surgery
+- There is currently no cure for either Endometriosis or Adenomyosis
+- Hysterectomy treats Adenomyosis but does NOT treat Endometriosis (lesions exist outside the uterus)
+- Endometriosis can affect any organ system, not just reproductive organs
 
 ## Getting started
 
@@ -18,21 +27,32 @@
 ## I have endo or adeno
 
 - [Treatments](https://1in7.info/treatments/): Overview of treatment options: surgical, hormonal, non-hormonal, and supportive
+- [Surgery Costs](https://1in7.info/surgery-costs/): Real surgery cost data from patients worldwide: quoted fees, insurance billed, and out-of-pocket amounts
 - [Medications](https://1in7.info/medications/): Comprehensive comparison of medications used to treat Endometriosis and Adenomyosis
 - [Fertility](https://1in7.info/fertility/): Impact on fertility, IVF, egg freezing, and conception guidance
-- [Mental Health](https://1in7.info/mental-health/): Coping strategies, therapy options, and support resources
+- [Mental Health](https://1in7.info/mental-health/): Coping strategies, therapy options (CBT, ACT, EMDR, MBSR), crisis support
 - [Support & Advocacy](https://1in7.info/resources/): Financial assistance, advocacy groups, vetted regional providers, and fertility resources worldwide
-- [Symptom Tracker](https://1in7.info/tracker/): Track symptoms privately on your device
+- [Symptom Tracker](https://1in7.info/tracker/): Track symptoms privately on your device - data never leaves the browser
 
 ## Learn
 
-- [Notable People](https://1in7.info/notable-people/): Public figures who have spoken openly about their Endometriosis diagnosis, surgeries, and advocacy
+- [Notable People](https://1in7.info/notable-people/): 60+ public figures who have spoken openly about their Endometriosis diagnosis, surgeries, and advocacy
+- [In Memory](https://1in7.info/in-memory/): Honoring those lost to Endometriosis
 - [Research](https://1in7.info/research/): Scientific research organizations, current studies, clinical trials, and genetic research
 - [Education](https://1in7.info/education/): Films, books, and community resources for awareness and understanding
 - [Take Action](https://1in7.info/take-action/): Practical scripts for talking to doctors, family, and partners about Endometriosis or Adenomyosis
 
-## Optional
+## More
 
 - [FAQ](https://1in7.info/faq/): Common questions and answers about Endometriosis and Adenomyosis
 - [About](https://1in7.info/about/): About the project, a community-driven open-source initiative
 - [Privacy](https://1in7.info/privacy/): How the site handles your data: by default, nothing leaves your device
+
+## Technical details
+
+- URL: https://1in7.info
+- Languages: 26 (English default, Arabic with RTL support)
+- Privacy: No third-party requests, no tracking, self-hosted fonts (Figtree, OFL 1.1)
+- Accessibility: WCAG AA compliant, keyboard navigable, screen reader optimized
+- Open source: Community-driven, contributions welcome
+- Contact: bloomedhealth@pm.me

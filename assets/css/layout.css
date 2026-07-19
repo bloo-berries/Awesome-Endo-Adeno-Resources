@@ -1,5 +1,5 @@
 /*
- * layout-v2.css — New page shell: topbar, off-canvas sidebar, bottom nav (Phase 2)
+ * layout-v2.css - New page shell: topbar, off-canvas sidebar, bottom nav (Phase 2)
  *
  * Mobile-first. Loaded only when site.json:shell = "v2" (Phase 3 onward).
  * Coexists with the legacy layout.css until cleanup in Phase 2d.
@@ -9,7 +9,7 @@
  */
 
 /* ====================================================================
- * Shell — grid container that holds sidebar + main content
+ * Shell - grid container that holds sidebar + main content
  * ==================================================================== */
 
 .shell {
@@ -39,13 +39,14 @@
   gap: var(--space-xs) var(--space-sm);
   padding: var(--space-xs) var(--container-padding);
   min-block-size: 3rem;
-  background-color: transparent;
+  background: linear-gradient(to bottom, var(--surface) 0%, color-mix(in srgb, var(--surface) 70%, transparent) 60%, transparent 100%);
   border-bottom: none;
+  padding-bottom: calc(var(--space-xs) + 0.5rem);
 }
 
 @media (min-width: 48rem) {
   .topbar {
-    grid-template-columns: auto auto 1fr auto auto;
+    grid-template-columns: auto auto 1fr auto;
   }
 }
 
@@ -109,18 +110,17 @@
 }
 
 .topbar-search {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
-  min-width: 0;
-  width: 100%;
-  max-width: 14rem;
-  justify-self: center;
+  width: min(60%, 14rem);
 }
 
 @media (min-width: 48rem) {
   .topbar-search {
-    max-width: 28rem;
+    width: min(50%, 28rem);
   }
 }
 
@@ -256,7 +256,7 @@
   text-align: center;
 }
 
-/* Urgent help link in topbar — visible on mobile only */
+/* Urgent help link in topbar - visible on mobile only */
 .topbar-urgent {
   display: none;
   align-items: center;
@@ -290,11 +290,12 @@
   color: #1a1a1a;
 }
 
-/* Hide topbar actions (lang/theme) on mobile — they live in sidebar instead */
+/* Hide topbar actions (lang/theme) on mobile - they live in sidebar instead */
 .topbar-actions {
   display: flex;
   align-items: center;
   gap: var(--space-xs);
+  grid-column: -1;
   justify-self: end;
 }
 
@@ -402,14 +403,13 @@
 
 @media (min-width: 48rem) {
   .topbar {
-    grid-template-columns: auto auto 1fr auto auto;
+    grid-template-columns: auto auto 1fr auto;
     gap: var(--space-sm);
     padding: var(--space-sm) var(--container-padding);
     min-block-size: 3.5rem;
   }
   .topbar-search {
-    max-width: 28rem;
-    justify-self: center;
+    width: min(50%, 28rem);
   }
 }
 
@@ -419,10 +419,10 @@
 .dark-theme .sun-icon { display: none; }
 .dark-theme .moon-icon { display: block; }
 
-/* Hamburger always visible — sidebar is off-canvas at all breakpoints */
+/* Hamburger always visible - sidebar is off-canvas at all breakpoints */
 
 /* ====================================================================
- * Sidebar — off-canvas on mobile, persistent on desktop
+ * Sidebar - off-canvas on mobile, persistent on desktop
  * ==================================================================== */
 
 .sidebar {

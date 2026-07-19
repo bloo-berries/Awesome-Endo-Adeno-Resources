@@ -1,10 +1,10 @@
-# 1 in 7 — Brand Identity (v2)
+# 1 in 7 - Brand Identity (v2)
 
 Updated 2026-05-28 after the UI/UX overhaul (Phases 1–5). Pairs with:
 
-- `design/ia.md` — information architecture spec
-- `design/css-architecture.md` — token system, mobile-first CSS, file structure
-- `design/accessibility-audit.md` — WCAG AA verification, RTL coverage
+- `design/ia.md` - information architecture spec
+- `design/css-architecture.md` - token system, mobile-first CSS, file structure
+- `design/accessibility-audit.md` - WCAG AA verification, RTL coverage
 
 ---
 
@@ -12,7 +12,7 @@ Updated 2026-05-28 after the UI/UX overhaul (Phases 1–5). Pairs with:
 
 - **Name:** 1 in 7
 - **Domain:** 1in7.info
-- **Mission:** A comprehensive resource hub for navigating Endometriosis and adenomyosis. The "1 in 7" framing reflects the real prevalence — not the under-counted "1 in 10" that's still commonly cited.
+- **Mission:** A comprehensive resource hub for navigating Endometriosis and adenomyosis. The "1 in 7" framing reflects the real prevalence - not the under-counted "1 in 10" that's still commonly cited.
 - **Voice:** Compassionate, evidence-based, accessible. Avoids medical jargon where possible; empowers patients with clear information and concrete next steps.
 - **Privacy posture:** No third-party tracking. No analytics. No cookies. Symptom data lives only in the user's browser. Privacy notice at `/privacy/`.
 
@@ -20,7 +20,7 @@ Updated 2026-05-28 after the UI/UX overhaul (Phases 1–5). Pairs with:
 
 ## 2. Typography
 
-Single family — **Figtree**, self-hosted (OFL 1.1) — used for all text. Differentiation is by weight, size, and letter-spacing.
+Single family - **Figtree**, self-hosted (OFL 1.1) - used for all text. Differentiation is by weight, size, and letter-spacing.
 
 ### Loading
 
@@ -208,7 +208,7 @@ Pages with `search: false` frontmatter are excluded from the search index (`/tak
 ### Back-to-top
 
 - Fixed bottom-right (`inset-inline-end`), above the bottom nav on mobile via `bottom: calc(4rem + env(safe-area-inset-bottom) + 1rem)`.
-- Appears after 300px window scroll. Window-scroll (not container-scroll — see `design/css-architecture.md` §3).
+- Appears after 300px window scroll. Window-scroll (not container-scroll - see `design/css-architecture.md` §3).
 
 ---
 
@@ -225,7 +225,7 @@ Pages with `search: false` frontmatter are excluded from the search index (`/tak
 - `grid-template-columns: 1fr` mobile, `repeat(3, 1fr)` tablet+.
 - Each card: eyebrow (uppercase, `--accent`), title, description, CTA chevron.
 - On hover/focus the card's `::before` pseudo-element fills with `--gradient-deep` (`opacity: 0 → 1`), shifting all text to `--text-on-deep`.
-- Whole card is one `<a>` — no nested interactives. `aria-current` set by browser navigation.
+- Whole card is one `<a>` - no nested interactives. `aria-current` set by browser navigation.
 
 ### Stat strip (home, 4-up)
 
@@ -253,15 +253,15 @@ Pages with `search: false` frontmatter are excluded from the search index (`/tak
 
 - Tables with `data-accordion="table"` collapse into `<details>`/`<summary>` blocks on mobile.
 
-### Carousel (home — dual-column "Reality of Endo")
+### Carousel (home - dual-column "Reality of Endo")
 
 Two carousels side-by-side (1-col mobile, 2-col at 48rem via `.home-reality-grid`):
 
-1. **Infographic carousel** (left) — 4 endographics.org slides, `object-fit: contain`, rounded corners.
-2. **Surgical photos carousel** (right) — 7 graphic images behind an NSFW gate (`.carousel-nsfw-gate`). User must click "View images" to reveal; carousel inits only after reveal.
+1. **Infographic carousel** (left) - 4 endographics.org slides, `object-fit: contain`, rounded corners.
+2. **Surgical photos carousel** (right) - 7 graphic images behind an NSFW gate (`.carousel-nsfw-gate`). User must click "View images" to reveal; carousel inits only after reveal.
 
 Shared behavior:
-- Multi-instance JS (`carousel.js`) — each `.carousel-section` gets independent state.
+- Multi-instance JS (`carousel.js`) - each `.carousel-section` gets independent state.
 - Auto-rotates every 4s **only if** `prefers-reduced-motion: no-preference` AND `hover: hover` (not touch).
 - Reacts to live changes in the motion preference.
 - Per-slide `aria-hidden`, dots have `aria-label="Go to slide N"`, arrow buttons have ARIA labels.
@@ -321,10 +321,10 @@ Verified in `design/accessibility-audit.md`. Summary:
 
 For historical context, see the design docs:
 
-- `design/ia.md` — three-journey IA design, journey definitions, page-set decisions, URL stability, privacy
-- `design/css-architecture.md` — semantic token layer rationale, mobile-first inversion, file consolidation
-- `design/accessibility-audit.md` — Phase 5 audit results and fixes
-- `design/perf-baseline.md` — pre-overhaul perf snapshot
+- `design/ia.md` - three-journey IA design, journey definitions, page-set decisions, URL stability, privacy
+- `design/css-architecture.md` - semantic token layer rationale, mobile-first inversion, file consolidation
+- `design/accessibility-audit.md` - Phase 5 audit results and fixes
+- `design/perf-baseline.md` - pre-overhaul perf snapshot
 
 Key changes from v1:
 

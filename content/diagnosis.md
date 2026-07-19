@@ -4,6 +4,7 @@ description: "Endometriosis and adenomyosis diagnostic methods, symptom staging,
 date: 2025-01-27
 lastmod: 2026-07-02
 draft: false
+toc: false
 tags: ["diagnosis", "Endometriosis", "adenomyosis"]
 keywords: ["Endometriosis diagnosis", "adenomyosis diagnosis", "laparoscopy", "excision surgery"]
 ---

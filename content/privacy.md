@@ -4,6 +4,7 @@ description: "How 1 in 7 handles your data. Spoiler: by default, nothing leaves 
 date: "2026-05-28"
 lastmod: "2026-05-28"
 draft: false
+toc: false
 search: false
 tags: ["privacy", "data"]
 keywords: ["privacy", "data handling", "GDPR"]

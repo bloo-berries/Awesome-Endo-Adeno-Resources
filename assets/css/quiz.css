@@ -1,5 +1,5 @@
 /*
- * quiz.css — Quiz page styles
+ * quiz.css - Quiz page styles
  *
  * Progress bar, cards, results, steps, reset, context card.
  * Mobile-first. Split from pages.css.
@@ -10,10 +10,10 @@
  * ===================================================================== */
 
 .quiz-context-card {
-  background: var(--accent-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: var(--space-md) var(--space-lg);
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
   margin-bottom: var(--space-lg);
 }
 

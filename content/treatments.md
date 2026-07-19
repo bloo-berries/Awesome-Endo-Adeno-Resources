@@ -4,6 +4,7 @@ description: "An overview of treatment options for Endometriosis and adenomyosis
 date: "2026-05-28"
 lastmod: "2026-07-02"
 draft: false
+toc: false
 tags: ["treatment", "medications", "surgery"]
 keywords: ["Endometriosis treatment", "adenomyosis treatment", "endo surgery", "endo medications"]
 ---
@@ -12,7 +13,19 @@ keywords: ["Endometriosis treatment", "adenomyosis treatment", "endo surgery", "
 
 There is currently no cure for Endometriosis or Adenomyosis, but a wide range of treatments can substantially reduce symptoms and improve quality of life. Most patients use **a combination** of approaches that changes over time depending on goals (pain relief, fertility, surgery recovery).
 
-This page is an overview. For deep dives, follow the sub-topic links below.
+## How to think about treatment
+
+There's no single right order. A common pattern is:
+
+<div class="step-flow">
+<div class="step-item"><div class="step-num">1</div><div class="step-body"><div class="step-title">Stabilize</div><div class="step-desc">NSAIDs + hormonal birth control for pain</div></div></div>
+<div class="step-item"><div class="step-num">2</div><div class="step-body"><div class="step-title">Diagnose</div><div class="step-desc">Laparoscopy with excision</div></div></div>
+<div class="step-item"><div class="step-num">3</div><div class="step-body"><div class="step-title">Adjust</div><div class="step-desc">Hormones based on response and side effects</div></div></div>
+<div class="step-item"><div class="step-num">4</div><div class="step-body"><div class="step-title">Support</div><div class="step-desc">Pelvic PT, mental health, nutrition</div></div></div>
+<div class="step-item"><div class="step-num">5</div><div class="step-body"><div class="step-title">Fertility</div><div class="step-desc">Plan around fertility goals if relevant</div></div></div>
+</div>
+
+If your current treatment isn't working after 3-6 months, that's a signal to revisit the plan with your specialist, not a reason to lose hope.
 
 ## Surgical options
 
@@ -102,20 +115,6 @@ As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications
 - [Pelvic Health Physiotherapy: A Guide for People With Endometriosis](https://endometriosisnetwork.com/endo-hub/pelvic-health-physiotherapy-a-guide-for-people-with-endometriosis/) - \1elvic health physiotherapy is an effective, evidence-based treatment for some symptoms of Endometriosis, like pain with sexual activity
 
 </details>
-
-## How to think about treatment sequencing
-
-There's no single right order. A common pattern is:
-
-<div class="step-flow">
-<div class="step-item"><div class="step-num">1</div><div class="step-body"><div class="step-title">Stabilize</div><div class="step-desc">NSAIDs + hormonal birth control for pain</div></div></div>
-<div class="step-item"><div class="step-num">2</div><div class="step-body"><div class="step-title">Diagnose</div><div class="step-desc">Laparoscopy with excision</div></div></div>
-<div class="step-item"><div class="step-num">3</div><div class="step-body"><div class="step-title">Adjust</div><div class="step-desc">Hormones based on response and side effects</div></div></div>
-<div class="step-item"><div class="step-num">4</div><div class="step-body"><div class="step-title">Support</div><div class="step-desc">Pelvic PT, mental health, nutrition</div></div></div>
-<div class="step-item"><div class="step-num">5</div><div class="step-body"><div class="step-title">Fertility</div><div class="step-desc">Plan around fertility goals if relevant</div></div></div>
-</div>
-
-If your current treatment isn't working after 3-6 months, that's a signal to revisit the plan with your specialist, not a reason to lose hope.
 
 ## Related pages
 

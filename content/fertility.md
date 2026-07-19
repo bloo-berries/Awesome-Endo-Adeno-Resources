@@ -5,6 +5,7 @@ date: 2025-06-01
 lastmod: 2025-06-01
 tags: ["fertility", "infertility", "IVF", "pregnancy", "egg freezing"]
 keywords: ["fertility", "Endometriosis infertility", "IVF", "egg freezing", "pregnancy with Endometriosis"]
+toc: false
 ---
 
 # Fertility

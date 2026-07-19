@@ -1,4 +1,4 @@
-// Symptom Tracker — IndexedDB-based, all data on device
+// Symptom Tracker - IndexedDB-based, all data on device
 (function() {
     var app = document.getElementById('tracker-app');
     if (!app) return;

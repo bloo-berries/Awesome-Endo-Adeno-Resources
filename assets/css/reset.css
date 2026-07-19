@@ -1,5 +1,5 @@
 /*
- * reset.css — Mobile-first reset + base typography (Phase 2)
+ * reset.css - Mobile-first reset + base typography (Phase 2)
  *
  * Replaces base.css. Mobile-first: base styles target the smallest viewport;
  * larger viewports add via `@media (min-width: ...)`. Breakpoints in `rem`
@@ -214,9 +214,10 @@ blockquote {
   margin: var(--space-md, 1rem) 0;
   padding: var(--space-sm, 0.5rem) var(--space-md, 1rem);
   color: var(--text-muted, var(--muted-color));
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  background: var(--accent-bg);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: transparent;
 }
 
 blockquote p:last-child {

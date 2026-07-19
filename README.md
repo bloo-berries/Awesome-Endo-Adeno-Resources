@@ -5,14 +5,14 @@
 *Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be overwhelming, but it shouldn't be.
 
 - [*Endometriosis*](https://en.wikipedia.org/wiki/Endometriosis): A chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility.  
-  [Approximately 10% of women and girls of reproductive age have Endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis) — around 190 million worldwide (WHO). In Australia, [the figure is estimated at 1 in 7](https://endometriosisaustralia.org/1-in-7-australian-women/), suggesting underdiagnosis globally.
+  [Approximately 10% of women and girls of reproductive age have Endometriosis](https://www.who.int/news-room/fact-sheets/detail/endometriosis) - around 190 million worldwide (WHO). In Australia, [the figure is estimated at 1 in 7](https://endometriosisaustralia.org/1-in-7-australian-women/), suggesting underdiagnosis globally.
 - [*Adenomyosis*](https://en.wikipedia.org/wiki/Adenomyosis): A condition where endometrial tissue grows into the muscular wall of the uterus, leading to heavy menstrual bleeding, pain, and uterine enlargement.
 
 <div align="center">
 
 [![Watch This Is Endometriosis](static/images/this-is-endometriosis.jpg)](https://www.thisisendo.com/watch-this-is-endometriosis "Watch This Is Endometriosis")
 
-**▶ This Is Endometriosis** — *BAFTA-winning documentary short film (2026) — Free to watch*
+**▶ This Is Endometriosis** - *BAFTA-winning documentary short film (2026) - Free to watch*
 
 </div>
 
@@ -106,7 +106,7 @@ This resource list is packed with expert advice, community support, and the late
 </tbody>
 </table>
 
-*rASRM staging describes anatomical extent (adhesions, implant size) — it does not correlate with pain severity. Stage I can cause debilitating symptoms and Stage IV can be asymptomatic.*
+*rASRM staging describes anatomical extent (adhesions, implant size) - it does not correlate with pain severity. Stage I can cause debilitating symptoms and Stage IV can be asymptomatic.*
 
 ### [Adenomyosis Symptoms](https://asktia.com/article/adenomyosis-causes-symptoms-treatment/)
 

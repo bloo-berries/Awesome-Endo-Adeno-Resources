@@ -1,4 +1,4 @@
-# 1 in 7 — Brand Guidelines
+# 1 in 7 - Brand Guidelines
 
 ## Brand Identity
 
@@ -17,9 +17,9 @@ The name references the approximately 1 in 7 people affected by endometriosis wo
 
 | File | Use case |
 |------|----------|
-| `logo-full.svg` | Primary logo — heart icon + "1 in 7" wordmark (horizontal) |
-| `logo-icon.svg` | Square icon — favicons, app icons, small spaces |
-| `logo-wordmark.svg` | Text-only — when the icon is already present nearby |
+| `logo-full.svg` | Primary logo - heart icon + "1 in 7" wordmark (horizontal) |
+| `logo-icon.svg` | Square icon - favicons, app icons, small spaces |
+| `logo-wordmark.svg` | Text-only - when the icon is already present nearby |
 
 ### Usage Rules
 

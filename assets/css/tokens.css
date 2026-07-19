@@ -1,5 +1,5 @@
 /*
- * tokens.css — Self-hosted fonts + CSS-only design tokens (Phase 2)
+ * tokens.css - Self-hosted fonts + CSS-only design tokens (Phase 2)
  *
  * The bulk of design tokens (semantic colors, spacing, type scale, radii)
  * are emitted by build_css_vars() in build.py from site.json:semantic.

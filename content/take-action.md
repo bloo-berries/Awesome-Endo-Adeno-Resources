@@ -4,6 +4,7 @@ description: "Practical scripts and resources for talking to doctors, family, an
 date: "2026-05-28"
 lastmod: "2026-05-28"
 draft: false
+toc: false
 search: false
 tags: ["action", "advocacy", "scripts"]
 keywords: ["talk to doctor", "endo advocacy", "scripts"]

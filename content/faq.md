@@ -5,6 +5,7 @@ date: 2025-06-01
 lastmod: 2025-06-01
 tags: ["faq", "Endometriosis", "adenomyosis", "questions"]
 keywords: ["faq", "frequently asked questions", "Endometriosis questions", "adenomyosis questions"]
+toc: false
 ---
 
 ## Frequently Asked Questions

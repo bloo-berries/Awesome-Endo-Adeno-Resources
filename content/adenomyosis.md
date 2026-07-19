@@ -4,6 +4,7 @@ description: "Adenomyosis guide covering symptoms, diagnosis, treatment options,
 date: 2025-01-27
 lastmod: 2026-02-27
 draft: false
+toc: false
 tags: ["adenomyosis", "diagnosis", "treatment", "symptoms"]
 keywords: ["adenomyosis symptoms", "adenomyosis diagnosis", "adenomyosis treatment", "heavy menstrual bleeding", "uterine enlargement"]
 ---

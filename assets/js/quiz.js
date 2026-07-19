@@ -1,9 +1,9 @@
-// Symptom Quiz — client-side only, no data stored or transmitted
+// Symptom Quiz - client-side only, no data stored or transmitted
 (function() {
     var app = document.getElementById('quiz-app');
     if (!app) return;
 
-    // i18n helper — same pattern as take-action.js
+    // i18n helper - same pattern as take-action.js
     function t(key, fallback) {
         var tr = window.__i18nTranslations;
         if (!tr) return fallback;

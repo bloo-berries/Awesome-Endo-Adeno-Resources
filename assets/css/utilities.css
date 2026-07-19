@@ -1,5 +1,5 @@
 /*
- * utilities.css — Layout primitives + a11y helpers (Phase 2)
+ * utilities.css - Layout primitives + a11y helpers (Phase 2)
  *
  * All classes are prefixed `u-` to prevent collision with author-written
  * Markdown content classes. Use these as building blocks; avoid inventing
@@ -31,7 +31,7 @@
 /* ----- u-grid-auto: responsive auto-grid -----
  * Items wrap when they hit --grid-min. No breakpoint queries needed.
  * Browser support: Safari 14+, Chrome 88+, Firefox 79+ (nested min/minmax).
- * Older Safari renders single-column — acceptable graceful degradation.
+ * Older Safari renders single-column - acceptable graceful degradation.
  */
 .u-grid-auto {
   display: grid;

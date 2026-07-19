@@ -53,7 +53,7 @@
 </head>
 <body>
     <script>if(document.documentElement.classList.contains('dark-boot')){document.body.classList.add('dark-theme');document.documentElement.classList.remove('dark-boot');}</script>
-    <div class="ambient-glow" aria-hidden="true"><div class="ambient-orb ambient-orb-1"></div><div class="ambient-orb ambient-orb-2"></div><div class="ambient-orb ambient-orb-3"></div><div class="ambient-orb ambient-orb-4"></div></div>
+    <div class="ambient-glow" aria-hidden="true"><div class="ambient-orb ambient-orb-1"></div><div class="ambient-orb ambient-orb-2"></div><div class="ambient-orb ambient-orb-3"></div><div class="ambient-orb ambient-orb-4"></div><div class="ambient-orb ambient-orb-5"></div><div class="ambient-orb ambient-orb-6"></div><div class="ambient-orb ambient-orb-7"></div></div>
     <a class="u-skip-link" href="#main-content" data-i18n="skip_to_content">Skip to main content</a>
 
     <!-- Top bar -->
@@ -79,10 +79,6 @@
             <div id="search-results" class="search-results" role="listbox" aria-live="polite" aria-atomic="false"></div>
         </div>
 
-        <a href="{{BASE_URL}}take-action/#if-you-need-help-right-now" class="topbar-urgent" data-i18n="home_urgent_btn">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-            Help
-        </a>
         <div class="topbar-actions">
             <div class="topbar-settings-wrap">
                 <button class="topbar-settings-btn" id="settings-toggle" aria-expanded="false" aria-label="Settings" title="Settings" data-i18n="settings_label" data-i18n-attr="aria-label,title">
@@ -90,7 +86,6 @@
                 </button>
                 <div class="topbar-settings-panel" id="settings-panel" hidden>
                     <div class="settings-row">
-                        <label class="settings-label" for="lang-picker" data-i18n="settings_language">Language</label>
                         <select id="lang-picker" class="settings-select" aria-label="Select language" data-i18n="select_language" data-i18n-attr="aria-label">
                             <option value="en">English</option>
                             <option value="ar">العربية</option>
@@ -121,15 +116,17 @@
                         </select>
                     </div>
                     <div class="settings-row">
-                        <span class="settings-label" data-i18n="settings_theme">Theme</span>
                         <button class="settings-theme-btn" id="toggle-theme-btn" aria-label="Toggle light/dark mode" data-i18n="toggle_theme" data-i18n-attr="aria-label">
                             <svg class="toggle-icon sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
                             <svg class="toggle-icon moon-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-                            <span class="settings-theme-label" data-i18n="settings_theme_toggle">Light / Dark</span>
                         </button>
                     </div>
                 </div>
             </div>
+            <a href="{{BASE_URL}}take-action/#if-you-need-help-right-now" class="topbar-urgent" data-i18n="home_urgent_btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                Help
+            </a>
         </div>
     </header>
 

@@ -1,4 +1,4 @@
-/* tracker.css — Symptom tracker component styles */
+/* tracker.css - Symptom tracker component styles */
 
 .tracker-form {
     background: var(--accent-bg);
@@ -7,6 +7,7 @@
     padding: 1.25rem;
     margin-bottom: var(--space-lg);
     max-width: 600px;
+    margin-inline: auto;
 }
 
 .tracker-form h3 {
@@ -135,6 +136,7 @@ textarea.tracker-input {
 
 .tracker-history {
     max-width: 600px;
+    margin-inline: auto;
 }
 
 .tracker-history h3 {

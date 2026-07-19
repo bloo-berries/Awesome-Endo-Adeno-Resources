@@ -4,6 +4,7 @@ description: "Myths debunked, educational materials, community support, financia
 date: 2025-01-27
 lastmod: 2026-07-17
 draft: false
+toc: false
 tags: ["education", "community", "Endometriosis", "adenomyosis", "myths", "facts", "resources", "support", "advocacy"]
 keywords: ["Endometriosis education", "adenomyosis education", "Endometriosis books", "Endometriosis films", "community support", "Endometriosis myths", "endo facts", "Endometriosis support groups", "advocacy", "financial assistance"]
 ---

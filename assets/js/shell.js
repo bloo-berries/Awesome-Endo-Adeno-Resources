@@ -1,4 +1,4 @@
-// shell.js — Page shell behaviors (extracted from base.html inline scripts)
+// shell.js - Page shell behaviors (extracted from base.html inline scripts)
 // Sidebar open/close, theme toggle, language picker sync, back-to-top, bottom nav, people carousel arrows.
 
 // Sidebar open/close

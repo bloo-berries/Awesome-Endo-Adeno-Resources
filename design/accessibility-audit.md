@@ -1,4 +1,4 @@
-# Accessibility audit — Phase 5
+# Accessibility audit - Phase 5
 
 Date: 2026-05-28. Site state: Phase 4 complete, v2 shell in production.
 
@@ -38,8 +38,8 @@ Computed contrast ratios on every semantic token pair (light + dark) using the W
 
 **Fix:** moved `error` from `semantic.constant` to `semantic.light` / `semantic.dark` with theme-specific values:
 
-- Light: `#A41A1A` — 6.24 on surface, 5.53 on surface-raised (AA+)
-- Dark: `#F87171` — 6.80 on surface, 6.10 on surface-raised (AA+)
+- Light: `#A41A1A` - 6.24 on surface, 5.53 on surface-raised (AA+)
+- Dark: `#F87171` - 6.80 on surface, 6.10 on surface-raised (AA+)
 
 ---
 
@@ -54,8 +54,8 @@ Computed contrast ratios on every semantic token pair (light + dark) using the W
 
 | Finding | Fix |
 |---|---|
-| `<div id="search-results" role="listbox">` had no `aria-live` — result changes silent for screen readers. | Added `aria-live="polite"` + `aria-atomic="false"`. |
-| Opening sidebar via hamburger left focus on the topbar — keyboard users had to tab past topbar tail to reach sidebar links. | `setOpen(true)` now moves focus to the first link inside the sidebar (mobile only; desktop already had persistent sidebar). |
+| `<div id="search-results" role="listbox">` had no `aria-live` - result changes silent for screen readers. | Added `aria-live="polite"` + `aria-atomic="false"`. |
+| Opening sidebar via hamburger left focus on the topbar - keyboard users had to tab past topbar tail to reach sidebar links. | `setOpen(true)` now moves focus to the first link inside the sidebar (mobile only; desktop already had persistent sidebar). |
 | Copy-button "Copied" label change was silent for screen readers (visual-only DOM swap). | Wrapped the button's label `<span>` in `aria-live="polite"`. |
 | `aria-current="page"` was confirmed working in sidebar nav (server-rendered via `active_slug`) and bottom nav (client-side via JS path-match). | No change needed; verified on both home and content pages. |
 
@@ -110,7 +110,7 @@ WCAG 2.2 AAA recommends 44px minimum target dimension with ≥8px spacing. Audit
   - Use language-aware labels and let CSS Grid flip the controls
   - Decision pending design review.
 
-- **Sidebar backdrop tap zone for RTL.** Currently the sidebar covers 70% width with the right 30% as tap-to-close. In RTL it covers from the right; the 30% open zone is now on the left. This works correctly with `inset-inline-end: 30%` but the visual feels different — the user reads outward toward the close zone.
+- **Sidebar backdrop tap zone for RTL.** Currently the sidebar covers 70% width with the right 30% as tap-to-close. In RTL it covers from the right; the 30% open zone is now on the left. This works correctly with `inset-inline-end: 30%` but the visual feels different - the user reads outward toward the close zone.
 
 ---
 
@@ -136,7 +136,7 @@ Build verified after every fix; bundle size unchanged (~7.5 KB CSS gzip, 8.5 KB 
 
 ## What's NOT covered by this audit
 
-- **Live-browser/screen-reader testing.** This audit is static — I read code and computed contrasts. A real audit needs VoiceOver / NVDA / TalkBack runs. Worth a pass before launch.
+- **Live-browser/screen-reader testing.** This audit is static - I read code and computed contrasts. A real audit needs VoiceOver / NVDA / TalkBack runs. Worth a pass before launch.
 - **Keyboard testing on actual devices.** Tested by reading code; needs physical keyboard verification.
 - **Image alt text.** All images on the home page have `alt` attributes. Content pages should be re-audited as content gets rewritten in Phase 6.
 - **Form-error message announcement.** The take-action and quiz pages don't have forms; the home quiz-teaser is just a teaser. When the real quiz lands (deferred), error states need `aria-live="assertive"` for validation feedback.

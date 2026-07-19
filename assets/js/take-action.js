@@ -1,4 +1,4 @@
-// /take-action/ — add copy buttons to template blockquotes (Phase 4c)
+// /take-action/ - add copy buttons to template blockquotes (Phase 4c)
 // Activates only on the take-action page. Each blockquote inside .content gets
 // a Copy button that writes its plain text to the clipboard.
 (function() {

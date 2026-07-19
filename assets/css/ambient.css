@@ -1,9 +1,8 @@
 /*
- * ambient.css — Subtle animated background glow for dark mode
+ * ambient.css - Animated background blobs for light and dark modes
  *
- * Uses GPU-accelerated transform + opacity on blurred pseudo-elements
- * for smooth, fluid motion. Only active in dark mode.
- * Respects prefers-reduced-motion.
+ * 7 orbs with varied brand colors (plum, gold, rose, teal).
+ * GPU-accelerated via transform. Respects prefers-reduced-motion.
  */
 
 .ambient-glow {
@@ -17,98 +16,130 @@
 .ambient-orb {
   position: absolute;
   border-radius: 50%;
-  filter: blur(120px);
+  filter: blur(100px);
   will-change: transform;
 }
 
-/* Dark mode orbs — complementary purple tones */
-.dark-theme .ambient-orb-1 {
-  background: rgba(100, 60, 140, 0.16);
-}
+/* ── Dark mode ───────────────────────────────────────────────────────── */
 
-.dark-theme .ambient-orb-2 {
-  background: rgba(140, 90, 180, 0.1);
-}
+.dark-theme .ambient-orb-1 { background: rgba(100, 50, 140, 0.18); }
+.dark-theme .ambient-orb-2 { background: rgba(160, 90, 120, 0.12); }
+.dark-theme .ambient-orb-3 { background: rgba(70, 45, 110, 0.15); }
+.dark-theme .ambient-orb-4 { background: rgba(140, 100, 60, 0.10); }
+.dark-theme .ambient-orb-5 { background: rgba(120, 60, 160, 0.13); }
+.dark-theme .ambient-orb-6 { background: rgba(90, 50, 80, 0.14); }
+.dark-theme .ambient-orb-7 { background: rgba(60, 90, 120, 0.10); }
 
-.dark-theme .ambient-orb-3 {
-  background: rgba(80, 50, 120, 0.13);
-}
+/* ── Light mode ──────────────────────────────────────────────────────── */
 
-.dark-theme .ambient-orb-4 {
-  background: rgba(120, 70, 160, 0.09);
-}
+body:not(.dark-theme) .ambient-orb-1 { background: rgba(140, 80, 180, 0.14); }
+body:not(.dark-theme) .ambient-orb-2 { background: rgba(200, 130, 160, 0.12); }
+body:not(.dark-theme) .ambient-orb-3 { background: rgba(100, 60, 150, 0.10); }
+body:not(.dark-theme) .ambient-orb-4 { background: rgba(200, 170, 100, 0.13); }
+body:not(.dark-theme) .ambient-orb-5 { background: rgba(160, 90, 200, 0.11); }
+body:not(.dark-theme) .ambient-orb-6 { background: rgba(180, 100, 140, 0.12); }
+body:not(.dark-theme) .ambient-orb-7 { background: rgba(80, 120, 160, 0.09); }
 
-/* Light mode orbs — visible soft purple wash */
-body:not(.dark-theme) .ambient-orb-1 {
-  background: rgba(130, 80, 170, 0.18);
-}
-
-body:not(.dark-theme) .ambient-orb-2 {
-  background: rgba(160, 100, 200, 0.12);
-}
-
-body:not(.dark-theme) .ambient-orb-3 {
-  background: rgba(110, 70, 150, 0.14);
-}
-
-body:not(.dark-theme) .ambient-orb-4 {
-  background: rgba(180, 130, 210, 0.10);
-}
+/* ── Orb sizing and positioning ──────────────────────────────────────── */
 
 .ambient-orb-1 {
-  width: 55vw;
-  height: 55vw;
-  top: -15%;
-  left: -15%;
-  animation: orb-drift-1 25s ease-in-out infinite alternate;
+  width: 50vw;
+  height: 50vw;
+  top: -10%;
+  left: -10%;
+  animation: orb-drift-1 26s ease-in-out infinite alternate;
 }
 
 .ambient-orb-2 {
-  width: 45vw;
-  height: 45vw;
-  bottom: -10%;
-  right: -10%;
-  animation: orb-drift-2 30s ease-in-out infinite alternate;
+  width: 40vw;
+  height: 40vw;
+  bottom: -5%;
+  right: -8%;
+  animation: orb-drift-2 32s ease-in-out infinite alternate;
 }
 
 .ambient-orb-3 {
-  width: 40vw;
-  height: 40vw;
-  top: 40%;
-  left: 35%;
+  width: 35vw;
+  height: 35vw;
+  top: 50%;
+  left: 30%;
   animation: orb-drift-3 22s ease-in-out infinite alternate;
 }
 
 .ambient-orb-4 {
-  width: 35vw;
-  height: 35vw;
-  top: 10%;
-  right: 20%;
+  width: 30vw;
+  height: 30vw;
+  top: 15%;
+  right: 10%;
   animation: orb-drift-4 28s ease-in-out infinite alternate;
 }
 
+.ambient-orb-5 {
+  width: 45vw;
+  height: 45vw;
+  bottom: 20%;
+  left: -5%;
+  animation: orb-drift-5 35s ease-in-out infinite alternate;
+}
+
+.ambient-orb-6 {
+  width: 25vw;
+  height: 25vw;
+  top: 30%;
+  right: -5%;
+  animation: orb-drift-6 20s ease-in-out infinite alternate;
+}
+
+.ambient-orb-7 {
+  width: 38vw;
+  height: 38vw;
+  bottom: -8%;
+  left: 40%;
+  animation: orb-drift-7 30s ease-in-out infinite alternate;
+}
+
+/* ── Keyframes ───────────────────────────────────────────────────────── */
+
 @keyframes orb-drift-1 {
   0%   { transform: translate(0, 0) scale(1); }
-  50%  { transform: translate(15vw, 20vh) scale(1.1); }
-  100% { transform: translate(5vw, 10vh) scale(0.95); }
+  50%  { transform: translate(12vw, 18vh) scale(1.1); }
+  100% { transform: translate(4vw, 8vh) scale(0.95); }
 }
 
 @keyframes orb-drift-2 {
   0%   { transform: translate(0, 0) scale(1); }
-  50%  { transform: translate(-20vw, -15vh) scale(1.15); }
-  100% { transform: translate(-8vw, -25vh) scale(1.05); }
+  50%  { transform: translate(-18vw, -12vh) scale(1.12); }
+  100% { transform: translate(-6vw, -20vh) scale(1.04); }
 }
 
 @keyframes orb-drift-3 {
   0%   { transform: translate(0, 0) scale(1); }
-  50%  { transform: translate(-10vw, -10vh) scale(1.2); }
-  100% { transform: translate(12vw, 5vh) scale(0.9); }
+  50%  { transform: translate(-8vw, -14vh) scale(1.18); }
+  100% { transform: translate(10vw, 4vh) scale(0.9); }
 }
 
 @keyframes orb-drift-4 {
   0%   { transform: translate(0, 0) scale(1); }
-  50%  { transform: translate(-12vw, 18vh) scale(1.12); }
-  100% { transform: translate(8vw, -8vh) scale(0.92); }
+  50%  { transform: translate(-14vw, 16vh) scale(1.08); }
+  100% { transform: translate(6vw, -6vh) scale(0.94); }
+}
+
+@keyframes orb-drift-5 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(16vw, -10vh) scale(1.15); }
+  100% { transform: translate(8vw, 12vh) scale(0.92); }
+}
+
+@keyframes orb-drift-6 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-10vw, 20vh) scale(1.2); }
+  100% { transform: translate(-4vw, 10vh) scale(0.88); }
+}
+
+@keyframes orb-drift-7 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(10vw, -16vh) scale(1.1); }
+  100% { transform: translate(-8vw, -8vh) scale(1.05); }
 }
 
 @media (prefers-reduced-motion: reduce) {

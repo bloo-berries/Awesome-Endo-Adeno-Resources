@@ -1,4 +1,4 @@
-/* components.css — Expand/collapse, details, back-to-top, breadcrumbs, hero,
+/* components.css - Expand/collapse, details, back-to-top, breadcrumbs, hero,
    resource cards, definition block, home content, filter panels, video,
    accordion, poll/carousel, stats, CTA, TOC */
 
@@ -10,9 +10,9 @@
     gap: 0.3rem;
     padding: 0.3rem 0.75rem;
     margin-bottom: 0.75rem;
-    background: var(--accent-bg);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
+    background: transparent;
+    border: none;
+    border-radius: 0;
     color: var(--accent);
     font-size: 0.8rem;
     font-weight: 600;
@@ -23,8 +23,8 @@
 }
 
 .toggle-all-details:hover {
-    background: var(--accent-bg-hover);
-    border-color: var(--accent);
+    background: transparent;
+    color: var(--accent-hover);
 }
 
 /* ===== DETAILS / SUMMARY ===== */
@@ -38,12 +38,13 @@ details summary {
     cursor: pointer;
     font-weight: 600;
     padding: 0.6rem var(--space-md);
-    border-radius: var(--radius-md);
+    border-radius: 0;
     transition: var(--transition-fast);
     user-select: none;
     list-style: none;
-    background: var(--accent-bg);
-    border: 1px solid var(--border);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border);
     display: flex;
     align-items: center;
     gap: var(--space-sm);
@@ -68,7 +69,7 @@ details[open] summary::after { transform: rotate(45deg); }
 
 details summary:hover {
     color: var(--accent-hover);
-    background-color: var(--accent-bg-hover);
+    background-color: transparent;
     border-color: var(--accent);
 }
 
@@ -79,8 +80,7 @@ details summary:focus {
 
 details[open] summary {
     margin-bottom: 0.75rem;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 0;
     border-bottom-color: var(--accent);
 }
 
@@ -200,7 +200,7 @@ details[open] summary {
     padding: 0.5rem 0.75rem;
     flex-direction: column;
     font-size: 0.8rem;
-    background: var(--surface);
+    background: transparent;
     border-color: transparent;
     border-radius: 0;
     color: var(--text);
@@ -208,7 +208,7 @@ details[open] summary {
 }
 
 .table-accordion > details > summary:hover {
-    background: var(--accent-bg);
+    background: transparent;
 }
 
 .table-accordion > details > summary::after { display: none; }
@@ -234,9 +234,9 @@ details[open] summary {
 }
 
 .accordion-card-badge {
-    background: var(--accent-bg);
-    color: var(--accent);
-    padding: 0.15rem var(--space-sm);
+    background: transparent;
+    color: var(--text-muted);
+    padding: 0;
     border-radius: var(--radius-pill);
     font-size: 0.7rem;
     font-weight: 600;
@@ -362,10 +362,11 @@ details[open] > summary .accordion-card-chevron {
 /* ===== CALLOUT BOXES ===== */
 
 .callout {
-    padding: var(--space-md) 1.25rem;
-    border: 1px solid var(--border);
-    background: var(--accent-bg);
-    border-radius: var(--radius-md);
+    padding: var(--space-md) 0;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    background: transparent;
+    border-radius: 0;
     margin-bottom: var(--space-lg);
 }
 
@@ -373,31 +374,32 @@ details[open] > summary .accordion-card-chevron {
 .callout p + p { margin-top: 0.5rem; }
 
 .callout-warning {
-    border-color: var(--error);
-    background: rgba(192, 57, 43, 0.08);
+    border-bottom-color: var(--error);
+    background: transparent;
 }
 
 .callout-info {
-    border-color: var(--accent);
-    background: var(--accent-bg);
+    border-bottom-color: var(--accent);
+    background: transparent;
 }
 
 /* ===== MYTH / FACT CARDS ===== */
 
 .myth-card {
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
     overflow: hidden;
     margin-bottom: 1rem;
 }
 
 .myth-side,
 .fact-side {
-    padding: 1rem 1.25rem;
+    padding: 1rem 0;
 }
 
 .myth-side {
-    background: rgba(192, 57, 43, 0.07);
+    background: transparent;
     border-bottom: 1px solid var(--border);
 }
 
@@ -408,7 +410,7 @@ details[open] > summary .accordion-card-chevron {
 }
 
 .fact-side {
-    background: rgba(39, 174, 96, 0.07);
+    background: transparent;
 }
 
 .fact-side::before {
@@ -446,9 +448,10 @@ details[open] > summary .accordion-card-chevron {
 }
 
 .stat-highlight {
-    background: var(--surface-raised, var(--surface));
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
     padding: 1.25rem 1rem;
     text-align: center;
 }
@@ -539,11 +542,17 @@ details[open] > summary .accordion-card-chevron {
     grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
     gap: 1rem;
     margin-bottom: 1.5rem;
+    justify-items: center;
+}
+
+.crisis-grid + p {
+    text-align: center;
 }
 
 .crisis-card {
-    border: 2px solid var(--border-strong, var(--border));
-    border-radius: var(--radius-md);
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
     padding: 1rem 1.25rem;
     text-align: center;
 }
@@ -579,18 +588,17 @@ details[open] > summary .accordion-card-chevron {
 
 .link-card {
     display: block;
-    background: var(--surface-raised, var(--surface));
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
-    padding: 1rem 1.25rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    padding: 1rem 0;
     text-decoration: none;
     color: var(--text);
-    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 .link-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    color: var(--accent);
 }
 
 .link-card-name {
@@ -607,10 +615,10 @@ details[open] > summary .accordion-card-chevron {
 .link-card-badge {
     display: inline-block;
     margin-top: var(--space-sm);
-    padding: 0.15rem var(--space-sm);
-    border-radius: var(--radius-pill, 999px);
-    background: var(--accent-bg);
-    color: var(--accent);
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--text-muted);
     font-size: 0.7rem;
     font-weight: 600;
 }

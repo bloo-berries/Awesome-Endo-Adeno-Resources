@@ -1,4 +1,4 @@
-// Image Carousel — multi-instance support
+// Image Carousel - multi-instance support
 (function() {
     var sections = document.querySelectorAll('.carousel-section');
     if (!sections.length) return;

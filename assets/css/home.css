@@ -1,5 +1,5 @@
 /*
- * home.css — Home page compositions
+ * home.css - Home page compositions
  *
  * Hero, stats, videos, people carousel, help CTA, dual-row, myths compact.
  * Mobile-first. Split from pages.css.
@@ -184,18 +184,15 @@
   padding: var(--space-xs) var(--space-sm);
   min-block-size: var(--tap-min);
   background: transparent;
-  border: 1px solid transparent;
-  border-radius: var(--radius-md);
+  border: none;
+  border-radius: 0;
   text-decoration: none;
   text-align: center;
-  transition: background-color var(--transition-fast), border-color var(--transition-fast);
 }
 
 .stat-link:hover,
 .stat-link:focus-visible {
   text-decoration: none;
-  background: var(--surface-raised);
-  border-color: var(--border);
 }
 
 .stat-link:focus-visible {
@@ -492,6 +489,17 @@ a.home-section-link:focus-visible {
 
 @media (prefers-reduced-motion: reduce) {
   .home-people-card .person-avatar { transition: none; }
+}
+
+/* =====================================================================
+ * Home: Memorial strip
+ * ===================================================================== */
+
+.home-memorial {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  max-width: 48rem;
+  margin-inline: auto;
 }
 
 /* =====================================================================
