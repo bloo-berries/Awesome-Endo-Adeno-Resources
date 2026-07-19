@@ -45,6 +45,32 @@
     document.body.appendChild(backdrop);
 
     var triggerCard = null;
+    var cardsArray = Array.prototype.slice.call(cards);
+
+    function currentIndex() {
+        return triggerCard ? cardsArray.indexOf(triggerCard) : -1;
+    }
+
+    function navigateToCard(direction) {
+        var idx = currentIndex();
+        if (idx === -1) return;
+        var next = idx + direction;
+        if (next < 0) next = cardsArray.length - 1;
+        if (next >= cardsArray.length) next = 0;
+        triggerCard = cardsArray[next];
+        open(triggerCard);
+    }
+
+    // ── i18n helper for data attributes ─────────────────────────────────
+    function ti18n(key) {
+        if (!key) return '';
+        try {
+            var lang = localStorage.getItem('site-language') || 'en';
+            var tr = (window.__i18nTranslations || {})[lang] || {};
+            var fallback = (window.__i18nTranslations || {}).en || {};
+            return tr[key] || fallback[key] || '';
+        } catch (e) { return ''; }
+    }
 
     // ── Open ─────────────────────────────────────────────────────────────
     function open(card) {
@@ -54,8 +80,11 @@
         var name = (card.querySelector('.person-name') || {}).textContent || '';
         var role = (card.querySelector('.person-role') || {}).textContent || '';
         var condition = (card.querySelector('.person-condition') || {}).textContent || '';
-        var bio = card.getAttribute('data-bio') || '';
-        var detail = card.getAttribute('data-detail') || '';
+        // Use i18n translations for bio/detail when available
+        var bioKey = card.getAttribute('data-i18n-bio');
+        var detailKey = card.getAttribute('data-i18n-detail');
+        var bio = ti18n(bioKey) || card.getAttribute('data-bio') || '';
+        var detail = ti18n(detailKey) || card.getAttribute('data-detail') || '';
 
         // Clone avatar content (img or initials text)
         var avatarHTML = '';
@@ -124,6 +153,17 @@
             return;
         }
 
+        if (e.key === 'ArrowLeft') {
+            e.preventDefault();
+            navigateToCard(-1);
+            return;
+        }
+        if (e.key === 'ArrowRight') {
+            e.preventDefault();
+            navigateToCard(1);
+            return;
+        }
+
         // Focus trap
         if (e.key === 'Tab') {
             var focusable = dialog.querySelectorAll(
@@ -146,6 +186,27 @@
             }
         }
     });
+
+    // ── Swipe navigation (mobile) ───────────────────────────────────────
+    var touchStartX = 0;
+    var touchStartY = 0;
+
+    dialog.addEventListener('touchstart', function(e) {
+        var touch = e.changedTouches[0];
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+    }, { passive: true });
+
+    dialog.addEventListener('touchend', function(e) {
+        var touch = e.changedTouches[0];
+        var dx = touch.clientX - touchStartX;
+        var dy = touch.clientY - touchStartY;
+
+        // Only trigger if horizontal swipe > 50px and more horizontal than vertical
+        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+            navigateToCard(dx < 0 ? 1 : -1);
+        }
+    }, { passive: true });
 
     // ── Card activation ──────────────────────────────────────────────────
     cards.forEach(function(card) {

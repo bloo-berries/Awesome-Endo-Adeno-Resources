@@ -60,6 +60,11 @@
 
 ## Features
 
+- [x] Multi-instance carousel JS (supports multiple carousels per page)
+- [x] Dual-column "Reality of Endo" section: infographic carousel + NSFW-gated surgical photos carousel
+- [x] NSFW gate on surgical carousel (click-to-reveal, carousel inits only after reveal)
+- [x] Face centering on notable people cards (`object-position: center 20%`)
+- [x] Surgical images moved to `static/images/graphic-images/` (survive rebuilds)
 - [ ] PWA offline support (service worker + cache strategy)
 - [ ] Share button on content pages (Web Share API with fallback)
 - [x] Print stylesheet for content pages

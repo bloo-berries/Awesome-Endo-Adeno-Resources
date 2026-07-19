@@ -253,11 +253,19 @@ Pages with `search: false` frontmatter are excluded from the search index (`/tak
 
 - Tables with `data-accordion="table"` collapse into `<details>`/`<summary>` blocks on mobile.
 
-### Carousel (home)
+### Carousel (home — dual-column "Reality of Endo")
 
+Two carousels side-by-side (1-col mobile, 2-col at 48rem via `.home-reality-grid`):
+
+1. **Infographic carousel** (left) — 4 endographics.org slides, `object-fit: contain`, rounded corners.
+2. **Surgical photos carousel** (right) — 7 graphic images behind an NSFW gate (`.carousel-nsfw-gate`). User must click "View images" to reveal; carousel inits only after reveal.
+
+Shared behavior:
+- Multi-instance JS (`carousel.js`) — each `.carousel-section` gets independent state.
 - Auto-rotates every 4s **only if** `prefers-reduced-motion: no-preference` AND `hover: hover` (not touch).
 - Reacts to live changes in the motion preference.
 - Per-slide `aria-hidden`, dots have `aria-label="Go to slide N"`, arrow buttons have ARIA labels.
+- Controls use soft, borderless styling (`--accent-bg` / `--accent-bg-hover`) to match the site palette.
 
 ---
 

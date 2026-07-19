@@ -278,13 +278,17 @@
 
 .home-videos {
   margin-top: var(--space-xl);
+  max-width: 48rem;
+  margin-inline: auto;
+  padding-top: var(--space-lg);
 }
 
 .home-section-heading {
   margin: 0 0 var(--space-md);
-  font-size: var(--text-2xl);
+  font-size: var(--text-xl);
   font-weight: 700;
   letter-spacing: -0.01em;
+  text-align: center;
 }
 
 a.home-section-link {
@@ -467,6 +471,7 @@ a.home-section-link:focus-visible {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 20%;
   border-radius: inherit;
 }
 
@@ -494,22 +499,49 @@ a.home-section-link:focus-visible {
  * ===================================================================== */
 
 /* =====================================================================
- * Home: Full-width carousel
+ * Home: Reality of Endo (2-column grid)
  * ===================================================================== */
 
-.home-carousel-full.carousel-section {
+.home-reality {
   margin-top: var(--space-xl);
-  max-width: none;
+  padding-top: var(--space-lg);
+  max-width: 48rem;
+  margin-inline: auto;
 }
 
+.home-reality-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 48rem) {
+  .home-reality-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Inside the grid, carousels fill their cell */
+.home-reality-grid .carousel-section {
+  margin: 0;
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Carousel styling (shared by both carousels) ────────────────────── */
+
 .home-carousel-full .carousel-viewport {
-  height: 20rem;
+  height: 16rem;
   margin-bottom: var(--space-xs);
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
 }
 
 @media (min-width: 48rem) {
   .home-carousel-full .carousel-viewport {
-    height: 28rem;
+    height: 18rem;
   }
 }
 
@@ -529,30 +561,27 @@ a.home-section-link:focus-visible {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  border-radius: var(--radius-md);
 }
 
 .home-carousel-full .carousel-arrow {
-  background: var(--surface-raised);
-  border-color: var(--border);
-  color: var(--text);
+  background: var(--accent-bg);
+  border: none;
+  color: var(--text-muted);
 }
 
 .home-carousel-full .carousel-arrow:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--text-on-warm);
+  background: var(--accent-bg-hover);
+  border: none;
+  color: var(--text);
 }
 
 .home-carousel-full .carousel-dot {
-  background: var(--border);
+  background: var(--accent-bg-hover);
 }
 
 .home-carousel-full .carousel-dot.active {
-  background: var(--accent);
-}
-
-.home-carousel-full .carousel-viewport {
-  position: relative;
+  background: var(--text-muted);
 }
 
 .home-carousel-full .carousel-credit {
@@ -581,6 +610,87 @@ a.home-section-link:focus-visible {
   color: rgba(255, 255, 255, 0.95);
 }
 
+/* Surgical photos: contain to show full image content */
+#carousel-surgical .carousel-slide img {
+  object-fit: contain;
+}
+
+/* ── NSFW gate ──────────────────────────────────────────────────────── */
+
+.carousel-nsfw-gate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 13rem;
+  background: var(--accent-bg);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-xs);
+}
+
+@media (min-width: 48rem) {
+  .carousel-nsfw-gate {
+    height: 15rem;
+  }
+}
+
+.carousel-nsfw-gate[hidden] {
+  display: none;
+}
+
+.carousel-nsfw-gate-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  text-align: center;
+  max-width: 18rem;
+}
+
+.carousel-nsfw-gate-inner svg {
+  color: var(--text-muted);
+}
+
+.carousel-nsfw-title {
+  margin: 0;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.carousel-nsfw-desc {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.carousel-nsfw-reveal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xs) var(--space-lg);
+  min-block-size: var(--tap-min);
+  background: var(--surface-deep);
+  color: var(--text-on-deep);
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.carousel-nsfw-reveal:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.carousel-nsfw-reveal:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
 /* =====================================================================
  * Home: Closing section (myths + CTA buttons)
  * ===================================================================== */
@@ -588,14 +698,22 @@ a.home-section-link:focus-visible {
 .home-closing {
   margin-top: var(--space-xl);
   padding-top: var(--space-lg);
+  max-width: 48rem;
+  margin-inline: auto;
 }
 
 /* Expandable myths */
 .myths-list {
   margin: var(--space-md) 0 var(--space-lg);
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: var(--space-md);
+}
+
+@media (min-width: 48rem) {
+  .myths-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .myths-list-item {
@@ -622,12 +740,14 @@ a.home-section-link:focus-visible {
 .home-closing-actions {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: var(--space-xs);
 }
 
 @media (min-width: 48rem) {
   .home-closing-actions {
     flex-direction: row;
+    justify-content: center;
     gap: var(--space-lg);
   }
 }
