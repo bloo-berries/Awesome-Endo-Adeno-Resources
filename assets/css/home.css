@@ -43,7 +43,7 @@
   font-size: var(--text-2xl);
   font-weight: 800;
   letter-spacing: -0.02em;
-  line-height: 1.1;
+  line-height: 1.5;
   color: var(--heading-color);
   text-wrap: balance;
 }

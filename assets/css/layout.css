@@ -277,16 +277,13 @@
 
 /* Hide topbar actions (lang/theme) on mobile — they live in sidebar instead */
 .topbar-actions {
-  display: none;
+  display: flex;
   align-items: center;
   gap: var(--space-xs);
   justify-self: end;
 }
 
 @media (min-width: 48rem) {
-  .topbar-actions {
-    display: flex;
-  }
   .topbar-urgent {
     display: none;
   }
