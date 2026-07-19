@@ -66,7 +66,10 @@
     <section id="sc-reports" class="sc-section">
         <div class="sc-section-head">
             <h2>The reports</h2>
-            <p>Every figure is self-reported and unverified. Treat it as a starting point, not a guarantee. Tap any report for the full story; the <span class="sc-mark-soft">highlighted number</span> is what the patient actually paid.</p>
+            <p>Every figure is self-reported and unverified. Treat it as a starting point, not a guarantee. Tap any report for the full story; the <span class="sc-mark-soft">highlighted number</span> is what the patient actually paid. <button type="button" class="sc-info-btn" id="sc-info-toggle" aria-expanded="false" aria-controls="sc-info-tip" aria-label="More info about this data">i</button></p>
+            <div class="sc-info-tip" id="sc-info-tip" hidden>
+                <p>* Location added from the provider's public practice listings; it wasn't stated in the original report. Currency conversions marked &asymp; are approximate (mid-2026) and for rough comparison only. Amounts span different years and don't account for inflation. Locations shown as "USA (inferred)" weren't stated in the report but use US-specific insurance terms (copay, deductible, out-of-pocket max).</p>
+            </div>
         </div>
 
         <div class="sc-toolbar">
@@ -99,7 +102,6 @@
         <div class="sc-empty-note" id="sc-empty" hidden>No reports match these filters yet. Clear a filter, or <a href="#sc-submit">add yours</a> to fill the gap.</div>
         <div class="sc-more-wrap" id="sc-more-wrap" hidden><button class="sc-btn-more" id="sc-more" type="button"></button></div>
 
-        <p class="sc-table-foot">* Location added from the provider's public practice listings; it wasn't stated in the original report. Currency conversions marked &asymp; are approximate (mid-2026) and for rough comparison only. Amounts span different years and don't account for inflation. Locations shown as "USA (inferred)" weren't stated in the report but use US-specific insurance terms (copay, deductible, out-of-pocket max).</p>
     </section>
 
     <section id="sc-watchouts" class="sc-section sc-watchouts">

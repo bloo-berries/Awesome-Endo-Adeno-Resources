@@ -210,6 +210,45 @@
     color: var(--text-muted);
     font-size: var(--text-sm);
 }
+/* --- info button + tooltip --- */
+.sc-info-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1.5px solid var(--text-muted);
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: inherit;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-inline-start: 4px;
+    padding: 0;
+    line-height: 1;
+    transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+.sc-info-btn:hover,
+.sc-info-btn[aria-expanded="true"] {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+.sc-info-tip {
+    margin-top: var(--space-sm);
+    padding: var(--space-md);
+    background: var(--surface-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+.sc-info-tip p { margin: 0 }
+
 .sc-country-toggle {
     margin: var(--space-lg) 0 0;
 }
@@ -308,7 +347,7 @@
     background: transparent;
     padding: var(--space-sm) 0 var(--space-md);
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 8px;
     align-items: center;
     margin-bottom: var(--space-md);
@@ -345,7 +384,8 @@
 .sc-count {
     font-size: var(--text-xs);
     color: var(--text-muted);
-    flex-basis: 100%;
+    grid-column: 1 / -1;
+    text-align: end;
 }
 
 /* --- report cards --- */
@@ -484,18 +524,17 @@ details.report summary:hover { background: var(--accent-bg) }
 
 /* --- guidance tips --- */
 .sc-watchouts {
-    background: var(--surface-raised);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
+    background: transparent;
 }
 .sc-tips {
     display: grid;
     gap: 8px;
 }
 details.sc-tip {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
 }
 details.sc-tip summary {
     list-style: none;
@@ -675,11 +714,6 @@ details.sc-tip p {
     .sc-stat { padding: 24px 22px }
     .sc-stat b { font-size: var(--text-xl) }
     .sc-paths { grid-template-columns: repeat(3, 1fr); gap: 14px }
-    .sc-toolbar {
-        grid-template-columns: 1fr 1fr 1fr auto;
-        grid-template-rows: auto auto;
-    }
-    .sc-toolbar input[type="search"] { grid-column: 1 / -1 }
     .sc-count { grid-column: 1 / -1; text-align: end }
     .r-field { grid-template-columns: 120px 1fr }
     .sc-form-grid { grid-template-columns: 1fr 1fr }

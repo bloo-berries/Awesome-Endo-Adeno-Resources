@@ -247,6 +247,17 @@
     });
   });
 
+  /* ---- info tooltip toggle ---- */
+  var infoBtn = document.getElementById('sc-info-toggle');
+  var infoTip = document.getElementById('sc-info-tip');
+  if (infoBtn && infoTip) {
+    infoBtn.addEventListener('click', function() {
+      var open = infoTip.hidden;
+      infoTip.hidden = !open;
+      infoBtn.setAttribute('aria-expanded', String(open));
+    });
+  }
+
   /* ---- form submission ---- */
   var form = document.getElementById('sc-form');
   var confirmEl = document.getElementById('sc-confirm');
