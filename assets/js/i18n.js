@@ -52,5 +52,13 @@
                     applyTranslations(this.value);
                 });
             }
-        });
+        })
+        .catch(function(err) { console.warn('i18n: failed to load translations', err); });
+
+    // Shared i18n lookup helper for other modules
+    window.__ti18n = function(key, fallback) {
+        var lang = localStorage.getItem('site-language') || 'en';
+        var t = (window.__i18nTranslations || {})[lang] || (window.__i18nTranslations || {}).en || {};
+        return t[key] || fallback;
+    };
 })();

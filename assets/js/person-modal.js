@@ -7,11 +7,7 @@
 
     // ── Helpers ──────────────────────────────────────────────────────────
     function t(key, fallback) {
-        try {
-            var lang = localStorage.getItem('site-language') || 'en';
-            var tr = (window.__i18nTranslations || {})[lang] || (window.__i18nTranslations || {}).en || {};
-            return tr[key] || fallback;
-        } catch (e) { return fallback; }
+        return window.__ti18n ? window.__ti18n(key, fallback) : fallback;
     }
 
     var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -64,12 +60,7 @@
     // ── i18n helper for data attributes ─────────────────────────────────
     function ti18n(key) {
         if (!key) return '';
-        try {
-            var lang = localStorage.getItem('site-language') || 'en';
-            var tr = (window.__i18nTranslations || {})[lang] || {};
-            var fallback = (window.__i18nTranslations || {}).en || {};
-            return tr[key] || fallback[key] || '';
-        } catch (e) { return ''; }
+        return window.__ti18n ? window.__ti18n(key, '') : '';
     }
 
     // ── Open ─────────────────────────────────────────────────────────────

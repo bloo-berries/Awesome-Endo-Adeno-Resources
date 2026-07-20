@@ -11,23 +11,11 @@
     if (!blockquotes.length) return;
 
     function getCopyLabel() {
-        try {
-            var lang = localStorage.getItem('site-language') || 'en';
-            var t = (window.__i18nTranslations || {})[lang] || (window.__i18nTranslations || {}).en || {};
-            return t.copy_template || 'Copy';
-        } catch (e) {
-            return 'Copy';
-        }
+        return window.__ti18n ? window.__ti18n('copy_template', 'Copy') : 'Copy';
     }
 
     function getCopiedLabel() {
-        try {
-            var lang = localStorage.getItem('site-language') || 'en';
-            var t = (window.__i18nTranslations || {})[lang] || (window.__i18nTranslations || {}).en || {};
-            return t.copied || 'Copied';
-        } catch (e) {
-            return 'Copied';
-        }
+        return window.__ti18n ? window.__ti18n('copied', 'Copied') : 'Copied';
     }
 
     blockquotes.forEach(function(bq) {

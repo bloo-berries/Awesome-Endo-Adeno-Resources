@@ -311,5 +311,6 @@
       var countryKeys = buildChips();
       updateStats(countryKeys);
       apply();
-    });
+    })
+    .catch(function(err) { console.warn('surgery-costs: failed to load data', err); });
 })();

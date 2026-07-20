@@ -125,7 +125,7 @@
   width: 100%;
   max-height: 85vh;
   overflow-y: auto;
-  background: #F9F0E4;
+  background: var(--surface);
   color: var(--text);
   border-radius: 1.5rem 2.2rem 0 0;
   padding: var(--space-lg);
@@ -134,9 +134,7 @@
   transition: transform var(--transition-slow);
 }
 
-body.dark-theme .person-modal {
-  background: #241520;
-}
+
 
 .person-modal-backdrop.is-visible .person-modal {
   transform: translateY(0);

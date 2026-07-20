@@ -3,13 +3,9 @@
     var app = document.getElementById('quiz-app');
     if (!app) return;
 
-    // i18n helper - same pattern as take-action.js
+    // i18n helper
     function t(key, fallback) {
-        var tr = window.__i18nTranslations;
-        if (!tr) return fallback;
-        var lang = localStorage.getItem('site-language') || 'en';
-        var dict = tr[lang] || tr['en'] || {};
-        return dict[key] || (tr['en'] && tr['en'][key]) || fallback;
+        return window.__ti18n ? window.__ti18n(key, fallback) : fallback;
     }
 
     var SYMPTOMS = [

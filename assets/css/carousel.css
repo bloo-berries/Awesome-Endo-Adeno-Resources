@@ -2,12 +2,12 @@
 
 .carousel-section {
     max-width: 600px;
-    margin: 1.5rem auto;
+    margin: var(--space-lg) auto;
 }
 
 
 .carousel-box {
-    background: var(--gradient-component);
+    background: var(--gradient-warm);
     border-radius: var(--radius-md);
     padding: 0.6rem 0.75rem;
     box-shadow: var(--shadow-md);
@@ -60,7 +60,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    color: #fff;
+    color: var(--text-on-warm);
     transition: var(--transition-fast);
     flex-shrink: 0;
     padding: 0;
@@ -104,7 +104,7 @@
     text-align: center;
     font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.5);
-    margin-top: 0.5rem;
+    margin-top: var(--space-sm);
 }
 
 .carousel-credit a {

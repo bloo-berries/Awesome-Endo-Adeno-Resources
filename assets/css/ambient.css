@@ -46,7 +46,7 @@ body:not(.dark-theme) .ambient-orb-7 { background: rgba(80, 120, 160, 0.09); }
   width: 50vw;
   height: 50vw;
   top: -10%;
-  left: -10%;
+  inset-inline-start: -10%;
   animation: orb-drift-1 26s ease-in-out infinite alternate;
 }
 
@@ -54,7 +54,7 @@ body:not(.dark-theme) .ambient-orb-7 { background: rgba(80, 120, 160, 0.09); }
   width: 40vw;
   height: 40vw;
   bottom: -5%;
-  right: -8%;
+  inset-inline-end: -8%;
   animation: orb-drift-2 32s ease-in-out infinite alternate;
 }
 
@@ -62,7 +62,7 @@ body:not(.dark-theme) .ambient-orb-7 { background: rgba(80, 120, 160, 0.09); }
   width: 35vw;
   height: 35vw;
   top: 50%;
-  left: 30%;
+  inset-inline-start: 30%;
   animation: orb-drift-3 22s ease-in-out infinite alternate;
 }
 
@@ -70,7 +70,7 @@ body:not(.dark-theme) .ambient-orb-7 { background: rgba(80, 120, 160, 0.09); }
   width: 30vw;
   height: 30vw;
   top: 15%;
-  right: 10%;
+  inset-inline-end: 10%;
   animation: orb-drift-4 28s ease-in-out infinite alternate;
 }
 
@@ -78,7 +78,7 @@ body:not(.dark-theme) .ambient-orb-7 { background: rgba(80, 120, 160, 0.09); }
   width: 45vw;
   height: 45vw;
   bottom: 20%;
-  left: -5%;
+  inset-inline-start: -5%;
   animation: orb-drift-5 35s ease-in-out infinite alternate;
 }
 
@@ -86,7 +86,7 @@ body:not(.dark-theme) .ambient-orb-7 { background: rgba(80, 120, 160, 0.09); }
   width: 25vw;
   height: 25vw;
   top: 30%;
-  right: -5%;
+  inset-inline-end: -5%;
   animation: orb-drift-6 20s ease-in-out infinite alternate;
 }
 
@@ -94,7 +94,7 @@ body:not(.dark-theme) .ambient-orb-7 { background: rgba(80, 120, 160, 0.09); }
   width: 38vw;
   height: 38vw;
   bottom: -8%;
-  left: 40%;
+  inset-inline-start: 40%;
   animation: orb-drift-7 30s ease-in-out infinite alternate;
 }
 

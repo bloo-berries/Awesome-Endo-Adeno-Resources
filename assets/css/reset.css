@@ -41,8 +41,8 @@ body {
   font-family: var(--font-primary, 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
   font-weight: 400;
   font-size: var(--text-base, 1rem);
-  color: var(--text, var(--text-color));
-  background-color: var(--surface, var(--bkg-color));
+  color: var(--text);
+  background-color: var(--surface);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -292,7 +292,7 @@ th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: var(--table-stripe-color);
+  background-color: var(--table-stripe);
 }
 
 thead th {

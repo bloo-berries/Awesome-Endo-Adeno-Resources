@@ -1,6 +1,6 @@
-# 1 in 7 - Brand Identity (v2)
+# 1 in 7 - Brand Identity (v2.1)
 
-Updated 2026-05-28 after the UI/UX overhaul (Phases 1–5). Pairs with:
+Updated 2026-07-20 after ambient UI, memorial section, and settings redesign. Pairs with:
 
 - `design/ia.md` - information architecture spec
 - `design/css-architecture.md` - token system, mobile-first CSS, file structure
@@ -48,7 +48,7 @@ Variable WOFF2 (~26 KB regular, ~27 KB italic). `<link rel="preload">` on the re
 | `--text-2xl` | 1.5rem | 2rem | h2, section headings |
 | `--text-3xl` | 2rem | 2.75rem | h1, hero headline |
 
-Headings differentiate by weight (h1 800 / h2 700 / h3 700 / h4 600) and letter-spacing (h1 −0.02em / h2 −0.01em). Body line-height: 1.55 on mobile, 1.6 from tablet up.
+Headings differentiate by weight (h1 800 / h2 700 / h3 700 / h4 600) and letter-spacing (h1 -0.02em / h2 -0.01em). Body line-height: 1.55 on mobile, 1.6 from tablet up.
 
 ### Font stack
 
@@ -66,57 +66,101 @@ Two-layer system: a raw brand palette plus a semantic layer that components cons
 
 | Token | Light | Dark | Used for |
 |---|---|---|---|
-| `--text` | `#2D1525` | `#F5E6D0` | Body text |
+| `--text` | `#3D2435` | `#F5E6D0` | Body text |
 | `--text-muted` | `#7A5A3A` | `#C4A07A` | Captions, meta, dates |
-| `--text-on-warm` | `#1A0A10` | `#1A0A10` | Text on `--surface-warm` (constant) |
+| `--heading` | `#3D2435` | `#F0D060` | Heading text |
+| `--text-on-warm` | `#F5E6D0` | `#F5E6D0` | Text on `--surface-warm` (constant) |
 | `--text-on-deep` | `#F5E6D0` | `#F5E6D0` | Text on `--surface-deep` (constant) |
-| `--surface` | `#F5E6D0` | `#1A0E14` | Page background |
-| `--surface-raised` | `#EDD8BC` | `#2D1525` | Cards, panels |
-| `--surface-warm` | `#C4873A` | `#C4873A` | Sidebar, hero accent (constant) |
-| `--surface-deep` | `#6B3A5C` | `#5A2D3E` | Stat tiles, primary CTA |
+| `--surface` | `#F5E6D0` | `#2A1A24` | Page background |
+| `--surface-raised` | `#EDD8BC` | `#3D2435` | Cards, panels |
+| `--surface-warm` | `#7D4E6E` | `#7D4E6E` | Sidebar, hero accent (constant) |
+| `--surface-deep` | `#7D4E6E` | `#6B4A5C` | Stat tiles, primary CTA |
 | `--accent` | `#8B4513` | `#E8B84A` | Links, focus, primary CTA |
-| `--accent-hover` | `#6B2D3E` | `#F0D060` | Link hover |
-| `--border` | `rgba(139,69,19,0.15)` | `rgba(255,255,255,0.1)` | Subtle dividers |
+| `--accent-hover` | `#7D4060` | `#F0D060` | Link hover |
+| `--accent-warm` | `#FFD166` | `#FFD166` | Warm highlight accent (constant) |
+| `--border` | `rgba(139,69,19,0.15)` | `rgba(255,255,255,0.12)` | Subtle dividers |
 | `--border-strong` | `#C4982A` | `#C4982A` | Focus rings, emphasized borders (constant) |
+| `--accent-bg` | `rgba(139,69,19,0.1)` | `rgba(232,184,74,0.1)` | Subtle accent backgrounds |
+| `--accent-bg-hover` | `rgba(139,69,19,0.2)` | `rgba(232,184,74,0.2)` | Accent background hover |
 | `--error` | `#A41A1A` | `#F87171` | Validation errors (per-theme; WCAG AA on both surfaces) |
-| `--code` | `#2D1525` | `#F5E6D0` | Inline code text |
-| `--code-bg` | `#F0E0C8` | `#3D1F30` | Inline code background |
+| `--code` | `#3D2435` | `#F5E6D0` | Inline code text |
+| `--code-bg` | `#F0E0C8` | `#4A2E40` | Inline code background |
+| `--table-header-bg` | `rgba(139,69,19,0.12)` | `rgba(196,152,42,0.2)` | Table header background |
+| `--table-stripe` | `#F0DCC4` | `#3D2435` | Table alternating rows |
 
 All semantic pairs **pass WCAG AA** (4.5:1 normal text, 3:1 large text). See `design/accessibility-audit.md` for the verified contrast table.
 
 ### 3.2 Gradients
 
-Reduced from 5 to 2 semantic gradients:
+Two semantic gradients:
 
 | Token | Value | Used for |
 |---|---|---|
 | `--gradient-warm` | `linear-gradient(180deg, #C4873A 0%, #9B5A3A 40%, #6B3A5C 100%)` | Sidebar background, home-help CTA |
 | `--gradient-deep` | `linear-gradient(145deg, #6B3A5C 0%, #5A2D3E 100%)` | Stat tiles, primary CTA, journey-card hover, back-to-top |
 
-### 3.3 Raw palette (authoring layer, not consumed by components)
+### 3.3 Ambient background
+
+Seven animated orbs provide a soft, living background across the entire site (`assets/css/ambient.css`). Orbs use varied brand-family colors at low opacity with `filter: blur(100px)` and are `position: fixed; z-index: -1` behind all content.
+
+| Orb | Dark mode color | Light mode color | Family |
+|---|---|---|---|
+| 1 | `rgba(100, 50, 140, 0.18)` | `rgba(140, 80, 180, 0.14)` | Plum |
+| 2 | `rgba(160, 90, 120, 0.12)` | `rgba(200, 130, 160, 0.12)` | Rose |
+| 3 | `rgba(70, 45, 110, 0.15)` | `rgba(100, 60, 150, 0.10)` | Indigo |
+| 4 | `rgba(140, 100, 60, 0.10)` | `rgba(200, 170, 100, 0.13)` | Amber/Gold |
+| 5 | `rgba(120, 60, 160, 0.13)` | `rgba(160, 90, 200, 0.11)` | Violet |
+| 6 | `rgba(90, 50, 80, 0.14)` | `rgba(180, 100, 140, 0.12)` | Mauve |
+| 7 | `rgba(60, 90, 120, 0.10)` | `rgba(80, 120, 160, 0.09)` | Teal |
+
+Each orb has a unique size (25vw-50vw), position, and animation duration (20s-35s) with `ease-in-out infinite alternate` keyframes. Disabled when `prefers-reduced-motion: reduce`.
+
+The topbar blends with the ambient glow using a gradient background that fades from solid `var(--surface)` at the top to transparent, with no `backdrop-filter`.
+
+### 3.4 Raw palette (authoring layer, not consumed by components)
 
 ```
 gold        = #C4982A    Focus, borders, emphasized accents
-gold-warm   = #FFD166    Reserved (deprecated for components)
-plum        = #6B3A5C    Gradient component
-plum-deep   = #5A2D3E    Gradient component, deep accent
-brown       = #8B4513    Light-mode link color (now: --accent)
-error       = (per-theme; see semantic above)
+gold-warm   = #FFD166    Warm accent constant
+plum        = #7D4E6E    Surface-deep, sidebar
+plum-deep   = #6B4A5C    Dark-mode surface-deep
+brown       = #8B4513    Light-mode link color (--accent)
+deep-plum   = #3D2435    Light-mode text, dark-mode surface-raised
+cream       = #F5E6D0    Light-mode surface, dark-mode text
 ```
 
 Legacy tokens (`--color-gold-light`, `--color-gold-bright`, `--color-burgundy`, `--color-plum-dark`) still emit for backward compatibility but are not used by current code.
 
 ---
 
-## 4. Design tokens (constants)
+## 4. Shapes
 
-### Radius
+### Organic blob avatars
+
+Person avatars on the Notable People, In Memory, and homepage people strips use an organic blob shape instead of circles or rounded rectangles:
+
+```css
+border-radius: 42% 58% 55% 45% / 50% 44% 56% 50%;
+```
+
+Homepage people strips use a second variant for visual variety:
+
+```css
+/* Every other card */
+border-radius: 55% 45% 48% 52% / 44% 56% 44% 56%;
+```
+
+### Standard radii
 
 | Token | Value | Used for |
 |---|---|---|
-| `--radius-sm` | `6px` | Inputs, small buttons, badges |
-| `--radius-md` | `10px` | Cards, panels |
-| `--radius-pill` | `9999px` | Pills, avatar masks |
+| `--radius-sm` | `6px` | Inputs, small buttons, badges, settings controls |
+| `--radius-md` | `10px` | Cards, panels, settings dropdown, topbar search |
+| `--radius-pill` | `9999px` | Pills, tags |
+
+---
+
+## 5. Design tokens (constants)
 
 ### Spacing
 
@@ -150,52 +194,53 @@ CSS `@media` rules hardcode values; the `--bp-*` tokens are `:root`-defined for 
 
 ---
 
-## 5. Information architecture
+## 6. Information architecture
 
-### 5.1 Sidebar nav (3 journeys)
+### 6.1 Sidebar nav (3 journeys)
 
 | Group | Items |
 |---|---|
-| **Could this be me?** | Symptom quiz / Diagnosis / Co-morbidities / Healthcare |
-| **I have endo or adeno** | Treatments / Medications / Fertility / Mental health / Resources & support / Symptom tracker |
-| **Learn** | Endometriosis / Adenomyosis / Myths & facts / Notable people / Research / Education |
+| **Could this be me?** | Symptom quiz / Diagnosis / Co-morbidities / Healthcare / Symptom tracker |
+| **I have endo or adeno** | Surgery costs / Treatments / Medications / Fertility / Mental health / Healthcare / Symptom tracker |
+| **Learn** | Endometriosis / Adenomyosis / Notable people / In memory / Research / Education & resources |
 
 Each group is **collapsible** with localStorage persistence (`sidebar-groups` key).
 
-### 5.2 Footer links
+### 6.2 Footer links
 
 About / FAQ / Take action / Privacy
 
-### 5.3 Bottom nav (mobile only, ≤1024px)
+### 6.3 Bottom nav (mobile only, <=1024px)
 
-4 thumb-zone tabs: **Home / Quiz / Learn / Help** (Help → `/take-action/`).
+4 thumb-zone tabs: **Home / Quiz / Learn / Help** (Help links to `/take-action/`).
 
-### 5.4 Page set (21 markdown files)
+### 6.4 Page set (22 markdown files)
 
-`_index`, about, adenomyosis, comorbidities, diagnosis, education, Endometriosis, faq, fertility, graphic-images (draft), healthcare, medications, mental-health, myths, notable-people, **privacy** (new), **quiz** (new), research, resources, **take-action** (new), tracker, **treatments** (new).
+`_index`, about, adenomyosis, comorbidities, diagnosis, education, endometriosis, faq, fertility, graphic-images (draft), healthcare, **in-memory** (new), medications, mental-health, myths, notable-people, privacy, quiz, research, resources, **surgery-costs** (new), take-action, tracker, treatments.
 
 Pages with `search: false` frontmatter are excluded from the search index (`/take-action/`, `/privacy/`). Pages with `draft: true` are excluded from both build and index (`/graphic-images/`).
 
 ---
 
-## 6. Layout shell
+## 7. Layout shell
 
 ### Top bar (sticky, all viewports)
 
 ```
-[≡ menu]  [brand]    [search...]    [EN ▾]  [☀ theme]
+[hamburger]  [brand]    [--- search ---]    [settings-gear] [Help]
 ```
 
 - Hamburger hidden on desktop (sidebar persistent).
 - Brand at `--text-lg`, weight 800.
-- Search input collapses to icon on mobile, expands to full top-bar width on focus.
-- Language picker is a styled native `<select>` with 2-letter language codes (EN, ES, FR, 中, 日, …) so all 26 languages fit.
-- Theme toggle: sun ↔ moon, syncs with `localStorage.theme` and first-load `prefers-color-scheme`.
+- Search input is absolutely positioned at center (`left: 50%; transform: translateX(-50%)`), `width: min(60%, 14rem)` on mobile, `min(50%, 28rem)` on desktop.
+- Settings gear opens a compact dropdown panel with language picker and theme toggle side by side (`flex-direction: row`). No labels - just the `<select>` and a sun/moon button. Panel has `border: none` and `box-shadow: var(--shadow-md)`.
+- Help button (links to `/take-action/#if-you-need-help-right-now`) sits inside `.topbar-actions` after the settings gear.
+- Topbar background blends with ambient orbs via a `linear-gradient` from solid `var(--surface)` at top to transparent at bottom. No `backdrop-filter`.
 
 ### Sidebar (off-canvas mobile, sticky-persistent desktop)
 
 - Mobile (`< 64rem`): off-canvas, slides in from inline-start, 70% width with 30% backdrop tap-to-close. `inset-inline-*` logical properties + `[dir="rtl"]` translate override for Arabic.
-- Desktop (`≥ 64rem`): persistent left column, `grid-template-columns: minmax(17.5rem, 20rem) 1fr`.
+- Desktop (`>= 64rem`): persistent left column, `grid-template-columns: minmax(17.5rem, 20rem) 1fr`.
 - Collapsible nav groups via `<button class="nav-group-toggle">` with chevron + `aria-expanded`.
 
 ### Bottom nav (mobile only)
@@ -208,11 +253,11 @@ Pages with `search: false` frontmatter are excluded from the search index (`/tak
 ### Back-to-top
 
 - Fixed bottom-right (`inset-inline-end`), above the bottom nav on mobile via `bottom: calc(4rem + env(safe-area-inset-bottom) + 1rem)`.
-- Appears after 300px window scroll. Window-scroll (not container-scroll - see `design/css-architecture.md` §3).
+- Appears after 300px window scroll. Window-scroll (not container-scroll - see `design/css-architecture.md` section 3).
 
 ---
 
-## 7. Component patterns
+## 8. Component patterns
 
 ### Hero (home)
 
@@ -224,7 +269,7 @@ Pages with `search: false` frontmatter are excluded from the search index (`/tak
 
 - `grid-template-columns: 1fr` mobile, `repeat(3, 1fr)` tablet+.
 - Each card: eyebrow (uppercase, `--accent`), title, description, CTA chevron.
-- On hover/focus the card's `::before` pseudo-element fills with `--gradient-deep` (`opacity: 0 → 1`), shifting all text to `--text-on-deep`.
+- On hover/focus the card's `::before` pseudo-element fills with `--gradient-deep` (`opacity: 0 -> 1`), shifting all text to `--text-on-deep`.
 - Whole card is one `<a>` - no nested interactives. `aria-current` set by browser navigation.
 
 ### Stat strip (home, 4-up)
@@ -233,25 +278,26 @@ Pages with `search: false` frontmatter are excluded from the search index (`/tak
 - Each stat is a `.stat-link` to a source URL. `--gradient-deep` background, `--text-on-deep` text.
 - External-link icon at end, opens in new tab with `rel="noopener noreferrer"`.
 
-### Symptom-quiz teaser (home, deferred-to-page)
+### Notable People strip (home)
 
-- 3 sample checkboxes (no submission), CTA links to full `/quiz/` page.
+- Horizontal scrolling strip of person avatar cards with organic blob shapes.
+- Each card is clickable, opening a modal with bio, detail, and an external link (Wikipedia via `data-wiki` or other source via `data-link`).
+- Header links to the full `/notable-people/` page.
 
-### Take-action page
+### In Memory strip (home)
 
-- Markdown content with `<blockquote>` template scripts.
-- `assets/js/take-action.js` injects a Copy button on each blockquote. Clipboard API with text-selection fallback.
+- Same horizontal scrolling pattern as Notable People, positioned between the people strip and the stats section.
+- Memorial cards have `data-memorial="true"` for CSS targeting (candle/ribbon overlay on avatar).
+- Cards display life years via `.person-years` span.
+- Links to the full `/in-memory/` page.
 
-### Search popup (topbar)
+### Person modal (notable-people, in-memory)
 
-- Focus on empty input → 6 suggestion chips from `search_suggestion_1`…`_6` i18n keys (English defaults).
-- Type 2+ chars → debounced (200ms), weighted scoring, max 8 results.
-- ↑/↓ navigate, Enter on suggestion runs it, Esc clears + blurs.
-- `aria-live="polite"` on results panel.
-
-### Table → accordion
-
-- Tables with `data-accordion="table"` collapse into `<details>`/`<summary>` blocks on mobile.
+- Full-screen modal triggered by clicking any `.person-card`.
+- Reads `data-bio`, `data-detail`, `data-wiki`, `data-link` attributes from the card.
+- Shows avatar, name, role, condition, bio paragraph, detail paragraph, and an external link button.
+- `data-wiki` renders as "Wikipedia" link; `data-link` renders as "Read more" link.
+- Supports i18n via `data-i18n-bio` and `data-i18n-detail` attributes.
 
 ### Carousel (home - dual-column "Reality of Endo")
 
@@ -267,22 +313,53 @@ Shared behavior:
 - Per-slide `aria-hidden`, dots have `aria-label="Go to slide N"`, arrow buttons have ARIA labels.
 - Controls use soft, borderless styling (`--accent-bg` / `--accent-bg-hover`) to match the site palette.
 
+### Symptom-quiz teaser (home)
+
+- 3 sample checkboxes (no submission), CTA links to full `/quiz/` page.
+
+### Take-action page
+
+- Markdown content with `<blockquote>` template scripts.
+- `assets/js/take-action.js` injects a Copy button on each blockquote. Clipboard API with text-selection fallback.
+
+### Search popup (topbar)
+
+- Focus on empty input shows 6 suggestion chips from `search_suggestion_1` through `_6` i18n keys (English defaults).
+- Type 2+ chars triggers debounced (200ms), weighted scoring, max 8 results.
+- Up/Down navigate, Enter on suggestion runs it, Esc clears + blurs.
+- `aria-live="polite"` on results panel.
+
+### Table to accordion
+
+- Tables with `data-accordion="table"` collapse into `<details>`/`<summary>` blocks on mobile.
+
 ---
 
-## 8. Accessibility commitments
+## 9. Social / OG image
+
+- File: `static/social-preview.png` (1200x630)
+- Generated with Pillow using Figtree font
+- Warm cream gradient background (`#F5E6D0`) with subtle ambient orb overlays (plum, gold, rose, teal)
+- "1 in 7" in large deep-plum (`#3D2435`) text, "Endometriosis & Adenomyosis Resources" subtitle, "1in7.info" URL
+- Referenced via `site.json:og_image` and `{{OG_IMAGE}}` template marker
+- Served as `<meta property="og:image">` and `<meta name="twitter:image">`
+
+---
+
+## 10. Accessibility commitments
 
 Verified in `design/accessibility-audit.md`. Summary:
 
 - **Skip-link** to `#main-content` at the top of every page (visually hidden until focused).
 - **Focus indicator** via `--focus-ring` (3px solid `--border-strong`, 2px offset).
-- **Touch targets**: every interactive `≥ 44px` block size.
+- **Touch targets**: every interactive >= 44px block size.
 - **ARIA**:
   - `aria-current="page"` on sidebar + bottom-nav for active route.
   - `aria-expanded` + `aria-controls` on sidebar group toggles.
   - `aria-live="polite"` on search results panel + take-action copy-button label.
   - `aria-hidden` on inactive carousel slides.
   - All icon-only buttons have `aria-label`.
-- **Reduced motion**: `prefers-reduced-motion: reduce` disables animations, transitions, carousel autoplay, and chevron rotations.
+- **Reduced motion**: `prefers-reduced-motion: reduce` disables animations, transitions, carousel autoplay, ambient orb animations, and chevron rotations.
 - **RTL**: Arabic (`dir="rtl"` set by `i18n.js`) is supported via logical properties (`inset-inline-*`, `padding-inline-*`, `text-align: start`) and `[dir="rtl"]` overrides for the sidebar transform.
 - **Print styles**: Hide interactive UI, show link URLs, avoid page breaks inside headings/tables.
 - **Contrast**: All semantic token pairs pass WCAG AA on both light and dark surfaces.
@@ -291,7 +368,7 @@ Verified in `design/accessibility-audit.md`. Summary:
 
 ---
 
-## 9. i18n
+## 11. i18n
 
 - 26 languages, 170+ keys.
 - Translations live in `static/i18n/translations.json`, loaded async by `assets/js/i18n.js`.
@@ -302,7 +379,7 @@ Verified in `design/accessibility-audit.md`. Summary:
 
 ---
 
-## 10. Performance
+## 12. Performance
 
 | Bundle | gzip |
 |---|---|
@@ -317,16 +394,24 @@ Verified in `design/accessibility-audit.md`. Summary:
 
 ---
 
-## 11. What changed in the v2 overhaul
+## 13. What changed in v2.1
 
-For historical context, see the design docs:
+Changes since the v2 overhaul (2026-05-28):
 
-- `design/ia.md` - three-journey IA design, journey definitions, page-set decisions, URL stability, privacy
-- `design/css-architecture.md` - semantic token layer rationale, mobile-first inversion, file consolidation
-- `design/accessibility-audit.md` - Phase 5 audit results and fixes
-- `design/perf-baseline.md` - pre-overhaul perf snapshot
+| v2 | v2.1 |
+|---|---|
+| No ambient background | 7 animated ambient orbs (plum, rose, indigo, gold, violet, mauve, teal) |
+| Solid topbar background | Gradient topbar fading to transparent (blends with ambient) |
+| Settings panel: labeled rows, bordered controls | Compact row: borderless language select + sun/moon button side by side |
+| Help button positioned before settings | Help button inside `.topbar-actions`, after settings gear |
+| Circle/rounded-rect avatars | Organic blob border-radius (`42% 58% 55% 45% / 50% 44% 56% 50%`) |
+| 21 pages | 22 pages (+in-memory, +surgery-costs) |
+| No memorial section | In Memory page + homepage memorial strip |
+| Person modal: Wikipedia only | Person modal: Wikipedia (`data-wiki`) + general links (`data-link`) |
+| Em-dashes in content | Hyphens only (no em-dashes site-wide) |
+| OG image: old "Endo & Adeno Resources" | OG image: "1 in 7" branding with warm cream gradient |
 
-Key changes from v1:
+### Key v1 to v2 changes (historical)
 
 | v1 | v2 |
 |---|---|

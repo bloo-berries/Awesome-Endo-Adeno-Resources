@@ -27,24 +27,15 @@
 
     function getSuggestion(i) {
         var fallback = defaultSuggestions[i - 1] || '';
-        // i18n.js may have replaced placeholders; we resolve via the same key store
-        // it uses, but as a no-build-time-coupling fallback we attempt to read from
-        // a global cache i18n exposes, otherwise the default suggestion is used.
-        try {
-            if (window.__i18nTranslations) {
-                var lang = localStorage.getItem('site-language') || 'en';
-                var t = window.__i18nTranslations[lang] || window.__i18nTranslations.en || {};
-                return t['search_suggestion_' + i] || fallback;
-            }
-        } catch (e) {}
-        return fallback;
+        return window.__ti18n ? window.__ti18n('search_suggestion_' + i, fallback) : fallback;
     }
 
     function loadIndex() {
         if (searchIndex !== null) return Promise.resolve(searchIndex);
         return fetch(window.__searchIndexURL || '/index.json')
             .then(function(r) { return r.json(); })
-            .then(function(data) { searchIndex = data; return data; });
+            .then(function(data) { searchIndex = data; return data; })
+            .catch(function(err) { console.warn('search: failed to load index', err); return []; });
     }
 
     var synonyms = [

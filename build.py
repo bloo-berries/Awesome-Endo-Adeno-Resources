@@ -4,6 +4,7 @@ import json, os, re, shutil, datetime, html as html_mod, sys, hashlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
+DEFAULT_DATE = "2025-01-27"
 
 # ── SVG icon paths (from layouts/partials/icon.html) ──
 ICONS = {
@@ -277,7 +278,7 @@ def md_to_html(text, base_url=""):
 
     # Flush remaining state
     if in_code:
-        out.append(f"<pre><code>{html_mod.escape(chr(10).join(code_buf))}</code></pre>")
+        out.append(f'<pre><code>{html_mod.escape("\n".join(code_buf))}</code></pre>')
     flush_para(); flush_list(); flush_blockquote(); flush_table()
 
     return "\n".join(out)
@@ -303,8 +304,6 @@ def build_css_vars(cfg):
     body {{
         /* Design tokens */
         --font-primary: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        --shadow-sm: 0 2px 8px rgba(0,0,0,0.2);
-        --shadow-md: 0 4px 16px rgba(0,0,0,0.2);
 
         /* Legacy compatibility aliases */
         --heading-color: var(--heading);
@@ -362,8 +361,6 @@ def build_sidebar_nav(cfg, active_slug=None):
     # Grouped nav
     groups_html = []
     for idx, group in enumerate(cfg["nav_groups"]):
-        i18n_key = group.get("i18n_key", "")
-        i18n_attr = f' data-i18n="{i18n_key}"' if i18n_key else ""
         group_id = f"nav-group-{idx}"
         list_id = f"nav-group-list-{idx}"
         items = []
@@ -378,19 +375,31 @@ def build_sidebar_nav(cfg, active_slug=None):
                 f'{icon_svg}</svg>'
                 f'<span{nav_i18n}>{m["name"]}</span></a></li>'
             )
-        group_html = (
-            f'        <div class="nav-group" data-group-id="{group_id}">\n'
-            f'            <h3 class="nav-group-label">\n'
-            f'                <button class="nav-group-toggle" aria-expanded="true" aria-controls="{list_id}">\n'
-            f'                    <span{i18n_attr}>{group["label"]}</span>\n'
-            f'                    <svg class="nav-group-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>\n'
-            f'                </button>\n'
-            f'            </h3>\n'
-            f'            <ul id="{list_id}">\n'
-            + "\n".join(items) + "\n"
-            f'            </ul>\n'
-            f'        </div>'
-        )
+
+        label = group.get("label")
+        if label:
+            i18n_key = group.get("i18n_key", "")
+            i18n_attr = f' data-i18n="{i18n_key}"' if i18n_key else ""
+            group_html = (
+                f'        <div class="nav-group" data-group-id="{group_id}">\n'
+                f'            <h3 class="nav-group-label">\n'
+                f'                <button class="nav-group-toggle" aria-expanded="true" aria-controls="{list_id}">\n'
+                f'                    <span{i18n_attr}>{label}</span>\n'
+                f'                    <svg class="nav-group-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>\n'
+                f'                </button>\n'
+                f'            </h3>\n'
+                f'            <ul id="{list_id}">\n'
+                + "\n".join(items) + "\n"
+                f'            </ul>\n'
+                f'        </div>'
+            )
+        else:
+            # Ungrouped: render as flat list without toggle
+            group_html = (
+                f'        <ul class="nav-group-flat">\n'
+                + "\n".join(items) + "\n"
+                f'        </ul>'
+            )
         groups_html.append(group_html)
     return '<nav aria-label="Site navigation" class="sidebar-nav">\n' + "\n".join(groups_html) + "\n</nav>"
 
@@ -424,9 +433,35 @@ def build_footer_links(cfg):
         )
     return '<div class="sidebar-footer-links">' + "\n".join(items) + '</div>'
 
-# ── Socials (now integrated into footer links) ──
-def build_socials(cfg):
-    return ""
+# ── Language options (shared across topbar + sidebar pickers) ──
+LANG_OPTIONS = (
+    '<option value="en">English</option>'
+    '<option value="ar">\u0627\u0644\u0639\u0631\u0628\u064a\u0629</option>'
+    '<option value="bn">\u09ac\u09be\u0982\u09b2\u09be</option>'
+    '<option value="ca">Catal\u00e0</option>'
+    '<option value="zh">\u4e2d\u6587</option>'
+    '<option value="nl">Nederlands</option>'
+    '<option value="fi">Suomi</option>'
+    '<option value="fr">Fran\u00e7ais</option>'
+    '<option value="de">Deutsch</option>'
+    '<option value="el">\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac</option>'
+    '<option value="hi">\u0939\u093f\u0928\u094d\u0926\u0940</option>'
+    '<option value="is">\u00cdslenska</option>'
+    '<option value="ga">Gaeilge</option>'
+    '<option value="it">Italiano</option>'
+    '<option value="ja">\u65e5\u672c\u8a9e</option>'
+    '<option value="ko">\ud55c\uad6d\uc5b4</option>'
+    '<option value="no">Norsk</option>'
+    '<option value="pl">Polski</option>'
+    '<option value="pt">Portugu\u00eas</option>'
+    '<option value="ru">\u0420\u0443\u0441\u0441\u043a\u0438\u0439</option>'
+    '<option value="es">Espa\u00f1ol</option>'
+    '<option value="sw">Kiswahili</option>'
+    '<option value="sv">Svenska</option>'
+    '<option value="tr">T\u00fcrk\u00e7e</option>'
+    '<option value="uk">\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430</option>'
+    '<option value="vi">Ti\u1ebfng Vi\u1ec7t</option>'
+)
 
 # ── Structured data JSON-LD ──
 def build_structured_data(cfg, page=None):
@@ -462,7 +497,7 @@ def build_structured_data(cfg, page=None):
     title = html_mod.escape(page.get("title", ""))
     pdesc = html_mod.escape(page.get("description", desc))
     purl = page.get("permalink", base)
-    date = page.get("date", "2025-01-27")
+    date = page.get("date", DEFAULT_DATE)
     lastmod = page.get("lastmod", date)
     keywords = page.get("keywords", [])
     kw_str = f',\n  "keywords": "{", ".join(keywords)}"' if keywords else ""
@@ -547,7 +582,7 @@ def build_sitemap(pages, cfg):
     for slug, page in sorted(pages.items()):
         if slug == "_index" or page.get("draft"):
             continue
-        lastmod = page.get("lastmod", page.get("date", "2025-01-27"))
+        lastmod = page.get("lastmod", page.get("date", DEFAULT_DATE))
         urls.append(
             f'  <url>\n    <loc>{base}{slug}/</loc>\n'
             f'    <lastmod>{lastmod}</lastmod>\n'
@@ -598,10 +633,6 @@ def build_toc(html_content, min_headings=4):
             '<summary class="toc-heading" data-i18n="toc_title">On this page</summary>\n'
             '<ul>\n' + '\n'.join(items) + '\n</ul>\n</details>')
 
-# ── Breadcrumbs ──
-def build_breadcrumbs(cfg, title):
-    return ''
-
 # ── Read all content pages ──
 def load_pages(cfg):
     pages = {}
@@ -623,8 +654,8 @@ def load_pages(cfg):
         pages[slug] = {
             "title": meta.get("title", slug),
             "description": meta.get("description", cfg["description"]),
-            "date": meta.get("date", "2025-01-27"),
-            "lastmod": meta.get("lastmod", meta.get("date", "2025-01-27")),
+            "date": meta.get("date", DEFAULT_DATE),
+            "lastmod": meta.get("lastmod", meta.get("date", DEFAULT_DATE)),
             "tags": meta.get("tags", []),
             "keywords": meta.get("keywords", []),
             "draft": meta.get("draft", False),
@@ -660,7 +691,6 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None):
 
     active_slug = page_meta.get("slug") if page_meta else None
     sidebar_nav = build_sidebar_nav(cfg, active_slug)
-    socials = build_socials(cfg)
     css_vars = build_css_vars(cfg)
     footer_links = build_footer_links(cfg)
 
@@ -673,13 +703,14 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None):
     out = out.replace("{{STRUCTURED_DATA}}", structured)
     out = out.replace("{{SIDEBAR_NAV}}", sidebar_nav)
     out = out.replace("{{FOOTER_LINKS}}", footer_links)
-    out = out.replace("{{SOCIALS}}", socials)
+    out = out.replace("{{SOCIALS}}", "")
     out = out.replace("{{YEAR}}", year)
     out = out.replace("{{OG_IMAGE}}", og_image)
     out = out.replace("{{OG_TYPE}}", og_type)
     out = out.replace("{{CSS_BUNDLE}}", cfg.get("_css_bundle", "css/bundle.css"))
     out = out.replace("{{JS_BUNDLE}}", cfg.get("_js_bundle", "js/app.js"))
     out = out.replace("{{PAGE_CONTENT}}", inner_html)
+    out = out.replace("{{LANG_OPTIONS}}", LANG_OPTIONS)
     out = out.replace("{{BASE_URL}}", base_url)
     return out
 
@@ -785,8 +816,7 @@ def main():
             inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
 
         # Common replacements for all page templates
-        breadcrumbs = build_breadcrumbs(cfg, page["title"])
-        inner = inner.replace("{{BREADCRUMBS}}", breadcrumbs)
+        inner = inner.replace("{{BREADCRUMBS}}", "")
         inner = inner.replace("{{BASE_URL}}", base_url)
 
         page_html = render_page(base_tpl, cfg, inner, page)

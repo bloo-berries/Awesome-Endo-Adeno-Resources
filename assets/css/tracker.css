@@ -4,7 +4,7 @@
     background: var(--accent-bg);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
-    padding: 1.25rem;
+    padding: var(--space-lg);
     margin-bottom: var(--space-lg);
     max-width: 600px;
     margin-inline: auto;
@@ -26,7 +26,7 @@
 .tracker-input {
     display: block;
     width: 100%;
-    margin-top: 0.25rem;
+    margin-top: var(--space-xs);
     padding: 0.4rem 0.6rem;
     background: var(--surface);
     border: 1px solid var(--border);
@@ -127,7 +127,7 @@ textarea.tracker-input {
 
 .tracker-save-btn {
     width: 100%;
-    margin-top: 0.5rem;
+    margin-top: var(--space-sm);
     padding: 0.6rem;
     font-size: 0.9rem;
 }
@@ -148,8 +148,8 @@ textarea.tracker-input {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
+    gap: var(--space-md);
+    margin-bottom: var(--space-sm);
 }
 
 .tracker-export-btn {
@@ -162,7 +162,7 @@ textarea.tracker-input {
 /* Chart */
 
 .tracker-chart {
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--space-lg);
 }
 
 .chart-container {
@@ -208,15 +208,15 @@ textarea.tracker-input {
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     padding: 0.6rem 0.75rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: var(--space-sm);
     background: var(--surface);
 }
 
 .tracker-entry-header {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.25rem;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-xs);
     font-size: 0.85rem;
 }
 

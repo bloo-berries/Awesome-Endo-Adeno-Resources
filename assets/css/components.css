@@ -57,7 +57,7 @@ details summary::after {
     display: inline-block;
     width: 8px;
     height: 8px;
-    border-right: 2px solid var(--accent);
+    border-inline-end: 2px solid var(--accent);
     border-bottom: 2px solid var(--accent);
     transform: rotate(-45deg);
     transition: transform var(--transition-normal);
@@ -110,7 +110,7 @@ details[open] summary {
 
 .breadcrumbs a::after {
     content: "/";
-    margin: 0 0.5rem;
+    margin-inline: 0.5rem;
     color: var(--text-muted);
     opacity: 0.5;
 }
@@ -182,7 +182,7 @@ details[open] summary {
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-bottom: 1rem;
+    margin-bottom: var(--space-md);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     overflow: hidden;
@@ -293,7 +293,7 @@ details[open] > summary .accordion-card-chevron {
 
 /* ===== CATEGORY-LEVEL DETAILS ===== */
 
-.category-details { margin-bottom: 0.25rem; }
+.category-details { margin-bottom: var(--space-xs); }
 .category-details > summary { font-size: 0.85em; padding: 0.4rem 0.75rem; }
 .category-details > .table-accordion { margin-top: 0.35rem; }
 
@@ -371,7 +371,7 @@ details[open] > summary .accordion-card-chevron {
 }
 
 .callout p { margin: 0; }
-.callout p + p { margin-top: 0.5rem; }
+.callout p + p { margin-top: var(--space-sm); }
 
 .callout-warning {
     border-bottom-color: var(--error);
@@ -390,12 +390,12 @@ details[open] > summary .accordion-card-chevron {
     border-bottom: 1px solid var(--border);
     border-radius: 0;
     overflow: hidden;
-    margin-bottom: 1rem;
+    margin-bottom: var(--space-md);
 }
 
 .myth-side,
 .fact-side {
-    padding: 1rem 0;
+    padding: var(--space-md) 0;
 }
 
 .myth-side {
@@ -443,8 +443,8 @@ details[open] > summary .accordion-card-chevron {
 .stat-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: 1rem;
-    margin-bottom: 1.5rem;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
 }
 
 .stat-highlight {
@@ -467,7 +467,7 @@ details[open] > summary .accordion-card-chevron {
 .stat-label {
     font-size: var(--text-sm, 0.875rem);
     color: var(--text-muted);
-    margin-top: 0.25rem;
+    margin-top: var(--space-xs);
     display: block;
 }
 

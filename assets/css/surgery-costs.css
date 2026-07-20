@@ -3,7 +3,7 @@
 /* --- highlight mark --- */
 .sc-mark {
     background-image: linear-gradient(100deg, var(--accent), var(--accent-hover));
-    color: #fff;
+    color: var(--surface);
     padding: .06em .16em;
     margin: 0 -.04em;
     border-radius: .16em;
@@ -683,7 +683,7 @@ details.sc-tip p {
     display: none;
     position: absolute;
     bottom: calc(100% + var(--space-sm));
-    left: 0;
+    inset-inline-start: 0;
     z-index: 20;
     width: max(18rem, 60vw);
     max-width: 36rem;

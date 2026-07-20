@@ -148,8 +148,7 @@
 .topbar-search .search-results {
   position: absolute;
   top: calc(100% + var(--space-xs));
-  left: 0;
-  right: 0;
+  inset-inline: 0;
   z-index: 35;
   background-color: var(--surface);
   border: 1px solid var(--border);
@@ -264,7 +263,7 @@
   padding: 0.25rem var(--space-sm);
   min-block-size: var(--tap-min);
   background: var(--accent);
-  color: #fff;
+  color: var(--surface);
   border: none;
   border-radius: var(--radius-pill);
   font-size: var(--text-xs);
@@ -274,20 +273,11 @@
   justify-self: end;
 }
 
-.dark-theme .topbar-urgent {
-  color: #1a1a1a;
-}
-
 .topbar-urgent:hover,
 .topbar-urgent:focus-visible {
   background: var(--accent-hover);
   text-decoration: none;
-  color: #fff;
-}
-
-.dark-theme .topbar-urgent:hover,
-.dark-theme .topbar-urgent:focus-visible {
-  color: #1a1a1a;
+  color: var(--surface);
 }
 
 /* Hide topbar actions (lang/theme) on mobile - they live in sidebar instead */
@@ -477,7 +467,7 @@
   width: 70%;
   aspect-ratio: 1;
   top: -15%;
-  left: -20%;
+  inset-inline-start: -20%;
   background: rgba(255, 255, 255, 0.08);
   animation: sidebar-drift-1 20s ease-in-out infinite alternate;
 }
@@ -486,7 +476,7 @@
   width: 60%;
   aspect-ratio: 1;
   bottom: -10%;
-  right: -25%;
+  inset-inline-end: -25%;
   background: rgba(255, 200, 120, 0.06);
   animation: sidebar-drift-2 25s ease-in-out infinite alternate;
 }
@@ -550,7 +540,7 @@
   padding: var(--space-sm) var(--space-md);
   margin-bottom: var(--space-sm);
   background: var(--accent);
-  color: #fff;
+  color: var(--surface);
   border: none;
   border-radius: var(--radius-pill);
   font-size: var(--text-sm);
@@ -558,20 +548,11 @@
   text-decoration: none;
 }
 
-.dark-theme .sidebar-help-link {
-  color: #1a1a1a;
-}
-
 .sidebar-help-link:hover,
 .sidebar-help-link:focus-visible {
   background: var(--accent-hover);
-  color: #fff;
+  color: var(--surface);
   text-decoration: none;
-}
-
-.dark-theme .sidebar-help-link:hover,
-.dark-theme .sidebar-help-link:focus-visible {
-  color: #1a1a1a;
 }
 
 @media (min-width: 48rem) {
@@ -791,8 +772,7 @@
 .bottomnav {
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  inset-inline: 0;
   z-index: 30;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

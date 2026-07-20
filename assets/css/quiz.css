@@ -141,7 +141,7 @@
 .quiz-card.checked .quiz-card-check {
   background: var(--accent);
   border-color: var(--accent);
-  color: #000;
+  color: var(--surface);
 }
 
 .quiz-results {
@@ -228,7 +228,7 @@
   height: 1.75rem;
   border-radius: var(--radius-pill);
   background: var(--accent);
-  color: #000;
+  color: var(--surface);
   font-weight: 800;
   font-size: var(--text-sm);
   flex-shrink: 0;

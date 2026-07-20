@@ -9,8 +9,6 @@
     "github_url": "https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources",
     "nav_groups": [
         {
-            "label": "Could this be me?",
-            "i18n_key": "nav_group_could_this_be_me",
             "items": [
                 { "name": "Symptom quiz", "url": "/quiz/", "slug": "quiz", "icon": "diagnosis", "i18n_nav": "nav_quiz", "i18n_desc": "desc_quiz", "description": "Guided checklist with next steps." },
                 { "name": "Diagnosis", "url": "/diagnosis/", "slug": "diagnosis", "icon": "diagnosis", "i18n_nav": "nav_diagnosis", "i18n_desc": "desc_diagnosis", "description": "Methods, tools, and guidance." },
@@ -27,9 +25,7 @@
                 { "name": "Treatments", "url": "/treatments/", "slug": "treatments", "icon": "medications", "i18n_nav": "nav_treatments", "i18n_desc": "desc_treatments", "description": "Surgical, hormonal, and supportive." },
                 { "name": "Medications", "url": "/medications/", "slug": "medications", "icon": "medications", "i18n_nav": "nav_medications", "i18n_desc": "desc_medications", "description": "Treatment and medication guide." },
                 { "name": "Fertility", "url": "/fertility/", "slug": "fertility", "icon": "fertility", "i18n_nav": "nav_fertility", "i18n_desc": "desc_fertility", "description": "Fertility, IVF, and pregnancy." },
-                { "name": "Mental health", "url": "/mental-health/", "slug": "mental-health", "icon": "mental-health", "i18n_nav": "nav_mental_health", "i18n_desc": "desc_mental_health", "description": "Coping, therapy, and support." },
-                { "name": "Healthcare", "url": "/healthcare/", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation." },
-                { "name": "Symptom tracker", "url": "/tracker/", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately." }
+                { "name": "Mental health", "url": "/mental-health/", "slug": "mental-health", "icon": "mental-health", "i18n_nav": "nav_mental_health", "i18n_desc": "desc_mental_health", "description": "Coping, therapy, and support." }
             ]
         },
         {
@@ -94,7 +90,11 @@
             "text-on-deep": "#F5E6D0",
             "surface-warm": "#7D4E6E",
             "accent-warm": "#FFD166",
-            "border-strong": "#C4982A"
+            "border-strong": "#C4982A",
+            "shadow-sm": "0 2px 8px rgba(0,0,0,0.2)",
+            "shadow-md": "0 4px 16px rgba(0,0,0,0.2)",
+            "gradient-warm": "#7D4E6E",
+            "gradient-deep": "#7D4E6E"
         },
         "scale": {
             "radius-sm": "6px",
@@ -119,9 +119,7 @@
             "tap-min": "44px",
             "transition-fast": "120ms ease",
             "transition-normal": "200ms ease",
-            "transition-slow": "350ms ease",
-            "gradient-warm": "#7D4E6E",
-            "gradient-deep": "#7D4E6E"
+            "transition-slow": "350ms ease"
         }
     },
     "css_files": [
