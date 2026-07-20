@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Product context
+
+1in7.info is an endometriosis and adenomyosis awareness campaign. The long-term plan is to distribute QR code stickers in cities, meaning users will arrive phone-first on cellular data, often on mid-range devices. **Mobile performance is the top priority** - every feature decision should weigh mobile impact first. Ambient effects, heavy animations, and large assets must be gated behind tablet-or-wider breakpoints or `prefers-reduced-motion` checks.
+
 ## Build / Serve / Deploy
 
 ```bash
@@ -33,12 +37,10 @@ The site went through a full UI/UX overhaul (Phases 1–5) documented under `des
 | `build_css_vars(cfg)` | Emit `<style>` block: legacy color tokens + semantic layer from `site.json:semantic` (light/dark/constant/scale) |
 | `build_sidebar_nav(cfg, active_slug)` | Grouped `<nav>` with `<div class="nav-group">` sections, each with a `<button class="nav-group-toggle">` controlling its `<ul>`; sets `aria-current="page"` on the active link |
 | `build_footer_links(cfg)` | Generates footer links (About, FAQ, Take action, Privacy) for the sidebar bottom |
-| `build_socials(cfg)` | Social-links block |
 | `build_structured_data(cfg, page)` | JSON-LD for SEO |
 | `build_search_index(pages, cfg)` | `dist/index.json` - title, permalink, summary, content, tags. Excludes pages with `search: false` frontmatter (`/take-action/`, `/privacy/`) |
 | `build_sitemap(pages, cfg)` | `dist/sitemap.xml` |
 | `build_toc(html, min_headings=4)` | Per-page TOC from H2/H3 (only emitted if ≥4 headings). Suppressed when `toc: false` in frontmatter |
-| `build_breadcrumbs(cfg, title)` | Per-page breadcrumb |
 | `minify_css(text)` / `minify_js(text)` | Whitespace/comment stripping |
 | `load_pages(cfg)` | Walk `content/`, parse markdown, propagate frontmatter fields (including `search`, `toc`) |
 | `render_page(base_tpl, cfg, inner, page_meta)` | Apply `base.html` with all `{{...}}` markers replaced |
@@ -103,7 +105,7 @@ The inline block exposes two globals consumed by extracted modules: `window.__se
 
 The build script replaces these placeholders:
 
-`{{BASE_URL}}`, `{{META_TITLE}}`, `{{BRAND}}`, `{{DESCRIPTION}}`, `{{PAGE_URL}}`, `{{PAGE_CONTENT}}`, `{{CSS_VARIABLES}}`, `{{CSS_BUNDLE}}`, `{{JS_BUNDLE}}`, `{{STRUCTURED_DATA}}`, `{{SIDEBAR_NAV}}`, `{{FOOTER_LINKS}}`, `{{SOCIALS}}`, `{{HOME_CONTENT}}`, `{{BREADCRUMBS}}`, `{{TOC}}`, `{{YEAR}}`, `{{OG_IMAGE}}`, `{{OG_TYPE}}`
+`{{BASE_URL}}`, `{{META_TITLE}}`, `{{BRAND}}`, `{{DESCRIPTION}}`, `{{PAGE_URL}}`, `{{PAGE_CONTENT}}`, `{{CSS_VARIABLES}}`, `{{CSS_BUNDLE}}`, `{{JS_BUNDLE}}`, `{{STRUCTURED_DATA}}`, `{{SIDEBAR_NAV}}`, `{{FOOTER_LINKS}}`, `{{HOME_CONTENT}}`, `{{TOC}}`, `{{YEAR}}`, `{{OG_IMAGE}}`, `{{OG_TYPE}}`
 
 ## Conventions
 

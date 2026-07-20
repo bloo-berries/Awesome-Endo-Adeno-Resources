@@ -103,6 +103,9 @@ def md_to_html(text, base_url=""):
             in_table = False
             table_headers = []
 
+    def flush_all():
+        flush_para(); flush_list(); flush_blockquote(); flush_table()
+
     def inline(t):
         """Process inline markdown: bold, italic, code, links, images."""
         # Inline code (must be before bold/italic to avoid conflicts)
@@ -140,7 +143,7 @@ def md_to_html(text, base_url=""):
                 code_buf = []
                 in_code = False
             else:
-                flush_para(); flush_list(); flush_blockquote(); flush_table()
+                flush_all()
                 in_code = True
             i += 1
             continue
@@ -153,13 +156,13 @@ def md_to_html(text, base_url=""):
 
         # Blank line
         if not stripped:
-            flush_para(); flush_list(); flush_blockquote(); flush_table()
+            flush_all()
             i += 1
             continue
 
         # Raw HTML passthrough (lines starting with <)
         if stripped.startswith("<"):
-            flush_para(); flush_list(); flush_blockquote(); flush_table()
+            flush_all()
             # Collect consecutive HTML lines
             html_buf = [line]
             i += 1
@@ -179,7 +182,7 @@ def md_to_html(text, base_url=""):
 
         # Horizontal rule
         if re.match(r'^[-*_]{3,}\s*$', stripped):
-            flush_para(); flush_list(); flush_blockquote(); flush_table()
+            flush_all()
             out.append("<hr>")
             i += 1
             continue
@@ -187,7 +190,7 @@ def md_to_html(text, base_url=""):
         # Headings
         hm = re.match(r'^(#{1,6})\s+(.+)$', stripped)
         if hm:
-            flush_para(); flush_list(); flush_blockquote(); flush_table()
+            flush_all()
             level = len(hm.group(1))
             text = hm.group(2).strip()
             # Strip trailing # marks
@@ -279,7 +282,7 @@ def md_to_html(text, base_url=""):
     # Flush remaining state
     if in_code:
         out.append(f'<pre><code>{html_mod.escape("\n".join(code_buf))}</code></pre>')
-    flush_para(); flush_list(); flush_blockquote(); flush_table()
+    flush_all()
 
     return "\n".join(out)
 
@@ -306,10 +309,6 @@ def build_css_vars(cfg):
         --font-primary: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
         /* Legacy compatibility aliases */
-        --heading-color: var(--heading);
-        --text-color: var(--text);
-        --bkg-color: var(--surface);
-        --link-color: var(--accent);
         --link-hover-color: var(--accent-hover);
         --date-color: var(--text-muted);
         --muted-color: var(--text-muted);
@@ -703,7 +702,6 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None):
     out = out.replace("{{STRUCTURED_DATA}}", structured)
     out = out.replace("{{SIDEBAR_NAV}}", sidebar_nav)
     out = out.replace("{{FOOTER_LINKS}}", footer_links)
-    out = out.replace("{{SOCIALS}}", "")
     out = out.replace("{{YEAR}}", year)
     out = out.replace("{{OG_IMAGE}}", og_image)
     out = out.replace("{{OG_TYPE}}", og_type)
@@ -816,7 +814,6 @@ def main():
             inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
 
         # Common replacements for all page templates
-        inner = inner.replace("{{BREADCRUMBS}}", "")
         inner = inner.replace("{{BASE_URL}}", base_url)
 
         page_html = render_page(base_tpl, cfg, inner, page)

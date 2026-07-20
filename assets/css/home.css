@@ -40,7 +40,7 @@
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.5;
-  color: var(--heading-color);
+  color: var(--heading);
   text-wrap: balance;
 }
 
@@ -120,20 +120,6 @@
   color: var(--accent-hover);
 }
 
-.home-hero-cta-tertiary {
-  color: var(--accent);
-  font-weight: 600;
-  font-size: var(--text-base);
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
-}
-
-.home-hero-cta-tertiary:hover,
-.home-hero-cta-tertiary:focus-visible {
-  color: var(--accent-hover);
-  text-decoration-thickness: 2px;
-}
-
 
 /* =====================================================================
  * Home: Quiz + Key Statistics card
@@ -157,7 +143,7 @@
   font-size: var(--text-xl);
   font-weight: 700;
   letter-spacing: -0.01em;
-  color: var(--heading-color);
+  color: var(--heading);
 }
 
 .stats-grid {
@@ -199,7 +185,7 @@
 .stat-link .stat-number {
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--heading);
   line-height: 1;
 }
 
@@ -286,7 +272,7 @@
 
 a.home-section-link {
   text-decoration: none;
-  color: var(--heading-color);
+  color: var(--heading);
 }
 
 a.home-section-link:hover,
@@ -378,7 +364,7 @@ a.home-section-link:focus-visible {
 .home-people-title {
   font-size: var(--text-sm);
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--heading);
   text-decoration: none;
 }
 
@@ -659,7 +645,7 @@ a.home-section-link:focus-visible {
   margin: 0;
   font-size: var(--text-lg);
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--heading);
 }
 
 .carousel-nsfw-desc {

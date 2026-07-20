@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: var(--space-lg, 1.5rem);
   margin-bottom: var(--space-sm, 0.5rem);
   line-height: 1.2;
-  color: var(--heading-color, var(--text));
+  color: var(--heading, var(--text));
   text-wrap: balance;
 }
 
@@ -104,7 +104,7 @@ small {
 /* ===== Links ===== */
 
 a {
-  color: var(--accent, var(--link-color));
+  color: var(--accent);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;

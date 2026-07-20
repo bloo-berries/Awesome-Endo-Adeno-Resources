@@ -55,7 +55,7 @@
 .person-name {
   font-size: var(--text-sm);
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--heading);
   line-height: 1.2;
 }
 
@@ -203,7 +203,7 @@
   margin: 0;
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--heading);
 }
 
 .person-modal-role {

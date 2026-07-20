@@ -50,27 +50,18 @@
                 }, 2000);
             };
 
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(text).then(
-                    function() { done(true); },
-                    function() {
-                        // Fallback: select the blockquote so the user can Cmd/Ctrl+C
-                        var range = document.createRange();
-                        range.selectNodeContents(bq);
-                        var sel = window.getSelection();
-                        sel.removeAllRanges();
-                        sel.addRange(range);
-                        done(false);
-                    }
-                );
-            } else {
-                var range = document.createRange();
-                range.selectNodeContents(bq);
-                var sel = window.getSelection();
-                sel.removeAllRanges();
-                sel.addRange(range);
-                done(false);
-            }
+            copyText(text).then(
+                function() { done(true); },
+                function() {
+                    // Fallback: select the blockquote so the user can Cmd/Ctrl+C
+                    var range = document.createRange();
+                    range.selectNodeContents(bq);
+                    var sel = window.getSelection();
+                    sel.removeAllRanges();
+                    sel.addRange(range);
+                    done(false);
+                }
+            );
         });
     });
 })();

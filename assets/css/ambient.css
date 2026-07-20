@@ -11,6 +11,11 @@
   z-index: -1;
   pointer-events: none;
   overflow: hidden;
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .ambient-glow { display: block; }
 }
 
 .ambient-orb {

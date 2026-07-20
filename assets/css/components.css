@@ -120,61 +120,9 @@ details[open] summary {
     font-weight: 500;
 }
 
-/* ===== DEFINITION BLOCK + ADENOMYOSIS TOOLTIP ===== */
+/* ===== DEFINITION BLOCK ===== */
 
 .definition-block { max-width: 72ch; }
-
-.adeno-info-wrap {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.adeno-info-btn {
-    background: none;
-    border: none;
-    padding: 2px;
-    margin-inline-start: 4px;
-    cursor: pointer;
-    color: var(--accent);
-    vertical-align: middle;
-    line-height: 1;
-    min-height: auto;
-    min-width: auto;
-    box-shadow: none;
-}
-
-.adeno-info-btn:hover,
-.adeno-info-btn:focus { color: var(--accent-hover); }
-
-.adeno-tooltip {
-    display: none;
-    position: absolute;
-    top: calc(100% + 8px);
-    background: var(--surface);
-    color: var(--text);
-    border: 1px solid var(--accent);
-    border-radius: var(--radius-md);
-    padding: 12px 16px;
-    width: 260px;
-    font-size: 0.85rem;
-    font-weight: 400;
-    line-height: 1.5;
-    z-index: 100;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 48rem) {
-    .adeno-tooltip { left: 50%; transform: translateX(-50%); width: 320px; }
-}
-
-.adeno-tooltip strong { font-size: 0.95rem; font-weight: 700; }
-.adeno-tooltip a { color: var(--accent-hover); text-decoration: underline; }
-.adeno-info-wrap.active .adeno-tooltip { display: block; }
-
-@media (hover: hover) {
-    .adeno-info-wrap:hover .adeno-tooltip { display: block; }
-}
 
 /* ===== TABLE ACCORDION ===== */
 

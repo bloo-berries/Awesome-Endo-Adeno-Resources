@@ -50,6 +50,13 @@
 - [ ] Preconnect hint if any external resources are added
 - [ ] Evaluate critical CSS inlining for above-fold content
 
+### Mobile performance (QR code campaign - phone-first)
+- [x] Hide ambient orbs on mobile (`display: none` on `.ambient-glow` + `.sidebar-orb`, shown at 48rem)
+- [x] Show home icon on mobile topbar (no longer hidden behind hamburger)
+- [x] Widen sidebar to 80% on mobile, increase nav item/toggle/footer padding
+- [x] Add nav item separators for visual clarity
+- [x] `color-mix()` fallback on topbar gradient (solid `--surface` for older WebViews)
+
 ---
 
 ## Content
@@ -89,6 +96,19 @@
 - [x] Brand doc updated to v2.1 (`design/brand.md`)
 - [ ] Create favicon.ico fallback for legacy browsers (currently SVG only)
 - [ ] Social media profile links in manifest.json
+
+---
+
+## Refactoring
+
+- [x] Fix `--heading-color` token mismatch (CSS referenced `--heading-color`, semantic defines `--heading`)
+- [x] Remove legacy compatibility aliases from `build_css_vars()` (`--heading-color`, `--text-color`, `--bkg-color`, `--link-color`)
+- [x] Remove dead CSS: `.topbar-brand`, `.adeno-tooltip`/`.adeno-info-wrap`/`.adeno-info-btn`, `.home-hero-cta-tertiary`
+- [x] Remove dead template markers: `{{SOCIALS}}`, `{{BREADCRUMBS}}`
+- [x] Remove unused `site.json` keys: `language`, `favicon`, `dark_mode`
+- [x] Remove redundant `url` fields from `nav_groups` items (constructed from `slug`)
+- [x] Add `flush_all()` helper in `md_to_html()` to replace 6 repeated flush chains
+- [x] Extract shared `copyText()` clipboard utility to `shell.js` (used by `codeblock.js` + `take-action.js`)
 
 ---
 

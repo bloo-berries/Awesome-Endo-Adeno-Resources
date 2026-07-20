@@ -9,7 +9,7 @@
 
         copyButton.addEventListener('click', function(e) {
             var btn = e.currentTarget;
-            navigator.clipboard.writeText(codeblock.textContent).then(function() {
+            copyText(codeblock.textContent).then(function() {
                 btn.className = 'copy-success';
                 setTimeout(function() { btn.className = 'copy-button'; }, 1000);
             }).catch(function() {
