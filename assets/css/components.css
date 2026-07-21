@@ -390,9 +390,15 @@ details[open] > summary .accordion-card-chevron {
 
 .stat-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: var(--space-md);
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-sm);
     margin-bottom: var(--space-lg);
+}
+
+@media (min-width: 48rem) {
+  .stat-grid {
+    gap: var(--space-md);
+  }
 }
 
 .stat-highlight {
@@ -405,7 +411,7 @@ details[open] > summary .accordion-card-chevron {
 }
 
 .stat-number {
-    font-size: var(--text-3xl, 1.875rem);
+    font-size: var(--text-xl, 1.25rem);
     font-weight: 800;
     color: var(--accent);
     line-height: 1.1;

@@ -13,8 +13,6 @@ keywords: ["Endometriosis symptoms", "Endometriosis stages", "Endometriosis trea
 
 [Endometriosis](https://en.wikipedia.org/wiki/Endometriosis) is a chronic condition where tissue similar to the uterine lining grows outside the uterus, causing pain, heavy periods, and infertility.
 
-## Understanding Endometriosis
-
 ### Endometriosis Symptoms by Stage
 
 |Stage/Type|Severity|Key Symptoms|
@@ -39,15 +37,15 @@ There is no cure for Endometriosis, but symptoms can be managed through surgery,
 ## Research and Studies
 
 ### Recent Breakthroughs
-- **Fusobacterium Infection**: Japanese researchers identified a particular bacteria in 64% of Endometriosis patients
-- **Genetic Research**: Ongoing studies on genetic predisposition
-- **Immune System**: Research on immune system dysfunction in Endometriosis development
+- **[Fusobacterium Infection](https://www.science.org/doi/10.1126/scitranslmed.add1531)**: Japanese researchers identified a particular bacteria in 64% of Endometriosis patients
+- **[Genetic Research](https://www.nature.com/articles/s41588-023-01323-z)**: Ongoing studies on genetic predisposition
+- **[Immune System](https://www.frontiersin.org/articles/10.3389/fimmu.2021.668085/full)**: Research on immune system dysfunction in Endometriosis development
 
 ### Ongoing Clinical Trials
-- Genetic Predisposition and Endometriosis studies
-- Gut Microbiota and Endometriosis research
-- Non-hormonal treatment options
-- Fertility preservation techniques
+- [Genetic Predisposition and Endometriosis studies](https://clinicaltrials.gov/search?cond=Endometriosis&term=genetic)
+- [Gut Microbiota and Endometriosis research](https://clinicaltrials.gov/search?cond=Endometriosis&term=microbiota)
+- [Non-hormonal treatment options](https://clinicaltrials.gov/search?cond=Endometriosis&term=non-hormonal)
+- [Fertility preservation techniques](https://clinicaltrials.gov/search?cond=Endometriosis&term=fertility+preservation)
 
 ---
 

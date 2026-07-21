@@ -78,21 +78,4 @@
         }
     });
 
-    // Expand/Collapse All for pages with multiple <details>
-    var allDetails = document.querySelectorAll('.content details');
-    if (allDetails.length >= 3) {
-        var firstDetails = allDetails[0];
-        var toggleBtn = document.createElement('button');
-        toggleBtn.className = 'toggle-all-details';
-        toggleBtn.textContent = 'Expand All';
-        toggleBtn.setAttribute('data-i18n-expand', 'expand_all');
-        toggleBtn.setAttribute('data-i18n-collapse', 'collapse_all');
-        toggleBtn.addEventListener('click', function() {
-            var shouldExpand = !toggleBtn.classList.contains('expanded');
-            allDetails.forEach(function(d) { d.open = shouldExpand; });
-            toggleBtn.classList.toggle('expanded', shouldExpand);
-            toggleBtn.textContent = shouldExpand ? 'Collapse All' : 'Expand All';
-        });
-        firstDetails.parentNode.insertBefore(toggleBtn, firstDetails);
-    }
 })();

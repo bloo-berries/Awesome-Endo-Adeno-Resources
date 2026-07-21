@@ -28,16 +28,23 @@ Research consistently shows that people with Endometriosis experience higher rat
 
 Chronic pain fundamentally alters mood, sleep, and social functioning. Diagnostic delays compound frustration, self-doubt, and medical gaslighting. Social isolation increases as pain limits participation in daily activities.
 
+## Support Communities
+
+- [r/Endo](https://reddit.com/r/Endo), [r/endometriosis](https://www.reddit.com/r/endometriosis/), [r/adenomyosis](https://www.reddit.com/r/adenomyosis/), and [r/ChronicPain](https://reddit.com/r/ChronicPain): Active Reddit communities
+- [MyEndometriosisTeam](https://www.myendometriosisteam.com/): Social network for people with Endometriosis
+- See [Education & Community](/education/) for the full list of online communities and forums
+- See [Education & Resources](/education/#advocacy-groups) for organizations and regional groups
+
 ## Therapy Resources
 
 ### Types of Therapy That Help
 
 <div class="link-grid">
-<div class="link-card"><div class="link-card-name">Cognitive Behavioral Therapy (CBT)</div><div class="link-card-desc">Evidence-based approach for managing chronic pain and associated mood changes</div></div>
-<div class="link-card"><div class="link-card-name">Acceptance & Commitment Therapy (ACT)</div><div class="link-card-desc">Builds psychological flexibility and helps find meaning despite chronic illness</div></div>
-<div class="link-card"><div class="link-card-name">EMDR</div><div class="link-card-desc">Effective for processing medical trauma and traumatic healthcare experiences</div></div>
-<div class="link-card"><div class="link-card-name">MBSR</div><div class="link-card-desc">8-week structured program shown to reduce pain perception and improve quality of life</div></div>
-<div class="link-card"><div class="link-card-name">Pain Psychology</div><div class="link-card-desc">Specialized therapists who understand the intersection of chronic pain and mental health</div></div>
+<div class="link-card"><div class="link-card-name"><a href="https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy" target="_blank" rel="noopener noreferrer">Cognitive Behavioral Therapy (CBT)</a></div><div class="link-card-desc">Evidence-based approach for managing chronic pain and associated mood changes</div></div>
+<div class="link-card"><div class="link-card-name"><a href="https://en.wikipedia.org/wiki/Acceptance_and_commitment_therapy" target="_blank" rel="noopener noreferrer">Acceptance & Commitment Therapy (ACT)</a></div><div class="link-card-desc">Builds psychological flexibility and helps find meaning despite chronic illness</div></div>
+<div class="link-card"><div class="link-card-name"><a href="https://en.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing" target="_blank" rel="noopener noreferrer">EMDR</a></div><div class="link-card-desc">Effective for processing medical trauma and traumatic healthcare experiences</div></div>
+<div class="link-card"><div class="link-card-name"><a href="https://en.wikipedia.org/wiki/Mindfulness-based_stress_reduction" target="_blank" rel="noopener noreferrer">MBSR</a></div><div class="link-card-desc">8-week structured program shown to reduce pain perception and improve quality of life</div></div>
+<div class="link-card"><div class="link-card-name"><a href="https://en.wikipedia.org/wiki/Pain_management#Psychological_approach" target="_blank" rel="noopener noreferrer">Pain Psychology</a></div><div class="link-card-desc">Specialized therapists who understand the intersection of chronic pain and mental health</div></div>
 </div>
 
 ### Finding a Therapist
@@ -84,23 +91,14 @@ If you are in crisis or experiencing thoughts of self-harm, please reach out:
 <details>
 <summary>Recommended Apps (5 apps)</summary>
 
-- **Headspace:** Guided meditation with chronic pain-specific content
-- **Calm:** Meditation, sleep stories, and relaxation exercises
-- **Insight Timer:** Free meditation library with chronic pain tracks
-- **Curable:** Evidence-based pain science education and exercises
-- **Phendo:** Endometriosis-specific symptom tracking and research participation
+- **[Headspace](https://www.headspace.com/):** Guided meditation with chronic pain-specific content
+- **[Calm](https://www.calm.com/):** Meditation, sleep stories, and relaxation exercises
+- **[Insight Timer](https://insighttimer.com/):** Free meditation library with chronic pain tracks
+- **[Curable](https://www.curablehealth.com/):** Evidence-based pain science education and exercises
+- **[Phendo](https://citizenendo.org/phendo/):** Endometriosis-specific symptom tracking and research participation
 
 </details>
 
-<details>
-<summary>Support Communities (4 links)</summary>
-
-- [r/Endo](https://reddit.com/r/Endo) and [r/ChronicPain](https://reddit.com/r/ChronicPain): Active Reddit communities
-- [MyEndometriosisTeam](https://www.myendometriosisteam.com/): Social network for people with Endometriosis
-- See [Education & Community](/education/) for the full list of online communities and forums
-- See [Education & Resources](/education/#advocacy-groups) for organizations and regional groups
-
-</details>
 
 <details>
 <summary>Caregiver Support (6 tips)</summary>

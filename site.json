@@ -9,7 +9,7 @@
             "items": [
                 { "name": "Symptom quiz", "slug": "quiz", "icon": "diagnosis", "i18n_nav": "nav_quiz", "i18n_desc": "desc_quiz", "description": "Guided checklist with next steps." },
                 { "name": "Diagnosis", "slug": "diagnosis", "icon": "diagnosis", "i18n_nav": "nav_diagnosis", "i18n_desc": "desc_diagnosis", "description": "Methods, tools, and guidance." },
-                { "name": "Co-morbidities", "slug": "comorbidities", "icon": "co-morbidities", "i18n_nav": "nav_comorbidities", "i18n_desc": "desc_comorbidities", "description": "Associated conditions and risks." },
+                { "name": "Surgery costs", "slug": "surgery-costs", "icon": "medications", "i18n_nav": "nav_surgery_costs", "i18n_desc": "desc_surgery_costs", "description": "Real prices from 364+ patients." },
                 { "name": "Healthcare", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation." },
                 { "name": "Symptom tracker", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately." }
             ]
@@ -18,7 +18,7 @@
             "label": "I have endo or adeno",
             "i18n_key": "nav_group_already_diagnosed",
             "items": [
-                { "name": "Surgery costs", "slug": "surgery-costs", "icon": "medications", "i18n_nav": "nav_surgery_costs", "i18n_desc": "desc_surgery_costs", "description": "Real prices from 364+ patients." },
+                { "name": "Co-morbidities", "slug": "comorbidities", "icon": "co-morbidities", "i18n_nav": "nav_comorbidities", "i18n_desc": "desc_comorbidities", "description": "Associated conditions and risks." },
                 { "name": "Treatments", "slug": "treatments", "icon": "medications", "i18n_nav": "nav_treatments", "i18n_desc": "desc_treatments", "description": "Surgical, hormonal, and supportive." },
                 { "name": "Medications", "slug": "medications", "icon": "medications", "i18n_nav": "nav_medications", "i18n_desc": "desc_medications", "description": "Treatment and medication guide." },
                 { "name": "Fertility", "slug": "fertility", "icon": "fertility", "i18n_nav": "nav_fertility", "i18n_desc": "desc_fertility", "description": "Fertility, IVF, and pregnancy." },

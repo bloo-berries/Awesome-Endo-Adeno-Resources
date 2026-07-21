@@ -56,7 +56,7 @@ Endometriosis is not "just a bad period." It is a systemic disease that can affe
        data-i18n-bio="person_nicola_thyne_bio"
        data-i18n-detail="person_nicola_thyne_detail"
        data-link="https://news.stv.tv/east-central/family-of-mum-with-endometriosis-who-took-her-own-life-brand-nhs-delays-a-disgrace">
-    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Nicola-Thyne.webp" alt="Nicola Thyne" loading="lazy" style="object-position:30% 20%"></div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Nicola-Thyne.webp" alt="Nicola Thyne" loading="lazy" style="object-position:20% 25%"></div>
     <strong class="person-name">Nicola Thyne</strong>
     <span class="person-years">1988–2024</span>
     <span class="person-role" data-i18n="person_nicola_thyne_role">Nurse & Police Officer, Scotland</span>
@@ -68,7 +68,7 @@ Endometriosis is not "just a bad period." It is a systemic disease that can affe
        data-i18n-bio="person_aubrion_rogers_bio"
        data-i18n-detail="person_aubrion_rogers_detail"
        data-link="https://medium.com/@kristina.kasparian.author/her-name-was-aubrion-64103c78441e">
-    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Aubrion-Rogers.webp" alt="Aubrion Rogers" loading="lazy" style="object-position:right 20%"></div>
+    <div class="person-avatar"><img src="{{BASE_URL}}images/people/Aubrion-Rogers.webp" alt="Aubrion Rogers" loading="lazy" style="object-position:70% 20%; transform:scale(1.5); transform-origin:70% 20%"></div>
     <strong class="person-name">Aubrion Rogers</strong>
     <span class="person-years">1991–2022</span>
     <span class="person-role" data-i18n="person_aubrion_rogers_role">Endo Advocate, USA</span>
