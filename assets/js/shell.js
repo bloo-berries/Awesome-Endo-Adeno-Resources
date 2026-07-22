@@ -52,19 +52,6 @@
     if (btn2) btn2.addEventListener('click', toggle);
 })();
 
-// Sync sidebar lang picker with topbar lang picker
-(function() {
-    var topbar = document.getElementById('lang-picker');
-    var sidebar = document.getElementById('sidebar-lang-picker');
-    if (!topbar || !sidebar) return;
-    sidebar.value = topbar.value;
-    topbar.addEventListener('change', function() { sidebar.value = topbar.value; });
-    sidebar.addEventListener('change', function() {
-        topbar.value = sidebar.value;
-        topbar.dispatchEvent(new Event('change'));
-    });
-})();
-
 // Back-to-top
 (function() {
     var btn = document.getElementById('back-to-top');

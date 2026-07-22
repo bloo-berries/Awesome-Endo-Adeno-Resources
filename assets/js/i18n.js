@@ -1,7 +1,12 @@
-// i18n Translation System
+// i18n Translation System - URL-based routing
 (function() {
     var translations = null;
-    var currentLang = localStorage.getItem('site-language') || 'en';
+    var pageLang = window.__pageLang || 'en';
+    var contentBase = window.__contentBase || '/';
+    var baseURL = window.__baseURL || '/';
+
+    // Set localStorage to match this page's language (so redirect script works)
+    localStorage.setItem('site-language', pageLang);
 
     function applyTranslations(lang) {
         if (!translations || !translations[lang]) return;
@@ -31,12 +36,49 @@
         if (noResults && t.no_results) noResults.textContent = t.no_results;
         // Handle RTL for Arabic
         document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
-        // Sync picker
-        var picker = document.getElementById('lang-picker');
-        if (picker) picker.value = lang;
-        currentLang = lang;
-        localStorage.setItem('site-language', lang);
     }
+
+    function navigateToLang(newLang) {
+        localStorage.setItem('site-language', newLang);
+        var basePath = baseURL.replace(/^https?:\/\/[^\/]+/, '') || '/';
+        var path = location.pathname;
+        // Strip current lang prefix if present
+        var afterBase = path.replace(basePath, '');
+        var langMatch = afterBase.match(/^([a-z]{2})\//);
+        if (langMatch) {
+            afterBase = afterBase.replace(/^[a-z]{2}\//, '');
+        }
+        // Build new path
+        var newPath;
+        if (newLang === 'en') {
+            newPath = basePath + afterBase;
+        } else {
+            newPath = basePath + newLang + '/' + afterBase;
+        }
+        // Ensure trailing slash
+        if (newPath !== '/' && !newPath.endsWith('/')) newPath += '/';
+        location.href = newPath;
+    }
+
+    function syncPickers(lang) {
+        var topbar = document.getElementById('lang-picker');
+        var sidebar = document.getElementById('sidebar-lang-picker');
+        if (topbar) topbar.value = lang;
+        if (sidebar) sidebar.value = lang;
+    }
+
+    function onPickerChange(e) {
+        var newLang = e.target.value;
+        if (newLang === pageLang) return;
+        navigateToLang(newLang);
+    }
+
+    // Sync both pickers and attach handlers
+    syncPickers(pageLang);
+    var topbar = document.getElementById('lang-picker');
+    var sidebar = document.getElementById('sidebar-lang-picker');
+    if (topbar) topbar.addEventListener('change', onPickerChange);
+    if (sidebar) sidebar.addEventListener('change', onPickerChange);
 
     fetch(window.__translationsURL || '/i18n/translations.json')
         .then(function(r) { return r.json(); })
@@ -44,21 +86,15 @@
             translations = data;
             // Expose to other modules (e.g., search.js) for runtime lookups
             window.__i18nTranslations = data;
-            applyTranslations(currentLang);
-            var picker = document.getElementById('lang-picker');
-            if (picker) {
-                picker.value = currentLang;
-                picker.addEventListener('change', function() {
-                    applyTranslations(this.value);
-                });
-            }
+            applyTranslations(pageLang);
+            syncPickers(pageLang);
+            document.dispatchEvent(new Event('i18n:ready'));
         })
         .catch(function(err) { console.warn('i18n: failed to load translations', err); });
 
     // Shared i18n lookup helper for other modules
     window.__ti18n = function(key, fallback) {
-        var lang = localStorage.getItem('site-language') || 'en';
-        var t = (window.__i18nTranslations || {})[lang] || (window.__i18nTranslations || {}).en || {};
+        var t = (window.__i18nTranslations || {})[pageLang] || (window.__i18nTranslations || {}).en || {};
         return t[key] || fallback;
     };
 })();

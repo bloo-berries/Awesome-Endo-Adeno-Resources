@@ -130,6 +130,27 @@ def md_to_html(text, base_url=""):
         t = re.sub(r'~~(.+?)~~', r'<del>\1</del>', t)
         return t
 
+    def build_nested_ul(items):
+        """Build nested <ul> from [(indent, text), ...] tuples."""
+        if not items:
+            return ""
+        html = "<ul>"
+        idx = 0
+        while idx < len(items):
+            indent, text = items[idx]
+            children = []
+            j = idx + 1
+            while j < len(items) and items[j][0] > indent:
+                children.append(items[j])
+                j += 1
+            html += f"<li>{inline(text)}"
+            if children:
+                html += build_nested_ul(children)
+            html += "</li>"
+            idx = j
+        html += "</ul>"
+        return html
+
     i = 0
     while i < len(lines):
         line = lines[i]
@@ -245,7 +266,7 @@ def md_to_html(text, base_url=""):
             i += 1
             continue
 
-        # Unordered list
+        # Unordered list (with nested sub-items)
         ulm = re.match(r'^([-*+])\s+(.+)$', stripped)
         if ulm:
             flush_para(); flush_blockquote(); flush_table()
@@ -253,8 +274,27 @@ def md_to_html(text, base_url=""):
                 flush_list()
                 out.append("<ul>")
                 in_list = "ul"
-            out.append(f"<li>{inline(ulm.group(2))}</li>")
-            i += 1
+            # Collect nested sub-items with indent levels
+            sub_items = []
+            j = i + 1
+            while j < len(lines):
+                sub_line = lines[j]
+                sub_stripped = sub_line.strip()
+                indent = len(sub_line) - len(sub_line.lstrip())
+                sub_ulm = re.match(r'^([-*+])\s+(.+)$', sub_stripped)
+                if indent >= 2 and sub_ulm:
+                    sub_items.append((indent, sub_ulm.group(2)))
+                    j += 1
+                else:
+                    break
+            if sub_items:
+                li_html = f"<li>{inline(ulm.group(2))}"
+                li_html += build_nested_ul(sub_items)
+                li_html += "</li>"
+                out.append(li_html)
+            else:
+                out.append(f"<li>{inline(ulm.group(2))}</li>")
+            i = j
             continue
 
         # Ordered list
@@ -339,8 +379,101 @@ def build_css_vars(cfg):
     }}
 </style>"""
 
+# ── Discover available translation languages ──
+def discover_languages():
+    """Read supported languages from translations.json (excluding 'en').
+    Also scan content/translations/ for any language dirs with .md files.
+    Returns dict like {"it": {"quiz", "endometriosis"}, "de": set(), ...}.
+    Languages without translation files get empty sets and will fall back
+    to English content re-rendered with the correct content_base."""
+    langs = {}
+    # 1. Read all languages from translations.json
+    i18n_path = os.path.join(ROOT, "static", "i18n", "translations.json")
+    if os.path.exists(i18n_path):
+        with open(i18n_path, encoding="utf-8") as f:
+            i18n_data = json.load(f)
+        for lang in i18n_data:
+            if lang != "en":
+                langs[lang] = set()
+    # 2. Overlay any content/translations/{lang}/*.md files
+    trans_dir = os.path.join(ROOT, "content", "translations")
+    if os.path.isdir(trans_dir):
+        for lang in os.listdir(trans_dir):
+            lang_dir = os.path.join(trans_dir, lang)
+            if not os.path.isdir(lang_dir):
+                continue
+            slugs = set()
+            for fname in os.listdir(lang_dir):
+                if fname.endswith(".md"):
+                    slugs.add(fname.replace(".md", ""))
+            if lang not in langs:
+                langs[lang] = set()
+            langs[lang].update(slugs)
+    return langs
+
+# ── Load translated pages for a language ──
+def load_translated_pages(cfg, lang, en_pages):
+    """For each English page, load the translation if it exists,
+    otherwise re-render English markdown with the language content_base
+    so internal links get the /{lang}/ prefix."""
+    content_base = cfg["base_url"] + lang + "/"
+    trans_dir = os.path.join(ROOT, "content", "translations", lang)
+    pages = {}
+    for slug, en_page in en_pages.items():
+        trans_path = os.path.join(trans_dir, slug + ".md")
+        if os.path.exists(trans_path):
+            with open(trans_path, encoding="utf-8") as f:
+                text = f.read()
+            meta, body = parse_frontmatter(text)
+            html_content = md_to_html(body, content_base)
+            permalink = content_base if slug == "_index" else f'{content_base}{slug}/'
+            pages[slug] = {
+                "title": meta.get("title", en_page["title"]),
+                "description": meta.get("description", en_page["description"]),
+                "date": meta.get("date", en_page["date"]),
+                "lastmod": meta.get("lastmod", meta.get("date", en_page["lastmod"])),
+                "tags": meta.get("tags", en_page.get("tags", [])),
+                "keywords": meta.get("keywords", en_page.get("keywords", [])),
+                "draft": meta.get("draft", False),
+                "search": meta.get("search", en_page.get("search", True)),
+                "toc": meta.get("toc", en_page.get("toc", True)),
+                "template": meta.get("template", en_page.get("template")),
+                "html": html_content,
+                "permalink": permalink,
+                "slug": slug,
+            }
+        else:
+            # Re-render English markdown with lang content_base for correct links
+            en_md_path = os.path.join(ROOT, "content", slug + ".md")
+            if os.path.exists(en_md_path):
+                with open(en_md_path, encoding="utf-8") as f:
+                    text = f.read()
+                _, body = parse_frontmatter(text)
+                html_content = md_to_html(body, content_base)
+            else:
+                html_content = en_page["html"]
+            permalink = content_base if slug == "_index" else f'{content_base}{slug}/'
+            pages[slug] = dict(en_page, html=html_content, permalink=permalink)
+    return pages
+
+# ── Build hreflang tags ──
+def build_hreflang_tags(slug, lang, available_langs, cfg):
+    """Generate <link rel="alternate" hreflang="..."> tags for SEO."""
+    base = cfg["base_url"]
+    tags = []
+    # English (default)
+    en_url = base if slug == "_index" else f'{base}{slug}/'
+    tags.append(f'    <link rel="alternate" hreflang="en" href="{en_url}" />')
+    tags.append(f'    <link rel="alternate" hreflang="x-default" href="{en_url}" />')
+    # Other languages
+    for l in sorted(available_langs):
+        l_url = f'{base}{l}/' if slug == "_index" else f'{base}{l}/{slug}/'
+        tags.append(f'    <link rel="alternate" hreflang="{l}" href="{l_url}" />')
+    return "\n".join(tags)
+
 # ── Grouped sidebar nav ──
-def build_sidebar_nav(cfg, active_slug=None):
+def build_sidebar_nav(cfg, active_slug=None, content_base=None):
+    link_base = content_base or cfg["base_url"]
     if "nav_groups" not in cfg:
         # Fallback to flat nav
         items = []
@@ -350,7 +483,7 @@ def build_sidebar_nav(cfg, active_slug=None):
             active_attr = ' aria-current="page"' if m["slug"] == active_slug else ""
             items.append(
                 f'        <li class="nav-item">'
-                f'<a href="{cfg["base_url"]}{m["slug"]}/"{active_attr}>'
+                f'<a href="{link_base}{m["slug"]}/"{active_attr}>'
                 f'<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
                 f'{icon_svg}</svg>'
                 f'<span{i18n_attr}>{m["name"]}</span></a></li>'
@@ -370,7 +503,7 @@ def build_sidebar_nav(cfg, active_slug=None):
             active_attr = ' aria-current="page"' if m["slug"] == active_slug else ""
             li = (
                 f'            <li class="nav-item">'
-                f'<a href="{cfg["base_url"]}{m["slug"]}/"{active_attr}>'
+                f'<a href="{link_base}{m["slug"]}/"{active_attr}>'
                 f'<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
                 f'{icon_svg}</svg>'
                 f'<span{nav_i18n}>{m["name"]}</span></a></li>'
@@ -412,7 +545,8 @@ def build_sidebar_nav(cfg, active_slug=None):
     return '<nav aria-label="Site navigation" class="sidebar-nav">\n' + "\n".join(groups_html) + "\n</nav>"
 
 # ── Footer links (About, etc.) ──
-def build_footer_links(cfg):
+def build_footer_links(cfg, content_base=None):
+    link_base = content_base or cfg["base_url"]
     links = cfg.get("footer_links", [])
     if not links:
         return ""
@@ -422,7 +556,7 @@ def build_footer_links(cfg):
         i18n_attr = f' data-i18n="{m["i18n_nav"]}"' if m.get("i18n_nav") else ""
         href = m.get("url", f"/{m['slug']}/")
         if href.startswith("/"):
-            href = cfg["base_url"] + href.lstrip("/")
+            href = link_base + href.lstrip("/")
         items.append(
             f'<a href="{href}" class="footer-link">'
             f'<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
@@ -582,7 +716,7 @@ def build_search_index(pages, cfg):
     return json.dumps(index, ensure_ascii=False)
 
 # ── Sitemap ──
-def build_sitemap(pages, cfg):
+def build_sitemap(pages, cfg, lang_pages_map=None):
     base = cfg["base_url"]
     urls = []
     # Homepage
@@ -596,6 +730,20 @@ def build_sitemap(pages, cfg):
             f'    <lastmod>{lastmod}</lastmod>\n'
             f'    <priority>0.8</priority>\n  </url>'
         )
+    # Language pages
+    if lang_pages_map:
+        for lang in sorted(lang_pages_map):
+            lang_base = f'{base}{lang}/'
+            urls.append(f'  <url>\n    <loc>{lang_base}</loc>\n    <priority>0.9</priority>\n  </url>')
+            for slug, page in sorted(lang_pages_map[lang].items()):
+                if slug == "_index" or page.get("draft"):
+                    continue
+                lastmod = page.get("lastmod", page.get("date", DEFAULT_DATE))
+                urls.append(
+                    f'  <url>\n    <loc>{lang_base}{slug}/</loc>\n'
+                    f'    <lastmod>{lastmod}</lastmod>\n'
+                    f'    <priority>0.7</priority>\n  </url>'
+                )
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             + "\n".join(urls) + "\n</urlset>\n")
@@ -675,10 +823,12 @@ def load_pages(cfg):
     return pages
 
 # ── Render a page using base template ──
-def render_page(base_tpl, cfg, inner_html, page_meta=None):
+def render_page(base_tpl, cfg, inner_html, page_meta=None, lang="en", content_base=None, hreflang=""):
     year = str(datetime.datetime.now().year)
     base_url = cfg["base_url"]
     brand = cfg["brand"]
+    if content_base is None:
+        content_base = base_url
 
     if page_meta:
         title = f'{brand} - {page_meta.get("title", "")}'
@@ -689,16 +839,16 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None):
     else:
         title = brand
         desc = cfg["description"]
-        page_url = base_url
+        page_url = content_base
         structured = build_structured_data(cfg)
         og_type = "website"
 
     og_image = base_url + cfg.get("og_image", "social-preview.png")
 
     active_slug = page_meta.get("slug") if page_meta else None
-    sidebar_nav = build_sidebar_nav(cfg, active_slug)
+    sidebar_nav = build_sidebar_nav(cfg, active_slug, content_base=content_base)
     css_vars = build_css_vars(cfg)
-    footer_links = build_footer_links(cfg)
+    footer_links = build_footer_links(cfg, content_base=content_base)
 
     out = base_tpl
     out = out.replace("{{META_TITLE}}", html_mod.escape(title))
@@ -716,6 +866,9 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None):
     out = out.replace("{{JS_BUNDLE}}", cfg.get("_js_bundle", "js/app.js"))
     out = out.replace("{{PAGE_CONTENT}}", inner_html)
     out = out.replace("{{LANG_OPTIONS}}", LANG_OPTIONS)
+    out = out.replace("{{PAGE_LANG}}", lang)
+    out = out.replace("{{HREFLANG_TAGS}}", hreflang)
+    out = out.replace("{{CONTENT_BASE}}", content_base)
     out = out.replace("{{BASE_URL}}", base_url)
     return out
 
@@ -791,21 +944,27 @@ def main():
     # Load content pages
     pages = load_pages(cfg)
 
-    # Build search index
+    # Discover available translations
+    available_langs = discover_languages()
+
+    # Build hreflang tags for English pages
+    def get_hreflang(slug):
+        if available_langs:
+            return build_hreflang_tags(slug, "en", available_langs, cfg)
+        return ""
+
+    # Build English search index
     with open(os.path.join(DIST, "index.json"), "w", encoding="utf-8") as f:
         f.write(build_search_index(pages, cfg))
 
-    # Build sitemap
-    with open(os.path.join(DIST, "sitemap.xml"), "w", encoding="utf-8") as f:
-        f.write(build_sitemap(pages, cfg))
-
-    # Build homepage
-    home_inner = home_tpl.replace("{{BASE_URL}}", base_url)
-    home_html = render_page(base_tpl, cfg, home_inner)
+    # Build English homepage
+    home_inner = home_tpl.replace("{{CONTENT_BASE}}", base_url)
+    home_inner = home_inner.replace("{{BASE_URL}}", base_url)
+    home_html = render_page(base_tpl, cfg, home_inner, lang="en", content_base=base_url, hreflang=get_hreflang("_index"))
     with open(os.path.join(DIST, "index.html"), "w", encoding="utf-8") as f:
         f.write(home_html)
 
-    # Build individual pages
+    # Build English individual pages
     for slug, page in pages.items():
         if slug == "_index":
             continue
@@ -821,19 +980,85 @@ def main():
             inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
 
         # Common replacements for all page templates
+        inner = inner.replace("{{CONTENT_BASE}}", base_url)
         inner = inner.replace("{{BASE_URL}}", base_url)
 
-        page_html = render_page(base_tpl, cfg, inner, page)
+        page_html = render_page(base_tpl, cfg, inner, page, lang="en", content_base=base_url, hreflang=get_hreflang(slug))
         page_dir = os.path.join(DIST, slug)
         os.makedirs(page_dir, exist_ok=True)
         with open(os.path.join(page_dir, "index.html"), "w", encoding="utf-8") as f:
             f.write(page_html)
 
-    # Build 404 page
-    four04_inner = four04_tpl.replace("{{BASE_URL}}", base_url)
-    four04_html = render_page(base_tpl, cfg, four04_inner, {"title": "404 Not Found", "description": "Page not found", "permalink": f"{base_url}404.html"})
+    # Build English 404 page
+    four04_inner = four04_tpl.replace("{{CONTENT_BASE}}", base_url)
+    four04_inner = four04_inner.replace("{{BASE_URL}}", base_url)
+    four04_html = render_page(base_tpl, cfg, four04_inner, {"title": "404 Not Found", "description": "Page not found", "permalink": f"{base_url}404.html"}, lang="en", content_base=base_url)
     with open(os.path.join(DIST, "404.html"), "w", encoding="utf-8") as f:
         f.write(four04_html)
+
+    print(f"  English: {len([s for s in pages if s != '_index' and not pages[s].get('draft')])} pages")
+
+    # ── Build translated language versions ──
+    lang_pages_map = {}
+    for lang in sorted(available_langs):
+        content_base = base_url + lang + "/"
+        lang_pages = load_translated_pages(cfg, lang, pages)
+        lang_pages_map[lang] = lang_pages
+        lang_dist = os.path.join(DIST, lang)
+        os.makedirs(lang_dist, exist_ok=True)
+
+        # Per-language search index
+        with open(os.path.join(lang_dist, "index.json"), "w", encoding="utf-8") as f:
+            f.write(build_search_index(lang_pages, cfg))
+
+        # Language hreflang helper
+        def get_lang_hreflang(slug, l=lang):
+            return build_hreflang_tags(slug, l, available_langs, cfg)
+
+        # Language homepage
+        lang_home_inner = home_tpl.replace("{{CONTENT_BASE}}", content_base)
+        lang_home_inner = lang_home_inner.replace("{{BASE_URL}}", base_url)
+        lang_home_html = render_page(base_tpl, cfg, lang_home_inner, lang=lang, content_base=content_base, hreflang=get_lang_hreflang("_index"))
+        with open(os.path.join(lang_dist, "index.html"), "w", encoding="utf-8") as f:
+            f.write(lang_home_html)
+
+        # Language individual pages
+        for slug, page in lang_pages.items():
+            if slug == "_index":
+                continue
+            if page.get("draft"):
+                continue
+
+            custom_tpl_name = page.get("template")
+            if custom_tpl_name:
+                inner = read_tpl(f"{custom_tpl_name}.html")
+            else:
+                inner = page_tpl
+                toc = build_toc(page["html"]) if page.get("toc", True) else ""
+                inner = inner.replace("{{TOC}}", toc)
+                inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
+
+            inner = inner.replace("{{CONTENT_BASE}}", content_base)
+            inner = inner.replace("{{BASE_URL}}", base_url)
+
+            page_html = render_page(base_tpl, cfg, inner, page, lang=lang, content_base=content_base, hreflang=get_lang_hreflang(slug))
+            page_dir = os.path.join(lang_dist, slug)
+            os.makedirs(page_dir, exist_ok=True)
+            with open(os.path.join(page_dir, "index.html"), "w", encoding="utf-8") as f:
+                f.write(page_html)
+
+        # Language 404 page
+        lang_404_inner = four04_tpl.replace("{{CONTENT_BASE}}", content_base)
+        lang_404_inner = lang_404_inner.replace("{{BASE_URL}}", base_url)
+        lang_404_html = render_page(base_tpl, cfg, lang_404_inner, {"title": "404 Not Found", "description": "Page not found", "permalink": f"{content_base}404.html"}, lang=lang, content_base=content_base)
+        with open(os.path.join(lang_dist, "404.html"), "w", encoding="utf-8") as f:
+            f.write(lang_404_html)
+
+        print(f"  {lang}: {len([s for s in lang_pages if s != '_index' and not lang_pages[s].get('draft')])} pages")
+
+    # Build sitemap (includes all languages)
+    with open(os.path.join(DIST, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write(build_sitemap(pages, cfg, lang_pages_map if lang_pages_map else None))
 
     # Write .nojekyll
     with open(os.path.join(DIST, ".nojekyll"), "w") as f:

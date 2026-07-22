@@ -690,6 +690,7 @@ a.home-section-link:focus-visible {
   padding-top: var(--space-lg);
   max-width: 48rem;
   margin-inline: auto;
+  text-align: center;
 }
 
 /* Expandable myths */
@@ -710,6 +711,7 @@ a.home-section-link:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 0.125rem;
+  text-align: start;
 }
 
 .myths-myth {

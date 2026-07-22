@@ -35,16 +35,19 @@ The site went through a full UI/UX overhaul (Phases 1–5) documented under `des
 | `parse_frontmatter(text)` | Split `---` frontmatter from body; supports `title`, `description`, `date`, `lastmod`, `draft`, `tags`, `keywords`, `search`, `toc` |
 | `md_to_html(text, base_url)` | Markdown→HTML: headings (auto-IDs), bold/italic, links (external→`target="_blank"`, internal rewritten with `base_url`), images, lists, tables, code blocks, blockquotes, hr, raw HTML passthrough |
 | `build_css_vars(cfg)` | Emit `<style>` block: legacy color tokens + semantic layer from `site.json:semantic` (light/dark/constant/scale) |
-| `build_sidebar_nav(cfg, active_slug)` | Grouped `<nav>` with `<div class="nav-group">` sections, each with a `<button class="nav-group-toggle">` controlling its `<ul>`; sets `aria-current="page"` on the active link |
-| `build_footer_links(cfg)` | Generates footer links (About, FAQ, Take action, Privacy) for the sidebar bottom |
+| `discover_languages()` | Read supported languages from `translations.json` (excluding `en`), overlay any `content/translations/{lang}/*.md` files. Returns `{"it": {"quiz", ...}, "de": set(), ...}` |
+| `load_translated_pages(cfg, lang, en_pages)` | For each English page, load translation from `content/translations/{lang}/{slug}.md` if it exists, otherwise re-render English markdown with the language `content_base` so internal links get the `/{lang}/` prefix |
+| `build_hreflang_tags(slug, lang, available_langs, cfg)` | Generate `<link rel="alternate" hreflang="...">` tags including `x-default` pointing to English |
+| `build_sidebar_nav(cfg, active_slug, content_base)` | Grouped `<nav>` with `<div class="nav-group">` sections; uses `content_base` for link hrefs (language-aware) |
+| `build_footer_links(cfg, content_base)` | Generates footer links using `content_base` for language-aware hrefs |
 | `build_structured_data(cfg, page)` | JSON-LD for SEO |
 | `build_search_index(pages, cfg)` | `dist/index.json` - title, permalink, summary, content, tags. Excludes pages with `search: false` frontmatter (`/take-action/`, `/privacy/`) |
 | `build_sitemap(pages, cfg)` | `dist/sitemap.xml` |
 | `build_toc(html, min_headings=4)` | Per-page TOC from H2/H3 (only emitted if ≥4 headings). Suppressed when `toc: false` in frontmatter |
 | `minify_css(text)` / `minify_js(text)` | Whitespace/comment stripping |
 | `load_pages(cfg)` | Walk `content/`, parse markdown, propagate frontmatter fields (including `search`, `toc`) |
-| `render_page(base_tpl, cfg, inner, page_meta)` | Apply `base.html` with all `{{...}}` markers replaced |
-| `main()` | Clean `dist/`, concat+minify CSS→`dist/css/bundle.<hash>.css`, JS→`dist/js/app.<hash>.js`, build all pages, copy `static/*` (incl. self-hosted fonts) to `dist/`, write `.nojekyll`, `robots.txt`, `sitemap.xml`, `index.json`, `404.html` |
+| `render_page(base_tpl, cfg, inner, page_meta, lang, content_base, hreflang)` | Apply `base.html` with all `{{...}}` markers replaced including `{{PAGE_LANG}}`, `{{CONTENT_BASE}}`, `{{HREFLANG_TAGS}}` |
+| `main()` | Clean `dist/`, concat+minify CSS/JS, build English pages, then loop over all languages from `translations.json` building `dist/{lang}/` with per-language homepage, content pages, 404, search index. Write sitemap (all languages), `.nojekyll`, `robots.txt` |
 
 Bundles are content-hashed for cache busting; filenames injected via `cfg["_css_bundle"]` / `cfg["_js_bundle"]` and exposed through `{{CSS_BUNDLE}}` / `{{JS_BUNDLE}}`.
 
@@ -56,7 +59,7 @@ JS modules in `assets/js/` are listed in `site.json:js_files`, concatenated and 
 |---|---|---|
 | Codeblock copy | `assets/js/codeblock.js` | Copy button for `<pre>` blocks |
 | Client-side search | `assets/js/search.js` | Loads `/index.json`. Empty-state suggestions (6 i18n keys). Debounced search (200ms). Synonym expansion. Weighted scoring. ↑/↓/Enter/Esc keyboard nav. `aria-live="polite"` on results panel |
-| Client-side i18n | `assets/js/i18n.js` | Loads `/i18n/translations.json`, 26 languages, `data-i18n` attributes, localStorage persistence (`site-language`), `dir="rtl"` for Arabic. Exposes `window.__i18nTranslations` for other modules |
+| Client-side i18n | `assets/js/i18n.js` | URL-based language routing. Reads `window.__pageLang` (build-time). Applies `data-i18n` translations. Syncs both `#lang-picker` and `#sidebar-lang-picker`. Language picker navigates to `/{lang}/` URLs via `navigateToLang()`. Sets `dir="rtl"` for Arabic. Exposes `window.__i18nTranslations` for other modules |
 | Image carousel | `assets/js/carousel.js` | Multi-instance: inits all `.carousel-section` containers independently. Auto-rotates 4s. Disabled if `prefers-reduced-motion: reduce` OR `hover: none` (touch). Reacts to live motion-pref changes. ARIA-roledescription + per-slide labels + `aria-hidden`. Supports NSFW gate: if a `.carousel-nsfw-gate` exists inside a section, the carousel only inits after the user clicks the reveal button |
 | Table → accordion | `assets/js/accordion.js` | Converts tables to accordion layout on mobile via `data-accordion="table"` |
 | Sidebar collapse | `assets/js/sidebar.js` | Per-group expand/collapse toggle; state persists to `localStorage["sidebar-groups"]` |
@@ -94,6 +97,7 @@ The inline block exposes two globals consumed by extracted modules: `window.__se
 | `static/i18n/_review.json` | **Sidecar** listing keys per language that hold English placeholders pending real translation. Built during Phase 3c |
 | `static/icons/`, `static/images/` | Static assets (copied verbatim to `dist/`) |
 | `content/*.md` | 23 markdown pages: `_index`, about, adenomyosis, comorbidities, diagnosis, education, endometriosis, faq, fertility, graphic-images (draft), healthcare, in-memory, medications, mental-health, myths, notable-people, privacy, quiz, research, resources (draft), surgery-costs, take-action, tracker, treatments |
+| `content/translations/{lang}/*.md` | Per-language translated content. Same frontmatter structure as English with translated `title`/`description`. Build falls back to English content (re-rendered with correct `content_base`) for pages without a translation file. Italian (`it/`) is the first fully translated language |
 | `design/brand.md` | Brand identity v2: tokens, type scale, IA, components |
 | `design/ia.md` | Information architecture spec - three primary journeys, page set, URL stability, i18n strategy, privacy |
 | `design/css-architecture.md` | CSS architecture: semantic tokens, mobile-first, file structure, scroll model, safe-area, breakpoints |
@@ -105,7 +109,12 @@ The inline block exposes two globals consumed by extracted modules: `window.__se
 
 The build script replaces these placeholders:
 
-`{{BASE_URL}}`, `{{META_TITLE}}`, `{{BRAND}}`, `{{DESCRIPTION}}`, `{{PAGE_URL}}`, `{{PAGE_CONTENT}}`, `{{CSS_VARIABLES}}`, `{{CSS_BUNDLE}}`, `{{JS_BUNDLE}}`, `{{STRUCTURED_DATA}}`, `{{SIDEBAR_NAV}}`, `{{FOOTER_LINKS}}`, `{{HOME_CONTENT}}`, `{{TOC}}`, `{{YEAR}}`, `{{OG_IMAGE}}`, `{{OG_TYPE}}`
+`{{BASE_URL}}`, `{{CONTENT_BASE}}`, `{{PAGE_LANG}}`, `{{HREFLANG_TAGS}}`, `{{META_TITLE}}`, `{{BRAND}}`, `{{DESCRIPTION}}`, `{{PAGE_URL}}`, `{{PAGE_CONTENT}}`, `{{CSS_VARIABLES}}`, `{{CSS_BUNDLE}}`, `{{JS_BUNDLE}}`, `{{STRUCTURED_DATA}}`, `{{SIDEBAR_NAV}}`, `{{FOOTER_LINKS}}`, `{{HOME_CONTENT}}`, `{{TOC}}`, `{{YEAR}}`, `{{OG_IMAGE}}`, `{{OG_TYPE}}`
+
+- `{{BASE_URL}}` - site root for assets (CSS, JS, fonts, images). Same for all languages.
+- `{{CONTENT_BASE}}` - language-aware base for content links. English: same as `{{BASE_URL}}`. Other languages: `{{BASE_URL}}{lang}/`.
+- `{{PAGE_LANG}}` - ISO language code (`en`, `it`, `de`, etc.). Used in `<html lang>` and inline JS globals.
+- `{{HREFLANG_TAGS}}` - `<link rel="alternate" hreflang="...">` tags for all available languages + `x-default`.
 
 ## Conventions
 
@@ -115,7 +124,10 @@ The build script replaces these placeholders:
 - **Mobile-first CSS** - Base styles target the smallest viewport. Larger viewports add via `@media (min-width: 48rem)` (tablet) and `@media (min-width: 64rem)` (desktop). Breakpoints in `rem` so font-size zoom shifts them proportionally. No `max-width` media queries.
 - **Logical properties for RTL** - Use `inset-inline-start/end`, `margin-inline-*`, `padding-inline-*`, `text-align: start/end`. Avoid `left`/`right` for directional positioning; the sidebar uses `[dir="rtl"]` overrides where logical translates aren't enough.
 - **Safe-area on mobile** - Every fixed/sticky bottom-anchored element includes `env(safe-area-inset-bottom)`. `viewport-fit=cover` is set on the `<meta name="viewport">` tag.
-- **Client-side i18n** - Translations live in `/static/i18n/translations.json`; DOM elements use `data-i18n="key"` (optional `data-i18n-attr="title,aria-label"` and `data-i18n-aria="key"` for aria-label-only). New keys go to `en` first; placeholders propagate to all 26 languages and are tracked in `static/i18n/_review.json` for human translation later. i18n.js auto-falls-back to English when a key is missing.
+- **Client-side i18n (UI strings)** - Translations live in `/static/i18n/translations.json`; DOM elements use `data-i18n="key"` (optional `data-i18n-attr="title,aria-label"` and `data-i18n-aria="key"` for aria-label-only). New keys go to `en` first; placeholders propagate to all 26 languages and are tracked in `static/i18n/_review.json` for human translation later. i18n.js auto-falls-back to English when a key is missing.
+- **Content translation (full pages)** - Per-language markdown files live in `content/translations/{lang}/{slug}.md`. The build generates `dist/{lang}/` directories with full page sets for every language in `translations.json`. Languages without a translation file for a given page fall back to English content re-rendered with the correct `/{lang}/` link prefix. Italian (`it`) is the first fully translated language. A head `<script>` in `base.html` redirects users to their stored language preference before body renders (prevents English content flash).
+- **Adding a new language's content** - Create `content/translations/{lang}/` and add `.md` files with translated `title`, `description`, and body. The build automatically picks up any language listed in `translations.json`. Files not present fall back to English. Use `{{CONTENT_BASE}}` (not `{{BASE_URL}}`) for navigation links in templates; `{{BASE_URL}}` is for assets only.
+- **`{{CONTENT_BASE}}` for navigation, `{{BASE_URL}}` for assets** - In templates, navigation links (`<a href>` to pages) use `{{CONTENT_BASE}}` so they point to the correct language path. Asset links (CSS, JS, fonts, images) use `{{BASE_URL}}` since assets are shared across all languages.
 - **`search: false` frontmatter** - Excludes a page from the search index. Used for `/take-action/`, `/privacy/`. Pages with `draft: true` are excluded from both build and index.
 - **`toc: false` frontmatter** - Suppresses the auto-generated table of contents for a page. Used on `/notable-people/` (gallery layout).
 - **Accessibility** - Skip-to-content, 3px focus outlines via `--focus-ring` token, 44px min touch targets (`var(--tap-min)`), `aria-current="page"` in sidebar + bottom-nav, `aria-live="polite"` on search results + copy-button label, semantic HTML (`<nav>`, `<article>`, `<main>`, breadcrumb `<ol>`). WCAG AA contrast verified on all semantic token pairs.
@@ -125,7 +137,7 @@ The build script replaces these placeholders:
 - **No left-border accent bars** - Boxes (TOC, blockquotes, callouts) use a full `border` + `border-radius` instead of a left-only accent stripe. Do not add `border-left` as a decorative element to containers.
 - **No `!important`** - CSS structured so specificity conflicts resolve without it. Only exception: `@media (prefers-reduced-motion)`.
 - **Cache-busted bundles** - CSS and JS bundles are content-hashed (`bundle.<hash>.css`, `app.<hash>.js`); never reference by static name. Use `{{CSS_BUNDLE}}` / `{{JS_BUNDLE}}`.
-- **`{{BASE_URL}}` for internal links** - Never use bare `/foo/` for internal navigation; always `{{BASE_URL}}foo/`. The site deploys to a subpath on GitHub Pages and root on Cloudflare; bare slashes break under subpath.
+- **`{{BASE_URL}}` for assets, `{{CONTENT_BASE}}` for navigation** - Never use bare `/foo/` for internal links. Use `{{CONTENT_BASE}}foo/` for page navigation (language-aware) and `{{BASE_URL}}foo` for assets (CSS, JS, images, fonts). The site deploys to a subpath on GitHub Pages and root on Cloudflare; bare slashes break under subpath.
 - **Three-journey navigation** - `site.json:nav_groups` has 3 groups: *Could this be me?* / *I have endo or adeno* / *Learn*. Each `nav-group` is collapsible with localStorage persistence via `sidebar.js`. Bottom nav (mobile) has 4 tabs: Home / Quiz / Learn / Help. Nav items with `"pinned": true` render above all groups as standalone links (e.g. Surgery Costs).
 - **`link-grid-center`** - CSS class for centering a single `.link-card` within a `.link-grid`. Used when a section has only one external link.
 - **No em-dashes** - Use hyphens (`-`) instead of em-dashes (`—`) everywhere: content, comments, commit messages, documentation. Em-dashes cause rendering inconsistencies across browsers and devices.

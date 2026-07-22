@@ -87,25 +87,22 @@
   flex-direction: column;
   gap: var(--space-xs);
   padding: var(--space-md);
-  background: var(--surface-raised);
-  border: 1.5px solid var(--border);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition: border-color var(--transition-fast), background-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+  transition: border-color var(--transition-fast), background-color var(--transition-fast);
   min-block-size: var(--tap-min);
 }
 
 .quiz-card:hover {
   border-color: var(--border-strong);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: var(--surface-raised);
 }
 
 .quiz-card.checked {
   border-color: var(--accent);
-  background: var(--accent-bg);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(232, 184, 74, 0.15);
+  background: var(--surface-raised);
 }
 
 .quiz-card input[type="checkbox"] {
@@ -120,6 +117,7 @@
   font-size: var(--text-sm);
   line-height: 1.4;
   color: var(--text);
+  padding-inline-end: 2rem;
 }
 
 .quiz-card-check {
@@ -265,8 +263,6 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .quiz-card { transition: border-color var(--transition-fast), background-color var(--transition-fast); }
-  .quiz-card:hover,
-  .quiz-card.checked { transform: none; box-shadow: none; }
+  .quiz-card { transition: none; }
   .quiz-progress-fill { transition: none; }
 }

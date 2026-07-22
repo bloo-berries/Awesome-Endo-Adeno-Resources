@@ -558,6 +558,7 @@ details[open] > summary .accordion-card-chevron {
     padding: 1rem 0;
     text-decoration: none;
     color: var(--text);
+    text-align: center;
 }
 
 .link-card:hover {

@@ -8,7 +8,7 @@
         return window.__ti18n ? window.__ti18n(key, fallback) : fallback;
     }
 
-    var SYMPTOMS = [
+    var SYMPTOMS_EN = [
         'Severe period pain that doesn\u2019t respond to over-the-counter medication',
         'Heavy or irregular periods, sometimes with clotting',
         'Pelvic pain between periods or during sex',
@@ -20,14 +20,21 @@
         'Lower back pain that worsens with your cycle'
     ];
 
+    function getSymptoms() {
+        return SYMPTOMS_EN.map(function(fallback, i) {
+            return t('quiz_symptom_' + i, fallback);
+        });
+    }
+
     function render() {
+        var symptoms = getSymptoms();
         var html = '<div class="quiz-progress-wrap">' +
             '<div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:0%"></div></div>' +
             '<p class="quiz-counter" aria-live="polite"><span class="quiz-counter-num">0</span> ' + t('quiz_counter_suffix', 'of 9 selected') + '</p>' +
             '</div>';
 
         html += '<div class="quiz-cards">';
-        SYMPTOMS.forEach(function(s, i) {
+        symptoms.forEach(function(s, i) {
             var id = 'symptom-' + i;
             html += '<label class="quiz-card" for="' + id + '">' +
                 '<input type="checkbox" id="' + id + '" value="' + i + '">' +
@@ -99,4 +106,7 @@
     }
 
     render();
+
+    // Re-render once translations are loaded (they arrive async from i18n.js)
+    document.addEventListener('i18n:ready', function() { render(); });
 })();

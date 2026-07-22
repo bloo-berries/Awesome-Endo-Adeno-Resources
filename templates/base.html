@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{PAGE_LANG}}" lang="{{PAGE_LANG}}">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
@@ -38,6 +38,7 @@
 
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
+    {{HREFLANG_TAGS}}
     <meta name="apple-mobile-web-app-title" content="{{BRAND}}" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -49,6 +50,23 @@
     <script>
     // Theme detection before body renders (prevents FOUC). Default is light.
     (function(){if(localStorage.getItem('theme')==='dark')document.documentElement.classList.add('dark-boot');})();
+    </script>
+    <script>
+    // Language redirect: if user has a stored language preference different from this page's
+    // language, redirect to the correct language version before body renders.
+    (function(){
+      var lang = localStorage.getItem('site-language');
+      if (!lang || lang === '{{PAGE_LANG}}') return;
+      if (lang === 'en') lang = '';
+      var base = '{{BASE_URL}}'.replace(/^https?:\/\/[^\/]+/, '') || '/';
+      var path = location.pathname;
+      // Already on the right lang path
+      if (lang && path.indexOf(base + lang + '/') === 0) return;
+      if (!lang && !/^[a-z]{2}\//.test(path.replace(base, ''))) return;
+      var slug = path.replace(base, '').replace(/^[a-z]{2}\//, '').replace(/\/$/, '');
+      var target = base + (lang ? lang + '/' : '') + (slug ? slug + '/' : '');
+      location.replace(target);
+    })();
     </script>
 </head>
 <body>
@@ -65,7 +83,7 @@
                 <line x1="3" y1="18" x2="21" y2="18"/>
             </svg>
         </button>
-        <a href="{{BASE_URL}}" class="topbar-home" aria-label="Home">
+        <a href="{{CONTENT_BASE}}" class="topbar-home" aria-label="Home">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         </a>
 
@@ -98,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <a href="{{BASE_URL}}take-action/#if-you-need-help-right-now" class="topbar-urgent" data-i18n="home_urgent_btn">
+            <a href="{{CONTENT_BASE}}take-action/#if-you-need-help-right-now" class="topbar-urgent" data-i18n="home_urgent_btn">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
                 Help
             </a>
@@ -112,7 +130,7 @@
     <div class="shell">
         <aside class="sidebar" id="sidebar" data-open="false">
             <div class="sidebar-glow" aria-hidden="true"><div class="sidebar-orb sidebar-orb-1"></div><div class="sidebar-orb sidebar-orb-2"></div></div>
-            <a href="{{BASE_URL}}take-action/#if-you-need-help-right-now" class="sidebar-help-link" data-i18n="home_urgent_btn">
+            <a href="{{CONTENT_BASE}}take-action/#if-you-need-help-right-now" class="sidebar-help-link" data-i18n="home_urgent_btn">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
                 Help
             </a>
@@ -150,8 +168,8 @@
             Support & Donate
         </a>
         <div class="site-footer-links">
-            <a href="{{BASE_URL}}education/">Resources</a>
-            <a href="{{BASE_URL}}about/">Feedback</a>
+            <a href="{{CONTENT_BASE}}education/">Resources</a>
+            <a href="{{CONTENT_BASE}}about/">Feedback</a>
             <a href="https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
             </a>
@@ -160,19 +178,19 @@
 
     <!-- Bottom nav (mobile only) -->
     <nav class="bottomnav" aria-label="Primary mobile navigation">
-        <a href="{{BASE_URL}}" class="bottomnav-item">
+        <a href="{{CONTENT_BASE}}" class="bottomnav-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-5h-2v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
             <span data-i18n="nav_home">Home</span>
         </a>
-        <a href="{{BASE_URL}}quiz/" class="bottomnav-item">
+        <a href="{{CONTENT_BASE}}quiz/" class="bottomnav-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 10l2 2 4-4"/><path d="M9 16h6"/></svg>
             <span data-i18n="nav_quiz">Quiz</span>
         </a>
-        <a href="{{BASE_URL}}endometriosis/" class="bottomnav-item">
+        <a href="{{CONTENT_BASE}}endometriosis/" class="bottomnav-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
             <span data-i18n="nav_learn">Learn</span>
         </a>
-        <a href="{{BASE_URL}}take-action/" class="bottomnav-item">
+        <a href="{{CONTENT_BASE}}take-action/" class="bottomnav-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg>
             <span data-i18n="nav_take_action">Act</span>
         </a>
@@ -186,8 +204,11 @@
     </button>
 
     <script>
-    window.__searchIndexURL = '{{BASE_URL}}index.json';
+    window.__searchIndexURL = '{{CONTENT_BASE}}index.json';
     window.__translationsURL = '{{BASE_URL}}i18n/translations.json';
+    window.__pageLang = '{{PAGE_LANG}}';
+    window.__contentBase = '{{CONTENT_BASE}}';
+    window.__baseURL = '{{BASE_URL}}';
     </script>
 
     <script src="{{BASE_URL}}{{JS_BUNDLE}}"></script>
