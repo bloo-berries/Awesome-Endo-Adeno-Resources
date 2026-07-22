@@ -45,7 +45,7 @@
 .u-skip-link {
   position: absolute;
   top: 0;
-  left: 0;
+  inset-inline-start: 0;
   padding: var(--space-sm) var(--space-md);
   background: var(--surface-deep);
   color: var(--text-on-deep);

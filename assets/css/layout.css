@@ -340,30 +340,26 @@
 .settings-theme-btn {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-xs);
-  padding: var(--space-xs) var(--space-sm);
-  background: rgba(0, 0, 0, 0.06);
+  justify-content: center;
+  min-block-size: var(--tap-min);
+  min-inline-size: var(--tap-min);
+  padding: var(--space-xs);
+  background: transparent;
   color: var(--text);
-  border: 1px solid var(--border);
+  border: none;
   border-radius: var(--radius-sm);
-  font-size: var(--text-xs);
-  font-weight: 600;
   cursor: pointer;
   transition: background var(--transition-fast);
 }
 
 .settings-theme-btn:hover,
 .settings-theme-btn:focus-visible {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.dark-theme .settings-theme-btn {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .dark-theme .settings-theme-btn:hover,
 .dark-theme .settings-theme-btn:focus-visible {
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .settings-theme-label {
@@ -634,10 +630,16 @@
   opacity: 1;
 }
 
-.sidebar-nav .nav-group[data-collapsed="true"] > ul {
+.sidebar-nav .nav-group[data-collapsed="true"] > ul:not(.nav-group-pinned) {
   max-height: 0;
   opacity: 0;
   pointer-events: none;
+}
+
+.nav-group-pinned {
+  margin: var(--space-xs) 0 0;
+  padding: 0;
+  list-style: none;
 }
 
 .sidebar-nav .nav-item {
@@ -645,7 +647,7 @@
 }
 
 .sidebar-nav .nav-item + .nav-item {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: none;
 }
 
 .sidebar-nav .nav-item a {

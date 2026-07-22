@@ -76,14 +76,14 @@ The inline block exposes two globals consumed by extracted modules: `window.__se
 |---|---|
 | `site.json` | Site config: `base_url`, `brand`, `nav_groups` (3 journeys), `footer_links`, legacy `colors` block, **`semantic`** block (light/dark/constant/scale), `css_files`, `js_files` |
 | `build.py` | Python build script (stdlib only) |
-| `templates/base.html` | Base page shell: topbar, off-canvas sidebar + backdrop, content, bottom nav (mobile), back-to-top, inline JS for shell behaviors |
+| `templates/base.html` | Base page shell: topbar, off-canvas sidebar + backdrop, content, bottom nav (mobile), site footer, back-to-top, inline JS for shell behaviors |
 | `templates/home.html` | Home page: hero + 3 journey cards + linked stats + Watch & Learn + quiz teaser + carousel + help CTA |
 | `templates/page.html` | Single content page (breadcrumbs + TOC + content) |
 | `templates/404.html` | 404 page content |
 | `assets/css/tokens.css` | `@font-face` for self-hosted Figtree. Loaded first |
 | `assets/css/reset.css` | Mobile-first CSS reset + base typography. Replaces the old `base.css` |
 | `assets/css/utilities.css` | `u-stack`, `u-cluster`, `u-grid-auto`, `u-skip-link`, `u-visually-hidden`, `u-tap-target`. `:root` breakpoint markers for JS introspection |
-| `assets/css/layout.css` | Topbar, off-canvas sidebar, sidebar nav groups (collapsible), shell grid, bottom nav, back-to-top. Safe-area + RTL logical properties throughout |
+| `assets/css/layout.css` | Topbar, off-canvas sidebar, sidebar nav groups (collapsible), shell grid, bottom nav, site footer, back-to-top. Safe-area + RTL logical properties throughout |
 | `assets/css/components.css` | Cards, buttons, forms, breadcrumbs, accordion |
 | `assets/css/pages.css` | Page-specific blocks: home hero/journey cards/stats/videos/quiz-teaser/help-CTA; notable-people gallery grid; take-action copyable-blocks |
 | `assets/css/carousel.css` | Carousel-specific |
@@ -93,7 +93,7 @@ The inline block exposes two globals consumed by extracted modules: `window.__se
 | `static/i18n/translations.json` | 26-language translations |
 | `static/i18n/_review.json` | **Sidecar** listing keys per language that hold English placeholders pending real translation. Built during Phase 3c |
 | `static/icons/`, `static/images/` | Static assets (copied verbatim to `dist/`) |
-| `content/*.md` | 21 markdown pages: `_index`, about, adenomyosis, comorbidities, diagnosis, education, endometriosis, faq, fertility, graphic-images, healthcare, medications, mental-health, myths, notable-people, privacy, quiz, research, resources, take-action, tracker, treatments |
+| `content/*.md` | 23 markdown pages: `_index`, about, adenomyosis, comorbidities, diagnosis, education, endometriosis, faq, fertility, graphic-images (draft), healthcare, in-memory, medications, mental-health, myths, notable-people, privacy, quiz, research, resources (draft), surgery-costs, take-action, tracker, treatments |
 | `design/brand.md` | Brand identity v2: tokens, type scale, IA, components |
 | `design/ia.md` | Information architecture spec - three primary journeys, page set, URL stability, i18n strategy, privacy |
 | `design/css-architecture.md` | CSS architecture: semantic tokens, mobile-first, file structure, scroll model, safe-area, breakpoints |
@@ -126,6 +126,7 @@ The build script replaces these placeholders:
 - **No `!important`** - CSS structured so specificity conflicts resolve without it. Only exception: `@media (prefers-reduced-motion)`.
 - **Cache-busted bundles** - CSS and JS bundles are content-hashed (`bundle.<hash>.css`, `app.<hash>.js`); never reference by static name. Use `{{CSS_BUNDLE}}` / `{{JS_BUNDLE}}`.
 - **`{{BASE_URL}}` for internal links** - Never use bare `/foo/` for internal navigation; always `{{BASE_URL}}foo/`. The site deploys to a subpath on GitHub Pages and root on Cloudflare; bare slashes break under subpath.
-- **Three-journey navigation** - `site.json:nav_groups` has 3 groups: *Could this be me?* / *I have endo or adeno* / *Learn*. Each `nav-group` is collapsible with localStorage persistence via `sidebar.js`. Bottom nav (mobile) has 4 tabs: Home / Quiz / Learn / Help.
+- **Three-journey navigation** - `site.json:nav_groups` has 3 groups: *Could this be me?* / *I have endo or adeno* / *Learn*. Each `nav-group` is collapsible with localStorage persistence via `sidebar.js`. Bottom nav (mobile) has 4 tabs: Home / Quiz / Learn / Help. Nav items with `"pinned": true` render above all groups as standalone links (e.g. Surgery Costs).
+- **`link-grid-center`** - CSS class for centering a single `.link-card` within a `.link-grid`. Used when a section has only one external link.
 - **No em-dashes** - Use hyphens (`-`) instead of em-dashes (`—`) everywhere: content, comments, commit messages, documentation. Em-dashes cause rendering inconsistencies across browsers and devices.
 - **Markdown content** - Custom `md_to_html()` converter with raw HTML passthrough (supports `<details>`, `<summary>`, `<main>`, blockquotes). Frontmatter (after leading `---`): `title`, `description`, `date`, `lastmod`, `draft`, `tags`, `keywords`, `search` (default true), `toc` (default true). Internal `[text](/slug/)` links are rewritten to include `base_url`.

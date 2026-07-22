@@ -28,7 +28,7 @@
     }
 
     // Apply persisted state on load; collapse groups 1 & 2 by default
-    var DEFAULT_COLLAPSED = ['nav-group-1', 'nav-group-2'];
+    var DEFAULT_COLLAPSED = ['nav-group-1'];
     var hasStored = false;
     try { hasStored = localStorage.getItem(STORAGE_KEY) !== null; } catch (e) {}
     var collapsed = hasStored ? loadCollapsed() : DEFAULT_COLLAPSED;

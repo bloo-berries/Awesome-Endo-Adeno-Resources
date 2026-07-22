@@ -540,11 +540,20 @@ details[open] > summary .accordion-card-chevron {
     margin-bottom: 1.5rem;
 }
 
+.link-grid-center {
+    display: flex;
+    justify-content: center;
+}
+
+.link-grid-center .link-card {
+    max-inline-size: 16rem;
+    text-align: center;
+}
+
 .link-card {
     display: block;
     background: transparent;
     border: none;
-    border-bottom: 1px solid var(--border);
     border-radius: 0;
     padding: 1rem 0;
     text-decoration: none;

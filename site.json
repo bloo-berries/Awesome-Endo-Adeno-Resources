@@ -6,10 +6,11 @@
     "github_url": "https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources",
     "nav_groups": [
         {
+            "label": "Could this be me?",
+            "i18n_key": "nav_group_could_this_be_me",
             "items": [
                 { "name": "Symptom quiz", "slug": "quiz", "icon": "diagnosis", "i18n_nav": "nav_quiz", "i18n_desc": "desc_quiz", "description": "Guided checklist with next steps." },
                 { "name": "Diagnosis", "slug": "diagnosis", "icon": "diagnosis", "i18n_nav": "nav_diagnosis", "i18n_desc": "desc_diagnosis", "description": "Methods, tools, and guidance." },
-                { "name": "Surgery costs", "slug": "surgery-costs", "icon": "medications", "i18n_nav": "nav_surgery_costs", "i18n_desc": "desc_surgery_costs", "description": "Real prices from 364+ patients." },
                 { "name": "Healthcare", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation." },
                 { "name": "Symptom tracker", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately." }
             ]
@@ -29,6 +30,7 @@
             "label": "Learn",
             "i18n_key": "nav_group_learn",
             "items": [
+                { "name": "Surgery costs", "slug": "surgery-costs", "icon": "medications", "i18n_nav": "nav_surgery_costs", "i18n_desc": "desc_surgery_costs", "description": "Real prices from 364+ patients.", "pinned": true },
                 { "name": "Endometriosis", "slug": "endometriosis", "icon": "endometriosis", "i18n_nav": "nav_endometriosis", "i18n_desc": "desc_endometriosis", "description": "Symptoms, stages, and support." },
                 { "name": "Adenomyosis", "slug": "adenomyosis", "icon": "adenomyosis", "i18n_nav": "nav_adenomyosis", "i18n_desc": "desc_adenomyosis", "description": "Symptoms and diagnosis." },
                 { "name": "Notable people", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with Endometriosis." },

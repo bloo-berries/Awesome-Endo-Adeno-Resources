@@ -16,6 +16,8 @@ keywords: ["Endometriosis specialist", "adenomyosis doctor", "diagnostic tools",
 <a href="https://icarebetter.com/" target="_blank" class="link-card"><div class="link-card-name">iCareBetter</div><div class="link-card-desc">Connecting endo patients to the right experts as early as possible</div></a>
 <a href="https://www.theyellowhub.org/" target="_blank" class="link-card"><div class="link-card-name">The Yellow Hub</div><div class="link-card-desc">Empowering patient lives with compassionate tech</div></a>
 <a href="https://www.roon.com/" target="_blank" class="link-card"><div class="link-card-name">Roon</div><div class="link-card-desc">Remote access to vetted medical experts</div></a>
+</div>
+<div class="link-grid link-grid-center">
 <a href="https://www.gethale.it/" target="_blank" class="link-card"><div class="link-card-name">Hale</div><div class="link-card-desc">In-person and remote clinic for Endometriosis, vulvodynia, and sexual pain</div><div class="link-card-badge">Italy</div></a>
 </div>
 

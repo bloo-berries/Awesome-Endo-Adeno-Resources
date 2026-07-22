@@ -122,3 +122,8 @@
 /* RTL: flip arrow direction so "next" points left */
 [dir="rtl"] .carousel-arrow svg { transform: scaleX(-1); }
 
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+    .carousel-track { transition: none !important; }
+}
+

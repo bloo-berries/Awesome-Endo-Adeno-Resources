@@ -4,7 +4,7 @@ import json, os, re, shutil, datetime, html as html_mod, sys, hashlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
-DEFAULT_DATE = "2025-01-27"
+DEFAULT_DATE = "2026-01-01"
 
 # ── SVG icon paths (from layouts/partials/icon.html) ──
 ICONS = {
@@ -362,23 +362,31 @@ def build_sidebar_nav(cfg, active_slug=None):
     for idx, group in enumerate(cfg["nav_groups"]):
         group_id = f"nav-group-{idx}"
         list_id = f"nav-group-list-{idx}"
+        pinned_items = []
         items = []
         for m in group["items"]:
             icon_svg = ICONS.get(m["icon"], "")
             nav_i18n = f' data-i18n="{m["i18n_nav"]}"' if m.get("i18n_nav") else ""
             active_attr = ' aria-current="page"' if m["slug"] == active_slug else ""
-            items.append(
+            li = (
                 f'            <li class="nav-item">'
                 f'<a href="{cfg["base_url"]}{m["slug"]}/"{active_attr}>'
                 f'<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
                 f'{icon_svg}</svg>'
                 f'<span{nav_i18n}>{m["name"]}</span></a></li>'
             )
+            if m.get("pinned"):
+                pinned_items.append(li)
+            else:
+                items.append(li)
 
         label = group.get("label")
         if label:
             i18n_key = group.get("i18n_key", "")
             i18n_attr = f' data-i18n="{i18n_key}"' if i18n_key else ""
+            pinned_html = ""
+            if pinned_items:
+                pinned_html = f'            <ul class="nav-group-pinned">\n' + "\n".join(pinned_items) + "\n            </ul>\n"
             group_html = (
                 f'        <div class="nav-group" data-group-id="{group_id}">\n'
                 f'            <h3 class="nav-group-label">\n'
@@ -387,7 +395,8 @@ def build_sidebar_nav(cfg, active_slug=None):
                 f'                    <svg class="nav-group-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>\n'
                 f'                </button>\n'
                 f'            </h3>\n'
-                f'            <ul id="{list_id}">\n'
+                + pinned_html
+                + f'            <ul id="{list_id}">\n'
                 + "\n".join(items) + "\n"
                 f'            </ul>\n'
                 f'        </div>'
@@ -646,8 +655,6 @@ def load_pages(cfg):
         if meta.get("draft") is True:
             continue
         slug = fname.replace(".md", "")
-        if slug == "_index":
-            slug = "_index"
         html_content = md_to_html(body, cfg["base_url"])
         permalink = cfg["base_url"] if slug == "_index" else f'{cfg["base_url"]}{slug}/'
         pages[slug] = {
