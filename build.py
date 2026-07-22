@@ -843,7 +843,8 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None, lang="en", content_ba
         structured = build_structured_data(cfg)
         og_type = "website"
 
-    og_image = base_url + cfg.get("og_image", "social-preview.png")
+    # OG image must be an absolute URL for social media crawlers
+    og_image = cfg.get("_canonical_base", base_url) + cfg.get("og_image", "social-preview.png")
 
     active_slug = page_meta.get("slug") if page_meta else None
     sidebar_nav = build_sidebar_nav(cfg, active_slug, content_base=content_base)
@@ -875,6 +876,8 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None, lang="en", content_ba
 # ── Main build ──
 def main():
     cfg = load_config()
+    # Preserve canonical URL for OG tags (must be absolute for social crawlers)
+    cfg["_canonical_base"] = cfg["base_url"]
     # Allow --base-url override for local dev
     for i, arg in enumerate(sys.argv[1:], 1):
         if arg == "--base-url" and i < len(sys.argv) - 1:
