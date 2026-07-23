@@ -64,7 +64,16 @@
             "accent-bg-hover": "rgba(139, 69, 19, 0.2)",
             "table-header-bg": "rgba(139, 69, 19, 0.12)",
             "table-stripe": "#F0DCC4",
-            "error": "#A41A1A"
+            "error": "#A41A1A",
+            "overlay": "rgba(0, 0, 0, 0.4)",
+            "overlay-heavy": "rgba(0, 0, 0, 0.55)",
+            "glass": "rgba(140, 100, 170, 0.08)",
+            "glass-border": "rgba(140, 100, 170, 0.15)",
+            "hover-subtle": "rgba(0, 0, 0, 0.08)",
+            "nav-hover": "rgba(255, 255, 255, 0.12)",
+            "nav-active": "rgba(255, 255, 255, 0.18)",
+            "nav-border": "rgba(255, 255, 255, 0.15)",
+            "sidebar-text-muted": "rgba(255, 255, 255, 0.85)"
         },
         "dark": {
             "text": "#F5E6D0",
@@ -82,7 +91,16 @@
             "accent-bg-hover": "rgba(232, 184, 74, 0.2)",
             "table-header-bg": "rgba(196, 152, 42, 0.2)",
             "table-stripe": "#3D2435",
-            "error": "#F87171"
+            "error": "#F87171",
+            "overlay": "rgba(0, 0, 0, 0.5)",
+            "overlay-heavy": "rgba(0, 0, 0, 0.6)",
+            "glass": "rgba(180, 150, 210, 0.1)",
+            "glass-border": "rgba(180, 150, 210, 0.2)",
+            "hover-subtle": "rgba(255, 255, 255, 0.12)",
+            "nav-hover": "rgba(255, 255, 255, 0.12)",
+            "nav-active": "rgba(255, 255, 255, 0.18)",
+            "nav-border": "rgba(255, 255, 255, 0.15)",
+            "sidebar-text-muted": "rgba(255, 255, 255, 0.85)"
         },
         "constant": {
             "text-on-warm": "#F5E6D0",
@@ -134,7 +152,6 @@
         "css/carousel.css",
         "css/tracker.css",
         "css/surgery-costs.css",
-        "css/ambient.css",
         "css/print.css"
     ],
     "js_files": [
@@ -143,13 +160,15 @@
         "js/search.js",
         "js/i18n.js",
         "js/carousel.js",
-
         "js/accordion.js",
-        "js/sidebar.js",
-        "js/take-action.js",
-        "js/person-modal.js",
-        "js/tracker.js",
-        "js/quiz.js",
-        "js/surgery-costs.js"
-    ]
+        "js/sidebar.js"
+    ],
+    "page_js": {
+        "quiz": ["js/quiz.js"],
+        "tracker": ["js/tracker.js"],
+        "surgery-costs": ["js/surgery-costs.js"],
+        "take-action": ["js/take-action.js"],
+        "notable-people": ["js/person-modal.js"],
+        "_index": ["js/person-modal.js"]
+    }
 }

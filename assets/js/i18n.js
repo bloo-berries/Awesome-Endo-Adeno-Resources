@@ -80,12 +80,25 @@
     if (topbar) topbar.addEventListener('change', onPickerChange);
     if (sidebar) sidebar.addEventListener('change', onPickerChange);
 
-    fetch(window.__translationsURL || '/i18n/translations.json')
-        .then(function(r) { return r.json(); })
-        .then(function(data) {
-            translations = data;
-            // Expose to other modules (e.g., search.js) for runtime lookups
-            window.__i18nTranslations = data;
+    // Fetch per-language translation file (flat format: { "key": "value" })
+    // Also fetch English as fallback if current language is not English
+    var langURL = window.__translationsURL || '/i18n/en.json';
+    var fetches = [fetch(langURL).then(function(r) { return r.json(); })];
+    if (pageLang !== 'en') {
+        var enURL = (window.__baseURL || '/') + 'i18n/en.json';
+        fetches.push(fetch(enURL).then(function(r) { return r.json(); }));
+    }
+    Promise.all(fetches)
+        .then(function(results) {
+            translations = {};
+            translations[pageLang] = results[0];
+            if (results.length > 1) {
+                translations.en = results[1];
+            } else {
+                translations.en = results[0];
+            }
+            // Expose same structure other modules expect: { "en": {...}, "{lang}": {...} }
+            window.__i18nTranslations = translations;
             applyTranslations(pageLang);
             syncPickers(pageLang);
             document.dispatchEvent(new Event('i18n:ready'));

@@ -46,7 +46,7 @@ def parse_frontmatter(text):
         line = line.strip()
         if not line or line.startswith("#"):
             continue
-        m = re.match(r'^(\w+)\s*[:=]\s*(.+)$', line)
+        m = re.match(r'^([\w-]+)\s*[:=]\s*(.+)$', line)
         if m:
             key, val = m.group(1), m.group(2).strip()
             # Strip quotes
@@ -869,9 +869,76 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None, lang="en", content_ba
     out = out.replace("{{LANG_OPTIONS}}", LANG_OPTIONS)
     out = out.replace("{{PAGE_LANG}}", lang)
     out = out.replace("{{HREFLANG_TAGS}}", hreflang)
+    # Page-specific JS bundles
+    slug = page_meta.get("slug") if page_meta else "_index"
+    if slug is None:
+        slug = "_index"
+    page_js_refs = cfg.get("_page_js_bundles", {}).get(slug, [])
+    page_js_tags = "\n    ".join(
+        f'<script defer src="{base_url}{ref}"></script>' for ref in page_js_refs
+    )
+    out = out.replace("{{PAGE_JS}}", page_js_tags)
+
     out = out.replace("{{CONTENT_BASE}}", content_base)
     out = out.replace("{{BASE_URL}}", base_url)
     return out
+
+# ── Build all pages for a single language ──
+def build_pages_for_lang(base_tpl, page_tpl, home_tpl, four04_tpl, cfg, pages,
+                         lang, content_base, base_url, dist_dir, available_langs, read_tpl):
+    """Build search index, homepage, content pages, and 404 for one language."""
+    def get_hreflang(slug):
+        if available_langs:
+            return build_hreflang_tags(slug, lang, available_langs, cfg)
+        return ""
+
+    # Search index
+    with open(os.path.join(dist_dir, "index.json"), "w", encoding="utf-8") as f:
+        f.write(build_search_index(pages, cfg))
+
+    # Homepage
+    home_inner = home_tpl.replace("{{CONTENT_BASE}}", content_base)
+    home_inner = home_inner.replace("{{BASE_URL}}", base_url)
+    home_html = render_page(base_tpl, cfg, home_inner, lang=lang, content_base=content_base, hreflang=get_hreflang("_index"))
+    with open(os.path.join(dist_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(home_html)
+
+    # Individual pages
+    for slug, page in pages.items():
+        if slug == "_index":
+            continue
+        if page.get("draft"):
+            continue
+
+        custom_tpl_name = page.get("template")
+        if custom_tpl_name:
+            inner = read_tpl(f"{custom_tpl_name}.html")
+        else:
+            inner = page_tpl
+            toc = build_toc(page["html"]) if page.get("toc", True) else ""
+            inner = inner.replace("{{TOC}}", toc)
+            inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
+
+        inner = inner.replace("{{CONTENT_BASE}}", content_base)
+        inner = inner.replace("{{BASE_URL}}", base_url)
+
+        page_html = render_page(base_tpl, cfg, inner, page, lang=lang, content_base=content_base, hreflang=get_hreflang(slug))
+        page_dir = os.path.join(dist_dir, slug)
+        os.makedirs(page_dir, exist_ok=True)
+        with open(os.path.join(page_dir, "index.html"), "w", encoding="utf-8") as f:
+            f.write(page_html)
+
+    # 404 page
+    four04_inner = four04_tpl.replace("{{CONTENT_BASE}}", content_base)
+    four04_inner = four04_inner.replace("{{BASE_URL}}", base_url)
+    four04_html = render_page(base_tpl, cfg, four04_inner, {"title": "404 Not Found", "description": "Page not found", "permalink": f"{content_base}404.html"}, lang=lang, content_base=content_base)
+    with open(os.path.join(dist_dir, "404.html"), "w", encoding="utf-8") as f:
+        f.write(four04_html)
+
+    count = len([s for s in pages if s != '_index' and not pages[s].get('draft')])
+    label = lang if lang != "en" else "English"
+    print(f"  {label}: {count} pages")
+
 
 # ── Main build ──
 def main():
@@ -933,6 +1000,30 @@ def main():
     with open(os.path.join(js_dir, f"app.{js_hash}.js"), "w", encoding="utf-8") as f:
         f.write(js_content)
 
+    # Build page-specific JS bundles
+    page_js_map = cfg.get("page_js", {})
+    page_js_bundles = {}  # slug -> list of "js/name.hash.js"
+    built_js_files = {}   # source path -> hashed name (dedup)
+    for slug, js_list in page_js_map.items():
+        bundle_refs = []
+        for js_file in js_list:
+            if js_file in built_js_files:
+                bundle_refs.append(built_js_files[js_file])
+            else:
+                path = os.path.join(ROOT, "assets", js_file)
+                if os.path.exists(path):
+                    with open(path, encoding="utf-8") as fh:
+                        pjs_content = minify_js(fh.read())
+                    pjs_hash = hashlib.md5(pjs_content.encode()).hexdigest()[:8]
+                    base_name = os.path.splitext(os.path.basename(js_file))[0]
+                    hashed_name = f"js/{base_name}.{pjs_hash}.js"
+                    with open(os.path.join(js_dir, f"{base_name}.{pjs_hash}.js"), "w", encoding="utf-8") as fh:
+                        fh.write(pjs_content)
+                    built_js_files[js_file] = hashed_name
+                    bundle_refs.append(hashed_name)
+        page_js_bundles[slug] = bundle_refs
+    cfg["_page_js_bundles"] = page_js_bundles
+
     # Copy static assets
     static_src = os.path.join(ROOT, "static")
     if os.path.exists(static_src):
@@ -941,8 +1032,35 @@ def main():
             d = os.path.join(DIST, item)
             if os.path.isdir(s):
                 shutil.copytree(s, d, dirs_exist_ok=True)
+                # Exclude _review.json from production builds
+                review = os.path.join(d, "_review.json")
+                if os.path.exists(review):
+                    os.remove(review)
             else:
                 shutil.copy2(s, d)
+
+    # Split translations.json into per-language files
+    trans_path = os.path.join(DIST, "i18n", "translations.json")
+    if os.path.exists(trans_path):
+        with open(trans_path, encoding="utf-8") as f:
+            all_translations = json.load(f)
+        i18n_dir = os.path.join(DIST, "i18n")
+        for lang_code, strings in all_translations.items():
+            with open(os.path.join(i18n_dir, f"{lang_code}.json"), "w", encoding="utf-8") as f:
+                json.dump(strings, f, ensure_ascii=False, separators=(",", ":"))
+
+    # Copy italic font CSS (loaded async, not bundled)
+    italic_src = os.path.join(ROOT, "assets", "css", "italic.css")
+    if os.path.exists(italic_src):
+        shutil.copy2(italic_src, os.path.join(css_dir, "italic.css"))
+
+    # Copy ambient CSS (loaded async, decorative only - no mobile impact)
+    ambient_src = os.path.join(ROOT, "assets", "css", "ambient.css")
+    if os.path.exists(ambient_src):
+        with open(ambient_src, encoding="utf-8") as fh:
+            ambient_content = minify_css(fh.read())
+        with open(os.path.join(css_dir, "ambient.css"), "w", encoding="utf-8") as fh:
+            fh.write(ambient_content)
 
     # Load content pages
     pages = load_pages(cfg)
@@ -950,58 +1068,11 @@ def main():
     # Discover available translations
     available_langs = discover_languages()
 
-    # Build hreflang tags for English pages
-    def get_hreflang(slug):
-        if available_langs:
-            return build_hreflang_tags(slug, "en", available_langs, cfg)
-        return ""
+    # Build English pages
+    build_pages_for_lang(base_tpl, page_tpl, home_tpl, four04_tpl, cfg, pages,
+                         "en", base_url, base_url, DIST, available_langs, read_tpl)
 
-    # Build English search index
-    with open(os.path.join(DIST, "index.json"), "w", encoding="utf-8") as f:
-        f.write(build_search_index(pages, cfg))
-
-    # Build English homepage
-    home_inner = home_tpl.replace("{{CONTENT_BASE}}", base_url)
-    home_inner = home_inner.replace("{{BASE_URL}}", base_url)
-    home_html = render_page(base_tpl, cfg, home_inner, lang="en", content_base=base_url, hreflang=get_hreflang("_index"))
-    with open(os.path.join(DIST, "index.html"), "w", encoding="utf-8") as f:
-        f.write(home_html)
-
-    # Build English individual pages
-    for slug, page in pages.items():
-        if slug == "_index":
-            continue
-
-        # Select template (custom or default page template)
-        custom_tpl_name = page.get("template")
-        if custom_tpl_name:
-            inner = read_tpl(f"{custom_tpl_name}.html")
-        else:
-            inner = page_tpl
-            toc = build_toc(page["html"]) if page.get("toc", True) else ""
-            inner = inner.replace("{{TOC}}", toc)
-            inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
-
-        # Common replacements for all page templates
-        inner = inner.replace("{{CONTENT_BASE}}", base_url)
-        inner = inner.replace("{{BASE_URL}}", base_url)
-
-        page_html = render_page(base_tpl, cfg, inner, page, lang="en", content_base=base_url, hreflang=get_hreflang(slug))
-        page_dir = os.path.join(DIST, slug)
-        os.makedirs(page_dir, exist_ok=True)
-        with open(os.path.join(page_dir, "index.html"), "w", encoding="utf-8") as f:
-            f.write(page_html)
-
-    # Build English 404 page
-    four04_inner = four04_tpl.replace("{{CONTENT_BASE}}", base_url)
-    four04_inner = four04_inner.replace("{{BASE_URL}}", base_url)
-    four04_html = render_page(base_tpl, cfg, four04_inner, {"title": "404 Not Found", "description": "Page not found", "permalink": f"{base_url}404.html"}, lang="en", content_base=base_url)
-    with open(os.path.join(DIST, "404.html"), "w", encoding="utf-8") as f:
-        f.write(four04_html)
-
-    print(f"  English: {len([s for s in pages if s != '_index' and not pages[s].get('draft')])} pages")
-
-    # ── Build translated language versions ──
+    # Build translated language versions
     lang_pages_map = {}
     for lang in sorted(available_langs):
         content_base = base_url + lang + "/"
@@ -1009,55 +1080,8 @@ def main():
         lang_pages_map[lang] = lang_pages
         lang_dist = os.path.join(DIST, lang)
         os.makedirs(lang_dist, exist_ok=True)
-
-        # Per-language search index
-        with open(os.path.join(lang_dist, "index.json"), "w", encoding="utf-8") as f:
-            f.write(build_search_index(lang_pages, cfg))
-
-        # Language hreflang helper
-        def get_lang_hreflang(slug, l=lang):
-            return build_hreflang_tags(slug, l, available_langs, cfg)
-
-        # Language homepage
-        lang_home_inner = home_tpl.replace("{{CONTENT_BASE}}", content_base)
-        lang_home_inner = lang_home_inner.replace("{{BASE_URL}}", base_url)
-        lang_home_html = render_page(base_tpl, cfg, lang_home_inner, lang=lang, content_base=content_base, hreflang=get_lang_hreflang("_index"))
-        with open(os.path.join(lang_dist, "index.html"), "w", encoding="utf-8") as f:
-            f.write(lang_home_html)
-
-        # Language individual pages
-        for slug, page in lang_pages.items():
-            if slug == "_index":
-                continue
-            if page.get("draft"):
-                continue
-
-            custom_tpl_name = page.get("template")
-            if custom_tpl_name:
-                inner = read_tpl(f"{custom_tpl_name}.html")
-            else:
-                inner = page_tpl
-                toc = build_toc(page["html"]) if page.get("toc", True) else ""
-                inner = inner.replace("{{TOC}}", toc)
-                inner = inner.replace("{{PAGE_CONTENT}}", page["html"])
-
-            inner = inner.replace("{{CONTENT_BASE}}", content_base)
-            inner = inner.replace("{{BASE_URL}}", base_url)
-
-            page_html = render_page(base_tpl, cfg, inner, page, lang=lang, content_base=content_base, hreflang=get_lang_hreflang(slug))
-            page_dir = os.path.join(lang_dist, slug)
-            os.makedirs(page_dir, exist_ok=True)
-            with open(os.path.join(page_dir, "index.html"), "w", encoding="utf-8") as f:
-                f.write(page_html)
-
-        # Language 404 page
-        lang_404_inner = four04_tpl.replace("{{CONTENT_BASE}}", content_base)
-        lang_404_inner = lang_404_inner.replace("{{BASE_URL}}", base_url)
-        lang_404_html = render_page(base_tpl, cfg, lang_404_inner, {"title": "404 Not Found", "description": "Page not found", "permalink": f"{content_base}404.html"}, lang=lang, content_base=content_base)
-        with open(os.path.join(lang_dist, "404.html"), "w", encoding="utf-8") as f:
-            f.write(lang_404_html)
-
-        print(f"  {lang}: {len([s for s in lang_pages if s != '_index' and not lang_pages[s].get('draft')])} pages")
+        build_pages_for_lang(base_tpl, page_tpl, home_tpl, four04_tpl, cfg, lang_pages,
+                             lang, content_base, base_url, lang_dist, available_langs, read_tpl)
 
     # Build sitemap (includes all languages)
     with open(os.path.join(DIST, "sitemap.xml"), "w", encoding="utf-8") as f:

@@ -328,7 +328,7 @@ a.home-section-link:focus-visible {
   width: 3rem;
   height: 3rem;
   padding: 0.75rem;
-  background: rgba(0, 0, 0, 0.55);
+  background: var(--overlay-heavy);
   color: var(--text-on-deep);
   border-radius: var(--radius-pill);
   transition: transform var(--transition-normal);

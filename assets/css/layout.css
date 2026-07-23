@@ -101,16 +101,11 @@
   width: 100%;
   min-block-size: var(--tap-min);
   padding: var(--space-xs) var(--space-md);
-  background-color: rgba(140, 100, 170, 0.08);
+  background-color: var(--glass);
   color: var(--text);
-  border: 1px solid rgba(140, 100, 170, 0.15);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius-pill);
   font-size: var(--text-base);
-}
-
-.dark-theme .topbar-search input[type="search"] {
-  background-color: rgba(180, 150, 210, 0.1);
-  border-color: rgba(180, 150, 210, 0.2);
 }
 
 .topbar-search input[type="search"]::placeholder {
@@ -354,12 +349,7 @@
 
 .settings-theme-btn:hover,
 .settings-theme-btn:focus-visible {
-  background: rgba(0, 0, 0, 0.08);
-}
-
-.dark-theme .settings-theme-btn:hover,
-.dark-theme .settings-theme-btn:focus-visible {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--hover-subtle);
 }
 
 .settings-theme-label {
@@ -494,7 +484,7 @@
   position: fixed;
   inset: 3.5rem 0 0 0;
   z-index: 24;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: var(--overlay);
   opacity: 0;
   pointer-events: none;
   transition: opacity 220ms;
@@ -550,7 +540,7 @@
 
 .sidebar-disclaimer {
   font-size: var(--text-xs);
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--sidebar-text-muted);
   font-style: italic;
   line-height: 1.4;
   margin: var(--space-sm) 0;
@@ -602,7 +592,7 @@
 
 .nav-group-toggle:hover,
 .nav-group-toggle:focus-visible {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: var(--nav-hover);
 }
 
 .nav-group-toggle:focus-visible {
@@ -664,12 +654,12 @@
 
 .sidebar-nav .nav-item a:hover,
 .sidebar-nav .nav-item a:focus-visible {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: var(--nav-hover);
   text-decoration: none;
 }
 
 .sidebar-nav .nav-item a[aria-current="page"] {
-  background-color: rgba(255, 255, 255, 0.18);
+  background-color: var(--nav-active);
   font-weight: 700;
 }
 
@@ -693,7 +683,7 @@
   gap: var(--space-xs);
   margin-top: var(--space-md);
   padding-top: var(--space-md);
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid var(--nav-border);
 }
 
 .footer-link {
@@ -711,7 +701,7 @@
 
 .footer-link:hover,
 .footer-link:focus-visible {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: var(--nav-hover);
   text-decoration: none;
 }
 

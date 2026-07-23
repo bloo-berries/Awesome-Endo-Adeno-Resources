@@ -40,14 +40,15 @@
                 '<input type="checkbox" id="' + id + '" value="' + i + '">' +
                 '<span class="quiz-card-text">' + s + '</span>' +
                 '<span class="quiz-card-check" aria-hidden="true">' +
-                '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" focusable="false"><polyline points="20 6 9 17 4 12"></polyline></svg>' +
+                (window.appIcons ? window.appIcons.check : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" focusable="false"><polyline points="20 6 9 17 4 12"></polyline></svg>') +
                 '</span></label>';
         });
         html += '</div>';
 
+        var refreshSVG = window.appIcons ? window.appIcons.refresh : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>';
         html += '<div class="quiz-results" aria-live="polite"></div>' +
             '<button type="button" class="quiz-reset" style="display:none">' +
-            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>' +
+            refreshSVG +
             ' ' + t('quiz_reset', 'Start over') + '</button>';
 
         app.innerHTML = html;

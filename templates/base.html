@@ -44,6 +44,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <link type="text/css" rel="stylesheet" href="{{BASE_URL}}{{CSS_BUNDLE}}">
+    <link rel="preload" as="style" href="{{BASE_URL}}css/italic.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{BASE_URL}}css/italic.css"></noscript>
+    <link rel="preload" as="style" href="{{BASE_URL}}css/ambient.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{BASE_URL}}css/ambient.css"></noscript>
 
     {{CSS_VARIABLES}}
     {{STRUCTURED_DATA}}
@@ -205,12 +209,13 @@
 
     <script>
     window.__searchIndexURL = '{{CONTENT_BASE}}index.json';
-    window.__translationsURL = '{{BASE_URL}}i18n/translations.json';
+    window.__translationsURL = '{{BASE_URL}}i18n/{{PAGE_LANG}}.json';
     window.__pageLang = '{{PAGE_LANG}}';
     window.__contentBase = '{{CONTENT_BASE}}';
     window.__baseURL = '{{BASE_URL}}';
     </script>
 
-    <script src="{{BASE_URL}}{{JS_BUNDLE}}"></script>
+    <script defer src="{{BASE_URL}}{{JS_BUNDLE}}"></script>
+    {{PAGE_JS}}
 </body>
 </html>

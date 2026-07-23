@@ -1,6 +1,6 @@
 // Table Accordion Conversion + Expand/Collapse All
 (function() {
-    var chevronSVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>';
+    var chevronSVG = window.appIcons ? window.appIcons.chevron : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>';
 
     function stripTags(html) {
         var tmp = document.createElement('div');
