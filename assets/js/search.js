@@ -33,9 +33,16 @@
     function loadIndex() {
         if (searchIndex !== null) return Promise.resolve(searchIndex);
         return fetch(window.__searchIndexURL || '/index.json')
-            .then(function(r) { return r.json(); })
+            .then(function(r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
             .then(function(data) { searchIndex = data; return data; })
-            .catch(function(err) { console.warn('search: failed to load index', err); return []; });
+            .catch(function(err) {
+                console.warn('search: failed to load index', err);
+                searchIndex = [];
+                return [];
+            });
     }
 
     var synonyms = [
