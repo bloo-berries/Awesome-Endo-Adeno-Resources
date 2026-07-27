@@ -19,7 +19,7 @@ This comprehensive resource list is packed with expert advice, community support
 
 - **[Endometriosis](/endometriosis/)** and **[Adenomyosis](/adenomyosis/)**: Symptoms, stages, and condition guides
 - **[Diagnosis](/diagnosis/)**: Current methods, symptoms, and diagnostic tools
-- **[Healthcare Providers](/healthcare/)**: Trusted physicians and specialists
+- **[Find a Specialist](/find-a-specialist/)**: Trusted physicians and specialists
 - **[Treatments](/treatments/)** and **[Medications](/medications/)**: Surgical, non-surgical, and medicinal approaches
 - **[Research](/research/)**: Latest scientific findings and ongoing studies
 - **[Education & Resources](/education/)**: Organizations, community support, and financial assistance

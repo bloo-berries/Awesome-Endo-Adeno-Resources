@@ -251,35 +251,9 @@ details[open] > summary .accordion-card-chevron {
     background: var(--accent-bg);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
-    padding: 0;
+    padding: var(--space-sm) 1.25rem var(--space-md);
     margin-bottom: var(--space-lg);
     max-width: 400px;
-}
-
-.toc > .toc-heading {
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: var(--accent);
-    margin: 0;
-    padding: var(--space-sm) 1.25rem;
-    border: none;
-    background: transparent;
-    border-radius: var(--radius-md);
-    cursor: pointer;
-    list-style: none;
-}
-
-.toc > .toc-heading::-webkit-details-marker { display: none; }
-.toc > .toc-heading::after { display: none; }
-
-.toc[open] > .toc-heading {
-    border-bottom: 1px solid var(--border);
-    border-radius: var(--radius-md) var(--radius-md) 0 0;
-    margin-bottom: 0;
-}
-
-.toc > ul {
-    padding: var(--space-sm) 1.25rem var(--space-md);
 }
 
 .toc ul {

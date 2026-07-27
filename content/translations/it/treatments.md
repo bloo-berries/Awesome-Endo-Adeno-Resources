@@ -118,7 +118,7 @@ Come affermato da [EndoWhat?](https://www.youtube.com/c/endowhat), "Tutti i farm
 
 ## Pagine correlate
 
-- [Assistenza Sanitaria](/healthcare/) -- trovare un chirurgo specialista
+- [Trova uno Specialista](/find-a-specialist/) -- trovare un chirurgo specialista
 - [Farmaci](/medications/) -- guida completa ai farmaci
 - [Fertilita](/fertility/) -- fecondazione in vitro, congelamento degli ovociti e gravidanza
 - [Salute Mentale](/mental-health/) -- psicoterapia, supporto in caso di crisi e strategie di coping

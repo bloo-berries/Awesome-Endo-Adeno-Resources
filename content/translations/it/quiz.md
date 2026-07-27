@@ -36,6 +36,6 @@ Segna i sintomi che ti riguardano:
 Se tre o piu di questi sintomi ti sono familiari, il passo successivo e tipicamente:
 
 1. [Informati sulla diagnosi](/diagnosis/): quali esami esistono, cosa aspettarti da ciascuno
-2. [Trova uno specialista](/healthcare/): ginecologi specializzati in endometriosi, chirurghi MIGS
+2. [Trova uno specialista](/find-a-specialist/): ginecologi specializzati in endometriosi, chirurghi MIGS
 3. [Tieni traccia dei sintomi](/tracker/): portare un diario dei sintomi al primo appuntamento accelera significativamente la diagnosi
 </noscript>

@@ -92,6 +92,7 @@
             '<div class="tracker-actions-row">' +
             '<h3>Past Entries</h3>' +
             '<button id="tracker-export" class="tracker-export-btn">Export CSV</button>' +
+            '<button id="tracker-print" class="tracker-export-btn">Print / Save PDF</button>' +
             '</div>' +
             '<div id="tracker-entries"></div>' +
             '</div>';
@@ -163,6 +164,36 @@
                 a.download = 'symptom-tracker-' + new Date().toISOString().split('T')[0] + '.csv';
                 a.click();
                 URL.revokeObjectURL(a.href);
+            });
+        });
+
+        // Print / PDF
+        document.getElementById('tracker-print').addEventListener('click', function() {
+            getAllEntries(function(entries) {
+                if (!entries.length) return;
+                var sorted = entries.slice().sort(function(a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
+                var rows = sorted.map(function(e) {
+                    return '<tr><td>' + e.date + '</td><td>' + e.painLevel + '/10</td><td>' +
+                        (e.mood || '-') + '</td><td>' +
+                        (e.symptoms || []).join(', ') + '</td><td>' +
+                        (e.bleeding || '-') + '</td><td>' +
+                        (e.medications || []).join(', ') + '</td><td>' +
+                        (e.notes || '').replace(/</g, '&lt;') + '</td></tr>';
+                }).join('');
+                var printWin = window.open('', '_blank');
+                printWin.document.write('<!DOCTYPE html><html><head><title>Symptom Tracker Report</title>' +
+                    '<style>body{font-family:sans-serif;margin:2rem;color:#333}h1{font-size:1.4rem}' +
+                    'table{width:100%;border-collapse:collapse;margin-top:1rem;font-size:0.85rem}' +
+                    'th,td{border:1px solid #ccc;padding:6px 8px;text-align:left}th{background:#f5f5f5}' +
+                    'p{color:#666;font-size:0.85rem}.footer{margin-top:2rem;font-size:0.75rem;color:#999}</style></head><body>' +
+                    '<h1>Symptom Tracker Report</h1>' +
+                    '<p>Generated ' + new Date().toLocaleDateString() + ' - ' + sorted.length + ' entries</p>' +
+                    '<table><thead><tr><th>Date</th><th>Pain</th><th>Mood</th><th>Symptoms</th><th>Bleeding</th><th>Meds</th><th>Notes</th></tr></thead>' +
+                    '<tbody>' + rows + '</tbody></table>' +
+                    '<p class="footer">Exported from 1in7.info symptom tracker. All data stored locally on device.</p>' +
+                    '</body></html>');
+                printWin.document.close();
+                printWin.print();
             });
         });
 

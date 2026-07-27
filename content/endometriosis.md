@@ -26,6 +26,21 @@ keywords: ["Endometriosis symptoms", "Endometriosis stages", "Endometriosis trea
 
 *Staging is not universal. Stage does not determine pain severity. [Learn more about diagnosis](/diagnosis/).*
 
+<details>
+<summary>Medical terms used above</summary>
+
+- **Dysmenorrhea** - painful menstrual periods, beyond normal cramps
+- **Dyspareunia** - pain during or after sexual intercourse
+- **Dyschezia** - pain during bowel movements
+- **Dysuria** - painful or difficult urination
+- **Catamenial pneumothorax** - collapsed lung that occurs around menstruation (caused by thoracic Endometriosis)
+- **Hemoptysis** - coughing up blood, in this context linked to the menstrual cycle
+- **Dyspnea** - shortness of breath or difficulty breathing
+- **Hydronephrosis** - swelling of the kidney due to blocked urine flow
+- **Menorrhagia** - abnormally heavy or prolonged menstrual bleeding
+
+</details>
+
 ## Diagnosis
 
 Diagnosis typically involves clinical evaluation, imaging, and sometimes laparoscopy. For detailed information on diagnostic methods and emerging tests, see [Diagnosis](/diagnosis/).

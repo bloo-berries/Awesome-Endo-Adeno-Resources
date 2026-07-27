@@ -85,7 +85,7 @@
                     '<p>' + t('quiz_result_match_body', 'Selecting ' + count + ' symptoms suggests a pattern worth investigating. Here are your recommended next steps:') + '</p>' +
                     '<div class="quiz-next-steps">' +
                     '<a href="diagnosis/" class="quiz-step-link"><span class="quiz-step-num">1</span><span class="quiz-step-text">' + t('quiz_step_diagnosis', 'Learn about diagnosis') + '</span></a>' +
-                    '<a href="healthcare/" class="quiz-step-link"><span class="quiz-step-num">2</span><span class="quiz-step-text">' + t('quiz_step_specialist', 'Find a specialist') + '</span></a>' +
+                    '<a href="find-a-specialist/" class="quiz-step-link"><span class="quiz-step-num">2</span><span class="quiz-step-text">' + t('quiz_step_specialist', 'Find a specialist') + '</span></a>' +
                     '<a href="tracker/" class="quiz-step-link"><span class="quiz-step-num">3</span><span class="quiz-step-text">' + t('quiz_step_tracker', 'Track your symptoms') + '</span></a>' +
                     '</div></div>';
                 results.classList.add('has-content');

@@ -1,5 +1,6 @@
 {
     "base_url": "https://bloo-berries.github.io/Awesome-Endo-Adeno-Resources/",
+    "canonical_url": "https://1in7.info/",
     "brand": "1 in 7",
     "description": "Your go-to resource for navigating the challenges of Endometriosis and Adenomyosis.",
     "og_image": "social-preview.png",
@@ -11,7 +12,6 @@
             "items": [
                 { "name": "Symptom quiz", "slug": "quiz", "icon": "diagnosis", "i18n_nav": "nav_quiz", "i18n_desc": "desc_quiz", "description": "Guided checklist with next steps." },
                 { "name": "Diagnosis", "slug": "diagnosis", "icon": "diagnosis", "i18n_nav": "nav_diagnosis", "i18n_desc": "desc_diagnosis", "description": "Methods, tools, and guidance." },
-                { "name": "Healthcare", "slug": "healthcare", "icon": "healthcare", "i18n_nav": "nav_healthcare", "i18n_desc": "desc_healthcare", "description": "Specialists and navigation." },
                 { "name": "Find a specialist", "slug": "find-a-specialist", "icon": "healthcare", "i18n_nav": "nav_find_specialist", "i18n_desc": "desc_find_specialist", "description": "Find the right doctor." },
                 { "name": "Symptom tracker", "slug": "tracker", "icon": "tracker", "i18n_nav": "nav_tracker", "i18n_desc": "desc_tracker", "description": "Track symptoms privately." }
             ]
@@ -20,6 +20,7 @@
             "label": "I have endo or adeno",
             "i18n_key": "nav_group_already_diagnosed",
             "items": [
+                { "name": "Just diagnosed", "slug": "just-diagnosed", "icon": "diagnosis", "i18n_nav": "nav_just_diagnosed", "i18n_desc": "desc_just_diagnosed", "description": "Your first 90 days." },
                 { "name": "Co-morbidities", "slug": "comorbidities", "icon": "co-morbidities", "i18n_nav": "nav_comorbidities", "i18n_desc": "desc_comorbidities", "description": "Associated conditions and risks." },
                 { "name": "Treatments", "slug": "treatments", "icon": "medications", "i18n_nav": "nav_treatments", "i18n_desc": "desc_treatments", "description": "Surgical, hormonal, and supportive." },
                 { "name": "Medications", "slug": "medications", "icon": "medications", "i18n_nav": "nav_medications", "i18n_desc": "desc_medications", "description": "Treatment and medication guide." },
@@ -37,7 +38,8 @@
                 { "name": "Notable people", "slug": "notable-people", "icon": "notable-people", "i18n_nav": "nav_notable_people", "i18n_desc": "desc_notable_people", "description": "Public figures with Endometriosis." },
                 { "name": "In memory", "slug": "in-memory", "icon": "notable-people", "i18n_nav": "nav_in_memory", "i18n_desc": "desc_in_memory", "description": "Remembering those we've lost." },
                 { "name": "Research", "slug": "research", "icon": "research", "i18n_nav": "nav_research", "i18n_desc": "desc_research", "description": "Studies and clinical trials." },
-                { "name": "Education & resources", "slug": "education", "icon": "education", "i18n_nav": "nav_education", "i18n_desc": "desc_education", "description": "Books, community, organizations, and myths debunked." }
+                { "name": "Education & resources", "slug": "education", "icon": "education", "i18n_nav": "nav_education", "i18n_desc": "desc_education", "description": "Books, community, organizations, and myths debunked." },
+                { "name": "For partners & family", "slug": "partners-and-family", "icon": "mental-health", "i18n_nav": "nav_partners_family", "i18n_desc": "desc_partners_family", "description": "How to support a loved one." }
             ]
         }
     ],

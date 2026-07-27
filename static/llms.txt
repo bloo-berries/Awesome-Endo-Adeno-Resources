@@ -1,58 +1,59 @@
 # 1 in 7 - Endometriosis & Adenomyosis Resources
 
-> Comprehensive, evidence-based resource hub for Endometriosis and Adenomyosis. Named for the statistic that 1 in 7 women and people assigned female at birth are affected. No trackers, no third-party requests; all data stays on-device.
+> Evidence-based resource hub for Endometriosis and Adenomyosis patients, caregivers, and advocates. Named for the statistic that 1 in 7 women and people assigned female at birth are affected. The site is privacy-first with zero third-party requests, no trackers, and all user data stored on-device only. Available in 26 languages.
 
-## Key facts
+Endometriosis affects approximately 190 million people worldwide. Average diagnosis time is 7-10 years from symptom onset. The gold standard treatment is laparoscopic excision surgery. There is currently no cure for either condition. Hysterectomy treats Adenomyosis but does NOT treat Endometriosis because lesions exist outside the uterus. Endometriosis can affect any organ system, not just reproductive organs.
 
-- Endometriosis affects approximately 190 million people worldwide (roughly 1 in 7 women and AFAB individuals)
-- Average diagnosis time: 7-10 years from symptom onset
-- Gold standard treatment: laparoscopic excision surgery
-- There is currently no cure for either Endometriosis or Adenomyosis
-- Hysterectomy treats Adenomyosis but does NOT treat Endometriosis (lesions exist outside the uterus)
-- Endometriosis can affect any organ system, not just reproductive organs
+## Condition guides
+
+- [Endometriosis](https://1in7.info/endometriosis/): Comprehensive guide to Endometriosis covering symptoms by stage (I-IV), causes, risk factors, diagnostic methods, and a medical term glossary
+- [Adenomyosis](https://1in7.info/adenomyosis/): Guide to Adenomyosis covering symptoms, types (focal vs diffuse), diagnosis via imaging, treatment options including uterine-sparing procedures, and its relationship to Endometriosis
+- [Co-morbidities](https://1in7.info/comorbidities/): Research-backed comorbidity data including gynecological, gastrointestinal, neurological, mental health, autoimmune, and novel associations with Endometriosis and Adenomyosis
 
 ## Getting started
 
-- [Endometriosis](https://1in7.info/endometriosis/): Comprehensive guide covering symptoms, stages, diagnosis methods, treatment options, and support resources
-- [Adenomyosis](https://1in7.info/adenomyosis/): Guide covering symptoms, diagnosis, treatment options, and specialist resources for this condition affecting the uterine muscular wall
-- [Symptom Quiz](https://1in7.info/quiz/): Guided checklist to help understand whether your symptoms match Endometriosis or Adenomyosis, with personalized next steps
+- [Symptom Quiz](https://1in7.info/quiz/): Interactive checklist of 9 common Endometriosis and Adenomyosis symptoms with personalized next steps based on how many apply to you
+- [Just Diagnosed: Your First 90 Days](https://1in7.info/just-diagnosed/): Step-by-step roadmap for newly diagnosed patients covering medical records, understanding your diagnosis, finding a specialist, symptom tracking, mental health, and financial planning
+- [Myths & Facts](https://1in7.info/myths/): Debunking common Endometriosis and Adenomyosis myths with evidence-based facts and medical sources
+- [FAQ](https://1in7.info/faq/): 20+ frequently asked questions and answers about Endometriosis and Adenomyosis covering conditions, symptoms, diagnosis, treatment, fertility, and daily life
 
-## Could this be me?
+## Diagnosis and specialists
 
-- [Diagnosis](https://1in7.info/diagnosis/): Diagnostic methods, symptom staging, surgical and non-surgical treatments, medicinal options, and scientific research findings
-- [Co-morbidities](https://1in7.info/comorbidities/): Research-backed comorbidity data including gynecological, gastrointestinal, neurological, mental health, autoimmune, and novel associations
-- [Healthcare Providers](https://1in7.info/healthcare/): Vetted specialists, diagnostic tools, medical data trackers, and AI-enabled research platforms
-- [Myths & Facts](https://1in7.info/myths/): Debunking common myths with evidence-based facts and medical sources
+- [Diagnosis](https://1in7.info/diagnosis/): Diagnostic methods (ultrasound, MRI, laparoscopy), symptom staging, emerging diagnostics (biomarker tests, AI-assisted imaging), and what to expect from each approach
+- [Find a Specialist](https://1in7.info/find-a-specialist/): Vetted specialist directories (iCareBetter, Yellow Hub, Roon, Hale), what to look for in a specialist, types of specialists (MIGS surgeons, pelvic pain specialists), questions to ask, diagnostic tools, and AI-enabled research platforms
 
-## I have endo or adeno
+## Treatment and management
 
-- [Treatments](https://1in7.info/treatments/): Overview of treatment options: surgical, hormonal, non-hormonal, and supportive
-- [Surgery Costs](https://1in7.info/surgery-costs/): Real surgery cost data from patients worldwide: quoted fees, insurance billed, and out-of-pocket amounts
-- [Medications](https://1in7.info/medications/): Comprehensive comparison of medications used to treat Endometriosis and Adenomyosis
-- [Fertility](https://1in7.info/fertility/): Impact on fertility, IVF, egg freezing, and conception guidance
-- [Mental Health](https://1in7.info/mental-health/): Coping strategies, therapy options (CBT, ACT, EMDR, MBSR), crisis support
-- [Support & Advocacy](https://1in7.info/resources/): Financial assistance, advocacy groups, vetted regional providers, and fertility resources worldwide
-- [Symptom Tracker](https://1in7.info/tracker/): Track symptoms privately on your device - data never leaves the browser
+- [Treatments](https://1in7.info/treatments/): Overview of surgical options (excision, ablation, robot-assisted), hormonal medications (combined OCP, progestins, GnRH agonists/antagonists), non-hormonal options (NSAIDs, tranexamic acid), and complementary approaches (pelvic physiotherapy, diet, acupuncture)
+- [Surgery Costs](https://1in7.info/surgery-costs/): Real patient-reported surgery cost data from multiple countries showing quoted fees, insurance-billed amounts, and out-of-pocket costs for Endometriosis and Adenomyosis procedures
+- [Medications](https://1in7.info/medications/): Detailed comparison of hormonal and non-hormonal medications used to treat Endometriosis and Adenomyosis including dosages, side effects, and effectiveness
+- [Fertility](https://1in7.info/fertility/): How Endometriosis and Adenomyosis affect fertility, IVF success rates, egg freezing, natural conception guidance, and fertility preservation options
+- [Symptom Tracker](https://1in7.info/tracker/): Private on-device symptom tracking tool with CSV export and print support - data never leaves the browser, no account required
 
-## Learn
+## Mental health and support
 
-- [Notable People](https://1in7.info/notable-people/): 60+ public figures who have spoken openly about their Endometriosis diagnosis, surgeries, and advocacy
-- [In Memory](https://1in7.info/in-memory/): Honoring those lost to Endometriosis
-- [Research](https://1in7.info/research/): Scientific research organizations, current studies, clinical trials, and genetic research
-- [Education](https://1in7.info/education/): Films, books, and community resources for awareness and understanding
-- [Take Action](https://1in7.info/take-action/): Practical scripts for talking to doctors, family, and partners about Endometriosis or Adenomyosis
+- [Mental Health](https://1in7.info/mental-health/): Psychological impact of chronic pelvic pain, therapy options (CBT, ACT, EMDR, MBSR), crisis support resources, and coping strategies
+- [Partners and Family](https://1in7.info/partners-and-family/): Guide for partners, family members, and caregivers on understanding Endometriosis and Adenomyosis, what to say, how to help during flares, and self-care for supporters
+- [Take Action](https://1in7.info/take-action/): Copyable scripts and templates for talking to doctors, employers, family, and partners about Endometriosis or Adenomyosis
 
-## More
+## Learn and advocate
 
-- [FAQ](https://1in7.info/faq/): Common questions and answers about Endometriosis and Adenomyosis
-- [About](https://1in7.info/about/): About the project, a community-driven open-source initiative
-- [Privacy](https://1in7.info/privacy/): How the site handles your data: by default, nothing leaves your device
+- [Notable People](https://1in7.info/notable-people/): 60+ public figures who have spoken openly about their Endometriosis diagnosis, surgeries, and advocacy work
+- [In Memory](https://1in7.info/in-memory/): Honoring those lost to complications of Endometriosis
+- [Research](https://1in7.info/research/): Scientific research organizations, current studies, clinical trials, genetic research, and emerging treatment pipelines
+- [Education](https://1in7.info/education/): Films, books, podcasts, and community resources for Endometriosis and Adenomyosis awareness and understanding
 
-## Technical details
+## Optional
+
+- [About](https://1in7.info/about/): About the project - a community-driven open-source initiative
+- [Privacy](https://1in7.info/privacy/): Privacy policy - by default, no data leaves your device
+- [Full documentation](https://1in7.info/llms-full.txt): Complete site content in a single file for deep analysis
+
+## Site information
 
 - URL: https://1in7.info
-- Languages: 26 (English default, Arabic with RTL support)
-- Privacy: No third-party requests, no tracking, self-hosted fonts (Figtree, OFL 1.1)
-- Accessibility: WCAG AA compliant, keyboard navigable, screen reader optimized
-- Open source: Community-driven, contributions welcome
+- Languages: 26 (English default, includes Arabic with RTL support, Italian fully translated)
+- Privacy: Zero third-party requests, no tracking, no analytics, self-hosted fonts (Figtree, OFL 1.1)
+- Accessibility: WCAG AA compliant, keyboard navigable, screen reader optimized, prefers-reduced-motion respected
+- Open source: https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources
 - Contact: bloomedhealth@pm.me

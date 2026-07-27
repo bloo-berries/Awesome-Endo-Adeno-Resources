@@ -29,7 +29,7 @@ La cosa piu utile che puoi fare prima di un appuntamento medico e portare un ele
 >
 > In base a quanto ho letto, questi potrebbero indicare endometriosi o adenomiosi. Vorrei discutere le opzioni diagnostiche, inclusi esami di imaging e, se appropriato, una valutazione laparoscopica.
 
-[Trova uno specialista &rarr;](/healthcare/)
+[Trova uno specialista &rarr;](/find-a-specialist/)
 
 ## 2. Connettiti con gli altri
 

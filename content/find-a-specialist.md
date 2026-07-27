@@ -1,16 +1,17 @@
 ---
 title: "Find a Specialist"
-description: "How to find the right endometriosis or adenomyosis specialist, what to look for, questions to ask, and vetted provider directories."
+description: "How to find the right endometriosis or adenomyosis specialist, vetted provider directories, diagnostic tools, and AI-enabled platforms."
 date: 2026-07-25
-lastmod: 2026-07-25
+lastmod: 2026-07-27
 draft: false
-tags: ["specialist", "doctor", "healthcare", "diagnosis", "excision"]
-keywords: ["find endometriosis specialist", "endo excision surgeon", "adenomyosis doctor", "gynecologist", "how to find a specialist", "questions to ask"]
+toc: false
+tags: ["specialist", "doctor", "healthcare", "diagnosis", "excision", "diagnostic-tools", "AI"]
+keywords: ["find endometriosis specialist", "endo excision surgeon", "adenomyosis doctor", "gynecologist", "how to find a specialist", "questions to ask", "diagnostic tools", "symptom tracker", "AI diagnosis"]
 ---
 
 # Find a Specialist
 
-Getting the right diagnosis and treatment for Endometriosis or Adenomyosis often depends on finding a specialist who understands these conditions. The average delay from symptom onset to diagnosis is **7-10 years**, largely because many general OB/GYNs receive limited training on Endometriosis.
+The average diagnostic delay for Endometriosis is **7-10 years**. Finding the right specialist changes that.
 
 ## Why a specialist matters
 
@@ -81,8 +82,54 @@ Use these questions when evaluating a new doctor. You can also bring this list t
 <div class="step-item"><div class="step-num">4</div><div class="step-body"><div class="step-title">Bring support</div><div class="step-desc">A trusted friend or family member can help advocate and take notes</div></div></div>
 </div>
 
-For diagnostic tools, AI platforms, and symptom trackers, see [Healthcare](/healthcare/).
+## Diagnostic tools and platforms
 
-For treatment options after finding a specialist, see [Treatments](/treatments/).
+<details>
+<summary>Diagnostic Tools and Platforms (8 tools)</summary>
 
-For understanding your diagnosis, see [Diagnosis](/diagnosis/).
+- [Ziwig](https://ziwig.com/en/ziwig-endotest/) -- Saliva test for Endometriosis; diagnosis within days
+- [Qvin](https://qvin.com/) -- Turn menstrual blood into lab reports and personalized health data
+- [Hertility Health](https://hertilityhealth.com/) -- Comprehensive reproductive health testing and insights
+- [Joii](https://joiicare.com/) -- Advancing menstrual and gynaecological health research
+- [Hera](https://www.herabiotech.com/) -- MetriDx diagnostic tool replacing costly diagnostic laparoscopy
+- [The Blood](https://www.theblood.io/) -- Menstrual blood fertility and menopause test
+- [Afynia](https://afynia.com/) -- microRNA-based molecular screen for Endometriosis (EndomiR)
+- [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis) -- At-home Endometriosis test using menstrual blood (in development)
+
+</details>
+
+<details>
+<summary>Medical Data Tools, Trackers, and Managers (8 tools)</summary>
+
+**Genetic Data Testing**
+- [Invitae](https://www.invitae.com/) -- Whole genome sequencing
+- [EndoGenomics](https://www.endogenomics.com/) -- Endometriosis genomics
+
+**Genetic Data Storage**
+- [GenomesDAO](https://genomes.io/) -- Private and secure DNA data vault
+- [Nebula Genomics](https://nebula.org/) -- Secure storage and analysis of whole genome sequencing data
+
+**Trackers & Data Managers**
+- [LasaHealth](https://www.lasahealth.com/) -- Uses EHRs to identify undiagnosed chronic pelvic pain patients via AI/ML
+- [Clue](https://helloclue.com/articles/cycle-a-z/how-to-track-endometriosis-symptoms-with-clue) -- Endometriosis symptom tracker
+- [HerMaid](https://www.hermaid.me/en/frauengesundheit) -- Women's health management platform
+- [NoEndo](https://www.noendo.fr/#/) -- French platform for individuals affected by Endometriosis
+
+</details>
+
+<details>
+<summary>AI-Enabled Platforms and Research (5 platforms)</summary>
+
+- [Scanvio](https://www.scanvio.com/) -- Faster Endometriosis diagnosis with AI-augmented ultrasound
+- [IMAGEENDO](https://imagendo.org.au/about/) -- Reducing diagnostic delay through imaging
+- [Perplexity.ai](https://www.perplexity.ai/) -- Conversational search engine using LLMs
+- [FEMaLe](https://findingendometriosis.eu/inovation/ai/) -- Augmented Reality application for Endometriosis
+- [Endometriosis Subtyping study](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping) -- Genetic association via unsupervised clustering of clinical subtypes
+
+</details>
+
+## Related pages
+
+- [Surgery Costs](/surgery-costs/) -- real prices from 364+ patients, insurance tips, and the No Surprises Act
+- [Treatments](/treatments/) -- surgical, hormonal, and supportive treatment options
+- [Diagnosis](/diagnosis/) -- diagnostic methods and tools

@@ -682,6 +682,25 @@ def build_structured_data(cfg, page=None):
   ]
 }}
 </script>'''
+    # Medical condition pages: add MedicalWebPage schema
+    medical_slugs = {"endometriosis", "adenomyosis", "diagnosis", "treatments",
+                     "medications", "comorbidities", "fertility", "find-a-specialist"}
+    if page.get("slug") in medical_slugs:
+        result += f'''
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "{title}",
+  "description": "{pdesc}",
+  "url": "{purl}",
+  "lastReviewed": "{lastmod}",
+  "about": {{
+    "@type": "MedicalCondition",
+    "name": "Endometriosis"
+  }}
+}}
+</script>'''
     # FAQ page: add FAQPage schema
     if page.get("slug") == "faq":
         html_content = page.get("html", "")
@@ -785,9 +804,7 @@ def build_toc(html_content, min_headings=4):
         clean = re.sub(r'<[^>]+>', '', text)
         indent = ' toc-h3' if level == '3' else ''
         items.append(f'<li class="toc-item{indent}"><a href="#{hid}">{clean}</a></li>')
-    return ('<details class="toc">\n'
-            '<summary class="toc-heading" data-i18n="toc_title">On this page</summary>\n'
-            '<ul>\n' + '\n'.join(items) + '\n</ul>\n</details>')
+    return ""
 
 # ── Read all content pages ──
 def load_pages(cfg):
@@ -843,8 +860,10 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None, lang="en", content_ba
         structured = build_structured_data(cfg)
         og_type = "website"
 
-    # OG image must be an absolute URL for social media crawlers
-    og_image = cfg.get("_canonical_base", base_url) + cfg.get("og_image", "social-preview.png")
+    # OG/canonical URLs must be absolute for social crawlers and search engines
+    canonical_base = cfg.get("_canonical_base", base_url)
+    og_image = canonical_base + cfg.get("og_image", "social-preview.png")
+    canonical_url = page_url.replace(base_url, canonical_base, 1)
 
     active_slug = page_meta.get("slug") if page_meta else None
     sidebar_nav = build_sidebar_nav(cfg, active_slug, content_base=content_base)
@@ -856,6 +875,7 @@ def render_page(base_tpl, cfg, inner_html, page_meta=None, lang="en", content_ba
     out = out.replace("{{BRAND}}", html_mod.escape(brand))
     out = out.replace("{{DESCRIPTION}}", html_mod.escape(desc))
     out = out.replace("{{PAGE_URL}}", page_url)
+    out = out.replace("{{CANONICAL_URL}}", canonical_url)
     out = out.replace("{{CSS_VARIABLES}}", css_vars)
     out = out.replace("{{STRUCTURED_DATA}}", structured)
     out = out.replace("{{SIDEBAR_NAV}}", sidebar_nav)
@@ -944,7 +964,8 @@ def build_pages_for_lang(base_tpl, page_tpl, home_tpl, four04_tpl, cfg, pages,
 def main():
     cfg = load_config()
     # Preserve canonical URL for OG tags (must be absolute for social crawlers)
-    cfg["_canonical_base"] = cfg["base_url"]
+    # Prefer explicit canonical_url (production domain) over base_url (may be GitHub Pages)
+    cfg["_canonical_base"] = cfg.get("canonical_url", cfg["base_url"])
     # Allow --base-url override for local dev
     for i, arg in enumerate(sys.argv[1:], 1):
         if arg == "--base-url" and i < len(sys.argv) - 1:
@@ -1091,9 +1112,76 @@ def main():
     with open(os.path.join(DIST, ".nojekyll"), "w") as f:
         pass
 
-    # Write robots.txt
+    # Write robots.txt with AI crawler directives
+    canonical = cfg.get("_canonical_base", base_url)
     with open(os.path.join(DIST, "robots.txt"), "w") as f:
-        f.write(f"User-agent: *\nAllow: /\nSitemap: {base_url}sitemap.xml\n")
+        f.write(f"""User-agent: *
+Allow: /
+Sitemap: {canonical}sitemap.xml
+
+# AI search/retrieval bots (allow - these drive citation traffic)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# AI training bots (block - content is for patients, not model training)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+""")
+
+    # Generate llms-full.txt (complete site content for LLM ingestion)
+    canonical = cfg.get("_canonical_base", base_url)
+    llms_full_parts = [f"# 1 in 7 - Complete Site Content\n\n> Full content of https://1in7.info - an evidence-based resource hub for Endometriosis and Adenomyosis.\n"]
+    # Define page order for logical reading flow
+    llms_page_order = [
+        "endometriosis", "adenomyosis", "comorbidities", "quiz", "just-diagnosed",
+        "myths", "faq", "diagnosis", "find-a-specialist", "treatments", "surgery-costs",
+        "medications", "fertility", "tracker", "mental-health", "partners-and-family",
+        "take-action", "notable-people", "in-memory", "research", "education", "about", "privacy"
+    ]
+    content_dir = os.path.join(ROOT, "content")
+    for slug in llms_page_order:
+        path = os.path.join(content_dir, f"{slug}.md")
+        if not os.path.exists(path):
+            continue
+        with open(path, encoding="utf-8") as f:
+            text = f.read()
+        meta, body = parse_frontmatter(text)
+        if meta.get("draft") is True:
+            continue
+        page_url = f"{canonical}{slug}/"
+        llms_full_parts.append(f"\n---\n\n## {meta.get('title', slug)}\n\nSource: {page_url}\n\n{body.strip()}\n")
+    with open(os.path.join(DIST, "llms-full.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(llms_full_parts))
 
     # Count output
     html_count = sum(1 for r, d, files in os.walk(DIST) for fn in files if fn.endswith(".html"))

@@ -19,7 +19,7 @@ Questo elenco completo di risorse e ricco di consigli di esperti, supporto della
 
 - **[Endometriosi](/endometriosis/)** e **[Adenomiosi](/adenomyosis/)**: Sintomi, stadi e guide sulle condizioni
 - **[Diagnosi](/diagnosis/)**: Metodi attuali, sintomi e strumenti diagnostici
-- **[Operatori sanitari](/healthcare/)**: Medici e specialisti di fiducia
+- **[Trova uno Specialista](/find-a-specialist/)**: Medici e specialisti di fiducia
 - **[Trattamenti](/treatments/)** e **[Farmaci](/medications/)**: Approcci chirurgici, non chirurgici e farmacologici
 - **[Ricerca](/research/)**: Ultime scoperte scientifiche e studi in corso
 - **[Formazione e risorse](/education/)**: Organizzazioni, supporto comunitario e assistenza finanziaria

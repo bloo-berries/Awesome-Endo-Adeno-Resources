@@ -12,7 +12,11 @@ toc: false
 
 A written symptom history is the single most useful thing you can bring to a specialist appointment. Log your pain, symptoms, and mood daily. Over time, patterns emerge that help guide diagnosis and treatment.
 
-All data stays on your device. Nothing is sent to any server, ever. You can export your history as a CSV to share with your doctor.
+<div class="callout callout-info">
+<p><strong>Your data is private.</strong> All data stays on your device using your browser's storage. Nothing is sent to any server, ever. Clearing your browser data will erase your entries - use <strong>Export CSV</strong> or <strong>Print / Save PDF</strong> to back up your history.</p>
+</div>
+
+**Bring this to your appointment:** Use "Print / Save PDF" to create a formatted report you can share with your doctor or specialist.
 
 <div id="tracker-app"><noscript>This tracker requires JavaScript to run. Please enable JavaScript in your browser to use the symptom tracker.</noscript></div>
 

@@ -118,7 +118,9 @@ As stated from [EndoWhat?](https://www.youtube.com/c/endowhat), "All medications
 
 ## Related pages
 
-- [Healthcare](/healthcare/) -- finding a specialist surgeon
+- [Surgery Costs](/surgery-costs/) -- real prices from 364+ patients, insurance tips, and financial planning
+- [Find a Specialist](/find-a-specialist/) -- how to find an excision surgeon and what to ask
+- [Find a Specialist](/find-a-specialist/) -- vetted providers, diagnostic tools, and AI platforms
 - [Medications](/medications/) -- full medication guide
 - [Fertility](/fertility/) -- IVF, egg freezing, and pregnancy
 - [Mental Health](/mental-health/) -- therapy, crisis support, and coping strategies

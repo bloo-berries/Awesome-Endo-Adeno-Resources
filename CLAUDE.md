@@ -118,10 +118,11 @@ The inline block exposes globals consumed by extracted modules: `window.__search
 
 The build script replaces these placeholders:
 
-`{{BASE_URL}}`, `{{CONTENT_BASE}}`, `{{PAGE_LANG}}`, `{{HREFLANG_TAGS}}`, `{{META_TITLE}}`, `{{BRAND}}`, `{{DESCRIPTION}}`, `{{PAGE_URL}}`, `{{PAGE_CONTENT}}`, `{{CSS_VARIABLES}}`, `{{CSS_BUNDLE}}`, `{{JS_BUNDLE}}`, `{{PAGE_JS}}`, `{{STRUCTURED_DATA}}`, `{{SIDEBAR_NAV}}`, `{{FOOTER_LINKS}}`, `{{HOME_CONTENT}}`, `{{TOC}}`, `{{YEAR}}`, `{{OG_IMAGE}}`, `{{OG_TYPE}}`
+`{{BASE_URL}}`, `{{CONTENT_BASE}}`, `{{CANONICAL_URL}}`, `{{PAGE_LANG}}`, `{{HREFLANG_TAGS}}`, `{{META_TITLE}}`, `{{BRAND}}`, `{{DESCRIPTION}}`, `{{PAGE_URL}}`, `{{PAGE_CONTENT}}`, `{{CSS_VARIABLES}}`, `{{CSS_BUNDLE}}`, `{{JS_BUNDLE}}`, `{{PAGE_JS}}`, `{{STRUCTURED_DATA}}`, `{{SIDEBAR_NAV}}`, `{{FOOTER_LINKS}}`, `{{HOME_CONTENT}}`, `{{TOC}}`, `{{YEAR}}`, `{{OG_IMAGE}}`, `{{OG_TYPE}}`
 
 - `{{BASE_URL}}` - site root for assets (CSS, JS, fonts, images). Same for all languages.
 - `{{CONTENT_BASE}}` - language-aware base for content links. English: same as `{{BASE_URL}}`. Other languages: `{{BASE_URL}}{lang}/`.
+- `{{CANONICAL_URL}}` - absolute URL for the current page using `canonical_url` from site.json (production domain). Used in `<link rel="canonical">`, `og:url`, `twitter:url`. Always `https://1in7.info/...` regardless of `--base-url` override.
 - `{{PAGE_LANG}}` - ISO language code (`en`, `it`, `de`, etc.). Used in `<html lang>` and inline JS globals.
 - `{{HREFLANG_TAGS}}` - `<link rel="alternate" hreflang="...">` tags for all available languages + `x-default`.
 

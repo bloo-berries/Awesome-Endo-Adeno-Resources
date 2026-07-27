@@ -29,7 +29,7 @@ The single most useful thing you can do before a doctor's appointment is bring a
 >
 > Based on what I've read, these could indicate Endometriosis or Adenomyosis. I would like to discuss diagnostic options including imaging and, if appropriate, laparoscopic evaluation.
 
-[Find a specialist &rarr;](/healthcare/)
+[Find a specialist &rarr;](/find-a-specialist/)
 
 ## 2. Connect with others
 

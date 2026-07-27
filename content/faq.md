@@ -167,7 +167,7 @@ It can be a reasonable option, especially if endometriomas are present or ovaria
 <details>
 <summary>How can I find an Endometriosis specialist?</summary>
 
-Look for excision surgery specialists on [iCareBetter](https://icarebetter.com/), [The Yellow Hub](https://www.theyellowhub.org/), or Nancy's Nook. See [Healthcare Providers](/healthcare/) for full listings.
+Look for excision surgery specialists on [iCareBetter](https://icarebetter.com/), [The Yellow Hub](https://www.theyellowhub.org/), or Nancy's Nook. See [Find a Specialist](/find-a-specialist/) for full listings.
 
 </details>
 

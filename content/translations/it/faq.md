@@ -167,7 +167,7 @@ Puo essere un'opzione ragionevole, specialmente se sono presenti endometriomi o 
 <details>
 <summary>Come posso trovare uno specialista in endometriosi?</summary>
 
-Cerca specialisti in chirurgia escissionale su [iCareBetter](https://icarebetter.com/), [The Yellow Hub](https://www.theyellowhub.org/) o Nancy's Nook. Consulta [Operatori Sanitari](/healthcare/) per gli elenchi completi.
+Cerca specialisti in chirurgia escissionale su [iCareBetter](https://icarebetter.com/), [The Yellow Hub](https://www.theyellowhub.org/) o Nancy's Nook. Consulta [Trova uno Specialista](/find-a-specialist/) per gli elenchi completi.
 
 </details>
 

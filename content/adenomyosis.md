@@ -29,6 +29,15 @@ Adenomyosis occurs when endometrial tissue grows into the myometrium (muscular w
 | **Stage 3 (Severe)** | Severe | Uterine shape distortion; escalating pain and bleeding |
 | **Stage 4 (Advanced)** | Very Severe | Extensive uterine damage; chronic pelvic pain; intermenstrual bleeding |
 
+<details>
+<summary>Medical terms used above</summary>
+
+- **Menorrhagia** - abnormally heavy or prolonged menstrual bleeding
+- **Dysmenorrhea** - painful menstrual periods, beyond normal cramps
+- **Dyspareunia** - pain during or after sexual intercourse
+
+</details>
+
 ## Diagnosis
 
 ### Current Diagnostic Methods

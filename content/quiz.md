@@ -36,7 +36,7 @@ Check the symptoms that apply to you:
 If three or more of these are familiar, the next step is typically:
 
 1. [Read about diagnosis](/diagnosis/): what tests exist, what to expect from each
-2. [Find a specialist](/healthcare/): Endometriosis-trained gynecologists, MIGS surgeons
+2. [Find a specialist](/find-a-specialist/): Endometriosis-trained gynecologists, MIGS surgeons
 3. [Track symptoms](/tracker/): bringing a symptom log to your first appointment significantly speeds up diagnosis
 </noscript>
 
