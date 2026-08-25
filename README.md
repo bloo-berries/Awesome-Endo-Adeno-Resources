@@ -33,6 +33,7 @@
 - [Fertility Resources](#fertility-resources)
 - [Educational Materials](#educational-materials)
 - [Community Sourced Data and Support](#community-sourced-data-and-support)
+- [Clinical Guidelines](#clinical-guidelines)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 
@@ -42,7 +43,7 @@ This resource list is packed with expert advice, community support, and the late
   - Current Methods:
     - Laparoscopy remains the gold standard for definitive diagnosis.
     - Imaging techniques like MRI and ultrasound are used but may miss early or atypical cases.
-    - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/wp-content/uploads/PromarkerEndo-Brochure-Nov-2024.pdf)) have shown promise in detecting biomarkers associated with the disease. *Performance claims are manufacturer-reported; independent peer-reviewed validation is ongoing.*
+    - New non-invasive blood tests (e.g., [Ziwig Endo Test](https://ziwig.com/en/ziwig-endotest/); [PromarkerEndo](https://www.proteomics.com.au/)) have shown promise in detecting biomarkers associated with the disease. *Performance claims are manufacturer-reported; independent peer-reviewed validation is ongoing.*
   - Potential Indicators:
     - Presence of [Endometriomas](https://en.wikipedia.org/wiki/Endometrioma)
       - These are cysts filled with old blood. Endometriomas are a type of Endometriosis, but alternatively, Endometriosis does not mean that you have an Endometrioma.
@@ -141,7 +142,7 @@ This resource list is packed with expert advice, community support, and the late
 ## Diagnostic Tools and Platforms
 
 - [Ziwig](https://ziwig.com/en/ziwig-endotest/)
-  - A saliva test for Endometriosis providing a reliable diagnosis within just a few days
+  - A saliva test for Endometriosis providing a reliable diagnosis within just a few days. Reimbursed in France since 2024; NICE draft guidance (July 2026) recommends further evidence generation before NHS adoption
 - [Qvin](https://qvin.com/)
   - Turn your monthly menstrual blood into lab reports and access personalized health data
 - [Hertility Health](https://hertilityhealth.com/)
@@ -156,6 +157,8 @@ This resource list is packed with expert advice, community support, and the late
   - Developing the first-ever microRNA-based molecular screen for Endometriosis, called EndomiR: EndomiR compares the expression levels of a panel of microRNAs with those from surgically confirmed cases of Endometriosis.
 - [Diamens](https://www.eib.org/en/stories/diamens-at-home-test-endometriosis)
   - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose Endometriosis using menstrual blood
+- [HerResolve by HerAnova Lifesciences](https://heranova.com/products/)
+  - First commercially available blood test for Endometriosis (launched Dec 2025). AI-driven multi-omic test with 94.4% accuracy. Available at select US IVF centers
 
 ## Medical Data Tools, Trackers, and Managers
 
@@ -185,12 +188,12 @@ This resource list is packed with expert advice, community support, and the late
   - Faster Endometriosis diagnosis with our AI-augmented ultrasound software
 - [IMAGEENDO](https://imagendo.org.au/about/)
   - Reducing the diagnostic delay of Endometriosis through imaging
-- [Perplexity.ai](https://www.perplexity.ai/)
-  - Perplexity AI is a conversational search engine that uses large language models (LLMs) to answer queries
 - [FEMaLe](https://findingendometriosis.eu/inovation/ai/)
   - The FEMaLe project will bring the revolution with the application of Augmented Reality (AR) in dealing with Endometriosis
-- [Endometriosis Subtyping study by @guarelin](https://Github.com/Setia-Verma-Lab/endometriosis_subtyping)
+- [Endometriosis Subtyping study by @guarelin](https://github.com/Setia-Verma-Lab/endometriosis_subtyping)
   - Enhancing genetic association power in Endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
+- [EndoRISE (The Jackson Laboratory / UConn Health)](https://ctendorise.org/researchers)
+  - First state-supported multi-institutional Endometriosis program with 2,000+ biospecimen biorepository using single-cell sequencing and spatial omics
 
 ## Therapeutic Treatments
 
@@ -289,8 +292,6 @@ This resource list is packed with expert advice, community support, and the late
 
 ### Endometriosis
 
-- [Comorbidity analysis and clustering of Endometriosis patients using electronic health records](https://www.sciencedirect.com/science/article/pii/S2666379125003180) (Khan et al., 2025)
-  - **Groundbreaking study** analyzing >43,500 Endometriosis patients across six UC medical centers, identifying **over 600 disease correlations** and confirming Endometriosis as a **multi-system disorder**. Key findings include strongest associations with uterine adenomyosis (OR = 181), pelvic adhesions (OR = 51.1), and protective effects of hyperlipidemia (OR = 0.67). Study reveals distinct patient subgroups requiring personalized treatment approaches.
 - [Endometriosis Typology and Ovarian Cancer Risk](https://jamanetwork.com/journals/jama/article-abstract/2821194)
   - "Those with Endometriosis had 4.2-fold higher ovarian cancer risk than those without Endometriosis. Those with ovarian [endometriomas](https://en.wikipedia.org/wiki/Endometrioma) and/or deep infiltrating Endometriosis, compared with no Endometriosis, had 9.7-fold higher risk"
 - [Endometriosis and the risk of ovarian cancer: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/36988819/)
@@ -301,6 +302,24 @@ This resource list is packed with expert advice, community support, and the late
   - "This article explores the link between Endometriosis, gut health, and inflammation, suggesting that gut microbiota may play a role in the pathogenesis of Endometriosis and its associated symptoms."
 - [Endometriosis: Pathophysiology and Management](https://www.mdpi.com/2227-9059/12/4/888)
   - "This study provides an overview of the pathophysiology of Endometriosis and discusses current management strategies, emphasizing the importance of personalized treatment approaches."
+- [Multi-ancestry GWAS of endometriosis in ~1.4 million women](https://www.nature.com/articles/s41588-026-02582-2) (Nature Genetics, 2026)
+  - Largest genome-wide association study of Endometriosis to date, identifying novel genetic risk loci across diverse ancestries
+- [Endometriosis and comorbidities: molecular mechanisms](https://www.cell.com/trends/molecular-medicine/fulltext/S1471-4914(25)00211-4) (Trends in Molecular Medicine, 2025)
+  - Review of molecular pathways linking Endometriosis to its systemic comorbidities
+- [Endometriosis and autoimmunity: large-scale case-control study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12176652/) (PMC, 2025)
+  - Large-scale case-control study examining the association between Endometriosis and autoimmune conditions
+- [Non-Invasive Diagnostic Methods review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12732459/) (PMC, 2025)
+  - Comprehensive review of emerging non-invasive diagnostic approaches for Endometriosis
+- [Plasma protein biomarkers for endometriosis](https://academic.oup.com/humrep/advance-article-pdf/doi/10.1093/humrep/deae278/61272528/deae278.pdf) (Human Reproduction, 2024)
+  - Identification of plasma protein biomarkers with potential for non-invasive Endometriosis diagnosis
+- [Dichloroacetate for endo pain - EPiC1](https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00028-7/fulltext) (The Lancet, 2025)
+  - Phase 1 trial of repurposed cancer drug dichloroacetate for Endometriosis-related pain
+- [SOSURE excision complications across 1,116 procedures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11569428/) (PMC, 2024)
+  - Safety outcomes of specialist excision surgery across over 1,000 procedures
+- [Robotic multidisciplinary excision surgery](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12227863/) (PMC, 2025)
+  - Outcomes of robotic-assisted multidisciplinary excision for deep Endometriosis
+- [Non-Hormonal Therapeutic Strategies review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12295211/) (PMC, 2025)
+  - Review of non-hormonal therapeutic strategies for Endometriosis management
 
 ### Adenomyosis
 
@@ -310,6 +329,12 @@ This resource list is packed with expert advice, community support, and the late
   - "New therapeutic approaches, including the use of GnRH antagonists and uterine artery embolization, are showing promise in the management of adenomyosis symptoms."
 - [Systemic comorbidities in patients with adenomyosis](https://www.sciencedirect.com/science/article/pii/S1472648325003098)
   - "A prospective observational study compared the presence of comorbidities between patients with adenomyosis (n=342) and those with both adenomyosis and Endometriosis (n=347)."
+- [Global prevalence of adenomyosis and endometriosis](https://rbej.biomedcentral.com/articles/10.1186/s12958-025-01483-z) (2025)
+  - Meta-analysis of 198.9 million women across 127 studies establishing global prevalence data
+- [Adenomyosis: underacknowledged cause of AUB and pelvic pain](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11959650/) (PMC, 2025)
+  - Review highlighting adenomyosis as an underrecognized cause of abnormal uterine bleeding and chronic pelvic pain
+- [Conservative surgical treatment for adenomyosis](https://www.sciencedirect.com/science/article/pii/S1521693424000531) (ScienceDirect, 2024)
+  - Evidence review of uterine-sparing surgical approaches for adenomyosis
 
 </details>
 </details>
@@ -345,7 +370,6 @@ De-identified EHRs using OMOP Common Data Model
 | [**Pelvic peritoneal adhesions**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                  | **Significant**             | -                         | **Very High**                             | **Significant**       | **OR = 51.1**                                     |
 | [**Crohn's disease**](https://www.sciencedirect.com/science/article/pii/S2666379125003180)                              | **Significant**             | -                         | **Moderate**                              | **Significant**       | **Inflammatory bowel condition with significant overlap** |
 | [**Noninflammatory disorders of female genital organs**](https://www.sciencedirect.com/science/article/pii/S2666379125003180) | **Significant**        | -                         | **Very High**                             | **Significant**       | **OR = 30.2**                                     |
-| Adenomyosis                                      | 80.6%                       | -                         | High                                      | 80.6%                 | High co-occurrence with Endometriosis             |
 | Endometriosis                                    | -                           | 91.1%                     | High                                      | 91.1%                 | High co-occurrence with adenomyosis               |
 | [Uterine Leiomyoma (Fibroids)](https://en.wikipedia.org/wiki/Uterine_fibroid)                     | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
 | Benign Ovarian Tumors                            | Significant                 | Significant               | Moderate                                  | Significant           | Common in both conditions                         |
@@ -477,10 +501,12 @@ U.S.A.
 
 - [Endo Black](https://endoblack.org/)
   - Black-women-led nonprofit organization advocating for and educating Black women living with and impacted by Endometriosis
-- [Transgender Endo Support](https://helloclue.com/articles/cycle-a-z/managing-endometriosis-when-youre-trans)
-  - Provides resources and support for transgender and non-binary people with Endometriosis
+- Transgender Endo Support
+  - Resources and support for transgender and non-binary people with Endometriosis - *contributions welcome via PR*
 - [FOLX Health](https://www.folxhealth.com/)
   - Provides specialized healthcare services for the LGBTQ+ community, including those with Endometriosis
+- [The American End of Endo Project](https://endofendoproject.org/physician-directory/)
+  - US-based physician directory focused on excision specialists and evidence-based care
 - [Regional Based Groups](#regional-based-groups-and-platforms)
   - Comprehensive list of advocacy groups and platforms organized by region
 
@@ -504,12 +530,10 @@ U.S.A.
   - [Endo Sisters East Africa Foundation](https://endosisterseastafrica.org/)
     - Based in Nairobi and Thika, Endo Sisters EA Foundation has been formed with the vision of promoting early diagnosis and helping those with Endometriosis
   - [Endometriosis Foundation of Kenya](https://endofoundke.org/efk-website#home)
-    - NGO raising awareness and proving support for those with Endometriosis
+    - NGO raising awareness and providing support for those with Endometriosis
 - West Africa:
   - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
     - ESIF is committed to raising awareness about Endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
-  - [Endometriosis Charity Organisation Ghana](https://endometriosischarityghana.com/)
-    - Ghanaian organization dedicated to raising awareness and providing support for those with Endometriosis
 
 ### APAC & Australia/New Zealand
 
@@ -527,13 +551,12 @@ U.S.A.
   - Focuses on raising awareness and providing support for Endometriosis patients in Hong Kong. Dr. Pang Man Wah Selina reviewed "Endometriosis | The Silent Women's Health Crisis of Our Time"
 - [Indian Centre for Endometriosis (ICE)](https://www.endometriosis-india.com/)
   - Dedicated to supporting and educating individuals with Endometriosis in India; Multi disciplinary approach to the disease by involving various specialties such as gynecological endoscopy, fertility specialists, colorectal surgeons, pain management specialists as well as pelvic floor physiotherapists.
-- [Endometriosis Society India](https://endosocindia.org/)
+- [Endometriosis Society India](https://endosocind.org/)
   - National organization providing support and education for Endometriosis patients in India
 
 ### MENA (Middle East and North Africa)
 
-- [Endi – Endometriosis Israel](https://endi.org.il/)
-  - Israeli organization providing support and resources for individuals with Endometriosis
+*Contributions welcome via PR - this section needs regional organizations and resources.*
 
 ### Europe
 
@@ -577,9 +600,6 @@ U.S.A.
 - Sweden
   - [Endometriosföreningen](https://www.endometriosforeningen.com/)
     - Focuses on raising awareness and providing support for Endometriosis patients in Sweden
-- UK
-  - [Endometriosis UK](https://endometriosisuk.org/)
-
 ### LATAM
   
 - [Expertos en Endometriosis EndoLATAM](https://www.endolatam.com)
@@ -593,6 +613,8 @@ U.S.A.
 
 - [Cofertility: Egg Freezing with Endometriosis](https://www.cofertility.com/freeze-learn/egg-freezing-with-endometriosis)
   - This article explores how Endometriosis affects fertility, when to consider egg freezing
+- [Global prevalence of adenomyosis and endometriosis meta-analysis](https://rbej.biomedcentral.com/articles/10.1186/s12958-025-01483-z) (2025)
+  - Meta-analysis of 198.9 million women across 127 studies establishing global prevalence data relevant to fertility planning
 
 ## Educational Materials
 
@@ -609,8 +631,6 @@ U.S.A.
 - [This Is Endometriosis](https://www.thisisendo.com)
   - BAFTA-winning (2026) documentary short film. A volunteer-led movement created for validation, representation, and education of Endometriosis.
   - Watch for free on Minute Shorts
-- [A Thousand Needles](https://www.athousandneedlesfilm.com/)
-  - A documentary about the effects of women's sexual and reproductive health issues like Endometriosis on a woman's life
 - [EndoFound Educational Videos](https://www.endofound.org/video)
   - A collection of educational videos provided by the Endometriosis Foundation of America
 - [Endographics](https://www.endographics.org/english)
@@ -625,17 +645,21 @@ U.S.A.
   - The series is hosted by Cherry Healey and covers topics such as Endometriosis, incontinence, hair loss, and the menopause
 - [Seven](https://www.reddit.com/r/Endo/comments/1o1ndml/i_wrote_and_illustrated_a_book_ab_my_experience/)
   - The author wrote Seven, citing: "Writing and illustrating this book for my senior thesis was a very therapeutic experience. It took me seven years to get a diagnosis and I was often told that it was just stress or that periods are painful."
+- [Endometriosis Weekly by Mayflower](https://endometriosis.substack.com/)
+  - Weekly newsletter about Endometriosis management by doctors, 45,000+ subscribers
+- [npj Women's Health](https://www.nature.com/articles/s44294-024-00048-6) (Nature, 2024-2026)
+  - New open-access journal from Nature Publishing Group with significant Endometriosis research focus
 
 ### Podcasts
 
 - [This Endo Life Podcast](https://thisendolife.com/)
   - One of the longest-running Endometriosis podcasts by Jessica Duffin, featuring expert interviews and symptom management strategies
-- [The Endometriosis Podcast](https://www.nwepssurgery.com/)
-  - By Dr. Nicholas Fogelson & Dr. Shanti Mohling (NWEPS); monthly discussion of Endometriosis research, new discoveries, surgical techniques
 - [The Endometriosis Summit](https://theendometriosissummit.com/)
   - Endometriosis education from leading experts combined with the patient voice, working to end myths and misconceptions
 - [Living with Endo Podcast](https://endometriosisaustralia.org/)
   - By Endometriosis Australia, hosted by ambassador Ellie Angel-Mobbs, featuring interviews with medical professionals and candid chats with those affected
+- [The Endometriosis Summit Podcast](https://theendometriosissummit.com/media-library/podcasts/)
+  - Expert panels on excision surgery, pain science, adenomyosis, and patient advocacy
 
 </details>
 
@@ -644,7 +668,7 @@ U.S.A.
 - Reddit
   - [/r/Endo](https://www.reddit.com/r/Endo/)
     - Endo: treatments, stories, support and research into Endometriosis
-  - [/r/adenommyosis](https://www.reddit.com/r/adenomyosis/)
+  - [/r/adenomyosis](https://www.reddit.com/r/adenomyosis/)
     - A place for people with Adenomyosis
   - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
     - Endo support community
@@ -656,8 +680,6 @@ U.S.A.
 
 - [World Endometriosis Society (WES)](https://endometriosis.ca/world-endometriosis-society/)
   - Advances evidence-based standards and innovations for education, advocacy, clinical care, and research in Endometriosis and adenomyosis. Offers WESinars, mentor programs, and hosts the World Congress on Endometriosis.
-- [World Endometriosis Research Foundation (WERF)](https://endometriosisfoundation.org/)
-  - The first global charity facilitating research into Endometriosis, working with over 100 institutions in 35 countries. Developed the standardized EPHect (Endometriosis Phenome and Biobanking Harmonisation Project) tools.
 - [Endometriosis Association](https://endometriosisassn.org/)
   - The first organization in the world created for those with Endometriosis, dedicated to education, support, and research. Their flagship research program is based at Vanderbilt University.
 - [ASRM Endometriosis Special Interest Group (EndoSIG)](https://www.asrm.org/)
@@ -677,6 +699,8 @@ U.S.A.
   - A $50 million philanthropic contribution will position Australia as a global leader in women's health
 - [Society for Women's Health Research (SWHR)](https://swhr.org/)
   - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
+- [Our Daughters Foundation / Cold Spring Harbor Lab](https://www.endofound.org/a-new-endometriosis-research-initiative-dedicated-to-genomics)
+  - $10M genomics research center opened 2025, focused on genetic subtypes and personalized treatments
 
 </details>
 
@@ -708,7 +732,7 @@ U.S.A.
 
 Active Clinical Studies:
 
-- [Celmatix](https://www.celmatix.com/pipeline)
+- [Celmatix](https://www.celmatix.com/)
   - Pioneering the first non-hormonal, disease-modifying approach to treating Endometriosis that both directly addresses pain mechanisms and resets innate immune cells to cause regression of endometriotic lesions.
 - [Gesynta Pharma](https://www.gesynta.se/)
   - Vipoglanstat to enter clinical phase II development targeting Endometriosis. Gesynta Pharma's targeted approach to the enzyme mPGES-1 provides more precise treatments for inflammation and pain.
@@ -718,6 +742,12 @@ Active Clinical Studies:
   - A Phase II clinical study has indicated that 99mTc-maraciclatide is capable of imaging superficial peritoneal Endometriosis – the earliest stage of the disease which is not well-visualised with current imaging tools – and plans for a Phase III study in this indication are underway.
 - [TiumBio](http://www.tiumbio.com/en/)
   - Conducting a Phase 2a clinical trial of TU2670 in Endometriosis in 5 European countries. TU2670 is an oral GnRH antagonist that can bind to pituitary receptors to suppress estradiol hormone.
+- [ENDO-205 - First non-hormonal targeted peptide](https://www.contemporaryobgyn.net/view/fda-clears-endo-205-investigational-new-drug-application-for-endometriosis)
+  - FDA IND cleared March 2026. First-in-class targeted peptide to eliminate endo lesions without hormonal alteration. Phase 1 enrolling
+- [Cabergoline for endometriosis - Children's Hospital Colorado](https://www.childrenscolorado.org/advances-answers/recent-articles/researching-cabergoline-nonhormonal-endometriosis-treatment/)
+  - Phase 2 trial of dopamine receptor agonist as non-hormonal treatment (ages 15-40)
+- [EPiC2 - DCA Pharmacogenomics Trial](https://www.oxfordstudent.com/2025/02/13/from-oncology-to-endometriosis-repurposed-cancer-drug-in-phase-2-trials/)
+  - Phase 2 dichloroacetate trial with pharmacogenomic dosing based on GSTZ1 gene variant
 
 </details>
 
@@ -751,5 +781,20 @@ Active Clinical Studies:
   - "This study investigates the role of immune system dysfunction in the development and progression of adenomyosis, seeking to identify potential therapeutic targets."
 
 </details>
+
+## Clinical Guidelines
+
+- [ACOG Clinical Practice Guideline No. 11 - Endometriosis](https://www.healio.com/news/womens-health-ob-gyn/20260220/acog-updates-guidance-on-diagnosing-endometriosis) (March 2026)
+  - Major update: clinical diagnosis now sufficient without surgery; TVUS as first-line imaging; recommends against CA-125 as biomarker
+- [ACOG 2026 Guidelines: A Surgeon's Review](https://internationalendo.com/acog-2026-endometriosis-guidelines-review-dr-vidali/) (2026)
+  - Critical analysis from an excision surgeon's perspective
+- [Ireland National Clinical Practice Guideline](https://www.hse.ie/eng/about/who/acute-hospitals-division/woman-infants/clinical-guidelines/assessment-and-management-of-endometriosis-2025-.pdf) (2025)
+  - New comprehensive national guideline from Ireland's HSE
+- [WHO Endometriosis Guideline Development](https://www.who.int/news-room/articles-detail/call-for-experts-for-the-new-who-guideline-on-endometriosis) (In Progress, 2026)
+  - WHO actively developing a new global Endometriosis guideline
+- [Endometriosis policy and delivery systems: global scoping review](https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(25)00027-5/fulltext) (The Lancet, 2025)
+  - Only 31 of 194 WHO member countries have health plans addressing Endometriosis
+- [Taiwan Endometriosis Society Expert Consensus on Adenomyosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC11936390/) (2025)
+  - Modified Delphi method consensus on adenomyosis management
 
 </main>
