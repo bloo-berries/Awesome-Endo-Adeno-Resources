@@ -33,6 +33,13 @@
 - [Fertility Resources](#fertility-resources)
 - [Educational Materials](#educational-materials)
 - [Community Sourced Data and Support](#community-sourced-data-and-support)
+- [Adolescent and Teen Resources](#adolescent-and-teen-resources)
+- [Pain Management Beyond Medication](#pain-management-beyond-medication)
+- [Endometriosis and Menopause](#endometriosis-and-menopause)
+- [Insurance Navigation](#insurance-navigation)
+- [Partner and Caregiver Resources](#partner-and-caregiver-resources)
+- [Government Policy and Legislation](#government-policy-and-legislation)
+- [Emerging Biotech](#emerging-biotech)
 - [Workplace and Disability Advocacy](#workplace-and-disability-advocacy)
 - [Conferences and Summits](#conferences-and-summits)
 - [Clinical Guidelines](#clinical-guidelines)
@@ -165,6 +172,8 @@ This resource list is packed with expert advice, community support, and the late
   - First commercially available blood test for Endometriosis in the US (launched July 2025). Measures CA-125 and BDNF combined with clinical variables; published validation studies show 100% specificity
 - [NextGen Jane](https://www.nextgenjane.com/)
   - Tampon-based diagnostic using RNA-seq analysis of menstrual blood to detect Endometriosis biomarkers. Building the world's largest menstrual blood biobank
+- [EndoSure](https://www.endosure.com/)
+  - CE-marked non-invasive diagnostic using electroviscerography (EVG) with external abdominal sensors; results in ~30-40 minutes, works across all disease stages including adolescents
 
 ## Medical Data Tools, Trackers, and Managers
 
@@ -274,6 +283,12 @@ This resource list is packed with expert advice, community support, and the late
   - Pelvic health physiotherapy is an effective, evidence‑based treatment for some symptoms of Endometriosis, like pain with sexual activity. It's also helpful for treating other conditions and diseases that many people with Endometriosis have, either independently or as a result of Endometriosis.
 - [Herman & Wallace Pelvic Rehabilitation Institute](https://hermanwallace.com/)
   - Provider directory for pelvic floor specialists trained in Endometriosis treatment
+- [Pelvic Rehabilitation Medicine - Excision Surgery Resources](https://pelvicrehabilitation.com/resources/excision-surgery-resources/)
+  - Patient resource hub covering pre-habilitation, surgery prep, post-operative rehab, questions to ask your surgeon, and lifetime management plans for excision surgery
+- [Physical Rehabilitation for Endometriosis & Adenomyosis: Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12692515/) (2025)
+  - Meta-analysis of 17 trials finding consistent improvements in pain, quality of life, and mental health across rehabilitation modalities
+- [Hinge Health Pelvic Health Program](https://www.hingehealth.com/for-individuals/pelvic-health/)
+  - Digital pelvic floor physical therapy program with specialized care teams; average 67% reduction in pelvic pain within 12 weeks; covers Endometriosis pre/post-surgery rehab
 
 #### Mental Health Support
 
@@ -290,6 +305,10 @@ This resource list is packed with expert advice, community support, and the late
   - Reducing dietary fat and increasing dietary fiber have been shown to reduce circulating estrogen concentrations
   - Anti-inflammatory properties of plant-based diets may benefit those with Endometriosis
   - A diet filled with antioxidants, PUFAs, vitamins D, C and E while avoiding processed foods, red meat, and animal fats may help
+- Recent evidence-based diet studies:
+  - [Diet and Endometriosis: Umbrella Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12192176/) (2025) - Synthesizes all existing systematic reviews; vegetables and dairy mildly protective, butter and high caffeine (>300mg/day) increase risk
+  - [Mediterranean Diet and Endometriosis](https://www.nature.com/articles/s41598-025-20621-6) (Nature Scientific Reports, 2025) - Mediterranean diet adherence associated with significantly decreased odds of Endometriosis
+  - [Nutrition and Endometriosis: Evidence, Limits and Clinical Perspectives](https://pubmed.ncbi.nlm.nih.gov/41628666/) (2026) - Mediterranean and DASH diets offer best indirect benefits; warns against unnecessary restrictive diets that risk nutritional deficiencies
 
 </details>
 
@@ -326,6 +345,18 @@ This resource list is packed with expert advice, community support, and the late
   - Outcomes of robotic-assisted multidisciplinary excision for deep Endometriosis
 - [Non-Hormonal Therapeutic Strategies review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12295211/) (PMC, 2025)
   - Review of non-hormonal therapeutic strategies for Endometriosis management
+- [Endometriosis and Cardiovascular Disease: Systematic Review & Meta-Analysis](https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.70104) (AOGS, 2026)
+  - Meta-analysis finding women with Endometriosis have increased risk of cerebrovascular disease (HR 1.19), ischemic heart disease (HR 1.35), and arrhythmias (HR 1.21)
+- [Endometriosis and CVD Risk: Mendelian Randomization](https://www.tandfonline.com/doi/full/10.1080/03630242.2025.2539819) (2025)
+  - Genetic-level evidence for causal links between Endometriosis and cardiovascular/cerebrovascular disease
+- ["Endometriosis Brain" - Neurobiological Signatures](https://www.biorxiv.org/content/10.64898/2026.01.05.696004v1) (bioRxiv, 2026)
+  - Comprehensive investigation of pain, cognition, and brain morphology changes including altered gray matter volume and functional connectivity in Endometriosis
+- [Neuropsychiatric and Cognitive Manifestations of the "Endometriosis Brain"](https://www.researchgate.net/publication/397100821) (2025)
+  - Review finding 80% of participants showed cognitive impairments; synthesizes evidence on brain fog, neuroinflammation, and central sensitization
+- [Malignant Transformation of Endometriosis: Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12072307/) (2025)
+  - Systematic review of genetic/molecular mechanisms of malignant transformation; risk is 0.5-1%, primarily clear cell and endometrioid ovarian cancers
+- [From Inflammation to Malignancy: Endometriosis and Gynecological Cancers](https://pmc.ncbi.nlm.nih.gov/articles/PMC12733138/) (2026)
+  - Review of inflammatory pathways linking Endometriosis to gynecological cancers including breast and endometrial malignancies
 
 ### Adenomyosis
 
@@ -341,6 +372,12 @@ This resource list is packed with expert advice, community support, and the late
   - Review highlighting adenomyosis as an underrecognized cause of abnormal uterine bleeding and chronic pelvic pain
 - [Conservative surgical treatment for adenomyosis](https://www.sciencedirect.com/science/article/pii/S1521693424000531) (ScienceDirect, 2024)
   - Evidence review of uterine-sparing surgical approaches for adenomyosis
+- [Advances in Non-Invasive Diagnosis of Adenomyosis: Narrative Review](https://gpm.amegroups.org/article/view/10643/html) (2025)
+  - Reports TVUS sensitivity 78.5%/specificity 70.7% and MRI sensitivity 64.8%/specificity 87.5%; covers updated MUSA criteria and 3D imaging improvements
+- [Navigating Complexity: Endometriosis and Adenomyosis Imaging Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC13070643/) (PMC, 2025)
+  - Comprehensive review and update on imaging techniques for both Endometriosis and adenomyosis
+- [MRI-Guided Focused Ultrasound for Adenomyosis](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1794748/full) (Frontiers, 2026)
+  - Open-access review of current evidence and future directions for MRI-guided focused ultrasound as a uterus-preserving treatment for adenomyosis
 
 </details>
 </details>
@@ -517,6 +554,8 @@ U.S.A.
   - Endometriosis Foundation of America's dedicated resource hub for LGBTQIA+ patients, providing inclusive information, support groups (EndoQueer), and affirming care guidance
 - [Endo Excision for All](https://endoexcisionforall.org/)
   - US 501(c)(3) nonprofit that directly funds excision surgery for patients who cannot afford it. 100% volunteer-run. Also advocates for NIH funding and CMS reimbursement reform
+- [Project Endo](https://www.projectendo.org/)
+  - Partnered with Mayo Clinic, NIH, and UN; provides educational materials, caregiver resources, and advocacy tools for Endometriosis
 - [Regional Based Groups](#regional-based-groups-and-platforms)
   - Comprehensive list of advocacy groups and platforms organized by region
 
@@ -672,6 +711,8 @@ U.S.A.
   - Weekly newsletter about Endometriosis management by doctors, 45,000+ subscribers
 - [npj Women's Health](https://www.nature.com/articles/s44294-024-00048-6) (Nature, 2024-2026)
   - New open-access journal from Nature Publishing Group with significant Endometriosis research focus
+- [EndoTV](https://endotv.com/)
+  - EndoFound's dedicated video education platform featuring "Ask the Doctors" series, expert surgical technique explanations, patient stories, and webinars
 
 ### Podcasts
 
@@ -728,6 +769,12 @@ U.S.A.
   - Dedicated to promoting research on biological sex differences in disease and improving health through science, policy, and education.
 - [Our Daughters Foundation / Cold Spring Harbor Lab](https://www.endofound.org/a-new-endometriosis-research-initiative-dedicated-to-genomics)
   - $10M genomics research center opened 2025, focused on genetic subtypes and personalized treatments
+- [FimmCyte](https://fimmcyte.com/)
+  - Swiss biotech (University of Zurich spin-off) developing FMC2, a first-in-class non-hormonal antibody targeting fibrosis in Endometriosis; collaboration with Gedeon Richter for first-in-human trials
+- [Cyclana Bio](https://www.cyclanabio.com/)
+  - Cambridge-based biotech targeting extracellular matrix dysregulation in Endometriosis; uses menstrual fluid donations and AI-driven data integration for novel target discovery
+- [Metri Bio](https://metri.bio/)
+  - Boston/Yale spin-off using high-throughput 3D human multicellular organoid models for Endometriosis therapeutics development
 
 </details>
 
@@ -811,6 +858,73 @@ Active Clinical Studies:
 
 </details>
 
+## Adolescent and Teen Resources
+
+- [SWHR Endometriosis Toolkit: A Guide for Teens](https://swhr.org/resources/endometriosis-toolkit-a-guide-for-teens/)
+  - Free downloadable teen toolkit from the Society for Women's Health Research with doctor visit worksheets, symptom guides, and age-appropriate education; also available in Spanish
+- [EndoFound ENPOWR Project](https://www.endofound.org/enpowr)
+  - The only US school-based Endometriosis education program, delivering menstrual health literacy to grades 9-12 through trained EndoEducators; active in 17 states
+- [Endometriosis Association Teen Resources](https://endometriosisassn.org/endometriosis-resources/teens/)
+  - Dedicated teen resource hub with downloadable symptom calendars, body pain charts, "Talking To Your Doctor" guides, and free teen brochures in 31 languages
+
+## Pain Management Beyond Medication
+
+- [Samphire Neuroscience - Nettle](https://www.samphireneuro.com/)
+  - CE-marked wearable transcranial direct current stimulation (tDCS) headband targeting brain pain circuits for period pain and Endometriosis; 72% of users report significant pain relief; in clinical trials for Endometriosis and PMDD
+- [HaPPI Trial - Telehealth CBT for Endometriosis](https://academic.oup.com/hropen/advance-article/doi/10.1093/hropen/hoag006/8438650) (Human Reproduction Open, 2026)
+  - RCT (n=334) of 8-week telehealth cognitive behavioral therapy showing CBT superior to education control for improving quality of life and pain
+- [TENS for Endometriosis Pain](https://www.ejog.org/article/S0301-2115(26)00108-9/abstract) (Penn State, 2026)
+  - Prospective study on at-home TENS unit use showing significant improvement in quality of life and reduced ibuprofen use
+- [ENDOGYM Trial - Pelvic Floor PT + Yoga](https://www.sciencedirect.com/science/article/abs/pii/S030121152600312X) (2025)
+  - Italian RCT showing 12-week combined pelvic floor physiotherapy and yoga significantly reduces treatment-resistant Endometriosis pain
+- [Digital Health Technologies for Endometriosis Pain: Scoping Review](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345756) (PLOS ONE, 2025)
+  - Maps the landscape of digital health technologies for Endometriosis pain management as emerging nonpharmacological alternatives
+- [Lyv Endo](https://play.google.com/store/apps/details?id=healthcare.lyv.app)
+  - CE-marked digital therapeutic medical device from France with 250+ resources across 5 pillars (disease knowledge, nutrition, physical activity, well-being, emotional/sexual life); in clinical trial (NCT07175857)
+
+## Endometriosis and Menopause
+
+- [EMAS Clinical Guide: Endometriosis and Menopausal Health](https://emas-online.org/emas-clinical-guide-endometriosis-and-menopausal-health/emas-news/) (2025)
+  - Evidence-based clinical guide from the European Menopause and Andropause Society covering HRT recommendations, cancer risk, and cardiovascular screening for Endometriosis patients
+- [Endometriosis Beyond Menopause: A Call for Greater Clinical Awareness](https://www.tandfonline.com/doi/full/10.1080/13697137.2026.2658790) (Climacteric, 2026)
+  - Highlights the underrecognized problem of post-menopausal Endometriosis and advocates for greater clinical awareness and research
+
+## Insurance Navigation
+
+- [Counterforce Health](https://www.counterforcehealth.org/)
+  - Free, HIPAA-compliant AI tool that generates customized insurance appeal letters for denied claims; 70% success rate on appeals
+- [Patient Advocate Foundation - Insurance Denials & Appeals](https://www.patientadvocate.org/explore-our-resources/insurance-denials-appeals/)
+  - National 501(c)(3) providing free case management, sample appeal letters, and step-by-step guides for fighting denied claims for chronic conditions
+- [Endo Excision for All - Insurance Advocacy Guide](https://endoexcisionforall.org/patient-resources/endometriosis-and-insurance-a-guide-to-advocating-for-the-coverage-you-need)
+  - Endometriosis-specific insurance advocacy covering prior authorization, appeal strategies, and financial assistance for excision surgery coverage
+
+## Partner and Caregiver Resources
+
+- [Project Endo - Caregivers](https://www.projectendo.org/caregivers)
+  - Dedicated caregiver resource hub offering self-care guidance, peer connection, and educational materials specifically for caregivers and partners of people with Endometriosis
+- [SWHR Endometriosis Advocacy Toolkit](https://swhr.org/resources/endometriosis-advocacy-toolkit/)
+  - Free toolkit designed for patients, caregivers, and advocates to engage congressional representatives on Endometriosis research funding; includes talking points and letter templates
+
+## Government Policy and Legislation
+
+- [Endometriosis CARE Act (H.R. 6682, US)](https://www.congress.gov/bill/119th-congress/house-bill/6682)
+  - Proposed $50M/year for NIH Endometriosis research (2026-2030), $2M/year for public education, $2M/year for healthcare provider training, and a National Academies disparities study
+- [UK Parliamentary Petition - Menstrual Leave for Endo/Adeno](https://petition.parliament.uk/petitions/732342)
+  - Gathered 100,000+ signatures and debated in Westminster Hall (April 2026); calls for statutory paid menstrual leave for people with Endometriosis and adenomyosis
+- [Australia Endometriosis Management Plan](https://www.health.gov.au/topics/chronic-conditions/what-were-doing-about-chronic-conditions/what-were-doing-about-endometriosis)
+  - Australian Government's $792.9M women's health investment including 33 Endometriosis and Pelvic Pain Clinics; national rollout planned mid-2026
+
+## Emerging Biotech
+
+- [FimmCyte](https://fimmcyte.com/)
+  - Swiss biotech developing FMC2, a first-in-class non-hormonal antibody targeting fibrosis in Endometriosis; strategic collaboration with Gedeon Richter
+- [Cyclana Bio](https://www.cyclanabio.com/)
+  - Cambridge-based biotech targeting extracellular matrix dysregulation in Endometriosis using menstrual fluid donations and AI-driven data integration
+- [Metri Bio](https://metri.bio/)
+  - Boston/Yale spin-off developing Endometriosis therapeutics using high-throughput 3D human multicellular organoid models
+- [Samphire Neuroscience](https://www.samphireneuro.com/)
+  - UK medtech developing the Nettle wearable tDCS headband for period pain and Endometriosis; CE-marked, in clinical trials
+
 ## Workplace and Disability Advocacy
 
 - [Endo Career Support Network](https://endoexcisionforall.org/endo-career-support-network)
@@ -843,5 +957,9 @@ Active Clinical Studies:
   - Modified Delphi method consensus on adenomyosis management
 - [Korean Society of Endometriosis Clinical Practice Guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC11788693/) (2024)
   - Updated guideline for Endometriosis evaluation and management using GRADE evidence framework
+- [SOGC Guideline No. 468: Clinical Management of Endometriosis](https://www.jogc.com/article/S1701-2163(26)00184-2/fulltext) (Canada, 2026)
+  - Canadian guideline covering management across the lifespan including pharmacologic/surgical therapy, fertility preservation, chronic pain management, and oncologic risk
+- [EMAS Clinical Guide: Endometriosis and Menopausal Health](https://emas-online.org/emas-clinical-guide-endometriosis-and-menopausal-health/emas-news/) (2025)
+  - European Menopause and Andropause Society evidence-based guide on managing Endometriosis during and after menopause
 
 </main>
