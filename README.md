@@ -33,6 +33,8 @@
 - [Fertility Resources](#fertility-resources)
 - [Educational Materials](#educational-materials)
 - [Community Sourced Data and Support](#community-sourced-data-and-support)
+- [Workplace and Disability Advocacy](#workplace-and-disability-advocacy)
+- [Conferences and Summits](#conferences-and-summits)
 - [Clinical Guidelines](#clinical-guidelines)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
@@ -159,6 +161,10 @@ This resource list is packed with expert advice, community support, and the late
   - Diamens is still in the clinical development stage, but is working to develop an affordable at-home test to diagnose Endometriosis using menstrual blood
 - [HerResolve by HerAnova Lifesciences](https://heranova.com/products/)
   - First commercially available blood test for Endometriosis (launched Dec 2025). AI-driven multi-omic test with 94.4% accuracy. Available at select US IVF centers
+- [Kephera Diagnostics - EndomTest](https://kephera.com/)
+  - First commercially available blood test for Endometriosis in the US (launched July 2025). Measures CA-125 and BDNF combined with clinical variables; published validation studies show 100% specificity
+- [NextGen Jane](https://www.nextgenjane.com/)
+  - Tampon-based diagnostic using RNA-seq analysis of menstrual blood to detect Endometriosis biomarkers. Building the world's largest menstrual blood biobank
 
 ## Medical Data Tools, Trackers, and Managers
 
@@ -507,6 +513,10 @@ U.S.A.
   - Provides specialized healthcare services for the LGBTQ+ community, including those with Endometriosis
 - [The American End of Endo Project](https://endofendoproject.org/physician-directory/)
   - US-based physician directory focused on excision specialists and evidence-based care
+- [EndoFound LGBTQIA Resource Hub](https://www.endofound.org/lgbtqia)
+  - Endometriosis Foundation of America's dedicated resource hub for LGBTQIA+ patients, providing inclusive information, support groups (EndoQueer), and affirming care guidance
+- [Endo Excision for All](https://endoexcisionforall.org/)
+  - US 501(c)(3) nonprofit that directly funds excision surgery for patients who cannot afford it. 100% volunteer-run. Also advocates for NIH funding and CMS reimbursement reform
 - [Regional Based Groups](#regional-based-groups-and-platforms)
   - Comprehensive list of advocacy groups and platforms organized by region
 
@@ -523,6 +533,8 @@ U.S.A.
   - Non-profit aiming to raise awareness, promote reliable education and increase research funding for Endometriosis
 - [Worldwide Endometriosis March](https://endomarch.org/)
   - Largest, internationally-coordinated Endometriosis coalition in the world
+- [EndoAct Canada](https://endoact.ca/)
+  - Policy-focused advocacy toolkit enabling Canadians to contact elected officials about Endometriosis. Provides template emails, petition tools, and research-backed policy positions
 
 ### Africa
 
@@ -534,6 +546,9 @@ U.S.A.
 - West Africa:
   - [EndoSurvivors International Foundation(ESIF)](https://endosurvivors.org/)
     - ESIF is committed to raising awareness about Endometriosis, reducing diagnostic delays, advocating for better care; whilst providing educational, psychosocial and financial support to those living with the disease
+- Pan-Africa:
+  - [Pan African Society of Endometriosis (PASE)](https://pase.africa/)
+    - Continental organization bringing together doctors, clinicians, researchers, and advocates to improve Endometriosis awareness, early diagnosis, and care across Africa
 
 ### APAC & Australia/New Zealand
 
@@ -615,6 +630,10 @@ U.S.A.
   - This article explores how Endometriosis affects fertility, when to consider egg freezing
 - [Global prevalence of adenomyosis and endometriosis meta-analysis](https://rbej.biomedcentral.com/articles/10.1186/s12958-025-01483-z) (2025)
   - Meta-analysis of 198.9 million women across 127 studies establishing global prevalence data relevant to fertility planning
+- [Fertility Preservation in Women with Endometriosis](https://academic.oup.com/hropen/article/2025/2/hoaf012/8046018) (Human Reproduction Open, 2025)
+  - Comprehensive review covering oocyte freezing safety in Endometriosis patients, individualized treatment decisions, and emerging ovarian cortex preservation techniques
+- [Focused Ultrasound Foundation - Adenomyosis Program](https://www.fusfoundation.org/diseases-and-conditions/uterine-adenomyosis/)
+  - Research foundation supporting HIFU as a uterus-preserving treatment for adenomyosis. Studies show 48.9% pregnancy rate post-HIFU, including 51.1% of previously infertile patients
 
 ## Educational Materials
 
@@ -645,6 +664,10 @@ U.S.A.
   - The series is hosted by Cherry Healey and covers topics such as Endometriosis, incontinence, hair loss, and the menopause
 - [Seven](https://www.reddit.com/r/Endo/comments/1o1ndml/i_wrote_and_illustrated_a_book_ab_my_experience/)
   - The author wrote Seven, citing: "Writing and illustrating this book for my senior thesis was a very therapeutic experience. It took me seven years to get a diagnosis and I was often told that it was just stress or that periods are painful."
+- [It's Not Hysteria](https://www.amazon.com/Its-Not-Hysteria-Everything-Reproductive/dp/1250894158) (2024)
+  - A book by Dr. Karen Tang, a minimally-invasive gynecologic surgeon, with comprehensive Endometriosis and adenomyosis coverage. Includes symptom prompts and sample questions for doctor visits
+- [All in Her Head](https://www.amazon.com/All-Her-Head-Medicine-Matters/dp/0063293013) (2024)
+  - A book by Dr. Elizabeth Comen examining how medical history has shaped women's health, with Endometriosis as a recurring case study. PEN Award finalist and USA Today bestseller
 - [Endometriosis Weekly by Mayflower](https://endometriosis.substack.com/)
   - Weekly newsletter about Endometriosis management by doctors, 45,000+ subscribers
 - [npj Women's Health](https://www.nature.com/articles/s44294-024-00048-6) (Nature, 2024-2026)
@@ -660,6 +683,8 @@ U.S.A.
   - By Endometriosis Australia, hosted by ambassador Ellie Angel-Mobbs, featuring interviews with medical professionals and candid chats with those affected
 - [The Endometriosis Summit Podcast](https://theendometriosissummit.com/media-library/podcasts/)
   - Expert panels on excision surgery, pain science, adenomyosis, and patient advocacy
+- [BackTable OBGYN - Endometriosis Podcast Playlist](https://www.backtable.com/playlists/endometriosis-podcast)
+  - Physician-to-physician Endometriosis podcast series featuring surgeon experts discussing diagnosis, excision techniques, and clinical decision-making
 
 </details>
 
@@ -672,6 +697,8 @@ U.S.A.
     - A place for people with Adenomyosis
   - [/r/Endometriosis](https://www.reddit.com/r/Endometriosis/)
     - Endo support community
+- [MyEndometriosisTeam](https://www.myendometriosisteam.com/)
+  - Social network with 120,000+ members, recognized as the Endometriosis Foundation of America's official online community. Features Q&A, peer support groups, and a resource center
 
 ## Medical Research
 
@@ -748,6 +775,8 @@ Active Clinical Studies:
   - Phase 2 trial of dopamine receptor agonist as non-hormonal treatment (ages 15-40)
 - [EPiC2 - DCA Pharmacogenomics Trial](https://www.oxfordstudent.com/2025/02/13/from-oncology-to-endometriosis-repurposed-cancer-drug-in-phase-2-trials/)
   - Phase 2 dichloroacetate trial with pharmacogenomic dosing based on GSTZ1 gene variant
+- [HMI-115 (Hope Medicine) - Phase III](https://www.prnewswire.com/news-releases/hope-medicine-announces-first-patient-dosed-in-the-phase-iii-clinical-trial-for-endometriosis-302723135.html)
+  - First-in-class anti-prolactin receptor monoclonal antibody for Endometriosis pain. First non-hormonal biologic to enter Phase III globally. FDA Fast Track designation (Dec 2025). Phase II showed 42% reduction in dysmenorrhea with no hormonal side effects
 
 </details>
 
@@ -782,6 +811,22 @@ Active Clinical Studies:
 
 </details>
 
+## Workplace and Disability Advocacy
+
+- [Endo Career Support Network](https://endoexcisionforall.org/endo-career-support-network)
+  - Dedicated career support network for Endometriosis patients navigating employment challenges, workplace accommodations, and career planning with chronic illness
+- [Job Accommodation Network (JAN)](https://askjan.org/)
+  - Free, confidential guidance service from the US Department of Labor on workplace accommodations for chronic conditions including Endometriosis. Helps employees and employers navigate ADA accommodations
+
+## Conferences and Summits
+
+- [SEUD Congress 2026](https://congress.seud.org/) (Frankfurt, Apr 9-11, 2026)
+  - Society of Endometriosis and Uterine Disorders annual congress covering Endometriosis, adenomyosis, fibroids, and heavy menstrual bleeding
+- [European Endometriosis Congress (EEC 2026)](https://www.eec2026.com/) (Bologna, Apr 23-25, 2026)
+  - Major European Endometriosis congress
+- [Asian Congress on Endometriosis & Adenomyosis (ACE 2026)](https://agces.org/agces-2026/) (Singapore, Oct 23-25, 2026)
+  - Asia-Pacific's premier Endometriosis and adenomyosis conference
+
 ## Clinical Guidelines
 
 - [ACOG Clinical Practice Guideline No. 11 - Endometriosis](https://www.healio.com/news/womens-health-ob-gyn/20260220/acog-updates-guidance-on-diagnosing-endometriosis) (March 2026)
@@ -796,5 +841,7 @@ Active Clinical Studies:
   - Only 31 of 194 WHO member countries have health plans addressing Endometriosis
 - [Taiwan Endometriosis Society Expert Consensus on Adenomyosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC11936390/) (2025)
   - Modified Delphi method consensus on adenomyosis management
+- [Korean Society of Endometriosis Clinical Practice Guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC11788693/) (2024)
+  - Updated guideline for Endometriosis evaluation and management using GRADE evidence framework
 
 </main>
