@@ -27,35 +27,33 @@
 - [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
 - [Therapeutic Treatments](#therapeutic-treatments)
 - [Potential Co-morbidities](#potential-co-morbidities)
-- [Financial Assistance Platforms](#financial-assistance-platforms)
-- [Advocacy Groups and Vetted Providers](#advocacy-groups-and-vetted-providers)
-- [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
-- [Fertility Resources](#fertility-resources)
-- [Educational Materials](#educational-materials)
-- [Community Sourced Data and Support](#community-sourced-data-and-support)
-- [Adolescent and Teen Resources](#adolescent-and-teen-resources)
-- [Pain Management Beyond Medication](#pain-management-beyond-medication)
-- [Endometriosis and Menopause](#endometriosis-and-menopause)
-- [Insurance Navigation](#insurance-navigation)
-- [Partner and Caregiver Resources](#partner-and-caregiver-resources)
-- [Government Policy and Legislation](#government-policy-and-legislation)
-- [Emerging Biotech](#emerging-biotech)
-- [Workplace and Disability Advocacy](#workplace-and-disability-advocacy)
-- [Conferences and Summits](#conferences-and-summits)
+- [Medical Research](#medical-research)
 - [Clinical Guidelines](#clinical-guidelines)
+- [Fertility Resources](#fertility-resources)
 - [Pregnancy and Obstetric Complications](#pregnancy-and-obstetric-complications)
+- [Adolescent and Teen Resources](#adolescent-and-teen-resources)
+- [Endometriosis and Menopause](#endometriosis-and-menopause)
 - [Sexual Health and Intimacy](#sexual-health-and-intimacy)
-- [Pediatric Gynecology and Early-Onset Endo](#pediatric-gynecology-and-early-onset-endo)
-- [Endometriosis and Race/Ethnicity Disparities](#endometriosis-and-raceethnicity-disparities)
-- [Surgical Recovery Resources](#surgical-recovery-resources)
-- [Endometriosis and the Gut / FODMAP](#endometriosis-and-the-gut--fodmap)
-- [Military and Veterans](#military-and-veterans)
-- [Disability Benefits](#disability-benefits)
-- [Spanish-Language Resources](#spanish-language-resources)
-- [Environmental Factors and Endocrine Disruptors](#environmental-factors-and-endocrine-disruptors)
+- [Pain Management Beyond Medication](#pain-management-beyond-medication)
+- [Exercise and Movement](#exercise-and-movement)
 - [Wearable Technology](#wearable-technology)
 - [Telehealth Platforms](#telehealth-platforms)
-- [Exercise and Movement](#exercise-and-movement)
+- [Financial Assistance Platforms](#financial-assistance-platforms)
+- [Insurance Navigation](#insurance-navigation)
+- [Disability Benefits](#disability-benefits)
+- [Military and Veterans](#military-and-veterans)
+- [Workplace and Disability Advocacy](#workplace-and-disability-advocacy)
+- [Advocacy Groups and Vetted Providers](#advocacy-groups-and-vetted-providers)
+- [Transgender and Non-Binary Endo Care](#transgender-and-non-binary-endo-care)
+- [Endometriosis and Race/Ethnicity Disparities](#endometriosis-and-raceethnicity-disparities)
+- [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
+- [Community Sourced Data and Support](#community-sourced-data-and-support)
+- [Educational Materials](#educational-materials)
+- [Partner and Caregiver Resources](#partner-and-caregiver-resources)
+- [Conferences and Summits](#conferences-and-summits)
+- [Government Policy and Legislation](#government-policy-and-legislation)
+- [Emerging Biotech](#emerging-biotech)
+- [Spanish-Language Resources](#spanish-language-resources)
 - [Patient Registries and Research Participation](#patient-registries-and-research-participation)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
@@ -227,6 +225,8 @@ This resource list is packed with expert advice, community support, and the late
   - Enhancing genetic association power in Endometriosis through unsupervised clustering of clinical subtypes identified from electronic health records
 - [EndoRISE (The Jackson Laboratory / UConn Health)](https://ctendorise.org/researchers)
   - First state-supported multi-institutional Endometriosis program with 2,000+ biospecimen biorepository using single-cell sequencing and spatial omics
+- [Endo Lab - Research Portal](https://endolab.net/research/)
+  - Curated research corpus aggregating 386,000+ Endometriosis and adenomyosis papers from PubMed, OpenAlex, ClinicalTrials.gov, ICTRP, and NIH RePORTER. Offers hybrid/keyword/semantic search modes, study-type filters, and one-click citation export
 
 ## Therapeutic Treatments
 
@@ -285,6 +285,8 @@ This resource list is packed with expert advice, community support, and the late
 
 - [Immunology and Immunotherapy of Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8708975/)
   - Research on the treatment of Endometriosis symptoms with Low Dose Naltrexone
+- [Tolerability and Shared Decision-Making in Hormonal Management of Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC12467333/) (Biomedicines, 2025)
+  - Narrative review comparing GnRH analogues, dienogest, and gestrinone for Endometriosis pain, focusing on long-term tolerability and patient-centered shared decision-making
 
 #### Cannabis and Herbal
 
@@ -309,6 +311,8 @@ This resource list is packed with expert advice, community support, and the late
   - Digital pelvic floor physical therapy program with specialized care teams; average 67% reduction in pelvic pain within 12 weeks; covers Endometriosis pre/post-surgery rehab
 - [Exercise and Endometriosis: Systematic Review & Meta-Analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317820) (PLOS ONE, 2025)
   - Meta-analysis of 6 RCTs showing significant pain reduction (P<0.0001) and quality of life improvement from structured exercise
+- [GLOWM Physiotherapy for Endometriosis](https://www.glowm.com/article/heading/vol-3--endometriosis--physiotherapy-for-endometriosis/id/418263)
+  - Professional-level chapter covering pain science mechanisms, evidence-based physiotherapy approaches, clinical assessment, and case studies; offers CPD points for allied health professionals
 
 #### Mental Health Support
 
@@ -336,6 +340,17 @@ This resource list is packed with expert advice, community support, and the late
 - [Brigham and Women's Hospital - Complementary and Alternative Therapies for Endometriosis](https://www.brighamandwomens.org/obgyn/infertility-reproductive-surgery/endometriosis/complimentary-and-alternative-therapies-for-endometriosis)
   - Hospital-based clinical guide covering acupuncture, physical therapy, biofeedback, and lifestyle modifications within a multidisciplinary team framework
 
+#### Surgical Recovery
+
+- [EndoFound - Surgery Preparation Checklist](https://www.endofound.org/checklist-tips-to-prepare-for-endometriosis-surgery)
+  - Pre-op checklist covering medications, timeline, and caregiver coordination
+- [Endo Excision for All - Excision Surgery Prep/Recovery](https://endoexcisionforall.org/patient-resources/how-to-prepare-for-endometriosis-excision-surgery)
+  - Excision-specific prep and recovery checklist
+- [ESSI - Holistic Guide to Endo Surgery Recovery](https://internationalendo.com/holistic-recovery-endometriosis-surgery/)
+  - Physical healing timeline, nutrition, movement reintroduction, and emotional recovery guidance
+- [iCareBetter - Comprehensive Guide to Endometriosis Surgery Aftercare](https://icarebetter.com/endometriosis/education/endometriosis-surgery/navigating-the-road-to-recovery-a-comprehensive-guide-to-endometriosis-surgery-aftercare/)
+  - Detailed recovery guide covering wound care, pain medication management, scar care with silicone sheets and vitamin E, dietary recovery, and mobility progression
+
 #### Nutrition & Anti-Inflammatory Resources
 
 - [BC Women's Centre for Pelvic Pain & Endometriosis - Diet Recommendations](https://bcwomens.ca/)
@@ -354,6 +369,8 @@ This resource list is packed with expert advice, community support, and the late
   - Directory of certified FODMAP-trained dietitians for gut-related Endometriosis symptoms
 - [Pelvic Rehab Medicine - Free Endo Anti-Inflammatory Cookbook](https://pelvicrehabilitation.com/resources/endo-cookbook/)
   - Free downloadable community-created cookbook for Endometriosis and chronic pelvic pain
+- [Cleveland Clinic - Understanding the Endometriosis-Digestive Link](https://consultqd.clevelandclinic.org/understanding-the-endometriosis-digestive-link)
+  - Clinician-facing guide on the Endometriosis-GI connection (up to 90% of endo patients have GI symptoms); covers prostaglandin-driven mechanisms, microbiota-gut-brain axis, and why gastroenterologists need to screen for Endometriosis
 
 </details>
 
@@ -430,6 +447,8 @@ This resource list is packed with expert advice, community support, and the late
   - Cohort study evaluating long COVID syndrome specifically in patients with Endometriosis and adenomyosis
 - [Endometriosis and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC12468137/) (PMC, 2025)
   - Meta-analysis of 13 studies finding 2.79-fold higher odds of ME/CFS in women with Endometriosis; identifies shared immune dysregulation and mitochondrial dysfunction
+- [Effect of Medical Therapies for Endometriosis on Bone Health: Meta-Analysis](https://journals.lww.com/greenjournal/abstract/10.1097/aog.0000000000006241~effect-of-medical-therapies-for-endometriosis-on-bone-health) (Obstetrics & Gynecology, 2025)
+  - Meta-analysis of 37 studies (28 RCTs) examining hormonal Endometriosis treatments on bone mineral density; found measurable BMD loss across all hormonal classes after 12 months
 - [Global Landscape of Clinical Trials for Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC12527674/) (PMC, 2025)
   - Analysis of 744 interventional pharmaceutical clinical trials identifying therapeutic trends, regional disparities, and unmet needs in non-hormonal drug development
 - [Endometriosis Support and Digital Technology-Based Interventions: Systematic Review](https://humanfactors.jmir.org/2025/1/e71859) (JMIR Human Factors, 2025)
@@ -628,8 +647,8 @@ General
 
 - [Endo Black](https://endoblack.org/)
   - Black-women-led nonprofit organization advocating for and educating Black women living with and impacted by Endometriosis
-- Transgender Endo Support
-  - Resources and support for transgender and non-binary people with Endometriosis - *contributions welcome via PR*
+- [Transgender and Non-Binary Endo Care](#transgender-and-non-binary-endo-care)
+  - Dedicated section with research, clinical guidelines, patient guides, support communities, and trans-affirming providers
 - [FOLX Health](https://www.folxhealth.com/)
   - Provides specialized healthcare services for the LGBTQ+ community, including those with Endometriosis
 - [The American End of Endo Project](https://endofendoproject.org/physician-directory/)
@@ -642,6 +661,77 @@ General
   - Partnered with Mayo Clinic, NIH, and UN; provides educational materials, caregiver resources, and advocacy tools for Endometriosis
 - [Regional Based Groups](#regional-based-groups-and-platforms)
   - Comprehensive list of advocacy groups and platforms organized by region
+
+## Transgender and Non-Binary Endo Care
+
+<details>
+  <summary>Click to expand Transgender and Non-Binary Resources</summary>
+
+### Research
+
+- [Endometriosis in Transgender Men: A Narrative Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC11274608/) (2024)
+  - Narrative review examining Endometriosis presentation, diagnosis, and treatment considerations in transgender men
+- [Endometriosis in Transgender and Gender-Diverse Individuals: Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC11611573/) (2024)
+  - Systematic review finding 25.14% prevalence of Endometriosis in TGD individuals undergoing gender-affirming surgery
+- [Endometriosis in Transmasculine Individuals](https://pmc.ncbi.nlm.nih.gov/articles/PMC9175596/) (Cleveland Clinic, 2022)
+  - Clinical review addressing diagnosis, hormonal considerations, and surgical management for transmasculine patients
+- [Affirming Gynaecological Care for Gender-Diverse People](https://pmc.ncbi.nlm.nih.gov/articles/PMC11095187/) (2024)
+  - Perspective on creating inclusive gynecological care for gender-diverse people with Endometriosis
+- [Barriers and Treatment for TGD People with Endometriosis: Rapid Systematic Review](https://www.tandfonline.com/doi/full/10.1080/26895269.2025.2464277) (IJTH, 2025)
+  - Systematic review of healthcare barriers faced by transgender and gender-diverse people seeking Endometriosis treatment
+- [Layers of Isolation: Endometriosis Experiences of TGD People](https://www.tandfonline.com/doi/full/10.1080/26895269.2025.2467029) (IJTH, 2025)
+  - Qualitative study exploring experiences of isolation and marginalization in healthcare settings
+- [ETRIS Multicenter Imaging Study in Transgender Men](https://www.sciencedirect.com/science/article/abs/pii/S1553465025001682) (JMIG, 2025)
+  - Multicenter imaging study evaluating Endometriosis in transgender men receiving testosterone therapy
+- [Focus Groups with TGD Endometriosis Patients](https://pmc.ncbi.nlm.nih.gov/articles/PMC12548068/) (2025)
+  - Qualitative focus group study examining healthcare experiences and unmet needs of transgender and gender-diverse Endometriosis patients
+
+### Clinical Guidelines
+
+- [UCSF Gender Affirming Health Program - Pelvic Pain in Trans Men](https://transcare.ucsf.edu/guidelines/pain)
+  - Clinical guidance on evaluating and managing pelvic pain, including Endometriosis, in transgender men
+- [NICE NG73 - Endometriosis: Diagnosis and Management](https://www.nice.org.uk/guidance/ng73)
+  - Updated (2024) with inclusive language acknowledging that Endometriosis affects people across gender identities
+
+### Patient Guides and Education
+
+- [Clue - Managing Endometriosis When You're Trans](https://helloclue.com/articles/endometriosis/managing-endometriosis-when-youre-trans)
+  - Accessible guide covering symptom tracking, testosterone effects, and healthcare navigation for trans people with Endometriosis
+- [Endometriosis.net - Trans and Non-Binary Content Series](https://endometriosis.net/living/transgender-nonbinary/)
+  - Four-article series addressing diagnosis, treatment, mental health, and community support for trans and non-binary people
+- [Endometriosis UK - LGBTQIA+ Communities](https://www.endometriosis-uk.org/endometriosis-lgbtqia-communities)
+  - UK-based information and support resources for LGBTQIA+ people with Endometriosis
+- [Endometriosis Network Canada - Drop Gendered Language](https://endometriosisnetwork.com/endo-hub/drop-gendered-language-when-talking-endometriosis/)
+  - Article on using inclusive language when discussing Endometriosis and why gendered terminology creates barriers
+- [Xtra Magazine - LGBTQ2S+ Endo Support Groups](https://xtramagazine.com/health/endometriosis-lgbtq-support-groups-248533)
+  - Overview of LGBTQ2S+ specific Endometriosis support communities and how to find them
+
+### Support Communities
+
+- [Endo Siblings (Facebook)](https://www.facebook.com/groups/endosiblings/)
+  - Peer support group specifically for transgender and non-binary people with Endometriosis
+- [Endo Knows No Gend-O (Facebook)](https://www.facebook.com/groups/endoknowsnogendo/)
+  - Community for gender-diverse people navigating Endometriosis
+- [Endometriosis WA - Gender Diversity](https://www.endometriosiswa.org.au/gender-diversity)
+  - Endometriosis Western Australia's dedicated resource page for gender-diverse individuals
+
+### Trans-Affirming Providers
+
+- [Full Spectrum Gynecology (Dr. Brooke Winner)](https://fullspectrumgyn.com/)
+  - Gender-affirming gynecological care including Endometriosis treatment for transgender and non-binary patients. *San Francisco, CA*
+- [Fenway Health - Reproductive Health](https://fenwayhealth.org/care/medical/reproductive-health/)
+  - LGBTQ+-focused healthcare center providing gynecological care including Endometriosis evaluation and treatment. *Boston, MA*
+
+### Advocacy Organizations
+
+- [Treat it Queer Foundation / TRANSforming Endometriosis Research](https://www.treatitqueer.org/)
+  - Nonprofit advocating for gender-inclusive Endometriosis research, healthcare, and policy reform
+- [ACEndo - Gender-Diverse Inclusive Care](https://acendo.com.au/gender-diverse-inclusive-care/)
+  - Australian Center for Endometriosis's guidance on inclusive care for gender-diverse patients
+- [Endometriosis Australia - Gender-Affirming Care](https://www.endometriosisaustralia.org/gender-affirming-care)
+  - Endometriosis Australia's dedicated resource page on gender-affirming care for trans and non-binary people
+
+</details>
 
 ## Regional Based Groups and Platforms
 
@@ -698,6 +788,9 @@ General
 
 ### Europe
 
+- Scotland
+  - [Endo SOS](https://endosos.org/)
+    - Scotland's first Endometriosis support and awareness charity; provides peer-to-peer support, regular webinars with professional experts, caregiver resources, and accessible educational materials
 - France
   - [Institut de la Femme et de l'Endométriose](https://ifeen.fr/)
     - Multidisciplinary centre in Paris specialising in gynaecological pathologies and Endometriosis
@@ -791,6 +884,8 @@ General
   - A book by Dr. Karen Tang, a minimally-invasive gynecologic surgeon, with comprehensive Endometriosis and adenomyosis coverage. Includes symptom prompts and sample questions for doctor visits
 - [All in Her Head](https://www.amazon.com/All-Her-Head-Medicine-Matters/dp/0063293013) (2024)
   - A book by Dr. Elizabeth Comen examining how medical history has shaped women's health, with Endometriosis as a recurring case study. PEN Award finalist and USA Today bestseller
+- [The Unexpected Consequence of Bleeding on a Tuesday](https://www.penguinrandomhouse.com/books/745987/the-unexpected-consequence-of-bleeding-on-a-tuesday-by-kelsey-b-toney/) (2025)
+  - A novel by Kelsey B. Toney following a young woman navigating Endometriosis diagnosis while pursuing a medical career
 - [Endometriosis Weekly by Mayflower](https://endometriosis.substack.com/)
   - Weekly newsletter about Endometriosis management by doctors, 45,000+ subscribers
 - [npj Women's Health](https://www.nature.com/articles/s44294-024-00048-6) (Nature, 2024-2026)
@@ -836,6 +931,8 @@ General
   - Fortnightly virtual support sessions with topic-led discussions, guest speakers, and grounding activities; free to join
 - [Shifting Tides Therapy - Endometriosis Support Group](https://www.shiftingtidestherapyny.com/endometriosis-support-group)
   - Therapist-facilitated virtual support group (6-week cycles via Zoom) for people with Endometriosis, adenomyosis, fibroids, IC, and chronic pelvic pain; no formal diagnosis required
+- [Adenomyosis Fighters](https://adenofighters.wordpress.com/)
+  - Dedicated adenomyosis patient community with over 11,000 members worldwide; offers educational content, diagnostic guidance, treatment information, and peer support. Also on [Facebook](https://www.facebook.com/groups/adenofighters/)
 
 ## Medical Research
 
@@ -931,8 +1028,6 @@ Research Participation:
   - Free NIH-funded registry connecting volunteers to health research including Endometriosis trials
 - [EndoFound - Research Participation Opportunities](https://www.endofound.org/research-opportunities)
   - Aggregated listing of active Endometriosis studies seeking participants
-- [ENDO1000 (University of Edinburgh)](https://www.endo1000.com/)
-  - Large-scale study: 3,000 participants wearing smartwatches and logging symptoms via app over 2 years to generate objective Endometriosis data
 
 </details>
 
@@ -1015,12 +1110,19 @@ Research Participation:
 - [IC Network - Support Center](https://www.icnetwork.org/ic-support-center/)
   - The world's largest IC support community with 24/7 forums, live monthly support group meetings, provider directories, and specialized resource centers (emotional health, intimacy, pregnancy)
 
+### Vulvodynia Resources
+
+- [National Vulvodynia Association (NVA)](https://www.nva.org/)
+  - Nonprofit for chronic vulvar pain disorders, comorbid with Endometriosis in approximately 11% of patients. Offers healthcare provider referral directory, vulvar clinic locator, patient tutorials, and self-help guides
+
 ## Endometriosis and Menopause
 
 - [EMAS Clinical Guide: Endometriosis and Menopausal Health](https://emas-online.org/emas-clinical-guide-endometriosis-and-menopausal-health/emas-news/) (2025)
   - Evidence-based clinical guide from the European Menopause and Andropause Society covering HRT recommendations, cancer risk, and cardiovascular screening for Endometriosis patients
 - [Endometriosis Beyond Menopause: A Call for Greater Clinical Awareness](https://www.tandfonline.com/doi/full/10.1080/13697137.2026.2658790) (Climacteric, 2026)
   - Highlights the underrecognized problem of post-menopausal Endometriosis and advocates for greater clinical awareness and research
+- [Endometriosis During Perimenopause and Postmenopause: Literature Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12653351/) (JCM, 2025)
+  - Review covering atypical symptom presentation, diagnostic challenges, HRT implications, malignant transformation risk (0.3-1.6%), and management specific to perimenopause
 
 ## Insurance Navigation
 
@@ -1068,6 +1170,8 @@ Research Participation:
   - Population-based study of 151,386 female workers finding significantly elevated Endometriosis risk in certain occupational groups (finance/insurance, public administration, manufacturing)
 - [Management of Endometriosis in the Workplaces: KAP Study](https://www.mdpi.com/2227-9032/14/15/2299) (Healthcare, 2026)
   - Cross-sectional survey of 155 occupational physicians assessing knowledge, attitudes, and practices regarding workplace Endometriosis management
+- [Endometriosis UK Friendly Employer Scheme](https://www.endometriosis-uk.org/endometriosis-friendly-employer-scheme)
+  - Formal employer accreditation program providing structured guidance on supporting employees with Endometriosis; includes training for designated Endometriosis Champions. Adopted by UK government departments, universities, and private employers
 
 ## Conferences and Summits
 
@@ -1098,6 +1202,8 @@ Research Participation:
   - Canadian guideline covering management across the lifespan including pharmacologic/surgical therapy, fertility preservation, chronic pain management, and oncologic risk
 - [EMAS Clinical Guide: Endometriosis and Menopausal Health](https://emas-online.org/emas-clinical-guide-endometriosis-and-menopausal-health/emas-news/) (2025)
   - European Menopause and Andropause Society evidence-based guide on managing Endometriosis during and after menopause
+- [Primary Care Approach to Endometriosis: Narrative Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12251040/) (JCM, 2025)
+  - Comprehensive guide for GPs/PCPs on Endometriosis diagnosis and management, covering clinical presentation, first-line imaging, hormonal therapies, and when to refer to specialists
 
 ## Pregnancy and Obstetric Complications
 
@@ -1109,6 +1215,8 @@ Research Participation:
   - PRISMA systematic review confirming Endometriosis as risk factor for multiple obstetric complications
 - [Adenomyosis/Endometriosis and Adverse Pregnancy Outcomes - Mendelian Randomization](https://pmc.ncbi.nlm.nih.gov/articles/PMC12998892/) (PMC, 2026)
   - Genetic evidence that Endometriosis and adenomyosis may be risk factors for recurrent miscarriage
+- [Tommy's - Miscarriage Research and Endometriosis](https://www.tommys.org/our-research/our-research-projects/miscarriage-research/miscarriage-research-and-endometriosis)
+  - UK's largest pregnancy and baby loss charity funding research into miscarriage, Endometriosis, and adenomyosis; offers moderated support groups, a personalized miscarriage support tool, and baby loss support communities
 
 ## Sexual Health and Intimacy
 
@@ -1122,21 +1230,6 @@ Research Participation:
   - Clinical guide covering types of dyspareunia, pelvic floor PT, position modifications, and communication strategies
 - [Patient-centred e-health resource for endo-associated dyspareunia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11827241/) (PMC, 2025)
   - Development of a digital health resource for Endometriosis-associated painful sex
-
-## Pediatric Gynecology and Early-Onset Endo
-
-- [NASPAG - Find a Provider](https://www.naspag.org/find-a-provider)
-  - Directory of fellowship-trained pediatric and adolescent gynecologists
-- [Center for Young Women's Health (Boston Children's/Harvard)](https://youngwomenshealth.org/endometriosis-all-guides/)
-  - Comprehensive guide series on Endometriosis for teens including college planning with endo
-- [Center for Young Women's Health - For Parents](https://youngwomenshealth.org/endometriosis-for-parents-all-guides/)
-  - Dedicated parent-facing guides on helping daughters manage Endometriosis
-- [Texas Children's Hospital - Endometriosis Center](https://www.texaschildrens.org/departments/endometriosis-center)
-  - Dedicated pediatric Endometriosis center for patients under 21
-- [Boston Children's - Boston Center for Endometriosis](https://www.childrenshospital.org/research/divisions/gynecology-research/boston-center-endometriosis)
-  - Largest US pediatric Endometriosis program; annual conference for young women 14-22
-- [EndoMEtriosis: A Guide for Girls](https://www.amazon.com/EndoMEtriosis-Guide-Tamer-Seckin-MD/dp/1684423651)
-  - Book by Dr. Tamer Seckin specifically written for adolescent girls navigating Endometriosis
 
 ## Endometriosis and Race/Ethnicity Disparities
 
@@ -1152,26 +1245,6 @@ Research Participation:
   - Cost burden and cultural stigma barriers for underserved populations
 - [Racial/Ethnic Disparities in Endometriosis Surgical Care](https://www.sciencedirect.com/science/article/abs/pii/S0002937822000448) (AJOG, 2022)
   - Race/ethnicity independently associated with elevated complication rates in surgical care
-
-## Surgical Recovery Resources
-
-- [EndoFound - Surgery Preparation Checklist](https://www.endofound.org/checklist-tips-to-prepare-for-endometriosis-surgery)
-  - Pre-op checklist covering medications, timeline, and caregiver coordination
-- [Endo Excision for All - Excision Surgery Prep/Recovery](https://endoexcisionforall.org/patient-resources/how-to-prepare-for-endometriosis-excision-surgery)
-  - Excision-specific prep and recovery checklist
-- [ESSI - Holistic Guide to Endo Surgery Recovery](https://internationalendo.com/holistic-recovery-endometriosis-surgery/)
-  - Physical healing timeline, nutrition, movement reintroduction, and emotional recovery guidance
-
-## Endometriosis and the Gut / FODMAP
-
-- [Monash Low-FODMAP Diet for Endometriosis RCT](https://www.monash.edu/news/articles/low-fodmap-diet-can-ease-symptoms-of-those-with-endometriosis-study) (2025)
-  - Landmark RCT: 60% responded to low-FODMAP diet vs. 26% control, 40% lower GI symptom severity
-- [EndoFOD Trial](https://onlinelibrary.wiley.com/doi/full/10.1111/apt.70161) (Alimentary Pharmacology & Therapeutics, 2025)
-  - Full peer-reviewed paper from the Monash low-FODMAP RCT
-- [Monash FODMAP Dietitian Directory](https://www.monashfodmap.com/online-training/fodmap-dietitians-directory/)
-  - Directory of certified FODMAP-trained dietitians for gut-related Endometriosis symptoms
-- [Pelvic Rehab Medicine - Free Endo Anti-Inflammatory Cookbook](https://pelvicrehabilitation.com/resources/endo-cookbook/)
-  - Free downloadable community-created cookbook for Endometriosis and chronic pelvic pain
 
 ## Military and Veterans
 
@@ -1204,17 +1277,8 @@ Research Participation:
 - [SWHR "Hablemos de Endometriosis" (Spanish)](https://swhr.org/wp-content/uploads/2024/03/SWHR-Hablemos-de-Endometriosis-2024Jan-SPANISH.pdf)
   - General Endometriosis educational toolkit in Spanish
 
-## Environmental Factors and Endocrine Disruptors
-
-- [Impact of Endocrine Disruptors on Endometriosis](https://www.mdpi.com/1422-0067/26/15/7600) (IJMS, 2025)
-  - Review of BPA, phthalates, dioxins, and heavy metals linked to Endometriosis development
-- [Pollutants and Genetic Regulatory Variants in Endometriosis](https://www.nature.com/articles/s41431-025-01977-9) (Nature EJHG, 2025)
-  - Gene-environment interaction analysis for Endometriosis development
-
 ## Wearable Technology
 
-- [ENDO1000 (University of Edinburgh)](https://www.endo1000.com/)
-  - Large-scale study: 3,000 participants wearing smartwatches and logging symptoms via app over 2 years to generate objective Endometriosis data
 - [ENDO1000 Pilot - Longitudinal Actigraphy](https://www.nature.com/articles/s41746-025-01629-8) (npj Digital Medicine, 2025)
   - Published findings demonstrating passive wearable data collection provides objective symptom insights for Endometriosis
 - [Endometriosis Association - Wearable Technology Guide](https://endometriosisassn.org/wearable-technology-for-endometriosis/)
@@ -1229,8 +1293,6 @@ Research Participation:
 
 ## Exercise and Movement
 
-- [Exercise and Endometriosis: Systematic Review & Meta-Analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317820) (PLOS ONE, 2025)
-  - Meta-analysis of 6 RCTs showing significant pain reduction (P<0.0001) and quality of life improvement from structured exercise
 - [ENDOGYM Trial - Pelvic Floor PT + Yoga](https://www.sciencedirect.com/science/article/abs/pii/S030121152600312X) (2025)
   - Italian RCT showing 12-week combined pelvic floor physiotherapy and yoga significantly reduces treatment-resistant Endometriosis pain
 - [Endometriosis, Physical Activity and Sport](https://pubmed.ncbi.nlm.nih.gov/39011693/) (2024)
@@ -1246,5 +1308,9 @@ Research Participation:
   - 3,000-participant study using smartwatches and symptom logging; actively enrolling
 - [Citizen Endo / Phendo App](https://citizenendo.org/)
   - Research initiative partnering with patients; free app to track, manage, and understand Endometriosis while contributing to research
+- [WHO ICTRP - International Clinical Trials Registry](https://trialsearch.who.int/)
+  - WHO-operated meta-registry aggregating clinical trial data from 20+ registries worldwide (US, EU, China, India, Brazil, Japan); single search point for global Endometriosis trials
+- [EU Clinical Trials Register - Endometriosis](https://www.clinicaltrialsregister.eu/ctr-search/search?query=Endometriosis)
+  - European Medicines Agency's public register of all clinical trials conducted in the EU/EEA; covers trials not always listed on ClinicalTrials.gov
 
 </main>
