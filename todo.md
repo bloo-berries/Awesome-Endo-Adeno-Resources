@@ -68,6 +68,18 @@
 - [x] In Memory page with memorial cards
 - [x] Add Wikipedia / reference links to all notable people and memorial cards
 
+### README Resource Rounds
+
+- [x] Round 7: 53 new resources across existing and new sections (~400 total entries, 37 sections)
+  - Diagnostic delay (4), economic burden (2), iron deficiency (3), GnRH antagonist (1)
+  - Emergency/acute care (2), fatigue management (3), grief/loss (3)
+  - Second opinions (2), adhesion management (2), MENA regional (3)
+  - Fertility (2), menopause (3), partner/caregiver (4)
+  - Government policy (2), emerging biotech (1), workplace (2)
+  - Conferences (1), clinical guidelines (1), wearable tech (3)
+  - Telehealth (2), exercise/movement (3)
+  - New sections: French-Language (2), Portuguese-Language (2)
+
 ---
 
 ## Features
@@ -118,3 +130,4 @@
 - [ ] CI: HTML validation (Nu HTML Checker) on built output
 - [ ] CI: Lighthouse CI for performance regression detection
 - [x] CDN cache headers in Cloudflare Pages `_headers` file
+- [x] README link checker (`check_links.py`) - stdlib only, concurrent HEAD/GET, line numbers, JSON output, retries. CI also runs `lychee-action` on built HTML

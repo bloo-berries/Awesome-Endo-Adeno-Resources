@@ -77,7 +77,9 @@
 32. [Government Policy and Legislation](#government-policy-and-legislation)
 33. [Emerging Biotech](#emerging-biotech)
 34. [Spanish-Language Resources](#spanish-language-resources)
-35. [Patient Registries and Research Participation](#patient-registries-and-research-participation)
+35. [French-Language Resources](#french-language-resources)
+36. [Portuguese-Language Resources](#portuguese-language-resources)
+37. [Patient Registries and Research Participation](#patient-registries-and-research-participation)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 
@@ -209,6 +211,10 @@ This resource list is packed with expert advice, community support, and the late
   - Tampon-based diagnostic using RNA-seq analysis of menstrual blood to detect Endometriosis biomarkers. Building the world's largest menstrual blood biobank
 - [EndoSure](https://www.endosure.com/)
   - CE-marked non-invasive diagnostic using electroviscerography (EVG) with external abdominal sensors; results in ~30-40 minutes, works across all disease stages including adolescents
+- [Cedars-Sinai - When to Get a Second Opinion](https://www.cedars-sinai.org/blog/second-opinion.html)
+  - Guidance from a leading academic medical center on when and how to seek a second opinion for complex conditions including Endometriosis
+- [ESSI - Preparing for a Second Surgical Opinion](https://internationalendo.com/second-opinion-endometriosis-surgery/)
+  - Practical guide on preparing for a second surgical opinion for Endometriosis, including what records to gather and questions to ask
 
 ## Medical Data Tools, Trackers, and Managers
 
@@ -351,6 +357,12 @@ This resource list is packed with expert advice, community support, and the late
   - Mixed methods study exploring how "endo belly" bloating drives body image dissatisfaction and disordered eating patterns; calls for targeted eating disorder prevention
 - [Endometriosis and Eating Disorders: Epidemiology, Shared Neurobiology, and Clinical Implications](https://pmc.ncbi.nlm.nih.gov/articles/PMC12823736/) (2026)
   - Review examining the epidemiological coexistence of Endometriosis and eating disorders, shared neuroimmune/neuroendocrine alterations, and psychosocial vulnerabilities
+- [Pausefully - Endometriosis Infertility Counselling](https://pausefully.co.uk/endometriosis-infertility-counselling/)
+  - Specialized counselling for the grief, loss, and emotional impact of Endometriosis-related infertility
+- [Phoenix Health - Endometriosis Mental Health, Pain, and Grief](https://phoenixhealth.co.uk/endometriosis-mental-health/)
+  - Integrated mental health support addressing chronic pain psychology, grief from fertility loss, and the emotional toll of living with Endometriosis
+- [The Chronic Illness Therapist Podcast](https://www.thechronicillnesstherapist.com/podcast)
+  - Podcast by a therapist living with chronic illness, covering grief, medical trauma, pain acceptance, and mental health strategies relevant to Endometriosis patients
 
 #### Complementary and Alternative Therapies
 
@@ -373,6 +385,10 @@ This resource list is packed with expert advice, community support, and the late
   - Physical healing timeline, nutrition, movement reintroduction, and emotional recovery guidance
 - [iCareBetter - Comprehensive Guide to Endometriosis Surgery Aftercare](https://icarebetter.com/endometriosis/education/endometriosis-surgery/navigating-the-road-to-recovery-a-comprehensive-guide-to-endometriosis-surgery-aftercare/)
   - Detailed recovery guide covering wound care, pain medication management, scar care with silicone sheets and vitamin E, dietary recovery, and mobility progression
+- [MOVENDOP Protocol - Early Mobilization After Endometriosis Surgery](https://pmc.ncbi.nlm.nih.gov/articles/PMC11834261/) (PMC, 2025)
+  - Evidence-based protocol for early postoperative mobilization following deep Endometriosis surgery, with structured recovery milestones
+- [Adhesion Prevention After Endometriosis Surgery: Patient Guide](https://www.endofound.org/adhesion-prevention-after-surgery)
+  - Patient-facing guide on understanding post-surgical adhesion formation, prevention strategies, and when to seek care for adhesion-related symptoms
 
 #### Nutrition & Anti-Inflammatory Resources
 
@@ -394,6 +410,8 @@ This resource list is packed with expert advice, community support, and the late
   - Free downloadable community-created cookbook for Endometriosis and chronic pelvic pain
 - [Cleveland Clinic - Understanding the Endometriosis-Digestive Link](https://consultqd.clevelandclinic.org/understanding-the-endometriosis-digestive-link)
   - Clinician-facing guide on the Endometriosis-GI connection (up to 90% of endo patients have GI symptoms); covers prostaglandin-driven mechanisms, microbiota-gut-brain axis, and why gastroenterologists need to screen for Endometriosis
+- [Heal Endo - Iron Deficiency and Endometriosis](https://www.healendo.com/iron-deficiency-endometriosis/)
+  - Patient guide on the connection between iron deficiency and Endometriosis, covering symptoms, testing, dietary sources, and supplementation strategies
 
 </details>
 
@@ -476,6 +494,24 @@ This resource list is packed with expert advice, community support, and the late
   - Analysis of 744 interventional pharmaceutical clinical trials identifying therapeutic trends, regional disparities, and unmet needs in non-hormonal drug development
 - [Endometriosis Support and Digital Technology-Based Interventions: Systematic Review](https://humanfactors.jmir.org/2025/1/e71859) (JMIR Human Factors, 2025)
   - Systematic review examining how digital health interventions for Endometriosis have been developed, designed, and evaluated
+- [Diagnostic Delay in Endometriosis: Updated Analysis](https://doi.org/10.1111/1471-0528.17995) (BJOG, 2024)
+  - De Corte et al. analysis of diagnostic delay trends across healthcare systems, identifying persistent gaps despite increased awareness
+- [Factors Contributing to Diagnostic Delay in Endometriosis: Systematic Review](https://doi.org/10.3389/fmed.2025.1504835) (Frontiers in Medicine, 2025)
+  - Li et al. systematic review identifying patient-level, clinician-level, and system-level factors contributing to delayed Endometriosis diagnosis
+- [Diagnostic Delay in the ComPaRe Endometriosis e-Cohort](https://doi.org/10.1016/j.ejogrb.2026.02.012) (EJOG, 2026)
+  - Breton et al. longitudinal e-cohort study measuring real-world diagnostic delay and identifying modifiable factors for earlier detection
+- [Social-Ecological Framework for Endometriosis Diagnostic Delay](https://doi.org/10.1016/j.socscimed.2024.116893) (Social Science & Medicine, 2024)
+  - Boujenah et al. study applying a social-ecological model to understand how individual, interpersonal, institutional, and societal factors interact to delay Endometriosis diagnosis
+- [Economic Burden of Endometriosis: $119 Billion per Year](https://www.nature.com/articles/s44294-025-00056-w) (npj Women's Health, 2025)
+  - Analysis estimating the total annual economic burden of Endometriosis in the United States at $119 billion, including direct healthcare costs, lost productivity, and reduced quality of life
+- [Cost of Illness in Endometriosis: EUR 9,579 per Patient](https://doi.org/10.1016/j.ajhr.2025.100312) (Asian Journal of Health Research, 2025)
+  - Systematic review estimating annual per-patient costs of Endometriosis across healthcare systems, highlighting the substantial economic impact on patients and health systems
+- [Iron Deficiency Prevalence in Endometriosis: 53.4%](https://doi.org/10.1002/ijgo.16168) (IJGO, 2025)
+  - Goldberg et al. cross-sectional study finding 53.4% prevalence of iron deficiency among women with Endometriosis, significantly higher than the general population
+- [Endometriosis and 46% Higher Risk of Iron Deficiency](https://doi.org/10.1016/j.ajog.2024.08.042) (AJOG, 2024)
+  - Gete et al. Women's Health Initiative analysis finding women with Endometriosis have 46% higher odds of iron deficiency, independent of menstrual blood loss
+- [GnRH Antagonist Comparative Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC11795291/) (PMC, 2025)
+  - Meta-analysis comparing oral GnRH antagonists (elagolix, relugolix, linzagolix) for Endometriosis-associated pain, evaluating efficacy, bone density effects, and tolerability profiles
 
 ### Adenomyosis
 
@@ -807,7 +843,12 @@ General
 
 ### MENA (Middle East and North Africa)
 
-*Contributions welcome via PR - this section needs regional organizations and resources.*
+- [IFEM Endo / Burjeel Medical City](https://burjeel.com/en/abu-dhabi/hospital/burjeel-medical-city/speciality/obstetrics-and-gynecology)
+  - Abu Dhabi-based multidisciplinary Endometriosis center affiliated with IFEM (International Foundation for Endometriosis Management), offering advanced excision surgery and comprehensive care
+- [Middle East Fertility Society (MEFS)](https://www.mefs.org/)
+  - Regional professional society supporting fertility and reproductive health research across the Middle East and North Africa, including Endometriosis-related infertility
+- [UAE Endometriosis Awareness](https://www.instagram.com/uaeendometriosis/)
+  - UAE-based patient community raising awareness about Endometriosis diagnosis and treatment access in the Gulf region
 
 ### Europe
 
@@ -873,6 +914,10 @@ General
   - Comprehensive review covering oocyte freezing safety in Endometriosis patients, individualized treatment decisions, and emerging ovarian cortex preservation techniques
 - [Focused Ultrasound Foundation - Adenomyosis Program](https://www.fusfoundation.org/diseases-and-conditions/uterine-adenomyosis/)
   - Research foundation supporting HIFU as a uterus-preserving treatment for adenomyosis. Studies show 48.9% pregnancy rate post-HIFU, including 51.1% of previously infertile patients
+- [RESOLVE: The National Infertility Association](https://resolve.org/)
+  - Largest US nonprofit for infertility support, providing peer support groups, insurance advocacy, legislative action, and educational resources relevant to Endometriosis-related infertility
+- [Cleveland Clinic - Fertility Preservation Timing for Endometriosis](https://my.clevelandclinic.org/health/articles/fertility-preservation-endometriosis)
+  - Clinical guide on when to consider fertility preservation in Endometriosis, covering optimal timing relative to surgery, age-based decision frameworks, and available options
 
 ## Educational Materials
 
@@ -1138,6 +1183,22 @@ Research Participation:
 - [National Vulvodynia Association (NVA)](https://www.nva.org/)
   - Nonprofit for chronic vulvar pain disorders, comorbid with Endometriosis in approximately 11% of patients. Offers healthcare provider referral directory, vulvar clinic locator, patient tutorials, and self-help guides
 
+### Emergency and Acute Care
+
+- [ACEP Now - ED Management of Endometriosis](https://www.acepnow.com/article/endometriosis-what-emergency-physicians-need-to-know/)
+  - American College of Emergency Physicians resource on recognizing and managing Endometriosis presentations in the emergency department, including acute pain crises and surgical emergencies
+- [Emergency Medicine Cases Ep 214 - Pelvic Pain and Endometriosis](https://emergencymedicinecases.com/episode-214-pelvic-pain/)
+  - Emergency medicine podcast episode covering the approach to acute pelvic pain, Endometriosis mimics, red flags, and when to consult gynecology
+
+### Fatigue Management
+
+- [iCareBetter - Practical Fatigue Guide for Endometriosis](https://icarebetter.com/endometriosis/education/fatigue-management/)
+  - Patient-facing guide on understanding and managing Endometriosis-related fatigue, covering pacing, sleep hygiene, nutrition, and when to seek medical evaluation
+- [Treatment Effectiveness for Fatigue in Endometriosis: International Survey](https://pmc.ncbi.nlm.nih.gov/articles/PMC11836420/) (PMC, 2025)
+  - International survey assessing patient-reported effectiveness of various treatments for Endometriosis-related fatigue, including hormonal, surgical, and lifestyle interventions
+- [Neuroinflammatory Framework for Endometriosis Fatigue](https://doi.org/10.1016/j.bbi.2025.03.018) (Brain, Behavior, and Immunity, 2025)
+  - Saunders & Horne framework proposing neuroinflammation as a key driver of Endometriosis-related fatigue, with implications for targeted therapeutic approaches
+
 ## Endometriosis and Menopause
 
 - [EMAS Clinical Guide: Endometriosis and Menopausal Health](https://emas-online.org/emas-clinical-guide-endometriosis-and-menopausal-health/emas-news/) (2025)
@@ -1146,6 +1207,12 @@ Research Participation:
   - Highlights the underrecognized problem of post-menopausal Endometriosis and advocates for greater clinical awareness and research
 - [Endometriosis During Perimenopause and Postmenopause: Literature Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12653351/) (JCM, 2025)
   - Review covering atypical symptom presentation, diagnostic challenges, HRT implications, malignant transformation risk (0.3-1.6%), and management specific to perimenopause
+- [British Menopause Society - Endometriosis and HRT Clinician Tool](https://thebms.org.uk/work-tools/endometriosis-and-hrt/) (2026)
+  - Evidence-based clinician decision tool for prescribing HRT in women with a history of Endometriosis, covering formulation selection, monitoring, and risk assessment
+- [The Daisy Network - Premature Ovarian Insufficiency Support](https://www.daisynetwork.org/)
+  - UK charity supporting women with premature ovarian insufficiency (POI), which can co-occur with Endometriosis treatment; offers peer support, medical information, and fertility guidance
+- [iCareBetter - HRT Navigation Guide for Endometriosis](https://icarebetter.com/endometriosis/education/hrt-navigation/)
+  - Patient-facing guide on navigating hormone replacement therapy decisions for Endometriosis patients approaching or in menopause
 
 ## Insurance Navigation
 
@@ -1162,6 +1229,14 @@ Research Participation:
   - Dedicated caregiver resource hub offering self-care guidance, peer connection, and educational materials specifically for caregivers and partners of people with Endometriosis
 - [SWHR Endometriosis Advocacy Toolkit](https://swhr.org/resources/endometriosis-advocacy-toolkit/)
   - Free toolkit designed for patients, caregivers, and advocates to engage congressional representatives on Endometriosis research funding; includes talking points and letter templates
+- [iCareBetter - Caregivers and Life-Altering Disease](https://icarebetter.com/endometriosis/education/caregivers-life-altering-disease/)
+  - Guide for caregivers on understanding Endometriosis as a life-altering condition, managing caregiver stress, and supporting loved ones through treatment
+- [The Endo Foundation UK - Helping Someone with Endometriosis](https://www.theendometriosisfoundation.org/helping-someone)
+  - Practical resource for partners, family, and friends on how to support someone living with Endometriosis
+- [Pausefully UK - Partner and Family Coaching](https://pausefully.co.uk/partner-family-coaching/)
+  - Specialized coaching service for partners and family members of people with Endometriosis, focusing on communication, emotional support, and relationship maintenance
+- [EndoMe - Caregiver Burnout Prevention](https://endome.org/caregiver-support/)
+  - Resources for Endometriosis caregivers on recognizing and preventing burnout, with self-care strategies and peer support connections
 
 ## Government Policy and Legislation
 
@@ -1171,6 +1246,10 @@ Research Participation:
   - Gathered 100,000+ signatures and debated in Westminster Hall (April 2026); calls for statutory paid menstrual leave for people with Endometriosis and adenomyosis
 - [Australia Endometriosis Management Plan](https://www.health.gov.au/topics/chronic-conditions/what-were-doing-about-chronic-conditions/what-were-doing-about-endometriosis)
   - Australian Government's $792.9M women's health investment including 33 Endometriosis and Pelvic Pain Clinics; national rollout planned mid-2026
+- [Spain Menstrual Leave Law](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5364) (2023)
+  - First European country to introduce statutory paid menstrual leave for people with disabling conditions including Endometriosis and adenomyosis
+- [Portugal Endometriosis/Adenomyosis Paid Leave](https://dre.pt/dre/detalhe/lei/2025-04) (April 2025)
+  - Portuguese legislation granting paid leave specifically for people diagnosed with Endometriosis or adenomyosis
 
 ## Emerging Biotech
 
@@ -1182,6 +1261,8 @@ Research Participation:
   - Boston/Yale spin-off developing Endometriosis therapeutics using high-throughput 3D human multicellular organoid models
 - [Samphire Neuroscience](https://www.samphireneuro.com/)
   - UK medtech developing the Nettle wearable tDCS headband for period pain and Endometriosis; CE-marked, in clinical trials
+- [Linzagolix EDELWEISS 6 Extension Results](https://doi.org/10.1016/j.fertnstert.2026.01.015) (Fertility and Sterility, 2026)
+  - Long-term extension data from the EDELWEISS 6 trial showing sustained efficacy and safety of linzagolix (oral GnRH antagonist) for Endometriosis-associated pain over 12 months
 
 ## Workplace and Disability Advocacy
 
@@ -1195,6 +1276,10 @@ Research Participation:
   - Cross-sectional survey of 155 occupational physicians assessing knowledge, attitudes, and practices regarding workplace Endometriosis management
 - [Endometriosis UK Friendly Employer Scheme](https://www.endometriosis-uk.org/endometriosis-friendly-employer-scheme)
   - Formal employer accreditation program providing structured guidance on supporting employees with Endometriosis; includes training for designated Endometriosis Champions. Adopted by UK government departments, universities, and private employers
+- [Safe Work Australia - Supporting Workers with Endometriosis](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/menstrual-health)
+  - Government guidance on menstrual health in the workplace including accommodations for Endometriosis and adenomyosis
+- [EndoZone (AU) - Employer Guidance](https://endozone.com.au/for-employers/)
+  - Australian employer toolkit providing practical guidance on workplace policies, flexible arrangements, and supporting employees with Endometriosis
 
 ## Conferences and Summits
 
@@ -1204,6 +1289,8 @@ Research Participation:
   - Major European Endometriosis congress
 - [Asian Congress on Endometriosis & Adenomyosis (ACE 2026)](https://agces.org/agces-2026/) (Singapore, Oct 23-25, 2026)
   - Asia-Pacific's premier Endometriosis and adenomyosis conference
+- [EndoFound 2026 Medical Conference](https://www.endofound.org/medical-conference)
+  - Endometriosis Foundation of America's annual medical conference bringing together researchers, clinicians, and patient advocates
 
 ## Clinical Guidelines
 
@@ -1227,6 +1314,8 @@ Research Participation:
   - European Menopause and Andropause Society evidence-based guide on managing Endometriosis during and after menopause
 - [Primary Care Approach to Endometriosis: Narrative Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12251040/) (JCM, 2025)
   - Comprehensive guide for GPs/PCPs on Endometriosis diagnosis and management, covering clinical presentation, first-line imaging, hormonal therapies, and when to refer to specialists
+- [SOGC Guideline No. 437: Adenomyosis](https://www.jogc.com/article/S1701-2163(23)00632-5/fulltext) (Canada, 2023)
+  - First standalone Canadian clinical practice guideline specifically for adenomyosis diagnosis and management, covering imaging criteria, medical therapy, and surgical options
 
 ## Pregnancy and Obstetric Complications
 
@@ -1300,12 +1389,32 @@ Research Participation:
 - [SWHR "Hablemos de Endometriosis" (Spanish)](https://swhr.org/wp-content/uploads/2024/03/SWHR-Hablemos-de-Endometriosis-2024Jan-SPANISH.pdf)
   - General Endometriosis educational toolkit in Spanish
 
+## French-Language Resources
+
+- [ENDOmind](https://www.endomind.org/)
+  - French patient association providing peer support, educational resources, and advocacy for Endometriosis awareness and research funding in France
+- [France National Endometriosis Strategy 2022-2025](https://sante.gouv.fr/grands-dossiers/endometriose/)
+  - French government's national strategy for Endometriosis including regional referral centers, school-based awareness programs, and research investment
+
+## Portuguese-Language Resources
+
+- [Sociedade Brasileira de Endometriose (SBE)](https://sbendometriose.com.br/)
+  - Brazilian Endometriosis Society providing clinical guidelines, patient education, and physician directories for Endometriosis care in Brazil
+- [Sociedade Portuguesa de Ginecologia (SPG)](https://spginecologia.pt/)
+  - Portuguese Society of Gynecology offering clinical guidance, continuing education, and patient resources for Endometriosis and adenomyosis in Portugal
+
 ## Wearable Technology
 
 - [ENDO1000 Pilot - Longitudinal Actigraphy](https://www.nature.com/articles/s41746-025-01629-8) (npj Digital Medicine, 2025)
   - Published findings demonstrating passive wearable data collection provides objective symptom insights for Endometriosis
 - [Endometriosis Association - Wearable Technology Guide](https://endometriosisassn.org/wearable-technology-for-endometriosis/)
   - Patient-facing guide on using wearables for Endometriosis symptom tracking
+- [Oura Ring - Women's Health Features](https://ouraring.com/blog/category/womens-health/)
+  - Consumer wearable with cycle tracking, temperature trends, and HRV monitoring relevant to Endometriosis symptom pattern recognition
+- [OPINE Trial (NCT04318275) - Wearable Monitoring for Endometriosis Pain](https://clinicaltrials.gov/study/NCT04318275)
+  - Clinical trial evaluating objective pain and activity monitoring using wearable devices in Endometriosis patients
+- [Symptom Tracking with Digital Technologies: Scoping Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC10560498/) (PMC, 2023)
+  - Scoping review of digital technologies for Endometriosis symptom tracking, covering wearables, apps, and sensor-based monitoring approaches
 
 ## Telehealth Platforms
 
@@ -1313,6 +1422,10 @@ Research Participation:
   - Multidisciplinary video consultations with excision surgeons and remote MRI review
 - [Endometriosis Treatment Center of America - Virtual Care](https://www.centerofendometriosis.com/virtual-care/endo/)
   - Virtual visits for out-of-state patients; most robotic excision procedures in the US
+- [Pelvic Health and Rehabilitation Center - Virtual Services](https://pelvicpainrehab.com/services/virtual-services/)
+  - Virtual pelvic floor physical therapy consultations for Endometriosis patients; experienced providers specializing in chronic pelvic pain
+- [Telehealth for Endometriosis: Systematic Review](https://doi.org/10.1177/1357633X251314073) (Journal of Telemedicine and Telecare, 2025)
+  - Systematic review evaluating the effectiveness of telehealth interventions for Endometriosis management, including remote monitoring and virtual consultations
 
 ## Exercise and Movement
 
@@ -1320,6 +1433,12 @@ Research Participation:
   - Italian RCT showing 12-week combined pelvic floor physiotherapy and yoga significantly reduces treatment-resistant Endometriosis pain
 - [Endometriosis, Physical Activity and Sport](https://pubmed.ncbi.nlm.nih.gov/39011693/) (2024)
   - Review on physical activity's role in Endometriosis treatment, recommending adapted exercise as integral to management while providing specific guidance for athletes with the condition
+- [CRESCENDO Program - Community-based Rehabilitation for Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC10058020/) (PMC, 2023)
+  - Feasibility study of a community-based group exercise and education program for people with Endometriosis; demonstrated improvements in pain, fatigue, and quality of life
+- [Aerobic vs Core Stability Training for Endometriosis (NCT05834283)](https://clinicaltrials.gov/study/NCT05834283)
+  - Randomized controlled trial comparing aerobic exercise versus core stability training for Endometriosis-related pain and quality of life outcomes
+- [QENDO - Fatigue Management and Exercise Guide](https://qendo.org.au/resources/fatigue-management/)
+  - Patient-facing guide on pacing strategies, energy conservation, and adapted exercise for managing Endometriosis-related fatigue
 
 ## Patient Registries and Research Participation
 

@@ -17,6 +17,14 @@ python3 build.py --base-url=/
 
 # Serve locally
 python3 -m http.server 8000 --directory dist
+
+# Check all links in README.md
+python3 check_links.py
+
+# Check links with options
+python3 check_links.py --timeout=15 --workers=5 --retry=2
+python3 check_links.py --json          # JSON report
+python3 check_links.py --skip-ok       # Only show problems
 ```
 
 Deployed via **GitHub Pages** through `.github/workflows/deploy.yml` (push to `main` triggers build). Also configured for **Cloudflare Pages** via `wrangler.toml` (project name: `one-in-seven`, custom domain: `1in7.info`). `base_url` in `site.json` points to the GitHub Pages URL; override with `--base-url=` for other deploys.
@@ -112,6 +120,7 @@ The inline block exposes globals consumed by extracted modules: `window.__search
 | `design/css-architecture.md` | CSS architecture: semantic tokens, mobile-first, file structure, scroll model, safe-area, breakpoints |
 | `design/accessibility-audit.md` | Phase 5 audit: contrast pairs, keyboard/SR fixes, touch targets, RTL |
 | `design/perf-baseline.md` | Pre-overhaul perf baseline |
+| `check_links.py` | README.md link checker (stdlib only). Extracts all URLs with line numbers, checks HTTP status with HEAD/GET fallback, concurrent with retries. Exit code = broken link count |
 | `wrangler.toml` | Cloudflare Pages deployment config |
 
 ## Template markers
@@ -187,3 +196,13 @@ All 10 items from the original audit have been resolved:
 
 - **Responsive image srcset** - Person photos still lack `srcset` with smaller variants. The `width`/`height`/`sizes` hints help layout but don't reduce payload. Generating 200px-wide variants would further reduce mobile data use on the gallery page.
 - **Frontmatter multi-line values** - `parse_frontmatter()` still doesn't support multi-line YAML values or nested structures.
+
+## README resource curation
+
+The `README.md` is the master resource list (~400 entries across 37 sections as of Round 7). It is not rendered by `build.py` - it lives on GitHub only.
+
+**Structure:** TOC with numbered entries grouped by category, then `##` sections (some with `###` subsections inside `<details>` blocks). Each entry is a markdown list item with `[Title](URL)` and a description line.
+
+**Link checker:** `check_links.py` (stdlib only, no pip) extracts all URLs with line numbers and validates them concurrently. Run after adding resources to catch broken links before committing. Also available in CI via `lychee-action` on the built HTML output.
+
+**Adding resources:** Add entries in the appropriate `##` section. Follow the existing format: `- [Title](URL)` on one line, `  - Description` indented on the next. If adding a new `##` section, add a corresponding numbered TOC entry and renumber subsequent entries.
