@@ -20,41 +20,64 @@
 
 <main id="main-content" role="main" aria-label="Main content">
 
-- [Diagnosis](#diagnosis)
-- [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
-- [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
-- [Medical Data Tools, Trackers, and Managers](#medical-data-tools-trackers-and-managers)
-- [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
-- [Therapeutic Treatments](#therapeutic-treatments)
-- [Potential Co-morbidities](#potential-co-morbidities)
-- [Medical Research](#medical-research)
-- [Clinical Guidelines](#clinical-guidelines)
-- [Fertility Resources](#fertility-resources)
-- [Pregnancy and Obstetric Complications](#pregnancy-and-obstetric-complications)
-- [Adolescent and Teen Resources](#adolescent-and-teen-resources)
-- [Endometriosis and Menopause](#endometriosis-and-menopause)
-- [Sexual Health and Intimacy](#sexual-health-and-intimacy)
-- [Pain Management Beyond Medication](#pain-management-beyond-medication)
-- [Exercise and Movement](#exercise-and-movement)
-- [Wearable Technology](#wearable-technology)
-- [Telehealth Platforms](#telehealth-platforms)
-- [Financial Assistance Platforms](#financial-assistance-platforms)
-- [Insurance Navigation](#insurance-navigation)
-- [Disability Benefits](#disability-benefits)
-- [Military and Veterans](#military-and-veterans)
-- [Workplace and Disability Advocacy](#workplace-and-disability-advocacy)
-- [Advocacy Groups and Vetted Providers](#advocacy-groups-and-vetted-providers)
-- [Transgender and Non-Binary Endo Care](#transgender-and-non-binary-endo-care)
-- [Endometriosis and Race/Ethnicity Disparities](#endometriosis-and-raceethnicity-disparities)
-- [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
-- [Community Sourced Data and Support](#community-sourced-data-and-support)
-- [Educational Materials](#educational-materials)
-- [Partner and Caregiver Resources](#partner-and-caregiver-resources)
-- [Conferences and Summits](#conferences-and-summits)
-- [Government Policy and Legislation](#government-policy-and-legislation)
-- [Emerging Biotech](#emerging-biotech)
-- [Spanish-Language Resources](#spanish-language-resources)
-- [Patient Registries and Research Participation](#patient-registries-and-research-participation)
+**Diagnosis and Medical Care**
+
+1. [Diagnosis](#diagnosis)
+2. [Vetted Physician and Healthcare Providers](#vetted-physician-and-healthcare-providers)
+3. [Diagnostic Tools and Platforms](#diagnostic-tools-and-platforms)
+4. [Medical Data Tools, Trackers, and Managers](#medical-data-tools-trackers-and-managers)
+5. [AI-Enabled Platforms and Ongoing Studies for Research](#ai-enabled-platforms-and-ongoing-studies-for-research)
+
+**Treatment and Co-morbidities**
+
+6. [Therapeutic Treatments](#therapeutic-treatments)
+7. [Potential Co-morbidities](#potential-co-morbidities)
+
+**Research and Clinical Guidelines**
+
+8. [Medical Research](#medical-research)
+9. [Clinical Guidelines](#clinical-guidelines)
+
+**Life Stages and Reproductive Health**
+
+10. [Fertility Resources](#fertility-resources)
+11. [Pregnancy and Obstetric Complications](#pregnancy-and-obstetric-complications)
+12. [Adolescent and Teen Resources](#adolescent-and-teen-resources)
+13. [Endometriosis and Menopause](#endometriosis-and-menopause)
+14. [Sexual Health and Intimacy](#sexual-health-and-intimacy)
+
+**Symptom Management and Wellness**
+
+15. [Pain Management Beyond Medication](#pain-management-beyond-medication)
+16. [Exercise and Movement](#exercise-and-movement)
+17. [Wearable Technology](#wearable-technology)
+18. [Telehealth Platforms](#telehealth-platforms)
+
+**Financial and Legal Support**
+
+19. [Financial Assistance Platforms](#financial-assistance-platforms)
+20. [Insurance Navigation](#insurance-navigation)
+21. [Disability Benefits](#disability-benefits)
+22. [Military and Veterans](#military-and-veterans)
+23. [Workplace and Disability Advocacy](#workplace-and-disability-advocacy)
+
+**Community and Advocacy**
+
+24. [Advocacy Groups and Vetted Providers](#advocacy-groups-and-vetted-providers)
+25. [Transgender and Non-Binary Endo Care](#transgender-and-non-binary-endo-care)
+26. [Endometriosis and Race/Ethnicity Disparities](#endometriosis-and-raceethnicity-disparities)
+27. [Regional Based Groups and Platforms](#regional-based-groups-and-platforms)
+28. [Community Sourced Data and Support](#community-sourced-data-and-support)
+
+**Education and Outreach**
+
+29. [Educational Materials](#educational-materials)
+30. [Partner and Caregiver Resources](#partner-and-caregiver-resources)
+31. [Conferences and Summits](#conferences-and-summits)
+32. [Government Policy and Legislation](#government-policy-and-legislation)
+33. [Emerging Biotech](#emerging-biotech)
+34. [Spanish-Language Resources](#spanish-language-resources)
+35. [Patient Registries and Research Participation](#patient-registries-and-research-participation)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 
