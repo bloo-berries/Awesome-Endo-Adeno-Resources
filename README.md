@@ -10,7 +10,7 @@
 
 <div align="center">
 
-[![Watch This Is Endometriosis](static/images/this-is-endometriosis.jpg)](https://www.thisisendo.com/watch-this-is-endometriosis "Watch This Is Endometriosis")
+[![Watch This Is Endometriosis](static/images/this-is-endometriosis.webp)](https://www.thisisendo.com/watch-this-is-endometriosis "Watch This Is Endometriosis")
 
 **▶ This Is Endometriosis** - *BAFTA-winning documentary short film (2026) - Free to watch*
 
