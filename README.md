@@ -43,6 +43,20 @@
 - [Workplace and Disability Advocacy](#workplace-and-disability-advocacy)
 - [Conferences and Summits](#conferences-and-summits)
 - [Clinical Guidelines](#clinical-guidelines)
+- [Pregnancy and Obstetric Complications](#pregnancy-and-obstetric-complications)
+- [Sexual Health and Intimacy](#sexual-health-and-intimacy)
+- [Pediatric Gynecology and Early-Onset Endo](#pediatric-gynecology-and-early-onset-endo)
+- [Endometriosis and Race/Ethnicity Disparities](#endometriosis-and-raceethnicity-disparities)
+- [Surgical Recovery Resources](#surgical-recovery-resources)
+- [Endometriosis and the Gut / FODMAP](#endometriosis-and-the-gut--fodmap)
+- [Military and Veterans](#military-and-veterans)
+- [Disability Benefits](#disability-benefits)
+- [Spanish-Language Resources](#spanish-language-resources)
+- [Environmental Factors and Endocrine Disruptors](#environmental-factors-and-endocrine-disruptors)
+- [Wearable Technology](#wearable-technology)
+- [Telehealth Platforms](#telehealth-platforms)
+- [Exercise and Movement](#exercise-and-movement)
+- [Patient Registries and Research Participation](#patient-registries-and-research-participation)
 
 This resource list is packed with expert advice, community support, and the latest medical research insights, all aimed at making your life a little easier. Whether you're newly diagnosed or have been living with these conditions for a while, my hope is to offer guidance and support.
 
@@ -289,6 +303,8 @@ This resource list is packed with expert advice, community support, and the late
   - Meta-analysis of 17 trials finding consistent improvements in pain, quality of life, and mental health across rehabilitation modalities
 - [Hinge Health Pelvic Health Program](https://www.hingehealth.com/for-individuals/pelvic-health/)
   - Digital pelvic floor physical therapy program with specialized care teams; average 67% reduction in pelvic pain within 12 weeks; covers Endometriosis pre/post-surgery rehab
+- [Exercise and Endometriosis: Systematic Review & Meta-Analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317820) (PLOS ONE, 2025)
+  - Meta-analysis of 6 RCTs showing significant pain reduction (P<0.0001) and quality of life improvement from structured exercise
 
 #### Mental Health Support
 
@@ -309,6 +325,12 @@ This resource list is packed with expert advice, community support, and the late
   - [Diet and Endometriosis: Umbrella Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12192176/) (2025) - Synthesizes all existing systematic reviews; vegetables and dairy mildly protective, butter and high caffeine (>300mg/day) increase risk
   - [Mediterranean Diet and Endometriosis](https://www.nature.com/articles/s41598-025-20621-6) (Nature Scientific Reports, 2025) - Mediterranean diet adherence associated with significantly decreased odds of Endometriosis
   - [Nutrition and Endometriosis: Evidence, Limits and Clinical Perspectives](https://pubmed.ncbi.nlm.nih.gov/41628666/) (2026) - Mediterranean and DASH diets offer best indirect benefits; warns against unnecessary restrictive diets that risk nutritional deficiencies
+  - [Monash Low-FODMAP Diet for Endometriosis RCT](https://www.monash.edu/news/articles/low-fodmap-diet-can-ease-symptoms-of-those-with-endometriosis-study) (2025) - Landmark RCT: 60% responded to low-FODMAP diet vs. 26% control, 40% lower GI symptom severity
+  - [EndoFOD Trial](https://onlinelibrary.wiley.com/doi/full/10.1111/apt.70161) (Alimentary Pharmacology & Therapeutics, 2025) - Full peer-reviewed paper from the Monash low-FODMAP RCT
+- [Monash FODMAP Dietitian Directory](https://www.monashfodmap.com/online-training/fodmap-dietitians-directory/)
+  - Directory of certified FODMAP-trained dietitians for gut-related Endometriosis symptoms
+- [Pelvic Rehab Medicine - Free Endo Anti-Inflammatory Cookbook](https://pelvicrehabilitation.com/resources/endo-cookbook/)
+  - Free downloadable community-created cookbook for Endometriosis and chronic pelvic pain
 
 </details>
 
@@ -357,6 +379,20 @@ This resource list is packed with expert advice, community support, and the late
   - Systematic review of genetic/molecular mechanisms of malignant transformation; risk is 0.5-1%, primarily clear cell and endometrioid ovarian cancers
 - [From Inflammation to Malignancy: Endometriosis and Gynecological Cancers](https://pmc.ncbi.nlm.nih.gov/articles/PMC12733138/) (2026)
   - Review of inflammatory pathways linking Endometriosis to gynecological cancers including breast and endometrial malignancies
+- [Impact of Endocrine Disruptors on Endometriosis](https://www.mdpi.com/1422-0067/26/15/7600) (IJMS, 2025)
+  - Review of BPA, phthalates, dioxins, and heavy metals linked to Endometriosis development
+- [Pollutants and Genetic Regulatory Variants in Endometriosis](https://www.nature.com/articles/s41431-025-01977-9) (Nature EJHG, 2025)
+  - Gene-environment interaction analysis for Endometriosis development
+- [Endo, Pregnancy Complications and Infertility](https://journals.sagepub.com/doi/10.1177/22840265251386969) (Sage, 2025)
+  - Review linking Endometriosis to placenta previa, preterm birth, preeclampsia, and cesarean delivery
+- [Impact of Endometriosis on Pregnancy/Obstetric Outcomes](https://journal.formosapublisher.org/index.php/ijar/article/view/16842) (2026)
+  - PRISMA systematic review confirming Endometriosis as risk factor for multiple obstetric complications
+- [Disparities in Racial Representation in FDA-Approved Endo Trials](https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.18305) (BJOG, 2025)
+  - Only 4 of 9 FDA trials reported race; significant representation gaps in clinical research
+- [Race/Ethnicity Reporting in Endometriosis Literature: Systematic Review](https://fvvo.eu/articles/race-and-ethnicity-reporting-in-endometriosis-literature-a-systematic-review/doi/FVVO.2025.153) (FVVO, 2025)
+  - Only 10% of 648 studies reported race/ethnicity data
+- [SSDI/SSI Claims Analysis for Endometriosis](https://www.whijournal.com/article/S1049-3867(23)00209-8/fulltext) (Women's Health Issues, 2023)
+  - Research showing Endometriosis disability claims are systematically disadvantaged
 
 ### Adenomyosis
 
@@ -378,6 +414,8 @@ This resource list is packed with expert advice, community support, and the late
   - Comprehensive review and update on imaging techniques for both Endometriosis and adenomyosis
 - [MRI-Guided Focused Ultrasound for Adenomyosis](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1794748/full) (Frontiers, 2026)
   - Open-access review of current evidence and future directions for MRI-guided focused ultrasound as a uterus-preserving treatment for adenomyosis
+- [Adenomyosis/Endometriosis and Adverse Pregnancy Outcomes - Mendelian Randomization](https://pmc.ncbi.nlm.nih.gov/articles/PMC12998892/) (PMC, 2026)
+  - Genetic evidence that Endometriosis and adenomyosis may be risk factors for recurrent miscarriage
 
 </details>
 </details>
@@ -711,6 +749,8 @@ U.S.A.
   - Weekly newsletter about Endometriosis management by doctors, 45,000+ subscribers
 - [npj Women's Health](https://www.nature.com/articles/s44294-024-00048-6) (Nature, 2024-2026)
   - New open-access journal from Nature Publishing Group with significant Endometriosis research focus
+- [EndoMEtriosis: A Guide for Girls](https://www.amazon.com/EndoMEtriosis-Guide-Tamer-Seckin-MD/dp/1684423651)
+  - A book by Dr. Tamer Seckin specifically written for adolescent girls navigating Endometriosis
 - [EndoTV](https://endotv.com/)
   - EndoFound's dedicated video education platform featuring "Ask the Doctors" series, expert surgical technique explanations, patient stories, and webinars
 
@@ -825,6 +865,15 @@ Active Clinical Studies:
 - [HMI-115 (Hope Medicine) - Phase III](https://www.prnewswire.com/news-releases/hope-medicine-announces-first-patient-dosed-in-the-phase-iii-clinical-trial-for-endometriosis-302723135.html)
   - First-in-class anti-prolactin receptor monoclonal antibody for Endometriosis pain. First non-hormonal biologic to enter Phase III globally. FDA Fast Track designation (Dec 2025). Phase II showed 42% reduction in dysmenorrhea with no hormonal side effects
 
+Research Participation:
+
+- [ResearchMatch (NIH)](https://www.researchmatch.org/)
+  - Free NIH-funded registry connecting volunteers to health research including Endometriosis trials
+- [EndoFound - Research Participation Opportunities](https://www.endofound.org/research-opportunities)
+  - Aggregated listing of active Endometriosis studies seeking participants
+- [ENDO1000 (University of Edinburgh)](https://www.endo1000.com/)
+  - Large-scale study: 3,000 participants wearing smartwatches and logging symptoms via app over 2 years to generate objective Endometriosis data
+
 </details>
 
 <details>
@@ -866,6 +915,16 @@ Active Clinical Studies:
   - The only US school-based Endometriosis education program, delivering menstrual health literacy to grades 9-12 through trained EndoEducators; active in 17 states
 - [Endometriosis Association Teen Resources](https://endometriosisassn.org/endometriosis-resources/teens/)
   - Dedicated teen resource hub with downloadable symptom calendars, body pain charts, "Talking To Your Doctor" guides, and free teen brochures in 31 languages
+- [Center for Young Women's Health (Boston Children's/Harvard)](https://youngwomenshealth.org/endometriosis-all-guides/)
+  - Comprehensive guide series on Endometriosis for teens including college planning with endo
+- [Center for Young Women's Health - For Parents](https://youngwomenshealth.org/endometriosis-for-parents-all-guides/)
+  - Dedicated parent-facing guides on helping daughters manage Endometriosis
+- [NASPAG - Find a Provider](https://www.naspag.org/find-a-provider)
+  - Directory of fellowship-trained pediatric and adolescent gynecologists
+- [Texas Children's Hospital - Endometriosis Center](https://www.texaschildrens.org/departments/endometriosis-center)
+  - Dedicated pediatric Endometriosis center for patients under 21
+- [Boston Children's - Boston Center for Endometriosis](https://www.childrenshospital.org/research/divisions/gynecology-research/boston-center-endometriosis)
+  - Largest US pediatric Endometriosis program; annual conference for young women 14-22
 
 ## Pain Management Beyond Medication
 
@@ -961,5 +1020,151 @@ Active Clinical Studies:
   - Canadian guideline covering management across the lifespan including pharmacologic/surgical therapy, fertility preservation, chronic pain management, and oncologic risk
 - [EMAS Clinical Guide: Endometriosis and Menopausal Health](https://emas-online.org/emas-clinical-guide-endometriosis-and-menopausal-health/emas-news/) (2025)
   - European Menopause and Andropause Society evidence-based guide on managing Endometriosis during and after menopause
+
+## Pregnancy and Obstetric Complications
+
+- [Endometriosis.org - Endometriosis and Pregnancy](https://endometriosis.org/resources/articles/endometriosis-and-pregnancy-breastfeeding/)
+  - Patient-facing guide on symptom changes during pregnancy, postpartum recurrence, and breastfeeding's protective role in extending symptom remission
+- [Endo, Pregnancy Complications and Infertility](https://journals.sagepub.com/doi/10.1177/22840265251386969) (Sage, 2025)
+  - Review linking Endometriosis to placenta previa, preterm birth, preeclampsia, and cesarean delivery
+- [Impact of Endometriosis on Pregnancy/Obstetric Outcomes](https://journal.formosapublisher.org/index.php/ijar/article/view/16842) (2026)
+  - PRISMA systematic review confirming Endometriosis as risk factor for multiple obstetric complications
+- [Adenomyosis/Endometriosis and Adverse Pregnancy Outcomes - Mendelian Randomization](https://pmc.ncbi.nlm.nih.gov/articles/PMC12998892/) (PMC, 2026)
+  - Genetic evidence that Endometriosis and adenomyosis may be risk factors for recurrent miscarriage
+
+## Sexual Health and Intimacy
+
+- [Ohnut](https://ohnut.co/)
+  - Intimate wearable depth-limiting buffer for deep dyspareunia; studied in a pilot RCT for Endometriosis
+- [Ohnut RCT for Endo-Associated Dyspareunia](https://academic.oup.com/smoa/article/12/4/qfae049/7746483) (Sexual Medicine, 2024)
+  - Peer-reviewed pilot RCT demonstrating efficacy for Endometriosis-related painful intercourse
+- [Intimate Rose - Pelvic Wands and Dilators](https://www.intimaterose.com/collections/pelvic-wands)
+  - Pelvic wands designed by physical therapists for Endometriosis-related pelvic floor tension and trigger point release
+- [ESSI - Painful Sex (Dyspareunia) with Endometriosis Guide](https://internationalendo.com/endometriosis-painful-sex-dyspareunia-treatment/)
+  - Clinical guide covering types of dyspareunia, pelvic floor PT, position modifications, and communication strategies
+- [Patient-centred e-health resource for endo-associated dyspareunia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11827241/) (PMC, 2025)
+  - Development of a digital health resource for Endometriosis-associated painful sex
+
+## Pediatric Gynecology and Early-Onset Endo
+
+- [NASPAG - Find a Provider](https://www.naspag.org/find-a-provider)
+  - Directory of fellowship-trained pediatric and adolescent gynecologists
+- [Center for Young Women's Health (Boston Children's/Harvard)](https://youngwomenshealth.org/endometriosis-all-guides/)
+  - Comprehensive guide series on Endometriosis for teens including college planning with endo
+- [Center for Young Women's Health - For Parents](https://youngwomenshealth.org/endometriosis-for-parents-all-guides/)
+  - Dedicated parent-facing guides on helping daughters manage Endometriosis
+- [Texas Children's Hospital - Endometriosis Center](https://www.texaschildrens.org/departments/endometriosis-center)
+  - Dedicated pediatric Endometriosis center for patients under 21
+- [Boston Children's - Boston Center for Endometriosis](https://www.childrenshospital.org/research/divisions/gynecology-research/boston-center-endometriosis)
+  - Largest US pediatric Endometriosis program; annual conference for young women 14-22
+- [EndoMEtriosis: A Guide for Girls](https://www.amazon.com/EndoMEtriosis-Guide-Tamer-Seckin-MD/dp/1684423651)
+  - Book by Dr. Tamer Seckin specifically written for adolescent girls navigating Endometriosis
+
+## Endometriosis and Race/Ethnicity Disparities
+
+- [Endo Black](https://endoblack.org/)
+  - Black-women-led nonprofit organization advocating for and educating Black women living with Endometriosis
+- [Disparities in Racial Representation in FDA-Approved Endo Trials](https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.18305) (BJOG, 2025)
+  - Only 4 of 9 FDA trials reported race; significant representation gaps in clinical research
+- [Race/Ethnicity Reporting in Endometriosis Literature: Systematic Review](https://fvvo.eu/articles/race-and-ethnicity-reporting-in-endometriosis-literature-a-systematic-review/doi/FVVO.2025.153) (FVVO, 2025)
+  - Only 10% of 648 studies reported race/ethnicity data
+- [Disparity in Endometriosis Diagnoses Between Racial/Ethnic Groups](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6767495/) (PMC, 2019)
+  - Black women 51% less likely to be diagnosed compared to white women
+- [AMWA - Addressing Endometriosis Disparities in Healthcare](https://amwa-doc.org/an-overlooked-condition-addressing-endometriosis-disparities-in-healthcare/)
+  - Cost burden and cultural stigma barriers for underserved populations
+- [Racial/Ethnic Disparities in Endometriosis Surgical Care](https://www.sciencedirect.com/science/article/abs/pii/S0002937822000448) (AJOG, 2022)
+  - Race/ethnicity independently associated with elevated complication rates in surgical care
+
+## Surgical Recovery Resources
+
+- [EndoFound - Surgery Preparation Checklist](https://www.endofound.org/checklist-tips-to-prepare-for-endometriosis-surgery)
+  - Pre-op checklist covering medications, timeline, and caregiver coordination
+- [Endo Excision for All - Excision Surgery Prep/Recovery](https://endoexcisionforall.org/patient-resources/how-to-prepare-for-endometriosis-excision-surgery)
+  - Excision-specific prep and recovery checklist
+- [ESSI - Holistic Guide to Endo Surgery Recovery](https://internationalendo.com/holistic-recovery-endometriosis-surgery/)
+  - Physical healing timeline, nutrition, movement reintroduction, and emotional recovery guidance
+
+## Endometriosis and the Gut / FODMAP
+
+- [Monash Low-FODMAP Diet for Endometriosis RCT](https://www.monash.edu/news/articles/low-fodmap-diet-can-ease-symptoms-of-those-with-endometriosis-study) (2025)
+  - Landmark RCT: 60% responded to low-FODMAP diet vs. 26% control, 40% lower GI symptom severity
+- [EndoFOD Trial](https://onlinelibrary.wiley.com/doi/full/10.1111/apt.70161) (Alimentary Pharmacology & Therapeutics, 2025)
+  - Full peer-reviewed paper from the Monash low-FODMAP RCT
+- [Monash FODMAP Dietitian Directory](https://www.monashfodmap.com/online-training/fodmap-dietitians-directory/)
+  - Directory of certified FODMAP-trained dietitians for gut-related Endometriosis symptoms
+- [Pelvic Rehab Medicine - Free Endo Anti-Inflammatory Cookbook](https://pelvicrehabilitation.com/resources/endo-cookbook/)
+  - Free downloadable community-created cookbook for Endometriosis and chronic pelvic pain
+
+## Military and Veterans
+
+- [VA Whole Health Library - Endometriosis](https://www.va.gov/WHOLEHEALTHLIBRARY/tools/endometriosis.asp)
+  - Official VA clinical resource for Endometriosis
+- [VA Rating for Endometriosis (Diagnostic Code 7629)](https://vaclaimsinsider.com/va-rating-for-endometriosis/)
+  - Guide to VA disability ratings (10%, 30%, 50%) and claims strategy for Endometriosis
+- [Understanding the Endometriosis VA Rating](https://woodslawyers.com/endometriosis-veterans-benefits/)
+  - Legal guide to establishing service connection for Endometriosis-related VA benefits
+
+## Disability Benefits
+
+- [CEC - Endometriosis & Social Security](https://www.centerforendo.com/news-education/endometriosis-amp-social-security-by-molly-clarke)
+  - SSDI guide from a leading Endometriosis center
+- [Lotus Endo - ADA Rights & SSDI Basics](https://lotusendo.com/answers/can-endometriosis-qualify-as-a-disability)
+  - Combined ADA and SSDI overview for Endometriosis patients
+- [Lotus Endo - Work Accommodations Documentation Guide](https://lotusendo.com/answers/how-do-i-document-endometriosis-for-work-accommodations)
+  - Step-by-step ADA documentation guide for Endometriosis workplace accommodations
+- [SSDI/SSI Claims Analysis for Endometriosis](https://www.whijournal.com/article/S1049-3867(23)00209-8/fulltext) (Women's Health Issues, 2023)
+  - Research showing Endometriosis disability claims are systematically disadvantaged
+
+## Spanish-Language Resources
+
+- [OWH - Endometriosis en Espanol](https://espanol.womenshealth.gov/a-z-topics/endometriosis)
+  - Official US government Spanish-language Endometriosis resource
+- [MedlinePlus en Espanol - Endometriosis](https://medlineplus.gov/spanish/ency/article/000915.htm)
+  - NIH Spanish-language medical reference for Endometriosis
+- [SWHR Teen Toolkit (Spanish)](https://swhr.org/wp-content/uploads/2024/03/SWHR-Endometriosis-Teen-Toolkit-2024Jan-SPANISH.pdf)
+  - Spanish translation of the Society for Women's Health Research teen toolkit
+- [SWHR "Hablemos de Endometriosis" (Spanish)](https://swhr.org/wp-content/uploads/2024/03/SWHR-Hablemos-de-Endometriosis-2024Jan-SPANISH.pdf)
+  - General Endometriosis educational toolkit in Spanish
+
+## Environmental Factors and Endocrine Disruptors
+
+- [Impact of Endocrine Disruptors on Endometriosis](https://www.mdpi.com/1422-0067/26/15/7600) (IJMS, 2025)
+  - Review of BPA, phthalates, dioxins, and heavy metals linked to Endometriosis development
+- [Pollutants and Genetic Regulatory Variants in Endometriosis](https://www.nature.com/articles/s41431-025-01977-9) (Nature EJHG, 2025)
+  - Gene-environment interaction analysis for Endometriosis development
+
+## Wearable Technology
+
+- [ENDO1000 (University of Edinburgh)](https://www.endo1000.com/)
+  - Large-scale study: 3,000 participants wearing smartwatches and logging symptoms via app over 2 years to generate objective Endometriosis data
+- [ENDO1000 Pilot - Longitudinal Actigraphy](https://www.nature.com/articles/s41746-025-01629-8) (npj Digital Medicine, 2025)
+  - Published findings demonstrating passive wearable data collection provides objective symptom insights for Endometriosis
+- [Endometriosis Association - Wearable Technology Guide](https://endometriosisassn.org/wearable-technology-for-endometriosis/)
+  - Patient-facing guide on using wearables for Endometriosis symptom tracking
+
+## Telehealth Platforms
+
+- [ESSI - Telehealth Endometriosis Consultations](https://internationalendo.com/telehealth-endometriosis-consult-guide/)
+  - Multidisciplinary video consultations with excision surgeons and remote MRI review
+- [Endometriosis Treatment Center of America - Virtual Care](https://www.centerofendometriosis.com/virtual-care/endo/)
+  - Virtual visits for out-of-state patients; most robotic excision procedures in the US
+
+## Exercise and Movement
+
+- [Exercise and Endometriosis: Systematic Review & Meta-Analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317820) (PLOS ONE, 2025)
+  - Meta-analysis of 6 RCTs showing significant pain reduction (P<0.0001) and quality of life improvement from structured exercise
+- [ENDOGYM Trial - Pelvic Floor PT + Yoga](https://www.sciencedirect.com/science/article/abs/pii/S030121152600312X) (2025)
+  - Italian RCT showing 12-week combined pelvic floor physiotherapy and yoga significantly reduces treatment-resistant Endometriosis pain
+
+## Patient Registries and Research Participation
+
+- [ResearchMatch (NIH)](https://www.researchmatch.org/)
+  - Free NIH-funded registry connecting volunteers to health research including Endometriosis trials
+- [EndoFound - Research Participation Opportunities](https://www.endofound.org/research-opportunities)
+  - Aggregated listing of active Endometriosis studies seeking participants
+- [ENDO1000 (University of Edinburgh)](https://www.endo1000.com/)
+  - 3,000-participant study using smartwatches and symptom logging; actively enrolling
+- [Citizen Endo / Phendo App](https://citizenendo.org/)
+  - Research initiative partnering with patients; free app to track, manage, and understand Endometriosis while contributing to research
 
 </main>
