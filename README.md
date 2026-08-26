@@ -210,6 +210,10 @@ This resource list is packed with expert advice, community support, and the late
     - Women's Health management platform for symptom management, tracking, and recommendations
   - [NoEndo](https://www.noendo.fr/#/)
     - NoEndo is a French platform designed to help individuals affected by Endometriosis
+  - [Bearable](https://bearable.app/)
+    - Symptom tracker and correlation engine identified as one of six "good quality" mHealth apps for Endometriosis (JMIR 2025 review). Unique feature shows impact of activities on symptoms, mood, sleep, and energy
+  - [Good-Quality mHealth Apps for Endometriosis Care: Systematic Search](https://www.jmir.org/2025/1/e49654) (JMIR, 2025)
+    - Systematic review evaluating 42 apps using the ENLIGHT validated assessment tool, identifying six recommended apps for Endometriosis care
 
 ## AI-Enabled Platforms and Ongoing Studies for Research
 
@@ -312,6 +316,25 @@ This resource list is packed with expert advice, community support, and the late
   - Comprehensive guidance on therapy types (CBT, ACT, mindfulness) and crisis resources including 988 for immediate assistance
 - Pain Psychology Specialists
   - Pain-informed therapists can help process medical trauma and arm patients with resources for navigating the medical system assertively. Look for therapists specializing in chronic pain management.
+- [Medical Trauma Support - Endometriosis and Medical Trauma](https://www.medicaltraumasupport.org/blog/endometriosis-and-medical-trauma-when-the-system-that-should-help-you-causes-harm)
+  - Peer support community grounded in somatic and nervous system practices specifically for people dismissed by the healthcare system; addresses medical gaslighting and diagnostic trauma
+- ["Belittled" and "Broken": Distressing Medical Interactions in Endometriosis Healthcare](https://www.tandfonline.com/doi/full/10.1080/23293691.2025.2602849) (2026)
+  - Mixed methods study of 468 people finding 80.8% reported distressing medical interactions; 64.1% experienced harmful communication (being disbelieved, belittled, blamed)
+- ["Endo Belly": Body Image, Disordered Eating, and Psychopathology in Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC12050103/) (2025)
+  - Mixed methods study exploring how "endo belly" bloating drives body image dissatisfaction and disordered eating patterns; calls for targeted eating disorder prevention
+- [Endometriosis and Eating Disorders: Epidemiology, Shared Neurobiology, and Clinical Implications](https://pmc.ncbi.nlm.nih.gov/articles/PMC12823736/) (2026)
+  - Review examining the epidemiological coexistence of Endometriosis and eating disorders, shared neuroimmune/neuroendocrine alterations, and psychosocial vulnerabilities
+
+#### Complementary and Alternative Therapies
+
+- [Acupuncture and Related Therapies for Endometriosis: Network Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC11456303/) (2024)
+  - Network meta-analysis of 42 RCTs (3,635 participants) comparing six acupuncture-related interventions; combination therapy superior to western medicine alone for pain
+- [Complementary Therapies for Endometriosis: Extensive Survey](https://www.sciencedirect.com/science/article/pii/S2949838425000210) (2025)
+  - Survey of 780 patients finding 86% use non-pharmacological therapies; over half reported reducing conventional analgesic intake due to complementary treatments
+- [Holistic Approaches in Endometriosis: Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC11527925/) (2024)
+  - Systematic review covering manual therapy, physical activity, nutrition, acupuncture, TCM, and TENS as adjuncts to medical/surgical Endometriosis treatment
+- [Brigham and Women's Hospital - Complementary and Alternative Therapies for Endometriosis](https://www.brighamandwomens.org/obgyn/infertility-reproductive-surgery/endometriosis/complimentary-and-alternative-therapies-for-endometriosis)
+  - Hospital-based clinical guide covering acupuncture, physical therapy, biofeedback, and lifestyle modifications within a multidisciplinary team framework
 
 #### Nutrition & Anti-Inflammatory Resources
 
@@ -393,6 +416,24 @@ This resource list is packed with expert advice, community support, and the late
   - Only 10% of 648 studies reported race/ethnicity data
 - [SSDI/SSI Claims Analysis for Endometriosis](https://www.whijournal.com/article/S1049-3867(23)00209-8/fulltext) (Women's Health Issues, 2023)
   - Research showing Endometriosis disability claims are systematically disadvantaged
+- [Prevalence of Temporomandibular Disorders in Adult Women with Endometriosis](https://www.mdpi.com/2077-0383/13/24/7615) (JCM, 2024)
+  - Cross-sectional study finding 77.3% of women with Endometriosis showed TMD symptoms; proposes endo and TMD as phenotypes of the same chronic overlapping pain condition
+- [Association between Periodontitis and Endometriosis: Bidirectional Mendelian Randomization](https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1271351/full) (Frontiers in Endocrinology, 2024)
+  - Mendelian randomization finding periodontitis positively associated with pelvic peritoneal Endometriosis (OR = 1.079) via shared inflammatory pathways
+- [Prevalence of Sleep Disturbances in Endometriosis: Systematic Review and Meta-Analysis](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1405320/full) (Frontiers in Psychiatry, 2024)
+  - Meta-analysis of 16 studies (2,573 participants) finding 70.8% prevalence of sleep disturbances in Endometriosis patients
+- [Sleep Disorders and Hyperarousal Among Patients with Endometriosis](https://www.ejog.org/article/S0301-2115(24)00386-5/fulltext) (EJOG, 2024)
+  - Case-control study identifying hyperarousal as a partial mediator in the association between Endometriosis and sleep disorders
+- [Long COVID and Endometriosis: Systematic Review and Meta-Analysis](https://link.springer.com/article/10.1186/s12905-025-03761-9) (BMC Women's Health, 2025)
+  - Meta-analysis of 216,000+ participants finding Endometriosis linked to higher odds of long COVID via shared immune dysregulation
+- [Long-COVID Syndrome in Patients with Endometriosis or Adenomyosis](https://doi.org/10.3390/jcm14061835) (JCM, 2024)
+  - Cohort study evaluating long COVID syndrome specifically in patients with Endometriosis and adenomyosis
+- [Endometriosis and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC12468137/) (PMC, 2025)
+  - Meta-analysis of 13 studies finding 2.79-fold higher odds of ME/CFS in women with Endometriosis; identifies shared immune dysregulation and mitochondrial dysfunction
+- [Global Landscape of Clinical Trials for Endometriosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC12527674/) (PMC, 2025)
+  - Analysis of 744 interventional pharmaceutical clinical trials identifying therapeutic trends, regional disparities, and unmet needs in non-hormonal drug development
+- [Endometriosis Support and Digital Technology-Based Interventions: Systematic Review](https://humanfactors.jmir.org/2025/1/e71859) (JMIR Human Factors, 2025)
+  - Systematic review examining how digital health interventions for Endometriosis have been developed, designed, and evaluated
 
 ### Adenomyosis
 
@@ -576,6 +617,11 @@ U.S.A.
 - [Fortuna Health - U.S.A.](https://www.fortunahealth.com/)
   - Medicaid eligibility checker, enrollment, and care renewal
 
+General
+
+- [PAN Foundation (Patient Access Network Foundation)](https://www.panfoundation.org/)
+  - National nonprofit covering 80+ diseases/conditions, providing $500-$23,000/year in copay assistance for qualifying patients; covers medication copays, insurance premiums, and transportation costs
+
 </details>
 
 ## Advocacy Groups and Vetted Providers
@@ -753,6 +799,8 @@ U.S.A.
   - A book by Dr. Tamer Seckin specifically written for adolescent girls navigating Endometriosis
 - [EndoTV](https://endotv.com/)
   - EndoFound's dedicated video education platform featuring "Ask the Doctors" series, expert surgical technique explanations, patient stories, and webinars
+- [Endometriosis UK - Managing Endometriosis When Travelling](https://www.endometriosis-uk.org/managing-endometriosis-when-travelling)
+  - Practical guide covering packing medications in carry-on, travel packs (heat patches, TENS), dietary considerations abroad, building rest into itineraries, and managing flare-ups while traveling
 
 ### Podcasts
 
@@ -780,6 +828,14 @@ U.S.A.
     - Endo support community
 - [MyEndometriosisTeam](https://www.myendometriosisteam.com/)
   - Social network with 120,000+ members, recognized as the Endometriosis Foundation of America's official online community. Features Q&A, peer support groups, and a resource center
+- [HysterSisters](https://www.hystersisters.com/)
+  - Online peer community with 300,000+ registered members covering hysterectomy options, pre-op/post-op support, hormone issues, and special needs. Free message boards, blogs/journals, and scheduled chat events
+- [The Endometriosis Coalition - Virtual Support Groups](https://www.theendo.co/endo-support-group)
+  - Monthly virtual support groups via Zoom led by a psychotherapist; also serves as consumer advocate for DOD Peer Reviewed Medical Research Program
+- [EndoCircle (The Endo Foundation UK)](https://www.theendometriosisfoundation.org/endocircle)
+  - Fortnightly virtual support sessions with topic-led discussions, guest speakers, and grounding activities; free to join
+- [Shifting Tides Therapy - Endometriosis Support Group](https://www.shiftingtidestherapyny.com/endometriosis-support-group)
+  - Therapist-facilitated virtual support group (6-week cycles via Zoom) for people with Endometriosis, adenomyosis, fibroids, IC, and chronic pelvic pain; no formal diagnosis required
 
 ## Medical Research
 
@@ -864,6 +920,10 @@ Active Clinical Studies:
   - Phase 2 dichloroacetate trial with pharmacogenomic dosing based on GSTZ1 gene variant
 - [HMI-115 (Hope Medicine) - Phase III](https://www.prnewswire.com/news-releases/hope-medicine-announces-first-patient-dosed-in-the-phase-iii-clinical-trial-for-endometriosis-302723135.html)
   - First-in-class anti-prolactin receptor monoclonal antibody for Endometriosis pain. First non-hormonal biologic to enter Phase III globally. FDA Fast Track designation (Dec 2025). Phase II showed 42% reduction in dysmenorrhea with no hormonal side effects
+- [Metformin for Endometriosis - Phase 2 Clinical Trial](https://clinicaltrials.gov/study/NCT06834997)
+  - Pilot trial at Baylor College of Medicine testing metformin hydrochloride as novel non-hormonal treatment for Endometriosis-associated chronic pelvic pain in young women
+- [Guideline Central - Endometriosis Clinical Trials Anticipated to Complete Soon](https://www.guidelinecentral.com/insights/mar-2026-endometriosis-trial-preview/) (2026)
+  - Preview of seven US-based Phase 2/3 clinical trials nearing completion, including DARP dronabinol trial (synthetic THC for endo pain) and metformin as non-hormonal treatment
 
 Research Participation:
 
@@ -926,6 +986,13 @@ Research Participation:
 - [Boston Children's - Boston Center for Endometriosis](https://www.childrenshospital.org/research/divisions/gynecology-research/boston-center-endometriosis)
   - Largest US pediatric Endometriosis program; annual conference for young women 14-22
 
+### Academic Accommodations
+
+- [Endometriosis Network Canada - Accessing Accommodations in University](https://endometriosisnetwork.com/endo-hub/accessing-accommodations-in-university/)
+  - Step-by-step guide for students on applying for academic accommodations, including a directory of accessibility services offices across Canadian institutions
+- [EndoFound - Managing Endometriosis in College Guide](https://www.endofound.org/managing-endometriosis-in-college-heres-a-much-needed-guide)
+  - Practical US-focused guide covering academic accommodations, residential life adjustments, ADA rights, disability services, and strategies for managing Endometriosis symptoms in college
+
 ## Pain Management Beyond Medication
 
 - [Samphire Neuroscience - Nettle](https://www.samphireneuro.com/)
@@ -940,6 +1007,13 @@ Research Participation:
   - Maps the landscape of digital health technologies for Endometriosis pain management as emerging nonpharmacological alternatives
 - [Lyv Endo](https://play.google.com/store/apps/details?id=healthcare.lyv.app)
   - CE-marked digital therapeutic medical device from France with 250+ resources across 5 pillars (disease knowledge, nutrition, physical activity, well-being, emotional/sexual life); in clinical trial (NCT07175857)
+
+### Bladder and Interstitial Cystitis Resources
+
+- [Interstitial Cystitis Association (ICA)](https://www.ichelp.org/)
+  - The only US nonprofit dedicated exclusively to IC/BPS; offers treatment info, support communities, podcast, newsletter, and advocacy resources. Critical for Endometriosis patients given the high IC comorbidity rate
+- [IC Network - Support Center](https://www.icnetwork.org/ic-support-center/)
+  - The world's largest IC support community with 24/7 forums, live monthly support group meetings, provider directories, and specialized resource centers (emotional health, intimacy, pregnancy)
 
 ## Endometriosis and Menopause
 
@@ -990,6 +1064,10 @@ Research Participation:
   - Dedicated career support network for Endometriosis patients navigating employment challenges, workplace accommodations, and career planning with chronic illness
 - [Job Accommodation Network (JAN)](https://askjan.org/)
   - Free, confidential guidance service from the US Department of Labor on workplace accommodations for chronic conditions including Endometriosis. Helps employees and employers navigate ADA accommodations
+- [Occupational Characteristics and Risk Factors Associated with Endometriosis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292362) (PLOS ONE, 2023)
+  - Population-based study of 151,386 female workers finding significantly elevated Endometriosis risk in certain occupational groups (finance/insurance, public administration, manufacturing)
+- [Management of Endometriosis in the Workplaces: KAP Study](https://www.mdpi.com/2227-9032/14/15/2299) (Healthcare, 2026)
+  - Cross-sectional survey of 155 occupational physicians assessing knowledge, attitudes, and practices regarding workplace Endometriosis management
 
 ## Conferences and Summits
 
@@ -1155,6 +1233,8 @@ Research Participation:
   - Meta-analysis of 6 RCTs showing significant pain reduction (P<0.0001) and quality of life improvement from structured exercise
 - [ENDOGYM Trial - Pelvic Floor PT + Yoga](https://www.sciencedirect.com/science/article/abs/pii/S030121152600312X) (2025)
   - Italian RCT showing 12-week combined pelvic floor physiotherapy and yoga significantly reduces treatment-resistant Endometriosis pain
+- [Endometriosis, Physical Activity and Sport](https://pubmed.ncbi.nlm.nih.gov/39011693/) (2024)
+  - Review on physical activity's role in Endometriosis treatment, recommending adapted exercise as integral to management while providing specific guidance for athletes with the condition
 
 ## Patient Registries and Research Participation
 
