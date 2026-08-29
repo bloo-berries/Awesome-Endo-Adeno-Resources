@@ -30,6 +30,12 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Regenerate README from data
+        run: |
+          if [ -f data/resources.json ]; then
+            python3 generate_readme.py
+          fi
+
       - name: Build site
         run: python build.py
 

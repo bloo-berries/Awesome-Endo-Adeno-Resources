@@ -1,0 +1,99 @@
+name: Submit a New Resource
+description: Suggest a resource to add to the Endo Adeno Resources list
+title: "[Resource] "
+labels: ["new-resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a resource! Please fill out the fields below so we can review and add it.
+
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      description: The full URL of the resource
+      placeholder: https://example.com/resource
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The name or title of the resource
+      placeholder: Organization Name or Resource Title
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what the resource offers (1-2 sentences)
+      placeholder: Describe the resource and why it's helpful for endo/adeno patients
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      description: Which section should this resource be added to?
+      options:
+        - Diagnosis
+        - Vetted Physician and Healthcare Providers
+        - Diagnostic Tools and Platforms
+        - Medical Data Tools, Trackers, and Managers
+        - AI-Enabled Platforms and Ongoing Studies for Research
+        - Therapeutic Treatments
+        - Mental Health and Emotional Wellbeing
+        - Nutrition and Gut Health
+        - Potential Co-morbidities
+        - Medical Research
+        - Clinical Guidelines
+        - Emerging Biotech
+        - Fertility Resources
+        - Pregnancy and Obstetric Complications
+        - Adolescent and Teen Resources
+        - Endometriosis and Menopause
+        - Sexual Health and Intimacy
+        - Pain Management Beyond Medication
+        - Exercise and Movement
+        - Digital Health Tools
+        - Financial and Insurance Support
+        - Workplace and Disability Advocacy
+        - Advocacy Groups and Vetted Providers
+        - Self-Advocacy and Medical Communication
+        - Transgender and Non-Binary Endo Care
+        - Endometriosis and Race/Ethnicity Disparities
+        - Regional Based Groups and Platforms
+        - Community Sourced Data and Support
+        - Educational Materials
+        - Partner and Caregiver Resources
+        - Conferences and Summits
+        - Government Policy and Legislation
+        - Non-English Language Resources
+        - Patient Registries and Research Participation
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags (optional)
+      description: Comma-separated tags for categorization
+      placeholder: research, clinical-trial, patient-support
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: I have verified the URL is accessible
+          required: true
+        - label: This resource is related to endometriosis and/or adenomyosis
+          required: true
+        - label: This resource is not already listed in the README
+          required: true

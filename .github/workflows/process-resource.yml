@@ -1,0 +1,212 @@
+name: Process Resource Submission
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'new-resource')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Parse issue and add resource
+        id: add
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python3 - <<'PYEOF'
+          import json
+          import os
+          import re
+          import ssl
+          import sys
+          import urllib.request
+          from datetime import date
+
+          body = os.environ["ISSUE_BODY"]
+          issue_num = os.environ["ISSUE_NUMBER"]
+
+          # Parse issue form fields (### Label\n\nValue format)
+          def parse_field(name):
+              pattern = rf"### {re.escape(name)}\s*\n\n(.+?)(?=\n### |\Z)"
+              m = re.search(pattern, body, re.DOTALL)
+              return m.group(1).strip() if m else ""
+
+          url = parse_field("Resource URL")
+          title = parse_field("Title")
+          description = parse_field("Description")
+          section_title = parse_field("Section")
+          tags_raw = parse_field("Tags (optional)")
+
+          if not url or not title or not description or not section_title:
+              print("::error::Missing required fields")
+              sys.exit(1)
+
+          # Validate URL is reachable
+          headers = {"User-Agent": "Mozilla/5.0 (compatible; ResourceBot/1.0)"}
+          ctx = ssl.create_default_context()
+          try:
+              req = urllib.request.Request(url, headers=headers, method="HEAD")
+              with urllib.request.urlopen(req, timeout=15, context=ctx) as resp:
+                  if resp.status >= 400:
+                      req2 = urllib.request.Request(url, headers=headers, method="GET")
+                      with urllib.request.urlopen(req2, timeout=15, context=ctx) as resp2:
+                          pass
+          except urllib.error.HTTPError as e:
+              if e.code in (405, 403):
+                  try:
+                      req2 = urllib.request.Request(url, headers=headers, method="GET")
+                      with urllib.request.urlopen(req2, timeout=15, context=ctx) as resp2:
+                          pass
+                  except Exception as e2:
+                      print(f"::error::URL not reachable: {e2}")
+                      sys.exit(1)
+              else:
+                  print(f"::error::URL returned HTTP {e.code}")
+                  sys.exit(1)
+          except Exception as e:
+              print(f"::error::URL not reachable: {e}")
+              sys.exit(1)
+
+          # Load resources.json
+          with open("data/resources.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          # Check for duplicate URL
+          def check_dupes(sections):
+              for section in sections:
+                  if section.get("type") == "raw":
+                      continue
+                  for entry in section.get("entries", []):
+                      if entry.get("url") == url:
+                          return section["title"]
+                  for entry in section.get("top_entries", []):
+                      if entry.get("url") == url:
+                          return section["title"]
+                  for group in section.get("groups", []):
+                      for entry in group.get("entries", []):
+                          if entry.get("url") == url:
+                              return section["title"]
+                  for sub in section.get("subsections", []):
+                      for entry in sub.get("entries", []):
+                          if entry.get("url") == url:
+                              return section["title"]
+                      for group in sub.get("groups", []):
+                          for entry in group.get("entries", []):
+                              if entry.get("url") == url:
+                                  return section["title"]
+              return None
+
+          dupe_section = check_dupes(data["sections"])
+          if dupe_section:
+              print(f"::error::URL already exists in section '{dupe_section}'")
+              sys.exit(1)
+
+          # Find target section
+          target = None
+          for section in data["sections"]:
+              if section["title"] == section_title:
+                  target = section
+                  break
+
+          if not target:
+              print(f"::error::Section '{section_title}' not found")
+              sys.exit(1)
+
+          if target.get("type") == "raw":
+              print(f"::error::Cannot auto-add to raw section '{section_title}'")
+              sys.exit(1)
+
+          # Parse tags
+          tags = [t.strip() for t in tags_raw.split(",") if t.strip()] if tags_raw else []
+
+          # Create entry
+          entry = {
+              "title": title,
+              "url": url,
+              "description": description,
+              "added": str(date.today()),
+              "last_verified": str(date.today()),
+              "status": "ok",
+              "tags": tags,
+              "og_title": None,
+              "og_description": None,
+          }
+
+          # Add to section
+          if target["type"] == "entries":
+              target.setdefault("entries", []).append(entry)
+          elif target["type"] == "grouped":
+              target.setdefault("top_entries", []).append(entry)
+
+          # Write back
+          with open("data/resources.json", "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+
+          print(f"Added '{title}' to '{section_title}'")
+          PYEOF
+
+      - name: Regenerate README
+        run: python3 generate_readme.py
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        id: pr
+        with:
+          branch: resource/${{ github.event.issue.number }}
+          title: "Add resource: ${{ github.event.issue.title }}"
+          body: |
+            Adds a new resource from issue #${{ github.event.issue.number }}.
+
+            ## Details
+            - **Submitted by:** @${{ github.event.issue.user.login }}
+            - **Section:** See issue for details
+
+            Closes #${{ github.event.issue.number }}
+          commit-message: "Add resource from issue #${{ github.event.issue.number }}"
+          delete-branch: true
+
+      - name: Comment on issue with PR link
+        if: steps.pr.outputs.pull-request-number
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `A pull request has been created to add this resource: #${{ steps.pr.outputs.pull-request-number }}\n\nIt will be reviewed and merged by a maintainer.`
+            });
+
+      - name: Handle failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['needs-attention']
+            });
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'Automated processing failed. A maintainer will review this submission manually.'
+            });
