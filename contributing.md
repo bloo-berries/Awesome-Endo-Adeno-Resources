@@ -9,8 +9,8 @@ Thank you for your interest in contributing to this comprehensive resource for E
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Awesome-Endo-Adeno-Resources.git
-   cd Awesome-Endo-Adeno-Resources
+   git clone https://github.com/YOUR_USERNAME/Endometriosis-Adenomyosis-Resources.git
+   cd Endometriosis-Adenomyosis-Resources
    ```
 
 3. **Create a feature branch**:

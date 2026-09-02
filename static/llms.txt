@@ -55,5 +55,5 @@ Endometriosis affects approximately 190 million people worldwide. Average diagno
 - Languages: 26 (English default, includes Arabic with RTL support, Italian fully translated)
 - Privacy: Zero third-party requests, no tracking, no analytics, self-hosted fonts (Figtree, OFL 1.1)
 - Accessibility: WCAG AA compliant, keyboard navigable, screen reader optimized, prefers-reduced-motion respected
-- Open source: https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources
+- Open source: https://github.com/bloo-berries/Endometriosis-Adenomyosis-Resources
 - Contact: bloomedhealth@pm.me

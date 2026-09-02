@@ -85,6 +85,8 @@ def main():
     url_status = {}
     for entry in report.get("broken_links", []):
         url_status[entry["url"]] = "broken"
+    for entry in report.get("bot_blocked_links", []):
+        url_status[entry["url"]] = "bot_blocked"
     for entry in report.get("redirected_links", []):
         url_status[entry["url"]] = "redirect"
 
@@ -96,6 +98,7 @@ def main():
     today = str(date.today())
     updated = 0
     broken = 0
+    bot_blocked = 0
 
     for entry in iter_all_entries(data):
         url = entry.get("url", "")
@@ -114,9 +117,12 @@ def main():
             updated += 1
             if new_status == "broken":
                 broken += 1
+            elif new_status == "bot_blocked":
+                bot_blocked += 1
 
     if args.dry_run:
-        print(f"\nWould update {updated} entries ({broken} broken)")
+        print(f"\nWould update {updated} entries "
+              f"({broken} broken, {bot_blocked} bot-blocked)")
         return
 
     # Write back
@@ -124,10 +130,12 @@ def main():
         json.dump(data, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
-    print(f"Updated {updated} entries ({broken} broken)")
+    print(f"Updated {updated} entries "
+          f"({broken} broken, {bot_blocked} bot-blocked)")
     print(f"Report: {report.get('total', '?')} total, "
           f"{report.get('ok', '?')} ok, "
           f"{report.get('broken', '?')} broken, "
+          f"{report.get('bot_blocked', '?')} bot-blocked, "
           f"{report.get('redirects', '?')} redirects")
 
 

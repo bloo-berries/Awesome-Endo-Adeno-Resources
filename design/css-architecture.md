@@ -315,7 +315,7 @@ Each step ships green. The site is deployable after every commit. Phase 2 is rou
 </body>
 ```
 
-**`{{BASE_URL}}` templating** - every internal link uses `{{BASE_URL}}` (already replaced by `build.py`). Never use bare `/` for internal links; the site deploys to both a root (Cloudflare Pages) and a subpath (GitHub Pages: `/Awesome-Endo-Adeno-Resources/`). Bare-slash links break under the subpath deployment.
+**`{{BASE_URL}}` templating** - every internal link uses `{{BASE_URL}}` (already replaced by `build.py`). Never use bare `/` for internal links; the site deploys to both a root (Cloudflare Pages) and a subpath (GitHub Pages: `/Endometriosis-Adenomyosis-Resources/`). Bare-slash links break under the subpath deployment.
 
 ### 6.2 Shell layout
 

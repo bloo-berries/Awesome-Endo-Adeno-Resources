@@ -1,6 +1,6 @@
 # Endo Adeno Resources Overview
 
-> **Naming note:** This repository (`Awesome-Endo-Adeno-Resources`) is the source for the [1 in 7](https://1in7.info) website, published by Bloomed Health. Contributors should edit the content files in `content/` rather than the generated output in `dist/`.
+> This repository (`Endometriosis-Adenomyosis-Resources`) is the source for the [1 in 7](https://1in7.info) website, published by Bloomed Health. Contributors should edit the content files in `content/` rather than the generated output in `dist/`.
 
 *Welcome to your go-to resource for navigating the challenges of Endometriosis and Adenomyosis*. Diagnosis, symptom management, and treatment can be overwhelming, but it shouldn't be.
 
@@ -212,6 +212,8 @@ This resource list is packed with expert advice, community support, and the late
   - NIH RADx-funded wearable and AI platform for objective Endometriosis pain measurement; selected as NIH Point-of-Care Technologies Research Network award recipient
 - [Aspira ENDOinform](https://aspirawh.com/endoinform/)
   - Blood-based protein biomarker test combining CA-125 and HE4 to aid Endometriosis evaluation; available through clinical laboratories
+- [Surgical Science - Endometriosis Ultrasound Simulator](https://endometriosis.surgicalscience.com/) (2026)
+  - Virtual ultrasound training simulator for clinicians to practice Endometriosis detection, including the sliding sign for deep Endometriosis. 11 interactive cases aligned with IDEA consensus; 92% of participants reported improved diagnostic understanding
 
 ## Medical Data Tools, Trackers, and Managers
 
@@ -789,8 +791,8 @@ Active Clinical Studies:
   - Comprehensive guide for GPs/PCPs on Endometriosis diagnosis and management, covering clinical presentation, first-line imaging, hormonal therapies, and when to refer to specialists
 - [SOGC Guideline No. 437: Adenomyosis](https://www.jogc.com/article/S1701-2163(23)00632-5/fulltext) (Canada, 2023)
   - First standalone Canadian clinical practice guideline specifically for adenomyosis diagnosis and management, covering imaging criteria, medical therapy, and surgical options
-- [DGGG/OEGGG/SGGG S2k Guideline: Diagnosis and Treatment of Endometriosis](https://register.awmf.org/de/leitlinien/detail/015-045) (Germany/Austria/Switzerland, 2020, update in progress)
-  - German-language S2k clinical guideline from the German, Austrian, and Swiss gynecology societies covering diagnosis and multimodal treatment
+- [DGGG/OEGGG/SGGG S2k Guideline: Diagnosis and Treatment of Endometriosis](https://register.awmf.org/de/leitlinien/detail/015-045) (Germany/Austria/Switzerland, 2025)
+  - Revised S2k guideline with 25 statements and 73 recommendations based on systematic review and consensus of 37 professional associations. Emphasizes individualized, symptom-oriented diagnosis and multimodal treatment
 
 ## Emerging Biotech
 
@@ -1073,6 +1075,8 @@ Military and Veterans
   - Global platform providing evidence-based Endometriosis information, news, and resources in multiple languages
 - [World Endometriosis Organizations (WEO)](https://endometriosis.ca/weo/)
   - Umbrella organization connecting national Endometriosis societies worldwide; coordinates World Endometriosis March and global awareness initiatives
+- [The Endometriosis Collective](https://endocollective.org/) (2026)
+  - Nonprofit dedicated to transforming how Endometriosis is researched, treated, and understood. Funds multidisciplinary research and produced the "End of the Cycle" documentary
 
 ## Self-Advocacy and Medical Communication
 
@@ -1322,6 +1326,8 @@ Military and Veterans
 - [This Is Endometriosis](https://www.thisisendo.com)
   - BAFTA-winning (2026) documentary short film. A volunteer-led movement created for validation, representation, and education of Endometriosis.
   - Watch for free on Minute Shorts
+- [End of the Cycle](https://endocollective.org/) (2026)
+  - Feature-length documentary from The Endometriosis Collective, featuring Amy Schumer, Julianne Hough, and Janel Parrish. Includes newly uncovered information about Marilyn Monroe's Endometriosis. Free to stream
 - [EndoFound Educational Videos](https://www.endofound.org/video)
   - A collection of educational videos provided by the Endometriosis Foundation of America
 - [Endographics](https://www.endographics.org/english)
@@ -1340,6 +1346,8 @@ Military and Veterans
   - A book by Dr. Karen Tang, a minimally-invasive gynecologic surgeon, with comprehensive Endometriosis and adenomyosis coverage. Includes symptom prompts and sample questions for doctor visits
 - [All in Her Head](https://www.amazon.com/All-Her-Head-Medicine-Matters/dp/0063293013) (2024)
   - A book by Dr. Elizabeth Comen examining how medical history has shaped women's health, with Endometriosis as a recurring case study. PEN Award finalist and USA Today bestseller
+- [Endometriosis: From Harm to Hope](https://www.amazon.com/Endometriosis-Harm-Hope-Chronic-Illness-ebook/dp/B0FBLV2DKD) (2026)
+  - A book by LCSW Casey Berna focusing on harm reduction, medical advocacy, and the mental toll of chronic illness - written by a mental health provider and long-standing patient advocate
 - [The Unexpected Consequence of Bleeding on a Tuesday](https://www.penguinrandomhouse.com/books/745987/the-unexpected-consequence-of-bleeding-on-a-tuesday-by-kelsey-b-toney/) (2025)
   - A novel by Kelsey B. Toney following a young woman navigating Endometriosis diagnosis while pursuing a medical career
 - [Endometriosis Weekly by Mayflower](https://endometriosis.substack.com/)
@@ -1399,6 +1407,8 @@ Military and Veterans
   - Endometriosis Foundation of America's annual medical conference bringing together researchers, clinicians, and patient advocates focused on immunological approaches
 - [World Congress on Endometriosis (WCE 2027)](https://endometriosis.ca/wce2027/) (Istanbul, Jun 2-5, 2027)
   - Triennial global congress hosted by the World Endometriosis Society, bringing together researchers, clinicians, and advocates from 60+ countries
+- [SEUD Latin America Congress](https://www.seud-latinoamerica.com/) (San Juan, Puerto Rico, Dec 11-12, 2026)
+  - 2nd Congress of SEUD Latin America. Entirely Spanish-speaking, covering Endometriosis and uterine disorders with a Latin American focus
 
 ## Government Policy and Legislation
 
@@ -1412,6 +1422,12 @@ Military and Veterans
   - First European country to introduce statutory paid menstrual leave for people with disabling conditions including Endometriosis and adenomyosis
 - [Portugal Endometriosis/Adenomyosis Paid Leave](https://dre.pt/dre/detalhe/lei/2025-04) (April 2025)
   - Portuguese legislation granting paid leave specifically for people diagnosed with Endometriosis or adenomyosis
+- [Canada Bill S-243 - National Framework for Women's Health](https://www.parl.ca/legisinfo/en/bill/45-1/s-243) (2025)
+  - Federal Senate bill establishing a national framework for women's health, citing Endometriosis as emblematic of underfunding ($4/patient vs $31 for diabetes). Supported by CMA, SOGC, and PWHR
+- [Washington State SB 5985 - Endometriosis Education](https://app.leg.wa.gov/billsummary?Year=2025&BillNumber=5985) (2026)
+  - Passed Washington State Senate 47-0. Directs University of Washington to establish an online Endometriosis resource center and instructs schools to differentiate between typical menstrual discomfort and severe symptoms
+- [EndoFound Advocacy Toolkit for Legislative Change](https://www.endofound.org/announcing-the-endometriosis-advocacy-toolkit-for-legislative-change)
+  - Free toolkit breaking down the legislative advocacy process into actionable steps for patients, caregivers, and advocates to engage lawmakers on Endometriosis policy
 
 ## Non-English Language Resources
 

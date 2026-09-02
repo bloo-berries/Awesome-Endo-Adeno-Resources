@@ -241,7 +241,7 @@ Persistent thin bar at the top of the content area, visible on all viewports.
 ```
 
 - **Hamburger (mobile only)** - opens off-canvas sidebar. Hidden on desktop (sidebar persistent).
-- **Brand** - text "1 in 7", links to `{{BASE_URL}}` (templating note: never `/` alone; all internal links use `{{BASE_URL}}` to honor the GitHub Pages `/Awesome-Endo-Adeno-Resources/` subpath and the Cloudflare Pages `/` root identically).
+- **Brand** - text "1 in 7", links to `{{BASE_URL}}` (templating note: never `/` alone; all internal links use `{{BASE_URL}}` to honor the GitHub Pages `/Endometriosis-Adenomyosis-Resources/` subpath and the Cloudflare Pages `/` root identically).
 - **Search** - input expands inline. Mobile: input collapses to icon, expands to full top-bar width on focus (animated via `transition: width 200ms`).
 - **Language picker** - collapsed to language code (`EN`, `ES`, etc.) with a dropdown chevron. Click opens a popup list of 26 languages. Replaces the sidebar `<select>`. Width budget: the popup is positioned with `right: 0` and the trigger is icon+code only, so the picker never has to fit 26 long-name labels in-line.
 - **Theme** - sun/moon toggle, joins the top bar (was: floating top-right `position: fixed`).

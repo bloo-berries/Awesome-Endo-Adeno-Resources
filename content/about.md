@@ -26,5 +26,5 @@ This comprehensive resource list is packed with expert advice, community support
 
 ## Contributing
 
-This is a community-driven, open-source project. If you have suggestions, corrections, or additional resources to share, please contribute on [GitHub](https://github.com/bloo-berries/Awesome-Endo-Adeno-Resources).
+This is a community-driven, open-source project. If you have suggestions, corrections, or additional resources to share, please contribute on [GitHub](https://github.com/bloo-berries/Endometriosis-Adenomyosis-Resources).
 

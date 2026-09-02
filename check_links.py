@@ -10,7 +10,8 @@ Usage:
     python3 check_links.py --json           # Output JSON report
     python3 check_links.py --skip-ok        # Only show problems
 
-Stdlib only - no pip dependencies. Exit code = number of broken links (0 = all OK).
+Stdlib only - no pip dependencies. Exit code = number of genuinely broken links
+(0 = all OK). Known bot-blocking domains (403s from WAFs) are reported separately.
 """
 
 import argparse
@@ -32,12 +33,56 @@ SKIP_DOMAINS = frozenset([
     "127.0.0.1",
 ])
 
+# Domains/suffixes known to block automated HTTP checkers via Cloudflare,
+# Akamai, WAFs, or TLS fingerprinting. A 403 from these is expected and
+# does not indicate a genuinely broken link.
+BOT_BLOCK_DOMAINS = frozenset([
+    # Academic publishers
+    "sciencedirect.com",
+    "pubmed.ncbi.nlm.nih.gov",
+    "tandfonline.com",
+    "academic.oup.com",
+    "mdpi.com",
+    "jamanetwork.com",
+    "cell.com",
+    "thelancet.com",
+    "wiley.com",
+    "sagepub.com",
+    "lww.com",
+    "fertstert.org",
+    "biorxiv.org",
+    "researchgate.net",
+    "journals.biologists.com",
+    "science.org",
+    "jogc.com",
+    "ejog.org",
+    "whijournal.com",
+    "springer.com",
+    "nature.com",
+    # Social media
+    "reddit.com",
+    "facebook.com",
+    "substack.com",
+    # Government / institutional
+    "clinicaltrials.gov",
+    "congress.gov",
+    "nice.org.uk",
+])
+
 # User-Agent to avoid bot blocks
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/120.0.0.0 Safari/537.36"
 )
+
+# Additional browser-like headers to help with simpler bot detection
+BROWSER_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+}
 
 # Regex for markdown links: [text](url) and bare URLs
 MD_LINK_RE = re.compile(
@@ -74,6 +119,16 @@ def should_skip(url):
     return parsed.hostname in SKIP_DOMAINS
 
 
+def is_bot_blocked_domain(url):
+    """Check if the URL's domain matches a known bot-blocking domain."""
+    parsed = urllib.parse.urlparse(url)
+    hostname = (parsed.hostname or "").lower()
+    for domain in BOT_BLOCK_DOMAINS:
+        if hostname == domain or hostname.endswith("." + domain):
+            return True
+    return False
+
+
 def check_url(url, timeout=10, retries=1):
     """Check a single URL. Returns (url, status, error_or_None, final_url).
 
@@ -83,8 +138,9 @@ def check_url(url, timeout=10, retries=1):
     if should_skip(url):
         return url, 0, "skipped", url
 
-    headers = {"User-Agent": USER_AGENT}
+    headers = dict(BROWSER_HEADERS)
     ctx = ssl.create_default_context()
+    bot_blocked = is_bot_blocked_domain(url)
 
     for attempt in range(1 + retries):
         try:
@@ -108,6 +164,8 @@ def check_url(url, timeout=10, retries=1):
                     with urllib.request.urlopen(req2, timeout=timeout, context=ctx) as resp2:
                         return url, resp2.status, None, resp2.url
                 except urllib.error.HTTPError as e2:
+                    if e2.code == 403 and bot_blocked:
+                        return url, 403, "bot_blocked", url
                     if attempt < retries:
                         time.sleep(1)
                         continue
@@ -117,6 +175,8 @@ def check_url(url, timeout=10, retries=1):
                         time.sleep(1)
                         continue
                     return url, None, str(e2), url
+            if e.code == 403 and bot_blocked:
+                return url, 403, "bot_blocked", url
             if attempt < retries:
                 time.sleep(1)
                 continue
@@ -174,7 +234,8 @@ def main():
         print(f"Checking {total} unique links in {args.file}...")
         print()
 
-    results = {"ok": [], "broken": [], "skipped": [], "redirect": []}
+    results = {"ok": [], "broken": [], "bot_blocked": [], "skipped": [],
+                "redirect": []}
     url_to_line = {url: (lineno, text) for url, lineno, text in links}
 
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -199,6 +260,11 @@ def main():
 
             if error == "skipped":
                 results["skipped"].append(entry)
+            elif error == "bot_blocked":
+                results["bot_blocked"].append(entry)
+                if not args.json_output and not args.skip_ok:
+                    label = f"[{text}]" if text else ""
+                    print(f"  BOT403  L{lineno}: {url} {label}")
             elif error:
                 results["broken"].append(entry)
                 if not args.json_output:
@@ -215,8 +281,9 @@ def main():
                 if not args.json_output and not args.skip_ok:
                     print(f"  OK      L{lineno}: {url}")
 
-    # Sort broken by line number
+    # Sort by line number
     results["broken"].sort(key=lambda e: e["line"])
+    results["bot_blocked"].sort(key=lambda e: e["line"])
     results["redirect"].sort(key=lambda e: e["line"])
 
     if args.json_output:
@@ -225,20 +292,23 @@ def main():
             "total": total,
             "ok": len(results["ok"]),
             "broken": len(results["broken"]),
+            "bot_blocked": len(results["bot_blocked"]),
             "redirects": len(results["redirect"]),
             "skipped": len(results["skipped"]),
             "broken_links": results["broken"],
+            "bot_blocked_links": results["bot_blocked"],
             "redirected_links": results["redirect"],
         }
         print(json.dumps(report, indent=2))
     else:
         print()
         print(f"{'=' * 50}")
-        print(f"  Total:      {total}")
-        print(f"  OK:         {len(results['ok'])}")
-        print(f"  Broken:     {len(results['broken'])}")
-        print(f"  Redirects:  {len(results['redirect'])}")
-        print(f"  Skipped:    {len(results['skipped'])}")
+        print(f"  Total:       {total}")
+        print(f"  OK:          {len(results['ok'])}")
+        print(f"  Broken:      {len(results['broken'])}")
+        print(f"  Bot-blocked: {len(results['bot_blocked'])}")
+        print(f"  Redirects:   {len(results['redirect'])}")
+        print(f"  Skipped:     {len(results['skipped'])}")
         print(f"{'=' * 50}")
 
         if results["broken"]:
@@ -249,6 +319,14 @@ def main():
                 print(f"  L{e['line']}: {e['url']}{label}")
                 print(f"         {e['error']}")
 
+        if results["bot_blocked"]:
+            print()
+            print(f"Bot-blocked links ({len(results['bot_blocked'])} - not counted as broken):")
+            for e in results["bot_blocked"]:
+                label = f" [{e['text']}]" if e["text"] else ""
+                print(f"  L{e['line']}: {e['url']}{label}")
+
+    # Only genuinely broken links count toward exit code
     sys.exit(len(results["broken"]))
 
 
