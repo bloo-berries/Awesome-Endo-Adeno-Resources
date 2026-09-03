@@ -1,0 +1,28 @@
+{
+  "_note": "Tracks machine-translated content. Entries with source=deepl need human review.",
+  "pages": {
+    "it": {
+      "_index": { "source": "human", "reviewed": true },
+      "about": { "source": "human", "reviewed": true },
+      "adenomyosis": { "source": "human", "reviewed": true },
+      "comorbidities": { "source": "human", "reviewed": true },
+      "diagnosis": { "source": "human", "reviewed": true },
+      "education": { "source": "human", "reviewed": true },
+      "endometriosis": { "source": "human", "reviewed": true },
+      "faq": { "source": "human", "reviewed": true },
+      "fertility": { "source": "human", "reviewed": true },
+      "healthcare": { "source": "human", "reviewed": true },
+      "in-memory": { "source": "human", "reviewed": true },
+      "medications": { "source": "human", "reviewed": true },
+      "mental-health": { "source": "human", "reviewed": true },
+      "notable-people": { "source": "human", "reviewed": true },
+      "privacy": { "source": "human", "reviewed": true },
+      "quiz": { "source": "human", "reviewed": true },
+      "research": { "source": "human", "reviewed": true },
+      "surgery-costs": { "source": "human", "reviewed": true },
+      "take-action": { "source": "human", "reviewed": true },
+      "tracker": { "source": "human", "reviewed": true },
+      "treatments": { "source": "human", "reviewed": true }
+    }
+  }
+}
